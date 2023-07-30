@@ -1,0 +1,19 @@
+
+["Miscellaneous Features"]
+	#Disable/enable fern blocks dropping seeds.
+	"Enable fern blocks dropping seeds" = false
+	#Disable/enable tall grass blocks dropping seeds.
+	"Enable tall grass blocks dropping seeds" = false
+	#Disable/enable grass blocks dropping seeds.
+	"Enable grass blocks dropping seeds" = false
+
+["Tweak Garden Cluster Sizes"]
+	#Amount of gardens that spawn together. (Default: 6)
+	#Range: > 1
+	garden_cluster_amount = 6
+
+["Tweak Garden World Generation Rates"]
+	#Chance of gardens generating in the world. (Default:32)
+	#Range: > 1
+	garden_chance = 32
+

@@ -1,0 +1,12 @@
+#If true, fake players will allow mobs to drop trophies.
+#This can allow mob grinders from other mobs to drop trophies, such as the mob masher from MobGrindingUtils.
+fake_player_drops = false
+#If true, allows trophies to drop whenever a mob dies. This can be to fall damage, another mob, etc.
+#Basically, a kill doesnt have to count as a player kill for a trophy to drop.
+any_kill_drops = false
+#The chance a trophy will drop from its respective mob.
+#All trophy drop chances are defined in their trophy json, but if you want to override that chance without going through and changing every json this is for you.
+#Set this value to -1 to disable.
+#Range: -1.0 ~ 1.0
+trophy_drop_override = -1.0
+
