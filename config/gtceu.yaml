@@ -86,7 +86,7 @@ worldgen:
   # Radius that ore veins will check for existing ones.
   # If one is found, the vein will not spawn.
   # Default: 3
-  oreVeinScanRadius: 3
+  oreVeinScanRadius: 6
 
   # Debug ore vein placement? (will print placed veins to server's debug.log)
   # Default: false (no placement printout in debug.log)
