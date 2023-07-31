@@ -4,5 +4,7 @@
 !/config
 !/defaultconfigs
 !/kubejs
-!/local
+!/local/ftbchunks/client-config.snbt
+!/local/kubejs
 !/modernfix
+!/packmenu

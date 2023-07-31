@@ -2,6 +2,7 @@
 #572 terralith:arid_highlands
 #6F6 minecraft:badlands
 #184 terralith:brushland
+#63B terralith:cave/thermal_caves
 #008 minecraft:desert
 #614 minecraft:eroded_badlands
 #4E2 terralith:hot_shrubland
