@@ -27,7 +27,7 @@ We welcome contributions! Whether you have suggestions for mods, improvements, o
 
 ## Contact 📬
 
-Got a question or just want to chat? You can reach us on [our Discord]([https://discord.gg/your-invite-link-here](https://discord.gg/RNxSsTHF)).
+Got a question or just want to chat? You can reach us on [our Discord](https://discord.gg/RNxSsTHF).
 
 This is a journey for balance, for survival, for a new beginning. Join us in crafting a new horizon in **Greate: Beyond The Horizon**!
 
