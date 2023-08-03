@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "zpmvs_power_of_the_sun"
+	group: "33AB0DFCA4C1B845"
+	id: "636DD93162349906"
+	order_index: 7
+	quest_links: [ ]
+	quests: [ ]
+	title: "ZPMV/S: Power of the Sun..."
+}

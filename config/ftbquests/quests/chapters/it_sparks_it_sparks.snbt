@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "it_sparks_it_sparks"
+	group: "615B26DFD6C6C5EF"
+	id: "0CDDB3235B5DD218"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "It Sparks! It Sparks!"
+}

@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "uvs_fused_circuitry"
+	group: "33AB0DFCA4C1B845"
+	id: "4D96AC2F0CDEBA90"
+	order_index: 8
+	quest_links: [ ]
+	quests: [ ]
+	title: "UV/S: Fused Circuitry"
+}
