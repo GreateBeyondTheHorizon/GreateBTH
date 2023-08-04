@@ -8,4 +8,7 @@ ServerEvents.recipes(event => {
             event.remove({output: `gtceu:${tier}_${component}`});
         });
     });
+    event.remove({output: 'gtceu:good_electronic_circuit'})
+    event.remove({output: 'gtceu:basic_electronic_circuit'})
+    event.remove({output: 'gtceu:basic_integrated_circuit'})
 });
