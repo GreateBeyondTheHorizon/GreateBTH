@@ -9,7 +9,7 @@ ServerEvents.recipes(event => {
         });
     });
     //circuits removal
-    event.remove({output: 'gtceu:good_electronic_circuit'})
     event.remove({output: 'gtceu:basic_electronic_circuit'})
     event.remove({output: 'gtceu:basic_integrated_circuit'})
+    event.remove({output: 'gtceu:microchip_processor'})
 });
