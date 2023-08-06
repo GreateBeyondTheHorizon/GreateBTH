@@ -25,7 +25,7 @@ ServerEvents.recipes(event => {
     'minecraft:warped_planks', 
     'minecraft:crimson_planks', 
     'gtceu:rubber_planks'
-];
+    ]
 	var logs = [
         '#minecraft:acacia_logs', 
     '#minecraft:oak_logs', 
@@ -37,30 +37,15 @@ ServerEvents.recipes(event => {
     '#minecraft:warped_stems',
     '#minecraft:crimson_stems', 
     'gtceu:rubber_log'  
-]	
-	var colors = [
-        'white', 
-        'orange', 
-        'magenta', 
-        'light_blue', 
-        'yellow', 
-        'lime', 
-        'pink', 
-        'gray', 
-        'light_gray', 
-        'cyan', 
-        'purple', 
-        'blue', 
-        'brown', 
-        'green',
-        'red',
-        'black'
-    ]
+    ]	
+	
     // #endregion
 
 	// #region addition
 	
 	var i = 0;
+    var j = 0;
+
 	while (i < planks.length){
 		event.shapeless( 
 			Item.of(planks[i], 2),
@@ -92,35 +77,22 @@ ServerEvents.recipes(event => {
 		).damageIngredient(Item.of('#forge:tools/files'))
 
 		event.recipes.createCutting(Item.of(
-            planks[i], 5),
+            planks[i], 6),
             logs[i], ).processingTime(20)
             
-            event.recipes.shaped('minecraft:chest', [
-                'GPG',
-                'PFP',
-                'PPP',
-            ], 
-            {
-                P: planks[i],
-                F: ['gtceu:wood_frame', 'gtceu:treated_wood_frame'],
-                G: 'gtceu:wood_gear'
-            })
+            event.recipes.shaped(Item.of('minecraft:chest', 1), [
+                    'GPG',
+                    'PFP',
+                    'PPP',
+                ], 
+                {
+                    P: planks[i],
+                    F: ['gtceu:wood_frame', 'gtceu:treated_wood_frame'],
+                    G: 'gtceu:wood_gear'
+                }
+            )
             i++
             
-        }
-        var j = 0;
-        while(j < colors.length){
-            event.remove({output: `minecraft:${colors[j]}_bed`})
-            event.recipes.shaped(`minecraft:${colors[j]}_bed`, [
-                'B  ',
-                'M  ',
-                '   '
-            ],
-            {
-                B: 'kubejs:bed_base',
-                M: 'kubejs:mattress'
-            })
-            j++
         }
 	// #endregion
 })
