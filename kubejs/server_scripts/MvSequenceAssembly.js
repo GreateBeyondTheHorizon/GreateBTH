@@ -29,7 +29,7 @@ ServerEvents.recipes(event => {
 		event.recipes.createDeploying(incMvCirc, [incMvCirc, '#forge:circuits/lv']),
 		event.recipes.createDeploying(incMvCirc, [incMvCirc, ['gtceu:diode', 'gtceu:smd_diode']]),
 		event.recipes.createDeploying(incMvCirc, [incMvCirc, 'gtceu:copper_single_wire']),
-		event.recipes.createFilling(incMvCirc, [incMvCirc, Fluid.of('gtceu:tin', 36)])
+		event.recipes.createFilling(incMvCirc, [incMvCirc, Fluid.of('gtceu:tin', 72)])
 	]).transitionalItem(incMvCirc).loops(2)
 	
 	event.recipes.createSequencedAssembly([
