@@ -1,12 +1,19 @@
 // Priority: 0
 StartupEvents.registry('item', event => {
 
-	event.create('inc_lv_circuit', 'create:sequenced_assembly')
-	event.create('raw_integrated_circuit')
+	event.create('inc_basic_electronic_circuit', 'create:sequenced_assembly')
+	event.create('inc_basic_integrated_circuit', 'create:sequenced_assembly')
+	event.create('inc_microchip_processor', 'create:sequenced_assembly')
 
-	event.create('inc_mv_circuit', 'create:sequenced_assembly')
-	event.create('raw_phenolic_circuit_board', 'create:sequenced_assembly')
-	event.create('raw_plastic_circuit_board')
+	event.create('inc_good_electronic_circuit', 'create:sequenced_assembly')
+	event.create('inc_good_integrated_circuit', 'create:sequenced_assembly')
+	event.create('inc_micro_processor', 'create:sequenced_assembly')
+
+	event.create('inc_hv_circuit', 'create:sequenced_assembly')
+	
+	event.create('raw_integrated_circuit_board').displayName("Raw Integrated Circuit Board")
+	event.create('raw_phenolic_circuit_board', 'create:sequenced_assembly').displayName("Raw Phenolic Printed Circuit Board")
+	event.create('raw_plastic_circuit_board').displayName("Raw Plastic Printed Circuit Board")
 	// LV components
 	event.create('inc_lv_motor', 'create:sequenced_assembly')
 	event.create('inc_lv_piston', 'create:sequenced_assembly')

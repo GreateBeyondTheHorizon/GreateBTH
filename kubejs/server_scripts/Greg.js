@@ -17,6 +17,7 @@ ServerEvents.recipes(event => {
     event.remove({output: 'gtceu:good_electronic_circuit'}) // recipies done, missing textures
     event.remove({output: 'gtceu:good_integrated_circuit'}) // reciepies done, missing textures
     event.remove({output: 'gtceu:micro_processor'}) // reciepies done, TODO EV needs implementaion
+
 	// #endregion 
 	event.custom({
 	"type": "gtceu:bender",
