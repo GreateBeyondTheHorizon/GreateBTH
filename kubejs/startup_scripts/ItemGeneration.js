@@ -1,8 +1,12 @@
 // Priority: 0
 StartupEvents.registry('item', event => {
+
 	event.create('inc_lv_circuit', 'create:sequenced_assembly')
-	event.create('sub_lv_circuit_2')
-	event.create('sub_lv_circuit_3')
+	event.create('raw_integrated_circuit')
+
+	event.create('inc_mv_circuit', 'create:sequenced_assembly')
+	event.create('raw_phenolic_circuit_board', 'create:sequenced_assembly')
+	event.create('raw_plastic_circuit_board')
 	// LV components
 	event.create('inc_lv_motor', 'create:sequenced_assembly')
 	event.create('inc_lv_piston', 'create:sequenced_assembly')
