@@ -28,4 +28,7 @@ StartupEvents.registry('item', event => {
 	
 	event.create('unf_turtle_helmet').displayName('Turtle Helmet Shell')
 	event.create('netherite_plate').displayName('Netherite Plate')
+
+	event.create('bed_base').displayName('Bed Base')
+	event.create('mattress').displayName('Mattress')
 })
