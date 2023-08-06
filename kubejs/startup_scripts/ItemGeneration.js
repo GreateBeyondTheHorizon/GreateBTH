@@ -25,4 +25,7 @@ StartupEvents.registry('item', event => {
 	event.create('inc_mv_emitter', 'create:sequenced_assembly')
 	event.create('inc_mv_conveyor', 'create:sequenced_assembly')
 	event.create('inc_mv_robot_arm', 'create:sequenced_assembly')
+	
+	event.create('unf_turtle_helmet').displayName('Turtle Helmet Shell')
+	event.create('netherite_plate').displayName('Netherite Plate')
 })

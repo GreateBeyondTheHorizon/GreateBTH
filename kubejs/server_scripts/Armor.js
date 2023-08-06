@@ -51,162 +51,247 @@ ServerEvents.recipes(event => {
 
 //chainmail
 
-event.shaped(
+event.recipes.createMechanicalCrafting(
   Item.of('minecraft:chainmail_helmet', 1),
   [ 
-    'AAA', 
-    'ABA',
-    '   '  
+    ' AAA ',
+    'AB BA',
+	'AB BA'
   ],
   {
     A: 'gtceu:iron_ring',
-	B: 'minecraft:leather_helmet'
+	B: 'minecraft:leather'
   }
 )
-	event.shaped(
+	event.recipes.createMechanicalCrafting(
   Item.of('minecraft:chainmail_chestplate', 1),
   [ 
-    'ABA', 
-    'AAA',
-    'AAA'  
+    'AA  AA', 
+    ' ABBA ',
+    '  AA  ',
+	'  AA  '
   ],
   {
     A: 'gtceu:iron_ring',
-	B: 'minecraft:leather_chestplate'
+	B: 'minecraft:leather'
   }
 )
-	event.shaped(
+	event.recipes.createMechanicalCrafting(
   Item.of('minecraft:chainmail_leggings', 1),
   [ 
-    'AAA', 
-    'ABA',
-    'A A'  
+    'AAAA', 
+    'A  A',
+    'A  A',
+	'A  A',
+	'B  B'
   ],
   {
     A: 'gtceu:iron_ring',
-	B: 'minecraft:leather_leggings'
+	B: 'minecraft:leather'
   }
 )
-	event.shaped(
+	event.recipes.createMechanicalCrafting(
   Item.of('minecraft:chainmail_boots', 1),
   [ 
-    'ABA', 
-    'A A',
-    '   '  
+    ' A A ',
+    ' A A ',
+	'AB BA'  
   ],
   {
     A: 'gtceu:iron_ring',
-	B: 'minecraft:leather_boots'
+	B: 'minecraft:leather'
   }
 )
 
 //iron 
 
-event.shaped(
+event.recipes.createMechanicalCrafting(
   Item.of('minecraft:iron_helmet', 1),
   [ 
-    'ACA', 
-    'ABA',
-    '   '  
+    ' ABA ',
+    'AC CA',
+	'AC CA' 
   ],
   {
     A: 'gtceu:iron_plate',
-	B: 'minecraft:chainmail_helmet',
+	B: 'gtceu:invar_plate',
 	C: 'gtceu:carbon_fiber_mesh'
   }
 )
-	event.shaped(
+	event.recipes.createMechanicalCrafting(
   Item.of('minecraft:iron_chestplate', 1),
   [ 
-    'ABA', 
-    'ACA',
-    'AAA'  
+    'CB  BC', 
+    'CBCCBC',
+    ' ABBA ',
+	' ABBA ',
+	' ABBA ',
   ],
   {
     A: 'gtceu:iron_plate',
-	B: 'minecraft:chainmail_chestplate',
+	B: 'gtceu:invar_plate',
 	C: 'gtceu:carbon_fiber_mesh'
   }
 )
-	event.shaped(
+	event.recipes.createMechanicalCrafting(
   Item.of('minecraft:iron_leggings', 1),
   [ 
-    'ACA', 
-    'ABA',
-    'A A'  
+    'AAAA',
+    'ACCA', 
+    'A  A',
+    'A  A',
+	'B  B'  
   ],
   {
     A: 'gtceu:iron_plate',
-	B: 'minecraft:chainmail_leggings',
+	B: 'gtceu:invar_plate',
 	C: 'gtceu:carbon_fiber_mesh'
   }
 )
-	event.shaped(
+	event.recipes.createMechanicalCrafting(
   Item.of('minecraft:iron_boots', 1),
   [ 
-    'ABA', 
-    'C C',
-    '   '  
+    ' A A ', 
+    ' A A ',
+    ' A A ',
+	'CB BC' 
   ],
   {
     A: 'gtceu:iron_plate',
-	B: 'minecraft:chainmail_boots',
+	B: 'gtceu:invar_plate',
 	C: 'gtceu:carbon_fiber_mesh'
   }
 )
 
 //diamond
 
-event.shaped(
+	event.recipes.createMechanicalCrafting(
   Item.of('minecraft:diamond_helmet', 1),
   [ 
-    'AAA', 
-    'CBC',
-    '   '  
+    'AAAAAA',
+    'ABBBBA',
+    'AC  CA',
+	'AC  CA'
   ],
   {
     A: 'gtceu:diamond_plate',
-	B: 'minecraft:iron_helmet',
+	B: 'gtceu:stainless_steel_plate',
 	C: 'gtceu:titanium_plate'
   }
 )
-	event.shaped(
+	event.recipes.createMechanicalCrafting(
   Item.of('minecraft:diamond_chestplate', 1),
   [ 
-    'CBC', 
-    'AAA',
-    'AAA'  
+    'CBB BBC', 
+    'CBCCCBC',
+    ' ABCBA ',
+	' ABCBA ',
+	' ABBBA '
   ],
   {
     A: 'gtceu:diamond_plate',
-	B: 'minecraft:iron_chestplate',
+	B: 'gtceu:stainless_steel_plate',
 	C: 'gtceu:titanium_plate'
   }
 )
-	event.shaped(
+	event.recipes.createMechanicalCrafting(
   Item.of('minecraft:diamond_leggings', 1),
   [ 
-    'AAA', 
-    'ABA',
-    'C C'  
+    'AAAAAA',
+    'ABCCBA', 
+    'AB  BA',
+    'AB  BA',
+	'AB  BA'
   ],
   {
     A: 'gtceu:diamond_plate',
-	B: 'minecraft:iron_leggings',
+	B: 'gtceu:stainless_steel_plate',
 	C: 'gtceu:titanium_plate'
   }
 )
-	event.shaped(
+	event.recipes.createMechanicalCrafting(
   Item.of('minecraft:diamond_boots', 1),
   [ 
-    'ABA', 
-    'C C',
-    '   '  
+    ' AA AA ', 
+    ' AA AA ',
+    ' AA AA ',
+	'CBB BBC'
   ],
   {
     A: 'gtceu:diamond_plate',
-	B: 'minecraft:iron_boots',
+	B: 'gtceu:stainless_steel_plate',
 	C: 'gtceu:titanium_plate'
   }
 )
+
+//netherite
+
+	event.recipes.createMechanicalCrafting(
+  Item.of('minecraft:netherite_helmet', 1),
+  [ 
+    'AAAAAAA',
+	'ABBBBBA',
+    'ABCCCBA',
+    'AB C BA',
+	'AB   BA'
+  ],
+  {
+    A: 'gtceu:tungsten_carbide_plate',
+	B: 'gtceu:tungsten_steel_plate',
+	C: 'kubejs:netherite_plate'
+  }
+)
+	event.recipes.createMechanicalCrafting(
+  Item.of('minecraft:netherite_chestplate', 1),
+  [ 
+    'ABBB BBBA', 
+    'ABBCCCBBA',
+    '  ABCBA  ',
+	'  ABCBA  ',
+	'  ABBBA  ',
+	'  AAAAA  '
+  ],
+  {
+    A: 'gtceu:tungsten_carbide_plate',
+	B: 'gtceu:tungsten_steel_plate',
+	C: 'kubejs:netherite_plate'
+  }
+)
+	event.recipes.createMechanicalCrafting(
+  Item.of('minecraft:netherite_leggings', 1),
+  [ 
+	'AAAAAA',
+	'ABBBBA',
+    'ABCCBA', 
+    'AB  BA',
+    'AB  BA',
+	'AB  BA',
+	'AB  BA'
+  ],
+  {
+    A: 'gtceu:tungsten_carbide_plate',
+	B: 'gtceu:tungsten_steel_plate',
+	C: 'kubejs:netherite_plate'
+  }
+)
+	event.recipes.createMechanicalCrafting(
+  Item.of('minecraft:netherite_boots'),
+  [ 
+	' ABA ABA ',
+    ' ABA ABA ', 
+    ' ABA ABA ',
+    ' ABA ABA ',
+	'CAA   AAC'
+  ],
+  {
+    A: 'gtceu:tungsten_carbide_plate',
+	B: 'gtceu:tungsten_steel_plate',
+	C: 'kubejs:netherite_plate'
+  }
+)
+
+
+
+//modded recipes
+
 })
