@@ -8,8 +8,12 @@ ServerEvents.recipes(event => {
             event.remove({output: `gtceu:${tier}_${component}`});
         });
     });
-    //circuits removal
-    event.remove({output: 'gtceu:basic_electronic_circuit'})
-    event.remove({output: 'gtceu:basic_integrated_circuit'})
-    event.remove({output: 'gtceu:microchip_processor'})
+    //lv default circuits removal
+    event.remove({output: 'gtceu:basic_electronic_circuit'}) // recipes done
+    event.remove({output: 'gtceu:basic_integrated_circuit'}) // recipes done, missing textures
+    event.remove({output: 'gtceu:microchip_processor'}) //recipes done for MV tier, TODO EV needs implementation
+    //mv default circuits removal
+    event.remove({output: 'gtceu:good_electronic_circuit'}) // recipies done, missing textures
+    event.remove({output: 'gtceu:good_integrated_circuit'}) // reciepies done, missing textures
+    event.remove({output: 'gtceu:micro_processor'}) // reciepies done, TODO EV needs implementaion
 });
