@@ -17,6 +17,17 @@ ServerEvents.recipes(event => {
     event.remove({output: 'gtceu:good_integrated_circuit'}) // reciepies done, missing textures
     event.remove({output: 'gtceu:micro_processor'}) // reciepies done, TODO EV needs implementaion
 	
+	event.shaped(
+	Item.of('gtceu:wood_plate'),
+	[
+		'A',
+		'A',
+	],
+	{
+		A:'#minecraft:logs'
+	}
+	)
+	
 	event.custom({
 	"type": "gtceu:bender",
 	"duration": 26,
