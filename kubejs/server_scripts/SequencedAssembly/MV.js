@@ -1,6 +1,10 @@
 // priority: 0
 ServerEvents.recipes(event => {
 	// #region variables
+	let incGoodElectronicCirc = 'kubejs:inc_good_electronic_circuit'
+	let incGoodIntegratedCirc = 'kubejs:inc_good_integrated_circuit'
+	let incMicroProcessor = 'kubejs:inc_micro_processor'
+
 	let incMvMotor = 'kubejs:inc_mv_motor'
 	let incMvPiston = 'kubejs:inc_mv_piston'
 	let lncMvRobotArm = 'kubejs:inc_mv_robot_arm'
@@ -9,7 +13,6 @@ ServerEvents.recipes(event => {
 	let invMvFluidRegulator = 'kubejs:inc_mv_fluid_regulator'
 	let invMvSensor = 'kubejs:inc_mv_sensor'
 	let incMvEmitter = 'kubejs:inc_mv_emitter'
-	let incMvCirc = 'kubejs:inc_mv_circuit'
 	let rawPhenolicCircBoard = 'kubejs:raw_phenolic_circuit_board'
 	let rawPlasticCircBoard = 'kubejs:raw_plastic_circuit_board'
 	// #endregion
@@ -17,40 +20,40 @@ ServerEvents.recipes(event => {
 	event.recipes.createSequencedAssembly([
 		'gtceu:good_electronic_circuit'
 ], 'gtceu:phenolic_printed_circuit_board',[
-		event.recipes.createDeploying(incMvCirc, [incMvCirc, '#forge:circuits/lv']),
-		event.recipes.createDeploying(incMvCirc, [incMvCirc, ['gtceu:diode', 'gtceu:smd_diode']]),
-		event.recipes.createDeploying(incMvCirc, [incMvCirc, 'gtceu:copper_single_wire']),
-		event.recipes.createFilling(incMvCirc, [incMvCirc, Fluid.of('gtceu:soldering_alloy', 36)])
-	]).transitionalItem(incMvCirc).loops(2)
+		event.recipes.createDeploying(incGoodElectronicCirc, [incGoodElectronicCirc, '#forge:circuits/lv']),
+		event.recipes.createDeploying(incGoodElectronicCirc, [incGoodElectronicCirc, ['gtceu:diode', 'gtceu:smd_diode']]),
+		event.recipes.createDeploying(incGoodElectronicCirc, [incGoodElectronicCirc, 'gtceu:copper_single_wire']),
+		event.recipes.createFilling(incGoodElectronicCirc, [incGoodElectronicCirc, Fluid.of('gtceu:soldering_alloy', 36)])
+	]).transitionalItem(incGoodElectronicCirc).loops(2)
 
 	event.recipes.createSequencedAssembly([
 		'gtceu:good_electronic_circuit'
 ], 'gtceu:phenolic_printed_circuit_board',[
-		event.recipes.createDeploying(incMvCirc, [incMvCirc, '#forge:circuits/lv']),
-		event.recipes.createDeploying(incMvCirc, [incMvCirc, ['gtceu:diode', 'gtceu:smd_diode']]),
-		event.recipes.createDeploying(incMvCirc, [incMvCirc, 'gtceu:copper_single_wire']),
-		event.recipes.createFilling(incMvCirc, [incMvCirc, Fluid.of('gtceu:tin', 72)])
-	]).transitionalItem(incMvCirc).loops(2)
+		event.recipes.createDeploying(incGoodElectronicCirc, [incGoodElectronicCirc, '#forge:circuits/lv']),
+		event.recipes.createDeploying(incGoodElectronicCirc, [incGoodElectronicCirc, ['gtceu:diode', 'gtceu:smd_diode']]),
+		event.recipes.createDeploying(incGoodElectronicCirc, [incGoodElectronicCirc, 'gtceu:copper_single_wire']),
+		event.recipes.createFilling(incGoodElectronicCirc, [incGoodElectronicCirc, Fluid.of('gtceu:tin', 72)])
+	]).transitionalItem(incGoodElectronicCirc).loops(2)
 	
 	event.recipes.createSequencedAssembly([
 		'2x gtceu:good_integrated_circuit'
 ], 	rawPhenolicCircBoard, [
-		event.recipes.createDeploying(incMvCirc, [incMvCirc, ['gtceu:smd_resistor', 'gtceu:resistor']]),
-		event.recipes.createDeploying(incMvCirc, [incMvCirc, ['gtceu:smd_diode', 'gtceu:diode']]),
-		event.recipes.createDeploying(incMvCirc, [incMvCirc, 'gtceu:gold_fine_wire']),
-		event.recipes.createDeploying(incMvCirc, [incMvCirc, 'gtceu:gold_fine_wire']),
-		event.recipes.createDeploying(incMvCirc, [incMvCirc, 'gtceu:silver_bolt']),
-		event.recipes.createDeploying(incMvCirc, [incMvCirc, 'gtceu:silver_bolt'])
-	]).transitionalItem(incMvCirc).loops(2)
+		event.recipes.createDeploying(incGoodIntegratedCirc, [incGoodIntegratedCirc, ['gtceu:smd_resistor', 'gtceu:resistor']]),
+		event.recipes.createDeploying(incGoodIntegratedCirc, [incGoodIntegratedCirc, ['gtceu:smd_diode', 'gtceu:diode']]),
+		event.recipes.createDeploying(incGoodIntegratedCirc, [incGoodIntegratedCirc, 'gtceu:gold_fine_wire']),
+		event.recipes.createDeploying(incGoodIntegratedCirc, [incGoodIntegratedCirc, 'gtceu:gold_fine_wire']),
+		event.recipes.createDeploying(incGoodIntegratedCirc, [incGoodIntegratedCirc, 'gtceu:silver_bolt']),
+		event.recipes.createDeploying(incGoodIntegratedCirc, [incGoodIntegratedCirc, 'gtceu:silver_bolt'])
+	]).transitionalItem(incGoodIntegratedCirc).loops(2)
 
 	event.recipes.createSequencedAssembly([
 		'2x gtceu:micro_processor'
 ], 	rawPlasticCircBoard, [
-		event.recipes.createDeploying(incMvCirc, [incMvCirc, ['gtceu:resistor', 'gtceu:smd_resistor']]),
-		event.recipes.createDeploying(incMvCirc, [incMvCirc, ['gtceu:capacitor', 'gtceu:smd_capacitor']]),
-		event.recipes.createDeploying(incMvCirc, [incMvCirc, ['gtceu:transistor', 'gtceu:smd_transistor']]),
-		event.recipes.createDeploying(incMvCirc, [incMvCirc, 'gtceu:red_alloy_fine_wire']),
-	]).transitionalItem(incMvCirc).loops(4)
+		event.recipes.createDeploying(incMicroProcessor, [incMicroProcessor, ['gtceu:resistor', 'gtceu:smd_resistor']]),
+		event.recipes.createDeploying(incMicroProcessor, [incMicroProcessor, ['gtceu:capacitor', 'gtceu:smd_capacitor']]),
+		event.recipes.createDeploying(incMicroProcessor, [incMicroProcessor, ['gtceu:transistor', 'gtceu:smd_transistor']]),
+		event.recipes.createDeploying(incMicroProcessor, [incMicroProcessor, 'gtceu:red_alloy_fine_wire']),
+	]).transitionalItem(incMicroProcessor).loops(4)
 	// #endregion
 	// #region components
 	event.recipes.createSequencedAssembly([
@@ -65,10 +68,10 @@ ServerEvents.recipes(event => {
 	event.recipes.createSequencedAssembly([
 		'gtceu:mv_electric_piston',
 ], 'gtceu:mv_electric_motor',[
-	event.recipes.createDeploying(incMvPiston,[incMvPiston, 'gtceu:aluminium_plate']),
+	event.recipes.createDeploying(incMvPiston,[incMvPiston, 'gtceu:copper_single_cable']),
 	event.recipes.createDeploying(incMvPiston,[incMvPiston, 'gtceu:aluminium_small_gear']),
 	event.recipes.createDeploying(incMvPiston,[incMvPiston, 'gtceu:aluminium_rod']),
-	event.recipes.createDeploying(incMvPiston,[incMvPiston, 'gtceu:copper_single_cable'])
+	event.recipes.createDeploying(incMvPiston,[incMvPiston, 'gtceu:aluminium_plate']),
 	]).transitionalItem(incMvPiston).loops(2)
 
 	event.recipes.createSequencedAssembly([
@@ -76,38 +79,38 @@ ServerEvents.recipes(event => {
 ], 'gtceu:mv_electric_piston',[
 	event.recipes.createDeploying(lncMvRobotArm,[lncMvRobotArm, '#forge:circuits/mv']),
 	event.recipes.createDeploying(lncMvRobotArm,[lncMvRobotArm, 'gtceu:mv_electric_motor']),
+	event.recipes.createDeploying(lncMvRobotArm,[lncMvRobotArm, 'gtceu:copper_single_cable']),
 	event.recipes.createDeploying(lncMvRobotArm,[lncMvRobotArm, 'gtceu:aluminium_rod']),
-	event.recipes.createDeploying(lncMvRobotArm,[lncMvRobotArm, 'gtceu:copper_single_cable'])
 	]).transitionalItem(lncMvRobotArm).loops(2)
 
 	event.recipes.createSequencedAssembly([
 		'gtceu:mv_conveyor_module',
 ], 'gtceu:copper_single_cable',[
+	event.recipes.createDeploying(incMvConveyor,
+		[incMvConveyor, 
+			[
+				'gtceu:rubber_plate', 
+				'gtceu:silicone_rubber_plate', 
+				'gtceu:styrene_butadiene_rubber_plate'
+			]
+		]),
+	event.recipes.createDeploying(incMvConveyor,
+		[incMvConveyor, 
+			[
+				'gtceu:rubber_plate', 
+				'gtceu:silicone_rubber_plate', 
+				'gtceu:styrene_butadiene_rubber_plate'
+			]
+		]),
+	event.recipes.createDeploying(incMvConveyor,
+		[incMvConveyor, 
+			[
+				'gtceu:rubber_plate', 
+				'gtceu:silicone_rubber_plate', 
+				'gtceu:styrene_butadiene_rubber_plate'
+			]
+		]),
 	event.recipes.createDeploying(incMvConveyor,[incMvConveyor, 'gtceu:mv_electric_motor']),
-	event.recipes.createDeploying(incMvConveyor,
-		[incMvConveyor, 
-			[
-				'gtceu:rubber_plate', 
-				'gtceu:silicone_rubber_plate', 
-				'gtceu:styrene_butadiene_rubber_plate'
-			]
-		]),
-	event.recipes.createDeploying(incMvConveyor,
-		[incMvConveyor, 
-			[
-				'gtceu:rubber_plate', 
-				'gtceu:silicone_rubber_plate', 
-				'gtceu:styrene_butadiene_rubber_plate'
-			]
-		]),
-	event.recipes.createDeploying(incMvConveyor,
-		[incMvConveyor, 
-			[
-				'gtceu:rubber_plate', 
-				'gtceu:silicone_rubber_plate', 
-				'gtceu:styrene_butadiene_rubber_plate'
-			]
-		]),
 	]).transitionalItem(incMvConveyor).loops(2)
 	
 	event.recipes.createSequencedAssembly([
