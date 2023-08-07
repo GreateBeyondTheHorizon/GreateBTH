@@ -1,6 +1,7 @@
 // priority: 0
 ServerEvents.recipes(event => {
-    const tiers = ['lv', 'mv', /* 'hv', 'ev', 'iv', 'luv', 'zpm', 'uv' */];
+	// #region removal
+	const tiers = ['lv', 'mv', /* 'hv', 'ev', 'iv', 'luv', 'zpm', 'uv' */];
     const components = ['emitter', 'sensor', 'electric_motor', 'electric_piston', 'robot_arm', 'conveyor_module', 'electric_pump', 'fluid_regulator'];
 
     tiers.forEach(tier => {
@@ -16,6 +17,7 @@ ServerEvents.recipes(event => {
     event.remove({output: 'gtceu:good_electronic_circuit'}) // recipies done, missing textures
     event.remove({output: 'gtceu:good_integrated_circuit'}) // reciepies done, missing textures
     event.remove({output: 'gtceu:micro_processor'}) // reciepies done, TODO EV needs implementaion
+<<<<<<< HEAD
 	
 	event.shaped(
 	Item.of('gtceu:wood_plate'),
@@ -28,6 +30,10 @@ ServerEvents.recipes(event => {
 	}
 	)
 	
+=======
+
+	// #endregion 
+>>>>>>> origin/general-kube-stuff-kstoko23
 	event.custom({
 	"type": "gtceu:bender",
 	"duration": 26,
