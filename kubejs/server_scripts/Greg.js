@@ -4,6 +4,8 @@ ServerEvents.recipes(event => {
 	const tiers = ['lv', 'mv', /* 'hv', 'ev', 'iv', 'luv', 'zpm', 'uv' */];
     const components = ['emitter', 'sensor', 'electric_motor', 'electric_piston', 'robot_arm', 'conveyor_module', 'electric_pump', 'fluid_regulator'];
 
+	let interNanoProc = 'kubejs:inter_nano_processor'
+
     tiers.forEach(tier => {
         components.forEach(component => {
             event.remove({output: `gtceu:${tier}_${component}`});
@@ -17,7 +19,9 @@ ServerEvents.recipes(event => {
     event.remove({output: 'gtceu:good_electronic_circuit'}) // recipies done, missing textures
     event.remove({output: 'gtceu:good_integrated_circuit'}) // reciepies done, missing textures
     event.remove({output: 'gtceu:micro_processor'}) // reciepies done, TODO EV needs implementaion
-<<<<<<< HEAD
+	// hv default circuits removal
+	event.remove({output: 'gtceu:nano_processor'})
+	
 	
 	event.shaped(
 	Item.of('gtceu:wood_plate'),
@@ -29,9 +33,6 @@ ServerEvents.recipes(event => {
 		A:'#minecraft:logs'
 	}
 	)
-	
-=======
-
 	// #endregion 
 >>>>>>> origin/general-kube-stuff-kstoko23
 	event.custom({
@@ -94,4 +95,210 @@ ServerEvents.recipes(event => {
 	},
 	"tickOutputs": {}
 })
+
+// tier 3 hv circuit
+event.custom(
+	{
+	"type": "gtceu:circuit_assembler",
+	"duration": 100,
+	"inputs": {
+		"item": [
+			{
+				"content": {
+					"type": "gtceu:sized",
+					"fabric:type": "gtceu:sized",
+					"count": 1,
+					"ingredient": {
+						"item": interNanoProc
+					}
+				},
+				"chance": 1.0,
+				"tierChanceBoost": 0.0
+			},
+			{
+				"content": {
+					"type": "gtceu:sized",
+					"fabric:type": "gtceu:sized",
+					"count": 1,
+					"ingredient": {
+						"item": "gtceu:advanced_smd_resistor"
+					}
+				},
+				"chance": 1.0,
+				"tierChanceBoost": 0.0
+			},
+			{
+				"content": {
+					"type": "gtceu:sized",
+					"fabric:type": "gtceu:sized",
+					"count": 1,
+					"ingredient": {
+						"item": "gtceu:advanced_smd_capacitor"
+					}
+				},
+				"chance": 1.0,
+				"tierChanceBoost": 0.0
+			},
+			{
+				"content": {
+					"type": "gtceu:sized",
+					"fabric:type": "gtceu:sized",
+					"count": 1,
+					"ingredient": {
+						"item": "gtceu:advanced_smd_transistor"
+					}
+				},
+				"chance": 1.0,
+				"tierChanceBoost": 0.0
+			},
+			{
+				"content": {
+					"type": "gtceu:sized",
+					"fabric:type": "gtceu:sized",
+					"count": 6,
+					"tag": "forge:wires/fine/electrum"
+				},
+				"chance": 1.0,
+				"tierChanceBoost": 0.0
+			}
+		]
+	},
+	"outputs": {
+		"item": [
+			{
+				"content": {
+					"type": "gtceu:sized",
+					"fabric:type": "gtceu:sized",
+					"count": 2,
+					"ingredient": {
+						"item": "gtceu:nano_processor"
+					}
+				},
+				"chance": 1.0,
+				"tierChanceBoost": 0.0
+			}
+		]
+	},
+	"tickInputs": {
+		"eu": [
+			{
+				"content": 600,
+				"chance": 1.0,
+				"tierChanceBoost": 0.0
+			}
+		]
+	},
+	"tickOutputs": {},
+	"recipeConditions": [
+		{
+			"type": "cleanroom",
+			"data": {
+				"cleanroom": "cleanroom"
+			}
+		}
+	]
+}
+	)
+event.custom(
+	{
+	"type": "gtceu:circuit_assembler",
+	"duration": 100,
+	"inputs": {
+		"item": [
+			{
+				"content": {
+					"type": "gtceu:sized",
+					"fabric:type": "gtceu:sized",
+					"count": 1,
+					"ingredient": {
+						"item": interNanoProc
+					}
+				},
+				"chance": 1.0,
+				"tierChanceBoost": 0.0
+			},
+			{
+				"content": {
+					"type": "gtceu:sized",
+					"fabric:type": "gtceu:sized",
+					"count": 2,
+					"ingredient": {
+						"item": "gtceu:smd_resistor"
+					}
+				},
+				"chance": 1.0,
+				"tierChanceBoost": 0.0
+			},
+			{
+				"content": {
+					"type": "gtceu:sized",
+					"fabric:type": "gtceu:sized",
+					"count": 2,
+					"ingredient": {
+						"item": "gtceu:smd_capacitor"
+					}
+				},
+				"chance": 1.0,
+				"tierChanceBoost": 0.0
+			},
+			{
+				"content": {
+					"type": "gtceu:sized",
+					"fabric:type": "gtceu:sized",
+					"count": 2,
+					"ingredient": {
+						"item": "gtceu:smd_transistor"
+					}
+				},
+				"chance": 1.0,
+				"tierChanceBoost": 0.0
+			},
+			{
+				"content": {
+					"type": "gtceu:sized",
+					"fabric:type": "gtceu:sized",
+					"count": 2,
+					"tag": "forge:wires/fine/electrum"
+				},
+				"chance": 1.0,
+				"tierChanceBoost": 0.0
+			}
+		]
+	},
+	"outputs": {
+		"item": [
+			{
+				"content": {
+					"type": "gtceu:sized",
+					"fabric:type": "gtceu:sized",
+					"count": 2,
+					"ingredient": {
+						"item": "gtceu:nano_processor"
+					}
+				},
+				"chance": 1.0,
+				"tierChanceBoost": 0.0
+			}
+		]
+	},
+	"tickInputs": {
+		"eu": [
+			{
+				"content": 600,
+				"chance": 1.0,
+				"tierChanceBoost": 0.0
+			}
+		]
+	},
+	"tickOutputs": {},
+	"recipeConditions": [
+		{
+			"type": "cleanroom",
+			"data": {
+				"cleanroom": "cleanroom"
+			}
+		}
+	]
+}
+	)
 });
