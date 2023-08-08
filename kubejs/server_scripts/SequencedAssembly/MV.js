@@ -140,7 +140,7 @@ ServerEvents.recipes(event => {
 	
 	event.recipes.createSequencedAssembly([
 	'gtceu:mv_fluid_regulator',
-],	'gtceu:mv_electric_piston', [
+],	'gtceu:mv_electric_pump', [
 	event.recipes.createDeploying(invMvFluidRegulator, [invMvFluidRegulator, '#forge:circuits/mv'])
 	]).transitionalItem(invMvFluidRegulator).loops(2)
 
