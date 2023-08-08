@@ -7,6 +7,7 @@ ServerEvents.recipes(event => {
 	let interMicroProcCirc = 'kubejs:inter_micro_processor_assembly'
 	let rawEpoxyCircBoard = 'kubejs:raw_epoxy_circuit_board'
 	let interNanoProc = 'kubejs:inter_nano_processor'
+	let incNanoProc = 'kubejs:inc_nano_processor'
 
     event.recipes.createMixing([rawIntegratedCirc],
 		[
@@ -65,7 +66,7 @@ ServerEvents.recipes(event => {
 			Fluid.of('gtceu:soldering_alloy', 72)
 		]).heated()
 
-	event.recipes.createSequencedAssembly([
+	event.recipes.createSequencedAssembly([ //textureneed for intermediate item
 		interMicroProcCirc
 ],	rawPlasticCircBoard, [
 	event.recipes.createDeploying(rawPlasticCircBoard, [rawPlasticCircBoard, 'gtceu:micro_processor']),
@@ -99,18 +100,18 @@ ServerEvents.recipes(event => {
 	event.recipes.createSequencedAssembly([
 		interNanoProc
 ],	rawEpoxyCircBoard, [
-	event.recipes.createDeploying(rawEpoxyCircBoard, [rawEpoxyCircBoard, 'gtceu:smd_resistor']),
-	event.recipes.createDeploying(rawEpoxyCircBoard, [rawEpoxyCircBoard, 'gtceu:smd_capacitor']),
-	event.recipes.createDeploying(rawEpoxyCircBoard, [rawEpoxyCircBoard, 'gtceu:smd_transistor']),
-	event.recipes.createDeploying(rawEpoxyCircBoard, [rawEpoxyCircBoard, 'gtceu:electrum_fine_wire']),
-	]).transitionalItem(rawEpoxyCircBoard).loops(6)
+	event.recipes.createDeploying(incNanoProc, [incNanoProc, 'gtceu:smd_resistor']),
+	event.recipes.createDeploying(incNanoProc, [incNanoProc, 'gtceu:smd_capacitor']),
+	event.recipes.createDeploying(incNanoProc, [incNanoProc, 'gtceu:smd_transistor']),
+	event.recipes.createDeploying(incNanoProc, [incNanoProc, 'gtceu:electrum_fine_wire']),
+	]).transitionalItem(incNanoProc).loops(6)
 	event.recipes.createSequencedAssembly([
 		interNanoProc
 ],	rawEpoxyCircBoard, [
-	event.recipes.createDeploying(rawEpoxyCircBoard, [rawEpoxyCircBoard, 'gtceu:advanced_smd_resistor']),
-	event.recipes.createDeploying(rawEpoxyCircBoard, [rawEpoxyCircBoard, 'gtceu:advanced_smd_capacitor']),
-	event.recipes.createDeploying(rawEpoxyCircBoard, [rawEpoxyCircBoard, 'gtceu:advanced_smd_transistor']),
-	event.recipes.createDeploying(rawEpoxyCircBoard, [rawEpoxyCircBoard, 'gtceu:electrum_fine_wire']),
-	event.recipes.createDeploying(rawEpoxyCircBoard, [rawEpoxyCircBoard, 'gtceu:electrum_fine_wire']),
-	]).transitionalItem(rawEpoxyCircBoard).loops(2)
+	event.recipes.createDeploying(incNanoProc, [incNanoProc, 'gtceu:advanced_smd_resistor']),
+	event.recipes.createDeploying(incNanoProc, [incNanoProc, 'gtceu:advanced_smd_capacitor']),
+	event.recipes.createDeploying(incNanoProc, [incNanoProc, 'gtceu:advanced_smd_transistor']),
+	event.recipes.createDeploying(incNanoProc, [incNanoProc, 'gtceu:electrum_fine_wire']),
+	event.recipes.createDeploying(incNanoProc, [incNanoProc, 'gtceu:electrum_fine_wire']),
+	]).transitionalItem(incNanoProc).loops(2)
 })

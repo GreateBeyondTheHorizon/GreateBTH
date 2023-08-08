@@ -13,28 +13,18 @@ ServerEvents.recipes(event => {
     });
     //lv default circuits removal
     event.remove({output: 'gtceu:basic_electronic_circuit'}) // recipes done
-    event.remove({output: 'gtceu:basic_integrated_circuit'}) // recipes done, missing textures
+    event.remove({output: 'gtceu:basic_integrated_circuit'}) // recipes done
     event.remove({output: 'gtceu:microchip_processor'}) //recipes done for MV tier, TODO EV needs implementation
     //mv default circuits removal
-    event.remove({output: 'gtceu:good_electronic_circuit'}) // recipies done, missing textures
-    event.remove({output: 'gtceu:good_integrated_circuit'}) // reciepies done, missing textures
+    event.remove({output: 'gtceu:good_electronic_circuit'}) // recipies done
+    event.remove({output: 'gtceu:good_integrated_circuit'}) // reciepies done
     event.remove({output: 'gtceu:micro_processor'}) // reciepies done, TODO EV needs implementaion
 	// hv default circuits removal
-	event.remove({output: 'gtceu:nano_processor'})
+    event.remove({output: 'gtceu:micro_processor_assembly'}) 
+    event.remove({output: 'gtceu:advanced_integrated_circuit'}) 
+    event.remove({output: 'gtceu:nano_processor'}) 
 	
-	
-	event.shaped(
-	Item.of('gtceu:wood_plate'),
-	[
-		'A',
-		'A',
-	],
-	{
-		A:'#minecraft:logs'
-	}
-	)
 	// #endregion 
->>>>>>> origin/general-kube-stuff-kstoko23
 	event.custom({
 	"type": "gtceu:bender",
 	"duration": 26,
