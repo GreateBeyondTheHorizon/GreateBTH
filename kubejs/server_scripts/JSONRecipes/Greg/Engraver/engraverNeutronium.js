@@ -353,5 +353,76 @@ ServerEvents.recipes(event => {
 	},
 	"tickOutputs": {}
 	})
-	
+	event.custom({
+	"type": "gtceu:laser_engraver",
+	"duration": 9000,
+	"inputs": {
+		"item": [
+			{
+				"content": {
+					"type": "gtceu:sized",
+					"fabric:type": "gtceu:sized",
+					"count": 1,
+					"ingredient": {
+						"item": "gtceu:neutronium_wafer"
+					}
+				},
+				"chance": 1.0,
+				"tierChanceBoost": 0.0
+			},
+			{
+				"content": {
+					"type": "gtceu:sized",
+					"fabric:type": "gtceu:sized",
+					"count": 1,
+					"tag": "forge:lenses/certus"	
+				},
+				"chance": 0.0,
+				"tierChanceBoost": 0.0
+			},
+			{
+				"content": {
+					"type": "gtceu:sized",
+					"fabric:type": "gtceu:sized",
+					"count": 1,
+					"ingredient": {
+						"type": "forge:nbt",
+						"item": "gtceu:programmed_circuit",
+						"count": 1,
+						"nbt": "{Configuration:6}"
+					}	
+						
+				},
+				"chance": 0.0,
+				"tierChanceBoost": 0.0
+			},
+		]
+	},
+	"outputs": {
+		"item": [
+			{
+				"content": {
+					"type": "gtceu:sized",
+					"fabric:type": "gtceu:sized",
+					"count": 1,
+					"ingredient": {
+						"item": "kubejs:infinity_me_storage_wafer"
+					}
+				},
+				"chance": 1.0,
+				"tierChanceBoost": 0.0
+			}
+		]
+	},
+	"tickInputs": {
+		"eu": [
+			{
+				"content": 135000000,
+				"chance": 1.0,
+				"tierChanceBoost": 0.0
+			}
+		]
+	},
+	"tickOutputs": {}
+	})
 })
