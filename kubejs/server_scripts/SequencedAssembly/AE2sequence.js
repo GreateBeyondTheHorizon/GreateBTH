@@ -52,4 +52,18 @@ event.recipes.createSequencedAssembly([
 	event.recipes.createDeploying(incStorageComponent, [incStorageComponent, 'ae2:printed_silicon'])
 	]).transitionalItem(incStorageComponent).loops(1)
 	
+	event.recipes.createSequencedAssembly([
+		'ae2:engineering_processor',
+],	'#forge:circuits/lv', [
+	event.recipes.createDeploying(incStorageComponent, [incStorageComponent, 'ae2:printed_engineering_processor']),
+	event.recipes.createDeploying(incStorageComponent, [incStorageComponent, 'ae2:printed_silicon'])
+	]).transitionalItem(incStorageComponent).loops(1)
+	
+	event.recipes.createSequencedAssembly([
+		'ae2:calculation_processor',
+],	'#forge:circuits/lv', [
+	event.recipes.createDeploying(incStorageComponent, [incStorageComponent, 'ae2:printed_calculation_processor']),
+	event.recipes.createDeploying(incStorageComponent, [incStorageComponent, 'ae2:printed_silicon'])
+	]).transitionalItem(incStorageComponent).loops(1)
+	
 })

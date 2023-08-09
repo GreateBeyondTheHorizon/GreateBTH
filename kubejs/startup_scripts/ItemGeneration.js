@@ -65,6 +65,9 @@ StartupEvents.registry('item', event => {
 	event.create('double_diamond_plate').displayName('Double Diamond Plate')
 	event.create('obsidian_screw').displayName('Obsidian Screw')
 	event.create('certus_quartz_lens').displayName('Certus Quartz Lens')
+	event.create('infinity_me_storage_wafer').displayName('Infinity ME Storage Component')
+	event.create('ruthenium_trinium_americium_neutronate_plate').displayName('Ruthenium Trinium Americium Neutronate Plate')
+	event.create('flint_saw').displayName('Flint Saw').maxDamage(64).unstackable()
 
 	event.create('bed_base').displayName('Bed Base')
 	event.create('mattress').displayName('Mattress')

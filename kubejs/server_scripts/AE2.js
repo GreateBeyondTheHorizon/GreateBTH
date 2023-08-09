@@ -7,6 +7,7 @@ ServerEvents.recipes(event => {
 	event.remove({ output: 'ae2:engineering_processor' })
 	event.remove({ output: 'ae2:blank_pattern' })
 	event.remove({ output:  /ae2:(.*)_(.*)k/ })
+	event.remove({ id: 'ae2:charger/charged_certus_quartz_crystal' })
 	
 	event.shaped(
 	Item.of('ae2:controller'),
@@ -215,6 +216,51 @@ ServerEvents.recipes(event => {
 		C:'ae2:cell_component_256k',
 		D:'gtceu:tungsten_steel_plate',
 		E:'#forge:circuits/ev'
+	}
+	)
+	
+	event.shaped(
+	Item.of('ae2:cell_workbench'),
+	[
+		'BCB',
+		'BAB',
+		'BBB'
+	],
+	{
+		A:'ae2:chest',
+		B:'gtceu:stainless_steel_plate',
+		C:'ae2:calculation_processor'
+	}
+	)
+	
+	
+	
+	event.recipes.createMechanicalCrafting(Item.of('ae2:creative_item_cell'),
+	
+	[
+	 'CBC',
+	 'ADA',
+	 'AAA'
+	],
+	{
+		A:'avaritia:infinity_ingot',
+		B:'gtceu:wetware_processor_mainframe',
+		C:'kubejs:ruthenium_trinium_americium_neutronate_plate',
+		D:'kubejs:infinity_me_storage_wafer'
+	}
+	)
+	event.recipes.createMechanicalCrafting(Item.of('ae2:creative_fluid_cell'),
+	
+	[
+	 'CBC',
+	 'ADA',
+	 'AAA'
+	],
+	{
+		A:'avaritia:infinity_ingot',
+		B:'gtceu:wetware_processor_mainframe',
+		C:'gtceu:darmstadtium_double_plate',
+		D:'kubejs:infinity_me_storage_wafer'
 	}
 	)
 })
