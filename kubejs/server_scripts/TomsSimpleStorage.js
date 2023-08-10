@@ -7,7 +7,7 @@ ServerEvents.recipes(event => {
                         'toms_storage:ts.inventory_cable_connector', 'toms_storage:ts.inventory_cable_connector_framed', 
                         'toms_storage:ts.inventory_proxy', 'toms_storage:ts.inventory_hopper_basic', 'toms_storage:ts.level_emitter', 
                         'toms_storage:ts.wireless_terminal', 'toms_storage:ts.adv_wireless_terminal', 'toms_storage:ts.item_filter', 
-                        'toms_storage:ts.polymorphic_item_filter', 'toms_storage:ts.tag_item_filter']
+                        'toms_storage:ts.polymorphic_item_filter', 'toms_storage:ts.tag_item_filter', 'toms_storage:ts.paint_kit']
 
 	
 	storage.forEach((element) => event.remove({output: element}));
@@ -98,4 +98,18 @@ ServerEvents.recipes(event => {
 
 		}
 	)
+
+    event.shaped(
+        Item.of('toms_storage:ts.inventory_cable'),
+        [
+            'CBC',
+            'BAB',
+            'CBC',
+        ],
+        {
+            A: 'gtceu:mv_conveyor_module',
+            B: 'gtceu:wood_plate',
+            C: 'gtceu:wood_long_rod'
+        }
+    )
 })
