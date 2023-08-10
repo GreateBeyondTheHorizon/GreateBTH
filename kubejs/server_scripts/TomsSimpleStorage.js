@@ -26,7 +26,7 @@ ServerEvents.recipes(event => {
 			B:'gtceu:treated_wood_plate',
 			C:'gtceu:mv_machine_casing',
 			D:'gtceu:micro_processor',
-            E:'gtceu:mv_robot_arm'
+            E:'gtceu:lv_robot_arm'
 		}
 	)
 
