@@ -12,4 +12,11 @@ ItemEvents.modification(event => {
 	event.modify(/gtceu:raw_(.*)_bucket/, item =>{
 		item.maxStackSize = 1
 	})
+	event.modify('kubejs:drinkable_liquid_concrete', item => {
+		item.foodProperties = food => {
+			food.alwaysEdible(true)
+			food.hunger(12)
+			food.saturation(24)
+		}
+	})
 })
