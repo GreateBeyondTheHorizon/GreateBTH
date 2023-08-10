@@ -61,6 +61,23 @@ ServerEvents.recipes(event => {
         }
     )
 
+	event.shaped(
+        Item.of('toms_storage:ts.paint_kit', 1),
+        [
+            'DEA', 
+            'FB ',
+            'C  ',
+        ],
+        {
+            A: '#minecraft:wool',
+            B: 'gtceu:empty_spray_can',
+            C: 'gtceu:wood_long_rod',
+            D: '#railways:internal/dyes/blue_dyes',
+            E: '#railways:internal/dyes/red_dyes',
+            F: '#railways:internal/dyes/green_dyes',
+        }
+    )
+
 	event.recipes.createMechanicalCrafting(
 		Item.of('toms_storage:ts.storage_terminal', 1),
 		[ 
