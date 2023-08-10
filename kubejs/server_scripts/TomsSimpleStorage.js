@@ -45,6 +45,22 @@ ServerEvents.recipes(event => {
         }
 	)
 
+	event.shaped(
+        Item.of('toms_storage:ts.wireless_terminal', 1),
+        [
+            'BDB', 
+            'EAE',
+            'CDC', 
+        ],
+        {
+            A: 'minecraft:ender_eye',
+            B: 'gtceu:mv_emitter',
+            C: 'gtceu:mv_sensor',
+            D: 'gtceu:aluminium_plate',
+            E: 'gtceu:wood_plate'
+        }
+    )
+
 	event.recipes.createMechanicalCrafting(
 		Item.of('toms_storage:ts.storage_terminal', 1),
 		[ 
