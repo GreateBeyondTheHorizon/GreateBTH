@@ -26,7 +26,22 @@ ServerEvents.recipes(event => {
 			B:'gtceu:treated_wood_plate',
 			C:'gtceu:mv_machine_casing',
 			D:'gtceu:micro_processor',
-            E:'gtceu:mv_robot_arm'
+            E:'gtceu:lv_robot_arm'
 		}
+	)
+
+	event.shaped(
+        Item.of('toms_storage:ts.inventory_cable_connector', 1),
+        [ 
+            ' D ', 
+            'BAB',
+            ' C ', 
+        ],
+        {
+			A:'gtceu:lv_robot_arm',
+			B:'gtceu:treated_wood_plate',
+			C:'gtceu:iron_screw',
+            D:'gtceu:micro_processor',
+        }
 	)
 })
