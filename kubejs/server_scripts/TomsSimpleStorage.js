@@ -30,6 +30,21 @@ ServerEvents.recipes(event => {
 		}
 	)
 
+	event.shaped(
+        Item.of('toms_storage:ts.inventory_cable_connector', 1),
+        [ 
+            ' D ', 
+            'BAB',
+            ' C ', 
+        ],
+        {
+			A:'gtceu:lv_robot_arm',
+			B:'gtceu:treated_wood_plate',
+			C:'gtceu:iron_screw',
+            D:'gtceu:micro_processor',
+        }
+	)
+
 	event.recipes.createMechanicalCrafting(
 		Item.of('toms_storage:ts.storage_terminal', 1),
 		[ 
