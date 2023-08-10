@@ -29,4 +29,25 @@ ServerEvents.recipes(event => {
             E:'gtceu:mv_robot_arm'
 		}
 	)
+
+	event.recipes.createMechanicalCrafting(
+		Item.of('toms_storage:ts.storage_terminal', 1),
+		[ 
+            'ABCBA',
+			'BFDFB',
+			'CDEDC',
+			'BFDFB',
+			'ABCBA',
+		],
+		{
+			A:'minecraft:crafting_table',
+			B:'ironchest:iron_chest',
+			C:'gtceu:mv_conveyor_module',
+			D:'toms_storage:ts.inventory_cable',
+            E:'#forge:circuits/mv',
+            F:'toms_storage:ts.inventory_cable_connector',
+			
+
+		}
+	)
 })
