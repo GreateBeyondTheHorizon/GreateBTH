@@ -31,7 +31,7 @@ ServerEvents.recipes(event => {
     
     //Terminal
 	event.recipes.createMechanicalCrafting(
-		Item.of('toms_storage:ts.storage_terminal', 1),
+		Item.of('toms_storage:ts.crafting_terminal', 1),
 		[ 
             'ABCBA',
 			'BFDFB',
