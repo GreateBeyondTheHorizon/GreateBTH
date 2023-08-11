@@ -74,4 +74,8 @@ StartupEvents.registry('item', event => {
 
 	event.create('bed_base').displayName('Bed Base')
 	event.create('mattress').displayName('Mattress')
+
+	//compass
+	event.create('empty_compass').displayName('Empty Compass')
+
 })
