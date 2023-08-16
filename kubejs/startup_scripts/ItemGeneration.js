@@ -61,6 +61,29 @@ StartupEvents.registry('item', event => {
 	event.create('incomplete_storage_cell', 'create:sequenced_assembly').displayName('Incomplete Storage Cell')
 	event.create('incomplete_storage_component', 'create:sequenced_assembly').displayName('Incomplete Storage Component')
 	
+	// Ad Astra
+	// Stainless Steel
+	event.create('stainless_steel_engine')
+	event.create('stainless_steel_fin')
+	event.create('stainless_steel_cone')
+	
+	// Tungsten Steel
+	event.create('tungsten_steel_engine')
+	event.create('tungsten_steel_fin')
+	event.create('tungsten_steel_cone')
+	
+	// HSS-E
+	event.create('hsse_engine')
+	event.create('hsse_fin')
+	event.create('hsse_cone')
+	
+	// Trinium
+	event.create('trinium_engine')
+	event.create('trinium_fin')
+	event.create('trinium_cone')
+	
+	
+	
 	// misc
 	event.create('unf_turtle_helmet').displayName('Turtle Helmet Shell')
 	event.create('netherite_plate').displayName('Netherite Plate')
