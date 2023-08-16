@@ -1,9 +1,6 @@
-//priority: -1
+//priority: 0
 
 ServerEvents.recipes(event => {
-	
-	// #region removal
-	
 	event.remove({ output: 'minecraft:netherite_ingot' })
 	event.remove({ output: '#minecraft:planks' })
 	event.remove({ output: 'minecraft:stick' })
@@ -16,8 +13,13 @@ ServerEvents.recipes(event => {
 	event.remove({ output: 'minecraft:smoker' })
 	event.remove({ output: 'minecraft:ender_chest' })
 	event.remove({ output: 'minecraft:barrel' })
-	
+	event.remove({ output: 'minecraft:shield' })
+	event.remove({ output: '#minecraft:boats' })
+	event.remove({ output: 'minecraft:minecart' })
+
 var planks = ['minecraft:acacia_planks', 'minecraft:oak_planks', 'minecraft:birch_planks', 'minecraft:spruce_planks','minecraft:dark_oak_planks', 'minecraft:mangrove_planks', 'minecraft:jungle_planks', 'minecraft:warped_planks', 'minecraft:crimson_planks', 'gtceu:rubber_planks'];
+var boats = ['minecraft:acacia_boat', 'minecraft:oak_boat', 'minecraft:birch_boat', 'minecraft:spruce_boat', 'minecraft:dark_oak_boat', 'minecraft:mangrove_boat', 'minecraft:jungle_boat' ]
+var chestboats = ['minecraft:acacia_chest_boat', 'minecraft:oak_chest_boat', 'minecraft:birch_chest_boat', 'minecraft:spruce_chest_boat', 'minecraft:dark_oak_chest_boat', 'minecraft:mangrove_chest_boat', 'minecraft:jungle_chest_boat' ]
 var logs = ['#minecraft:acacia_logs', '#minecraft:oak_logs', '#minecraft:birch_logs', '#minecraft:spruce_logs', '#minecraft:dark_oak_logs', '#minecraft:mangrove_logs', '#minecraft:jungle_logs', '#minecraft:warped_stems','#minecraft:crimson_stems', 'gtceu:rubber_log'  ]	
 
 //addition
@@ -73,6 +75,38 @@ var logs = ['#minecraft:acacia_logs', '#minecraft:oak_logs', '#minecraft:birch_l
 		
 	}
 	
+	while (j < boats.length){
+		event.shaped(
+	Item.of(boats[j], 1),
+	[
+		'ABA',
+		'AAA',
+		'   '
+	],
+	{
+		A: planks[j],
+		B:'#forge:tools/saws'
+	}
+	)
+	
+	event.shaped(
+	Item.of(chestboats[j], 1),
+	[
+		' C ',
+		'BDB',
+		' A '
+	],
+	{
+		A:  boats[j],
+		B: 'gtceu:iron_screw',
+		C: '#forge:tools/screwdrivers',
+		D: 'minecraft:chest'
+	}
+	)
+	
+		j++
+	}
+	
 	event.shaped(
 	Item.of('minecraft:chest'),
 	[
@@ -87,7 +121,6 @@ var logs = ['#minecraft:acacia_logs', '#minecraft:oak_logs', '#minecraft:birch_l
 		D:'gtceu:wood_frame'
 	}
 	)
-            i++
 			event.shaped(Item.of('minecraft:furnace', 1), [
                     'PFP',
                     'FPF',
@@ -155,8 +188,10 @@ event.shaped(
 		B:'gtceu:wood_plate',
 		D:'gtceu:wood_frame'
 	}
-	)		
-	event.shaped('kubejs:flint_saw',
+	)
+
+	
+event.shaped('kubejs:flint_saw',
 	[
 		'AAB',
 		'CDB',
@@ -169,4 +204,30 @@ event.shaped(
 		D:'#forge:tools/hammers'
 	}
 	)
+	
+	event.shaped(
+	Item.of('minecraft:shield'),
+	[
+		'ABA',
+		'AAA',
+		' A '
+	],
+	{
+		A: '#minecraft:logs',
+		B: 'gtceu:stainless_steel_double_plate'
+	}
+	)
+	
+	event.shaped(
+	Item.of('minecraft:minecart'),
+	[
+		'A A',
+		'AAA',
+		'   '
+	],
+	{
+		A: 'gtceu:steel_double_plate'
+	}
+	)
+	
 })
