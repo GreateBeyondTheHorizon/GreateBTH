@@ -73,4 +73,25 @@ ServerEvents.recipes(event => {
       F:'gtceu:aluminium_small_gear',
     }
 	)
+  // steam engine
+    event.recipes.createMechanicalCrafting(
+		Item.of('create:steam_engine', 1),
+		[ 
+      ' BHB ',
+      ' BDB ',
+      ' GCG ',
+      ' EAF ',
+      ' GGG ',
+		],
+		{
+      A: 'gtceu:hv_machine_casing',
+      B: 'gtceu:stainless_steel_rod',
+      C: 'gtceu:stainless_steel_quadruple_fluid_pipe',
+      D: 'gtceu:stainless_steel_frame',
+      E: 'gtceu:hv_electric_pump',
+      F: 'gtceu:hv_fluid_regulator',
+      G: 'gtceu:stainless_steel_plate',
+      H: 'gtceu:hv_electric_piston',
+    }
+	)
 })
