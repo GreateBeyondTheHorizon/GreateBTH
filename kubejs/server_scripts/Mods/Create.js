@@ -1,5 +1,17 @@
 ServerEvents.recipes(event => {
 
+  var removed = [
+    'water_wheel',
+    'large_water_wheel',
+    'andesite_casing',
+    'windmill_bearing',
+    'steam_engine',
+  ]
+
+  removed.forEach(item => {
+    event.remove({output: `create:${item}`})
+  })
+
   event.remove({ output: 'create:iron_sheet'})
   event.remove({ output: 'create:brass_sheet'})
   event.remove({ output: 'create:copper_sheet'})
