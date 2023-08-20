@@ -2,70 +2,69 @@ ServerEvents.recipes(event => {
 	//removal
 	event.remove({output: 'minecraft:piston'})
 
+   
+	event.shaped(
+        Item.of( 'minecraft:piston', 9),
+        [ 
+          'DDD', 
+          'ABA',
+          'ECE'  
+        ],
+        {
+          A: '#forge:cobblestone',
+          B: 'gtceu:naquadah_alloy_frame',
+          C: 'gtceu:red_alloy_plate',
+          D: 'gtceu:treated_wood_plate',
+          E: 'gtceu:naquadah_spring'
+        }
+        )
+   
+        event.shaped(
+          Item.of( 'minecraft:piston', 6),
+          [ 
+            'DDD', 
+            'ABA',
+            'ECE'  
+          ],
+          {
+            A: '#forge:cobblestone',
+            B: 'gtceu:titanium_frame',
+            C: 'gtceu:red_alloy_plate',
+            D: 'gtceu:treated_wood_plate',
+            E: 'gtceu:kanthal_spring'
+          }
+          )
 
-    let pistonIngot = ['gtceu:iron_gear', 'gtceu:aluminium_gear', 'gtceu:stainless_steel_gear', 'gtceu:titanium_gear']
-
-
-   
-	event.shaped(
-        Item.of( 'minecraft:piston', 6),
-        [ 
-          'DDD', 
-          'ABA',
-          'ACA'  
-        ],
-        {
-          A: '#forge:cobblestone',
-          B:  pistonIngot[3],
-          C: 'gtceu:red_alloy_plate',
-          D: 'gtceu:treated_wood_planks',
-        }
-        )
-   
-	event.shaped(
-        Item.of( 'minecraft:piston', 4),
-        [ 
-          'DDD', 
-          'ABA',
-          'ACA'  
-        ],
-        {
-          A: '#forge:cobblestone',
-          B:  pistonIngot[2],
-          C: 'gtceu:red_alloy_plate',
-          D: 'gtceu:treated_wood_planks',
-        }
-        )
-   
-	event.shaped(
-        Item.of( 'minecraft:piston', 2),
-        [ 
-          'DDD', 
-          'ABA',
-          'ACA'  
-        ],
-        {
-          A: '#forge:cobblestone',
-          B:  pistonIngot[1],
-          C: 'gtceu:red_alloy_plate',
-          D: 'gtceu:treated_wood_planks',
-        }
-        )
-   
-	event.shaped(
-        Item.of( 'minecraft:piston', 1),
-        [ 
-          'DDD', 
-          'ABA',
-          'ACA'  
-        ],
-        {
-          A: '#forge:cobblestone',
-          B:  pistonIngot[0],
-          C: 'gtceu:red_alloy_plate',
-          D: 'gtceu:treated_wood_planks',
-        }
-        )
+          event.shaped(
+            Item.of( 'minecraft:piston', 3),
+            [ 
+              'DDD', 
+              'ABA',
+              'ECE'  
+            ],
+            {
+              A: '#forge:cobblestone',
+              B: 'gtceu:aluminium_frame',
+              C: 'gtceu:red_alloy_plate',
+              D: 'gtceu:treated_wood_plate',
+              E: 'gtceu:aluminium_spring'
+            }
+            )
+            event.shaped(
+              Item.of( 'minecraft:piston', 1),
+              [ 
+                'DDD', 
+                'ABA',
+                'ECE'  
+              ],
+              {
+                A: '#forge:cobblestone',
+                B: 'gtceu:bronze_frame',
+                C: 'gtceu:red_alloy_plate',
+                D: 'gtceu:treated_wood_plate',
+                E: 'gtceu:tin_spring'
+              }
+              )
 
 
 	
