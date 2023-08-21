@@ -4,9 +4,18 @@
 	filename: "tier_8__zpmv__zpms"
 	group: ""
 	icon: "gtceu:mv_machine_casing"
-	id: "29A5DCA964E1BB34"
-	order_index: 3
+	id: "1FD96E480F6AE05E"
+	order_index: 9
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "011326679C2AAB26"
+		tasks: [{
+			id: "1637E8B12136BFA8"
+			item: "minecraft:stone"
+			type: "item"
+		}]
+		x: 1.5d
+		y: -1.5d
+	}]
 	title: "Tier 8 - ZMPV / ZMPS"
 }

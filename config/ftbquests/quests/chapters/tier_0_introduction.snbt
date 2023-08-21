@@ -5,7 +5,7 @@
 	group: ""
 	icon: "minecraft:oak_log"
 	id: "0F78600D25DF2B7E"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{

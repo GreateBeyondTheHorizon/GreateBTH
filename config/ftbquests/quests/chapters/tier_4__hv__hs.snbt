@@ -4,9 +4,18 @@
 	filename: "tier_4__hv__hs"
 	group: ""
 	icon: "gtceu:mv_machine_casing"
-	id: "29A5DCA964E1BB34"
-	order_index: 3
+	id: "5D8C0BAE977133AD"
+	order_index: 5
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "7C67F6E5CB06DC0B"
+		tasks: [{
+			id: "2798536383B1427F"
+			item: "minecraft:stone"
+			type: "item"
+		}]
+		x: 1.5d
+		y: -1.5d
+	}]
 	title: "Tier 4 - HV / HS"
 }
