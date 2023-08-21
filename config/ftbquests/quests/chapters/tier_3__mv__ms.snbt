@@ -5,8 +5,17 @@
 	group: ""
 	icon: "gtceu:mv_machine_casing"
 	id: "30AE5F0BA25CDB56"
-	order_index: 14
+	order_index: 4
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "34F978A6254F4CCE"
+		tasks: [{
+			id: "4BF6146DB0D7E73E"
+			item: "minecraft:stone"
+			type: "item"
+		}]
+		x: 1.5d
+		y: -1.5d
+	}]
 	title: "Tier 3 - MV / MS"
 }
