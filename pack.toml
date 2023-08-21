@@ -1,12 +1,12 @@
 name = "GreateBTH"
 author = "Greators of Greate"
-version = "1.0.0"
+version = "0.0.2"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "e28cca287d762604a3128ae81fc0b2bfac03a780229390010432a7a9d373128a"
+hash = "25efd778c6a4a8299dfc5156b8cab6976b9aa2df720cf3f6ad3388ee6c0b0cbb"
 
 [versions]
 forge = "43.2.21"
