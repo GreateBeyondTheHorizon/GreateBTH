@@ -1,0 +1,13 @@
+name = "GreateBTH"
+author = "Greators of Greate"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "e28cca287d762604a3128ae81fc0b2bfac03a780229390010432a7a9d373128a"
+
+[versions]
+forge = "43.2.21"
+minecraft = "1.19.2"
