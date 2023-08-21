@@ -5,10 +5,6 @@ file = "CONTRIBUTING.md"
 hash = "2cba07446c485192abe095e2c04f2a250a97f9783cc4a60499e02785ac59f8e2"
 
 [[files]]
-file = "Greate"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
 file = "config/EnderStorage.cfg"
 hash = "ee18dee1a8206cc3853e156102d70038554a4d0e30937e1e8145ef49086d0670"
 
