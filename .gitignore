@@ -1,8 +1,20 @@
 /*
 !.gitignore
-!README.md
+!.gitattributes
+
+# config
 !/config
 !/defaultconfigs
 !/kubejs
 !/modernfix
 !/packmenu
+
+# md
+!README.md
+!CONTRIBUTING.md
+
+# packwiz
+!packwiz.exe
+!.packwizignore
+!index.toml
+!pack.toml
