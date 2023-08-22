@@ -3,3 +3,10 @@
 # mods
 !/mods
 /mods/*.jar
+
+# configs
+!/config
+!/defaultconfigs
+!/kubejs
+!/modernfix
+!/packmenu
