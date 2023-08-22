@@ -1,11 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "mods/ad-astra.pw.toml"
-hash = "e400fdf1973bf6db16c58704683d2fb3b9bb8c842bec2b231b3ba6b457f55fef"
-metafile = true
-
-[[files]]
 file = "config/EnderStorage.cfg"
 hash = "ee18dee1a8206cc3853e156102d70038554a4d0e30937e1e8145ef49086d0670"
 
@@ -1054,6 +1049,11 @@ file = "modernfix/structureCacheV1/terralith_village_fortified_terminators_term3
 hash = "839db0e0395f742093408839acf631ac88c1327ba01024ae34ed79281f9736d4"
 
 [[files]]
+file = "mods/ad-astra.pw.toml"
+hash = "e400fdf1973bf6db16c58704683d2fb3b9bb8c842bec2b231b3ba6b457f55fef"
+metafile = true
+
+[[files]]
 file = "mods/ai-improvements.pw.toml"
 hash = "7625fd02a8edcfaf66ae149456ba29e237a4740b6f2540fd2886a0ecaca189b7"
 metafile = true
@@ -1487,3 +1487,59 @@ metafile = true
 file = "mods/toms-storage.pw.toml"
 hash = "ce553d5730bb38c3d66db2c3e9e312aa5abd45b5cab37fd7a9b759fe8ac97883"
 metafile = true
+
+[[files]]
+file = "packmenu/resources/assets/packmenu/buttons/accessibility.json"
+hash = "f21c04094a118586ff2fa3450b8e0ca17cc5056fc0bb1a8261cb0a869087ef57"
+
+[[files]]
+file = "packmenu/resources/assets/packmenu/buttons/language.json"
+hash = "24c829a070082fa2f8e610cb64b7a25153818bbd746d08b9f15bf02fca45f31d"
+
+[[files]]
+file = "packmenu/resources/assets/packmenu/buttons/mods.json"
+hash = "6967d125a52448c89cd6347b4144ea9005cd91a48b591da1f67699070df72d60"
+
+[[files]]
+file = "packmenu/resources/assets/packmenu/buttons/multiplayer.json"
+hash = "4e82aabc87487cc78fbfb2a60765f40403f4093c11155d548de082382a68370d"
+
+[[files]]
+file = "packmenu/resources/assets/packmenu/buttons/options.json"
+hash = "eb0f1f6ba3460e0f7701273e224cda6beba4c0547b20fe8d8eba9ea57f05e7bc"
+
+[[files]]
+file = "packmenu/resources/assets/packmenu/buttons/quit.json"
+hash = "edde154f1f57934cbc0b79c4d2e813a79e7f4f4b83e57473f43152e7412ae062"
+
+[[files]]
+file = "packmenu/resources/assets/packmenu/buttons/reloadbutton.json"
+hash = "5e70b73adeacd65631abdacadb68a001457d66ff2e0f9aaf128dfa2016f25bdc"
+
+[[files]]
+file = "packmenu/resources/assets/packmenu/buttons/singleplayer.json"
+hash = "dc1a702d5a568acb069dec18516febe368cba5b24b93cd8cb61c7bfcf95cea1a"
+
+[[files]]
+file = "packmenu/resources/assets/packmenu/lang/en_us.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "packmenu/resources/assets/packmenu/textures/gui/background.png"
+hash = "fd4ed1989ac0928e0e6ff5349e5705eab0224f242294e9efc6d0f19043170d7b"
+
+[[files]]
+file = "packmenu/resources/assets/packmenu/textures/gui/reload.png"
+hash = "c0a17c3fa592833475a1c73c35fe7a08d6aa76357272c0e039d8bdd7b22f0a11"
+
+[[files]]
+file = "packmenu/resources/assets/packmenu/textures/gui/widgets.png"
+hash = "26a3d4b8a23b75fdb7a0c5e8b7835ce8bdf98873a81695dde9f7010845edfe8b"
+
+[[files]]
+file = "packmenu/resources/pack.mcmeta"
+hash = "c92d7a6dc58ca7168bda2dfc3cc0a5acde7af7a4d2134ec54d2014ecf47d9928"
+
+[[files]]
+file = "packmenu/resources/pack.png"
+hash = "db4ba9188052b75c67fe536e5e7fc127499611abcb98b3542cf79a450fa13ece"
