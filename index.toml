@@ -1,6 +1,11 @@
 hash-format = "sha256"
 
 [[files]]
+file = "mods/ad-astra.pw.toml"
+hash = "e400fdf1973bf6db16c58704683d2fb3b9bb8c842bec2b231b3ba6b457f55fef"
+metafile = true
+
+[[files]]
 file = "mods/ai-improvements.pw.toml"
 hash = "7625fd02a8edcfaf66ae149456ba29e237a4740b6f2540fd2886a0ecaca189b7"
 metafile = true
@@ -43,6 +48,11 @@ metafile = true
 [[files]]
 file = "mods/better-advancements.pw.toml"
 hash = "6d5097ecaf832199d5a8eb0d28bf7869134b54f93fd0999b7bdfe0129716c720"
+metafile = true
+
+[[files]]
+file = "mods/botarium.pw.toml"
+hash = "99192cbb2aa5019f9064cfbe02c069a74b12b060f40a927c1654b2a7680ed4c1"
 metafile = true
 
 [[files]]
@@ -173,6 +183,11 @@ metafile = true
 [[files]]
 file = "mods/ftb-teams-forge.pw.toml"
 hash = "c0405f2f156703f6c5a181c18e96dfdbad8760c04ff3be8c088853c7b14572df"
+metafile = true
+
+[[files]]
+file = "mods/greate.pw.toml"
+hash = "64b335182fce1d649336a07de3d7f798757b6786d1858c57ad509d8680eb4163"
 metafile = true
 
 [[files]]
@@ -351,6 +366,16 @@ hash = "73a886e89a6a76a9f4a3959d901e6a9e94d80913ac041b1b40b5be2743e9b81f"
 metafile = true
 
 [[files]]
+file = "mods/productivebees.pw.toml"
+hash = "2837d634f0cda64b0a88c6e7e0c6b4aad58094cd6bd84966bd617bf015b2368e"
+metafile = true
+
+[[files]]
+file = "mods/resourceful-config.pw.toml"
+hash = "72f912e9893c002b994da409e5114078180139bfea729785859b1887ba5de3fe"
+metafile = true
+
+[[files]]
 file = "mods/resourceful-lib.pw.toml"
 hash = "248562f7717f02d954ea1b73c03033a666db6f5c9156f331cb0287869626d6da"
 metafile = true
@@ -408,4 +433,9 @@ metafile = true
 [[files]]
 file = "mods/toast-control.pw.toml"
 hash = "8ff48d18f2fbe8df674dcd79aabcece27808667c270401b06ac10c97d7552990"
+metafile = true
+
+[[files]]
+file = "mods/toms-storage.pw.toml"
+hash = "ce553d5730bb38c3d66db2c3e9e312aa5abd45b5cab37fd7a9b759fe8ac97883"
 metafile = true
