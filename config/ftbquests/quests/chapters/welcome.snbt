@@ -1,0 +1,20 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome"
+	group: ""
+	id: "43EA881302CDF436"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "6F8B816485AFB150"
+		tasks: [{
+			id: "64F4E564EBA3971C"
+			title: "Welcome To Greate: Beyond The Horizon!"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Welcome"
+}

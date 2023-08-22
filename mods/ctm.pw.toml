@@ -1,0 +1,13 @@
+name = "ConnectedTexturesMod"
+filename = "CTM-1.19.2-1.1.6+8.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "50e8eb2e6266dcdebb4e60dbc26f526ed06e636c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4393695
+project-id = 267602
