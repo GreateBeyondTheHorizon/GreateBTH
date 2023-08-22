@@ -1,6 +1,6 @@
 ServerEvents.recipes(event => {
 
-   // event.remove({ output:  /gtceu:(.*)_crushed_ore/ })
+    event.remove({ output:  /gtceu:(.*)_crushed_ore/ })
 	event.remove({output: /create:crushed_raw_(.*)/})
 
 
@@ -11,7 +11,7 @@ ServerEvents.recipes(event => {
     const material = ['gold', 'iron', 'copper']
     
     //Greg:
-    const gregMaterial = ['aluminium']
+    const gregMaterial = ['aluminium','beryllium','cobalt','lead','lithium','molybdenum','neodymium','nickel','palladium','platinum','plutonium','silver','sulfur','thorium','tin','naquadah','asbesutos','hematite','geothite','calcite','cassiterite','cassiterite_sand','chalcopyrite','chromite','cobaltite','cooperite','galena','garnierite','ilmenite','bauxite','magnesite','magnetite','molybdenite','powellite','pyrite','pyrolusite','saltpeter','scheelite','tantalite','sphalerite','stibnite','tetrahedrite','tungstate','uraninite','wulfenite','yellow_limonite','graphite','bornite','chalcocite','bastnasite','pentlandite','spodumene','lepidolite','glauconite_sand','mica','barite','alunite','talc','soapstone','kyanite','pyrochlore','oilsands','tricalcium_phosphate','vanadium_magnetite','pollucite','bentonite','fullers_earth','pitchblende','trona','gypsum','zeolite','redstone','electrotine','diatomite','granitic_mineral_sand','garnet_sand','basaltic_mineral_sand']
 
     //Minecraft
     let i = 0;
