@@ -145,116 +145,52 @@ file = "config/ftbquests/quests/chapter_groups.snbt"
 hash = "71c2439893073304b31f455f5cdfcd6f5cfa5b333bec64ce66ee148463ede1e2"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/ad_astra.snbt"
-hash = "136615579e3168928d96c4a7ba6b3d58dde476674a5ef8f96a5c289db4fce219"
+file = "config/ftbquests/quests/chapters/tier_0_introduction.snbt"
+hash = "c5975ac1d364b467396d418c28dbd586bb9cbe4060e9a0e4673a0263563a92a6"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/applied_energistics_2.snbt"
-hash = "400342264d1d75ae2c5f46bad26be54a66d0186514f96e5c5be56b07418305ba"
+file = "config/ftbquests/quests/chapters/tier_10__maxv__maxs.snbt"
+hash = "83ad471a29142d67ac6c504fb8214275c4fb1863db304bf13733a0a805d3f705"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/botanical_garden_of_wonders.snbt"
-hash = "252eace83a4a63d437be93fc44290adff48e626ebbc9098fc7ce0bb7f9930aa7"
+file = "config/ftbquests/quests/chapters/tier_1_ulv_uls.snbt"
+hash = "8f53b57d51a70c38ea97847d6cd78174249571fa7008e41991e11b9d22981a1b"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/enderio.snbt"
-hash = "5d803cbf1dd58e390e6c55b0329a4f61402b8a4acdea7334c71e4efc18aa1e19"
+file = "config/ftbquests/quests/chapters/tier_2__lv__ls.snbt"
+hash = "34ed8485e36e98ca8fea22f8f58c447ba65fbf002b08273b20689360b4a47f0a"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/evs_titanic_workload.snbt"
-hash = "1d90965258a2f42c814db62b0851e8bb30375522029115762fd9ab2bcea59692"
+file = "config/ftbquests/quests/chapters/tier_3__mv__ms.snbt"
+hash = "b2d26f95086d178d627f5e0b254c3e9da16e13ad4022f9c8a48ced5ae0000cd6"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/functional_storagestorage_drawers.snbt"
-hash = "9ba706d67b9e0fdb72517b0a451a47b5a287862388d8774fd58b72753e7996c0"
+file = "config/ftbquests/quests/chapters/tier_4__hv__hs.snbt"
+hash = "cfeff68c8e944e682d2b57dd1beb5b38b8f570c3e51719a1bb355e7c2b86481b"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/hvs_automated_suffering.snbt"
-hash = "b155450e6d885c92b9683a194e8de37db64fe2711f5b2df7b77c4430ca0bb72f"
+file = "config/ftbquests/quests/chapters/tier_5__ev__es.snbt"
+hash = "5a7f01611a28741e49858a96a9cb88565eff2d083c2f25b584fe789a906c1170"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/i_wanna_beawitch.snbt"
-hash = "2ccdf9a49658a4ae995fb2f9383ec8d6b8e7403aec840fec5c133139af76f49b"
+file = "config/ftbquests/quests/chapters/tier_6__iv__is.snbt"
+hash = "7d4e3b9d4812c705f874d644852d77aef3ef683e6bca3b95124dec492fd12872"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/integrated_dynamics.snbt"
-hash = "82fe7ecc57165b92257d29a7ae659f810cd6cf21ad68d5b8c57e88cf6ef2d2ea"
+file = "config/ftbquests/quests/chapters/tier_7__luv__lus.snbt"
+hash = "7a5725d2cbbe802259d22f073d5cb63053d06285dbf8bd264324e9b5b3770be4"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/it_sparks_it_sparks.snbt"
-hash = "ec428cea1201e3ec74c960f95ef3f4e74e0a07ec57a32093c815d1d49d0b23da"
+file = "config/ftbquests/quests/chapters/tier_8__zpmv__zpms.snbt"
+hash = "480a0232204b633fc071453d5c638c1e6d1a090a38caa419cf5844ea7ecb564d"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/ivs_gregically_correct.snbt"
-hash = "fb87aba0b2c73a671b8dddf44d2d1a79e8ba9d51964e263442b11cedadba961d"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/laserio.snbt"
-hash = "a7463e6c1b51cccabfedf7a3c61142175d1f6375f23c01a337a70dd7d04070af"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/luvs_fission_for_answers.snbt"
-hash = "c20c257454b855db98106a5d0874c4d358b5e5c47ca81ef888aa71b0f88a0b0c"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/lvs_rudimentary_machinery.snbt"
-hash = "889b151e72230bd648ebd103da8eb8872063da29fd8a481fd08d5eced22801c8"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/maxvs_the_end_is_nigh.snbt"
-hash = "e683afda6ec0ed090e279410412ef0f45fd9e3e6b7ed71a3161f0a156a477a4d"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/mvs_getting_a_proper_upgrade.snbt"
-hash = "438ee19d1e6b34a00b5866c2c2f0a74bb56f2b9f660fbf2460f72623e7fdc1ec"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/mystical_agriculture.snbt"
-hash = "5d3043e028f200c7c18ec3882b7d4b4f9def9ddfa457d46b15178e7fcc4e990f"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/pams_harvestcraft_2.snbt"
-hash = "64bae3438ebe0aaec062a68c8ab1f349485dcefcaf6cd2780830e0e92f44f65b"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/pretty_pipes.snbt"
-hash = "0ad7fe5f3e69b36b8c7ef15af17cfe1cab2a436838dac14db855a12e82359dec"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/stressed_out.snbt"
-hash = "73fd9a13e23a627d677386c82e36f3ce0cdeb52254ba9fef340574c50eecd956"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/twilight_forest.snbt"
-hash = "33a0f11852df01c83146c6f456820d84fc2be6838bfc1d4281ba060382212fcd"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/ulss_humble_beginnings.snbt"
-hash = "44cb75e78f2494c58605b548c1b6b1753276eeda8c6d85d38485ca78ea6c201b"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/uvs_fused_circuitry.snbt"
-hash = "7a7fbca9c9325155252f2bc94fe942268587825fc3307e7cafb92e88bbb27f08"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/welcome.snbt"
-hash = "4b0a48875d88f596d8b74680ef6f345ee7a7a828583f856f59ac9f7b281287bc"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/what_is_this_and_how_do_i_get_rid_of_it.snbt"
-hash = "59f44b4636e415fe0d2799cef4f56db82b4615a66432ee74ab18b786ac2f39f3"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/xnet.snbt"
-hash = "f06b46192800f052d65709d2aff3b7b86aa5981c2673b2809dac4c341f06a6b3"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/zpmvs_power_of_the_sun.snbt"
-hash = "cf3b03f1af599d8b14274e7c291c688cf96ea0fa26e1b0accee8ec0978beae0c"
+file = "config/ftbquests/quests/chapters/tier_9__uhv__uhs.snbt"
+hash = "a18bb89d2b9ac988f2e67e51cfda68f182c50b742fa7d5fc4114bdb2c54b49a3"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
-hash = "e6d92125e2c9ae7422b5ed5708822268cbf623c591bc3db69cf3aba008424177"
+hash = "0fd264b4ff9533ce77c33b3079ccc4a37d642db85324e8ba3cb8b75843fcfbb2"
 
 [[files]]
 file = "config/gtceu.yaml"
@@ -963,10 +899,6 @@ hash = "10c6c6653c9ccc7cf2d204fed53cb303ee65a5c98b16f8225b27c262c8bb9c2c"
 [[files]]
 file = "kubejs/server_scripts/Vanilla.js"
 hash = "251b672c3ee0daf015e322a99ebc5eaa2e6c77c5322c9687a6adee60efd2c4fe"
-
-[[files]]
-file = "kubejs/server_scripts/Wands.js"
-hash = "8f0b533a748e28fd43d3a90bc26f4c1ebcb19c80305a4e3863d90c2a68554c64"
 
 [[files]]
 file = "kubejs/startup_scripts/BlockGeneration.js"
