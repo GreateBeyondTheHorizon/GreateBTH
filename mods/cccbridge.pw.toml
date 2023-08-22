@@ -1,0 +1,13 @@
+name = "CC:C Bridge"
+filename = "cccbridge-mc1.19.2-forge-v1.5.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "dc36f86282f5b61618139d068b99b3a8a0218551"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4632363
+project-id = 656214

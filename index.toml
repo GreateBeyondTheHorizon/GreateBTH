@@ -1,6 +1,21 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/Advancedperipherals/general.toml"
+
+[[files]]
+file = "config/Advancedperipherals/metaphysics.toml"
+
+[[files]]
+file = "config/Advancedperipherals/peripherals-1.toml.bak"
+
+[[files]]
+file = "config/Advancedperipherals/peripherals.toml"
+
+[[files]]
+file = "config/Advancedperipherals/world.toml"
+
+[[files]]
 file = "config/EnderStorage.cfg"
 
 [[files]]
@@ -23,6 +38,9 @@ file = "config/NoChatReports/NCR-ServerWhitelist.json"
 
 [[files]]
 file = "config/NoChatReports/README.md"
+
+[[files]]
+file = "config/ad_astra.toml"
 
 [[files]]
 file = "config/ae2/client.json"
@@ -53,6 +71,9 @@ file = "config/ccl.cfg"
 
 [[files]]
 file = "config/colorfulhearts.toml"
+
+[[files]]
+file = "config/computercraft-client.toml"
 
 [[files]]
 file = "config/constructionwand-client.toml"
@@ -145,6 +166,9 @@ file = "config/ftbquests/quests/chapters/tier_9__uhv__uhs.snbt"
 file = "config/ftbquests/quests/data.snbt"
 
 [[files]]
+file = "config/greate.yaml"
+
+[[files]]
 file = "config/gtceu.yaml"
 
 [[files]]
@@ -208,6 +232,9 @@ file = "config/modernfix-mixins.properties"
 file = "config/modnametooltip-client.toml"
 
 [[files]]
+file = "config/morered-client.toml"
+
+[[files]]
 file = "config/naturescompass-client.toml"
 
 [[files]]
@@ -230,6 +257,12 @@ file = "config/pamhc2crops.toml"
 
 [[files]]
 file = "config/pamhc2trees.toml"
+
+[[files]]
+file = "config/productivebees-client.toml"
+
+[[files]]
+file = "config/resourceful-config-web.json"
 
 [[files]]
 file = "config/roughlyenoughitems/changelog.txt"
@@ -272,6 +305,9 @@ file = "config/storagedrawers-common.toml"
 
 [[files]]
 file = "config/toastcontrol-common.toml"
+
+[[files]]
+file = "config/toms_storage-common.toml"
 
 [[files]]
 file = "config/twilightforest-client.toml"
@@ -475,72 +511,6 @@ file = "kubejs/config/common.properties"
 file = "kubejs/config/probejs.json"
 
 [[files]]
-file = "kubejs/config/server_scripts/AE2.js"
-
-[[files]]
-file = "kubejs/config/server_scripts/Armor.js"
-
-[[files]]
-file = "kubejs/config/server_scripts/Create.js"
-
-[[files]]
-file = "kubejs/config/server_scripts/Greg.js"
-
-[[files]]
-file = "kubejs/config/server_scripts/IronChest.js"
-
-[[files]]
-file = "kubejs/config/server_scripts/JSONRecipes/AE2/cutting_16k_wafer.js"
-
-[[files]]
-file = "kubejs/config/server_scripts/JSONRecipes/AE2/cutting_1k_wafer.js"
-
-[[files]]
-file = "kubejs/config/server_scripts/JSONRecipes/AE2/cutting_256k_wafer.js"
-
-[[files]]
-file = "kubejs/config/server_scripts/JSONRecipes/AE2/cutting_4k_wafer.js"
-
-[[files]]
-file = "kubejs/config/server_scripts/JSONRecipes/AE2/cutting_64k_wafer.js"
-
-[[files]]
-file = "kubejs/config/server_scripts/JSONRecipes/Greg/Engraver/engraverNaquadah.js"
-
-[[files]]
-file = "kubejs/config/server_scripts/JSONRecipes/Greg/Engraver/engraverNeutronium.js"
-
-[[files]]
-file = "kubejs/config/server_scripts/JSONRecipes/Greg/Engraver/engraverPhosphorus.js"
-
-[[files]]
-file = "kubejs/config/server_scripts/JSONRecipes/Greg/Engraver/engraverSilicon.js"
-
-[[files]]
-file = "kubejs/config/server_scripts/JSONRecipes/Greg/bender.js"
-
-[[files]]
-file = "kubejs/config/server_scripts/SequencedAssembly/AE2sequence.js"
-
-[[files]]
-file = "kubejs/config/server_scripts/SequencedAssembly/HV.js"
-
-[[files]]
-file = "kubejs/config/server_scripts/SequencedAssembly/IntermediateItems.js"
-
-[[files]]
-file = "kubejs/config/server_scripts/SequencedAssembly/LV.js"
-
-[[files]]
-file = "kubejs/config/server_scripts/SequencedAssembly/MV.js"
-
-[[files]]
-file = "kubejs/config/server_scripts/Tags.js"
-
-[[files]]
-file = "kubejs/config/server_scripts/Vanilla.js"
-
-[[files]]
 file = "kubejs/jsconfig.json"
 
 [[files]]
@@ -688,55 +658,11 @@ file = "kubejs/startup_scripts/ItemsModification.js"
 file = "kubejs/startup_scripts/Ores.js"
 
 [[files]]
-file = "modernfix/structureCacheV1/minecraft_village_common_iron_golem_5b4d80daa3.nbt"
-
-[[files]]
-file = "modernfix/structureCacheV1/terralith_ruin_glacial_interior1_177372923e.nbt"
-
-[[files]]
-file = "modernfix/structureCacheV1/terralith_ruin_glacial_interior216_def980a590.nbt"
-
-[[files]]
-file = "modernfix/structureCacheV1/terralith_ruin_glacial_interior2_6dedf627f7.nbt"
-
-[[files]]
-file = "modernfix/structureCacheV1/terralith_underground_old_refinery_8ddf79e31c.nbt"
-
-[[files]]
-file = "modernfix/structureCacheV1/terralith_underground_smallminingoutpost_9f4d2d29ab.nbt"
-
-[[files]]
-file = "modernfix/structureCacheV1/terralith_village_desert_houses_castle_9dae39c679.nbt"
-
-[[files]]
-file = "modernfix/structureCacheV1/terralith_village_fortified_roads_bend1_dfd55ed6fb.nbt"
-
-[[files]]
-file = "modernfix/structureCacheV1/terralith_village_fortified_roads_inter1_4e8fc473da.nbt"
-
-[[files]]
-file = "modernfix/structureCacheV1/terralith_village_fortified_roads_straight1_4a018179f4.nbt"
-
-[[files]]
-file = "modernfix/structureCacheV1/terralith_village_fortified_roads_straight2_bdb2e3e015.nbt"
-
-[[files]]
-file = "modernfix/structureCacheV1/terralith_village_fortified_roads_t1_b9cac66894.nbt"
-
-[[files]]
-file = "modernfix/structureCacheV1/terralith_village_fortified_roads_t2_90cd797569.nbt"
-
-[[files]]
-file = "modernfix/structureCacheV1/terralith_village_fortified_terminators_term1_4e17199e1f.nbt"
-
-[[files]]
-file = "modernfix/structureCacheV1/terralith_village_fortified_terminators_term2_42d9ab04a9.nbt"
-
-[[files]]
-file = "modernfix/structureCacheV1/terralith_village_fortified_terminators_term3_815d826fcc.nbt"
-
-[[files]]
 file = "mods/ad-astra.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/advanced-peripherals.pw.toml"
 metafile = true
 
 [[files]]
@@ -777,6 +703,14 @@ metafile = true
 
 [[files]]
 file = "mods/botarium.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/cc-tweaked.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/cccbridge.pw.toml"
 metafile = true
 
 [[files]]
@@ -965,6 +899,14 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/more-red-x-cc-tweaked-compat.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/more-red.pw.toml"
 metafile = true
 
 [[files]]
