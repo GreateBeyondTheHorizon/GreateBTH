@@ -1,0 +1,13 @@
+name = "ProbeJS"
+filename = "probejs-5.3.0-forge-hotfix.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8e6dc653ddf9ecc235cf78ac249fc89d307bba1f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4658184
+project-id = 585406

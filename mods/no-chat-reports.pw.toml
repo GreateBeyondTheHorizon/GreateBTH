@@ -1,0 +1,13 @@
+name = "No Chat Reports"
+filename = "NoChatReports-FORGE-1.19.2-v1.5.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "476312ba20f6da0a9d4a21b874e41d7efe719d2f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4082456
+project-id = 634062

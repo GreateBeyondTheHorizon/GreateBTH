@@ -1,6 +1,6 @@
 // priority: 0
 ServerEvents.recipes(event => {
-    let rawPhenolicCircBoard = 'kubejs:raw_phenolic_circuit_board'
+  let rawPhenolicCircBoard = 'kubejs:raw_phenolic_circuit_board'
 	let interAdvCirc = 'kubejs:inter_advanced_integrated_circuit'
 	let interMicroProcCirc = 'kubejs:inter_micro_processor_assembly'
 	let rawEpoxyCircBoard = 'kubejs:raw_epoxy_circuit_board'
