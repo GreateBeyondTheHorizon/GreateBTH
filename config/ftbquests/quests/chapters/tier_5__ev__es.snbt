@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier_5__ev__es"
+	group: ""
+	icon: "gtceu:mv_machine_casing"
+	id: "0CEBFA480D11FBE0"
+	order_index: 6
+	quest_links: [ ]
+	quests: [ ]
+	title: "Tier 5 - EV / ES"
+}

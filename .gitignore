@@ -1,10 +1,23 @@
 /*
 !.gitignore
-!README.md
+!.gitattributes
+
+# config
 !/config
 !/defaultconfigs
 !/kubejs
-!/local/ftbchunks/client-config.snbt
-!/local/kubejs
-!/modernfix
 !/packmenu
+
+# mods
+!/mods
+/mods/*.jar
+
+# md
+!README.md
+!CONTRIBUTING.md
+
+# packwiz
+!packwiz
+!.packwizignore
+!index.toml
+!pack.toml

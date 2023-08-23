@@ -2,7 +2,7 @@
 > The quest for balance in a world torn apart by technology.
 
 ![Version](https://img.shields.io/badge/version-0.0.2-blue.svg?cacheSeconds=2592000)
-![Minecraft Version](https://img.shields.io/badge/MC-1.19.2-green)
+![Minecraft Version](https://img.shields.io/badge/MC-1.20.1-green)
 ![Modpack Status](https://img.shields.io/badge/status-early%20development-red)
 
 Welcome to **Greate: Beyond The Horizon**, an immersive Minecraft modpack that combines the best of Create, GregTech, and more! This modpack is currently in the early stages of development.

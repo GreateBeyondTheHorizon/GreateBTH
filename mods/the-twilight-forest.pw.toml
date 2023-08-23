@@ -1,0 +1,13 @@
+name = "The Twilight Forest"
+filename = "twilightforest-1.19.2-4.2.1518-universal.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3b861353a3c6416add4b04bf3f025dd088bc512f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4389567
+project-id = 227639
