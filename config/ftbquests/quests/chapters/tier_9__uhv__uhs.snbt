@@ -5,12 +5,12 @@
 	group: ""
 	icon: "gtceu:mv_machine_casing"
 	id: "42BA1A4AF0D12FED"
-	order_index: 10
+	order_index: 9
 	quest_links: [ ]
 	quests: [{
-		id: "011326679C2AAB26"
+		id: "1A8FDE3785C2CF62"
 		tasks: [{
-			id: "1637E8B12136BFA8"
+			id: "55692E1970F62D9C"
 			item: "minecraft:stone"
 			type: "item"
 		}]

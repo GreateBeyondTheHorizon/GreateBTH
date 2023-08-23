@@ -18,7 +18,7 @@
 #Settings for ArmorStatus HUD
 [armorhud]
 	#Is Armor Damage HUD enabled
-	ArmorDamage = true
+	ArmorDamage = false
 	#Hide if durability is above this (in percentage):
 	#Range: 0 ~ 100
 	armAbove = 100
@@ -50,7 +50,7 @@
 #Settings for Potions HUD
 [potionshud]
 	#Is Potions HUD enabled
-	Potions = true
+	Potions = false
 	#Potion HUD alpha
 	#Range: 0 ~ 100
 	potAlpha = 100
