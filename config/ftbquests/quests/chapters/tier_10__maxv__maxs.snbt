@@ -5,7 +5,7 @@
 	group: ""
 	icon: "gtceu:mv_machine_casing"
 	id: "29A5DCA964E1BB34"
-	order_index: 11
+	order_index: 10
 	quest_links: [ ]
 	quests: [{
 		id: "011326679C2AAB26"

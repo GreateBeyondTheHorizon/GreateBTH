@@ -1,7 +1,7 @@
 // priority: 0
 ServerEvents.recipes(event => {
 	// #region removal
-	const tiers = ['lv', 'mv', /* 'hv', 'ev', 'iv', 'luv', 'zpm', 'uv' */];
+	const tiers = ['lv', 'mv',  'hv', /*'ev', 'iv', 'luv', 'zpm', 'uv' */];
     const components = ['emitter', 'sensor', 'electric_motor', 'electric_piston', 'robot_arm', 'conveyor_module', 'electric_pump', 'fluid_regulator'];
 	event.remove({ output: 'gtceu:lp_steam_furnace'})
     tiers.forEach(tier => {

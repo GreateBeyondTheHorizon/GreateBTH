@@ -25,6 +25,7 @@ StartupEvents.registry('item', event => {
 	event.create('raw_integrated_circuit_board').displayName("Raw Integrated Circuit Board")
 	event.create('raw_phenolic_circuit_board', 'create:sequenced_assembly').displayName("Raw Phenolic Printed Circuit Board")
 	event.create('raw_plastic_circuit_board').displayName("Raw Plastic Printed Circuit Board")
+	event.create('raw_epoxy_circuit_board').displayName("Raw Epoxy Printed Circuit Board")
 	// LV components
 	event.create('inc_lv_motor', 'create:sequenced_assembly').displayName('Incomplete LV Motor')
 	event.create('inc_lv_piston', 'create:sequenced_assembly').displayName('Incomplete LV Piston')
