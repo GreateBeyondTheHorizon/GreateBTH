@@ -7,7 +7,7 @@ ServerEvents.recipes(event => {
 	let interMicroProcCirc = 'kubejs:inter_micro_processor_assembly'
 	let rawEpoxyCircBoard = 'kubejs:raw_epoxy_circuit_board'
 	let interNanoProc = 'kubejs:inter_nano_processor'
-	let incNanoProc = 'kubejs:inc_nano_processor'
+	let incNanoProc = 'kubejs:inc_inter_nano_processor'
 
     
 	event.recipes.createMixing([rawIntegratedCircBoard],
