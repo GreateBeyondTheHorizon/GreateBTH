@@ -19,8 +19,8 @@ StartupEvents.registry('item', event => {
 	event.create('inter_micro_processor_assembly').displayName('Intermediate Micro Processor Assembly')
 	event.create('inc_micro_processor_assembly', 'create:sequenced_assembly').displayName('Incomplete Micro Processor Assembly')
 
+	event.create('inc_inter_nano_processor', 'create:sequenced_assembly').displayName('Incomplete Nano Processor')
 	event.create('inter_nano_processor').displayName('Intermediate Nano Processor')
-	event.create('inc_nano_processor', 'create:sequenced_assembly').displayName('Incomplete Nano Processor')
 	
 	event.create('raw_integrated_circuit_board').displayName("Raw Integrated Circuit Board")
 	event.create('raw_phenolic_circuit_board', 'create:sequenced_assembly').displayName("Raw Phenolic Printed Circuit Board")
