@@ -1,9 +1,0 @@
-
-[Client]
-	#Render centrifuge comb inventory on the block.
-	renderCombsInCentrifuge = true
-	#Render bees inside bee jars.
-	renderBeesInJars = true
-	#Stop bee nest helmets from making sounds.
-	mutedBeeNestHelmet = false
-
