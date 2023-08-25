@@ -86,3 +86,4 @@ ServerEvents.recipes(event => {
 		event.recipes.createDeploying(incNanoProc, [incNanoProc, 'gtceu:electrum_fine_wire']),
 		]).transitionalItem(incNanoProc).loops(2)
 })
+
