@@ -1,6 +1,11 @@
 ServerEvents.recipes(event => {
 
   var removed = [
+    'potato_cannon',
+    'fluid_pipe',
+    'smart_fluid_pipe', 
+    'mechanical_pump',
+    'fluid_valve',
     'water_wheel',
     'large_water_wheel',
     'andesite_casing',
@@ -66,6 +71,21 @@ ServerEvents.recipes(event => {
       E:'create:large_cogwheel',
     }
 	)
+  
+  // potato cannon
+  event.recipes.createMechanicalCrafting(
+		Item.of('create:potato_cannon', 1),
+		[ 
+      'ABCCC',
+      'DD   '
+		],
+		{
+      A:'greate:steel_cogwheel',
+      B:'create:precision_mechanism',
+      C:'gtceu:copper_normal_fluid_pipe',
+      D:'minecraft:copper_ingot',
+    })
+    
   // windmill bearing
     event.recipes.createMechanicalCrafting(
 		Item.of('create:windmill_bearing', 1),
