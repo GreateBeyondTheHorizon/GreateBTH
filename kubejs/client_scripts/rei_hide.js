@@ -1,13 +1,8 @@
 REIEvents.hide('item', event => {
-
-
-  
-
-
-
     //Create
-    const sheet = ['create:iron_sheet','create:brass_sheet','create:copper_sheet','create:golden_sheet']
-    sheet.forEach((element) => event.hide(element));
+    
+    event.hide(/create:(.*)_sheet/)
+    event.hide(/create:crushed_raw_(.*)/)
 
     //Wands
     event.hide('constructionwand:core_angel')
