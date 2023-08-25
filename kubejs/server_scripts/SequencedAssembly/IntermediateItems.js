@@ -1,5 +1,3 @@
-/*
-
 // priority: 0
 ServerEvents.recipes(event => {
   let rawPhenolicCircBoard = 'kubejs:raw_phenolic_circuit_board'
@@ -88,4 +86,4 @@ ServerEvents.recipes(event => {
 		event.recipes.createDeploying(incNanoProc, [incNanoProc, 'gtceu:electrum_fine_wire']),
 		]).transitionalItem(incNanoProc).loops(2)
 })
-*/
+
