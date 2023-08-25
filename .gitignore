@@ -6,7 +6,6 @@
 !/config
 !/defaultconfigs
 !/kubejs
-!/modernfix
 !/packmenu
 
 # mods
@@ -18,7 +17,7 @@
 !CONTRIBUTING.md
 
 # packwiz
-!packwiz.exe
+!packwiz
 !.packwizignore
 !index.toml
 !pack.toml
