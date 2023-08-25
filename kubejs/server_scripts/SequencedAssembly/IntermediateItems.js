@@ -1,11 +1,40 @@
 // priority: 0
 ServerEvents.recipes(event => {
-  let rawPhenolicCircBoard = 'kubejs:raw_phenolic_circuit_board'
+	let rawIntegratedCircBoard = 'kubejs:raw_integrated_circuit_board'
+	let rawPlasticPrintedCircBoard = 'kubejs:raw_plastic_circuit_board'
+  	let rawPhenolicCircBoard = 'kubejs:raw_phenolic_circuit_board'
 	let interAdvCirc = 'kubejs:inter_advanced_integrated_circuit'
 	let interMicroProcCirc = 'kubejs:inter_micro_processor_assembly'
 	let rawEpoxyCircBoard = 'kubejs:raw_epoxy_circuit_board'
 	let interNanoProc = 'kubejs:inter_nano_processor'
-	let incNanoProc = 'kubejs:inc_nano_processor'
+	let incNanoProc = 'kubejs:inc_inter_nano_processor'
+
+    
+	event.recipes.createMixing([rawIntegratedCircBoard],
+		[
+			'gtceu:resin_printed_circuit_board',
+			'gtceu:ilc_chip',
+			Fluid.of('gtceu:tin', 144)
+		]).heated()
+	event.recipes.createMixing([rawIntegratedCircBoard],
+		[
+			'gtceu:resin_printed_circuit_board',
+			'gtceu:ilc_chip',
+			Fluid.of('gtceu:soldering_alloy', 72)
+		]).heated()
+
+	event.recipes.createMixing([rawPlasticPrintedCircBoard],
+		[
+			'gtceu:plastic_printed_circuit_board',
+			'gtceu:cpu_chip',
+			Fluid.of('gtceu:tin', 144)
+		]).heated()
+	event.recipes.createMixing([rawPlasticPrintedCircBoard],
+		[
+			'gtceu:plastic_printed_circuit_board',
+			'gtceu:cpu_chip',
+			Fluid.of('gtceu:soldering_alloy', 72)
+		]).heated()
 
     event.recipes.createSequencedAssembly([
         rawPhenolicCircBoard
@@ -20,6 +49,8 @@ ServerEvents.recipes(event => {
 		event.recipes.createDeploying(rawPhenolicCircBoard, [rawPhenolicCircBoard, '#forge:circuits/lv']),
 		event.recipes.createFilling(rawPhenolicCircBoard, [rawPhenolicCircBoard, Fluid.of('gtceu:tin', 72)])
 		]).transitionalItem(rawPhenolicCircBoard).loops(2)
+
+	
 
 	event.recipes.createMixing([interAdvCirc],
 		[

@@ -26,7 +26,7 @@ ServerEvents.recipes(event => {
         event.recipes.createDeploying(incAdvCirc, [incAdvCirc, 'gtceu:annealed_copper_bolt']),
         ]).transitionalItem(incAdvCirc).loops(4)
 
-            event.recipes.createSequencedAssembly([
+	event.recipes.createSequencedAssembly([
         'gtceu:micro_processor_assembly'
     ],	interMicroProcCirc, [
         event.recipes.createDeploying(incMicroProcCirc, [incMicroProcCirc, 'gtceu:red_alloy_fine_wire']),
