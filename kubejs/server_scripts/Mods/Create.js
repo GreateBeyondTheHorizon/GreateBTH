@@ -11,6 +11,7 @@ ServerEvents.recipes(event => {
     'andesite_casing',
     'windmill_bearing',
     'steam_engine',
+    'belt_connector'
   ]
 
   removed.forEach(item => {
@@ -34,6 +35,17 @@ ServerEvents.recipes(event => {
     'kubejs:unf_turtle_helmet',
     Fluid.of('create:potion', 576, {Bottle:'REGULAR', Potion:'minecraft:water_breathing'})
   ]).heated()
+  
+  // mechanical belts
+  event.recipes.createMixing(Fluid.of('gtceu:rubber', 500), [
+    Item.of('gtceu:raw_rubber_dust', 8),
+    Item.of('gtceu:sulfur_dust', 1)
+  ]).heated()
+
+  event.recipes.createFilling(Item.of('create:belt_connector', 1), [
+      'gtceu:steel_plate',
+      Fluid.of('gtceu:rubber', 250)
+  ])
 
 
   // SU gen
