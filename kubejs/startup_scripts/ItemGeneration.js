@@ -1,7 +1,7 @@
 // Priority: 0
 StartupEvents.registry('item', event => {
 
-	event.create('drinkable_liquid_concrete').displayName('Bucket of Drinkable Liquid Concrete')
+	event.create('drinkable_liquid_concrete').useAnimation("drink").displayName('Bucket of Drinkable Liquid Concrete')
 
 	event.create('inc_mv_circuit', 'create:sequenced_assembly').displayName('Incomplete MV Circuit')
 	//lv circuits
