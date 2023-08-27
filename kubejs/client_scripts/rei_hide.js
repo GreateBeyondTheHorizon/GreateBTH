@@ -18,4 +18,7 @@ REIEvents.hide('item', event => {
 
     // Twilight Forest
     event.hide('twilightforest:uncrafting_table')
+
+    // Ad Astra
+    event.hide(/ad_astra:(.*)_plate/)
   })
