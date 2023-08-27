@@ -107,17 +107,17 @@ ServerEvents.recipes(event => {
 		[ 
       ' C ',
       ' F ',
-      'BCB',
-      'FAF',
+      ' C ',
+      'BAB',
       'DED',
       'DDD',
 		],
 		{
       A: 'gtceu:lv_electric_piston',
-      B: 'gtceu:steel_gear',
+      B: 'gtceu:bronze_gear',
       C: 'greate:steel_shaft',
       D: 'gtceu:bronze_plate',
-      E: 'gtceu:lv_machine_casing',
+      E: 'gtceu:steel_gearbox',
       F: 'gtceu:gold_plate'
     }
 	)
