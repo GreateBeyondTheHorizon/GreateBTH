@@ -15,6 +15,8 @@ ServerEvents.recipes(event => {
 	event.remove({output: '#forge:circuits/mv'}) 
     //hv
 	event.remove({output: '#forge:circuits/hv'}) 
+	
+	event.remove({id: 'gtceu:smelting/sticky_resin_from_slime'}) // <-- random bullshit go!
     
 	
 	event.shaped(
