@@ -59,30 +59,28 @@ ServerEvents.recipes(event => {
       ],
       {
         A:'create:andesite_casing',
-        B:'gtceu:wood_screw',
+        B:'gtceu:bronze_screw',
         C:'gtceu:wood_plate',
         D:'#forge:tools/screwdrivers',
         E:'#forge:tools/files',
       }
   )
   //water wheel large
-    event.recipes.createMechanicalCrafting(
-		Item.of('create:large_water_wheel', 1),
-		[ 
-      ' CDC ',
-      'CEBEC',
-      'DBABD',
-      'CEBEC',
-      ' CDC ',
-		],
-		{
-      A:'create:water_wheel',
-      B:'gtceu:steel_frame',
-      C:'gtceu:steel_plate',
-      D:'gtceu:wood_frame',
-      E:'create:large_cogwheel',
+  event.shaped(	
+    Item.of('create:large_water_wheel', 1),
+    [
+      'DCE',
+      'CAC',
+      'BCB'
+    ],
+    {
+      A:'create:andesite_casing',
+      B:'gtceu:steel_screw',
+      C:'gtceu:treated_wood_plate',
+      D:'#forge:tools/screwdrivers',
+      E:'#forge:tools/files',
     }
-	)
+  )
   
   // potato cannon
   event.recipes.createMechanicalCrafting(
