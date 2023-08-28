@@ -23,7 +23,7 @@ StartupEvents.registry('item', event => {
 	event.create('inter_nano_processor').displayName('Intermediate Nano Processor')
 	
 	event.create('raw_integrated_circuit_board').displayName("Raw Integrated Circuit Board")
-	event.create('raw_phenolic_circuit_board', 'create:sequenced_assembly').displayName("Raw Phenolic Printed Circuit Board")
+	event.create('raw_phenolic_circuit_board').displayName("Raw Phenolic Printed Circuit Board")
 	event.create('raw_plastic_circuit_board').displayName("Raw Plastic Printed Circuit Board")
 	event.create('raw_epoxy_circuit_board').displayName("Raw Epoxy Printed Circuit Board")
 	// LV components
