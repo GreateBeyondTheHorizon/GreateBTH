@@ -35,6 +35,11 @@ ServerEvents.recipes(event => {
         ],  `greate:${tier}_shaft`, [
             event.recipes.createDeploying(`greate:${tier}_cogwheel`, [`greate:${tier}_cogwheel`, `gtceu:${plates[index]}_plate`])
         ]).transitionalItem(`greate:${tier}_cogwheel`).loops(2)
+        event.recipes.createMixing(Item.of(`greate:${tier}_alloy`, 1),
+        [
+            'minecraft:andesite',
+            `gtceu:${tier}_nugget`
+        ])
     });
-
+    
 });
