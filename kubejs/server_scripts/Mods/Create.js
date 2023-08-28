@@ -11,7 +11,9 @@ ServerEvents.recipes(event => {
     'andesite_casing',
     'windmill_bearing',
     'steam_engine',
-    'belt_connector'
+    'belt_connector',
+    'cogwheel',
+    'large_cogwheel',
   ]
 
   removed.forEach(item => {
