@@ -5,7 +5,7 @@
 	group: ""
 	icon: "create:andesite_casing"
 	id: "21B2E5A5424134A8"
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{

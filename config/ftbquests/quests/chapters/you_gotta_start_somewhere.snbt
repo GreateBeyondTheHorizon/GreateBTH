@@ -4,8 +4,346 @@
 	filename: "you_gotta_start_somewhere"
 	group: ""
 	id: "5D93292C087E226A"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "4CC0AE75441126F8"
+			tasks: [{
+				count: 16L
+				id: "2943440BD1A0A12A"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Any #minecraft:logs"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "64CB2FE52929294D"
+			tasks: [{
+				id: "6BA132D7E0B65CD2"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "71C936A2CEC002FD"
+			tasks: [
+				{
+					count: 32L
+					id: "2926C16D08E2A238"
+					item: "minecraft:gravel"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "18ED825C8007499A"
+					item: "minecraft:flint"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "1140BFFB479745E8"
+			subtitle: "Used to make flint if you are not so lucky"
+			tasks: [{
+				id: "593428B2AC00E010"
+				item: {
+					Count: 1b
+					id: "gtceu:flint_mortar"
+					tag: {
+						Damage: 0
+					}
+				}
+				optional_task: true
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			id: "16AB53637ECCAC1B"
+			subtitle: "Your first (second) GT tool"
+			tasks: [{
+				id: "520329F7DBBCA0A7"
+				item: {
+					Count: 1b
+					id: "gtceu:wood_mallet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			id: "08D884E75D486B96"
+			tasks: [{
+				id: "630CB1DBA30750F1"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			id: "78D5404B690C7E53"
+			tasks: [{
+				id: "372D9FECC2BCC4F0"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:beds"
+					}
+				}
+				title: "Any #minecraft:beds"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			id: "0F1B0A0059C67F56"
+			tasks: [{
+				id: "54D243F9AF51A647"
+				item: "gtceu:brick_wooden_form"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			id: "2431E428361D4430"
+			subtitle: "Flint tools do the job perfectly"
+			tasks: [
+				{
+					id: "4644BF6C62EAA4E2"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/saws"
+						}
+					}
+					title: "Any #forge:tools/saws"
+					type: "item"
+				}
+				{
+					id: "75AC07BEEF62BBD6"
+					item: {
+						Count: 1b
+						id: "gtceu:flint_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			id: "3ABFB618D1540B95"
+			tasks: [{
+				id: "203D8BED14987E98"
+				item: "gtceu:coke_oven_hatch"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			id: "23DEC6E379581F78"
+			tasks: [
+				{
+					id: "4239DC5E781749F0"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/hammers"
+						}
+					}
+					title: "Any #forge:tools/hammers"
+					type: "item"
+				}
+				{
+					id: "46464358225B9F3B"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/files"
+						}
+					}
+					title: "Any #forge:tools/files"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			id: "0A70410D0F0E7790"
+			tasks: [{
+				id: "348D89AF2A571629"
+				type: "item"
+			}]
+			title: "TINKERS "
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			id: "2B8255FE99A88900"
+			tasks: [{
+				id: "29A61CD954592FF1"
+				type: "item"
+			}]
+			title: "Flint tools"
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			id: "56E0D337AD59346B"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "145DD822866CC1C4"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			id: "66A9FECB49745190"
+			tasks: [{
+				id: "668ECFEA47634B2D"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.5d
+		}
+		{
+			description: ["bla bla about ores"]
+			id: "7FADC2B6B2E8EB79"
+			tasks: [{
+				id: "21C1A6079B377137"
+				item: "minecraft:iron_ore"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 7.5d
+		}
+		{
+			id: "2B7DD86960D4FB97"
+			tasks: [{
+				id: "38F1633C15C38928"
+				item: "minecraft:blast_furnace"
+				type: "item"
+			}]
+			title: "Smeltery"
+			x: -6.0d
+			y: 9.5d
+		}
+		{
+			id: "333D5D75B64DCF42"
+			tasks: [{
+				id: "06BFA995B9B4C979"
+				type: "item"
+			}]
+			title: "Need for smeltery"
+			x: -6.0d
+			y: 7.5d
+		}
+		{
+			id: "7C82ABB80BC62E55"
+			subtitle: "Upgrade"
+			tasks: [{
+				id: "3707689301CD4C05"
+				item: {
+					Count: 1b
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 9.5d
+		}
+		{
+			id: "289E6CA27588C128"
+			tasks: [{
+				id: "467DED2DAE69071D"
+				type: "item"
+			}]
+			title: "More Tinkers"
+			x: -2.0d
+			y: 9.5d
+		}
+		{
+			id: "46A3AB9FB0E5E922"
+			tasks: [{
+				count: 8L
+				id: "265C382A9BA89928"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			id: "128E14C4007BC306"
+			tasks: [{
+				amount: 1000L
+				fluid: "gtceu:creosote"
+				id: "2E9629F8548330F3"
+				type: "fluid"
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			id: "6639F6BD16F443C8"
+			tasks: [{
+				count: 32L
+				id: "6000D900913A0801"
+				item: "gtceu:treated_wood_planks"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 9.5d
+		}
+		{
+			id: "7486EF66C90EE2C0"
+			size: 2.0d
+			tasks: [{
+				id: "5A0B08DA53784D55"
+				item: "create:hand_crank"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 9.5d
+		}
+	]
 	title: "You gotta start somewhere"
 }
