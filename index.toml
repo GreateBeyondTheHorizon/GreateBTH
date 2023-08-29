@@ -734,6 +734,10 @@ file = "mods/colorful-hearts.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/configuration.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/construction-wand.pw.toml"
 metafile = true
 
