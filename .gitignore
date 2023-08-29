@@ -3,7 +3,7 @@
 !.gitattributes
 
 # config
-!/config/ftbquests
+/config
 !/defaultconfigs
 !/kubejs
 !/packmenu
