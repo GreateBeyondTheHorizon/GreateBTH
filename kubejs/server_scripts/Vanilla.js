@@ -113,14 +113,13 @@ var logs = ['#minecraft:acacia_logs', '#minecraft:oak_logs', '#minecraft:birch_l
 	event.shaped(
 	Item.of('minecraft:chest'),
 	[
-		'CBC',
+		'ABA',
 		'BDB',
 		'ABA'
 	],
 	{
 		A:'minecraft:flint',
 		B:'gtceu:wood_plate',
-		C:'gtceu:wood_gear',
 		D:'gtceu:wood_frame'
 	}
 	)
