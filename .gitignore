@@ -3,7 +3,9 @@
 !.gitattributes
 
 # config
-/config
+!/config
+/config/*
+!/config/ftbquests
 !/defaultconfigs
 !/kubejs
 !/packmenu
