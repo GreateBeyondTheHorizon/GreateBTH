@@ -1,0 +1,715 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ulvuls__humble_beginnigs"
+	group: ""
+	icon: "create:andesite_casing"
+	id: "21B2E5A5424134A8"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5E9B34A22427F87B"
+			progression_mode: "linear"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "537B6CCDA4BAFB81"
+				title: "The fun begins now"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5E9B34A22427F87B"]
+			id: "7F6BF6CED379C510"
+			progression_mode: "linear"
+			tasks: [{
+				count: 8L
+				id: "51B9B92753F4677A"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5E9B34A22427F87B"]
+			id: "550030C3F6D1D54D"
+			tasks: [
+				{
+					id: "791FD16E6E7AA437"
+					item: {
+						Count: 1b
+						id: "gtceu:wrought_iron_wrench"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "094FA1374BB8539C"
+					item: {
+						Count: 1b
+						id: "gtceu:wrought_iron_saw"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C501E92E43CDF1B"
+					item: {
+						Count: 1b
+						id: "gtceu:wrought_iron_file"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "51031EC440466156"
+					item: {
+						Count: 1b
+						id: "gtceu:wrought_iron_screwdriver"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "794A95EE3EF275AD"
+					item: {
+						Count: 1b
+						id: "gtceu:wrought_iron_mortar"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "25B24D67BF8E2EE8"
+					item: {
+						Count: 1b
+						id: "gtceu:wrought_iron_wire_cutter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "40084743EAFFF448"
+					item: {
+						Count: 1b
+						id: "gtceu:wrought_iron_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "GregTech tools and You"
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5E9B34A22427F87B"]
+			id: "32C29B1A338EAF4F"
+			tasks: [{
+				id: "774D2C75246AF40C"
+				item: "minecraft:bucket"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"32C29B1A338EAF4F"
+				"7F6BF6CED379C510"
+			]
+			id: "02357592E8EADB70"
+			tasks: [{
+				id: "624C5DF7FAFB83E9"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["550030C3F6D1D54D"]
+			id: "3AC275D73C13A188"
+			tasks: [
+				{
+					count: 48L
+					id: "7C34BE55D098BB41"
+					item: "gtceu:copper_dust"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "6303171740BCE1AD"
+					item: "gtceu:tin_dust"
+					type: "item"
+				}
+			]
+			title: "Another one bites the dust"
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3AC275D73C13A188"]
+			id: "16C18DBBDBE10F36"
+			tasks: [{
+				count: 16L
+				id: "7C56BB277B8BBF3B"
+				item: "gtceu:bronze_dust"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"02357592E8EADB70"
+				"16C18DBBDBE10F36"
+			]
+			id: "4BE18DBE5D760ECF"
+			tasks: [{
+				count: 16L
+				id: "3B343C6880CD67F2"
+				item: "gtceu:bronze_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"7F6BF6CED379C510"
+				"4BE18DBE5D760ECF"
+			]
+			id: "454B9E49684318EC"
+			tasks: [{
+				count: 2L
+				id: "6A38DEC60EDE31DC"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["454B9E49684318EC"]
+			id: "582C845697A823AF"
+			tasks: [{
+				id: "797F98EFF38710F3"
+				item: "create:large_water_wheel"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7F6BF6CED379C510"]
+			id: "6C076DCED7C11113"
+			tasks: [{
+				id: "3E78796AE8750624"
+				item: "create:millstone"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7F6BF6CED379C510"]
+			id: "0B29D5C777C71B40"
+			tasks: [{
+				id: "1AD2CFD30C66D801"
+				title: "Whole new Create... Greate!"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7F6BF6CED379C510"]
+			id: "38AAFF2BEAEEB6CE"
+			tasks: [{
+				id: "0BB6686F580E54C1"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["38AAFF2BEAEEB6CE"]
+			id: "389976279B71DCD8"
+			tasks: [{
+				count: 7L
+				id: "380B71A64491B178"
+				item: "gtceu:brass_ingot"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["389976279B71DCD8"]
+			id: "7C0B1306A2275FEE"
+			tasks: [{
+				count: 21L
+				id: "7832120911FCB2B1"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7C0B1306A2275FEE"]
+			id: "3E67CE7E9504AC55"
+			tasks: [{
+				count: 2L
+				id: "5520DEF867FBF1E8"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["38AAFF2BEAEEB6CE"]
+			id: "55F8CE0639EFE9CD"
+			tasks: [
+				{
+					count: 32L
+					id: "3D201E20E1BDFFE7"
+					item: "minecraft:slime_ball"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "4959D535CCB57D00"
+					item: "create:dough"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["55F8CE0639EFE9CD"]
+			id: "0C0ACACCE8DF5AF0"
+			tasks: [{
+				count: 32L
+				id: "0B17999C579A39AD"
+				item: "gtceu:sticky_resin"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7F6BF6CED379C510"]
+			id: "2ED30AD428BCB890"
+			tasks: [{
+				id: "56D7409EDB5DBC6F"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2ED30AD428BCB890"]
+			id: "1B79FFBFC443B680"
+			tasks: [{
+				count: 16L
+				id: "5E3A4FA09174C7E8"
+				item: "minecraft:paper"
+				type: "item"
+			}]
+			x: 4.05d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0C0ACACCE8DF5AF0"]
+			id: "78573C9DB2981947"
+			tasks: [{
+				id: "4F54E34EFE5F4ED6"
+				item: "gtceu:resin_printed_circuit_board"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"1B79FFBFC443B680"
+				"0C0ACACCE8DF5AF0"
+				"38F97005C70B390D"
+			]
+			id: "0DE50DFF22C3DE10"
+			tasks: [{
+				id: "5F023AF069A7E9A4"
+				item: "gtceu:resistor"
+				type: "item"
+			}]
+			x: 4.05d
+			y: 4.5d
+		}
+		{
+			dependencies: ["389976279B71DCD8"]
+			id: "0CD7CE2F45DFE09B"
+			tasks: [{
+				count: 3L
+				id: "5FF6C1A67FA755F2"
+				item: "create:brass_hand"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0CD7CE2F45DFE09B"]
+			id: "0F9B668F0719D7EA"
+			tasks: [{
+				count: 3L
+				id: "106BF1877C826D19"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["454B9E49684318EC"]
+			hide_dependency_lines: true
+			id: "7DC207EFCB7D0A8E"
+			tasks: [{
+				id: "0ECF3A419C9882EF"
+				item: "create:spout"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4BE18DBE5D760ECF"]
+			id: "0E0F851B75290915"
+			tasks: [{
+				id: "5B6A8F05BB9516B1"
+				title: "GregTech Machines"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0E0F851B75290915"]
+			id: "4A5549930A6D10F2"
+			tasks: [{
+				id: "1D46625632B47B96"
+				item: "gtceu:lp_steam_extractor"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["4A5549930A6D10F2"]
+			id: "6445ED96BA55E4B1"
+			tasks: [{
+				count: 32L
+				id: "00BA00D223C6470F"
+				item: "gtceu:raw_rubber_dust"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6445ED96BA55E4B1"]
+			id: "1DA36C305C53D0E8"
+			tasks: [{
+				id: "1A7E28941D479212"
+				item: "gtceu:rubber_bucket"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["1DA36C305C53D0E8"]
+			id: "0C80D4F11654672A"
+			tasks: [{
+				count: 8L
+				id: "2F28652D1DC6C843"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"4BE18DBE5D760ECF"
+				"40DC0EE7472EF0DC"
+			]
+			id: "5BBE7DCE67C99A3D"
+			tasks: [{
+				id: "06C054FF7FC32D12"
+				item: "gtceu:lp_steam_solid_boiler"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["550030C3F6D1D54D"]
+			id: "7013B83A848D32F0"
+			tasks: [
+				{
+					count: 25L
+					id: "4709AEDDB10EDB09"
+					item: "gtceu:coke_oven_bricks"
+					type: "item"
+				}
+				{
+					id: "6EDE5219978B1D4A"
+					item: "gtceu:coke_oven"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7013B83A848D32F0"]
+			id: "40DC0EE7472EF0DC"
+			tasks: [
+				{
+					id: "0A37FB836B4045EF"
+					item: "gtceu:primitive_pump"
+					type: "item"
+				}
+				{
+					id: "736B5A05A9CBAC31"
+					item: "gtceu:pump_hatch"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "6BD66C048BEFA95C"
+					item: "gtceu:pump_deck"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "1EBFA2339B244717"
+					item: "gtceu:treated_wood_frame"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5BBE7DCE67C99A3D"]
+			id: "5F2B1D9B77FB1E03"
+			tasks: [{
+				count: 32L
+				id: "524F54D566419CAF"
+				item: "gtceu:steel_ingot"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5F2B1D9B77FB1E03"]
+			id: "0D9DE4E42D6778A9"
+			tasks: [
+				{
+					dimension: "minecraft:the_nether"
+					id: "2F55501FDA08CA0D"
+					title: "Hellish Adventure"
+					type: "dimension"
+				}
+				{
+					id: "132BA49F0AB67A10"
+					item: {
+						Count: 1b
+						id: "minecraft:flint_and_steel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0D9DE4E42D6778A9"]
+			id: "6BEE2F1701C8B70D"
+			tasks: [{
+				count: 4L
+				id: "3C55135313E355D8"
+				item: "create:polished_rose_quartz"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"6BEE2F1701C8B70D"
+				"32D671F65C901C11"
+				"42041ED4444332C5"
+			]
+			id: "52E3FAD05EAC41C7"
+			tasks: [{
+				count: 2L
+				id: "2F61603627D4479A"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5BBE7DCE67C99A3D"]
+			id: "3DFF65B08C971881"
+			tasks: [{
+				id: "5D4ABDD45CF0C9F6"
+				item: "gtceu:lp_steam_alloy_smelter"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3DFF65B08C971881"]
+			id: "32D671F65C901C11"
+			tasks: [{
+				id: "7CF1981E9B88A306"
+				item: "gtceu:glass_tube"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["550030C3F6D1D54D"]
+			id: "42041ED4444332C5"
+			tasks: [{
+				count: 16L
+				id: "6DCBD4BEF03D9452"
+				item: "gtceu:copper_single_wire"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5BBE7DCE67C99A3D"]
+			id: "70BDF42738F465DC"
+			tasks: [
+				{
+					id: "228B8CE11F6CF6FC"
+					item: "gtceu:lp_steam_extractor"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "10E21BA4231435AF"
+					item: "gtceu:tin_ingot"
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["70BDF42738F465DC"]
+			id: "44820AD7D612AE8C"
+			tasks: [{
+				id: "0C937433794CF082"
+				item: "gtceu:tin_bucket"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["550030C3F6D1D54D"]
+			id: "34C948A138F5F063"
+			tasks: [{
+				count: 2L
+				id: "7D021FE5D107A3C3"
+				item: "gtceu:red_alloy_single_wire"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["550030C3F6D1D54D"]
+			id: "38F97005C70B390D"
+			tasks: [{
+				count: 16L
+				id: "0F14CC63AE235AE2"
+				item: "gtceu:copper_fine_wire"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5BBE7DCE67C99A3D"]
+			id: "00DAF42D60192A91"
+			tasks: [{
+				id: "74D368847A1A098D"
+				item: "gtceu:lp_steam_forge_hammer"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"78573C9DB2981947"
+				"0F9B668F0719D7EA"
+				"52E3FAD05EAC41C7"
+				"44820AD7D612AE8C"
+				"34C948A138F5F063"
+				"7DC207EFCB7D0A8E"
+				"0DE50DFF22C3DE10"
+			]
+			id: "6D0407AADC20AB50"
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "183450116A86B09D"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 8.0d
+		}
+	]
+	title: "ULV/ULS - Humble Beginnigs..."
+}
