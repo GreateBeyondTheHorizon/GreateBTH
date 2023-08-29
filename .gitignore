@@ -1,6 +1,7 @@
 /*
 !.gitignore
 !.gitattributes
+!/.github
 
 # config
 !/config
@@ -19,6 +20,7 @@
 !CONTRIBUTING.md
 
 # packwiz
+!packwiz.exe
 !packwiz
 !.packwizignore
 !index.toml
