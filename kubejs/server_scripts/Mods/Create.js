@@ -14,6 +14,7 @@ ServerEvents.recipes(event => {
     'belt_connector',
     'cogwheel',
     'large_cogwheel',
+    'hand_crank'
   ]
 
   removed.forEach(item => {
@@ -137,4 +138,20 @@ ServerEvents.recipes(event => {
       C:'gtceu:copper_normal_fluid_pipe',
       D:'minecraft:copper_ingot',
     })
+
+    event.shaped(	
+      Item.of('create:hand_crank', 1),
+      [
+        'AAA',
+        'B  ',
+        '   '
+      ],
+      {
+        A:'gtceu:treated_wood_planks',
+        B:'create:andesite_alloy'
+      }
+    )
+
+
+
 })

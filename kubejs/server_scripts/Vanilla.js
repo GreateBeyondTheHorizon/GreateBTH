@@ -16,6 +16,9 @@ ServerEvents.recipes(event => {
 	event.remove({ output: 'minecraft:shield' })
 	event.remove({ output: '#minecraft:boats' })
 	event.remove({ output: 'minecraft:minecart' })
+	event.remove({ output: '#minecraft:beds' })
+
+
 
 var planks = ['minecraft:acacia_planks', 'minecraft:oak_planks', 'minecraft:birch_planks', 'minecraft:spruce_planks','minecraft:dark_oak_planks', 'minecraft:mangrove_planks', 'minecraft:jungle_planks', 'minecraft:warped_planks', 'minecraft:crimson_planks', 'gtceu:rubber_planks'];
 var boats = ['minecraft:acacia_boat', 'minecraft:oak_boat', 'minecraft:birch_boat', 'minecraft:spruce_boat', 'minecraft:dark_oak_boat', 'minecraft:mangrove_boat', 'minecraft:jungle_boat' ]
@@ -229,5 +232,40 @@ event.shaped('kubejs:flint_saw',
 		A: 'gtceu:steel_double_plate'
 	}
 	)
+
+
+	
+	event.shaped(
+		Item.of('minecraft:white_bed'),
+		[
+			'BBB',
+			'CDC',
+			'AAA'
+		],
+		{
+			A: 'gtceu:wood_frame',
+			B: '#forge:wool',
+			C: 'gtceu:iron_small_spring',
+			D: 'gtceu:wood_mallet'
+		}
+		).damageIngredient(Item.of('gtceu:wood_mallet'))
+
+
+		const collor = ['orange', 'magenta','light_blue','yellow','lime','pink','gray','light_gray','cyan','purple','blue','brown','green','red','black']
+
+		collor.forEach(element => {
+			
+			event.shapeless(
+				Item.of(`minecraft:${element}_bed` , 1),
+					[ 
+						`minecraft:${element}_dye`,
+						'minecraft:white_bed'
+					]
+			)
+		});
+		
+
+
+
 	
 })
