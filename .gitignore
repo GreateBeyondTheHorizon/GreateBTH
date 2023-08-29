@@ -4,6 +4,7 @@
 
 # config
 /config
+!/config/ftbquests
 !/defaultconfigs
 !/kubejs
 !/packmenu
