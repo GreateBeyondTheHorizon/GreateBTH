@@ -1,5 +1,22 @@
 // priority: 0
 ServerEvents.recipes(event => {
+
+    // removal
+    let tools = [
+        'pamhc2foodcore:saucepanitem',
+        'pamhc2foodcore:cuttingboarditem',
+        'pamhc2foodcore:skilletitem',
+        'pamhc2foodcore:mixingbowlitem',
+        'pamhc2foodcore:bakewareitem',
+        'pamhc2foodcore:potitem',
+        'pamhc2foodcore:juiceritem',
+        'pamhc2foodcore:grinderitem',
+        'pamhc2foodcore:rolleritem'
+    ]
+
+    tools.forEach(tool => {
+        event.remove({output: `${tool}`})
+    })
     // cooking tools
     // saucepan
     event.shaped(Item.of('pamhc2foodcore:saucepanitem', 1), 
