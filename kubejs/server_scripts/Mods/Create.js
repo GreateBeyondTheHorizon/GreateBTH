@@ -151,7 +151,4 @@ ServerEvents.recipes(event => {
         B:'create:andesite_alloy'
       }
     )
-
-
-
 })

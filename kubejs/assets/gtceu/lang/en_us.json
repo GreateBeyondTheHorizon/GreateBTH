@@ -1,3 +1,4 @@
 {
-    "block.gtceu.ore_proc": "Ore Processing"
+    "block.gtceu.ore_decimator": "Ore Decimator",
+    "gtceu.ore_decimator": "Ore Decimator"
 }
