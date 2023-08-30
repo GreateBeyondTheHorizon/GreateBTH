@@ -768,6 +768,10 @@ file = "mods/toms-storage.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/yeetusexperimentus.pw.toml"
+metafile = true
+
+[[files]]
 file = "packmenu/resources/assets/packmenu/buttons/accessibility.json"
 
 [[files]]
