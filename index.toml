@@ -1,319 +1,19 @@
 hash-format = "sha256"
 
 [[files]]
-file = "config/Advancedperipherals/general.toml"
-
-[[files]]
-file = "config/Advancedperipherals/metaphysics.toml"
-
-[[files]]
-file = "config/Advancedperipherals/peripherals-1.toml.bak"
-
-[[files]]
-file = "config/Advancedperipherals/peripherals.toml"
-
-[[files]]
-file = "config/Advancedperipherals/world.toml"
-
-[[files]]
-file = "config/EnderStorage.cfg"
-
-[[files]]
-file = "config/InventoryHUD/curios.json"
-
-[[files]]
-file = "config/MouseTweaks.cfg"
-
-[[files]]
-file = "config/NoChatReports/NCR-Client.json"
-
-[[files]]
-file = "config/NoChatReports/NCR-Common.json"
-
-[[files]]
-file = "config/NoChatReports/NCR-Encryption.json"
-
-[[files]]
-file = "config/NoChatReports/NCR-ServerWhitelist.json"
-
-[[files]]
-file = "config/NoChatReports/README.md"
-
-[[files]]
-file = "config/ad_astra.toml"
-
-[[files]]
-file = "config/ae2/client.json"
-
-[[files]]
-file = "config/ae2/common.json"
-
-[[files]]
-file = "config/aiimprovements-common.toml"
-
-[[files]]
-file = "config/appleskin-client.toml"
-
-[[files]]
-file = "config/attributefix.json"
-
-[[files]]
-file = "config/betteradvancements-client.toml"
-
-[[files]]
-file = "config/bhc-common.toml"
-
-[[files]]
-file = "config/bhc/drops.json"
-
-[[files]]
-file = "config/ccl.cfg"
-
-[[files]]
-file = "config/colorfulhearts.toml"
-
-[[files]]
-file = "config/computercraft-client.toml"
-
-[[files]]
-file = "config/constructionwand-client.toml"
-
-[[files]]
-file = "config/cookingforblockheads-common.toml"
-
-[[files]]
-file = "config/cosmeticarmorreworked-client.toml"
-
-[[files]]
-file = "config/cosmeticarmorreworked-common.toml"
-
-[[files]]
-file = "config/craftingtweaks-common.toml"
-
-[[files]]
-file = "config/create-client.toml"
-
-[[files]]
-file = "config/create-common.toml"
-
-[[files]]
-file = "config/curios-client.toml"
-
-[[files]]
-file = "config/entityculling.json"
-
-[[files]]
-file = "config/fastsuite.cfg"
-
-[[files]]
-file = "config/ferritecore-mixin.toml"
-
-[[files]]
-file = "config/flywheel-client.toml"
-
-[[files]]
-file = "config/fml.toml"
-
-[[files]]
-file = "config/forge-client.toml"
-
-[[files]]
-file = "config/forge-common.toml"
-
-[[files]]
-file = "config/forge-resource-caching.toml"
-
-[[files]]
-file = "config/ftbbackups2.json"
-
-[[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/tier_0_introduction.snbt"
+file = "config/ftbquests/quests/chapters/ulvuls__humble_beginnigs.snbt"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/tier_10__maxv__maxs.snbt"
+file = "config/ftbquests/quests/chapters/welcome.snbt"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/tier_1_ulv_uls.snbt"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/tier_2__lv__ls.snbt"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/tier_3__mv__ms.snbt"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/tier_4__hv__hs.snbt"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/tier_5__ev__es.snbt"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/tier_6__iv__is.snbt"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/tier_7__luv__lus.snbt"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/tier_8__zpmv__zpms.snbt"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/tier_9__uhv__uhs.snbt"
+file = "config/ftbquests/quests/chapters/you_gotta_start_somewhere.snbt"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
-
-[[files]]
-file = "config/greate.yaml"
-
-[[files]]
-file = "config/gtceu.yaml"
-
-[[files]]
-file = "config/guardvillagers-client.toml"
-
-[[files]]
-file = "config/guardvillagers-common.toml"
-
-[[files]]
-file = "config/inventoryhud-client.toml"
-
-[[files]]
-file = "config/jade/hide-entities.json"
-
-[[files]]
-file = "config/jade/jade.json"
-
-[[files]]
-file = "config/jade/plugins.json"
-
-[[files]]
-file = "config/jade/sort-order.json"
-
-[[files]]
-file = "config/jei/blacklist.cfg"
-
-[[files]]
-file = "config/jei/ingredient-list-mod-sort-order.ini"
-
-[[files]]
-file = "config/jei/ingredient-list-type-sort-order.ini"
-
-[[files]]
-file = "config/jei/jei-client.ini"
-
-[[files]]
-file = "config/jei/jei-colors.ini"
-
-[[files]]
-file = "config/jei/jei-debug.ini"
-
-[[files]]
-file = "config/jei/jei-mod-id-format.ini"
-
-[[files]]
-file = "config/jei/recipe-category-sort-order.ini"
-
-[[files]]
-file = "config/jmi-client.toml"
-
-[[files]]
-file = "config/kleeslabs-common.toml"
-
-[[files]]
-file = "config/modernfix-common.toml"
-
-[[files]]
-file = "config/modernfix-mixins.properties"
-
-[[files]]
-file = "config/modnametooltip-client.toml"
-
-[[files]]
-file = "config/morered-client.toml"
-
-[[files]]
-file = "config/naturescompass-client.toml"
-
-[[files]]
-file = "config/naturescompass-common.toml"
-
-[[files]]
-file = "config/obtrophies-common.toml"
-
-[[files]]
-file = "config/oculus.properties"
-
-[[files]]
-file = "config/oreberriesreplanted-common.toml"
-
-[[files]]
-file = "config/packmenu.cfg"
-
-[[files]]
-file = "config/pamhc2crops.toml"
-
-[[files]]
-file = "config/pamhc2trees.toml"
-
-[[files]]
-file = "config/productivebees-client.toml"
-
-[[files]]
-file = "config/resourceful-config-web.json"
-
-[[files]]
-file = "config/roughlyenoughitems/changelog.txt"
-
-[[files]]
-file = "config/roughlyenoughitems/config.json5"
-
-[[files]]
-file = "config/roughlyenoughitems/hints.json"
-
-[[files]]
-file = "config/roughlyenoughitems/pinyin.properties"
-
-[[files]]
-file = "config/roughlyenoughitems/pinyin_double.properties"
-
-[[files]]
-file = "config/rubidium-mixins.properties"
-
-[[files]]
-file = "config/rubidium-options.json"
-
-[[files]]
-file = "config/sidebar_buttons.json"
-
-[[files]]
-file = "config/solcarrot-client.toml"
-
-[[files]]
-file = "config/sophisticatedbackpacks-common.toml"
-
-[[files]]
-file = "config/sophisticatedcore-client.toml"
-
-[[files]]
-file = "config/storagedrawers-client.toml"
-
-[[files]]
-file = "config/storagedrawers-common.toml"
-
-[[files]]
-file = "config/toastcontrol-common.toml"
-
-[[files]]
-file = "config/toms_storage-common.toml"
-
-[[files]]
-file = "config/twilightforest-client.toml"
-
-[[files]]
-file = "config/twilightforest-common.toml"
 
 [[files]]
 file = "defaultconfigs/ftbchunks/client-config.snbt"
@@ -329,6 +29,12 @@ file = "defaultconfigs/toms_storage-server.toml"
 
 [[files]]
 file = "kubejs/README.txt"
+
+[[files]]
+file = "kubejs/assets/gtceu/lang/en_us.json"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/drinkable_liquid_concrete.png"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/empty_compass.png"
@@ -398,6 +104,9 @@ file = "kubejs/assets/kubejs/textures/item/inc_hv_sensor.png"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/inc_hv_sensor_show.png"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/inc_inter_nano_processor.png"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/inc_inter_nano_processor_show.png"
@@ -493,6 +202,12 @@ file = "kubejs/assets/kubejs/textures/item/plate_3.png"
 file = "kubejs/assets/kubejs/textures/item/raw_epoxy_circuit_board.png"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/raw_integrated_circuit_board.png"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/raw_phenolic_circuit_board.png"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/raw_phenolic_printed_circuit_board_show.png"
 
 [[files]]
@@ -547,6 +262,9 @@ file = "kubejs/server_scripts/Armor/Vanilla/Leather.js"
 file = "kubejs/server_scripts/Armor/Vanilla/Netherite.js"
 
 [[files]]
+file = "kubejs/server_scripts/GregMultiRecipe.js"
+
+[[files]]
 file = "kubejs/server_scripts/Items/Compass.js"
 
 [[files]]
@@ -580,6 +298,9 @@ file = "kubejs/server_scripts/JSONRecipes/Ad_Astra/T3Rocket.js"
 file = "kubejs/server_scripts/JSONRecipes/Ad_Astra/T4Rocket.js"
 
 [[files]]
+file = "kubejs/server_scripts/JSONRecipes/Greg/Circuit Assembler/HVCircuits.js"
+
+[[files]]
 file = "kubejs/server_scripts/JSONRecipes/Greg/Engraver/engraverNaquadah.js"
 
 [[files]]
@@ -607,6 +328,9 @@ file = "kubejs/server_scripts/Mods/Create.js"
 file = "kubejs/server_scripts/Mods/EnderStorage.js"
 
 [[files]]
+file = "kubejs/server_scripts/Mods/Greate.js"
+
+[[files]]
 file = "kubejs/server_scripts/Mods/Greg.js"
 
 [[files]]
@@ -617,6 +341,9 @@ file = "kubejs/server_scripts/Mods/SophisticatedBackpacks.js"
 
 [[files]]
 file = "kubejs/server_scripts/Mods/TomsSimpleStorage.js"
+
+[[files]]
+file = "kubejs/server_scripts/Mods/TwilightForest.js"
 
 [[files]]
 file = "kubejs/server_scripts/Mods/Wands.js"
@@ -653,6 +380,9 @@ file = "kubejs/startup_scripts/ItemGeneration.js"
 
 [[files]]
 file = "kubejs/startup_scripts/ItemsModification.js"
+
+[[files]]
+file = "kubejs/startup_scripts/MultiBlock.js"
 
 [[files]]
 file = "kubejs/startup_scripts/Ores.js"
