@@ -508,6 +508,10 @@ file = "mods/darker-depths.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/emi.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/ender-storage-1-8.pw.toml"
 metafile = true
 
@@ -581,6 +585,10 @@ metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/jei.pw.toml"
 metafile = true
 
 [[files]]
@@ -717,14 +725,6 @@ metafile = true
 
 [[files]]
 file = "mods/rhino.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/roughly-enough-items-hacks.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/roughly-enough-items.pw.toml"
 metafile = true
 
 [[files]]
