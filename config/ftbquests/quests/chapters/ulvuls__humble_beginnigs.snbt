@@ -9,33 +9,52 @@
 	quest_links: [ ]
 	quests: [
 		{
+			description: [
+				"Congratulations on finishing the first chapter, user!"
+				"In this chapter you will discover steam and kinetic power and learn to utilise them. I prepared some quests and optional challanges for you. Now get to work, so i can begin your greatification."
+			]
+			icon: "create:wrench"
 			id: "5E9B34A22427F87B"
 			progression_mode: "linear"
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
 				id: "537B6CCDA4BAFB81"
-				title: "The fun begins now"
+				title: "I understand"
 				type: "checkmark"
 			}]
+			title: "The fun begins now"
 			x: 1.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["5E9B34A22427F87B"]
+			description: ["Andesite alloy and casings will be your best friend until you are able to produce steel. they can support up to 8su, or one waterwheel. If any create block confuses you, just hover over them and hold the ponder key."]
+			icon: "create:andesite_casing"
 			id: "7F6BF6CED379C510"
 			progression_mode: "linear"
-			tasks: [{
-				count: 8L
-				id: "51B9B92753F4677A"
-				item: "create:andesite_casing"
-				type: "item"
-			}]
+			tasks: [
+				{
+					count: 8L
+					id: "51B9B92753F4677A"
+					item: "create:andesite_casing"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0BCE402AC980D544"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+			]
+			title: "The andesite age"
 			x: 4.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["5E9B34A22427F87B"]
+			description: ["These tools you see above will be of great help to you. Wrenches dissasemble machines, hammers can muffle machines, wire cutters can... cut wires... and all of them have many uses in crafting too, Oh and they use durability while crafting. There are also energy versions of some of them."]
+			icon: "create:red_toolbox"
 			id: "550030C3F6D1D54D"
 			tasks: [
 				{
@@ -118,10 +137,14 @@
 			]
 			title: "GregTech tools and You"
 			x: -0.5d
-			y: 1.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["5E9B34A22427F87B"]
+			description: [
+				"Buckets are now made with iron &nplates&r, not iron &ningots&r."
+				"Oh, and you need a hammer"
+			]
 			id: "32C29B1A338EAF4F"
 			tasks: [{
 				id: "774D2C75246AF40C"
@@ -129,12 +152,17 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -2.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
 				"32C29B1A338EAF4F"
 				"7F6BF6CED379C510"
+			]
+			description: [
+				"Encased fans have a variety of functions. They can cook by having fire in front of it, blast if they have lava in front, haunt if they have soul fire in front and wash if they have water in front."
+				""
+				"Also technically you can push items and other entities with it."
 			]
 			id: "02357592E8EADB70"
 			tasks: [{
@@ -143,10 +171,12 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -4.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["550030C3F6D1D54D"]
+			description: ["Either mortar the ingots, or turn ore to crushed ore and crushed ore to impure dust, which you throw into a cauldron."]
+			icon: "gtceu:tin_dust"
 			id: "3AC275D73C13A188"
 			tasks: [
 				{
@@ -164,10 +194,11 @@
 			]
 			title: "Another one bites the dust"
 			x: -0.5d
-			y: -2.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["3AC275D73C13A188"]
+			description: ["Just add the dusts together. It is that simple."]
 			id: "16C18DBBDBE10F36"
 			tasks: [{
 				count: 16L
@@ -176,13 +207,14 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: -4.0d
+			y: -5.0d
 		}
 		{
 			dependencies: [
 				"02357592E8EADB70"
 				"16C18DBBDBE10F36"
 			]
+			description: ["You need to blast the dust you made via the fan."]
 			id: "4BE18DBE5D760ECF"
 			tasks: [{
 				count: 16L
@@ -191,13 +223,14 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -6.0d
+			y: -7.0d
 		}
 		{
 			dependencies: [
 				"7F6BF6CED379C510"
 				"4BE18DBE5D760ECF"
 			]
+			description: ["The water wheel generates 8su and 8rpm, no matter what. requires water to function and can have its look changed with planks."]
 			id: "454B9E49684318EC"
 			tasks: [{
 				count: 2L
@@ -206,54 +239,71 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: -6.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["454B9E49684318EC"]
+			description: ["The water wheel generates 32su but 4rpm, no matter what. It occupies a 3x3 area and has the rest of the traits of the water wheel."]
 			id: "582C845697A823AF"
 			tasks: [{
 				id: "797F98EFF38710F3"
 				item: "create:large_water_wheel"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -7.5d
+			x: 7.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["7F6BF6CED379C510"]
+			description: ["Millstones are the inferior version of crushing wheels, as they give out a worse output of ore processing. Nonetheless, you still want to make one before making a crushing wheel."]
 			id: "6C076DCED7C11113"
+			optional: true
 			tasks: [{
 				id: "3E78796AE8750624"
 				item: "create:millstone"
 				type: "item"
 			}]
 			x: 7.0d
-			y: -1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["7F6BF6CED379C510"]
+			description: ["Create has now tiers, its shafts have a stress unit limit and create machines have limited recipes based on tiers too. Stress limits mirror the amount of EU in 1A of the Gregtech tier"]
+			icon: "greate:steel_cogwheel"
 			id: "0B29D5C777C71B40"
 			tasks: [{
 				id: "1AD2CFD30C66D801"
-				title: "Whole new Create... Greate!"
+				title: "I understand"
 				type: "checkmark"
 			}]
-			x: 6.0d
+			title: "Whole new Create... Greate!"
+			x: 7.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["7F6BF6CED379C510"]
+			description: ["The mixer requires a basin two blocks below it. it is a great thing for brass making and shapeless crafting automation. It also has other uses, but we will get there when we will get  there..."]
+			icon: "create:mechanical_mixer"
 			id: "38AAFF2BEAEEB6CE"
-			tasks: [{
-				id: "0BB6686F580E54C1"
-				item: "create:mechanical_mixer"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0BB6686F580E54C1"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "7AF9093731AE452A"
+					item: "create:basin"
+					type: "item"
+				}
+			]
 			x: 7.0d
-			y: 0.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["38AAFF2BEAEEB6CE"]
+			description: ["The brass age. Made from zinc and copper into one, giving you access to some new tools. These will be great from your progress, unless you jump into one of them."]
+			icon: "gtceu:brass_ingot"
 			id: "389976279B71DCD8"
 			tasks: [{
 				count: 7L
@@ -261,11 +311,13 @@
 				item: "gtceu:brass_ingot"
 				type: "item"
 			}]
+			title: "The brass age"
 			x: 9.0d
-			y: 0.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["389976279B71DCD8"]
+			description: ["Shaped crafting. You will need this to make any decent armor."]
 			id: "7C0B1306A2275FEE"
 			tasks: [{
 				count: 21L
@@ -273,16 +325,19 @@
 				item: "create:mechanical_crafter"
 				type: "item"
 			}]
+			title: "Mechanical Crafters"
 			x: 9.0d
-			y: -1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["7C0B1306A2275FEE"]
+			description: ["The superior millstone. I bet 10$ You will die by getting crushed by these, because i know you will."]
 			id: "3E67CE7E9504AC55"
 			tasks: [{
 				count: 2L
 				id: "5520DEF867FBF1E8"
 				item: "create:crushing_wheel"
+				title: "Crushing wheels"
 				type: "item"
 			}]
 			x: 9.0d
@@ -290,6 +345,8 @@
 		}
 		{
 			dependencies: ["38AAFF2BEAEEB6CE"]
+			description: ["Slimeballs are great for sticking stuff together. Right now however... You will make these into sticky, ooey-gooey resin, which will greately help you make the components for your first circuit."]
+			icon: "minecraft:slime_ball"
 			id: "55F8CE0639EFE9CD"
 			tasks: [
 				{
@@ -305,11 +362,13 @@
 					type: "item"
 				}
 			]
+			title: "D' ough!"
 			x: 7.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["55F8CE0639EFE9CD"]
+			description: ["Great for making rubber and glue. No horses were harmed in the glue-making process."]
 			id: "0C0ACACCE8DF5AF0"
 			tasks: [{
 				count: 32L
@@ -317,11 +376,13 @@
 				item: "gtceu:sticky_resin"
 				type: "item"
 			}]
-			x: 6.5d
+			title: "Sticky resin"
+			x: 7.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["7F6BF6CED379C510"]
+			description: ["Magmati will later add a proper description when this is finalised. He will deffinately not  forget to write this."]
 			id: "2ED30AD428BCB890"
 			tasks: [{
 				id: "56D7409EDB5DBC6F"
@@ -329,10 +390,14 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["2ED30AD428BCB890"]
+			description: [
+				"Im not making an Undertale reference. No, I will not referece Papyrus."
+				"This paper is made with sugarcane and gigachad, or just chad if you are not automating it."
+			]
 			id: "1B79FFBFC443B680"
 			tasks: [{
 				count: 16L
@@ -340,19 +405,29 @@
 				item: "minecraft:paper"
 				type: "item"
 			}]
-			x: 4.05d
-			y: 2.5d
+			title: "Paper"
+			x: 4.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["0C0ACACCE8DF5AF0"]
+			description: ["The base of the circuit."]
+			icon: "gtceu:resin_printed_circuit_board"
 			id: "78573C9DB2981947"
-			tasks: [{
-				id: "4F54E34EFE5F4ED6"
-				item: "gtceu:resin_printed_circuit_board"
-				type: "item"
-			}]
-			x: 4.0d
-			y: 6.5d
+			tasks: [
+				{
+					id: "4F54E34EFE5F4ED6"
+					item: "gtceu:resin_printed_circuit_board"
+					type: "item"
+				}
+				{
+					id: "2418DFCEDA4EAB20"
+					item: "gtceu:resin_circuit_board"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -360,17 +435,19 @@
 				"0C0ACACCE8DF5AF0"
 				"38F97005C70B390D"
 			]
+			description: ["Irresistable to the eyes of any hardware engineer"]
 			id: "0DE50DFF22C3DE10"
 			tasks: [{
 				id: "5F023AF069A7E9A4"
 				item: "gtceu:resistor"
 				type: "item"
 			}]
-			x: 4.05d
-			y: 4.5d
+			x: 1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["389976279B71DCD8"]
+			description: ["Not much use, but necessary to make the deployers."]
 			id: "0CD7CE2F45DFE09B"
 			tasks: [{
 				count: 3L
@@ -378,11 +455,13 @@
 				item: "create:brass_hand"
 				type: "item"
 			}]
+			title: "Brass hands"
 			x: 9.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["0CD7CE2F45DFE09B"]
+			description: ["Great for placing blocks and deploying items. also you can punch things with it i guess."]
 			id: "0F9B668F0719D7EA"
 			tasks: [{
 				count: 3L
@@ -390,45 +469,48 @@
 				item: "create:deployer"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 7.0d
+			title: "Deployers"
+			x: 9.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["454B9E49684318EC"]
+			description: ["This is used to pour liquid onto things. Really useful. By the way, you cant input stuff into the spout using a container directly."]
 			hide_dependency_lines: true
+			icon: "create:spout"
 			id: "7DC207EFCB7D0A8E"
-			tasks: [{
-				id: "0ECF3A419C9882EF"
-				item: "create:spout"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 10.0d
+			tasks: [
+				{
+					id: "0ECF3A419C9882EF"
+					item: "create:spout"
+					type: "item"
+				}
+				{
+					id: "0888DECFE1B14CF3"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+			]
+			title: "Liquid control"
+			x: -4.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["4BE18DBE5D760ECF"]
+			description: ["Basis for the boilers. start with the solid one, because i think you dont have steady access to lava yet..."]
+			icon: "gtceu:bronze_brick_casing"
 			id: "0E0F851B75290915"
 			tasks: [{
-				id: "5B6A8F05BB9516B1"
-				title: "GregTech Machines"
-				type: "checkmark"
-			}]
-			x: 0.5d
-			y: -7.5d
-		}
-		{
-			dependencies: ["0E0F851B75290915"]
-			id: "4A5549930A6D10F2"
-			tasks: [{
-				id: "1D46625632B47B96"
-				item: "gtceu:lp_steam_extractor"
+				id: "431A2112ED3305B8"
+				item: "gtceu:bronze_brick_casing"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -8.5d
+			x: -3.0d
+			y: -5.0d
 		}
 		{
-			dependencies: ["4A5549930A6D10F2"]
+			dependencies: ["70BDF42738F465DC"]
+			description: ["Made with sticky resin"]
 			id: "6445ED96BA55E4B1"
 			tasks: [{
 				count: 32L
@@ -436,22 +518,25 @@
 				item: "gtceu:raw_rubber_dust"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -8.5d
+			title: "Rubber Pulp"
+			x: -4.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["6445ED96BA55E4B1"]
+			description: ["Rubber insulates wires and allows you to make the plunger and a better soft mallet"]
 			id: "1DA36C305C53D0E8"
 			tasks: [{
 				id: "1A7E28941D479212"
 				item: "gtceu:rubber_bucket"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -8.5d
+			x: -3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1DA36C305C53D0E8"]
+			description: ["Logistic principles incarnate."]
 			id: "0C80D4F11654672A"
 			tasks: [{
 				count: 8L
@@ -459,25 +544,29 @@
 				item: "create:belt_connector"
 				type: "item"
 			}]
-			x: -7.0d
-			y: -8.5d
+			x: -3.0d
+			y: 1.0d
 		}
 		{
 			dependencies: [
-				"4BE18DBE5D760ECF"
 				"40DC0EE7472EF0DC"
+				"0E0F851B75290915"
 			]
+			description: ["Please provide fuel and &nWater&r or i will play \"Me and the Birds by Duster\" on full blast. also, machines require a constant supply of steam when they work and the process will stop and the progress of the recipe will be lost if the machine does not have enough steam provided."]
 			id: "5BBE7DCE67C99A3D"
+			shape: "gear"
 			tasks: [{
 				id: "06C054FF7FC32D12"
 				item: "gtceu:lp_steam_solid_boiler"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -7.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["550030C3F6D1D54D"]
+			description: ["The coke oven Pyrolises fuel into better ones, as well as produces creosote oil, which is honestly a somewhat ok fuel later on and allows you to make treated wood."]
+			icon: "gtceu:coke_oven"
 			id: "7013B83A848D32F0"
 			tasks: [
 				{
@@ -492,11 +581,14 @@
 					type: "item"
 				}
 			]
+			title: "Coke oven"
 			x: -2.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["7013B83A848D32F0"]
+			description: ["Water in this world is finite. This can mitigate this problem."]
+			icon: "gtceu:primitive_pump"
 			id: "40DC0EE7472EF0DC"
 			tasks: [
 				{
@@ -527,24 +619,53 @@
 		}
 		{
 			dependencies: ["5BBE7DCE67C99A3D"]
+			description: ["You might want to make more than one blast furnace..."]
+			icon: "gtceu:primitive_blast_furnace"
 			id: "5F2B1D9B77FB1E03"
-			tasks: [{
-				count: 32L
-				id: "524F54D566419CAF"
-				item: "gtceu:steel_ingot"
-				type: "item"
-			}]
-			x: -11.0d
+			tasks: [
+				{
+					count: 32L
+					id: "524F54D566419CAF"
+					item: "gtceu:steel_ingot"
+					type: "item"
+				}
+				{
+					id: "2EDE8E72A3A43E46"
+					item: "gtceu:primitive_blast_furnace"
+					type: "item"
+				}
+				{
+					id: "24A96419D8F70384"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "6F17DDD9A8ADE8EF"
+					item: "gtceu:firebricks"
+					type: "item"
+				}
+			]
+			title: "Blast smelting"
+			x: -12.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["5F2B1D9B77FB1E03"]
+			description: ["Go to the nether. You will find many new resources there, including quartz, which you need."]
+			icon: {
+				Count: 1b
+				id: "minecraft:flint_and_steel"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "0D9DE4E42D6778A9"
 			tasks: [
 				{
 					dimension: "minecraft:the_nether"
 					id: "2F55501FDA08CA0D"
-					title: "Hellish Adventure"
+					title: "Go to the nether"
 					type: "dimension"
 				}
 				{
@@ -559,20 +680,54 @@
 					type: "item"
 				}
 			]
-			x: -11.0d
+			title: "Hellish Adventure"
+			x: -12.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["0D9DE4E42D6778A9"]
+			description: ["To polish the rose quartz, put it in either hand and put sandpaper in the other"]
+			icon: "create:polished_rose_quartz"
 			id: "6BEE2F1701C8B70D"
-			tasks: [{
-				count: 4L
-				id: "3C55135313E355D8"
-				item: "create:polished_rose_quartz"
-				type: "item"
-			}]
-			x: -11.0d
-			y: 4.0d
+			tasks: [
+				{
+					count: 4L
+					id: "3C55135313E355D8"
+					item: "create:polished_rose_quartz"
+					type: "item"
+				}
+				{
+					id: "3D12BF8F2C59D052"
+					item: "minecraft:quartz"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "2E5A3536DCC520CF"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "2E14AE6CA11471FF"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "create:sandpaper"
+						}
+					}
+					title: "Any #create:sandpaper"
+					type: "item"
+				}
+				{
+					id: "0034C88F9C227326"
+					item: "create:rose_quartz"
+					type: "item"
+				}
+			]
+			title: "Polished rose quartz"
+			x: -12.0d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -580,6 +735,7 @@
 				"32D671F65C901C11"
 				"42041ED4444332C5"
 			]
+			description: ["Another circuit subcomponent."]
 			id: "52E3FAD05EAC41C7"
 			tasks: [{
 				count: 2L
@@ -587,33 +743,49 @@
 				item: "create:electron_tube"
 				type: "item"
 			}]
+			title: "Electron tubes"
 			x: -6.5d
-			y: 7.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["5BBE7DCE67C99A3D"]
+			description: ["Makes alloys at cheaper prices."]
 			id: "3DFF65B08C971881"
 			tasks: [{
 				id: "5D4ABDD45CF0C9F6"
 				item: "gtceu:lp_steam_alloy_smelter"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -8.5d
 			y: -0.5d
 		}
 		{
-			dependencies: ["3DFF65B08C971881"]
+			dependencies: [
+				"3DFF65B08C971881"
+				"732951F918E5D036"
+			]
+			description: ["Hehe, Glass &oballs"]
+			icon: "gtceu:glass_tube"
 			id: "32D671F65C901C11"
-			tasks: [{
-				id: "7CF1981E9B88A306"
-				item: "gtceu:glass_tube"
-				type: "item"
-			}]
-			x: -8.0d
-			y: 4.0d
+			tasks: [
+				{
+					id: "7CF1981E9B88A306"
+					item: "gtceu:glass_tube"
+					type: "item"
+				}
+				{
+					id: "38627AE4494BDDF1"
+					item: "gtceu:ball_casting_mold"
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["550030C3F6D1D54D"]
+			description: ["Not as fine as I like them."]
+			hide_dependency_lines: true
 			id: "42041ED4444332C5"
 			tasks: [{
 				count: 16L
@@ -621,11 +793,14 @@
 				item: "gtceu:copper_single_wire"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 4.0d
+			title: "Copper wires"
+			x: -6.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["5BBE7DCE67C99A3D"]
+			description: ["Turns stuff to liquid or extracts substances."]
+			icon: "gtceu:lp_steam_extractor"
 			id: "70BDF42738F465DC"
 			tasks: [
 				{
@@ -645,6 +820,7 @@
 		}
 		{
 			dependencies: ["70BDF42738F465DC"]
+			description: ["make a tin bucket. (You should make a more portable way of fluid storage like a gt barrel though)"]
 			id: "44820AD7D612AE8C"
 			tasks: [{
 				id: "0C937433794CF082"
@@ -652,10 +828,15 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: 4.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["550030C3F6D1D54D"]
+			dependencies: [
+				"550030C3F6D1D54D"
+				"6162DB567597E8EF"
+			]
+			description: ["Made with Red Alloy"]
+			hide_dependency_lines: false
 			id: "34C948A138F5F063"
 			tasks: [{
 				count: 2L
@@ -663,11 +844,13 @@
 				item: "gtceu:red_alloy_single_wire"
 				type: "item"
 			}]
+			title: "Red alloy wires"
 			x: -0.5d
-			y: 4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["550030C3F6D1D54D"]
+			description: ["Finer than the average wire! What's their number if i may ask?"]
 			id: "38F97005C70B390D"
 			tasks: [{
 				count: 16L
@@ -680,13 +863,14 @@
 		}
 		{
 			dependencies: ["5BBE7DCE67C99A3D"]
+			description: ["The most appreciated by you machine. It will make plates much cheaper for you."]
 			id: "00DAF42D60192A91"
 			tasks: [{
 				id: "74D368847A1A098D"
 				item: "gtceu:lp_steam_forge_hammer"
 				type: "item"
 			}]
-			x: -10.0d
+			x: -10.5d
 			y: -3.0d
 		}
 		{
@@ -699,6 +883,7 @@
 				"7DC207EFCB7D0A8E"
 				"0DE50DFF22C3DE10"
 			]
+			description: ["Congratulations! Now make more of them as this will be the circuit you will be making in the next chapter a lot."]
 			id: "6D0407AADC20AB50"
 			shape: "octagon"
 			size: 1.5d
@@ -707,8 +892,244 @@
 				item: "gtceu:basic_electronic_circuit"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 8.0d
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"5F2B1D9B77FB1E03"
+				"3DFF65B08C971881"
+			]
+			description: ["Then he went around and molded all over the place. These molds will allow you to make glass balls, solifiy fluids and make wrought iron too."]
+			icon: "gtceu:empty_mold"
+			id: "732951F918E5D036"
+			tasks: [
+				{
+					id: "09C0BFD89A41ACD8"
+					item: "gtceu:empty_mold"
+					type: "item"
+				}
+				{
+					id: "5A9FB09B94ACBA3A"
+					item: "gtceu:nugget_casting_mold"
+					type: "item"
+				}
+				{
+					id: "32D3683BC204889A"
+					item: "minecraft:iron_nugget"
+					type: "item"
+				}
+			]
+			title: "It is moldin' time."
+			x: -10.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5BBE7DCE67C99A3D"]
+			description: ["Just a furnace powered by steam, complicated, i know."]
+			id: "4AA205745CC7A8F5"
+			tasks: [{
+				id: "049AA481AB04A975"
+				item: "gtceu:lp_steam_furnace"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["41C8CC18ED91DC25"]
+			description: ["this allows you to make better tools as well as upgrade your steam machines."]
+			icon: "gtceu:wrought_iron_ingot"
+			id: "367BC8BE273495CC"
+			tasks: [
+				{
+					id: "5682B1F1BE4C9DA6"
+					item: "gtceu:wrought_iron_nugget"
+					type: "item"
+				}
+				{
+					id: "1E98B10C0EFACBAB"
+					item: "gtceu:wrought_iron_ingot"
+					type: "item"
+				}
+			]
+			x: -10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["732951F918E5D036"]
+			description: ["It compresses stuff, great for metallurgy"]
+			id: "41C8CC18ED91DC25"
+			tasks: [{
+				id: "6737957CA20E949C"
+				item: "gtceu:lp_steam_compressor"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5BBE7DCE67C99A3D"]
+			description: ["If you have a lot of lava on hands, this may be a better alternative."]
+			id: "7DEB6EB9E3E267A4"
+			tasks: [{
+				id: "57AF7F8E89B7A9E0"
+				item: "gtceu:lp_steam_liquid_boiler"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5BBE7DCE67C99A3D"]
+			description: ["Replaces your mortar and pestle for ingots."]
+			id: "7F602A26CF055E05"
+			tasks: [{
+				id: "3FD6CE5F82229207"
+				item: "gtceu:lp_steam_macerator"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7F602A26CF055E05"]
+			id: "6F65465C0A8254F8"
+			optional: true
+			tasks: [{
+				id: "4649D452DE49DFD9"
+				item: "gtceu:hp_steam_macerator"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7DEB6EB9E3E267A4"]
+			id: "34D2685F58BC9F3A"
+			optional: true
+			tasks: [{
+				id: "4C137E0F3B2E7F67"
+				item: "gtceu:hp_steam_liquid_boiler"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4AA205745CC7A8F5"]
+			id: "7544B2ED5294CAF6"
+			optional: true
+			tasks: [{
+				id: "4BE042F77AC1EB4A"
+				item: "gtceu:hp_steam_furnace"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3DFF65B08C971881"]
+			id: "7C67F69808C969ED"
+			optional: true
+			tasks: [{
+				id: "4FE4618367E5AC22"
+				item: "gtceu:hp_steam_alloy_smelter"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["70BDF42738F465DC"]
+			id: "75D6D27008884000"
+			optional: true
+			tasks: [{
+				id: "6268E88FF2163692"
+				item: "gtceu:hp_steam_extractor"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["00DAF42D60192A91"]
+			id: "3A4A2EF1C303E2FB"
+			optional: true
+			tasks: [{
+				id: "1C27D64A77335BC5"
+				item: "gtceu:hp_steam_forge_hammer"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["41C8CC18ED91DC25"]
+			id: "137C3AB3DB94EE45"
+			optional: true
+			tasks: [{
+				id: "3B544BA83BDAFC81"
+				item: "gtceu:hp_steam_compressor"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5BBE7DCE67C99A3D"]
+			id: "3C6A679B2738AA66"
+			optional: true
+			tasks: [{
+				id: "37D8A4E4115F1BAC"
+				item: "gtceu:hp_steam_solid_boiler"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			id: "5D5FA02917C5FE59"
+			tasks: [{
+				id: "3A5170EDCF7B97CF"
+				item: "gtceu:steam_miner"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3DFF65B08C971881"]
+			description: ["Made with &mlove&r 4 redstone and one copper"]
+			id: "6162DB567597E8EF"
+			tasks: [{
+				id: "0BC06EB9CBFEA2B1"
+				item: "gtceu:red_alloy_ingot"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7013B83A848D32F0"]
+			description: ["The title is more than self-explanatory"]
+			icon: "gtceu:coke_gem"
+			id: "62932011FE13E3F5"
+			tasks: [
+				{
+					id: "14DABD0A5524E40B"
+					item: "gtceu:coke_gem"
+					type: "item"
+				}
+				{
+					id: "32D4D08DF57700CD"
+					item: "minecraft:charcoal"
+					type: "item"
+				}
+			]
+			title: "Coke oven pyrolysis"
+			x: -2.0d
+			y: 1.0d
 		}
 	]
 	title: "ULV/ULS - Humble Beginnigs..."
