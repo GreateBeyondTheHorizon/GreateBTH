@@ -416,6 +416,10 @@ file = "mods/attributefix.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/auudio-forge.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/avaritia-lite.pw.toml"
 metafile = true
 
@@ -520,6 +524,10 @@ file = "mods/entityculling.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/fancymenu-forge.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/fast-leaf-decay.pw.toml"
 metafile = true
 
@@ -604,6 +612,10 @@ file = "mods/kleeslabs.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/konkrete.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/kubejs-create.pw.toml"
 metafile = true
 
@@ -677,10 +689,6 @@ metafile = true
 
 [[files]]
 file = "mods/oreberries-replanted.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/packmenu.pw.toml"
 metafile = true
 
 [[files]]
