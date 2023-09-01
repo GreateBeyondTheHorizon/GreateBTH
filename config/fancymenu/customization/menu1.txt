@@ -239,7 +239,7 @@ customization {
   orientation = top-left
   shape = rectangle
   color = #40404080
-  x = -1
+  x = 43
   width = 153
   action = addshape
   actionid = e6557490-211a-4d79-bcac-80364d7f77501693560832524
@@ -264,37 +264,40 @@ customization {
 }
 
 customization {
-  orientation = top-centered
+  advanced_height = {"placeholder":"guiheight"}
+  orientation = top-left
   shape = rectangle
   color = #40404080
-  x = 193
-  width = 288
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementposx","values":{"id":"e6557490-211a-4d79-bcac-80364d7f77501693560832524"}} + {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"} * 0.65","decimal":"true"}}","decimal":"true"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"} * 0.31","decimal":"false"}}
+  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:5fe07b34-fd45-4536-9ebf-b99d021939701693562760890] = changelogVisible:true
+  x = 0
+  width = 298
   action = addshape
   actionid = 02dd87a3-e586-44a0-91a0-f938409ffebc1693561449020
   y = 0
-  advanced_width = {"placeholder":"calc","values":{"expression":"0.3 * {"placeholder":"guiwidth"}","decimal":"false"}}
   height = %guiheight%
-  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:5fe07b34-fd45-4536-9ebf-b99d021939701693562760890] = changelogVisible:true
 }
 
 customization {
   advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementheight","values":{"id":"02dd87a3-e586-44a0-91a0-f938409ffebc1693561449020"}} / 2"}}
-  orientation = element
+  orientation = top-left
   shape = rectangle
   color = #404040
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementposx","values":{"id":"02dd87a3-e586-44a0-91a0-f938409ffebc1693561449020"}} + {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"02dd87a3-e586-44a0-91a0-f938409ffebc1693561449020"}} * 0.1","decimal":"true"}}","decimal":"true"}}
   [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:0ad2064c-2b0d-4343-b677-98ccff24405d1693563034294] = changelogVisible:true
-  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"02dd87a3-e586-44a0-91a0-f938409ffebc1693561449020"}} - 80"}}
-  orientation_element = 02dd87a3-e586-44a0-91a0-f938409ffebc1693561449020
-  x = 42
-  width = 208
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"02dd87a3-e586-44a0-91a0-f938409ffebc1693561449020"}} * 0.8"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementposy","values":{"id":"02dd87a3-e586-44a0-91a0-f938409ffebc1693561449020"}} + {"placeholder":"calc","values":{"expression":"{"placeholder":"elementheight","values":{"id":"02dd87a3-e586-44a0-91a0-f938409ffebc1693561449020"}} * 0.2","decimal":"true"}}","decimal":"true"}}
+  x = 0
+  width = 238
   action = addshape
   actionid = 2788229a-baf6-422d-bf15-69ed3b7cbb211693561494820
-  y = 92
+  y = 0
   height = 258
 }
 
 customization {
-  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementheight","values":{"id":"2788229a-baf6-422d-bf15-69ed3b7cbb211693561494820"}} - 20"}}
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementheight","values":{"id":"2788229a-baf6-422d-bf15-69ed3b7cbb211693561494820"}} * 0.9","decimal":"true"}}
   orientation = element
   enable_scrolling = true
   shadow = true
@@ -302,18 +305,18 @@ customization {
   source = https://github.com/GreateBeyondTheHorizon/GreateBTH/blob/main/README.md
   text_border = 0
   case_mode = normal
-  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"2788229a-baf6-422d-bf15-69ed3b7cbb211693561494820"}} - 20"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"2788229a-baf6-422d-bf15-69ed3b7cbb211693561494820"}} * 0.9"}}
   source_mode = web
   line_spacing = 1
   orientation_element = 2788229a-baf6-422d-bf15-69ed3b7cbb211693561494820
   [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:913b6028-bafe-47e8-8904-94b05d78638f1693563062900] = changelogVisible:true
   x = 9
-  width = 188
+  width = 214
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = d67d09ef-efab-41a7-907b-ac7c69606b8b1693561898712
-  y = 9
+  y = 7
   alignment = left
-  height = 238
+  height = 232
 }
 
 customization {
