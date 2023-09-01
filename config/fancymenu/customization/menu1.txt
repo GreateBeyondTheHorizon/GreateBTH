@@ -25,17 +25,19 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
-  orientation = element
-  orientation_element = e6557490-211a-4d79-bcac-80364d7f77501693560832524
-  x = 25
+  orientation = top-left
+  x = 0
   action = movebutton
-  y = 236
+  y = 0
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementposx","values":{"id":"86efda96-ae8b-48af-a1d4-bbafe09485151693559473744"}}","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementposy","values":{"id":"vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button"}} + 25","decimal":"true"}}
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
-  width = 100
+  width = 50
   action = resizebutton
+  advanced_width = {"placeholder":"elementwidth","values":{"id":"86efda96-ae8b-48af-a1d4-bbafe09485151693559473744"}}
   height = 20
 }
 
@@ -67,33 +69,37 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
-  orientation = element
-  orientation_element = e6557490-211a-4d79-bcac-80364d7f77501693560832524
-  x = 25
+  orientation = top-left
+  x = 0
   action = movebutton
-  y = 286
+  y = 0
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementposx","values":{"id":"86efda96-ae8b-48af-a1d4-bbafe09485151693559473744"}}","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementposy","values":{"id":"vanillabtn:button_compatibility_id:forge_titlescreen_mods_button"}} + 25","decimal":"true"}}
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
-  width = 100
+  width = 50
   action = resizebutton
+  advanced_width = {"placeholder":"elementwidth","values":{"id":"86efda96-ae8b-48af-a1d4-bbafe09485151693559473744"}}
   height = 20
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
-  orientation = element
-  orientation_element = e6557490-211a-4d79-bcac-80364d7f77501693560832524
-  x = 25
+  orientation = top-left
+  x = 0
   action = movebutton
-  y = 311
+  y = 0
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementposx","values":{"id":"86efda96-ae8b-48af-a1d4-bbafe09485151693559473744"}}","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementposy","values":{"id":"vanillabtn:button_compatibility_id:mc_titlescreen_options_button"}} + 25","decimal":"true"}}
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
-  width = 100
+  width = 50
   action = resizebutton
+  advanced_width = {"placeholder":"elementwidth","values":{"id":"86efda96-ae8b-48af-a1d4-bbafe09485151693559473744"}}
   height = 20
 }
 
@@ -112,33 +118,37 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
-  orientation = element
-  orientation_element = e6557490-211a-4d79-bcac-80364d7f77501693560832524
-  x = 25
+  orientation = top-left
+  x = 0
   action = movebutton
-  y = 211
+  y = 0
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementposx","values":{"id":"86efda96-ae8b-48af-a1d4-bbafe09485151693559473744"}}","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementposy","values":{"id":"86efda96-ae8b-48af-a1d4-bbafe09485151693559473744"}} + {"placeholder":"calc","values":{"expression":"{"placeholder":"elementheight","values":{"id":"86efda96-ae8b-48af-a1d4-bbafe09485151693559473744"}} * 1.1","decimal":"true"}}","decimal":"true"}}
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
-  width = 100
+  width = 50
   action = resizebutton
+  advanced_width = {"placeholder":"elementwidth","values":{"id":"86efda96-ae8b-48af-a1d4-bbafe09485151693559473744"}}
   height = 20
 }
 
 customization {
   identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
-  orientation = element
-  orientation_element = e6557490-211a-4d79-bcac-80364d7f77501693560832524
-  x = 25
+  orientation = top-left
+  x = 0
   action = movebutton
-  y = 261
+  y = 0
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementposx","values":{"id":"86efda96-ae8b-48af-a1d4-bbafe09485151693559473744"}}","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementposy","values":{"id":"vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button"}} + 25","decimal":"true"}}
 }
 
 customization {
   identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
-  width = 100
+  width = 50
   action = resizebutton
+  advanced_width = {"placeholder":"elementwidth","values":{"id":"86efda96-ae8b-48af-a1d4-bbafe09485151693559473744"}}
   height = 20
 }
 
@@ -229,24 +239,28 @@ customization {
   orientation = top-left
   shape = rectangle
   color = #40404080
-  x = 48
-  width = 143
+  x = -1
+  width = 153
   action = addshape
   actionid = e6557490-211a-4d79-bcac-80364d7f77501693560832524
   y = 0
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"} * 0.16","decimal":"true"}}
   height = %guiheight%
 }
 
 customization {
+  advanced_height = {"placeholder":"elementwidth","values":{"id":"86efda96-ae8b-48af-a1d4-bbafe09485151693559473744"}}
   path = fancymenu_resources/images/greate_logo.png
-  orientation = element
-  orientation_element = e6557490-211a-4d79-bcac-80364d7f77501693560832524
-  x = 23
-  width = 100
+  orientation = top-left
+  x = 0
+  width = 99
   action = addtexture
   actionid = 86efda96-ae8b-48af-a1d4-bbafe09485151693559473744
-  y = 109
-  height = 100
+  y = 0
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementposx","values":{"id":"e6557490-211a-4d79-bcac-80364d7f77501693560832524"}} + {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"e6557490-211a-4d79-bcac-80364d7f77501693560832524"}} * 0.16","decimal":"true"}}","decimal":"true"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"e6557490-211a-4d79-bcac-80364d7f77501693560832524"}} * 0.65","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementposy","values":{"id":"e6557490-211a-4d79-bcac-80364d7f77501693560832524"}} + 30","decimal":"true"}}
+  height = 99
 }
 
 customization {
@@ -303,36 +317,39 @@ customization {
 }
 
 customization {
-  orientation = element
+  orientation = top-left
   restartbackgroundanimations = true
   buttonaction = set_variable;changelogVisible:true%btnaction_splitter_fm%
   label = Open Change Log
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementposx","values":{"id":"86efda96-ae8b-48af-a1d4-bbafe09485151693559473744"}}","decimal":"true"}}
+  advanced_width = {"placeholder":"elementwidth","values":{"id":"86efda96-ae8b-48af-a1d4-bbafe09485151693559473744"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementposy","values":{"id":"vanillabtn:button_compatibility_id:mc_titlescreen_quit_button"}} + 25","decimal":"true"}}
   loopbackgroundanimations = true
-  orientation_element = e6557490-211a-4d79-bcac-80364d7f77501693560832524
-  x = 25
-  width = 100
+  x = 0
+  width = 99
   action = addbutton
   actionid = 4fa1ce1f-5d9a-4125-85b1-f0184de6b77e1693562581266
-  y = 336
+  y = 0
   [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:a0273c28-ce80-44bb-9eaf-1c69347239f11693568825716] = changelogVisible:false
   height = 20
 }
 
 customization {
-  orientation = element
+  orientation = top-left
   basecolor = #ffff00
   shadow = true
   splashfilepath = fancymenu_resources/title splashes/splashes.txt
   rotation = 0.0
   scale = 1.3
   refresh = true
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"} / 2 - 50","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} - 500","decimal":"true"}}
   bouncing = true
   vanilla-like = false
-  orientation_element = e6557490-211a-4d79-bcac-80364d7f77501693560832524
-  x = 35
+  x = 0
   actionid = bb9fdd0b-03d1-4d9e-b169-673f0283cf351693564155582
   action = addsplash
-  y = 83
+  y = 0
 }
 
 customization {
@@ -341,10 +358,11 @@ customization {
   buttonaction = set_variable;changelogVisible:false%btnaction_splitter_fm%
   label = Close Change Log
   advanced_posx = {"placeholder":"elementposx","values":{"id":"4fa1ce1f-5d9a-4125-85b1-f0184de6b77e1693562581266"}}
+  advanced_width = {"placeholder":"elementwidth","values":{"id":"86efda96-ae8b-48af-a1d4-bbafe09485151693559473744"}}
   advanced_posy = {"placeholder":"elementposy","values":{"id":"4fa1ce1f-5d9a-4125-85b1-f0184de6b77e1693562581266"}}
   loopbackgroundanimations = true
   x = 0
-  width = 100
+  width = 99
   action = addbutton
   actionid = 180eca64-dcca-4c71-a9e6-b470782ba54c1693568747458
   y = 0
