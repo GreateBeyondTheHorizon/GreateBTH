@@ -1,6 +1,6 @@
 type = cached_variables
 
 variables {
-  changelogVisible = false
+  changelogVisible = true
 }
 
