@@ -6,6 +6,7 @@
 # config
 !/config
 /config/*
+!/config/fancymenu
 !/config/ftbquests
 !/config/packmenu.cfg
 !/config/emi.css
