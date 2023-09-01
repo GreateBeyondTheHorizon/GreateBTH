@@ -229,7 +229,7 @@ customization {
   orientation = top-left
   shape = rectangle
   color = #40404080
-  x = 38
+  x = 48
   width = 143
   action = addshape
   actionid = e6557490-211a-4d79-bcac-80364d7f77501693560832524
@@ -304,33 +304,17 @@ customization {
 
 customization {
   orientation = element
-  loopbackgroundanimations = true
   restartbackgroundanimations = true
-  orientation_element = e6557490-211a-4d79-bcac-80364d7f77501693560832524
   buttonaction = set_variable;changelogVisible:true%btnaction_splitter_fm%
+  label = Open Change Log
+  loopbackgroundanimations = true
+  orientation_element = e6557490-211a-4d79-bcac-80364d7f77501693560832524
   x = 25
   width = 100
   action = addbutton
   actionid = 4fa1ce1f-5d9a-4125-85b1-f0184de6b77e1693562581266
   y = 336
-  label = Change log
-  height = 20
-}
-
-customization {
-  orientation = element
-  restartbackgroundanimations = true
-  buttonaction = set_variable;changelogVisible:false%btnaction_splitter_fm%
-  label = Close Change Log
-  advanced_width = {"placeholder":"elementwidth","values":{"id":"2788229a-baf6-422d-bf15-69ed3b7cbb211693561494820"}}
-  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:a9cd7f3d-98e1-48e8-8fb6-883965d4ea5f1693563186015] = changelogVisible:true
-  loopbackgroundanimations = true
-  orientation_element = 2788229a-baf6-422d-bf15-69ed3b7cbb211693561494820
-  x = 0
-  width = 208
-  action = addbutton
-  actionid = 8c6c01bf-afb1-4d19-aa84-da1bb6a58e921693563005914
-  y = 297
+  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:a0273c28-ce80-44bb-9eaf-1c69347239f11693568825716] = changelogVisible:false
   height = 20
 }
 
@@ -349,5 +333,22 @@ customization {
   actionid = bb9fdd0b-03d1-4d9e-b169-673f0283cf351693564155582
   action = addsplash
   y = 83
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = set_variable;changelogVisible:false%btnaction_splitter_fm%
+  label = Close Change Log
+  advanced_posx = {"placeholder":"elementposx","values":{"id":"4fa1ce1f-5d9a-4125-85b1-f0184de6b77e1693562581266"}}
+  advanced_posy = {"placeholder":"elementposy","values":{"id":"4fa1ce1f-5d9a-4125-85b1-f0184de6b77e1693562581266"}}
+  loopbackgroundanimations = true
+  x = 0
+  width = 100
+  action = addbutton
+  actionid = 180eca64-dcca-4c71-a9e6-b470782ba54c1693568747458
+  y = 0
+  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:a2bb22bf-a77f-42ce-b742-ed10310e58ee1693568764992] = changelogVisible:true
+  height = 20
 }
 
