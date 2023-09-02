@@ -7,7 +7,7 @@ ServerEvents.recipes(event => {
         'aluminium',
         'stainless_steel',
         'titanium',
-        //'tungsten_steel',
+        'tungsten_steel',
         'palladium',
         'naquadah',
         'darmstadtium',
@@ -21,7 +21,7 @@ ServerEvents.recipes(event => {
         'gtceu:aluminium_plate',
         'gtceu:stainless_steel_plate',
         'gtceu:titanium_plate',
-        //'gtceu:tungsten_steel_plate',
+        'gtceu:tungsten_steel_plate',
         'gtceu:palladium_plate',
         'gtceu:naquadah_plate',
         'gtceu:darmstadtium_plate'
@@ -32,7 +32,7 @@ ServerEvents.recipes(event => {
         'gtceu:aluminium_nugget',
         'gtceu:stainless_steel_nugget',
         'gtceu:titanium_nugget',
-        //'gtceu:tungsten_steel_nugget',
+        'gtceu:tungsten_steel_nugget',
         'gtceu:palladium_nugget',
         'gtceu:naquadah_nugget',
         'gtceu:darmstadtium_nugget',
@@ -51,14 +51,6 @@ ServerEvents.recipes(event => {
         'minecraft:andesite',
         'minecraft:andesite',
         // TODO change after magic mods are established
-        /* 'gtceu:aluminium', 
-        'gtceu:stainless_steel',
-        'gtceu:titanium',
-        //'gtceu:tungsten_steel',
-        'gtceu:palladium',
-        'gtceu:naquadah',
-        'gtceu:darmstadtium',
-        'gtceu:neutronium' */
         
     ]
 
