@@ -1,12 +1,18 @@
 /*
 !.gitignore
 !.gitattributes
+!/.github
 
 # config
 !/config
+/config/*
+!/config/fancymenu
+!/config/ftbquests
+!/config/packmenu.cfg
+!/config/emi.css
 !/defaultconfigs
 !/kubejs
-!/packmenu
+!/fancymenu_resources
 
 # mods
 !/mods
@@ -17,6 +23,7 @@
 !CONTRIBUTING.md
 
 # packwiz
+!packwiz.exe
 !packwiz
 !.packwizignore
 !index.toml

@@ -1,11 +1,3 @@
 {
-	chapter_groups: [
-		{ id: "33AB0DFCA4C1B845", title: "The Journey" }
-		{ id: "615B26DFD6C6C5EF", title: "Unlimited power..." }
-		{ id: "45418797311E3348", title: "Sorcery and Shadows" }
-		{ id: "77DAA7369F830904", title: "The Art of Organized Chaos" }
-		{ id: "42AF057221FB5EE6", title: "Fields of Fortune" }
-		{ id: "3A5B9BE391CA6DED", title: "Where Will All This Fit?" }
-		{ id: "4C9B4CE2E8262ACC", title: "Universe Unleashed" }
-	]
+	chapter_groups: [ ]
 }

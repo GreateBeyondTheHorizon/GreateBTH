@@ -1,27 +1,31 @@
 // Priority: 0
 StartupEvents.registry('item', event => {
 
-	event.create('drinkable_liquid_concrete').displayName('Bucket of Drinkable Liquid Concrete')
+	event.create('drinkable_liquid_concrete').useAnimation("drink").displayName('Bucket of Drinkable Liquid Concrete')
 
-	event.create('raw_integrated_circuit').displayName('Raw Integrated Circuit')
 	event.create('inc_mv_circuit', 'create:sequenced_assembly').displayName('Incomplete MV Circuit')
-	event.create('inc_lv_circuit', 'create:sequenced_assembly').displayName('Incomplete Basic Electronic Circuit')
-	event.create('sub_lv_circuit_2').displayName('Incomplete Basic Integrated Circuit')
-	event.create('sub_lv_circuit_3').displayName('Incomplete Microchip Processer')
+	//lv circuits
+	event.create('inc_basic_electronic_circuit', 'create:sequenced_assembly').displayName('Incomplete Basic Electronic Circuit')
+	event.create('inc_basic_integrated_circuit', 'create:sequenced_assembly').displayName('Incomplete Basic Integrated Circuit')
+	event.create('inc_microchip_processor', 'create:sequenced_assembly').displayName('Incomplete Microchip Processor')
+	//hv circuits
+	event.create('inc_good_electronic_circuit', 'create:sequenced_assembly').displayName('Incomplete Godd Electronic Circuit')
+	event.create('inc_good_integrated_circuit', 'create:sequenced_assembly').displayName('Incomplete Good Integrated Circuit')
+	event.create('inc_micro_processor', 'create:sequenced_assembly').displayName('Incomplete Micro Processor')
+	//hv circuits missing texture for inter items
+	event.create('inter_advanced_integrated_circuit').displayName('Intermediate Advanced Integrated Circuit')
+	event.create('inc_advanced_integrated_circuit', 'create:sequenced_assembly').displayName('Incomplete Advanced Integrated Circuit')
 
-	event.create('inc_basic_electronic_circuit', 'create:sequenced_assembly')
-	event.create('inc_basic_integrated_circuit', 'create:sequenced_assembly')
-	event.create('inc_microchip_processor', 'create:sequenced_assembly')
+	event.create('inter_micro_processor_assembly').displayName('Intermediate Micro Processor Assembly')
+	event.create('inc_micro_processor_assembly', 'create:sequenced_assembly').displayName('Incomplete Micro Processor Assembly')
 
-	event.create('inc_good_electronic_circuit', 'create:sequenced_assembly')
-	event.create('inc_good_integrated_circuit', 'create:sequenced_assembly')
-	event.create('inc_micro_processor', 'create:sequenced_assembly')
-
-	event.create('inc_hv_circuit', 'create:sequenced_assembly')
+	event.create('inc_inter_nano_processor', 'create:sequenced_assembly').displayName('Incomplete Nano Processor')
+	event.create('inter_nano_processor').displayName('Intermediate Nano Processor')
 	
 	event.create('raw_integrated_circuit_board').displayName("Raw Integrated Circuit Board")
-	event.create('raw_phenolic_circuit_board', 'create:sequenced_assembly').displayName("Raw Phenolic Printed Circuit Board")
+	event.create('raw_phenolic_circuit_board').displayName("Raw Phenolic Printed Circuit Board")
 	event.create('raw_plastic_circuit_board').displayName("Raw Plastic Printed Circuit Board")
+	event.create('raw_epoxy_circuit_board').displayName("Raw Epoxy Printed Circuit Board")
 	// LV components
 	event.create('inc_lv_motor', 'create:sequenced_assembly').displayName('Incomplete LV Motor')
 	event.create('inc_lv_piston', 'create:sequenced_assembly').displayName('Incomplete LV Piston')
@@ -40,6 +44,15 @@ StartupEvents.registry('item', event => {
 	event.create('inc_mv_emitter', 'create:sequenced_assembly').displayName('Incomplete MV Emitter')
 	event.create('inc_mv_conveyor', 'create:sequenced_assembly').displayName('Incomplete MV Conveyor')
 	event.create('inc_mv_robot_arm', 'create:sequenced_assembly').displayName('Incomplete MV Robotic Arm')
+	// HV components
+	event.create('inc_hv_motor', 'create:sequenced_assembly')
+	event.create('inc_hv_piston', 'create:sequenced_assembly').displayName('Incomplete HV Piston')
+	event.create('inc_hv_pump', 'create:sequenced_assembly').displayName('Incomplete HV Pump')
+	event.create('inc_hv_fluid_regulator', 'create:sequenced_assembly').displayName('Incomplete HV Fluid Regulator')
+	event.create('inc_hv_sensor', 'create:sequenced_assembly').displayName('Incomplete HV Sensor')
+	event.create('inc_hv_emitter', 'create:sequenced_assembly').displayName('Incomplete HV Emitter')
+	event.create('inc_hv_conveyor', 'create:sequenced_assembly').displayName('Incomplete HV Conveyor')
+	event.create('inc_hv_robot_arm', 'create:sequenced_assembly').displayName('Incomplete HV Robot Arm')
 	
 	// AE2
 	
@@ -95,8 +108,6 @@ StartupEvents.registry('item', event => {
 	event.create('ruthenium_trinium_americium_neutronate_plate').displayName('Ruthenium Trinium Americium Neutronate Plate')
 	event.create('flint_saw').displayName('Flint Saw').maxDamage(64).unstackable()
 
-	event.create('bed_base').displayName('Bed Base')
-	event.create('mattress').displayName('Mattress')
 
 	//compass
 	event.create('empty_compass').displayName('Empty Compass')
