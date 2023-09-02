@@ -168,7 +168,7 @@ customization {
 customization {
   orientation = top-left
   hidden = false
-  x = 186
+  x = 346
   width = 268
   action = deep_customization_element:title_screen_forge_top
   actionid = 880c44f2-296f-4056-b0e6-19b465427a011693558067055
@@ -240,7 +240,7 @@ customization {
   shape = rectangle
   color = #40404080
   x = 52
-  width = 152
+  width = 203
   action = addshape
   actionid = e6557490-211a-4d79-bcac-80364d7f77501693560832524
   y = 0
@@ -253,14 +253,14 @@ customization {
   path = fancymenu_resources/images/greate_logo.png
   orientation = top-left
   x = 0
-  width = 98
+  width = 131
   action = addtexture
   actionid = 86efda96-ae8b-48af-a1d4-bbafe09485151693559473744
   y = 0
   advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementposx","values":{"id":"e6557490-211a-4d79-bcac-80364d7f77501693560832524"}} + {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"e6557490-211a-4d79-bcac-80364d7f77501693560832524"}} * 0.16","decimal":"true"}}","decimal":"true"}}
   advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"e6557490-211a-4d79-bcac-80364d7f77501693560832524"}} * 0.65","decimal":"true"}}
   advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementposy","values":{"id":"e6557490-211a-4d79-bcac-80364d7f77501693560832524"}}","decimal":"true"}}
-  height = 98
+  height = 131
 }
 
 customization {
@@ -272,7 +272,7 @@ customization {
   advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"} * 0.31","decimal":"false"}}
   [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:5fe07b34-fd45-4536-9ebf-b99d021939701693562760890] = changelogVisible:true
   x = 0
-  width = 198
+  width = 298
   action = addshape
   actionid = 02dd87a3-e586-44a0-91a0-f938409ffebc1693561449020
   y = 0
@@ -289,11 +289,11 @@ customization {
   advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementwidth","values":{"id":"02dd87a3-e586-44a0-91a0-f938409ffebc1693561449020"}} * 0.8"}}
   advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementposy","values":{"id":"02dd87a3-e586-44a0-91a0-f938409ffebc1693561449020"}} + {"placeholder":"calc","values":{"expression":"{"placeholder":"elementheight","values":{"id":"02dd87a3-e586-44a0-91a0-f938409ffebc1693561449020"}} * 0.2","decimal":"true"}}","decimal":"true"}}
   x = 0
-  width = 158
+  width = 238
   action = addshape
   actionid = 2788229a-baf6-422d-bf15-69ed3b7cbb211693561494820
   y = 0
-  height = 176
+  height = 264
 }
 
 customization {
@@ -311,12 +311,12 @@ customization {
   orientation_element = 2788229a-baf6-422d-bf15-69ed3b7cbb211693561494820
   [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:913b6028-bafe-47e8-8904-94b05d78638f1693563062900] = changelogVisible:true
   x = 9
-  width = 142
+  width = 214
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = d67d09ef-efab-41a7-907b-ac7c69606b8b1693561898712
   y = 7
   alignment = left
-  height = 158
+  height = 237
 }
 
 customization {
@@ -329,7 +329,7 @@ customization {
   advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"elementposy","values":{"id":"vanillabtn:button_compatibility_id:mc_titlescreen_quit_button"}} + 25","decimal":"true"}}
   loopbackgroundanimations = true
   x = 0
-  width = 121
+  width = 162
   action = addbutton
   actionid = 4fa1ce1f-5d9a-4125-85b1-f0184de6b77e1693562581266
   y = 0
@@ -345,8 +345,8 @@ customization {
   rotation = 0.0
   scale = 1.3
   refresh = true
-  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"} / 2 - 50","decimal":"true"}}
-  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} - 500","decimal":"true"}}
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"} / 2 - {"placeholder":"elementwidth","values":{"id":"bb9fdd0b-03d1-4d9e-b169-673f0283cf351693564155582"}} / 2","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} / 15","decimal":"true"}}
   bouncing = true
   vanilla-like = false
   x = 0
@@ -365,7 +365,7 @@ customization {
   advanced_posy = {"placeholder":"elementposy","values":{"id":"4fa1ce1f-5d9a-4125-85b1-f0184de6b77e1693562581266"}}
   loopbackgroundanimations = true
   x = 0
-  width = 121
+  width = 162
   action = addbutton
   actionid = 180eca64-dcca-4c71-a9e6-b470782ba54c1693568747458
   y = 0
