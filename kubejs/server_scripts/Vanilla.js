@@ -16,6 +16,7 @@ ServerEvents.recipes(event => {
 	event.remove({ output: 'minecraft:shield' })
 	event.remove({ output: '#minecraft:boats' })
 	event.remove({ output: 'minecraft:minecart' })
+	event.remove({ output: 'minecraft:bucket'})
 
 var planks = ['minecraft:acacia_planks', 'minecraft:oak_planks', 'minecraft:birch_planks', 'minecraft:spruce_planks','minecraft:dark_oak_planks', 'minecraft:mangrove_planks', 'minecraft:jungle_planks', 'minecraft:warped_planks', 'minecraft:crimson_planks', 'gtceu:rubber_planks'];
 var boats = ['minecraft:acacia_boat', 'minecraft:oak_boat', 'minecraft:birch_boat', 'minecraft:spruce_boat', 'minecraft:dark_oak_boat', 'minecraft:mangrove_boat', 'minecraft:jungle_boat' ]
@@ -107,63 +108,66 @@ var logs = ['#minecraft:acacia_logs', '#minecraft:oak_logs', '#minecraft:birch_l
 		j++
 	}
 	
-	event.shaped(
+event.shaped(
 	Item.of('minecraft:chest'),
-	[
-		'CBC',
-		'BDB',
-		'ABA'
-	],
-	{
-		A:'minecraft:flint',
-		B:'gtceu:wood_plate',
-		C:'gtceu:wood_gear',
-		D:'gtceu:wood_frame'
-	}
-	)
-			event.shaped(Item.of('minecraft:furnace', 1), [
-                    'PFP',
-                    'FPF',
-                    'GFG',
-                ], 
-                {
-                    P: 'gtceu:stone_gear',
-                    F: 'minecraft:cobblestone',
-                    G: 'gtceu:stone_rod'
-                }
-            )
-			event.shapeless(
-			Item.of('gtceu:stone_rod', 2),
-				[ 
-					'2x minecraft:cobblestone'
-				]
+		[
+			'CBC',
+			'BDB',
+			'ABA'
+		],
+		{
+			A:'minecraft:flint',
+			B:'gtceu:wood_plate',
+			C:'gtceu:wood_gear',
+			D:'gtceu:wood_frame'
+		}
+)
+event.shaped(
+	Item.of('minecraft:furnace', 1), 
+		[
+			'PFP',
+			'FPF',
+			'GFG',
+		], 
+		{
+			P: 'gtceu:stone_gear',
+			F: 'minecraft:cobblestone',
+			G: 'gtceu:stone_rod'
+		}
+)
+event.shapeless(
+	Item.of('gtceu:stone_rod', 2),
+		[ 
+			'2x minecraft:cobblestone'
+		]
 )
 event.shaped(
 	Item.of('minecraft:crafting_table'),
-	[
-		'AA ',
-		'AA ',
-		'   '
-	],
-	{
-		A:'#minecraft:logs'
-	}
-	)
+		[
+			'AA ',
+			'AA ',
+			'   '
+		],
+		{
+			A:'#minecraft:logs'
+		}
+)
 	event.shaped(
 	Item.of('minecraft:blast_furnace'),
-	[
-		'AAA',
-		'ABA',
-		'CCC'
-	],
-	{
-		A: 'gtceu:invar_plate',
-		B: 'minecraft:furnace',
-		C: 'minecraft:smooth_stone'
-	}
-	)
+		[
+			'AAA',
+			'ABA',
+			'CCC'
+		],
+		{
+			A: 'gtceu:invar_plate',
+			B: 'minecraft:furnace',
+			C: 'minecraft:smooth_stone'
+		}
+)
       
-event.shaped(Item.of('minecraft:smoker', 1),
+event.shaped(
+	Item.of('minecraft:smoker', 1),
 		[
 			'ABA',
 			'BCB',
@@ -174,20 +178,20 @@ event.shaped(Item.of('minecraft:smoker', 1),
 			B:'gtceu:invar_plate',
 			C:'minecraft:furnace'
 		}
-		)	
+)	
 
 event.shaped(
 	Item.of('minecraft:barrel'),
-	[
-		'BAB',
-		'BDB',
-		'BAB'
-	],
-	{
-		A:'minecraft:flint',
-		B:'gtceu:wood_plate',
-		D:'gtceu:wood_frame'
-	}
+		[
+			'BAB',
+			'BDB',
+			'BAB'
+		],
+		{
+			A:'minecraft:flint',
+			B:'gtceu:wood_plate',
+			D:'gtceu:wood_frame'
+		}
 	)
 
 	
@@ -203,31 +207,44 @@ event.shaped('kubejs:flint_saw',
 		C:'#forge:tools/files',
 		D:'#forge:tools/hammers'
 	}
+)
+	
+event.shaped(
+	Item.of('minecraft:shield'),
+		[
+			'ABA',
+			'AAA',
+			' A '
+		],
+		{
+			A: '#minecraft:logs',
+			B: 'gtceu:stainless_steel_double_plate'
+		}
 	)
 	
-	event.shaped(
-	Item.of('minecraft:shield'),
+event.shaped(
+	Item.of('minecraft:minecart'),
+		[
+			'A A',
+			'AAA',
+			'   '
+		],
+		{
+			A: 'gtceu:steel_double_plate'
+		}
+)
+
+event.shaped(
+	Item.of('minecraft:bucket'),
 	[
 		'ABA',
-		'AAA',
-		' A '
+		' A ',
+		'   ',
 	],
 	{
-		A: '#minecraft:logs',
-		B: 'gtceu:stainless_steel_double_plate'
+		A: 'gtceu:iron_plate',
+		B: '#forge:tools/hammers'
 	}
-	)
-	
-	event.shaped(
-	Item.of('minecraft:minecart'),
-	[
-		'A A',
-		'AAA',
-		'   '
-	],
-	{
-		A: 'gtceu:steel_double_plate'
-	}
-	)
+)
 	
 })
