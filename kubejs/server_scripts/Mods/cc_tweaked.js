@@ -43,24 +43,24 @@ ServerEvents.recipes( event => {
         .duration(200)
         .EUt(120)
         .circuit(1)
-    // Move dyes into a common script if it is needed by anything else.
-    const dyes = [
-        '#forge:dyes/white',
-        '#forge:dyes/orange',
-        '#forge:dyes/magenta',
-        '#forge:dyes/light_blue',
-        '#forge:dyes/yellow',
-        '#forge:dyes/lime',
-        '#forge:dyes/pink',
-        '#forge:dyes/gray',
-        '#forge:dyes/light_gray',
-        '#forge:dyes/cyan',
-        '#forge:dyes/purple',
-        '#forge:dyes/blue',
-        '#forge:dyes/brown',
-        '#forge:dyes/green',
-        '#forge:dyes/red',
-        '#forge:dyes/black',
+    // Move dye_colors into a common script if it is needed by anything else.
+    const dye_colors = [
+        'white',
+        'orange',
+        'magenta',
+        'light_blue',
+        'yellow',
+        'lime',
+        'pink',
+        'gray',
+        'light_gray',
+        'cyan',
+        'purple',
+        'blue',
+        'brown',
+        'green',
+        'red',
+        'black',
     ]
     const disc_dye_hex_codes = [
         1118481,
@@ -83,6 +83,11 @@ ServerEvents.recipes( event => {
     for (let i = 0; i < 16; i++) {
         var disc_number = i + 1
         event.remove({ id: 'computercraft:disk_' + disc_number })
-        event.shapeless(Item.of('computercraft:disk', { 'Color': disc_dye_hex_codes[15 - i] }), ['computercraft:disk', dyes[i]])
+        event.recipes.gtceu.assembler('computercraft:disk_' + disc_number)
+            .itemInputs('computercraft:disk')
+            .inputFluids('gtceu:' + dye_colors[i] + '_dye 36')
+            .itemOutputs(Item.of('computercraft:disk', { 'Color': disc_dye_hex_codes[15 - i] }))
+            .duration(100)
+            .EUt(24)
     }
 })
