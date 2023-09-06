@@ -24,7 +24,7 @@
 	allowBrewingInMixer = true
 	#.
 	#Allow any shapeless crafting recipes to be processed by a Mechanical Mixer + Basin.
-	allowShapelessInMixer = true
+	allowShapelessInMixer = false
 	#.
 	#Allow any single-ingredient 2x2 or 3x3 crafting recipes to be processed by a Mechanical Press + Basin.
 	allowShapedSquareInPress = true
