@@ -43,7 +43,7 @@ ServerEvents.recipes( event => {
         .duration(200)
         .EUt(120)
         .circuit(1)
-    // Move dye_colors into a common script if it is needed by anything else.
+    // Move dye_colors into a common script if it is needed by anything else
     const dye_colors = [
         'white',
         'orange',
@@ -62,7 +62,7 @@ ServerEvents.recipes( event => {
         'red',
         'black',
     ]
-    const disc_dye_hex_codes = [
+    const disk_dye_hex_codes = [
         1118481,
         13388876,
         5744206,
@@ -81,13 +81,14 @@ ServerEvents.recipes( event => {
         15790320,
     ]
     for (let i = 0; i < 16; i++) {
-        var disc_number = i + 1
-        event.remove({ id: 'computercraft:disk_' + disc_number })
-        event.recipes.gtceu.assembler('computercraft:disk_' + disc_number)
-            .itemInputs('computercraft:disk')
-            .inputFluids('gtceu:' + dye_colors[i] + '_dye 36')
-            .itemOutputs(Item.of('computercraft:disk', { 'Color': disc_dye_hex_codes[15 - i] }))
-            .duration(100)
-            .EUt(24)
+        var disk_number = i + 1
+        event.remove({ id: 'computercraft:disk_' + disk_number })
+        event.shapeless(Item.of('computercraft:disk', { 'Color': disk_dye_hex_codes[15 - i] }), [
+            'computercraft:disk',
+            '#forge:dyes/' + dye_colors[i]
+        ]).modifyResult((grid, result) => {
+            let disk = grid.find('computercraft:disk')
+            return disk.copy().nbt.merge({ 'Color': disk_dye_hex_codes[15 - i] })
+        })
     }
 })
