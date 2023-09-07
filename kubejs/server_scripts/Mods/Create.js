@@ -19,7 +19,7 @@ ServerEvents.recipes(event => {
   removed.forEach(item => {
     event.remove({output: `create:${item}`})
   })
-
+  event.remove({ output: /create:crushed_(.*)/})
   event.remove({ output: 'create:iron_sheet'})
   event.remove({ output: 'create:brass_sheet'})
   event.remove({ output: 'create:copper_sheet'})
