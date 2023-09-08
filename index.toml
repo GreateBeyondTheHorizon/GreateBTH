@@ -764,10 +764,6 @@ file = "mods/terralith.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/the-twilight-forest.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/toast-control.pw.toml"
 metafile = true
 
