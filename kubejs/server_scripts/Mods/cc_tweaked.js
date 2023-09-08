@@ -16,6 +16,14 @@ ServerEvents.recipes( event => {
         .duration(200)
         .EUt(120)
     
+    event.remove({ id:'computercraft:printer' })
+    event.recipes.gtceu.assembler('computercraft:printer')
+        .itemInputs('gtceu:lv_machine_casing', '3x #forge:circuits/hv', 'gtceu:mv_electric_motor', '2x gtceu:copper_small_spring', 'gtceu:iron_rod')
+        .inputFluids('gtceu:polyethylene 72')
+        .itemOutputs('computercraft:printer')
+        .duration(200)
+        .EUt(120)
+    
     // Modems
     event.remove({ id:'computercraft:wired_modem' })
     event.recipes.gtceu.assembler('computercraft:wired_modem')
