@@ -82,6 +82,23 @@ ServerEvents.recipes( event => {
         .duration(200)
         .EUt(256)
     
+    // Turtles
+    event.remove({ id: 'computercraft:turtle_normal' })
+    event.recipes.gtceu.assembler('computercraft:turtle_normal')
+        .itemInputs('computercraft:computer_normal', '2x gtceu:aluminium_plate', '#forge:chests/wooden')
+        .inputFluids('gtceu:polyethylene 72')
+        .itemOutputs('computercraft:turtle_normal')
+        .duration(200)
+        .EUt(120)
+    event.remove({ id:'computercraft:turtle_advanced' })
+    event.remove({ id:'computercraft:turtle_advanced_upgrade' })
+    event.recipes.gtceu.assembler('computercraft:turtle_advanced')
+        .itemInputs('computercraft:computer_advanced', '2x gtceu:aluminium_plate', '#forge:chests/wooden')
+        .inputFluids('gtceu:polyethylene 72')
+        .itemOutputs('computercraft:turtle_advanced')
+        .duration(200)
+        .EUt(256)
+    
     // Modems
     event.remove({ id:'computercraft:wired_modem' })
     event.recipes.gtceu.assembler('computercraft:wired_modem')
