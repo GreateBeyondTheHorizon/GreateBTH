@@ -48,6 +48,23 @@ ServerEvents.recipes( event => {
         .duration(200)
         .EUt(120)
     
+    event.remove({ id:'computercraft:computer_normal' })
+    event.recipes.gtceu.assembler('computercraft:computer_normal')
+        .itemInputs('gtceu:mv_machine_casing', '2x gtceu:aluminium_plate', 'gtceu:plastic_printed_circuit_board', '#forge:circuits/mv', '2x gtceu:polyethylene_rotor')
+        .inputFluids('gtceu:polyethylene 72')
+        .itemOutputs('computercraft:computer_normal')
+        .duration(200)
+        .EUt(120)
+    
+    event.remove({ id:'computercraft:computer_advanced' })
+    event.remove({ id:'computercraft:computer_advanced_upgrade' })
+    event.recipes.gtceu.assembler('computercraft:computer_advanced')
+        .itemInputs('gtceu:hv_machine_casing', '2x gtceu:aluminium_plate', 'gtceu:epoxy_printed_circuit_board', '#forge:circuits/hv', '2x gtceu:polyethylene_rotor')
+        .inputFluids('gtceu:polyethylene 72')
+        .itemOutputs('computercraft:computer_advanced')
+        .duration(200)
+        .EUt(256)
+    
     // Modems
     event.remove({ id:'computercraft:wired_modem' })
     event.recipes.gtceu.assembler('computercraft:wired_modem')
