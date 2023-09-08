@@ -10,7 +10,7 @@ ServerEvents.recipes( event => {
 
     event.remove({ id:'computercraft:disk_drive' })
     event.recipes.gtceu.assembler('computercraft:disk_drive')
-        .itemInputs('gtceu:lv_machine_casing', '3x #forge:circuits/hv', 'gtceu:mv_electric_motor', 'gtceu:copper_small_spring', 'gtceu:magnetic_iron_rod', 'gtceu:glass_lens')
+        .itemInputs('gtceu:lv_machine_casing', '2x #forge:circuits/hv', 'gtceu:mv_electric_motor', 'gtceu:copper_small_spring', 'gtceu:magnetic_iron_rod', 'gtceu:glass_lens')
         .inputFluids('gtceu:polyethylene 72')
         .itemOutputs('computercraft:disk_drive')
         .duration(200)
@@ -18,7 +18,7 @@ ServerEvents.recipes( event => {
     
     event.remove({ id:'computercraft:printer' })
     event.recipes.gtceu.assembler('computercraft:printer')
-        .itemInputs('gtceu:lv_machine_casing', '3x #forge:circuits/hv', 'gtceu:mv_electric_motor', '2x gtceu:copper_small_spring', 'gtceu:iron_rod')
+        .itemInputs('gtceu:lv_machine_casing', '2x #forge:circuits/hv', 'gtceu:mv_electric_motor', '2x gtceu:copper_small_spring', 'gtceu:iron_rod')
         .inputFluids('gtceu:polyethylene 72')
         .itemOutputs('computercraft:printer')
         .duration(200)
@@ -26,7 +26,7 @@ ServerEvents.recipes( event => {
     
     event.remove({ id:'computercraft:speaker' })
     event.recipes.gtceu.assembler('computercraft:speaker')
-        .itemInputs('gtceu:lv_machine_casing', '3x #forge:circuits/hv', 'minecraft:note_block')
+        .itemInputs('gtceu:lv_machine_casing', '2x #forge:circuits/hv', 'minecraft:note_block')
         .inputFluids('gtceu:polyethylene 72')
         .itemOutputs('computercraft:speaker')
         .duration(200)
@@ -34,7 +34,7 @@ ServerEvents.recipes( event => {
     
     event.remove({ id:'computercraft:monitor_normal' })
     event.recipes.gtceu.assembler('computercraft:monitor_normal')
-        .itemInputs('gtceu:lv_machine_casing', '3x #forge:circuits/hv', 'create:display_board')
+        .itemInputs('gtceu:lv_machine_casing', '2x #forge:circuits/hv', 'create:display_board')
         .inputFluids('gtceu:polyethylene 72')
         .itemOutputs('computercraft:monitor_normal')
         .duration(200)
@@ -42,7 +42,7 @@ ServerEvents.recipes( event => {
     
     event.remove({ id:'computercraft:monitor_advanced' })
     event.recipes.gtceu.assembler('computercraft:monitor_advanced')
-        .itemInputs('gtceu:hv_machine_casing', '3x #forge:circuits/ev', 'create:display_board')
+        .itemInputs('gtceu:hv_machine_casing', '2x #forge:circuits/ev', 'create:display_board')
         .inputFluids('gtceu:polytetrafluoroethylene 72')
         .itemOutputs('computercraft:monitor_advanced')
         .duration(200)
