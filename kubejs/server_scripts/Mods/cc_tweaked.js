@@ -32,6 +32,14 @@ ServerEvents.recipes( event => {
         .duration(200)
         .EUt(120)
     
+    event.remove({ id:'computercraft:monitor_normal' })
+    event.recipes.gtceu.assembler('computercraft:monitor_normal')
+        .itemInputs('gtceu:lv_machine_casing', '3x #forge:circuits/hv', 'create:display_board')
+        .inputFluids('gtceu:polyethylene 72')
+        .itemOutputs('computercraft:monitor_normal')
+        .duration(200)
+        .EUt(120)
+    
     // Modems
     event.remove({ id:'computercraft:wired_modem' })
     event.recipes.gtceu.assembler('computercraft:wired_modem')
