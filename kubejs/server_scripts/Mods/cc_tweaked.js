@@ -24,6 +24,14 @@ ServerEvents.recipes( event => {
         .duration(200)
         .EUt(120)
     
+    event.remove({ id:'computercraft:speaker' })
+    event.recipes.gtceu.assembler('computercraft:speaker')
+        .itemInputs('gtceu:lv_machine_casing', '3x #forge:circuits/hv', 'minecraft:note_block')
+        .inputFluids('gtceu:polyethylene 72')
+        .itemOutputs('computercraft:speaker')
+        .duration(200)
+        .EUt(120)
+    
     // Modems
     event.remove({ id:'computercraft:wired_modem' })
     event.recipes.gtceu.assembler('computercraft:wired_modem')
