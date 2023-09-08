@@ -40,6 +40,14 @@ ServerEvents.recipes( event => {
         .duration(200)
         .EUt(120)
     
+    event.remove({ id:'computercraft:monitor_advanced' })
+    event.recipes.gtceu.assembler('computercraft:monitor_advanced')
+        .itemInputs('gtceu:hv_machine_casing', '3x #forge:circuits/ev', 'create:display_board')
+        .inputFluids('gtceu:polytetrafluoroethylene 72')
+        .itemOutputs('computercraft:monitor_advanced')
+        .duration(200)
+        .EUt(120)
+    
     // Modems
     event.remove({ id:'computercraft:wired_modem' })
     event.recipes.gtceu.assembler('computercraft:wired_modem')
