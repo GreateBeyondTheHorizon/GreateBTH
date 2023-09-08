@@ -65,6 +65,23 @@ ServerEvents.recipes( event => {
         .duration(200)
         .EUt(256)
     
+    // Pocket computers
+    event.remove({ id: 'computercraft:pocket_computer_normal' })
+    event.recipes.gtceu.assembler('computercraft:pocket_computer_normal')
+        .itemInputs('2x gtceu:aluminium_plate', 'gtceu:plastic_printed_circuit_board', '#forge:circuits/mv', 'gtceu:polyethylene_rotor', 'create:display_board')
+        .inputFluids('gtceu:polyethylene 72')
+        .itemOutputs('computercraft:pocket_computer_normal')
+        .duration(200)
+        .EUt(120)
+    event.remove({ id:'computercraft:pocket_computer_advanced' })
+    event.remove({ id:'computercraft:pocket_computer_advanced_upgrade' })
+    event.recipes.gtceu.assembler('computercraft:pocket_computer_advanced')
+        .itemInputs('2x gtceu:aluminium_plate', 'gtceu:epoxy_printed_circuit_board', '#forge:circuits/hv', 'gtceu:polyethylene_rotor', 'create:display_board')
+        .inputFluids('gtceu:polyethylene 72')
+        .itemOutputs('computercraft:pocket_computer_advanced')
+        .duration(200)
+        .EUt(256)
+    
     // Modems
     event.remove({ id:'computercraft:wired_modem' })
     event.recipes.gtceu.assembler('computercraft:wired_modem')
