@@ -9,7 +9,7 @@ ServerEvents.recipes( event => {
         .circuit(1)
 
     event.remove({ id:'computercraft:disk_drive' })
-    event.recipes.gtceu.assembler('computercraft:wireless_modem_advanced')
+    event.recipes.gtceu.assembler('computercraft:disk_drive')
         .itemInputs('gtceu:lv_machine_casing', '3x #forge:circuits/hv', 'gtceu:mv_electric_motor', 'gtceu:copper_small_spring', 'gtceu:magnetic_iron_rod', 'gtceu:glass_lens')
         .inputFluids('gtceu:polyethylene 72')
         .itemOutputs('computercraft:disk_drive')
