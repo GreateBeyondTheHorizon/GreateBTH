@@ -8,6 +8,7 @@ ServerEvents.recipes( event => {
         .EUt(120)
         .circuit(1)
     
+    // Modems
     event.remove({ id:'computercraft:wired_modem' })
     event.recipes.gtceu.assembler('computercraft:wired_modem')
         .itemInputs('gtceu:lv_machine_casing', 'gtceu:plastic_circuit_board', '2x computercraft:cable', '#forge:circuits/mv')
@@ -16,7 +17,6 @@ ServerEvents.recipes( event => {
         .duration(200)
         .EUt(120)
         .circuit(1)
-    
     event.remove({ id:'computercraft:wireless_modem_normal' })
     event.recipes.gtceu.assembler('computercraft:wireless_modem_normal')
         .itemInputs('gtceu:mv_machine_casing', 'gtceu:epoxy_circuit_board', '2x computercraft:cable', '#forge:circuits/hv', 'gtceu:mv_emitter', 'gtceu:mv_sensor')
@@ -25,7 +25,6 @@ ServerEvents.recipes( event => {
         .duration(200)
         .EUt(256)
         .circuit(1)
-    
     event.remove({ id:'computercraft:wireless_modem_advanced' })
     event.recipes.gtceu.assembler('computercraft:wireless_modem_advanced')
         .itemInputs('gtceu:hv_machine_casing', 'gtceu:fiber_reinforced_circuit_board', '2x computercraft:cable', '#forge:circuits/ev', 'gtceu:hv_emitter', 'gtceu:hv_sensor')
