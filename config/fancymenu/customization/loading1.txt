@@ -1,0 +1,30 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.LevelLoadingScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"} * 0.1","decimal":"true"}}
+  orientation = top-left
+  name = ebf_5ed795df72a44a03
+  x = 0
+  width = 42
+  actionid = 7d3a2d83-6c19-4800-ad95-47b0aedcb1f21694220838782
+  action = addanimation
+  y = 0
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"} - {"placeholder":"elementwidth","values":{"id":"7d3a2d83-6c19-4800-ad95-47b0aedcb1f21694220838782"}}","decimal":"true"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"} * 0.1","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} - {"placeholder":"elementheight","values":{"id":"7d3a2d83-6c19-4800-ad95-47b0aedcb1f21694220838782"}}","decimal":"true"}}
+  height = 42
+}
+

@@ -628,6 +628,10 @@ file = "mods/lazy-dfu-forge.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/load-my-resources-forge.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/macaws-bridges.pw.toml"
 metafile = true
 
@@ -761,10 +765,6 @@ metafile = true
 
 [[files]]
 file = "mods/terralith.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/the-twilight-forest.pw.toml"
 metafile = true
 
 [[files]]
