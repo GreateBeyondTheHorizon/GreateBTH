@@ -18,7 +18,8 @@ ServerEvents.recipes(event => {
 	
 	event.remove({id: 'gtceu:smelting/sticky_resin_from_slime'}) // <-- random bullshit go!
     
-	
+	event.remove({output: 'gtceu:vacuum_tube'})
+
 	event.shaped(
 	Item.of('gtceu:wood_plate'),
 		[
