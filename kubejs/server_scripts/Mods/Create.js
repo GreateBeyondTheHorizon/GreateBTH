@@ -8,7 +8,7 @@ ServerEvents.recipes(event => {
     'fluid_valve',
     'water_wheel',
     'large_water_wheel',
-    'andesite_casing',
+    //'andesite_casing',
     'windmill_bearing',
     'steam_engine',
     'belt_connector',
@@ -126,15 +126,30 @@ ServerEvents.recipes(event => {
   // #endregion
   // potato cannon
   event.recipes.createMechanicalCrafting(
-		Item.of('create:potato_cannon', 1),
-		[ 
-      'ABCCC',
-      'DD   '
-		],
-		{
-      A:'greate:steel_cogwheel',
-      B:'create:precision_mechanism',
-      C:'gtceu:copper_normal_fluid_pipe',
-      D:'minecraft:copper_ingot',
-    })
+    Item.of('create:potato_cannon', 1),
+      [ 
+        'ABCCC',
+        'DD   '
+      ],
+      {
+        A:'greate:steel_cogwheel',
+        B:'create:precision_mechanism',
+        C:'gtceu:copper_normal_fluid_pipe',
+        D:'minecraft:copper_ingot',
+      })
+
+  event.shaped(
+    Item.of('create:electron_tube', 1),
+      [
+        ' B ',
+        'CAC',
+        'DDD',
+      ],
+      {
+        A: 'create:polished_rose_quartz',
+        B: 'gtceu:glass_tube', //needs recipe pre LV
+        C: 'gtceu:steel_bolt',
+        D: 'gtceu:copper_single_wire'
+      }
+  )
 })

@@ -18,20 +18,20 @@ ServerEvents.recipes(event=>{
 	// #endregion
 	// #region circuits
 	event.recipes.createSequencedAssembly([
-		'2x gtceu:basic_electronic_circuit',
+		'gtceu:basic_electronic_circuit',
 ],	'gtceu:resin_printed_circuit_board', [
 	event.recipes.createDeploying(incBasicElectronicCirc, [incBasicElectronicCirc, 'gtceu:red_alloy_single_wire']),
 	event.recipes.createDeploying(incBasicElectronicCirc, [incBasicElectronicCirc, ['gtceu:resistor', 'gtceu:smd_resistor']]),
-	event.recipes.createDeploying(incBasicElectronicCirc, [incBasicElectronicCirc, ['gtceu:vacuum_tube', 'gtceu:nand_chip']]),
+	event.recipes.createDeploying(incBasicElectronicCirc, [incBasicElectronicCirc, ['create:electron_tube', 'gtceu:nand_chip']]),
 	event.recipes.createFilling(incBasicElectronicCirc, [incBasicElectronicCirc, Fluid.of('gtceu:tin', 72)])
 	]).transitionalItem(incBasicElectronicCirc).loops(2)
 
 	event.recipes.createSequencedAssembly([
-		'2x gtceu:basic_electronic_circuit',
+		'gtceu:basic_electronic_circuit',
 ],	'gtceu:resin_printed_circuit_board', [
 	event.recipes.createDeploying(incBasicElectronicCirc, [incBasicElectronicCirc, 'gtceu:red_alloy_single_wire']),
 	event.recipes.createDeploying(incBasicElectronicCirc, [incBasicElectronicCirc, ['gtceu:resistor', 'gtceu:smd_resistor']]),
-	event.recipes.createDeploying(incBasicElectronicCirc, [incBasicElectronicCirc, ['gtceu:vacuum_tube', 'gtceu:nand_chip']]),
+	event.recipes.createDeploying(incBasicElectronicCirc, [incBasicElectronicCirc, ['create:electron_tube', 'gtceu:nand_chip']]),
 	event.recipes.createFilling(incBasicElectronicCirc, [incBasicElectronicCirc, Fluid.of('gtceu:soldering_alloy', 36)])
 	]).transitionalItem(incBasicElectronicCirc).loops(2)
 	
