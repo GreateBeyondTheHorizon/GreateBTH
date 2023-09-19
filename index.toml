@@ -1,6 +1,189 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/Advancedperipherals/general.toml"
+
+[[files]]
+file = "config/Advancedperipherals/metaphysics.toml"
+
+[[files]]
+file = "config/Advancedperipherals/peripherals.toml"
+
+[[files]]
+file = "config/Advancedperipherals/world.toml"
+
+[[files]]
+file = "config/EnderStorage.cfg"
+
+[[files]]
+file = "config/InventoryHUD/curios.json"
+
+[[files]]
+file = "config/MouseTweaks.cfg"
+
+[[files]]
+file = "config/NoChatReports/NCR-Client.json"
+
+[[files]]
+file = "config/NoChatReports/NCR-Common.json"
+
+[[files]]
+file = "config/NoChatReports/NCR-Encryption.json"
+
+[[files]]
+file = "config/NoChatReports/NCR-ServerWhitelist.json"
+
+[[files]]
+file = "config/NoChatReports/README.md"
+
+[[files]]
+file = "config/ad_astra.toml"
+
+[[files]]
+file = "config/ae2/client.json"
+
+[[files]]
+file = "config/ae2/common.json"
+
+[[files]]
+file = "config/aiimprovements-common.toml"
+
+[[files]]
+file = "config/appleskin-client.toml"
+
+[[files]]
+file = "config/attributefix.json"
+
+[[files]]
+file = "config/betteradvancements-client.toml"
+
+[[files]]
+file = "config/bhc-common.toml"
+
+[[files]]
+file = "config/bhc/drops.json"
+
+[[files]]
+file = "config/ccl.cfg"
+
+[[files]]
+file = "config/colorfulhearts.toml"
+
+[[files]]
+file = "config/computercraft-client.toml"
+
+[[files]]
+file = "config/constructionwand-client.toml"
+
+[[files]]
+file = "config/cookingforblockheads-common.toml"
+
+[[files]]
+file = "config/cosmeticarmorreworked-client.toml"
+
+[[files]]
+file = "config/cosmeticarmorreworked-common.toml"
+
+[[files]]
+file = "config/craftingtweaks-common.toml"
+
+[[files]]
+file = "config/create-client.toml"
+
+[[files]]
+file = "config/create-common.toml"
+
+[[files]]
+file = "config/curios-client.toml"
+
+[[files]]
+file = "config/emi.css"
+
+[[files]]
+file = "config/entityculling.json"
+
+[[files]]
+file = "config/fancymenu/animations/ebf_5ed795df72a44a03/animation.properties"
+
+[[files]]
+file = "config/fancymenu/config.txt"
+
+[[files]]
+file = "config/fancymenu/customizablemenus.txt"
+
+[[files]]
+file = "config/fancymenu/customization/loading1.txt"
+
+[[files]]
+file = "config/fancymenu/customization/menu1.txt"
+
+[[files]]
+file = "config/fancymenu/locals/de_de.local"
+
+[[files]]
+file = "config/fancymenu/locals/en_us.local"
+
+[[files]]
+file = "config/fancymenu/locals/pl_pl.local"
+
+[[files]]
+file = "config/fancymenu/locals/pt_br.local"
+
+[[files]]
+file = "config/fancymenu/locals/ru_ru.local"
+
+[[files]]
+file = "config/fancymenu/locals/uk_ua.local"
+
+[[files]]
+file = "config/fancymenu/locals/zh_cn.local"
+
+[[files]]
+file = "config/fancymenu/menu_identifiers.db"
+
+[[files]]
+file = "config/fancymenu/slideshows/mainSlideShow/images/image1.png"
+
+[[files]]
+file = "config/fancymenu/slideshows/mainSlideShow/images/image2.jpg"
+
+[[files]]
+file = "config/fancymenu/slideshows/mainSlideShow/images/image3.jpg"
+
+[[files]]
+file = "config/fancymenu/slideshows/mainSlideShow/images/image4.png"
+
+[[files]]
+file = "config/fancymenu/slideshows/mainSlideShow/properties.txt"
+
+[[files]]
+file = "config/fancymenu/user_variables.db"
+
+[[files]]
+file = "config/fastsuite.cfg"
+
+[[files]]
+file = "config/ferritecore-mixin.toml"
+
+[[files]]
+file = "config/flywheel-client.toml"
+
+[[files]]
+file = "config/fml.toml"
+
+[[files]]
+file = "config/forge-client.toml"
+
+[[files]]
+file = "config/forge-common.toml"
+
+[[files]]
+file = "config/forge-resource-caching.toml"
+
+[[files]]
+file = "config/ftbbackups2.json"
+
+[[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
 
 [[files]]
@@ -14,6 +197,126 @@ file = "config/ftbquests/quests/chapters/you_gotta_start_somewhere.snbt"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
+
+[[files]]
+file = "config/greate.yaml"
+
+[[files]]
+file = "config/gtceu.yaml"
+
+[[files]]
+file = "config/guardvillagers-client.toml"
+
+[[files]]
+file = "config/guardvillagers-common.toml"
+
+[[files]]
+file = "config/inventoryhud-client.toml"
+
+[[files]]
+file = "config/jade/hide-entities.json"
+
+[[files]]
+file = "config/jade/jade.json"
+
+[[files]]
+file = "config/jade/plugins.json"
+
+[[files]]
+file = "config/jade/sort-order.json"
+
+[[files]]
+file = "config/jmi-client.toml"
+
+[[files]]
+file = "config/kleeslabs-common.toml"
+
+[[files]]
+file = "config/konkrete/locals/de_de.local"
+
+[[files]]
+file = "config/konkrete/locals/en_us.local"
+
+[[files]]
+file = "config/konkrete/locals/pl_pl.local"
+
+[[files]]
+file = "config/konkrete/locals/pt_br.local"
+
+[[files]]
+file = "config/loadmyresources/config.cfg"
+
+[[files]]
+file = "config/modernfix-common.toml"
+
+[[files]]
+file = "config/modernfix-mixins.properties"
+
+[[files]]
+file = "config/morered-client.toml"
+
+[[files]]
+file = "config/naturescompass-client.toml"
+
+[[files]]
+file = "config/naturescompass-common.toml"
+
+[[files]]
+file = "config/obtrophies-common.toml"
+
+[[files]]
+file = "config/oculus.properties"
+
+[[files]]
+file = "config/oreberriesreplanted-common.toml"
+
+[[files]]
+file = "config/packmenu.cfg"
+
+[[files]]
+file = "config/pamhc2crops.toml"
+
+[[files]]
+file = "config/pamhc2trees.toml"
+
+[[files]]
+file = "config/productivebees-client.toml"
+
+[[files]]
+file = "config/resourceful-config-web.json"
+
+[[files]]
+file = "config/rubidium-mixins.properties"
+
+[[files]]
+file = "config/rubidium-options.json"
+
+[[files]]
+file = "config/sidebar_buttons.json"
+
+[[files]]
+file = "config/solcarrot-client.toml"
+
+[[files]]
+file = "config/sophisticatedbackpacks-common.toml"
+
+[[files]]
+file = "config/sophisticatedcore-client.toml"
+
+[[files]]
+file = "config/storagedrawers-client.toml"
+
+[[files]]
+file = "config/storagedrawers-common.toml"
+
+[[files]]
+file = "config/toastcontrol-common.toml"
+
+[[files]]
+file = "config/toms_storage-common.toml"
+
+[[files]]
+file = "defaultconfigs/create-server.toml"
 
 [[files]]
 file = "defaultconfigs/ftbchunks/client-config.snbt"
@@ -214,6 +517,9 @@ file = "kubejs/assets/kubejs/textures/item/raw_phenolic_printed_circuit_board_sh
 file = "kubejs/assets/kubejs/textures/item/raw_plastic_circuit_board.png"
 
 [[files]]
+file = "kubejs/client_scripts/debug.js"
+
+[[files]]
 file = "kubejs/client_scripts/rei_hide.js"
 
 [[files]]
@@ -352,6 +658,9 @@ file = "kubejs/server_scripts/Mods/Wands.js"
 file = "kubejs/server_scripts/Mods/ad_astra.js"
 
 [[files]]
+file = "kubejs/server_scripts/Mods/cc_tweaked.js"
+
+[[files]]
 file = "kubejs/server_scripts/SequencedAssembly/AE2sequence.js"
 
 [[files]]
@@ -382,10 +691,17 @@ file = "kubejs/startup_scripts/ItemGeneration.js"
 file = "kubejs/startup_scripts/ItemsModification.js"
 
 [[files]]
+file = "kubejs/startup_scripts/Materials.js"
+
+[[files]]
 file = "kubejs/startup_scripts/MultiBlock.js"
 
 [[files]]
 file = "kubejs/startup_scripts/Ores.js"
+
+[[files]]
+file = "mods/.index/load-my-resources-forge.pw.toml"
+metafile = true
 
 [[files]]
 file = "mods/ad-astra.pw.toml"
@@ -778,45 +1094,3 @@ metafile = true
 [[files]]
 file = "mods/yeetusexperimentus.pw.toml"
 metafile = true
-
-[[files]]
-file = "packmenu/resources/assets/packmenu/buttons/accessibility.json"
-
-[[files]]
-file = "packmenu/resources/assets/packmenu/buttons/language.json"
-
-[[files]]
-file = "packmenu/resources/assets/packmenu/buttons/mods.json"
-
-[[files]]
-file = "packmenu/resources/assets/packmenu/buttons/multiplayer.json"
-
-[[files]]
-file = "packmenu/resources/assets/packmenu/buttons/options.json"
-
-[[files]]
-file = "packmenu/resources/assets/packmenu/buttons/quit.json"
-
-[[files]]
-file = "packmenu/resources/assets/packmenu/buttons/reloadbutton.json"
-
-[[files]]
-file = "packmenu/resources/assets/packmenu/buttons/singleplayer.json"
-
-[[files]]
-file = "packmenu/resources/assets/packmenu/lang/en_us.json"
-
-[[files]]
-file = "packmenu/resources/assets/packmenu/textures/gui/background.png"
-
-[[files]]
-file = "packmenu/resources/assets/packmenu/textures/gui/reload.png"
-
-[[files]]
-file = "packmenu/resources/assets/packmenu/textures/gui/widgets.png"
-
-[[files]]
-file = "packmenu/resources/pack.mcmeta"
-
-[[files]]
-file = "packmenu/resources/pack.png"
