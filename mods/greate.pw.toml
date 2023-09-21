@@ -1,13 +1,13 @@
 name = "Greate"
-filename = "greate-0.0.3.jar"
+filename = "greate-forge-0.0.5.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/8wDcQuht/versions/HJX7yUFi/greate-0.0.3.jar"
+url = "https://cdn.modrinth.com/data/8wDcQuht/versions/HapF3oqu/greate-forge-0.0.5.jar"
 hash-format = "sha1"
-hash = "6c1e19a659a9d02344ddac0058c91f430d1c2192"
+hash = "6d5318662bd937b91cad3281a307ce08c5a6debf"
 
 [update]
 [update.modrinth]
 mod-id = "8wDcQuht"
-version = "HJX7yUFi"
+version = "HapF3oqu"

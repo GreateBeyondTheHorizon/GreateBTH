@@ -234,34 +234,34 @@ ServerEvents.recipes(event => {
 	)
 	
 	
+	// TODO: Uncomment when KubeJS Create is added
+	// event.recipes.createMechanicalCrafting(Item.of('ae2:creative_item_cell'),
 	
-	event.recipes.createMechanicalCrafting(Item.of('ae2:creative_item_cell'),
+	// [
+	//  'CBC',
+	//  'ADA',
+	//  'AAA'
+	// ],
+	// {
+	// 	A:'avaritia:infinity_ingot',
+	// 	B:'gtceu:wetware_processor_mainframe',
+	// 	C:'kubejs:ruthenium_trinium_americium_neutronate_plate',
+	// 	D:'kubejs:infinity_me_storage_wafer'
+	// }
+	// )
+	// event.recipes.createMechanicalCrafting(Item.of('ae2:creative_fluid_cell'),
 	
-	[
-	 'CBC',
-	 'ADA',
-	 'AAA'
-	],
-	{
-		A:'avaritia:infinity_ingot',
-		B:'gtceu:wetware_processor_mainframe',
-		C:'kubejs:ruthenium_trinium_americium_neutronate_plate',
-		D:'kubejs:infinity_me_storage_wafer'
-	}
-	)
-	event.recipes.createMechanicalCrafting(Item.of('ae2:creative_fluid_cell'),
-	
-	[
-	 'CBC',
-	 'ADA',
-	 'AAA'
-	],
-	{
-		A:'avaritia:infinity_ingot',
-		B:'gtceu:wetware_processor_mainframe',
-		C:'gtceu:darmstadtium_double_plate',
-		D:'kubejs:infinity_me_storage_wafer'
-	}
-	)
+	// [
+	//  'CBC',
+	//  'ADA',
+	//  'AAA'
+	// ],
+	// {
+	// 	A:'avaritia:infinity_ingot',
+	// 	B:'gtceu:wetware_processor_mainframe',
+	// 	C:'gtceu:darmstadtium_double_plate',
+	// 	D:'kubejs:infinity_me_storage_wafer'
+	// }
+	// )
 })
 

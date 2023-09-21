@@ -1,13 +1,13 @@
 name = "Oculus"
-filename = "oculus-mc1.19.2-1.6.4.jar"
+filename = "oculus-mc1.20-1.6.4.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "27e99e924d5fd845b73d6c969c7c65ad3122019c"
+hash = "33cecf7bcb17a4cbcb23aed1993771e73f1f9307"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4578731
+file-id = 4578741
 project-id = 581495

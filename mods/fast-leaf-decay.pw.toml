@@ -1,13 +1,13 @@
 name = "Fast Leaf Decay"
-filename = "FastLeafDecay-30.jar"
+filename = "FastLeafDecay-31.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "f273fca159131a930c694e47f3734597db95cb6d"
+hash = "27d5ae02484e0b0c464f9611cedee6337048f638"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3894512
+file-id = 4620069
 project-id = 230976

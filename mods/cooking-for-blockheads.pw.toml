@@ -1,13 +1,13 @@
 name = "Cooking for Blockheads"
-filename = "cookingforblockheads-forge-1.19.2-13.3.2.jar"
+filename = "cookingforblockheads-forge-1.20-16.0.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "4498a132b7e59669565aabeb9aca2e3f90cd3ca2"
+hash = "ae18d4ad7b343382d88b1d3172aeea28a8e00894"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4513817
+file-id = 4749420
 project-id = 231484

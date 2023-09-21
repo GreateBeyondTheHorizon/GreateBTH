@@ -178,9 +178,6 @@ file = "config/forge-client.toml"
 file = "config/forge-common.toml"
 
 [[files]]
-file = "config/forge-resource-caching.toml"
-
-[[files]]
 file = "config/ftbbackups2.json"
 
 [[files]]
@@ -224,6 +221,21 @@ file = "config/jade/plugins.json"
 
 [[files]]
 file = "config/jade/sort-order.json"
+
+[[files]]
+file = "config/jei/blacklist.cfg"
+
+[[files]]
+file = "config/jei/jei-colors.ini"
+
+[[files]]
+file = "config/jei/jei-debug.ini"
+
+[[files]]
+file = "config/jei/jei-mod-id-format.ini"
+
+[[files]]
+file = "config/jei/recipe-category-sort-order.ini"
 
 [[files]]
 file = "config/jmi-client.toml"
@@ -649,9 +661,6 @@ file = "kubejs/server_scripts/Mods/SophisticatedBackpacks.js"
 file = "kubejs/server_scripts/Mods/TomsSimpleStorage.js"
 
 [[files]]
-file = "kubejs/server_scripts/Mods/TwilightForest.js"
-
-[[files]]
 file = "kubejs/server_scripts/Mods/Wands.js"
 
 [[files]]
@@ -700,10 +709,6 @@ file = "kubejs/startup_scripts/MultiBlock.js"
 file = "kubejs/startup_scripts/Ores.js"
 
 [[files]]
-file = "mods/.index/load-my-resources-forge.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/ad-astra.pw.toml"
 metafile = true
 
@@ -728,15 +733,15 @@ file = "mods/architectury-api.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/athena.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/attributefix.pw.toml"
 metafile = true
 
 [[files]]
 file = "mods/auudio-forge.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/avaritia-lite.pw.toml"
 metafile = true
 
 [[files]]
@@ -760,10 +765,6 @@ file = "mods/cc-tweaked.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/cccbridge.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/chipped.pw.toml"
 metafile = true
 
@@ -773,10 +774,6 @@ metafile = true
 
 [[files]]
 file = "mods/clumps.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/codechicken-lib-1-8.pw.toml"
 metafile = true
 
 [[files]]
@@ -816,23 +813,11 @@ file = "mods/create.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/ctm.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/curios.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/darker-depths.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/emi.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/ender-storage-1-8.pw.toml"
 metafile = true
 
 [[files]]
@@ -932,15 +917,7 @@ file = "mods/konkrete.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/kubejs-create.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/kubejs.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/lazy-dfu-forge.pw.toml"
 metafile = true
 
 [[files]]
@@ -1060,6 +1037,10 @@ file = "mods/rubidium.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/searchables.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
 metafile = true
 
@@ -1073,10 +1054,6 @@ metafile = true
 
 [[files]]
 file = "mods/storage-drawers.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/swingthroughgrass.pw.toml"
 metafile = true
 
 [[files]]

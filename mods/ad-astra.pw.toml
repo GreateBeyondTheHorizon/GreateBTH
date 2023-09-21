@@ -1,13 +1,13 @@
 name = "Ad Astra"
-filename = "ad_astra-forge-1.19.2-1.12.7.jar"
+filename = "ad_astra-forge-1.20.1-1.15.3.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "a7d5518966d5bdfa7c7297a8836db6f15ab289e0"
+hash = "6a0a99f549dfc3146a2bfffb941ebb3fe640339c"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4643668
+file-id = 4671593
 project-id = 635042

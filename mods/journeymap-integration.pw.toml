@@ -1,13 +1,13 @@
 name = "JourneyMap Integration"
-filename = "jmi-forge-1.19.2-0.13-40.jar"
+filename = "jmi-forge-1.20.1-0.14-45.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "1f109b46fbca5e398745bbb8531521852f4e6986"
+hash = "5685e8ef9d5d72d0d1d83b894a4fce48ced864ed"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4632884
+file-id = 4672158
 project-id = 525447

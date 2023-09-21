@@ -1,13 +1,13 @@
 name = "Macaw's Doors"
-filename = "mcw-doors-1.1.0forge-mc1.19.2.jar"
+filename = "mcw-doors-1.1.0forge-mc1.20.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "131bf4020a1a52544fb69a94fc7b920a119cccac"
+hash = "4cd1ca324542b64d670a4e173d57860906cbfe02"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4649906
+file-id = 4649910
 project-id = 378646

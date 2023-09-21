@@ -54,23 +54,24 @@ ServerEvents.recipes(event => {
         
     ]
 
-    tiers.forEach((tier, index) => {
-        // small cogwheel
-        event.recipes.createDeploying(`greate:${tier}_cogwheel`, [`greate:${tier}_shaft`, `${plates[index]}`]);
-        // large cogwheel
-        event.recipes.createDeploying(`greate:large_${tier}_cogwheel`, [`greate:${tier}_cogwheel`, `${plates[index]}`]);
-        event.recipes.createSequencedAssembly([
-            `greate:large_${tier}_cogwheel`
-        ],  `greate:${tier}_shaft`, [
-            event.recipes.createDeploying(`greate:${tier}_cogwheel`, [`greate:${tier}_cogwheel`, `${plates[index]}`])
-        ]).transitionalItem(`greate:${tier}_cogwheel`).loops(2)
-        // alloys
-        event.recipes.createMixing(
-            Item.of(`greate:${tier}_alloy`, 1),
-            [
-                `${materials[index]}`,
-                `${nuggets[index]}`
-            ]
-        )
-    });
+    // TODO: Uncomment when KubeJS Create is added
+    // tiers.forEach((tier, index) => {
+    //     // small cogwheel
+    //     event.recipes.createDeploying(`greate:${tier}_cogwheel`, [`greate:${tier}_shaft`, `${plates[index]}`]);
+    //     // large cogwheel
+    //     event.recipes.createDeploying(`greate:large_${tier}_cogwheel`, [`greate:${tier}_cogwheel`, `${plates[index]}`]);
+    //     event.recipes.createSequencedAssembly([
+    //         `greate:large_${tier}_cogwheel`
+    //     ],  `greate:${tier}_shaft`, [
+    //         event.recipes.createDeploying(`greate:${tier}_cogwheel`, [`greate:${tier}_cogwheel`, `${plates[index]}`])
+    //     ]).transitionalItem(`greate:${tier}_cogwheel`).loops(2)
+    //     // alloys
+    //     event.recipes.createMixing(
+    //         Item.of(`greate:${tier}_alloy`, 1),
+    //         [
+    //             `${materials[index]}`,
+    //             `${nuggets[index]}`
+    //         ]
+    //     )
+    // });
 });

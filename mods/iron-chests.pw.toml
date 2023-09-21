@@ -1,13 +1,13 @@
 name = "Iron Chests"
-filename = "ironchest-1.19.2-14.2.7.jar"
+filename = "ironchest-1.20.1-14.4.4.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "8fb91f5339da09b856b574288b6151a2bde9d60f"
+hash = "4b2dd0f581e40f8bd6f6e63b2d84c06dfde2c4eb"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3966365
+file-id = 4614852
 project-id = 228756
