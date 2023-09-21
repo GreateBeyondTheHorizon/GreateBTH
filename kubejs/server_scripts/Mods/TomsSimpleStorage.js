@@ -9,47 +9,48 @@ ServerEvents.recipes(event => {
 	
 	storage.forEach((element) => event.remove({output: element}));
 
-    //Storage Connector
-    event.recipes.createMechanicalCrafting(
-		Item.of('toms_storage:ts.inventory_connector', 1),
-		[ 
-            ' BAB ',
-			'BDEDB',
-			'AECEA',
-			'BDEDB',
-			' BAB ',
-		],
-		{
-			A:'ironchest:iron_chest',
-			B:'gtceu:treated_wood_plate',
-			C:'gtceu:mv_machine_casing',
-			D:'gtceu:micro_processor',
-            E:'gtceu:lv_robot_arm'
-		}
-	)
+    // TODO: Uncomment when KubeJS Create is added
+    // //Storage Connector
+    // event.recipes.createMechanicalCrafting(
+	// 	Item.of('toms_storage:ts.inventory_connector', 1),
+	// 	[ 
+    //         ' BAB ',
+	// 		'BDEDB',
+	// 		'AECEA',
+	// 		'BDEDB',
+	// 		' BAB ',
+	// 	],
+	// 	{
+	// 		A:'ironchest:iron_chest',
+	// 		B:'gtceu:treated_wood_plate',
+	// 		C:'gtceu:mv_machine_casing',
+	// 		D:'gtceu:micro_processor',
+    //         E:'gtceu:lv_robot_arm'
+	// 	}
+	// )
 
     
-    //Terminal
-	event.recipes.createMechanicalCrafting(
-		Item.of('toms_storage:ts.crafting_terminal', 1),
-		[ 
-            'ABCBA',
-			'BFDFB',
-			'CDEDC',
-			'BFDFB',
-			'ABCBA',
-		],
-		{
-			A:'minecraft:crafting_table',
-			B:'ironchest:iron_chest',
-			C:'gtceu:mv_conveyor_module',
-			D:'toms_storage:ts.inventory_cable',
-            E:'#forge:circuits/mv',
-            F:'toms_storage:ts.inventory_cable_connector',
+    // //Terminal
+	// event.recipes.createMechanicalCrafting(
+	// 	Item.of('toms_storage:ts.crafting_terminal', 1),
+	// 	[ 
+    //         'ABCBA',
+	// 		'BFDFB',
+	// 		'CDEDC',
+	// 		'BFDFB',
+	// 		'ABCBA',
+	// 	],
+	// 	{
+	// 		A:'minecraft:crafting_table',
+	// 		B:'ironchest:iron_chest',
+	// 		C:'gtceu:mv_conveyor_module',
+	// 		D:'toms_storage:ts.inventory_cable',
+    //         E:'#forge:circuits/mv',
+    //         F:'toms_storage:ts.inventory_cable_connector',
 			
 
-		}
-	)
+	// 	}
+	// )
 
     
     //Inventory Cable

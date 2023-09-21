@@ -1,13 +1,13 @@
 name = "Spice of Life: Carrot Edition"
-filename = "SoL-Carrot-1.19.2-1.14.0.jar"
+filename = "solcarrot-1.20.1-1.15.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "55625f32bc8e0c5b28a4420fc6bc6211bb771a8a"
+hash = "337b8affe4c45528d83d2768e1577ba9b8c2dbf9"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3974155
+file-id = 4650707
 project-id = 277616

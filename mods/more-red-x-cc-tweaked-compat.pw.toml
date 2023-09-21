@@ -1,13 +1,13 @@
 name = "More Red x CC:Tweaked Compat"
-filename = "MoreRed-CCT-Compat-1.19.2-1.0.0.jar"
+filename = "MoreRed-CCT-Compat-1.20.1-1.0.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "afc5726a7c845f8411875ce28c8be4e92b6a694d"
+hash = "ed57300c9b6e335af2a6a386fc2d373b4b5daaf4"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4557109
+file-id = 4650653
 project-id = 867286

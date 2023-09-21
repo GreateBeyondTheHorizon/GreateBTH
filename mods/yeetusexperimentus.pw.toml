@@ -1,13 +1,13 @@
 name = "Yeetus Experimentus"
-filename = "yeetusexperimentus-1.0.1-build.2+mc1.19.1.jar"
+filename = "YeetusExperimentus-Forge-2.3.1-build.6+mc1.20.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "18fb59ed7b6ff320b532e76e7f3607a70345dc02"
+hash = "6efdaf5d213f779e51aa84631a5f06a306351e75"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3909789
+file-id = 4680832
 project-id = 635427

@@ -61,9 +61,10 @@ var logs = ['#minecraft:acacia_logs', '#minecraft:oak_logs', '#minecraft:birch_l
 		).damageIngredient(Item.of('#forge:tools/files'))
 		
 		
-		event.recipes.createCutting(Item.of(
-		planks[i], 6),
-		logs[i], ).processingTime(20)
+		// TODO: Uncomment when KubeJS Create is added
+		// event.recipes.createCutting(Item.of(
+		// planks[i], 6),
+		// logs[i], ).processingTime(20)
 		
 		event.shapeless(
 			Item.of(planks[i], 4),
