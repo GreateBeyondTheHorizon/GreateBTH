@@ -1,0 +1,36 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "power_generation"
+	group: ""
+	id: "379AAA7BB2A24448"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["The water wheel generates 8su and 8rpm, no matter what. requires water to function and can have its look changed with planks."]
+			id: "4B5D4F7B9034D410"
+			tasks: [{
+				count: 2L
+				id: "2198C59E06482525"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["454B9E49684318EC"]
+			description: ["The water wheel generates 32su but 4rpm, no matter what. It occupies a 3x3 area and has the rest of the traits of the water wheel."]
+			id: "037BE8BCC939FD39"
+			tasks: [{
+				id: "56A3161A4A36FA79"
+				item: "create:large_water_wheel"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -6.0d
+		}
+	]
+	title: "Power Generation"
+}
