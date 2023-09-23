@@ -1,106 +1,7 @@
 hash-format = "sha256"
 
 [[files]]
-file = "config/Advancedperipherals/general.toml"
-
-[[files]]
-file = "config/Advancedperipherals/metaphysics.toml"
-
-[[files]]
-file = "config/Advancedperipherals/peripherals.toml"
-
-[[files]]
-file = "config/Advancedperipherals/world.toml"
-
-[[files]]
-file = "config/EnderStorage.cfg"
-
-[[files]]
-file = "config/InventoryHUD/curios.json"
-
-[[files]]
-file = "config/MouseTweaks.cfg"
-
-[[files]]
-file = "config/NoChatReports/NCR-Client.json"
-
-[[files]]
-file = "config/NoChatReports/NCR-Common.json"
-
-[[files]]
-file = "config/NoChatReports/NCR-Encryption.json"
-
-[[files]]
-file = "config/NoChatReports/NCR-ServerWhitelist.json"
-
-[[files]]
-file = "config/NoChatReports/README.md"
-
-[[files]]
-file = "config/ad_astra.toml"
-
-[[files]]
-file = "config/ae2/client.json"
-
-[[files]]
-file = "config/ae2/common.json"
-
-[[files]]
-file = "config/aiimprovements-common.toml"
-
-[[files]]
-file = "config/appleskin-client.toml"
-
-[[files]]
-file = "config/attributefix.json"
-
-[[files]]
-file = "config/betteradvancements-client.toml"
-
-[[files]]
-file = "config/bhc-common.toml"
-
-[[files]]
-file = "config/bhc/drops.json"
-
-[[files]]
-file = "config/ccl.cfg"
-
-[[files]]
-file = "config/colorfulhearts.toml"
-
-[[files]]
-file = "config/computercraft-client.toml"
-
-[[files]]
-file = "config/constructionwand-client.toml"
-
-[[files]]
-file = "config/cookingforblockheads-common.toml"
-
-[[files]]
-file = "config/cosmeticarmorreworked-client.toml"
-
-[[files]]
-file = "config/cosmeticarmorreworked-common.toml"
-
-[[files]]
-file = "config/craftingtweaks-common.toml"
-
-[[files]]
-file = "config/create-client.toml"
-
-[[files]]
-file = "config/create-common.toml"
-
-[[files]]
-file = "config/curios-client.toml"
-
-[[files]]
 file = "config/emi.css"
-
-[[files]]
-file = "config/entityculling.json"
 
 [[files]]
 file = "config/fancymenu/animations/ebf_5ed795df72a44a03/animation.properties"
@@ -160,28 +61,13 @@ file = "config/fancymenu/slideshows/mainSlideShow/properties.txt"
 file = "config/fancymenu/user_variables.db"
 
 [[files]]
-file = "config/fastsuite.cfg"
-
-[[files]]
-file = "config/ferritecore-mixin.toml"
-
-[[files]]
-file = "config/flywheel-client.toml"
-
-[[files]]
-file = "config/fml.toml"
-
-[[files]]
-file = "config/forge-client.toml"
-
-[[files]]
-file = "config/forge-common.toml"
-
-[[files]]
-file = "config/ftbbackups2.json"
-
-[[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/multiblocks.snbt"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/power_generation.snbt"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ulvuls__humble_beginnigs.snbt"
@@ -194,138 +80,6 @@ file = "config/ftbquests/quests/chapters/you_gotta_start_somewhere.snbt"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
-
-[[files]]
-file = "config/greate.yaml"
-
-[[files]]
-file = "config/gtceu.yaml"
-
-[[files]]
-file = "config/guardvillagers-client.toml"
-
-[[files]]
-file = "config/guardvillagers-common.toml"
-
-[[files]]
-file = "config/inventoryhud-client.toml"
-
-[[files]]
-file = "config/jade/hide-entities.json"
-
-[[files]]
-file = "config/jade/jade.json"
-
-[[files]]
-file = "config/jade/plugins.json"
-
-[[files]]
-file = "config/jade/sort-order.json"
-
-[[files]]
-file = "config/jei/blacklist.cfg"
-
-[[files]]
-file = "config/jei/jei-colors.ini"
-
-[[files]]
-file = "config/jei/jei-debug.ini"
-
-[[files]]
-file = "config/jei/jei-mod-id-format.ini"
-
-[[files]]
-file = "config/jei/recipe-category-sort-order.ini"
-
-[[files]]
-file = "config/jmi-client.toml"
-
-[[files]]
-file = "config/kleeslabs-common.toml"
-
-[[files]]
-file = "config/konkrete/locals/de_de.local"
-
-[[files]]
-file = "config/konkrete/locals/en_us.local"
-
-[[files]]
-file = "config/konkrete/locals/pl_pl.local"
-
-[[files]]
-file = "config/konkrete/locals/pt_br.local"
-
-[[files]]
-file = "config/loadmyresources/config.cfg"
-
-[[files]]
-file = "config/modernfix-common.toml"
-
-[[files]]
-file = "config/modernfix-mixins.properties"
-
-[[files]]
-file = "config/morered-client.toml"
-
-[[files]]
-file = "config/naturescompass-client.toml"
-
-[[files]]
-file = "config/naturescompass-common.toml"
-
-[[files]]
-file = "config/obtrophies-common.toml"
-
-[[files]]
-file = "config/oculus.properties"
-
-[[files]]
-file = "config/oreberriesreplanted-common.toml"
-
-[[files]]
-file = "config/packmenu.cfg"
-
-[[files]]
-file = "config/pamhc2crops.toml"
-
-[[files]]
-file = "config/pamhc2trees.toml"
-
-[[files]]
-file = "config/productivebees-client.toml"
-
-[[files]]
-file = "config/resourceful-config-web.json"
-
-[[files]]
-file = "config/rubidium-mixins.properties"
-
-[[files]]
-file = "config/rubidium-options.json"
-
-[[files]]
-file = "config/sidebar_buttons.json"
-
-[[files]]
-file = "config/solcarrot-client.toml"
-
-[[files]]
-file = "config/sophisticatedbackpacks-common.toml"
-
-[[files]]
-file = "config/sophisticatedcore-client.toml"
-
-[[files]]
-file = "config/storagedrawers-client.toml"
-
-[[files]]
-file = "config/storagedrawers-common.toml"
-
-[[files]]
-file = "config/toastcontrol-common.toml"
-
-[[files]]
-file = "config/toms_storage-common.toml"
 
 [[files]]
 file = "defaultconfigs/create-server.toml"
