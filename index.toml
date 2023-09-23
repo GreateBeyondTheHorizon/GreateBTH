@@ -809,6 +809,10 @@ file = "mods/crafting-tweaks.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/create-steam-n-rails.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/create.pw.toml"
 metafile = true
 
