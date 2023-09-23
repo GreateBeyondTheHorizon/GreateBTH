@@ -997,6 +997,10 @@ file = "mods/productivebees.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/puzzles-lib.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/resourceful-config.pw.toml"
 metafile = true
 
@@ -1042,6 +1046,10 @@ metafile = true
 
 [[files]]
 file = "mods/toms-storage.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/visual-workbench.pw.toml"
 metafile = true
 
 [[files]]
