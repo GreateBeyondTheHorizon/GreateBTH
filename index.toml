@@ -925,30 +925,6 @@ file = "mods/load-my-resources-forge.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/macaws-bridges.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/macaws-doors.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/macaws-fences-and-walls.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/macaws-roofs.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/macaws-trapdoors.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/macaws-windows.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/modernfix.pw.toml"
 metafile = true
 
