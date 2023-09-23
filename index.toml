@@ -821,6 +821,10 @@ file = "mods/emi.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/ender-io.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/entityculling.pw.toml"
 metafile = true
 
