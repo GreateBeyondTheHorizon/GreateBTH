@@ -8,7 +8,6 @@
 /config/*
 !/config/fancymenu
 !/config/ftbquests
-!/config/packmenu.cfg
 !/config/emi.css
 !/defaultconfigs
 !/kubejs
@@ -17,6 +16,7 @@
 
 # mods
 !/mods
+/mods/.index
 /mods/*.jar
 
 # md

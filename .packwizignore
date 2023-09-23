@@ -2,10 +2,15 @@
 
 # mods
 !/mods
+/mods/.index
 /mods/*.jar
 
 # configs
 !/config
+/config/*
+!/config/fancymenu
+!/config/ftbquests
+!/config/emi.css
 !/defaultconfigs
 !/kubejs
 !/packmenu
