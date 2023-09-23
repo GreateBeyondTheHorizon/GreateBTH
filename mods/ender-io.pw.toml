@@ -1,0 +1,13 @@
+name = "Ender IO"
+filename = "EnderIO-1.20.1-6.0.20-alpha.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "11d045cf4d630a4f881432edc07cac25114e5e84"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4762194
+project-id = 64578
