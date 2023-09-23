@@ -849,6 +849,10 @@ file = "mods/ferritecore.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/framedblocks.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/ftb-backups-2.pw.toml"
 metafile = true
 
