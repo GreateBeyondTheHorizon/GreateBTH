@@ -133,14 +133,16 @@
 			dependencies: ["7F6BF6CED379C510"]
 			description: [
 				"Buckets are now made with iron &nplates&r, not iron &ningots&r."
-				"Oh, and you need a hammer"
+				"Oh, and you need a hammer."
 			]
 			id: "32C29B1A338EAF4F"
+			subtitle: "Dear GOD."
 			tasks: [{
 				id: "774D2C75246AF40C"
 				item: "minecraft:bucket"
 				type: "item"
 			}]
+			title: "This is a bucket."
 			x: 1.5d
 			y: -7.0d
 		}
@@ -211,6 +213,7 @@
 				item: "gtceu:bronze_ingot"
 				type: "item"
 			}]
+			title: "The first main GregTech material."
 			x: 0.0d
 			y: -4.5d
 		}
@@ -219,7 +222,7 @@
 				"7F6BF6CED379C510"
 				"4BE18DBE5D760ECF"
 			]
-			description: [""]
+			description: ["This quest unlocks the \"Stress Units and How to Generate Them\" questline, which details the types of stress generators and how to utilise them efficiently."]
 			id: "454B9E49684318EC"
 			tasks: [{
 				id: "06B87BEEA5EACC70"
@@ -239,6 +242,7 @@
 				item: "create:millstone"
 				type: "item"
 			}]
+			title: "Crusher V0.5"
 			x: 3.5d
 			y: -9.0d
 		}
@@ -281,6 +285,7 @@
 					type: "item"
 				}
 			]
+			title: "Whisky Business"
 			x: 3.5d
 			y: -7.0d
 		}
@@ -301,7 +306,7 @@
 		}
 		{
 			dependencies: ["389976279B71DCD8"]
-			description: ["Shaped crafting. You will need this to make any decent armor."]
+			description: ["Enjoy not dying? Make a bunch of mechanical crafters and to craft some armour."]
 			id: "7C0B1306A2275FEE"
 			tasks: [{
 				count: 21L
@@ -309,7 +314,7 @@
 				item: "create:mechanical_crafter"
 				type: "item"
 			}]
-			title: "Mechanical Crafters"
+			title: "Mechanical Crafting"
 			x: 5.5d
 			y: -5.0d
 		}
@@ -323,7 +328,7 @@
 				item: "create:crushing_wheel"
 				type: "item"
 			}]
-			title: "Crushing Wheels"
+			title: "Crusher V0.75"
 			x: 5.5d
 			y: -4.0d
 		}
@@ -360,7 +365,7 @@
 				item: "gtceu:sticky_resin"
 				type: "item"
 			}]
-			title: "Sticky Resin"
+			title: "LET'S GET GOOPY!"
 			x: 1.5d
 			y: 0.5d
 		}
@@ -377,6 +382,7 @@
 				item: "create:mechanical_press"
 				type: "item"
 			}]
+			title: "See You Plater!"
 			x: 4.0d
 			y: -8.0d
 		}
@@ -437,7 +443,7 @@
 		}
 		{
 			dependencies: ["389976279B71DCD8"]
-			description: ["Not much use, but necessary to make the deployers."]
+			description: ["Only used to make deployers."]
 			id: "0CD7CE2F45DFE09B"
 			tasks: [{
 				count: 3L
@@ -451,7 +457,7 @@
 		}
 		{
 			dependencies: ["0CD7CE2F45DFE09B"]
-			description: ["Great for placing blocks and deploying items. also you can punch things with it i guess."]
+			description: ["The deployer, where to start. It's essentially a hands-off right clicking machine, it can place blocks and are the main machines involved with sequenced assembly."]
 			id: "0F9B668F0719D7EA"
 			tasks: [{
 				count: 3L
@@ -459,7 +465,7 @@
 				item: "create:deployer"
 				type: "item"
 			}]
-			title: "Deployers"
+			title: "Pokey Pokey!"
 			x: 3.0d
 			y: 4.0d
 		}
@@ -508,7 +514,7 @@
 				item: "gtceu:raw_rubber_dust"
 				type: "item"
 			}]
-			title: "Rubber Pulp"
+			title: "(Rubber) Pulp Fiction"
 			x: -0.5d
 			y: -1.5d
 		}
@@ -534,6 +540,7 @@
 				item: "create:belt_connector"
 				type: "item"
 			}]
+			title: "There's edible belts."
 			x: 1.5d
 			y: -1.5d
 		}
@@ -603,7 +610,7 @@
 					type: "item"
 				}
 			]
-			title: "Coke Oven"
+			title: "No, not that Coke. Not that Coke either!"
 			x: -3.5d
 			y: -7.0d
 		}
@@ -636,6 +643,7 @@
 					type: "item"
 				}
 			]
+			title: "Pump It Up!"
 			x: -3.5d
 			y: -5.5d
 		}
@@ -843,7 +851,7 @@
 		}
 		{
 			dependencies: ["70BDF42738F465DC"]
-			description: ["make a tin bucket. (You should make a more portable way of fluid storage like a gt barrel though)"]
+			description: ["Extract some tin and bucket it. (You should make a more portable way of fluid storage like a GregTech Drum though.)"]
 			id: "44820AD7D612AE8C"
 			tasks: [{
 				id: "0C937433794CF082"
@@ -855,7 +863,7 @@
 		}
 		{
 			dependencies: ["6162DB567597E8EF"]
-			description: ["Made with Red Alloy"]
+			description: ["Another wire. Good luck finding a redstone vein."]
 			hide_dependency_lines: false
 			id: "34C948A138F5F063"
 			tasks: [{
@@ -884,7 +892,7 @@
 		}
 		{
 			dependencies: ["5BBE7DCE67C99A3D"]
-			description: ["The most appreciated by you machine. It will make plates much cheaper for you."]
+			description: ["You'll appreciate this machine alot. It can make plates much cheaper than hammers."]
 			id: "00DAF42D60192A91"
 			tasks: [{
 				id: "0BA366648050021A"
@@ -929,6 +937,7 @@
 				item: "gtceu:basic_electronic_circuit"
 				type: "item"
 			}]
+			title: "The First of Many"
 			x: 0.0d
 			y: 4.0d
 		}
@@ -1062,12 +1071,13 @@
 				}
 				type: "item"
 			}]
-			title: "Steam Macerator"
+			title: "Crusher V1"
 			x: -6.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["5BBE7DCE67C99A3D"]
+			description: ["Mining your ore veins for you!"]
 			id: "5D5FA02917C5FE59"
 			tasks: [{
 				id: "3A5170EDCF7B97CF"
@@ -1165,5 +1175,5 @@
 			y: 1.5d
 		}
 	]
-	title: "ULV/ULS - Humble Beginnigs..."
+	title: "ULV/ULS - Humble Beginnings.."
 }
