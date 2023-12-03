@@ -1,4 +1,4 @@
-REIEvents.hide('item', event => {
+JEIEvents.hideItems(event => {
     //Create
     
     event.hide(/create:(.*)_sheet/)

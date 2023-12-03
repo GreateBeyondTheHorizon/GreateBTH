@@ -1,73 +1,72 @@
 ServerEvents.recipes(event => {
-// TODO: Uncomment when KubeJS Create is added
-// 		event.recipes.createMechanicalCrafting(
-//   Item.of('ad_astra:netherite_space_helmet', 1),
-//   [ 
-//     'AAAAAAA',
-// 	'ABBBBBA',
-//     'ABCCCBA',
-//     'AB C BA',
-// 	'AB D BA'
-//   ],
-//   {
-//     A: 'gtceu:tungsten_carbide_plate',
-// 	B: 'gtceu:tungsten_steel_plate',
-// 	C: 'kubejs:netherite_plate',
-// 	D: 'ad_astra:space_helmet'
+    event.recipes.createMechanicalCrafting(
+   Item.of('ad_astra:netherite_space_helmet', 1),
+   [ 
+     'AAAAAAA',
+ 	'ABBBBBA',
+     'ABCCCBA',
+     'AB C BA',
+ 	'AB D BA'
+   ],
+   {
+     A: 'gtceu:tungsten_carbide_plate',
+ 	B: 'gtceu:tungsten_steel_plate',
+ 	C: 'kubejs:netherite_plate',
+ 	D: 'ad_astra:space_helmet'
 	
-//   }
-// )
-// 	event.recipes.createMechanicalCrafting(
-//   Item.of('ad_astra:netherite_space_suit', 1),
-//   [ 
-//     'ABBBDBBBA', 
-//     'ABBCCCBBA',
-//     '  ABCBA  ',
-// 	'  ABCBA  ',
-// 	'  ABBBA  ',
-// 	'  AAAAA  '
-//   ],
-//   {
-//     A: 'gtceu:tungsten_carbide_plate',
-// 	B: 'gtceu:tungsten_steel_plate',
-// 	C: 'kubejs:netherite_plate',
-// 	D: 'ad_astra:space_suit'
-//   }
-// )
-// 	event.recipes.createMechanicalCrafting(
-//   Item.of('ad_astra:netherite_space_pants', 1),
-//   [ 
-// 	'AAAAAA',
-// 	'ABBBBA',
-//     'ABCCBA', 
-//     'AB DBA',
-//     'AB  BA',
-// 	'AB  BA',
-// 	'AB  BA'
-//   ],
-//   {
-//     A: 'gtceu:tungsten_carbide_plate',
-// 	B: 'gtceu:tungsten_steel_plate',
-// 	C: 'kubejs:netherite_plate',
-// 	D: 'ad_astra:space_pants'
-//   }
-// )
-// 	event.recipes.createMechanicalCrafting(
-//   Item.of('ad_astra:netherite_space_boots'),
-//   [ 
-// 	' ABA ABA ',
-//     ' ABA ABA ', 
-//     ' ABA ABA ',
-//     ' ABA ABA ',
-// 	'CAA D AAC'
-//   ],
-//   {
-//     A: 'gtceu:tungsten_carbide_plate',
-// 	B: 'gtceu:tungsten_steel_plate',
-// 	C: 'kubejs:netherite_plate',
-// 	D: 'ad_astra:space_boots'
-//   }
-// )
+   }
+ )
+ 	event.recipes.createMechanicalCrafting(
+   Item.of('ad_astra:netherite_space_suit', 1),
+   [ 
+     'ABBBDBBBA', 
+     'ABBCCCBBA',
+     '  ABCBA  ',
+ 	'  ABCBA  ',
+ 	'  ABBBA  ',
+ 	'  AAAAA  '
+   ],
+   {
+     A: 'gtceu:tungsten_carbide_plate',
+ 	B: 'gtceu:tungsten_steel_plate',
+ 	C: 'kubejs:netherite_plate',
+ 	D: 'ad_astra:space_suit'
+   }
+ )
+ 	event.recipes.createMechanicalCrafting(
+   Item.of('ad_astra:netherite_space_pants', 1),
+   [ 
+ 	'AAAAAA',
+ 	'ABBBBA',
+     'ABCCBA', 
+     'AB DBA',
+     'AB  BA',
+ 	'AB  BA',
+ 	'AB  BA'
+   ],
+   {
+     A: 'gtceu:tungsten_carbide_plate',
+ 	B: 'gtceu:tungsten_steel_plate',
+ 	C: 'kubejs:netherite_plate',
+ 	D: 'ad_astra:space_pants'
+   }
+ )
+ 	event.recipes.createMechanicalCrafting(
+   Item.of('ad_astra:netherite_space_boots'),
+   [ 
+ 	' ABA ABA ',
+     ' ABA ABA ', 
+     ' ABA ABA ',
+     ' ABA ABA ',
+ 	'CAA D AAC'
+   ],
+   {
+     A: 'gtceu:tungsten_carbide_plate',
+ 	B: 'gtceu:tungsten_steel_plate',
+ 	C: 'kubejs:netherite_plate',
+ 	D: 'ad_astra:space_boots'
+   }
+ )
 
 
 

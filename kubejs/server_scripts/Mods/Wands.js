@@ -35,37 +35,36 @@ ServerEvents.recipes(event => {
 			C:'gtceu:iron_screw'
 		}
 	)
-	// TODO: Uncomment when KubeJS Create is added
-	// event.recipes.createMechanicalCrafting(
-	// 	Item.of('constructionwand:diamond_wand', 1),
-	// 	[ 
-	// 		'  BB',
-	// 		' CDB',
-	// 		' AC ',
-	// 		'A   ',
-	// 	],
-	// 	{
-	// 		A:'minecraft:stick',
-	// 		B:'gtceu:diamond_plate',
-	// 		C:'gtceu:diamond_screw',
-	// 		D:'gtceu:diamond_gear'
-	// 	}
-	// )
+	 event.recipes.createMechanicalCrafting(
+	 	Item.of('constructionwand:diamond_wand', 1),
+	 	[ 
+	 		'  BB',
+	 		' CDB',
+	 		' AC ',
+	 		'A   ',
+	 	],
+	 	{
+	 		A:'minecraft:stick',
+	 		B:'gtceu:diamond_plate',
+	 		C:'gtceu:diamond_screw',
+	 		D:'gtceu:diamond_gear'
+	 	}
+	 )
 
-	// event.recipes.createMechanicalCrafting(
-	// 	Item.of('constructionwand:infinity_wand', 1),
-	// 	[ 
-	// 		'  CB',
-	// 		'  DC',
-	// 		' A  ',
-	// 		'A   ',
-	// 	],
-	// 	{
-	// 		A:'minecraft:stick',
-	// 		B:'gtceu:nether_star_plate',
-	// 		C:'kubejs:netherite_plate',
-	// 		D:'gtceu:diamond_gear'
+	 event.recipes.createMechanicalCrafting(
+	 	Item.of('constructionwand:infinity_wand', 1),
+	 	[ 
+	 		'  CB',
+	 		'  DC',
+	 		' A  ',
+	 		'A   ',
+	 	],
+	 	{
+	 		A:'minecraft:stick',
+	 		B:'gtceu:nether_star_plate',
+	 		C:'kubejs:netherite_plate',
+	 		D:'gtceu:diamond_gear'
 
-	// 	}
-	// )
+	 	}
+	 )
 });

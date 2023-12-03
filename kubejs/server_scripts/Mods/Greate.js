@@ -7,7 +7,7 @@ ServerEvents.recipes(event => {
         'aluminium',
         'stainless_steel',
         'titanium',
-        'tungsten_steel',
+        'tungstensteel',
         'palladium',
         'naquadah',
         'darmstadtium',
@@ -54,24 +54,23 @@ ServerEvents.recipes(event => {
         
     ]
 
-    // TODO: Uncomment when KubeJS Create is added
-    // tiers.forEach((tier, index) => {
-    //     // small cogwheel
-    //     event.recipes.createDeploying(`greate:${tier}_cogwheel`, [`greate:${tier}_shaft`, `${plates[index]}`]);
-    //     // large cogwheel
-    //     event.recipes.createDeploying(`greate:large_${tier}_cogwheel`, [`greate:${tier}_cogwheel`, `${plates[index]}`]);
-    //     event.recipes.createSequencedAssembly([
-    //         `greate:large_${tier}_cogwheel`
-    //     ],  `greate:${tier}_shaft`, [
-    //         event.recipes.createDeploying(`greate:${tier}_cogwheel`, [`greate:${tier}_cogwheel`, `${plates[index]}`])
-    //     ]).transitionalItem(`greate:${tier}_cogwheel`).loops(2)
-    //     // alloys
-    //     event.recipes.createMixing(
-    //         Item.of(`greate:${tier}_alloy`, 1),
-    //         [
-    //             `${materials[index]}`,
-    //             `${nuggets[index]}`
-    //         ]
-    //     )
-    // });
+     tiers.forEach((tier, index) => {
+         // small cogwheel
+         event.recipes.create.deploying(`greate:${tier}_cogwheel`, [`greate:${tier}_shaft`, `${plates[index]}`]);
+         // large cogwheel
+         event.recipes.create.deploying(`greate:large_${tier}_cogwheel`, [`greate:${tier}_cogwheel`, `${plates[index]}`]);
+         event.recipes.create.sequenced_assembly([
+             `greate:large_${tier}_cogwheel`
+         ],  `greate:${tier}_shaft`, [
+             event.recipes.create.deploying(`greate:${tier}_cogwheel`, [`greate:${tier}_cogwheel`, `${plates[index]}`])
+         ]).transitionalItem(`greate:${tier}_cogwheel`).loops(2)
+         // alloys
+         event.recipes.create.mixing(
+             Item.of(`greate:${tier}_alloy`, 1),
+             [
+                 `${materials[index]}`,
+                 `${nuggets[index]}`
+             ]
+         )
+     });
 });

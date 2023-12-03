@@ -1,3 +1,5 @@
+//TODO: Enable once EnderStorage updates
+/*
 ServerEvents.recipes(event => {
 	
 event.remove({ output: 'enderstorage:ender_chest' })
@@ -49,4 +51,4 @@ event.shaped(Item.of('enderstorage:ender_chest', 1),
 	E: 'minecraft:ender_pearl'
 }
 )
-})
+})*/
