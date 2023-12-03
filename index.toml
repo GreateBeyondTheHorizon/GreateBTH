@@ -221,6 +221,10 @@ file = "mods/konkrete.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/kubejs-create.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/kubejs.pw.toml"
 metafile = true
 
