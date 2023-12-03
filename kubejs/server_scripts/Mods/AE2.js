@@ -187,14 +187,11 @@ ServerEvents.recipes(event => {
 	)
 	
 	
-	event.shaped(
-	Item.of('ae2:fluid_storage_cell_64k'),
-	[
+	event.shaped('ae2:fluid_storage_cell_64k', [
 		'AEA',
 		'BCB',
 		'DDD'
-	],
-	{
+	],{
 		A:'gtceu:annealed_copper_double_plate',
 		B:'gtceu:polytetrafluoroethylene_plate',
 		C:'ae2:cell_component_64k',
@@ -234,34 +231,143 @@ ServerEvents.recipes(event => {
 	)
 	
 	
-	// TODO: Uncomment when KubeJS Create is added
-	// event.recipes.createMechanicalCrafting(Item.of('ae2:creative_item_cell'),
+	 event.recipes.createMechanicalCrafting(Item.of('ae2:creative_item_cell'),
 	
-	// [
-	//  'CBC',
-	//  'ADA',
-	//  'AAA'
-	// ],
-	// {
-	// 	A:'avaritia:infinity_ingot',
-	// 	B:'gtceu:wetware_processor_mainframe',
-	// 	C:'kubejs:ruthenium_trinium_americium_neutronate_plate',
-	// 	D:'kubejs:infinity_me_storage_wafer'
-	// }
-	// )
-	// event.recipes.createMechanicalCrafting(Item.of('ae2:creative_fluid_cell'),
+	 [
+	  'CBC',
+	  'ADA',
+	  'AAA'
+	 ],
+	 {
+	 	A:'avaritia:infinity_ingot',
+	 	B:'gtceu:wetware_processor_mainframe',
+	 	C:'kubejs:ruthenium_trinium_americium_neutronate_plate',
+	 	D:'kubejs:infinity_me_storage_wafer'
+	 }
+	 )
+	 event.recipes.createMechanicalCrafting(Item.of('ae2:creative_fluid_cell'),
 	
-	// [
-	//  'CBC',
-	//  'ADA',
-	//  'AAA'
-	// ],
-	// {
-	// 	A:'avaritia:infinity_ingot',
-	// 	B:'gtceu:wetware_processor_mainframe',
-	// 	C:'gtceu:darmstadtium_double_plate',
-	// 	D:'kubejs:infinity_me_storage_wafer'
-	// }
-	// )
+	 [
+	  'CBC',
+	  'ADA',
+	  'AAA'
+	 ],
+	 {
+	 	A:'avaritia:infinity_ingot',
+	 	B:'gtceu:wetware_processor_mainframe',
+	 	C:'gtceu:darmstadtium_double_plate',
+	 	D:'kubejs:infinity_me_storage_wafer'
+	 }
+	 )
+
+	//Wafers
+	event.recipes.gtceu.cutter('kubejs:cutting_1k_wafer_lubricant')
+		.duration(500)
+		.inputFluids(Fluid.of('gtceu:lubricant', 250))
+		.itemInputs('kubejs:1k_me_storage_wafer')
+		.itemOutputs('16x kubejs:1k_me_storage_base')
+		.EUt(32767)
+
+	event.recipes.gtceu.cutter('kubejs:cutting_1k_wafer_distilled_water')
+		.duration(1350)
+		.inputFluids(Fluid.of('gtceu:distilled_water', 750))
+		.itemInputs('kubejs:1k_me_storage_wafer')
+		.itemOutputs('16x kubejs:1k_me_storage_base')
+		.EUt(32767)
+
+	event.recipes.gtceu.cutter('kubejs:cutting_1k_wafer_water')
+		.duration(1800)
+		.inputFluids(Fluid.of('minecraft:water', 1000))
+		.itemInputs('kubejs:1k_me_storage_wafer')
+		.itemOutputs('16x kubejs:1k_me_storage_base')
+		.EUt(32767)
+
+
+	event.recipes.gtceu.cutter('kubejs:cutting_4k_wafer_lubricant')
+		.duration(500)
+		.inputFluids(Fluid.of('gtceu:lubricant', 250))
+		.itemInputs('kubejs:4k_me_storage_wafer')
+		.itemOutputs('16x kubejs:4k_me_storage_base')
+		.EUt(32767)
+
+	event.recipes.gtceu.cutter('kubejs:cutting_4k_wafer_distilled_water')
+		.duration(1350)
+		.inputFluids(Fluid.of('gtceu:distilled_water', 750))
+		.itemInputs('kubejs:4k_me_storage_wafer')
+		.itemOutputs('16x kubejs:4k_me_storage_base')
+		.EUt(32767)
+
+	event.recipes.gtceu.cutter('kubejs:cutting_4k_wafer_water')
+		.duration(1800)
+		.inputFluids(Fluid.of('minecraft:water', 1000))
+		.itemInputs('kubejs:4k_me_storage_wafer')
+		.itemOutputs('16x kubejs:4k_me_storage_base')
+		.EUt(32767)
+
+
+	event.recipes.gtceu.cutter('kubejs:cutting_16k_wafer_lubricant')
+		.duration(500)
+		.inputFluids(Fluid.of('gtceu:lubricant', 250))
+		.itemInputs('kubejs:16k_me_storage_wafer')
+		.itemOutputs('16x kubejs:16k_me_storage_base')
+		.EUt(32767)
+
+	event.recipes.gtceu.cutter('kubejs:cutting_16k_wafer_distilled_water')
+		.duration(1350)
+		.inputFluids(Fluid.of('gtceu:distilled_water', 750))
+		.itemInputs('kubejs:16k_me_storage_wafer')
+		.itemOutputs('16x kubejs:16k_me_storage_base')
+		.EUt(32767)
+
+	event.recipes.gtceu.cutter('kubejs:cutting_16k_wafer_water')
+		.duration(1800)
+		.inputFluids(Fluid.of('minecraft:water', 1000))
+		.itemInputs('kubejs:16k_me_storage_wafer')
+		.itemOutputs('16x kubejs:16k_me_storage_base')
+		.EUt(32767)
+
+
+	event.recipes.gtceu.cutter('kubejs:cutting_64k_wafer_lubricant')
+		.duration(500)
+		.inputFluids(Fluid.of('gtceu:lubricant', 250))
+		.itemInputs('kubejs:64k_me_storage_wafer')
+		.itemOutputs('16x kubejs:64k_me_storage_base')
+		.EUt(32767)
+
+	event.recipes.gtceu.cutter('kubejs:cutting_64k_wafer_distilled_water')
+		.duration(1350)
+		.inputFluids(Fluid.of('gtceu:distilled_water', 750))
+		.itemInputs('kubejs:64k_me_storage_wafer')
+		.itemOutputs('16x kubejs:64k_me_storage_base')
+		.EUt(32767)
+
+	event.recipes.gtceu.cutter('kubejs:cutting_64k_wafer_water')
+		.duration(1800)
+		.inputFluids(Fluid.of('minecraft:water', 1000))
+		.itemInputs('kubejs:64k_me_storage_wafer')
+		.itemOutputs('16x kubejs:64k_me_storage_base')
+		.EUt(32767)
+
+
+	event.recipes.gtceu.cutter('kubejs:cutting_256k_wafer_lubricant')
+		.duration(500)
+		.inputFluids(Fluid.of('gtceu:lubricant', 250))
+		.itemInputs('kubejs:256k_me_storage_wafer')
+		.itemOutputs('16x kubejs:256k_me_storage_base')
+		.EUt(32767)
+
+	event.recipes.gtceu.cutter('kubejs:cutting_256k_wafer_distilled_water')
+		.duration(1350)
+		.inputFluids(Fluid.of('gtceu:distilled_water', 750))
+		.itemInputs('kubejs:256k_me_storage_wafer')
+		.itemOutputs('16x kubejs:256k_me_storage_base')
+		.EUt(32767)
+
+	event.recipes.gtceu.cutter('kubejs:cutting_256k_wafer_water')
+		.duration(1800)
+		.inputFluids(Fluid.of('minecraft:water', 1000))
+		.itemInputs('kubejs:256k_me_storage_wafer')
+		.itemOutputs('16x kubejs:256k_me_storage_base')
+		.EUt(32767)
 })
 
