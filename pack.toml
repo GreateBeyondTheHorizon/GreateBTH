@@ -1,6 +1,6 @@
 name = "GreateBTH"
 author = "Greators of Greate"
-version = "0.0.2"
+version = "0.0.3"
 pack-format = "packwiz:1.1.0"
 
 [index]
