@@ -397,6 +397,11 @@
 	delete-cursor-stack: "key.mouse.left";
 
 	/**
+	 * Copies the hovered recipe's ID to the clipboard
+	 */
+	 copy-recipe-id: "ctrl key.keyboard.period";
+
+	/**
 	 * In edit mode, hide the hovered stack
 	 */
 	hide-stack: "ctrl key.mouse.left";
