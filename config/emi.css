@@ -51,7 +51,7 @@
 	/**
 	 * Whether to add mod name to tooltips
 	 */
-	append-mod-id: false;
+	append-mod-id: true;
 
 	/**
 	 * Whether to add mod name to item tooltips, in case another mod provides behavior
