@@ -113,6 +113,10 @@ file = "mods/curios.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/embeddium.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/emi.pw.toml"
 metafile = true
 
@@ -318,10 +322,6 @@ metafile = true
 
 [[files]]
 file = "mods/rhino.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/rubidium.pw.toml"
 metafile = true
 
 [[files]]
