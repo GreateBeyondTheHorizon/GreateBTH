@@ -125,6 +125,14 @@ ServerEvents.recipes( event => {
         .EUt(480)
         .circuit(1)
     
+    // Printed book
+    event.remove({ id: 'computercraft:printed_book' })
+    event.shapeless('computercraft:printed_book', [
+        'minecraft:book',
+        'computercraft:printed_page',
+        'minecraft:string'
+    ])
+    
     // Disks
     event.recipes.gtceu.assembler('computercraft:disk_16')
         .itemInputs('gtceu:glass_lens', '4x gtceu:aluminium_foil', '4x gtceu:polyethylene_foil')
