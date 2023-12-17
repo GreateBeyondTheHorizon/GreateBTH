@@ -133,6 +133,10 @@ file = "mods/fancymenu-forge.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/farmers-delight.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/fast-leaf-decay.pw.toml"
 metafile = true
 
@@ -257,6 +261,10 @@ file = "mods/natures-compass.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/nethers-delight.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/no-chat-reports.pw.toml"
 metafile = true
 
@@ -274,22 +282,6 @@ metafile = true
 
 [[files]]
 file = "mods/oreberries-replanted.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/pams-harvestcraft-2-crops.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/pams-harvestcraft-2-food-core.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/pams-harvestcraft-2-food-extended.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/pams-harvestcraft-2-trees.pw.toml"
 metafile = true
 
 [[files]]
