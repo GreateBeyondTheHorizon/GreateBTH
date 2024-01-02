@@ -1,6 +1,7 @@
 // priority: 0
 ServerEvents.recipes(event => {
 	event.remove({ output: 'ae2:controller' })
+	event.remove({ output: 'ae2:energy_acceptor'})
 	event.remove({ output: 'ae2:chest' })
 	event.remove({ output: 'ae2:logic_processor' })
 	event.remove({ output: 'ae2:calculation_processor' })
@@ -9,6 +10,22 @@ ServerEvents.recipes(event => {
 	event.remove({ output:  /ae2:(.*)_(.*)k/ })
 	event.remove({ id: 'ae2:charger/charged_certus_quartz_crystal' })
 	
+
+	event.shaped(
+	Item.of('ae2:energy_acceptor'),
+	[
+		'CCC',
+		'ADA',
+		'ABA'
+	],
+	{
+		A:'ae2:fluix_block',
+		B:'ae2:energy_cell',
+		C:'gtceu:polyvinyl_chloride_foil',
+		D:'#forge:circuits/hv'
+	}
+	)
+
 	event.shaped(
 	Item.of('ae2:controller'),
 	[
