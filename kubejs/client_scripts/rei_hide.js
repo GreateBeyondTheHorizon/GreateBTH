@@ -18,4 +18,6 @@ JEIEvents.hideItems(event => {
 
     // Ad Astra
     event.hide(/ad_astra:(.*)_plate/)
+    event.hide('ad_astra:steel_ingot')
+    event.hide('ad_astra:steel_block')
   })

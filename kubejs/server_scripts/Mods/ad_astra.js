@@ -5,6 +5,8 @@ ServerEvents.recipes( event => {
 	event.remove({ output:'ad_astra:rocket_nose_cone' })
 	event.remove({ output: /ad_astra:(.*)_plate/ })
 	
+	event.remove({output: 'ad_astra:steel_ingot'})
+	event.remove({output: 'ad_astra:steel_block'})
 	//stainless steel
 	
 	

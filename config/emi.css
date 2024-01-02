@@ -9,12 +9,17 @@
 	/**
 	 * Whether cheating in items is enabled.
 	 */
-	cheat-mode: false;
+	cheat-mode: true;
 
 	/**
 	 * How much EMI should use tooltips and popups to show controls and information.
 	 */
 	help-level: normal;
+
+	/**
+	 * Where EMI should pull stacks from to populate the index.
+	 */
+	index-source: creative;
 
 	/**
 	 * Whether normal search queries should include the tooltip.
@@ -336,6 +341,11 @@
 	back: "key.keyboard.backspace";
 
 	/**
+	 * Return to the next page in EMI after going back.
+	 */
+	forward: "key.keyboard.unknown";
+
+	/**
 	 * When on a stack with an associated recipe:
 	 * Move ingredients for a single result.
 	 */
@@ -399,7 +409,7 @@
 	/**
 	 * Copies the hovered recipe's ID to the clipboard
 	 */
-	 copy-recipe-id: "ctrl key.keyboard.period";
+	copy-recipe-id: "ctrl key.keyboard.c";
 
 	/**
 	 * In edit mode, hide the hovered stack
@@ -437,7 +447,7 @@
 	/**
 	 * Whether hovering the output of a recipe should show the recipe's EMI ID.
 	 */
-	show-recipe-ids: false;
+	show-recipe-ids: true;
 
 	/**
 	 * Whether stacks in the index should display a highlight if they have a recipe
