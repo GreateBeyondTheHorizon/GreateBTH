@@ -321,6 +321,10 @@ file = "mods/searchables.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/sgjourney.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
 metafile = true
 
