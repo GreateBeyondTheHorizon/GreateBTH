@@ -410,6 +410,7 @@
 	 * Copies the hovered recipe's ID to the clipboard
 	 */
 	copy-recipe-id: "ctrl key.keyboard.period";
+	copy-recipe-id: "key.mouse.left";
 
 	/**
 	 * In edit mode, hide the hovered stack

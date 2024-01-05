@@ -19,7 +19,7 @@ ServerEvents.recipes(event => {
 
 	event.remove({output: '#forge:honeycombs'})
 
-	event.remove({output: Item.of('productivebees:configurable_honeycomb', {EntityTag:{type:"productivebees:emerald"}})})
+	event.remove({output: Item.of('productivebees:configurable_honeycomb', '{EntityTag:{type:"productivebees:titanium"}}').strongNBT()})
 
 	hives.forEach((element) => event.remove({output: element}));
 	
@@ -44,24 +44,11 @@ ServerEvents.recipes(event => {
 		)
 	}
 
-	event.remove({output: Item.of('productivebees:configurable_honeycomb', '{EntityTag:{type:"productivebees:emerald"}}')})
-
-	event.shaped(
-		Item.of('gtceu:emerald_dust', 1),
-		[ 
-			'   ',
-			' A ',
-			'   '
-			
-		],
-		{
-			A:Item.of('productivebees:configurable_honeycomb', '{EntityTag:{type:"productivebees:emerald"}}')
-		}
-	)
-
-
-
-	
+	event.recipes.gtceu.centrifuge('gtceu:titanium_dust')             
+		.itemInputs(Item.of('productivebees:configurable_honeycomb', '{EntityTag:{type:"productivebees:titanium"}}').strongNBT())
+		.itemOutputs('gtceu:titanium_dust')
+		.duration(120)
+		.EUt(16)
 
 
 });
