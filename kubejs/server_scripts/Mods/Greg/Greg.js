@@ -1,27 +1,36 @@
 // priority: 0
 ServerEvents.recipes(event => {
 	// #region removal
-	const tiers = ['lv', 'mv',  'hv', /*'ev', 'iv', 'luv', 'zpm', 'uv' */];
-    const components = ['emitter', 'sensor', 'electric_motor', 'electric_piston', 'robot_arm', 'conveyor_module', 'electric_pump', 'fluid_regulator'];
-	event.remove({ output: 'gtceu:lp_steam_furnace'})
-    tiers.forEach(tier => {
-        components.forEach(component => {
-            event.remove({output: `gtceu:${tier}_${component}`});
-        });
-    });
-    //lv
-    event.remove({output: '#forge:circuits/lv'}) 
-    //mv
-	event.remove({output: '#forge:circuits/mv'}) 
-    //hv
-	event.remove({output: '#forge:circuits/hv'}) 
-	
-	event.remove({id: 'gtceu:smelting/sticky_resin_from_slime'}) // <-- random bullshit go!
-    
-	event.remove({output: 'gtceu:vacuum_tube'})
+	const tiers = ['lv', 'mv', 'hv' /*'ev', 'iv', 'luv', 'zpm', 'uv' */]
+	const components = [
+		'emitter',
+		'sensor',
+		'electric_motor',
+		'electric_piston',
+		'robot_arm',
+		'conveyor_module',
+		'electric_pump',
+		'fluid_regulator',
+	]
+	event.remove({ output: 'gtceu:lp_steam_furnace' })
+	tiers.forEach(tier => {
+		components.forEach(component => {
+			event.remove({ output: `gtceu:${tier}_${component}` })
+		})
+	})
+	//lv
+	event.remove({ output: '#forge:circuits/lv' })
+	//mv
+	event.remove({ output: '#forge:circuits/mv' })
+	//hv
+	event.remove({ output: '#forge:circuits/hv' })
+
+	event.remove({ id: 'gtceu:smelting/sticky_resin_from_slime' }) // <-- random bullshit go!
+
+	event.remove({ output: 'gtceu:vacuum_tube' })
 
 	event.shaped(
-	Item.of('gtceu:wood_plate'),
+		Item.of('gtceu:wood_plate'),
 		[
 			'A',
 			'A',
@@ -40,7 +49,9 @@ ServerEvents.recipes(event => {
 			A:'gtceu:treated_wood_planks'
 		}
 	)
-	event.shaped(Item.of('gtceu:stone_gear', 1), [
+	event.shaped(
+		Item.of('gtceu:stone_gear', 1),
+		[
 			'GFG',
 			'FPF',
 			'GFG',
@@ -52,7 +63,8 @@ ServerEvents.recipes(event => {
 		}
 	)
 	
-	event.shaped(Item.of('gtceu:lp_steam_furnace', 1),
+	event.shaped(
+		Item.of('gtceu:lp_steam_furnace', 1),
 		[
 			'ABA',
 			'ACA',
@@ -65,5 +77,4 @@ ServerEvents.recipes(event => {
 			D:'minecraft:smoker'
 		}
 	)
-		
 })

@@ -1,14 +1,14 @@
 {
-    "type": "productivebees:bee_conversion",
-    "source": "productivebees:starry",
-    "result": "productivebees:neutronium",
-    "item": {
-        "item": "gtceu:nan_certificate"
-    },
-    "conditions": [
-        {
-            "type": "productivebees:bee_exists",
-            "bee": "productivebees:neutronium"
-        }
-    ]
+	"type": "productivebees:bee_conversion",
+	"source": "productivebees:starry",
+	"result": "productivebees:neutronium",
+	"item": {
+		"item": "gtceu:nan_certificate"
+	},
+	"conditions": [
+		{
+			"type": "productivebees:bee_exists",
+			"bee": "productivebees:neutronium"
+		}
+	]
 }
