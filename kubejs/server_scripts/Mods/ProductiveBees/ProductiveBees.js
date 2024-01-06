@@ -13,14 +13,9 @@ var stripedWood = ['minecraft:stripped_bamboo_block', 'minecraft:stripped_cherry
 'minecraft:prismarine_bricks', 'minecraft:stripped_crimson_stem',
 'minecraft:stripped_oak_log', 'minecraft:stripped_spruce_log']
 
+
 ServerEvents.recipes(event => {
-
-    event.remove({output:  'productivebees:titanium'})
-
-	event.remove({output: '#forge:honeycombs'})
-
-	event.remove({output: Item.of('productivebees:configurable_honeycomb', '{EntityTag:{type:"productivebees:titanium"}}').strongNBT()})
-
+	
 	hives.forEach((element) => event.remove({output: element}));
 	
 	for(let i = 0; i < hives.length; i++){
@@ -29,26 +24,15 @@ ServerEvents.recipes(event => {
 			[ 
 				'AAA',
 				'EBE',
-				'DCD'
-				
+				'DCD'				
 			],
 			{
 				A:stripedWood[i],
-				B:'#forge:circuits/hv',
-				C:'gtceu:stainless_steel_plate',
+				B:'#forge:circuits/lv',
+				C:'gtceu:aluminium_plate',
 				D:'gtceu:bronze_plate',
-				E:'gtceu:potin_gear',
-				
-			      
+				E:'gtceu:potin_gear',      
 			}
 		)
 	}
-
-	event.recipes.gtceu.centrifuge('gtceu:titanium_dust')             
-		.itemInputs(Item.of('productivebees:configurable_honeycomb', '{EntityTag:{type:"productivebees:titanium"}}').strongNBT())
-		.itemOutputs('gtceu:titanium_dust')
-		.duration(120)
-		.EUt(16)
-
-
 });

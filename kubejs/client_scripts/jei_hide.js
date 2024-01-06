@@ -20,4 +20,15 @@ JEIEvents.hideItems(event => {
     event.hide(/ad_astra:(.*)_plate/)
     event.hide('ad_astra:steel_ingot')
     event.hide('ad_astra:steel_block')
+
+
+    //EnderIO
+    const enderioMachines= ['enderio:fluid_tank', 'enderio:pressurized_fluid_tank', 'enderio:enchanter', 'enderio:primitive_alloy_smelter', 'enderio:alloy_smelter', 'enderio:painting_machine', 'enderio:creative_power', 'enderio:stirling_generator', 'enderio:sag_mill', 'enderio:impulse_hopper', 'enderio:energetic_photovoltaic_module', 'enderio:pulsating_photovoltaic_module', 'enderio:vibrant_photovoltaic_module', 'enderio:basic_capacitor_bank', 'enderio:advanced_capacitor_bank', 'enderio:vibrant_capacitor_bank', 'enderio:soul_engine', 'enderio:drain', 'enderio:creative_power']
+    
+    enderioMachines.forEach(item => {  event.hide(item)})
+    
+
+
+
+
   })

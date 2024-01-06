@@ -3,7 +3,7 @@
     "particleColor": "#e3f696",
     "beeTexture": "productivebees:textures/entity/bee/samarium/bee",
     "description": "productivebees.ingredient.description.only_spawnegg",
-    "flowerItem": "chemlib:samarium",
+    "flowerItem": "gtceu:samarium",
     "conditions": [
       {
         "type": "forge:mod_loaded",

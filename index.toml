@@ -233,6 +233,10 @@ file = "mods/kubejs-create.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/kubejs-enderio.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/kubejs.pw.toml"
 metafile = true
 
@@ -354,6 +358,10 @@ metafile = true
 
 [[files]]
 file = "mods/visual-workbench.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/xtones-reworked.pw.toml"
 metafile = true
 
 [[files]]
