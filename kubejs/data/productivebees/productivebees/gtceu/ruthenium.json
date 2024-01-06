@@ -3,7 +3,7 @@
     "particleColor": "#ba9ca6",
     "beeTexture": "productivebees:textures/entity/bee/ruthenium/bee",
     "description": "productivebees.ingredient.description.only_spawnegg",
-    "flowerItem": "chemlib:ruthenium",
+    "flowerItem": "gtceu:ruthenium",
     "conditions": [
       {
         "type": "forge:mod_loaded",

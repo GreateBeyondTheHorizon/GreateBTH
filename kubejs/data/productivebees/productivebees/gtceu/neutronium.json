@@ -3,15 +3,12 @@
     "secondaryColor": "#c9c9c9",
     "tertiaryColor": "#919191",
     "renderer": "default_shell",
-    "size": 4.20,
+    "size": 1.5,
     "selfbreed": false,
     "selfheal": true,
     "fireproof": true,
     "flowerItem": "gtceu:uv_fusion_reactor",
     "name": "Not a Neutronium",
-    "invulnerability": [
-        "mekanism.radiation"
-    ],
     "conditions": [
         {
             "type": "forge:mod_loaded",
