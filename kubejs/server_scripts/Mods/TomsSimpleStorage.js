@@ -1,19 +1,19 @@
 ServerEvents.recipes(event => {
+	//remove all    
+	const storage = [
+		'toms_storage:ts.inventory_connector', 'toms_storage:ts.storage_terminal', 'toms_storage:ts.crafting_terminal', 'toms_storage:ts.item_filter', 'toms_storage:ts.polymorphic_item_filter', 
+		'toms_storage:ts.trim', 'toms_storage:ts.open_crate',  'toms_storage:ts.inventory_cable', 'toms_storage:ts.tag_item_filter','toms_storage:ts.painted_trim',
+		'toms_storage:ts.inventory_cable_connector', 'toms_storage:ts.inventory_proxy', 'toms_storage:ts.inventory_hopper_basic', 'toms_storage:ts.level_emitter', 
+		'toms_storage:ts.wireless_terminal', 'toms_storage:ts.adv_wireless_terminal', 'toms_storage:ts.paint_kit', 'toms_storage:ts.inventory_cable_connector_filtered'
+	]
 
-    //remove all    
-    const storage = ['toms_storage:ts.inventory_connector', 'toms_storage:ts.storage_terminal', 'toms_storage:ts.crafting_terminal', 'toms_storage:ts.item_filter', 'toms_storage:ts.polymorphic_item_filter', 
-                        'toms_storage:ts.trim', 'toms_storage:ts.open_crate',  'toms_storage:ts.inventory_cable', 'toms_storage:ts.tag_item_filter','toms_storage:ts.painted_trim',
-                        'toms_storage:ts.inventory_cable_connector', 'toms_storage:ts.inventory_proxy', 'toms_storage:ts.inventory_hopper_basic', 'toms_storage:ts.level_emitter', 
-                        'toms_storage:ts.wireless_terminal', 'toms_storage:ts.adv_wireless_terminal',  'toms_storage:ts.paint_kit','toms_storage:ts.inventory_cable_connector_filtered']
+	storage.forEach((element) => event.remove({output: element}))
 
-	
-	storage.forEach((element) => event.remove({output: element}));
-
-    //Storage Connector
-     event.recipes.createMechanicalCrafting(
+	//Storage Connector
+	event.recipes.createMechanicalCrafting(
 	 	Item.of('toms_storage:ts.inventory_connector', 1),
-	 	[ 
-             ' BAB ',
+	 	[
+			' BAB ',
 	 		'BDEDB',
 	 		'AECEA',
 	 		'BDEDB',
@@ -24,16 +24,15 @@ ServerEvents.recipes(event => {
 	 		B:'gtceu:treated_wood_plate',
 	 		C:'gtceu:mv_machine_casing',
 	 		D:'gtceu:micro_processor',
-             E:'gtceu:lv_robot_arm'
+			E:'gtceu:lv_robot_arm'
 	 	}
-	 )
-
-    
-     //Terminal
-	 event.recipes.createMechanicalCrafting(
+	)
+	
+	//Terminal
+	event.recipes.createMechanicalCrafting(
 	 	Item.of('toms_storage:ts.crafting_terminal', 1),
-	 	[ 
-             'ABCBA',
+	 	[
+			'ABCBA',
 	 		'BFDFB',
 	 		'CDEDC',
 	 		'BFDFB',
@@ -44,123 +43,114 @@ ServerEvents.recipes(event => {
 	 		B:'ironchest:iron_chest',
 	 		C:'gtceu:mv_conveyor_module',
 	 		D:'toms_storage:ts.inventory_cable',
-             E:'#forge:circuits/mv',
-             F:'toms_storage:ts.inventory_cable_connector',
-			
-
+			E:'#forge:circuits/mv',
+			F:'toms_storage:ts.inventory_cable_connector',
 	 	}
-	 )
-
-    
-    //Inventory Cable
-    event.shaped(
-        Item.of('toms_storage:ts.inventory_cable'),
-        [
-            'CBC',
-            'BAB',
-            'CBC',
-        ],
-        {
-            A: 'gtceu:mv_conveyor_module',
-            B: 'gtceu:wood_plate',
-            C: 'gtceu:wood_long_rod'
-        }
-    )
-
-    //Inventory Cable Connector
+	)
+	
+	//Inventory Cable
 	event.shaped(
-        Item.of('toms_storage:ts.inventory_cable_connector', 1),
-        [ 
-            ' D ', 
-            'BAB',
-            ' C ', 
-        ],
-        {
+		Item.of('toms_storage:ts.inventory_cable'),
+		[
+			'CBC',
+			'BAB',
+			'CBC',
+		],
+		{
+			A: 'gtceu:mv_conveyor_module',
+			B: 'gtceu:wood_plate',
+			C: 'gtceu:wood_long_rod'
+		}
+	)
+
+	//Inventory Cable Connector
+	event.shaped(
+		Item.of('toms_storage:ts.inventory_cable_connector', 1),
+		[
+			' D ', 
+			'BAB',
+			' C ', 
+		],
+		{
 			A:'gtceu:lv_robot_arm',
 			B:'gtceu:treated_wood_plate',
 			C:'gtceu:iron_screw',
-            D:'gtceu:micro_processor',
-        }
+			D:'gtceu:micro_processor',
+		}
 	)
 
-    event.shapeless(
-        Item.of('toms_storage:ts.inventory_cable_connector_filtered', 1),
-        [ 
-            'toms_storage:ts.item_filter',
-            'toms_storage:ts.inventory_cable_connector'
-             
-        ]
+	event.shapeless(
+		Item.of('toms_storage:ts.inventory_cable_connector_filtered', 1),
+		[
+			'toms_storage:ts.item_filter',
+			'toms_storage:ts.inventory_cable_connector'
+		]
 	)
 
-
-    //Wireless
+	//Wireless
 	event.shaped(
-        Item.of('toms_storage:ts.wireless_terminal', 1),
-        [
-            'BDB', 
-            'EAE',
-            'CDC', 
-        ],
-        {
-            A: 'minecraft:ender_eye',
-            B: 'gtceu:mv_emitter',
-            C: 'gtceu:mv_sensor',
-            D: 'gtceu:aluminium_plate',
-            E: 'gtceu:wood_plate'
-        }
-    )
+		Item.of('toms_storage:ts.wireless_terminal', 1),
+		[
+			'BDB', 
+			'EAE',
+			'CDC', 
+		],
+		{
+			A: 'minecraft:ender_eye',
+			B: 'gtceu:mv_emitter',
+			C: 'gtceu:mv_sensor',
+			D: 'gtceu:aluminium_plate',
+			E: 'gtceu:wood_plate'
+		}
+	)
 
 
-    event.shaped(
-        Item.of('toms_storage:ts.paint_kit', 1),
-        [
-            'DEA', 
-            'FB ',
-            'C  ',
-        ],
-        {
-            A: '#minecraft:wool',
-            B: 'gtceu:empty_spray_can',
-            C: 'gtceu:wood_long_rod',
-            D: '#railways:internal/dyes/blue_dyes',
-            E: '#railways:internal/dyes/red_dyes',
-            F: '#railways:internal/dyes/green_dyes',
-        }
-    )
-    
-    //FILTER
-    event.shaped(
-        Item.of('toms_storage:ts.item_filter', 1),
-        [ 
-            'RBR', 
-            'BAB',
-            'RBR', 
-        ],
-        {
+	event.shaped(
+		Item.of('toms_storage:ts.paint_kit', 1),
+		[
+			'DEA', 
+			'FB ',
+			'C  ',
+		],
+		{
+			A: '#minecraft:wool',
+			B: 'gtceu:empty_spray_can',
+			C: 'gtceu:wood_long_rod',
+			D: '#railways:internal/dyes/blue_dyes',
+			E: '#railways:internal/dyes/red_dyes',
+			F: '#railways:internal/dyes/green_dyes',
+		}
+	)
+	
+	//FILTER
+	event.shaped(
+		Item.of('toms_storage:ts.item_filter', 1),
+		[
+			'RBR', 
+			'BAB',
+			'RBR', 
+		],
+		{
 			A:'gtceu:item_filter',
 			B:'gtceu:treated_wood_plate',
-            R:'minecraft:redstone',
-        }
+			R:'minecraft:redstone',
+		}
 	)
 
-    event.shapeless(
-        Item.of('toms_storage:ts.polymorphic_item_filter', 1),
-        [ 
-            'toms_storage:ts.item_filter',
-            'gtceu:hv_sensor'
-             
-        ]
-	)
-
-
-    event.shapeless(
-        Item.of('toms_storage:ts.tag_item_filter', 1),
-        [ 
-            'toms_storage:ts.item_filter',
-            'gtceu:item_tag_filter'
-             
-        ]
+	event.shapeless(
+		Item.of('toms_storage:ts.polymorphic_item_filter', 1),
+		[
+			'toms_storage:ts.item_filter',
+			'gtceu:hv_sensor'
+		]
 	)
 
 
+	event.shapeless(
+		Item.of('toms_storage:ts.tag_item_filter', 1),
+		[
+			'toms_storage:ts.item_filter',
+			'gtceu:item_tag_filter'
+		]
+	)
 })
