@@ -8,24 +8,5 @@
         "type": "productivebees:tea"
       }
     }
-  },
-  "outputs": [
-    {
-      "item": {
-        "tag": "forge:wax"
-      }
-    },
-    {
-      "fluid": {
-        "fluid": "create:tea"
-      },
-      "amount": 100
-    }
-  ],
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "create"
-    }
-  ]
+  }
 }

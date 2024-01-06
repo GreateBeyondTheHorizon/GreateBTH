@@ -1,6 +1,6 @@
 {
     "type": "productivebees:bee_conversion",
-    "source": "productivebees:starry",
+    "source": "productivebees:yttrium",
     "result": "productivebees:neutronium",
     "item": {
         "item": "gtceu:nan_certificate"
