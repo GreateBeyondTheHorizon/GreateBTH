@@ -8,23 +8,5 @@
         "type": "productivebees:glowing"
       }
     }
-  },
-  "outputs": [
-    {
-      "item": {
-        "tag": "forge:dusts/glowstone"
-      }
-    },
-    {
-      "item": {
-        "tag": "forge:wax"
-      }
-    },
-    {
-      "fluid": {
-        "fluid": "productivebees:honey"
-      },
-      "amount": 50
-    }
-  ]
+  }
 }

@@ -8,19 +8,5 @@
         "type": "productivebees:oily"
       }
     }
-  },
-  "outputs": [
-    {
-      "fluid": {
-        "tag": "forge:crude_oil"
-      },
-      "amount": 50
-    }
-  ],
-  "conditions": [
-    {
-      "type": "productivebees:bee_exists",
-      "bee": "productivebees:oily"
-    }
-  ]
+  }
 }
