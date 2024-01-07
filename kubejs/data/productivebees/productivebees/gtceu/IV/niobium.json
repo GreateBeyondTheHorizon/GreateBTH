@@ -1,0 +1,12 @@
+{
+    "primaryColor": "#7C8986",
+    "particleColor": "#ACB4B2",
+    "flowerItem": "gtceu:niobium_block",
+    "selfbreed": false,
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "gtceu"
+      }
+    ]
+  }

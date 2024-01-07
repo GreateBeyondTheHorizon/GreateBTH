@@ -20,23 +20,22 @@ var EnderIO = ['redstone_alloy'] //,'energetic_alloy','end_steel', 'dark_steel',
 
 var configurableBeeMaterialsSpecial = ['experience']
 
-var configurableBeeMaterialsDustsLV = ['glowing','blazing','prismarine','sculk','warped', 'brown_shroom','red_shroom','withered','skeletal', 
- 'silky','zombie','draconic','slimy','crimson', 'spacial', 'magmatic','sticky_resin', 'apatite','redstone']
+var configurableBeeMaterialsCustomLV = ['glowing','blazing','prismarine','sculk','warped', 'brown_shroom','red_shroom','withered','skeletal', 
+ 'silky','zombie','draconic','slimy','crimson', 'spacial', 'magmatic','sticky_resin','redstone', 'crystalline']
 
-var configurableBeeMaterialsDustsLvOutput = []
- 
-
-
+var configurableBeeMaterialsCustomLvOutput = ['minecraft:glowstone_dust', 'minecraft:blaze_powder', 'minecraft:prismarine_shard', 'minecraft:sculk',
+ 'minecraft:warped_fungus', 'minecraft:brown_mushroom', 'minecraft:red_mushroom', 'minecraft:wither_skeleton_skull', 'minecraft:bone', 'minecraft:string',
+  'minecraft:rotten_flesh', 'productivebees:draconic_dust', 'minecraft:slime_ball', 'minecraft:crimson_fungus', 'gtceu:certus_quartz_gem', 'minecraft:magma_cream', 
+  'gtceu:sticky_resin', 'minecraft:redstone','gtceu:nether_quartz_dust']
 
 var configurableBeeMaterialsLV= ['amethyst','cinnabar', 'topaz', 'pyrope','zinc','tin','sulfur','diamond', 'iron', 'ruby', 
-  'sapphire', 'opal', 'silicon', 'lapis','cobalt',   'copper', 'green_sapphire', 'coal','silver', 'emerald',  
+  'sapphire', 'opal', 'silicon', 'lapis','cobalt', 'copper', 'green_sapphire', 'coal','silver', 'emerald','apatite',  
   'malachite','lead','sodalite', 'gold']
 
-var configurableBeeMaterialsDustsMV = ['rose_quartz', 'ender', 'obsidian', 'fluix']
+var configurableBeeMaterialsCustomMV = ['rose_quartz', 'ender', 'obsidian', 'fluix']
+var configurableBeeMaterialsCustomMvOutput = ['create:rose_quartz', 'minecraft:ender_pearl', 'minecraft:obsidian', 'ae2:fluix_dust']
 
-var configurableBeeMaterialsMV= ['vanadium','chromium', 'steel', 'electrum', 'invar', 'brass', 'bronze']
-
-
+var configurableBeeMaterialsMV= ['chromium', 'steel', 'electrum', 'invar', 'brass', 'bronze']
 
 var configurableBeeMaterialsHV= ['bismuth' ]   //'netherite'
 
@@ -46,7 +45,7 @@ var configurableBeeMaterialsIV= ['platinum', 'tungsten', 'iridium', 'osmium','sa
 
 var configurableBeeMaterialsLUV= ['ruthenium', 'palladium', 'rhodium', ]
 
-var configurableBeeMaterialsZPM= ['naquadah']
+var configurableBeeMaterialsZPM= ['naquadah','vanadium']
 
 var configurableBeeMaterialsUV= ['yttrium' ]
 
@@ -75,13 +74,14 @@ ServerEvents.recipes(event => {
         .EUt(16)
     })
 
-    //'crystalline', the quartz bee
-    event.recipes.gtceu.chemical_reactor('gtceu:nether_quartz_dust')
-    .itemInputs(Item.of('productivebees:configurable_honeycomb', '{EntityTag:{type:"productivebees:crystalline"}}').strongNBT())
-    .inputFluids(Fluid.of('gtceu:hydrochloric_acid', 100))
-    .itemOutputs('gtceu:nether_quartz_dust')
-    .duration(150)
-    .EUt(16)
+    for(let i = 0; i < configurableBeeMaterialsCustomLvOutput.length; i++){
+      event.recipes.gtceu.chemical_reactor(configurableBeeMaterialsCustomLvOutput[i])
+      .itemInputs(Item.of('productivebees:configurable_honeycomb', `{EntityTag:{type:"productivebees:${configurableBeeMaterialsCustomLV[i]}"}}`).strongNBT())
+      .inputFluids(Fluid.of('gtceu:hydrochloric_acid', 100))
+      .itemOutputs(configurableBeeMaterialsCustomLvOutput[i])
+      .duration(150)
+      .EUt(16)
+    }
 
 
     configurableBeeMaterialsLV.forEach(material => {event.recipes.gtceu.chemical_reactor(`gtceu:${material}_dust`)
@@ -91,6 +91,15 @@ ServerEvents.recipes(event => {
     .duration(150)
     .EUt(16)
     })
+
+    for(let i = 0; i < configurableBeeMaterialsCustomMvOutput.length; i++){
+      event.recipes.gtceu.chemical_reactor(configurableBeeMaterialsCustomMvOutput[i])
+      .itemInputs(Item.of('productivebees:configurable_honeycomb', `{EntityTag:{type:"productivebees:${configurableBeeMaterialsCustomMV[i]}"}}`).strongNBT())
+      .inputFluids(Fluid.of('gtceu:hydrochloric_acid', 100))
+      .itemOutputs(configurableBeeMaterialsCustomMvOutput[i])
+      .duration(150)
+      .EUt(16)
+    }
 
     configurableBeeMaterialsMV.forEach(material => {event.recipes.gtceu.chemical_reactor(`gtceu:${material}_dust`)
     .itemInputs(Item.of('productivebees:configurable_honeycomb', `{EntityTag:{type:"productivebees:${material}"}}`).strongNBT())
