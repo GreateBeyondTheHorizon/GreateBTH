@@ -47,4 +47,20 @@ JEIEvents.hideItems(event => {
 	event.hide(/ad_astra:(.*)_plate/)
 	event.hide("ad_astra:steel_ingot")
 	event.hide("ad_astra:steel_block")
+
+	// EnderIO
+	// Remove power-related blocks
+	event.hide('enderio:stirling_generator')
+	event.hide('enderio:soul_engine')
+	event.hide('enderio:energetic_photovoltaic_module')
+	event.hide('enderio:pulsating_photovoltaic_module')
+	event.hide('enderio:vibrant_photovoltaic_module')
+	event.hide('enderio:wired_charger')
+	// Remove machines that have a gt/create counterpart
+	event.hide('enderio:primitive_alloy_smelter')
+	event.hide('enderio:alloy_smelter')
+	event.hide('enderio:sag_mill')
+	event.hide('enderio:fluid_tank')
+	event.hide('enderio:pressurized_fluid_tank')
+	event.hide('enderio:drain')
 })
