@@ -18,6 +18,7 @@
 !/mods
 /mods/.index
 /mods/*.jar
+!/mods/gbthcore*
 
 # md
 !README.md
