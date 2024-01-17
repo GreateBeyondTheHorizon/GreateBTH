@@ -353,10 +353,6 @@ file = "mods/spice-of-life-carrot-edition.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/storage-drawers.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/terralith.pw.toml"
 metafile = true
 
