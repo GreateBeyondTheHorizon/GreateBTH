@@ -193,10 +193,6 @@ file = "mods/inventory-hud-forge.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/iron-chests.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/item-filters.pw.toml"
 metafile = true
 
