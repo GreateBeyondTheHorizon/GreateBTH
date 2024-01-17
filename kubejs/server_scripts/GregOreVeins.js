@@ -162,7 +162,6 @@ GTCEuServerEvents.oreVeins(event => {
 					.surfaceRock(indicatorMaterial)
 					.placement(indicatorPlacement)
 			)
-			console.error(vein.layer)
 		})
 	}
 
