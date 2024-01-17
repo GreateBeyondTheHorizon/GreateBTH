@@ -21,6 +21,10 @@ file = "mods/applied-energistics-2.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/aquaculture.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/architectury-api.pw.toml"
 metafile = true
 
