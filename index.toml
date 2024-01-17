@@ -325,6 +325,10 @@ file = "mods/rhino.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/rubidium-extra.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/searchables.pw.toml"
 metafile = true
 
