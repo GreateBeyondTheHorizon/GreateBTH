@@ -53,7 +53,15 @@ file = "mods/botarium.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/bucketlib.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/cc-tweaked.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/ceramic-bucket.pw.toml"
 metafile = true
 
 [[files]]
