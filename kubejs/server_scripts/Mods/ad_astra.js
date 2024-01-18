@@ -5,7 +5,14 @@ ServerEvents.recipes( event => {
 	event.remove({ output: /ad_astra:(.*)_plate/ })
 	event.remove({ output: 'ad_astra:steel_ingot' })
 	event.remove({ output: 'ad_astra:steel_block' })
-	
+	event.remove({ output:'ad_astra:steel_rod'})
+	event.remove({ input:'ad_astra:steel_ingot'})
+	event.remove({output:'ad_astra:compressor' })
+	event.remove({output:'ad_astra:iron_rod' })
+
+
+
+
 	//stainless steel
 	event.shaped(
 	Item.of('kubejs:stainless_steel_engine', 1),
@@ -156,5 +163,36 @@ ServerEvents.recipes( event => {
 		{
 			A:'gtceu:trinium_double_plate'
 		}
+	)
+
+	event.replaceInput(
+		{ input: 'ad_astra:steel_rod' }, // Arg 1: the filter
+		'ad_astra:steel_rod',            // Arg 2: the item to replace
+		'gtceu:steel_rod'         // Arg 3: the item to replace it with
+		// Note: tagged fluid ingredients do not work on Fabric, but tagged items do.
+	)
+	event.replaceInput(
+		{ input: 'ad_astra:steel_plate' }, // Arg 1: the filter
+		'ad_astra:steel_plate',            // Arg 2: the item to replace
+		'gtceu:steel_plate'         // Arg 3: the item to replace it with
+		// Note: tagged fluid ingredients do not work on Fabric, but tagged items do.
+	)
+	event.replaceInput(
+		{ input: 'ad_astra:steel_ingot' }, // Arg 1: the filter
+		'ad_astra:steel_ingot',            // Arg 2: the item to replace
+		'gtceu:steel_ingot'         // Arg 3: the item to replace it with
+		// Note: tagged fluid ingredients do not work on Fabric, but tagged items do.
+	)
+	event.replaceInput(
+		{ input: 'ad_astra:iron_rod' }, // Arg 1: the filter
+		'ad_astra:iron_rod',            // Arg 2: the item to replace
+		'gtceu:iron_rod'         // Arg 3: the item to replace it with
+		// Note: tagged fluid ingredients do not work on Fabric, but tagged items do.
+	)
+	event.replaceInput(
+		{ input: 'ad_astra:iron_plate' }, // Arg 1: the filter
+		'ad_astra:iron_plate',            // Arg 2: the item to replace
+		'gtceu:iron_plate'         // Arg 3: the item to replace it with
+		// Note: tagged fluid ingredients do not work on Fabric, but tagged items do.
 	)
 })
