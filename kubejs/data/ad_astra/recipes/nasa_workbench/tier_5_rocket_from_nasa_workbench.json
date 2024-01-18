@@ -1,0 +1,51 @@
+{
+  "type": "ad_astra:nasa_workbench",
+  "ingredients": [
+    {
+      "item": "ad_astra:rocket_nose_cone"
+    },
+    {
+      "tag": "gtceu:stainless_steel_block"
+    },
+    {
+      "tag": "gtceu:stainless_steel_block"
+    },
+    {
+      "tag": "gtceu:stainless_steel_block"
+    },
+    {
+      "tag": "gtceu:stainless_steel_block"
+    },
+    {
+      "tag": "gtceu:stainless_steel_block"
+    },
+    {
+      "tag": "gtceu:stainless_steel_block"
+    },
+    {
+      "item": "kubejs:stainless_steel_fin"
+    },
+    {
+      "item": "ad_astra:steel_tank"
+    },
+    {
+      "item": "ad_astra:steel_tank"
+    },
+    {
+      "item": "kubejs:stainless_steel_fin"
+    },
+    {
+      "item": "kubejs:stainless_steel_fin"
+    },
+    {
+      "item": "kubejs:stainless_steel_engine"
+    },
+    {
+      "item": "kubejs:stainless_steel_fin"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "ad_astra:tier_5_rocket"
+  }
+}
