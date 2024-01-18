@@ -47,6 +47,9 @@ JEIEvents.hideItems(event => {
 	event.hide(/ad_astra:(.*)_plate/)
 	event.hide("ad_astra:steel_ingot")
 	event.hide("ad_astra:steel_block")
+	event.hide("ad_astra:steel_rod")
+	event.hide("ad_astra:compressor")
+	event.hide("ad_astra:iron_rod")
 
 	// EnderIO
 	// Remove power-related blocks
