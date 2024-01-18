@@ -1,0 +1,18 @@
+{
+    "type": "productivebees:bee_conversion",
+    "source": "productivebees:tungsten",
+    "result": "productivebees:naquadah",
+    "item": {
+      "item": "gtceu:naquadah_block"
+    },
+    "conditions": [
+      {
+        "type": "productivebees:bee_exists",
+        "bee": "productivebees:tungsten"
+      },
+      {
+        "type": "productivebees:bee_exists",
+        "bee": "productivebees:naquadah"
+      }
+    ]
+  }

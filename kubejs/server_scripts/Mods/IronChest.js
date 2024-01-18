@@ -1,4 +1,6 @@
 //priority: 0
+
+/*
 	var screws = ['gtceu:copper_screw', 'gtceu:iron_screw', 'gtceu:gold_screw', 'gtceu:diamond_screw', 'gtceu:diamond_screw']
 	var plates = ['gtceu:copper_double_plate', 'gtceu:iron_double_plate', 'gtceu:gold_double_plate', 'kubejs:double_diamond_plate', 'kubejs:double_obsidian_plate']
 	var chests = ['minecraft:chest', 'ironchest:copper_chest', 'ironchest:iron_chest', 'ironchest:gold_chest', 'ironchest:diamond_chest', 'ironchest:obsidian_chest']
@@ -44,3 +46,5 @@ ServerEvents.recipes(event => {
 	}
 	)
 })
+
+*/

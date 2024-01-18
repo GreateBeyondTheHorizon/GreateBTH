@@ -1,0 +1,23 @@
+{
+    "type": "productivebees:advanced_beehive",
+    "ingredient": "productivebees:yttrium",
+    "results": [
+        {
+            "item": {
+                "type": "forge:nbt",
+                "item": "productivebees:configurable_honeycomb",
+                "nbt": {
+                    "EntityTag": {
+                        "type": "productivebees:yttrium"
+                    }
+                }
+            }
+        }
+    ],
+    "conditions": [
+        {
+            "type": "productivebees:bee_exists",
+            "bee": "productivebees:yttrium"
+        }
+    ]
+}

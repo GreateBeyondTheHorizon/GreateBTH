@@ -1,0 +1,14 @@
+{
+  "type": "productivebees:bee_conversion",
+  "source": "productivebees:yttrium",
+  "result": "productivebees:vanadium",
+  "item": {
+      "item": "gtceu:nan_certificate"
+  },
+  "conditions": [
+      {
+          "type": "productivebees:bee_exists",
+          "bee": "productivebees:vanadium"
+      }
+  ]
+}

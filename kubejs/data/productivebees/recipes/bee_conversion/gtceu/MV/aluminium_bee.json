@@ -1,0 +1,18 @@
+{
+  "type": "productivebees:bee_conversion",
+  "source": "productivebees:steel",
+  "result": "productivebees:aluminium",
+  "item": {
+    "item": "gtceu:aluminium_block"
+  },
+  "conditions": [
+    {
+      "type": "productivebees:bee_exists",
+      "bee": "productivebees:aluminium"
+    },
+    {
+      "type": "productivebees:bee_exists",
+      "bee": "productivebees:steel"
+    }
+  ]
+}
