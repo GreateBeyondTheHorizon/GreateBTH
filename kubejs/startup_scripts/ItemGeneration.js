@@ -112,4 +112,10 @@ StartupEvents.registry('item', event => {
 	//compass
 	event.create('empty_compass').displayName('Empty Compass')
 
+	//befood
+	event.create('advanced_honey_treat').displayName('Advanced Honey Treat')
+
+	event.create('titanium_bee_food').displayName('Titanium Bee Food')
+
+
 })
