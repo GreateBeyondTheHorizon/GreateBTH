@@ -1,3 +1,9 @@
 {
-    "block.gtceu.ore_proc": "Ore Processing"
+    "block.gtceu.ore_proc": "Ore Processing",
+
+    "tagprefix.moon_stone": "Moon %s Ore",
+    "tagprefix.mars_stone": "Mars %s Ore",
+    "tagprefix.mercury_stone": "Mercury %s Ore",
+    "tagprefix.venus_stone": "Venus %s Ore",
+    "tagprefix.glacio_stone": "Glacio %s Ore"
 }
