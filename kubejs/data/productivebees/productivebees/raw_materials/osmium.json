@@ -1,0 +1,11 @@
+{
+    "primaryColor": "#43607A",
+    "particleColor": "#B0BEC9",
+    "flowerItem": "gtceu:osmium_block",
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "gtceu"
+      }
+    ]
+  }

@@ -1,0 +1,12 @@
+{
+    "primaryColor": "#BC3B79",
+    "particleColor": "#E7B1CB",
+    "flowerItem": "gtceu:rhodium_block",
+    "selfbreed": false,
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "gtceu"
+      }
+    ]
+  }

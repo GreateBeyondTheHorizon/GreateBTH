@@ -1,0 +1,18 @@
+{
+  "type": "productivebees:bee_conversion",
+  "source": "productivebees:stainless_steel",
+  "result": "productivebees:titanium",
+  "item": {
+    "item": "kubejs:titanium_bee_food"
+  },
+  "conditions": [
+    {
+      "type": "productivebees:bee_exists",
+      "bee": "productivebees:titanium"
+    },
+    {
+      "type": "productivebees:bee_exists",
+      "bee": "productivebees:stainless_steel"
+    }
+  ]
+}

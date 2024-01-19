@@ -1,0 +1,12 @@
+{
+    "primaryColor": "#70656C",
+    "particleColor": "#73686F",
+    "flowerItem": "gtceu:neodymium_block",
+    "selfbreed": false,
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "gtceu"
+    }
+    ]
+  }
