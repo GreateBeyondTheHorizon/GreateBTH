@@ -5,5 +5,13 @@
     "tagprefix.mars_stone": "Mars %s Ore",
     "tagprefix.mercury_stone": "Mercury %s Ore",
     "tagprefix.venus_stone": "Venus %s Ore",
-    "tagprefix.glacio_stone": "Glacio %s Ore"
+    "tagprefix.glacio_stone": "Glacio %s Ore",
+
+    "entity.productivebees.aluminium_bee": "Aluminium Bee",
+    "entity.productivebees.stainless_steel_bee": "Stainless Steel Bee",
+    "entity.productivebees.tungsten_steel_bee": "Tungsten Steel Bee",
+    "entity.productivebees.naquadah_bee": "Naquadah Bee",
+    "entity.productivebees.naquadah_alloy_bee": "Naquadah Alloy Bee"
+
+
 }

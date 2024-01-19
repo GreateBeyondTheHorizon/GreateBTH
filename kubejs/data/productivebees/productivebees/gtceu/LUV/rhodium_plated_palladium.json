@@ -1,0 +1,13 @@
+{
+  "primaryColor": "#8F8F8F",
+  "particleColor": "#c9c7c2",
+  "size": 1.0,
+  "flowerItem": "gtceu:rhodium_plated_palladium_block",
+  "selfbreed": false,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "gtceu"
+    }
+  ]
+}

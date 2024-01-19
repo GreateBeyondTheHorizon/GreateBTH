@@ -1,0 +1,12 @@
+{
+    "primaryColor": "#D5D5D5",
+    "particleColor": "#BABABA",
+    "flowerItem": "gtceu:palladium_block",
+    "selfbreed": false,
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "gtceu"
+      }
+    ]
+  }
