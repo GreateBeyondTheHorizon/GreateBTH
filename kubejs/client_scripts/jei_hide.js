@@ -7,6 +7,12 @@ JEIEvents.hideItems(event => {
 	event.hide("constructionwand:core_angel")
 	event.hide("constructionwand:core_destruction")
 
+	//Stargate Journey
+	const sg = ['sgjourney:naquadah_rod', 'sgjourney:raw_naquadah', 'sgjourney:naquadah_alloy', 'sgjourney:naquadah', 'sgjourney:pure_naquadah','sgjourney:naquadah_sword', 'sgjourney:naquadah_pickaxe', 'sgjourney:naquadah_axe', 'sgjourney:naquadah_shovel', 'sgjourney:naquadah_hoe', 'sgjourney:naquadah_helmet', 'sgjourney:naquadah_chestplate', 'sgjourney:naquadah_leggings', 'sgjourney:naquadah_boots', 'sgjourney:jaffa_helmet', 'sgjourney:jaffa_chestplate', 'sgjourney:jaffa_leggings', 'sgjourney:jaffa_boots', 'sgjourney:matok', 'sgjourney:jackal_helmet', 'sgjourney:basic_interface', 'sgjourney:crystal_interface', 'sgjourney:advanced_crystal_interface', 'sgjourney:naquadah_liquidizer', 'sgjourney:heavy_naquadah_liquidizer', 'sgjourney:crystallizer', 'sgjourney:advanced_crystallizer', 'sgjourney:naquadah_generator_mark_i', 'sgjourney:naquadah_generator_mark_ii', 'sgjourney:liquid_naquadah_bucket', 'sgjourney:heavy_liquid_naquadah_bucket', 'sgjourney:energy_crystal']
+
+	sg.forEach(element => event.hide(element))
+
+
 	//TomSimpleStorage
 	const storage = [
 		"toms_storage:ts.inventory_proxy",
@@ -66,4 +72,10 @@ JEIEvents.hideItems(event => {
 	event.hide('enderio:fluid_tank')
 	event.hide('enderio:pressurized_fluid_tank')
 	event.hide('enderio:drain')
+
+
+
+
+
+
 })
