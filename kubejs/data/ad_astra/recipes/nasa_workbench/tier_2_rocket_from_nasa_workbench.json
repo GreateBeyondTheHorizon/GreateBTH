@@ -5,43 +5,43 @@
       "item": "ad_astra:rocket_nose_cone"
     },
     {
-      "tag": "ad_astra:desh_blocks"
+      "item": "gtceu:tungsten_steel_block"
     },
     {
-      "tag": "ad_astra:desh_blocks"
+      "item": "gtceu:tungsten_steel_block"
     },
     {
-      "tag": "ad_astra:desh_blocks"
+      "item": "gtceu:tungsten_steel_block"
     },
     {
-      "tag": "ad_astra:desh_blocks"
+      "item": "gtceu:tungsten_steel_block"
     },
     {
-      "tag": "ad_astra:desh_blocks"
+      "item": "gtceu:tungsten_steel_block"
     },
     {
-      "tag": "ad_astra:desh_blocks"
+      "item": "gtceu:tungsten_steel_block"
     },
     {
-      "item": "ad_astra:rocket_fin"
-    },
-    {
-      "item": "ad_astra:desh_tank"
+      "item": "kubejs:tungsten_steel_fin"
     },
     {
       "item": "ad_astra:desh_tank"
     },
     {
-      "item": "ad_astra:rocket_fin"
+      "item": "ad_astra:desh_tank"
     },
     {
-      "item": "ad_astra:rocket_fin"
+      "item": "kubejs:tungsten_steel_fin"
     },
     {
-      "item": "ad_astra:desh_engine"
+      "item": "kubejs:tungsten_steel_fin"
     },
     {
-      "item": "ad_astra:rocket_fin"
+      "item": "kubejs:tungsten_steel_engine"
+    },
+    {
+      "item": "kubejs:tungsten_steel_fin"
     }
   ],
   "result": {
