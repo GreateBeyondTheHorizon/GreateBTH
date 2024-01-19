@@ -1,0 +1,22 @@
+{
+  "type": "productivebees:bee_breeding",
+  "parent1": "produtivebees:diamond",
+  "parent2": "productiebees:iron",
+  "offspring": [
+    "productivebees:itanium"
+  ],
+  "conditions": [
+    {
+      "type": "productiebees:bee_exists",
+      "bee": "productivebees:diamond"
+    },
+    {
+      "type": "productivebees:bee_exists",
+      "bee": "productiebees:iron"
+    },
+    {
+      "type": "productivebees:bee_exists",
+      "bee": "productivebees:titanium"
+    }
+  ]
+}

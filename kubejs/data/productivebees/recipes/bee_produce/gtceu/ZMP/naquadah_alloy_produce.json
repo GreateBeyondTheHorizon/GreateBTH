@@ -1,0 +1,23 @@
+{
+  "type": "productivebees:advanced_beehive",
+  "ingredient": "productivebees:naquadah_alloy",
+  "results": [
+    {
+      "item": {
+        "type": "forge:nbt",
+        "item": "productivebees:configurable_honeycomb",
+        "nbt": {
+          "EntityTag": {
+            "type": "productivebees:naquadah_alloy"
+          }
+        }
+      }
+    }
+  ],
+  "conditions": [
+    {
+      "type": "productivebees:bee_exists",
+      "bee": "productivebees:naquadah_alloy"
+    }
+  ]
+}

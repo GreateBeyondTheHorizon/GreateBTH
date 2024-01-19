@@ -1,0 +1,13 @@
+{
+  "primaryColor": "#676531",
+  "particleColor": "#9F9C4C",
+  "size:": 0.9,
+  "flowerItem": "gtceu:europium_block",
+  "selfbreed": false,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "gtceu"
+    }
+  ]
+}

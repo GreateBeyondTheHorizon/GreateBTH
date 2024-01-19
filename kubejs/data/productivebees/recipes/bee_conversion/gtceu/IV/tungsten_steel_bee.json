@@ -1,0 +1,18 @@
+{
+  "type": "productivebees:bee_conversion",
+  "source": "productivebees:titanium",
+  "result": "productivebees:tungsten_steel",
+  "item": {
+    "item": "gtceu:tungsten_steel_block"
+  },
+  "conditions": [
+    {
+      "type": "productivebees:bee_exists",
+      "bee": "productivebees:tungsten_steel"
+    },
+    {
+      "type": "productivebees:bee_exists",
+      "bee": "productivebees:titanium"
+    }
+  ]
+}

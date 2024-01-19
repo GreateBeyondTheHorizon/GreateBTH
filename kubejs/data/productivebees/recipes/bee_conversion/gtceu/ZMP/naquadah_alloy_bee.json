@@ -1,0 +1,18 @@
+{
+  "type": "productivebees:bee_conversion",
+  "source": "productivebees:tungsten_steel",
+  "result": "productivebees:naquadah_alloy",
+  "item": {
+    "item": "gtceu:naquadah_alloy_block"
+  },
+  "conditions": [
+    {
+      "type": "productivebees:bee_exists",
+      "bee": "productivebees:naquadah_alloy"
+    },
+    {
+      "type": "productivebees:bee_exists",
+      "bee": "productivebees:tungsten_steel"
+    }
+  ]
+}

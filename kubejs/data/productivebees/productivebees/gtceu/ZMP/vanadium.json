@@ -1,0 +1,12 @@
+{
+    "primaryColor": "#E65100",
+    "particleColor": "#adafd5",
+    "flowerItem": "gtceu:vanadium_block",
+    "selfbreed": false,
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "gtceu"
+      }
+    ]
+  }
