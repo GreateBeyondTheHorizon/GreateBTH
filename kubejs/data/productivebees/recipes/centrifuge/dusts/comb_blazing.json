@@ -1,0 +1,12 @@
+{
+  "type": "productivebees:centrifuge",
+  "ingredient": {
+    "type": "forge:nbt",
+    "item": "productivebees:configurable_comb",
+    "nbt": {
+      "EntityTag": {
+        "type": "productivebees:blazing"
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "productivebees:bee_conversion",
+  "source": "productivebees:draconic",
+  "result": "productivebees:yttrium",
+  "item": {
+    "item": "gtceu:yttrium"
+  },
+  "conditions": [
+    {
+      "type": "productivebees:bee_exists",
+      "bee": "productivebees:yttrium"
+    }
+  ]
+}
