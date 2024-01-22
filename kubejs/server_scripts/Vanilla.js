@@ -102,14 +102,14 @@ ServerEvents.recipes(event => {
 	)
 	event.shaped('minecraft:barrel',
 		[
-			'PSP',
-			'III',
-			'PSP'
+			'PPP',
+			'IRI',
+			'PPP'
 		],
 		{
-			P: '#minecraft:planks',
-			S: '#minecraft:wooden_slabs',
-			I: '#forge:nuggets'
+			P: '#forge:plates/wood',
+			I: '#forge:rods/iron',
+			R: '#forge:frames/wood'
 		}
 	)
 
