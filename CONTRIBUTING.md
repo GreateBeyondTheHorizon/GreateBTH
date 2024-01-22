@@ -9,12 +9,16 @@
 
 2. **Suggesting Enhancements**💡: If you have a new idea for the modpack, we'd love to hear about it! Please create a new issue on our GitHub repo describing your suggestion.
 
-3. **Pull Requests**📤: If you've developed a bug fix or improvement for the modpack, please submit a pull request!
+3. **Pull Requests**📤: If you've developed a bug fix or improvement for the modpack, please submit a pull request! Before making a pull request, please ensure the modpack still works with your changes.
 
-Before making a pull request, please:
+### Setting up your local environment
+1. Clone the repository.
+2. Download the latest build of the pack from [latest-dev](https://github.com/GreateBeyondTheHorizon/GreateBTH/releases/tag/latest-dev).
+3. Import the pack into your Minecraft launcher of choice.
+4. You're now free to change files or add mods in the instance folder that was created in step 3 after importing.
+5. To commit your changes, copy your edits in the instance folder to the folder in which you cloned this repository.
 
-- Fork the repository and create your branch from `master`.
-- Ensure the modpack still works with your changes. Test it on multiple machines, if possible.
+**NOTE:** When updating your local repo from `master`, make sure your instance has the same mod versions as the repository, as mod versions might have been changed. It is often faster (and less error prone) to make a new instance from `latest-dev` than it is to check for mod version differences.
 
 ## 💬 Contact Us
 
