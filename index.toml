@@ -369,5 +369,9 @@ file = "mods/visual-workbench.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/xtones-reworked.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/yeetusexperimentus.pw.toml"
 metafile = true
