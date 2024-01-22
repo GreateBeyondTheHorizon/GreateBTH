@@ -1486,7 +1486,7 @@ hash = "2c5e19c349eba04ddf87cda67710fbed44fb8d07336275d4dbf8757c010ea7d9"
 
 [[files]]
 file = "kubejs/server_scripts/Vanilla.js"
-hash = "89eb9dd5e6e85bb952737702c9143d13a428f380254c6a2be432e087d49c8f89"
+hash = "ccc88202d67341b7f67ba293292eefe1e533dd46969129db2ec1ce622ae3c2cc"
 
 [[files]]
 file = "kubejs/startup_scripts/BlockGeneration.js"
