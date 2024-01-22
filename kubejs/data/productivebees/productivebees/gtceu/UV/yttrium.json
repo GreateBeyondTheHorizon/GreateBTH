@@ -1,0 +1,12 @@
+{
+    "primaryColor": "#858570",
+    "particleColor": "#C2C2B7",
+    "flowerItem": "gtceu:yttrium_block",
+    "selfbreed": false,
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "gtceu"
+      }
+    ]
+  }

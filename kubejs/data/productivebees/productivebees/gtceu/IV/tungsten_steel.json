@@ -1,0 +1,13 @@
+{
+  "primaryColor": "#384761",
+  "particleColor": "#4C6285",
+  "size": 1.0,
+  "flowerItem": "gtceu:tungsten_steel_block",
+  "selfbreed": false,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "gtceu"
+    }
+  ]
+}

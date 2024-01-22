@@ -2,6 +2,19 @@ GTCEuServerEvents.oreVeins(event => {
 	event.removeAll()
 
 	const passiveLayers = {
+		
+		
+		
+		moon: pattern => {
+			pattern
+				.layer(l => {
+					l
+						.weight(1)
+						.block(() => Block.getBlock('ad_astra:moon_stone'))
+						.size(2, 3)
+				})
+		},
+
 		basalt: pattern => {
 			pattern
 				.layer(l => {
@@ -147,6 +160,10 @@ GTCEuServerEvents.oreVeins(event => {
 					vein.dimensions('minecraft:the_end')
 					vein.biomes('#minecraft:is_end')
 					break
+				case 'moon':
+					vein.dimensions('ad_astra:moon')
+					vein.biomes('ad_astra:lunar_wastelands')
+					break
 				default:
 					console.error("Unknown layer type: '" + worldGenLayer + "'")
 			}
@@ -164,6 +181,13 @@ GTCEuServerEvents.oreVeins(event => {
 			)
 		})
 	}
+	//Moon
+	addVein('bauxite_vein_moon', 'moon', 25, 40, 10, 80, GTMaterials.Bauxite, 'above', passiveLayers.moon, pattern => {
+		pattern
+			.layer(l => l.weight(2).mat(GTMaterials.Bauxite).size(1, 4))
+			.layer(l => l.weight(1).mat(GTMaterials.Ilmenite).size(1, 2))
+			.layer(l => l.weight(1).mat(GTMaterials.Aluminium).size(1, 1))
+	})
 
 	// End veins
 	addVein('bauxite_vein_end', GTWorldGenLayers.ENDSTONE, 25, 40, 10, 80, GTMaterials.Bauxite, 'above', passiveLayers.endstone, pattern => {

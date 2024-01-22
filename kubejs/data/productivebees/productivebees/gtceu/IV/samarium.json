@@ -1,0 +1,12 @@
+{
+    "primaryColor": "#830E83",
+    "particleColor": "#981098",
+    "flowerItem": "gtceu:samarium_block",
+    "selfbreed": false,
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "gtceu"
+      }
+    ]
+  }
