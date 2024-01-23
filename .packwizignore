@@ -5,13 +5,13 @@
 /mods/.index
 /mods/*.jar
 
- # configs
- !/config
- /config/*
- !/config/fancymenu
- !/config/ftbquests
- !/config/emi.css
- !/config/gtceu.yaml
- !/defaultconfigs
- !/kubejs
- !/packmenu
+# configs
+!/config
+/config/*
+!/config/fancymenu
+!/config/ftbquests
+!/config/emi.css
+!/config/gtceu.yaml
+!/defaultconfigs
+!/kubejs
+!/packmenu
