@@ -5,14 +5,14 @@ recipes:
   generateLowQualityGems: true
 
   # Whether to remove Block/Ingot compression and decompression in the Crafting Table.
-  # Default: false
+  # Default: true
   disableManualCompression: true
 
   # Change the recipe of Rods in the Lathe to 1 Rod and 2 Small Piles of Dust, instead of 2 Rods.
   # Default: false
   harderRods: true
 
-  # Whether to make crafting recipes for Bricks, Firebricks, and Coke Bricks harder.
+  # Whether to make crafting recipes for Bricks, Firebricks, Nether Bricks, and Coke Bricks harder.
   # Default: false
   harderBrickRecipes: true
 
@@ -80,21 +80,30 @@ worldgen:
 
   # Should all Stone Types drop unique Ore Item Blocks?
   # Default: false (meaning only Stone, Netherrack, and Endstone)
-  allUniqueStoneTypes: false
+  allUniqueStoneTypes: true
 
   # Should Sand-like ores fall?
   # This includes gravel, sand, and red sand ores.
   # Default: false (no falling ores)
   sandOresFall: false
 
+  # Whether to increase number of rolls for dungeon chests. Increases dungeon loot drastically.
+  # Default: true
+  # WARNING: Currently unimplemented.
+  increaseDungeonLoot: true
+
+  # Allow GregTech to add additional GregTech Items as loot in various structures.
+  # Default: true
+  addLoot: true
+
   oreVeins:
     # The grid size (in chunks) for ore vein generation
     # Default: 3
-    oreVeinGridSize: 3
+    oreVeinGridSize: 6
 
     # The maximum random offset (in blocks) from the grid for generating an ore vein.
     # Default: 12
-    oreVeinRandomOffset: 12
+    oreVeinRandomOffset: 8
 
     # Prevents regular vanilla ores from being generated outside GregTech ore veins
     # Default: true
@@ -110,7 +119,7 @@ worldgen:
 
     # Make bedrock ore/fluid veins infinite?
     # Default: false
-    infiniteBedrockOresFluids: false
+    infiniteBedrockOresFluids: true
 
     # Sets the maximum number of chunks that may be cached for ore vein generation.
     # Higher values may improve world generation performance, but at the cost of more RAM usage.
@@ -132,11 +141,11 @@ machines:
 
   # Whether to require a Wrench, Wirecutter, or other GregTech tools to break machines, casings, wires, and more.
   # Default: false
-  requireGTToolsForBlocks: false
+  requireGTToolsForBlocks: true
 
   # Whether machines explode in rainy weather or when placed next to certain terrain, such as fire or lava
   # Default: false
-  doTerrainExplosion: false
+  doTerrainExplosion: true
 
   # Energy use multiplier for electric items.
   # Default: 100
@@ -181,7 +190,7 @@ machines:
 
   # Wether to add a "Bedrock Ore Miner" (also enables bedrock ore generation)
   # Default: false
-  doBedrockOres: false
+  doBedrockOres: true
 
   # What Kind of material should the bedrock ore miner output?
   # Default: "raw"
@@ -241,7 +250,7 @@ client:
 tools:
   # Random chance for electric tools to take actual damage
   # Default: 10%
-  rngDamageElectricTools: 10
+  rngDamageElectricTools: 0
 
 # Config options for Mod Compatibility
 compat:
@@ -279,6 +288,10 @@ compat:
   removeSmeltingForEBFMetals: true
 
 dev:
+  # Debug general events? (will print placed veins to server's debug.log)
+  # Default: false
+  debug: false
+
   # Debug ore vein placement? (will print placed veins to server's debug.log)
   # Default: false (no placement printout in debug.log)
   debugWorldgen: false
