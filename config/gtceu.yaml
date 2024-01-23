@@ -67,7 +67,7 @@ recipes:
 
   # Whether to remove Vanilla Block Recipes from the Crafting Table.
   # Default: false
-  removeVanillaBlockRecipes: false
+  removeVanillaBlockRecipes: true
 
   # Whether to remove Vanilla TNT Recipe from the Crafting Table.
   # Default: true

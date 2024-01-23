@@ -1,246 +1,124 @@
 //priority: 0
 ServerEvents.recipes(event => {
+	event.remove({ id: 'minecraft:bamboo_planks' })
+
 	event.remove({ output: 'minecraft:netherite_ingot' })
-	event.remove({ output: '#minecraft:planks' })
-	event.remove({ output: 'minecraft:stick' })
-	event.remove({ output: 'minecraft:chest' })
 	event.remove({
 		output: [
-			/(.*)a(.*):(.*)_hoe/,
-			/(.*)a(.*):(.*)_shovel/,
-			/(.*)a(.*):(.*)_pickaxe/,
-			/(.*)a(.*):(.*)_sword/,
-			/(.*)a(.*):(.*)_axe/,
+			/minecraft:(.*)_hoe/,
+			/minecraft:(.*)_shovel/,
+			/minecraft:(.*)_pickaxe/,
+			/minecraft:(.*)_sword/,
+			/minecraft:(.*)_axe/,
+			/minecraft:(.*)_chest_boat/,
+			/minecraft:(.*)_chest_raft/
 		],
 	})
-	event.remove({ output: 'minecraft:furnace' })
-	event.remove({ output: 'gtceu:stone_gear' })
-	event.remove({ output: 'minecraft:crafting_table' })
+	event.remove({ output: 'minecraft:chest' })
+	event.remove({ output: 'minecraft:barrel' })
 	event.remove({ output: 'minecraft:blast_furnace' })
 	event.remove({ output: 'minecraft:smoker' })
+	event.remove({ output: 'minecraft:stonecutter' })
+	event.remove({ output: 'minecraft:smithing_table' })
+	event.remove({ output: 'minecraft:loom' })
+	event.remove({ output: 'minecraft:lectern' })
+	event.remove({ output: 'minecraft:cartography_table' })
+	event.remove({ output: 'minecraft:grindstone' })
 	event.remove({ output: 'minecraft:ender_chest' })
-	event.remove({ output: 'minecraft:barrel' })
-	event.remove({ output: 'minecraft:shield' })
-	event.remove({ output: '#minecraft:boats' })
-	event.remove({ output: 'minecraft:minecart' })
-	event.remove({ output: 'minecraft:bucket' })
 
-	var planks = [
-		'minecraft:acacia_planks',
-		'minecraft:oak_planks',
-		'minecraft:birch_planks',
-		'minecraft:spruce_planks',
-		'minecraft:dark_oak_planks',
-		'minecraft:mangrove_planks',
-		'minecraft:jungle_planks',
-		'minecraft:warped_planks',
-		'minecraft:crimson_planks',
-		'gtceu:rubber_planks',
-	]
-	var boats = [
-		'minecraft:acacia_boat',
-		'minecraft:oak_boat',
-		'minecraft:birch_boat',
-		'minecraft:spruce_boat',
-		'minecraft:dark_oak_boat',
-		'minecraft:mangrove_boat',
-		'minecraft:jungle_boat',
-	]
-	var chestboats = [
-		'minecraft:acacia_chest_boat',
-		'minecraft:oak_chest_boat',
-		'minecraft:birch_chest_boat',
-		'minecraft:spruce_chest_boat',
-		'minecraft:dark_oak_chest_boat',
-		'minecraft:mangrove_chest_boat',
-		'minecraft:jungle_chest_boat',
-	]
-	var logs = [
-		'#minecraft:acacia_logs',
-		'#minecraft:oak_logs',
-		'#minecraft:birch_logs',
-		'#minecraft:spruce_logs',
-		'#minecraft:dark_oak_logs',
-		'#minecraft:mangrove_logs',
-		'#minecraft:jungle_logs',
-		'#minecraft:warped_stems',
-		'#minecraft:crimson_stems',
-		'gtceu:rubber_log',
+	var boat_types = [
+		'acacia',
+		'oak',
+		'birch',
+		'spruce',
+		'dark_oak',
+		'mangrove',
+		'jungle',
+		'cherry'
 	]
 
-	//addition
-	var i = 0
-	var j = 0
-	while (i < planks.length) {
-		event.shapeless(
-			Item.of(planks[i], 2),
-			[Item.of(logs[i], 1)]
-		)
+	// -- addition --
+	event.shaped('minecraft:bamboo_planks',
+		[
+			'L'
+		],
+		{
+			L: 'minecraft:bamboo_block'
+		}
+	)
+	event.shaped('2x minecraft:bamboo_planks',
+		[
+			'S',
+			'L'
+		],
+		{
+			S: '#forge:tools/saws',
+			L: 'minecraft:bamboo_block'
+		}
+	)
+
+	boat_types.forEach(type => {
 		event.shaped(
-			Item.of('minecraft:stick', 2),
-			[
-				'A  ',
-				'A  ',
-				'   '
-			],
-			{
-				A: planks[i]
-			}
-		)
-		event.shapeless(
-			Item.of(planks[i], 4),
-			[
-				'#forge:tools/saws',
-				logs[i]
-			]
-		).damageIngredient(Item.of('#forge:tools/saws'))
-		
-		event.shapeless(
-			Item.of('minecraft:stick', 4),
-			[
-				'#forge:tools/files',
-				planks[i]
-			]
-		).damageIngredient(Item.of('#forge:tools/files'))
-		
-		event.recipes.createCutting(
-			Item.of(planks[i], 6),
-			logs[i]
-		).processingTime(20)
-		
-		event.shapeless(
-			Item.of(planks[i], 4),
-			[
-				'#forge:tools/saws',
-				logs[i]
-			]
-		).damageIngredient(Item.of('#forge:tools/saws'))
-		i++
-	}
-	
-	while (j < boats.length) {
-		event.shaped(
-			Item.of(boats[j], 1),
-			[
-				'ABA',
-				'AAA',
-				'   '
-			],
-			{
-				A: planks[j],
-				B: '#forge:tools/saws'
-			}
-		)
-	
-		event.shaped(
-			Item.of(chestboats[j], 1),
+			Item.of('minecraft:'+type+'_chest_boat', 1),
 			[
 				' C ',
 				'BDB',
 				' A '
 			],
 			{
-				A: boats[j],
+				A: 'minecraft:'+type+'_boat',
 				B: 'gtceu:iron_screw',
 				C: '#forge:tools/screwdrivers',
 				D: 'minecraft:chest'
 			}
 		)
-		j++
-	}
-	
+	});
 	event.shaped(
-		Item.of('minecraft:chest'),
+		Item.of('minecraft:bamboo_chest_raft', 1),
 		[
-			'CBC',
+			' C ',
 			'BDB',
-			'ABA'
+			' A '
 		],
 		{
-			A: 'minecraft:flint',
-			B: 'gtceu:wood_plate',
-			C: 'gtceu:wood_gear',
-			D: 'gtceu:wood_frame'
+			A: 'minecraft:bamboo_raft',
+			B: 'gtceu:iron_screw',
+			C: '#forge:tools/screwdrivers',
+			D: 'minecraft:chest'
 		}
 	)
-	event.shaped(
-		Item.of('minecraft:furnace', 1),
+
+	event.shaped('minecraft:chest',
 		[
 			'PFP',
-			'FPF',
-			'GFG',
+			'PRP',
+			'PPP'
 		],
 		{
-			P: 'gtceu:stone_gear',
-			F: 'minecraft:cobblestone',
-			G: 'gtceu:stone_rod'
+			P: '#minecraft:planks',
+			F: 'minecraft:flint',
+			R: '#forge:frames/wood'
 		}
 	)
-	event.shapeless(
-		Item.of('gtceu:stone_rod', 2),
+	event.shaped('minecraft:barrel',
 		[
-			'2x minecraft:cobblestone'
-		]
-	)
-	event.shaped(
-		Item.of('minecraft:crafting_table'),
-		[
-			'AA ',
-			'AA ',
-			'   '
+			'PPP',
+			'IRI',
+			'PPP'
 		],
 		{
-			A: '#minecraft:logs'
-		}
-	)
-	event.shaped(
-		Item.of('minecraft:blast_furnace'),
-		[
-			'AAA',
-			'ABA',
-			'CCC'
-		],
-		{
-			A: 'gtceu:invar_plate',
-			B: 'minecraft:furnace',
-			C: 'minecraft:smooth_stone'
-		}
-	)
-	  
-	event.shaped(
-		Item.of('minecraft:smoker', 1),
-		[
-			'ABA',
-			'BCB',
-			'ABA'
-		],
-		{
-			A: '#kubejs:fireproof_wood',
-			B: 'gtceu:invar_plate',
-			C: 'minecraft:furnace'
+			P: '#forge:plates/wood',
+			I: '#forge:rods/iron',
+			R: '#forge:frames/wood'
 		}
 	)
 
-	event.shaped(
-		Item.of('minecraft:barrel'),
-		[
-			'BAB',
-			'BDB',
-			'BAB'
-		],
-		{
-			A: 'minecraft:flint',
-			B: 'gtceu:wood_plate',
-			D: 'gtceu:wood_frame'
-		}
-	)
 
-	
+
 	event.shaped('kubejs:flint_saw',
 		[
 			'AAB',
-			'CDB',
-			'   '
+			'CDB'
 		],
 		{
 			A: 'minecraft:flint',
@@ -249,42 +127,145 @@ ServerEvents.recipes(event => {
 			D: '#forge:tools/hammers'
 		}
 	)
-	
-	event.shaped(
-		Item.of('minecraft:shield'),
+
+	// For Boats
+	event.shaped('minecraft:wooden_shovel',
 		[
-			'ABA',
-			'AAA',
-			' A '
+			'W',
+			'S',
+			'S'
 		],
 		{
-			A: '#minecraft:logs',
-			B: 'gtceu:stainless_steel_double_plate'
-		}
-	)
-	
-	event.shaped(
-		Item.of('minecraft:minecart'),
-		[
-			'A A',
-			'AAA',
-			'   '
-		],
-		{
-			A: 'gtceu:steel_double_plate'
+			W: '#minecraft:planks',
+			S: 'minecraft:stick'
 		}
 	)
 
-	event.shaped(
-		Item.of('minecraft:bucket'),
+	// Minecraft's Many Crafting Stations
+	event.shaped('minecraft:blast_furnace',
 		[
-			'ABA',
-			' A ',
-			'   ',
+			'III',
+			'IFI',
+			'SSS'
 		],
 		{
-			A: 'gtceu:iron_plate',
-			B: '#forge:tools/hammers'
+			I: '#forge:plates/invar',
+			F: 'minecraft:furnace',
+			S: 'minecraft:smooth_stone'
+		}
+	)
+	event.shaped('minecraft:smoker',
+		[
+			'LPL',
+			'PFP',
+			'LPL'
+		],
+		{
+			L: '#minecraft:logs',
+			F: 'minecraft:furnace',
+			P: '#forge:plates/copper'
+		}
+	)
+	event.shaped('minecraft:stonecutter',
+		[
+			'D W',
+			'GBG',
+			'LSL'
+		],
+		{
+			D: '#forge:tools/screwdrivers',
+			W: '#forge:tools/wrenches',
+
+			G: '#forge:small_gears/iron',
+			B: 'gtceu:iron_buzz_saw_blade',
+			L: '#minecraft:logs',
+			S: 'minecraft:smooth_stone'
+		}
+	)
+	event.shaped('minecraft:smithing_table',
+		[
+			'PPP',
+			'SLS',
+			'RHR'
+		],
+		{
+			H: '#forge:tools/hammers',
+
+			P: '#forge:plates/steel',
+			S: '#forge:screws/steel',
+			R: '#forge:rods/steel',
+			L: '#minecraft:logs'
+		}
+	)
+	event.shaped('minecraft:loom',
+		[
+			'WRR',
+			'GGR',
+			'PPP'
+		],
+		{
+			W: '#forge:tools/saws',
+
+			R: '#forge:rods/long/wood',
+			G: '#forge:gears/wood',
+			P: '#forge:plates/treated_wood'
+		}
+	)
+	event.shaped('minecraft:composter',
+		[
+			'PWP',
+			'P P',
+			'PPP'
+		],
+		{
+			W: '#forge:tools/saws',
+
+			P: '#forge:plates/treated_wood'
+		}
+	)
+	event.shaped('minecraft:lectern',
+		[
+			'PPP',
+			'SBS',
+			'WOH'
+		],
+		{
+			W: '#forge:tools/saws',
+			H: '#forge:tools/hammers',
+
+			P: '#forge:plates/wood',
+			S: '#forge:screws/iron',
+			B: '#chipped:bookshelf',
+			O: '#chipped:red_wool'
+		}
+	)
+	event.shaped('minecraft:cartography_table',
+		[
+			'GRR',
+			'PLP',
+			'W N'
+		],
+		{
+			W: '#forge:tools/saws',
+			N: '#forge:tools/wrenches',
+
+			G: 'ad_astra:earth_globe',
+			R: '#forge:plates/paper',
+			P: '#forge:plates/wood',
+			L: '#minecraft:logs'
+		}
+	)
+	event.shaped('minecraft:grindstone',
+		[
+			'RSR',
+			'TST',
+			'L L'
+		],
+		{
+			R: '#forge:screws/iron',
+			S: '#chipped:smooth_stone',
+			T: '#forge:rods/wood',
+			L: '#minecraft:wooden_slabs'
 		}
 	)
 })
