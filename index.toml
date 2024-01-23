@@ -1734,7 +1734,6 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-library-forge.pw.toml"
-hash = "ba8611194b53a37c87f3531718f338b7f5275a84dc7d35730e660c9e7d5e680e"
 metafile = true
 
 [[files]]
@@ -1749,12 +1748,10 @@ metafile = true
 
 [[files]]
 file = "mods/greate.pw.toml"
-hash = "407d0fc91197ad29b778493d45745394b9fdd990b53fc342e3bed745ad36aa07"
 metafile = true
 
 [[files]]
 file = "mods/gregtechceu-modern.pw.toml"
-hash = "d1583f0aa749f93b0cdb5eb9fa350c39815ca55d3be2e9edde71309bbb9039a6"
 metafile = true
 
 [[files]]
@@ -1889,7 +1886,6 @@ metafile = true
 
 [[files]]
 file = "mods/probejs.pw.toml"
-hash = "40d3ed9c0c5e9436c0e9c26313052d5a0a782132bcaea8af185721c4b4cff080"
 metafile = true
 
 [[files]]
