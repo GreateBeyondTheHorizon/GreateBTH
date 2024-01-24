@@ -88,6 +88,23 @@ ServerEvents.recipes(event => {
 			F:'minecraft:chain'
 		}
 	)
+	
+	//Netherite
+	SophisticatedBackpacks.backpackUpgrade(
+		Item.of('sophisticatedbackpacks:netherite_backpack', 1),
+		[
+			'F F',
+			'ECE',
+			'BDB'
+		],
+		{
+			B:'#forge:ingots/netherite',
+			C:'sophisticatedbackpacks:gold_backpack',
+			D:'#forge:plates/ultimet',
+			E:'#forge:gears/titanium',
+			F:'minecraft:chain'
+		}
+	)
 
 	//UPGRADE BASE
 	event.shaped(
