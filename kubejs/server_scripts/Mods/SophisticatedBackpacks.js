@@ -32,7 +32,7 @@ ServerEvents.recipes(event => {
 			A:'minecraft:chest',
 			B:'minecraft:leather',
 			D:'gtceu:bronze_plate',
-			E:'gtceu:potin_gear',
+			E:'gtceu:bronze_gear',
 			F:'minecraft:chain'  
 		}
 	)
