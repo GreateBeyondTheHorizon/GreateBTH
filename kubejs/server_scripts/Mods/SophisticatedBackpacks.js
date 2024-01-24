@@ -1,24 +1,5 @@
 ServerEvents.recipes(event => {
-	const backpack = [
-		'sophisticatedbackpacks:backpack', 'sophisticatedbackpacks:upgrade_base', 'sophisticatedbackpacks:filter_upgrade', 'sophisticatedbackpacks:advanced_filter_upgrade',
-		'sophisticatedbackpacks:tool_swapper_upgrade', 'sophisticatedbackpacks:advanced_tool_swapper_upgrade', 'sophisticatedbackpacks:advanced_magnet_upgrade', 
-		'sophisticatedbackpacks:magnet_upgrade', 'sophisticatedbackpacks:stack_upgrade_tier_3', 'sophisticatedbackpacks:stack_upgrade_tier_1', 'sophisticatedbackpacks:restock_upgrade',
-		'sophisticatedbackpacks:advanced_restock_upgrade', 'sophisticatedbackpacks:advanced_void_upgrade', 'sophisticatedbackpacks:feeding_upgrade', 'sophisticatedbackpacks:advanced_refill_upgrade', 
-		'sophisticatedbackpacks:stack_upgrade_tier_4', 'sophisticatedbackpacks:stack_upgrade_tier_2', 'sophisticatedbackpacks:advanced_deposit_upgrade', 'sophisticatedbackpacks:deposit_upgrade', 
-		'sophisticatedbackpacks:void_upgrade', 'sophisticatedbackpacks:advanced_feeding_upgrade', 'sophisticatedbackpacks:refill_upgrade',
-		'sophisticatedbackpacks:iron_backpack', 'sophisticatedbackpacks:gold_backpack', 'sophisticatedbackpacks:advanced_pickup_upgrade', 'sophisticatedbackpacks:pickup_upgrade',
-		'sophisticatedbackpacks:diamond_backpack','sophisticatedbackpacks:inception_upgrade',
-		'sophisticatedbackpacks:everlasting_upgrade', 'sophisticatedbackpacks:auto_blasting_upgrade', 
-		'sophisticatedbackpacks:auto_smoking_upgrade', 'sophisticatedbackpacks:auto_smelting_upgrade', 
-		'sophisticatedbackpacks:crafting_upgrade', 'sophisticatedbackpacks:smoking_upgrade',
-		'sophisticatedbackpacks:stonecutter_upgrade', 'sophisticatedbackpacks:tank_upgrade',
-		'sophisticatedbackpacks:battery_upgrade', 'sophisticatedbackpacks:advanced_pump_upgrade', 
-		'sophisticatedbackpacks:xp_pump_upgrade', 'sophisticatedbackpacks:smelting_upgrade', 'sophisticatedbackpacks:advanced_compacting_upgrade',
-		'sophisticatedbackpacks:pump_upgrade', 'sophisticatedbackpacks:blasting_upgrade', 'sophisticatedbackpacks:compacting_upgrade'
-	]
-	
-	backpack.forEach((element) => event.remove({output: element}))
-	
+	event.remove({mod: 'sophisticatedbackpacks'})
 
 	var SophisticatedBackpacks = {
     	backpackUpgrade: function (resultItem, pattern, keys) {
