@@ -1,43 +1,53 @@
 //priority: 0
 ServerEvents.recipes(event => {
-	event.remove({ id: 'minecraft:bamboo_planks' })
-
-	event.remove({ output: 'minecraft:netherite_ingot' })
-	event.remove({
-		output: [
-			/minecraft:(.*)_hoe/,
-			/minecraft:(.*)_shovel/,
-			/minecraft:(.*)_pickaxe/,
-			/minecraft:(.*)_sword/,
-			/minecraft:(.*)_axe/,
-			/minecraft:(.*)_chest_boat/,
-			/minecraft:(.*)_chest_raft/
-		],
-	})
-	event.remove({ output: 'minecraft:chest' })
-	event.remove({ output: 'minecraft:barrel' })
-	event.remove({ output: 'minecraft:blast_furnace' })
-	event.remove({ output: 'minecraft:smoker' })
-	event.remove({ output: 'minecraft:stonecutter' })
-	event.remove({ output: 'minecraft:smithing_table' })
-	event.remove({ output: 'minecraft:loom' })
-	event.remove({ output: 'minecraft:lectern' })
-	event.remove({ output: 'minecraft:cartography_table' })
-	event.remove({ output: 'minecraft:grindstone' })
+	// TODO: Enable this if/when tinkers is added
+	// event.remove({
+	// 	output: [
+	// 		/(.*)a(.*):(.*)_hoe/,
+	// 		/(.*)a(.*):(.*)_shovel/,
+	// 		/(.*)a(.*):(.*)_pickaxe/,
+	// 		/(.*)a(.*):(.*)_sword/,
+	// 		/(.*)a(.*):(.*)_axe/,
+	// 	],
+	// })
+	
+	// We don't want players to be able to teleport items, so remove ender chests
 	event.remove({ output: 'minecraft:ender_chest' })
 
-	var boat_types = [
-		'acacia',
-		'oak',
-		'birch',
-		'spruce',
-		'dark_oak',
-		'mangrove',
-		'jungle',
-		'cherry'
-	]
+	// Netherite ingot
+	event.remove({ output: 'minecraft:netherite_ingot' })
+	event.recipes.createMixing('minecraft:netherite_ingot', [
+		'minecraft:netherite_scrap',
+		'minecraft:netherite_scrap',
+		'minecraft:netherite_scrap',
+		'minecraft:netherite_scrap',
+		Fluid.of('gtceu:hssg', 576)
+	]).superheated()
 
-	// -- addition --
+	// Chest boats
+	event.remove({ output: '#minecraft:chest_boats' })
+	Ingredient.of("#minecraft:boats").itemIds.forEach(boat => {
+		if (boat.endsWith('chest_boat') || boat.endsWith('chest_raft')) {
+			var boatWithoutChest = boat.replace('_chest', '')
+			event.shaped(
+				Item.of(boat, 1),
+				[
+					' C ',
+					'BDB',
+					' A '
+				],
+				{
+					A: boatWithoutChest,
+					B: 'gtceu:iron_screw',
+					C: '#forge:tools/screwdrivers',
+					D: 'minecraft:chest'
+				}
+			)
+		}
+	})
+
+	// Bamboo planks
+	event.remove({ id: 'minecraft:bamboo_planks' })
 	event.shaped('minecraft:bamboo_planks',
 		[
 			'L'
@@ -57,49 +67,24 @@ ServerEvents.recipes(event => {
 		}
 	)
 
-	boat_types.forEach(type => {
-		event.shaped(
-			Item.of('minecraft:'+type+'_chest_boat', 1),
-			[
-				' C ',
-				'BDB',
-				' A '
-			],
-			{
-				A: 'minecraft:'+type+'_boat',
-				B: 'gtceu:iron_screw',
-				C: '#forge:tools/screwdrivers',
-				D: 'minecraft:chest'
-			}
-		)
-	});
+	// Chest
+	event.remove({ output: 'minecraft:chest' })
 	event.shaped(
-		Item.of('minecraft:bamboo_chest_raft', 1),
+		Item.of('minecraft:chest'),
 		[
-			' C ',
-			'BDB',
-			' A '
+			'AAA',
+			'BCB',
+			'AAA'
 		],
 		{
-			A: 'minecraft:bamboo_raft',
-			B: 'gtceu:iron_screw',
-			C: '#forge:tools/screwdrivers',
-			D: 'minecraft:chest'
+			A: 'gtceu:wood_plate',
+			B: 'gtceu:wood_ring',
+			C: 'minecraft:flint'
 		}
 	)
 
-	event.shaped('minecraft:chest',
-		[
-			'PFP',
-			'PRP',
-			'PPP'
-		],
-		{
-			P: '#minecraft:planks',
-			F: 'minecraft:flint',
-			R: '#forge:frames/wood'
-		}
-	)
+	// Barrel
+	event.remove({ output: 'minecraft:barrel' })
 	event.shaped('minecraft:barrel',
 		[
 			'PPP',
@@ -113,8 +98,7 @@ ServerEvents.recipes(event => {
 		}
 	)
 
-
-
+	// Flint saw
 	event.shaped('kubejs:flint_saw',
 		[
 			'AAB',
@@ -128,32 +112,10 @@ ServerEvents.recipes(event => {
 		}
 	)
 
-	// For Boats
-	event.shaped('minecraft:wooden_shovel',
-		[
-			'W',
-			'S',
-			'S'
-		],
-		{
-			W: '#minecraft:planks',
-			S: 'minecraft:stick'
-		}
-	)
+	//// Crafting stations ////
 
-	// Minecraft's Many Crafting Stations
-	event.shaped('minecraft:blast_furnace',
-		[
-			'III',
-			'IFI',
-			'SSS'
-		],
-		{
-			I: '#forge:plates/invar',
-			F: 'minecraft:furnace',
-			S: 'minecraft:smooth_stone'
-		}
-	)
+	// Smoker
+	event.remove({ output: 'minecraft:smoker' })
 	event.shaped('minecraft:smoker',
 		[
 			'LPL',
@@ -166,6 +128,9 @@ ServerEvents.recipes(event => {
 			P: '#forge:plates/copper'
 		}
 	)
+
+	// Stonecutter
+	event.remove({ output: 'minecraft:stonecutter' })
 	event.shaped('minecraft:stonecutter',
 		[
 			'D W',
@@ -182,6 +147,9 @@ ServerEvents.recipes(event => {
 			S: 'minecraft:smooth_stone'
 		}
 	)
+
+	// Smithing table
+	event.remove({ output: 'minecraft:smithing_table' })
 	event.shaped('minecraft:smithing_table',
 		[
 			'PPP',
@@ -194,9 +162,12 @@ ServerEvents.recipes(event => {
 			P: '#forge:plates/steel',
 			S: '#forge:screws/steel',
 			R: '#forge:rods/steel',
-			L: '#minecraft:logs'
+			F: 'gtceu:wood_frame'
 		}
 	)
+
+	// Loom
+	event.remove({ output: 'minecraft:loom' })
 	event.shaped('minecraft:loom',
 		[
 			'WRR',
@@ -211,6 +182,9 @@ ServerEvents.recipes(event => {
 			P: '#forge:plates/treated_wood'
 		}
 	)
+
+	// Composter
+	event.remove({ output: 'minecraft:composter' })
 	event.shaped('minecraft:composter',
 		[
 			'PWP',
@@ -223,6 +197,9 @@ ServerEvents.recipes(event => {
 			P: '#forge:plates/treated_wood'
 		}
 	)
+
+	// Lecturn
+	event.remove({ output: 'minecraft:lectern' })
 	event.shaped('minecraft:lectern',
 		[
 			'PPP',
@@ -239,6 +216,9 @@ ServerEvents.recipes(event => {
 			O: '#chipped:red_wool'
 		}
 	)
+
+	// Cartography table
+	event.remove({ output: 'minecraft:cartography_table' })
 	event.shaped('minecraft:cartography_table',
 		[
 			'GRR',
@@ -255,6 +235,9 @@ ServerEvents.recipes(event => {
 			L: '#minecraft:logs'
 		}
 	)
+
+	// Grindstone
+	event.remove({ output: 'minecraft:grindstone' })
 	event.shaped('minecraft:grindstone',
 		[
 			'RSR',
