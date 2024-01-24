@@ -39,7 +39,6 @@ JEIEvents.hideItems(event => {
 		"sophisticatedbackpacks:auto_smelting_upgrade",
 		"sophisticatedbackpacks:crafting_upgrade",
 		"sophisticatedbackpacks:smoking_upgrade",
-		"sophisticatedbackpacks:stonecutter_upgrade",
 		"sophisticatedbackpacks:tank_upgrade",
 		"sophisticatedbackpacks:battery_upgrade",
 		"sophisticatedbackpacks:advanced_pump_upgrade",

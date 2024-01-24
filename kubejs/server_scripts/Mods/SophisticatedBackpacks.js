@@ -458,7 +458,48 @@ ServerEvents.recipes(event => {
 			A:'#forge:screws/iron',
 			B:'sophisticatedbackpacks:upgrade_base',
 			J:'minecraft:jukebox',
-			R:'sophisticatedbackpacks:upgrade_base'
+			R:'#forge:ingots/red_alloy'
 		}
 	)
+
+	//STONECUTTER UPGRADE
+	event.shaped(
+		Item.of('sophisticatedbackpacks:stonecutter_upgrade', 1),
+		[
+			'AJA',
+			'RBR'
+		],
+		{
+			A:'#forge:screws/iron',
+			B:'sophisticatedbackpacks:upgrade_base',
+			J:'minecraft:stonecutter',
+			R:'#gtceu:circuits/ulv'
+		}
+	)
+
+	//CHIPPED UPGRADES
+	const chipped_tables = [
+		'botanist_workbench',
+		'glassblower',
+		'carpenters_table',
+		'loom_table',
+		'mason_table',
+		'alchemy_bench',
+		'tinkering_table'
+	]
+	chipped_tables.forEach(table => {
+		event.shaped(
+			Item.of('sophisticatedbackpacks:chipped/'+table+'_upgrade', 1),
+			[
+				'AJA',
+				'RBR'
+			],
+			{
+				A:'#forge:screws/iron',
+				B:'sophisticatedbackpacks:upgrade_base',
+				J:'chipped:'+table,
+				R:'#gtceu:circuits/ulv'
+			}
+		)
+	})
 })
