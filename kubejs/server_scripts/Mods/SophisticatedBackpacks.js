@@ -51,7 +51,7 @@ ServerEvents.recipes(event => {
 			B:'minecraft:leather',
 			C:'sophisticatedbackpacks:backpack',
 			D:'gtceu:steel_plate',
-      E:'gtceu:steel_gear',
+      		E:'gtceu:steel_gear',
 			F:'minecraft:chain'
 		}
   )
@@ -69,7 +69,7 @@ ServerEvents.recipes(event => {
 			B:'gtceu:manganese_phosphide_ingot',
 			C:'sophisticatedbackpacks:iron_backpack',
 			D:'gtceu:aluminium_plate',
-      E:'gtceu:aluminium_gear',
+      		E:'gtceu:aluminium_gear',
 			F:'minecraft:chain'
 		}
 	)
@@ -104,7 +104,7 @@ ServerEvents.recipes(event => {
 			A:'minecraft:bricks',
 			B:'gtceu:iron_plate',
 			C:'gtceu:annealed_copper_plate', 
-			D:'#forge:circuits/lv'
+			D:'#gtceu:circuits/lv'
 		}
   )
 
@@ -182,7 +182,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 			A:'gtceu:iron_plate',
-			B:'#forge:circuits/lv',
+			B:'#gtceu:circuits/lv',
 			C:'sophisticatedbackpacks:upgrade_base', 
 			D:'minecraft:chest',
 			E:'minecraft:sticky_piston'
@@ -214,7 +214,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 			A:'gtceu:iron_plate',
-			B:'#forge:circuits/lv',
+			B:'#gtceu:circuits/lv',
 			C:'sophisticatedbackpacks:upgrade_base', 
 			D:'minecraft:chest',
 			E:'minecraft:piston'
@@ -313,7 +313,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 			A:'gtceu:iron_plate',
-			B:'#forge:circuits/lv',
+			B:'#gtceu:circuits/lv',
 			C:'sophisticatedbackpacks:upgrade_base', 
 			D:'gtceu:ender_pearl_dust',
 			E:'minecraft:chest'
@@ -409,7 +409,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 			A:'gtceu:iron_plate',
-			B:'#forge:circuits/lv',
+			B:'#gtceu:circuits/lv',
 			C:'sophisticatedbackpacks:upgrade_base', 
 			D:'#forge:tools/saws',
 			E:'#forge:tools/screwdrivers',
