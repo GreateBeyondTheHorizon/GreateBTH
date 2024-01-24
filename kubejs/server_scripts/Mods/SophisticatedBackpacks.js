@@ -1,6 +1,7 @@
 ServerEvents.recipes(event => {
 	event.remove({mod: 'sophisticatedbackpacks'})
 
+	// Custom backpackUpgrade Recipe
 	var SophisticatedBackpacks = {
     	backpackUpgrade: function (resultItem, pattern, keys) {
 			event.custom({
@@ -445,4 +446,19 @@ ServerEvents.recipes(event => {
 			C:'sophisticatedbackpacks:tool_swapper_upgrade', 
 		}
   	)
+
+	//JUKEBOX UPGRADE
+	event.shaped(
+		Item.of('sophisticatedbackpacks:jukebox_upgrade', 1),
+		[
+			'AJA',
+			'RBR'
+		],
+		{
+			A:'#forge:screws/iron',
+			B:'sophisticatedbackpacks:upgrade_base',
+			J:'minecraft:jukebox',
+			R:'sophisticatedbackpacks:upgrade_base'
+		}
+	)
 })
