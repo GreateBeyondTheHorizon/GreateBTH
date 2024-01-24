@@ -19,18 +19,37 @@ ServerEvents.recipes(event => {
 	
 	backpack.forEach((element) => event.remove({output: element}))
 	
+
+	var SophisticatedBackpacks = {
+    	backpackUpgrade: function (resultItem, pattern, keys) {
+			event.custom({
+				type: 'sophisticatedbackpacks:backpack_upgrade',
+				result: resultItem,
+				pattern: pattern,
+				key: SophisticatedBackpacks.toKeyList(keys)
+			})
+		},
+
+		toKeyList: function(data) {
+			const transformed = {};
+			for (const key in data) {
+			  transformed[key] = Ingredient.of(data[key]).toJson();
+			}
+			return transformed;
+		}
+	}
+
 	//DEFAULT
 	event.shaped(
 		Item.of('sophisticatedbackpacks:backpack', 1),
 		[
-			'FAF',
-			'ECE',
+			'F F',
+			'EAE',
 			'BDB'
 		],
 		{
 			A:'minecraft:chest',
 			B:'minecraft:leather',
-			C:'botania:flower_bag',
 			D:'gtceu:bronze_plate',
 			E:'gtceu:potin_gear',
 			F:'minecraft:chain'  
@@ -38,34 +57,32 @@ ServerEvents.recipes(event => {
 	)
 
 	//IRON
-	event.shaped(
+	SophisticatedBackpacks.backpackUpgrade(
 		Item.of('sophisticatedbackpacks:iron_backpack', 1),
 		[
-      'FAF',
+      		'F F',
 			'ECE',
 			'BDB'
 			
 		],
 		{
-			A:'ironchest:iron_chest',
 			B:'minecraft:leather',
 			C:'sophisticatedbackpacks:backpack',
 			D:'gtceu:steel_plate',
       		E:'gtceu:steel_gear',
 			F:'minecraft:chain'
 		}
-  )
+  	)
 
 	//Gold
-	event.shaped(
+	SophisticatedBackpacks.backpackUpgrade(
 		Item.of('sophisticatedbackpacks:gold_backpack', 1),
 		[
-      'FAF',
+  			'F F',
 			'ECE',
 			'BDB'
 		],
 		{
-			A:'ironchest:gold_chest',
 			B:'gtceu:manganese_phosphide_ingot',
 			C:'sophisticatedbackpacks:iron_backpack',
 			D:'gtceu:aluminium_plate',
@@ -75,15 +92,14 @@ ServerEvents.recipes(event => {
 	)
 	
 	//Diamond
-	event.shaped(
+	SophisticatedBackpacks.backpackUpgrade(
 		Item.of('sophisticatedbackpacks:diamond_backpack', 1),
 		[
-			'FAF',
+			'F F',
 			'ECE',
 			'BDB'
 		],
 		{
-			A:'ironchest:diamond_chest',
 			B:'gtceu:diamond_flawless_gem',
 			C:'sophisticatedbackpacks:gold_backpack',
 			D:'gtceu:polyvinyl_chloride_plate',
@@ -106,7 +122,7 @@ ServerEvents.recipes(event => {
 			C:'gtceu:annealed_copper_plate', 
 			D:'#gtceu:circuits/lv'
 		}
-  )
+  	)
 
 	//COMPACTING UPGRADE
 	event.shaped(
@@ -123,7 +139,7 @@ ServerEvents.recipes(event => {
 			D:'gtceu:aluminium_hammer',
 			E:'minecraft:piston'
 		}
-  )
+  	)
 
 	//ADVANCED COMPACTING UPGRADE
 	event.shaped(
@@ -138,7 +154,7 @@ ServerEvents.recipes(event => {
 			B:'gtceu:stainless_steel_double_plate',
 			C:'sophisticatedbackpacks:compacting_upgrade', 
 		}
-  )
+  	)
 
 	//PICKUP UPGRADE
 	event.shaped(
@@ -155,7 +171,7 @@ ServerEvents.recipes(event => {
 			D:'minecraft:sticky_piston',
 			E:'gtceu:red_alloy_ingot'
 		}
-  )
+  	)
 
 	//ADVANCED PICKUP UPGRADE
 	event.shaped(
@@ -170,7 +186,7 @@ ServerEvents.recipes(event => {
 			B:'gtceu:stainless_steel_double_plate',
 			C:'sophisticatedbackpacks:pickup_upgrade', 
 		}
-  )
+  	)
 
 	//DEPOSIT UPGRADE
 	event.shaped(
@@ -187,7 +203,7 @@ ServerEvents.recipes(event => {
 			D:'minecraft:chest',
 			E:'minecraft:sticky_piston'
 		}
-  )
+  	)
 
 	//ADVANCED PICKUP UPGRADE
 	event.shaped(
@@ -202,7 +218,7 @@ ServerEvents.recipes(event => {
 			B:'gtceu:stainless_steel_double_plate',
 			C:'sophisticatedbackpacks:deposit_upgrade', 
 		}
-  )
+  	)
 	
 	//RESTOCK UPGRADE
 	event.shaped(
@@ -219,7 +235,7 @@ ServerEvents.recipes(event => {
 			D:'minecraft:chest',
 			E:'minecraft:piston'
 		}
-  )
+  	)
 
 	//ADVANCED RESTOCK UPGRADE
 	event.shaped(
@@ -234,7 +250,7 @@ ServerEvents.recipes(event => {
 			B:'gtceu:stainless_steel_double_plate',
 			C:'sophisticatedbackpacks:restock_upgrade', 
 		}
-  )
+  	)
 	
 	//VOID UPGRADE
 	event.shaped(
@@ -251,7 +267,7 @@ ServerEvents.recipes(event => {
 			D:'gtceu:aluminium_hammer', //TRASHCAN IF ADDED
 			E:'gtceu:obsidian_plate'
 		}
-  )
+  	)
 
 	//ADVANCED VOID UPGRADE
 	event.shaped(
@@ -266,7 +282,7 @@ ServerEvents.recipes(event => {
 			B:'gtceu:stainless_steel_double_plate',
 			C:'sophisticatedbackpacks:void_upgrade', 
 		}
-  )
+  	)
 	
 	//FEEDING UPGRADE
 	event.shaped(
@@ -286,7 +302,7 @@ ServerEvents.recipes(event => {
 			G:'minecraft:golden_apple',
 			H:'minecraft:golden_carrot'
 		}
-  )
+  	)
 
 	//ADVANCED FEEDING UPGRADE
 	event.shaped(
@@ -318,7 +334,7 @@ ServerEvents.recipes(event => {
 			D:'gtceu:ender_pearl_dust',
 			E:'minecraft:chest'
 		}
-  )
+  	)
 
 	//ADVANCED REFILL UPGRADE
 	event.shaped(
@@ -350,7 +366,7 @@ ServerEvents.recipes(event => {
 			D:'gtceu:magnetic_steel_rod',
 			E:'gtceu:ender_pearl_dust'
 		}
-  )
+  	)
 
 	//ADVANCED MAGNET UPGRADE
 	event.shaped(
@@ -365,7 +381,7 @@ ServerEvents.recipes(event => {
 			B:'gtceu:stainless_steel_double_plate',
 			C:'sophisticatedbackpacks:magnet_upgrade', 
 		}
-  )
+  	)
 
 	//FILTER UPGRADE
 	event.shaped(
@@ -382,7 +398,7 @@ ServerEvents.recipes(event => {
 			D:'gtceu:item_filter',
 			E:'gtceu:red_alloy_ingot'
 		}
-  )
+ 	)
 
 	//ADVANCED FILTER UPGRADE
 	event.shaped(
@@ -415,7 +431,7 @@ ServerEvents.recipes(event => {
 			E:'#forge:tools/screwdrivers',
 			F:'#forge:tools/wire_cutters'
 		}
-  )
+  	)
 
 	//ADVANCED PICKUP UPGRADE
 	event.shaped(
@@ -430,5 +446,5 @@ ServerEvents.recipes(event => {
 			B:'gtceu:stainless_steel_double_plate',
 			C:'sophisticatedbackpacks:tool_swapper_upgrade', 
 		}
-  )
+  	)
 })
