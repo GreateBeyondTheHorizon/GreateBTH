@@ -25,14 +25,6 @@ ServerEvents.recipes(event => {
 	event.remove({ output: 'create:copper_sheet'})
 	event.remove({ output: 'create:golden_sheet'})
 	event.remove({ id: 'create:iron_sheet'})
-	
-	event.recipes.createMixing('minecraft:netherite_ingot', [
-		'minecraft:netherite_scrap',
-		'minecraft:netherite_scrap',
-		'minecraft:netherite_scrap',
-		'minecraft:netherite_scrap',
-		Fluid.of('gtceu:hssg', 576)
-	]).superheated()
 
 	event.recipes.createMixing('minecraft:turtle_helmet', [
 		'kubejs:unf_turtle_helmet',
