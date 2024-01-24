@@ -77,4 +77,19 @@ ServerEvents.recipes(event => {
 			D:'minecraft:smoker'
 		}
 	)
+
+	// Material parts
+	// Wood
+	GregUtil.extrudeRingNoIngotMaterial(event, GTMaterials.Wood, 'gtceu:wood_plate')
+	event.shaped(
+		Item.of('gtceu:wood_ring'),
+		[
+			'A ',
+			' B'
+		],
+		{
+			A: '#forge:tools/files',
+			B: 'gtceu:wood_plate'
+		}
+	)
 })
