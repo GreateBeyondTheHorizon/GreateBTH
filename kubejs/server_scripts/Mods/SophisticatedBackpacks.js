@@ -151,7 +151,7 @@ ServerEvents.recipes(event => {
 			A:'gtceu:iron_plate',
 			B:'#gtceu:circuits/mv',
 			C:'sophisticatedbackpacks:upgrade_base', 
-			D:'gtceu:aluminium_hammer',
+			D:'#forge:storage_blocks/steel',
 			E:'minecraft:piston'
 		}
   	)
@@ -223,7 +223,7 @@ ServerEvents.recipes(event => {
 			A:'gtceu:iron_plate',
 			B:'#gtceu:circuits/mv',
 			C:'sophisticatedbackpacks:upgrade_base', 
-			D:'gtceu:aluminium_hammer', //TRASHCAN IF ADDED
+			D:'#forge:gems/ender_pearl',
 			E:'gtceu:obsidian_plate'
 		}
   	)
