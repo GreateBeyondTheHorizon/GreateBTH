@@ -225,7 +225,7 @@ ServerEvents.recipes(event => {
 		{
 			P: '#forge:double_plates/titanium',
             S: '#forge:ingots/netherite',
-			G: '#forge:gears/stainless_steel'
+			G: '#forge:gears/titanium'
 		}
 	)
 
@@ -240,9 +240,9 @@ ServerEvents.recipes(event => {
 			'ABA'
 		],
 		{
-			A:'minecraft:bricks',
-			B:'gtceu:iron_plate',
-			C:'gtceu:annealed_copper_plate', 
+			A:'#forge:plates/wood',
+			B:'#forge:plates/iron',
+			C:'#forge:plates/brass', 
 			D:'#gtceu:circuits/lv'
 		}
   	)

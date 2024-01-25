@@ -132,9 +132,9 @@ ServerEvents.recipes(event => {
 			'ABA'
 		],
 		{
-			A:'minecraft:bricks',
-			B:'gtceu:iron_plate',
-			C:'gtceu:annealed_copper_plate', 
+			A:'#forge:leather',
+			B:'#forge:plates/iron',
+			C:'#forge:plates/annealed_copper',
 			D:'#gtceu:circuits/lv'
 		}
   	)
