@@ -29,11 +29,11 @@ ServerEvents.recipes(event => {
 					'ABA'
 				],
 				{
-					A:'gtceu:gold_plate',
-					B:'gtceu:stainless_steel_double_plate',
+					A:'#forge:plates/brass',
+					B:'#forge:plates/stainless_steel',
 					C:'sophisticatedbackpacks:'+id, 
 				}
-			  )
+			)
 		}
 	}
 
