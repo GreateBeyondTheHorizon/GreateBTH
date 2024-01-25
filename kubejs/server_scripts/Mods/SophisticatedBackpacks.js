@@ -233,19 +233,16 @@ ServerEvents.recipes(event => {
 	event.shaped(
 		Item.of('sophisticatedbackpacks:feeding_upgrade', 1),
 		[
-			'ADA',
+			'A A',
 			'FCE',
-			'GBH'
+			'ABA'
 		],
 		{
 			A:'gtceu:iron_plate',
 			B:'#gtceu:circuits/mv',
-			C:'sophisticatedbackpacks:upgrade_base', 
-			D:'minecraft:milk_bucket',
-			E:'@pamhc2foodcore',
-			F:'@pamhc2foodextended',
-			G:'minecraft:golden_apple',
-			H:'minecraft:golden_carrot'
+			C:'sophisticatedstorage:upgrade_base', 
+			E:'gtceu:lv_conveyor_module',
+			F:'gtceu:lv_robot_arm'
 		}
   	)
 	SophisticatedBackpacks.makeAdvanced('feeding_upgrade')
