@@ -31,7 +31,7 @@ ServerEvents.recipes(event => {
                 type: 'sophisticatedstorage:storage_tier_upgrade',
                 result: { item: 'sophisticatedstorage:'+this.basicIf(tier[0])+'to_'+tier[1]+'tier_upgrade' },
                 pattern: pattern,
-                key: this.toKeyList(keys, '#gtceu:circuits/ulv')
+                key: this.toKeyList(keys, '#forge:plates/wood')
             })
         },
 
@@ -282,42 +282,6 @@ ServerEvents.recipes(event => {
 		}
   	)
 	  SophisticatedStorage.makeAdvanced('pickup_upgrade')
-
-	//DEPOSIT UPGRADE
-	event.shaped(
-		Item.of('sophisticatedstorage:deposit_upgrade', 1),
-		[
-			'ADA',
-			'ECE',
-			'ABA'
-		],
-		{
-			A:'gtceu:iron_plate',
-			B:'#gtceu:circuits/lv',
-			C:'sophisticatedstorage:upgrade_base', 
-			D:'minecraft:chest',
-			E:'minecraft:sticky_piston'
-		}
-  	)
-	SophisticatedStorage.makeAdvanced('deposit_upgrade')
-	
-	//RESTOCK UPGRADE
-	event.shaped(
-		Item.of('sophisticatedstorage:restock_upgrade', 1),
-		[
-			'ADA',
-			'ECE',
-			'ABA'
-		],
-		{
-			A:'gtceu:iron_plate',
-			B:'#gtceu:circuits/lv',
-			C:'sophisticatedstorage:upgrade_base', 
-			D:'minecraft:chest',
-			E:'minecraft:piston'
-		}
-  	)
-	SophisticatedStorage.makeAdvanced('restock_upgrade')
 	
 	//VOID UPGRADE
 	event.shaped(
@@ -336,42 +300,6 @@ ServerEvents.recipes(event => {
 		}
   	)
 	SophisticatedStorage.makeAdvanced('void_upgrade')
-	
-	//FEEDING UPGRADE
-	event.shaped(
-		Item.of('sophisticatedstorage:feeding_upgrade', 1),
-		[
-			'A A',
-			'FCE',
-			'ABA'
-		],
-		{
-			A:'gtceu:iron_plate',
-			B:'#gtceu:circuits/mv',
-			C:'sophisticatedstorage:upgrade_base', 
-			E:'gtceu:lv_conveyor_module',
-			F:'gtceu:lv_robot_arm'
-		}
-  	)
-	SophisticatedStorage.makeAdvanced('feeding_upgrade')
-	
-	//MAGNET UPGRADE
-	event.shaped(
-		Item.of('sophisticatedstorage:magnet_upgrade', 1),
-		[
-			'ADA',
-			'ECE',
-			'ABA'
-		],
-		{
-			A:'gtceu:iron_plate',
-			B:'#gtceu:circuits/mv',
-			C:'sophisticatedstorage:upgrade_base', 
-			D:'gtceu:magnetic_steel_rod',
-			E:'gtceu:ender_pearl_dust'
-		}
-  	)
-	SophisticatedStorage.makeAdvanced('magnet_upgrade')
 
 	//FILTER UPGRADE
 	event.shaped(
