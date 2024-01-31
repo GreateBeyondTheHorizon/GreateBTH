@@ -3,11 +3,11 @@ filename = "productivebees-1.20.1-12.2.15.jar"
 side = "both"
 
 [download]
+url = "https://cdn.modrinth.com/data/jH6iiqkd/versions/diotPVTH/productivebees-1.20.1-12.2.15.jar"
 hash-format = "sha1"
 hash = "5f9ea56d7cd164cbae478a1f9dbdf945af0cd960"
-mode = "metadata:curseforge"
 
 [update]
-[update.curseforge]
-file-id = 5029855
-project-id = 377897
+[update.modrinth]
+mod-id = "jH6iiqkd"
+version = "diotPVTH"

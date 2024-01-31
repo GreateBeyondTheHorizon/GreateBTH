@@ -1,13 +1,13 @@
 name = "Searchables"
 filename = "Searchables-forge-1.20.1-1.0.2.jar"
-side = "both"
+side = "client"
 
 [download]
+url = "https://cdn.modrinth.com/data/fuuu3xnx/versions/9990I5Tc/Searchables-forge-1.20.1-1.0.2.jar"
 hash-format = "sha1"
-hash = "15548b2b50b700c0ffe2b9c4de80dfe510db208d"
-mode = "metadata:curseforge"
+hash = "02fe27031be80567c968aafeadd0d4760dbe8a44"
 
 [update]
-[update.curseforge]
-file-id = 4779110
-project-id = 858542
+[update.modrinth]
+mod-id = "fuuu3xnx"
+version = "9990I5Tc"

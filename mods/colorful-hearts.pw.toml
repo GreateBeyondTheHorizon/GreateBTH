@@ -1,13 +1,13 @@
 name = "Colorful Hearts"
 filename = "colorfulhearts-forge-1.20.1-4.0.4.jar"
-side = "both"
+side = "client"
 
 [download]
+url = "https://cdn.modrinth.com/data/wQfMUdZT/versions/LShNXb2c/colorfulhearts-forge-1.20.1-4.0.4.jar"
 hash-format = "sha1"
 hash = "04d2c691e1a4a5810f7a830b129e68185b1eec5c"
-mode = "metadata:curseforge"
 
 [update]
-[update.curseforge]
-file-id = 4811084
-project-id = 854213
+[update.modrinth]
+mod-id = "wQfMUdZT"
+version = "LShNXb2c"

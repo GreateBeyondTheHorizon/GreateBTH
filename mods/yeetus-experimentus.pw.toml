@@ -1,0 +1,13 @@
+name = "Yeetus Experimentus"
+filename = "YeetusExperimentus-Forge-2.3.0-build.4+mc1.20.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/HaaH232J/versions/LgPc1FbC/YeetusExperimentus-Forge-2.3.0-build.4%2Bmc1.20.1.jar"
+hash-format = "sha1"
+hash = "d40beae393ec07da5faf925cea380e31a7f08d39"
+
+[update]
+[update.modrinth]
+mod-id = "HaaH232J"
+version = "LgPc1FbC"

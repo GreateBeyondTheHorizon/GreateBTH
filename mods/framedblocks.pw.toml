@@ -3,11 +3,11 @@ filename = "FramedBlocks-9.1.6.jar"
 side = "both"
 
 [download]
+url = "https://cdn.modrinth.com/data/wbgfS34j/versions/sS9dmnKM/FramedBlocks-9.1.6.jar"
 hash-format = "sha1"
 hash = "9663ba7c16867cc1983ec1c1dbc237e2b54626e1"
-mode = "metadata:curseforge"
 
 [update]
-[update.curseforge]
-file-id = 4793884
-project-id = 441647
+[update.modrinth]
+mod-id = "wbgfS34j"
+version = "sS9dmnKM"

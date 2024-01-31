@@ -1166,7 +1166,11 @@ file = "mods/ad-astra.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/advanced-peripherals.pw.toml"
+file = "mods/advancedperipherals.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/ae2.pw.toml"
 metafile = true
 
 [[files]]
@@ -1178,10 +1182,6 @@ file = "mods/appleskin.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/applied-energistics-2.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/aquaculture.pw.toml"
 metafile = true
 
@@ -1190,7 +1190,7 @@ file = "mods/architectury-api.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/athena.pw.toml"
+file = "mods/athena-ctm.pw.toml"
 metafile = true
 
 [[files]]
@@ -1198,7 +1198,7 @@ file = "mods/attributefix.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/auudio-forge.pw.toml"
+file = "mods/auudio.pw.toml"
 metafile = true
 
 [[files]]
@@ -1286,6 +1286,10 @@ file = "mods/curios.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/elevatormod.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/embeddium.pw.toml"
 metafile = true
 
@@ -1294,7 +1298,7 @@ file = "mods/emi.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/ender-io.pw.toml"
+file = "mods/enderio.pw.toml"
 metafile = true
 
 [[files]]
@@ -1302,7 +1306,7 @@ file = "mods/entityculling.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/fancymenu-forge.pw.toml"
+file = "mods/fancymenu.pw.toml"
 metafile = true
 
 [[files]]
@@ -1310,15 +1314,11 @@ file = "mods/farmers-delight.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/fast-leaf-decay.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/fastsuite.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/ferritecore.pw.toml"
+file = "mods/ferrite-core.pw.toml"
 metafile = true
 
 [[files]]
@@ -1366,7 +1366,7 @@ file = "mods/item-filters.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/jade-addons.pw.toml"
+file = "mods/jade-addons-forge.pw.toml"
 metafile = true
 
 [[files]]
@@ -1402,7 +1402,15 @@ file = "mods/kubejs.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/leaves-be-gone.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/load-my-resources-forge.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/load-my-resources.pw.toml"
 metafile = true
 
 [[files]]
@@ -1439,10 +1447,6 @@ metafile = true
 
 [[files]]
 file = "mods/oculus.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/openblocks-elevator.pw.toml"
 metafile = true
 
 [[files]]
@@ -1527,6 +1531,10 @@ metafile = true
 
 [[files]]
 file = "mods/xtones-reworked.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/yeetus-experimentus.pw.toml"
 metafile = true
 
 [[files]]

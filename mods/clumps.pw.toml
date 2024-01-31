@@ -3,11 +3,11 @@ filename = "Clumps-forge-1.20.1-12.0.0.3.jar"
 side = "both"
 
 [download]
+url = "https://cdn.modrinth.com/data/Wnxd13zP/versions/yQVnODwU/Clumps-forge-1.20.1-12.0.0.3.jar"
 hash-format = "sha1"
-hash = "475f8cfb0bc678d0c5275190daa80fc272399fc5"
-mode = "metadata:curseforge"
+hash = "99fb4cf6d0339d72cec603e045d664c3909ad408"
 
 [update]
-[update.curseforge]
-file-id = 4614555
-project-id = 256717
+[update.modrinth]
+mod-id = "Wnxd13zP"
+version = "yQVnODwU"

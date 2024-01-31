@@ -3,11 +3,11 @@ filename = "Steam_Rails-1.5.3+forge-mc1.20.1.jar"
 side = "both"
 
 [download]
+url = "https://cdn.modrinth.com/data/ZzjhlDgM/versions/LLyO2sHq/Steam_Rails-1.5.3%2Bforge-mc1.20.1.jar"
 hash-format = "sha1"
 hash = "ed3611b9a6e947d93a7fdfaf4d6d037c17f5ec6e"
-mode = "metadata:curseforge"
 
 [update]
-[update.curseforge]
-file-id = 4836196
-project-id = 688231
+[update.modrinth]
+mod-id = "ZzjhlDgM"
+version = "LLyO2sHq"
