@@ -18,7 +18,7 @@ jobs:
       - run : |
           chmod +x ./packwiz
       - run: |
-          ./packwiz cf export -o GBTH.zip
+          ./packwiz mr export -o GBTH.zip
       - name: Upload Release
         uses: softprops/action-gh-release@v1
         with:
