@@ -1,6 +1,8 @@
-type = cached_variables
+type = user_variables
 
-variables {
-  changelogVisible = true
+variable {
+  name = changelogVisible
+  value = false
+  reset_on_launch = false
 }
 
