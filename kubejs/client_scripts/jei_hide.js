@@ -48,6 +48,37 @@ JEIEvents.hideItems(event => {
 	]
 	backpack.forEach(element => event.hide(element))
 
+	const storages = [
+		'sophisticatedstorage:advanced_feeding_upgrade',
+		'sophisticatedstorage:advanced_magnet_upgrade',
+		'sophisticatedstorage:auto_blasting_upgrade',
+		'sophisticatedstorage:auto_smelting_upgrade',
+		'sophisticatedstorage:auto_smoking_upgrade',
+		'sophisticatedstorage:blasting_upgrade',
+		'sophisticatedstorage:chipped/alchemy_bench_upgrade',
+		'sophisticatedstorage:chipped/botanist_workbench_upgrade',
+		'sophisticatedstorage:chipped/carpenters_table_upgrade',
+		'sophisticatedstorage:chipped/glassblower_upgrade',
+		'sophisticatedstorage:chipped/loom_table_upgrade',
+		'sophisticatedstorage:chipped/mason_table_upgrade',
+		'sophisticatedstorage:chipped/tinkering_table_upgrade',
+		'sophisticatedstorage:compression_upgrade',
+		'sophisticatedstorage:crafting_upgrade',
+		'sophisticatedstorage:feeding_upgrade',
+		'sophisticatedstorage:jukebox_upgrade',
+		'sophisticatedstorage:magnet_upgrade',
+		'sophisticatedstorage:pump_upgrade',
+		'sophisticatedstorage:smelting_upgrade',
+		'sophisticatedstorage:smoking_upgrade',
+		'sophisticatedstorage:stack_upgrade_tier_1',
+		'sophisticatedstorage:stack_upgrade_tier_2',
+		'sophisticatedstorage:stack_upgrade_tier_3',
+		'sophisticatedstorage:stack_upgrade_tier_4',
+		'sophisticatedstorage:stonecutter_upgrade',
+		'sophisticatedstorage:xp_pump_upgrade'
+	]
+	storages.forEach(element => event.hide(element))
+
 	// Ad Astra
 	event.hide(/ad_astra:(.*)_plate/)
 	event.hide("ad_astra:steel_ingot")
