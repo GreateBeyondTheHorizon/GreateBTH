@@ -1,0 +1,34 @@
+{
+  "settings": {},
+  "dependencies": [
+    "1DA36C305C53D0E8"
+  ],
+  "tasks": {
+    "2F28652D1DC6C843": {
+      "type": "heracles:item",
+      "amount": 8,
+      "item": "create:belt_connector"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "There's edible belts.",
+    "description": [
+      "<task task=\"2F28652D1DC6C843\" quest=\"0C80D4F11654672A\"/>",
+      "<hr/>",
+      "Logistic principles incarnate."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:belt_connector"
+    },
+    "groups": {
+      "ULV/ULS - Humble Beginnings..": {
+        "position": [
+          48,
+          -48
+        ]
+      }
+    }
+  }
+}

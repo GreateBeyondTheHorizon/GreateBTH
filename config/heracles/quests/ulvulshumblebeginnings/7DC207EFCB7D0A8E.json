@@ -1,0 +1,38 @@
+{
+  "settings": {},
+  "dependencies": [
+    "454B9E49684318EC"
+  ],
+  "tasks": {
+    "0ECF3A419C9882EF": {
+      "type": "heracles:item",
+      "item": "create:spout"
+    },
+    "0888DECFE1B14CF3": {
+      "type": "heracles:item",
+      "item": "create:mechanical_pump"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Controlling Liquids",
+    "description": [
+      "<task task=\"0ECF3A419C9882EF\" quest=\"7DC207EFCB7D0A8E\"/>",
+      "<task task=\"0888DECFE1B14CF3\" quest=\"7DC207EFCB7D0A8E\"/>",
+      "<hr/>",
+      "This is used to pour liquid onto things. Really useful. By the way, you cant input stuff into the spout using a container directly."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:spout"
+    },
+    "groups": {
+      "ULV/ULS - Humble Beginnings..": {
+        "position": [
+          80,
+          80
+        ]
+      }
+    }
+  }
+}

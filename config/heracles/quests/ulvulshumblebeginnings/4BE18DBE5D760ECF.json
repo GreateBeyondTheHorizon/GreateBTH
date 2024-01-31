@@ -1,0 +1,35 @@
+{
+  "settings": {},
+  "dependencies": [
+    "02357592E8EADB70",
+    "16C18DBBDBE10F36"
+  ],
+  "tasks": {
+    "3B343C6880CD67F2": {
+      "type": "heracles:item",
+      "amount": 16,
+      "item": "gtceu:bronze_ingot"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "The first main GregTech material.",
+    "description": [
+      "<task task=\"3B343C6880CD67F2\" quest=\"4BE18DBE5D760ECF\"/>",
+      "<hr/>",
+      "You need to blast the dust you made via the fan."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:bronze_ingot"
+    },
+    "groups": {
+      "ULV/ULS - Humble Beginnings..": {
+        "position": [
+          0,
+          -144
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3AC275D73C13A188"
+  ],
+  "tasks": {
+    "7C56BB277B8BBF3B": {
+      "type": "heracles:item",
+      "amount": 16,
+      "item": "gtceu:bronze_dust"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Mix! That! Dust!",
+    "description": [
+      "<task task=\"7C56BB277B8BBF3B\" quest=\"16C18DBBDBE10F36\"/>",
+      "<hr/>",
+      "Add copper and tin dusts together in a crafting table to make bronze dust. It's that simple."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:bronze_dust"
+    },
+    "groups": {
+      "ULV/ULS - Humble Beginnings..": {
+        "position": [
+          -48,
+          -176
+        ]
+      }
+    }
+  }
+}

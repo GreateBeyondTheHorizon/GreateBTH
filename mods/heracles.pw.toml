@@ -1,0 +1,13 @@
+name = "Heracles"
+filename = "heracles-forge-1.20.1-1.1.8.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/lo90fZoB/versions/CcJk2Nz6/heracles-forge-1.20.1-1.1.8.jar"
+hash-format = "sha1"
+hash = "9a6f525b5849fe0924f364dee5e1d7d3bd1990a4"
+
+[update]
+[update.modrinth]
+mod-id = "lo90fZoB"
+version = "CcJk2Nz6"

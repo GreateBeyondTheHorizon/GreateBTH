@@ -1,0 +1,56 @@
+{
+  "settings": {},
+  "dependencies": [
+    "0D9DE4E42D6778A9"
+  ],
+  "tasks": {
+    "3C55135313E355D8": {
+      "type": "heracles:item",
+      "amount": 4,
+      "item": "create:polished_rose_quartz"
+    },
+    "3D12BF8F2C59D052": {
+      "type": "heracles:item",
+      "item": "minecraft:quartz"
+    },
+    "2E5A3536DCC520CF": {
+      "type": "heracles:item",
+      "amount": 8,
+      "item": "minecraft:redstone"
+    },
+    "2E14AE6CA11471FF": {
+      "title": "Any #create:sandpaper",
+      "type": "heracles:item",
+      "item": "#create:sandpaper"
+    },
+    "0034C88F9C227326": {
+      "type": "heracles:item",
+      "item": "create:rose_quartz"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Polished Rose Quartz",
+    "description": [
+      "<task task=\"3C55135313E355D8\" quest=\"6BEE2F1701C8B70D\"/>",
+      "<task task=\"3D12BF8F2C59D052\" quest=\"6BEE2F1701C8B70D\"/>",
+      "<task task=\"2E5A3536DCC520CF\" quest=\"6BEE2F1701C8B70D\"/>",
+      "<task task=\"2E14AE6CA11471FF\" quest=\"6BEE2F1701C8B70D\"/>",
+      "<task task=\"0034C88F9C227326\" quest=\"6BEE2F1701C8B70D\"/>",
+      "<hr/>",
+      "To polish the rose quartz, put it in either hand and put sandpaper in the other"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:polished_rose_quartz"
+    },
+    "groups": {
+      "ULV/ULS - Humble Beginnings..": {
+        "position": [
+          -176,
+          80
+        ]
+      }
+    }
+  }
+}

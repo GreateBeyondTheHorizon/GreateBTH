@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "550030C3F6D1D54D"
+  ],
+  "tasks": {
+    "Fine Copper Wire": {
+      "type": "heracles:item",
+      "item": "gtceu:fine_copper_wire",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"0F14CC63AE235AE2\" quest=\"38F97005C70B390D\"/>",
+      "<hr/>",
+      "Finer than the average wire! What's their number if i may ask?"
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings..": {
+        "position": [
+          -16,
+          16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:fine_copper_wire",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Fine Copper Wire"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

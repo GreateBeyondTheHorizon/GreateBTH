@@ -1,0 +1,34 @@
+{
+  "settings": {},
+  "dependencies": [
+    "38AAFF2BEAEEB6CE"
+  ],
+  "tasks": {
+    "380B71A64491B178": {
+      "type": "heracles:item",
+      "amount": 7,
+      "item": "gtceu:brass_ingot"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "The Brass Age",
+    "description": [
+      "<task task=\"380B71A64491B178\" quest=\"389976279B71DCD8\"/>",
+      "<hr/>",
+      "The brass age. Made from zinc and copper into one, giving you access to some new tools. These will be great from your progress, unless you jump into one of them."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:brass_ingot"
+    },
+    "groups": {
+      "ULV/ULS - Humble Beginnings..": {
+        "position": [
+          144,
+          -192
+        ]
+      }
+    }
+  }
+}

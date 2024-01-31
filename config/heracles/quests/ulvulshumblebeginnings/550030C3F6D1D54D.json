@@ -1,0 +1,63 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5E9B34A22427F87B"
+  ],
+  "tasks": {
+    "367E87F58A5B6E4F": {
+      "type": "heracles:item",
+      "item": "gtceu:iron_wrench"
+    },
+    "58C2A01DB206AC8F": {
+      "type": "heracles:item",
+      "item": "gtceu:iron_hammer"
+    },
+    "4F40C57A5EA0C4F7": {
+      "type": "heracles:item",
+      "item": "gtceu:iron_file"
+    },
+    "6C335F58C719C53D": {
+      "type": "heracles:item",
+      "item": "gtceu:iron_saw"
+    },
+    "15E08123C52E3EEE": {
+      "type": "heracles:item",
+      "item": "gtceu:iron_screwdriver"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "GregTech Tools & You",
+    "description": [
+      "<task task=\"367E87F58A5B6E4F\" quest=\"550030C3F6D1D54D\"/>",
+      "<task task=\"58C2A01DB206AC8F\" quest=\"550030C3F6D1D54D\"/>",
+      "<task task=\"4F40C57A5EA0C4F7\" quest=\"550030C3F6D1D54D\"/>",
+      "<task task=\"6C335F58C719C53D\" quest=\"550030C3F6D1D54D\"/>",
+      "<task task=\"15E08123C52E3EEE\" quest=\"550030C3F6D1D54D\"/>",
+      "<hr/>",
+      "These tools will be your best friends until you can get some machines to do the heavy lifting for you. Most of these tools have many uses in crafting. They use durability when used, so get familiar with these recipes! In the future you'll be able to make longer lasting tools by using stronger materials like wrought iron and steel.",
+      "<br/>",
+      "Wrench: Breaks machine blocks.",
+      "<br/>",
+      "Hammer: Muffles machines. Can craft ingots into plates.",
+      "<br/>",
+      "File:",
+      "<br/>",
+      "Saw: Can craft logs into planks with a 1:4 ratio.",
+      "<br/>",
+      "Screwdriver: Configures machines."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:red_toolbox"
+    },
+    "groups": {
+      "ULV/ULS - Humble Beginnings..": {
+        "position": [
+          -80,
+          -256
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "dependencies": [
+    "5BBE7DCE67C99A3D"
+  ],
+  "tasks": {
+    "0BA366648050021A": {
+      "type": "heracles:item",
+      "item": "#gbth:steam_forge_hammers",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "gtceu:lp_steam_forge_hammer"
+          },
+          {
+            "Count": 1,
+            "id": "gtceu:hp_steam_forge_hammer"
+          }
+        ]
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"0BA366648050021A\" quest=\"00DAF42D60192A91\"/>",
+      "<hr/>",
+      "You'll appreciate this machine alot. It can make plates much cheaper than hammers."
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings..": {
+        "position": [
+          -192,
+          -144
+        ]
+      }
+    },
+    "icon": {
+      "item": "#gbth:steam_forge_hammers",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Steam Forge Hammer"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

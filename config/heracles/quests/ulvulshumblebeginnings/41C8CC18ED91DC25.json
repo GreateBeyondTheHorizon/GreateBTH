@@ -1,0 +1,67 @@
+{
+  "dependencies": [
+    "732951F918E5D036"
+  ],
+  "tasks": {
+    "0A58E7E68CA45387": {
+      "type": "heracles:item",
+      "item": "itemfilters:or",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "gtceu:lp_steam_compressor"
+          },
+          {
+            "Count": 1,
+            "id": "gtceu:hp_steam_compressor"
+          }
+        ]
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"0A58E7E68CA45387\" quest=\"41C8CC18ED91DC25\"/>",
+      "<hr/>",
+      "No silly, you cant just craft 9 ingots together to make a solid block of iron with your bare hands. You need to use a compressor for that."
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings..": {
+        "position": [
+          -112,
+          -16
+        ]
+      }
+    },
+    "icon": {
+      "item": "#gbth:steam_compressors",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Steam Compressor"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}
