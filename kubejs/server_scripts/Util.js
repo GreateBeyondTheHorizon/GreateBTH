@@ -10,6 +10,6 @@ var Util = {
 
     // E.g. 'gtceu:wood_plate' -> 'wood_plate'
 	removeNamespace: function (location) {
-		return keepAfter(location, ':')
+		return Util.keepAfter(location, ':')
 	}
 }
