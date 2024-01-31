@@ -1,0 +1,33 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7F6BF6CED379C510",
+    "4BE18DBE5D760ECF"
+  ],
+  "tasks": {
+    "06B87BEEA5EACC70": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Generating Stress",
+    "description": [
+      "<task task=\"06B87BEEA5EACC70\" quest=\"454B9E49684318EC\"/>",
+      "<hr/>",
+      "This quest unlocks the \"Stress Units and How to Generate Them\" questline, which details the types of stress generators and how to utilise them efficiently."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:green_wool"
+    },
+    "groups": {
+      "ULV/ULS - Humble Beginnings..": {
+        "position": [
+          80,
+          -144
+        ]
+      }
+    }
+  }
+}

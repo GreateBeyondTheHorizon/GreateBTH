@@ -1,0 +1,73 @@
+{
+  "dependencies": [
+    "7F6BF6CED379C510"
+  ],
+  "tasks": {
+    "0BB6686F580E54C1": {
+      "type": "heracles:item",
+      "item": "greate:andesite_mechanical_mixer",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "7AF9093731AE452A": {
+      "type": "heracles:item",
+      "item": "create:basin",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"0BB6686F580E54C1\" quest=\"38AAFF2BEAEEB6CE\"/>",
+      "<task task=\"7AF9093731AE452A\" quest=\"38AAFF2BEAEEB6CE\"/>",
+      "<hr/>",
+      "The mixer requires a basin two blocks below it. It is a great thing for brass making. It also has other uses, but we will get there when we will get  there..."
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings..": {
+        "position": [
+          112,
+          -224
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "greate:andesite_mechanical_mixer",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Whisky Business"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

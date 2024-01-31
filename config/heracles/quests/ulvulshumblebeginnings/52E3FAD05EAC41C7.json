@@ -1,0 +1,36 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6BEE2F1701C8B70D",
+    "32D671F65C901C11",
+    "42041ED4444332C5"
+  ],
+  "tasks": {
+    "2F61603627D4479A": {
+      "type": "heracles:item",
+      "amount": 2,
+      "item": "create:electron_tube"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Electron tubes",
+    "description": [
+      "<task task=\"2F61603627D4479A\" quest=\"52E3FAD05EAC41C7\"/>",
+      "<hr/>",
+      "Another circuit subcomponent."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:electron_tube"
+    },
+    "groups": {
+      "ULV/ULS - Humble Beginnings..": {
+        "position": [
+          -144,
+          128
+        ]
+      }
+    }
+  }
+}

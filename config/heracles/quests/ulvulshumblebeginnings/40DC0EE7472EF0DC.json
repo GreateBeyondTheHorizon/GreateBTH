@@ -1,0 +1,103 @@
+{
+  "dependencies": [
+    "7013B83A848D32F0"
+  ],
+  "tasks": {
+    "0A37FB836B4045EF": {
+      "type": "heracles:item",
+      "item": "gtceu:primitive_pump",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "736B5A05A9CBAC31": {
+      "type": "heracles:item",
+      "item": "gtceu:pump_hatch",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "1EBFA2339B244717": {
+      "type": "heracles:item",
+      "item": "gtceu:treated_wood_frame",
+      "amount": 10,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "6BD66C048BEFA95C": {
+      "type": "heracles:item",
+      "item": "gtceu:pump_deck",
+      "amount": 10,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"0A37FB836B4045EF\" quest=\"40DC0EE7472EF0DC\"/>",
+      "<task task=\"736B5A05A9CBAC31\" quest=\"40DC0EE7472EF0DC\"/>",
+      "<task task=\"6BD66C048BEFA95C\" quest=\"40DC0EE7472EF0DC\"/>",
+      "<task task=\"1EBFA2339B244717\" quest=\"40DC0EE7472EF0DC\"/>",
+      "<hr/>",
+      "Water in this world is finite. This can mitigate this problem."
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings..": {
+        "position": [
+          -112,
+          -176
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:primitive_pump",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Pump It Up!"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

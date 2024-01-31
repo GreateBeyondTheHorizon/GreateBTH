@@ -1,0 +1,73 @@
+{
+  "dependencies": [
+    "732951F918E5D036"
+  ],
+  "tasks": {
+    "7CF1981E9B88A306": {
+      "type": "heracles:item",
+      "item": "gtceu:glass_tube",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "38627AE4494BDDF1": {
+      "type": "heracles:item",
+      "item": "gtceu:ball_casting_mold",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"7CF1981E9B88A306\" quest=\"32D671F65C901C11\"/>",
+      "<task task=\"38627AE4494BDDF1\" quest=\"32D671F65C901C11\"/>",
+      "<hr/>",
+      "Hehe, Glass &&oballs"
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings..": {
+        "position": [
+          -144,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:glass_tube",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Glass Tube"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

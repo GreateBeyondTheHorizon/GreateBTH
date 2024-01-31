@@ -1,0 +1,34 @@
+{
+  "settings": {},
+  "dependencies": [
+    "389976279B71DCD8"
+  ],
+  "tasks": {
+    "7832120911FCB2B1": {
+      "type": "heracles:item",
+      "amount": 21,
+      "item": "create:mechanical_crafter"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Mechanical Crafting",
+    "description": [
+      "<task task=\"7832120911FCB2B1\" quest=\"7C0B1306A2275FEE\"/>",
+      "<hr/>",
+      "Enjoy not dying? Make a bunch of mechanical crafters and to craft some armour."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:mechanical_crafter"
+    },
+    "groups": {
+      "ULV/ULS - Humble Beginnings..": {
+        "position": [
+          176,
+          -160
+        ]
+      }
+    }
+  }
+}

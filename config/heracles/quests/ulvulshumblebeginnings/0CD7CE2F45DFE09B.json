@@ -1,0 +1,34 @@
+{
+  "settings": {},
+  "dependencies": [
+    "389976279B71DCD8"
+  ],
+  "tasks": {
+    "5FF6C1A67FA755F2": {
+      "type": "heracles:item",
+      "amount": 3,
+      "item": "create:brass_hand"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Brass Hands",
+    "description": [
+      "<task task=\"5FF6C1A67FA755F2\" quest=\"0CD7CE2F45DFE09B\"/>",
+      "<hr/>",
+      "Only used to make deployers."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "create:brass_hand"
+    },
+    "groups": {
+      "ULV/ULS - Humble Beginnings..": {
+        "position": [
+          144,
+          80
+        ]
+      }
+    }
+  }
+}

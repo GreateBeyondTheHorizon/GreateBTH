@@ -1,0 +1,34 @@
+{
+  "settings": {},
+  "dependencies": [
+    "550030C3F6D1D54D"
+  ],
+  "tasks": {
+    "6DCBD4BEF03D9452": {
+      "type": "heracles:item",
+      "amount": 16,
+      "item": "gtceu:copper_single_wire"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Copper Wires",
+    "description": [
+      "<task task=\"6DCBD4BEF03D9452\" quest=\"42041ED4444332C5\"/>",
+      "<hr/>",
+      "Not as fine as I like them."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "gtceu:copper_single_wire"
+    },
+    "groups": {
+      "ULV/ULS - Humble Beginnings..": {
+        "position": [
+          -112,
+          80
+        ]
+      }
+    }
+  }
+}

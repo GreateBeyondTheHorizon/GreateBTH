@@ -1,0 +1,73 @@
+{
+  "dependencies": [
+    "0C0ACACCE8DF5AF0"
+  ],
+  "tasks": {
+    "4F54E34EFE5F4ED6": {
+      "type": "heracles:item",
+      "item": "gtceu:resin_printed_circuit_board",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "2418DFCEDA4EAB20": {
+      "type": "heracles:item",
+      "item": "gtceu:resin_circuit_board",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"4F54E34EFE5F4ED6\" quest=\"78573C9DB2981947\"/>",
+      "<task task=\"2418DFCEDA4EAB20\" quest=\"78573C9DB2981947\"/>",
+      "<hr/>",
+      "The base of the circuit."
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings..": {
+        "position": [
+          48,
+          64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:resin_printed_circuit_board",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Resin Printed Circuit Board"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}
