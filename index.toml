@@ -1012,6 +1012,9 @@ file = "kubejs/server_scripts/Armor/Vanilla/Leather.js"
 file = "kubejs/server_scripts/Armor/Vanilla/Netherite.js"
 
 [[files]]
+file = "kubejs/server_scripts/Gamerules.js"
+
+[[files]]
 file = "kubejs/server_scripts/GregMultiRecipe.js"
 
 [[files]]
