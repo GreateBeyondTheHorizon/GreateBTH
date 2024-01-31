@@ -1536,3 +1536,7 @@ metafile = true
 [[files]]
 file = "mods/yeetusexperimentus.pw.toml"
 metafile = true
+
+[[files]]
+file = "resourcepacks/gregtech-refreshed.pw.toml"
+metafile = true
