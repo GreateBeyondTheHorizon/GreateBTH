@@ -177,7 +177,7 @@ ServerEvents.recipes(event => {
 
 	event.recipes.createSequencedAssembly(
 		['gtceu:mv_emitter'],
-		'gtceu:emerald_flawless_gem',
+		'gtceu:flawless_emerald_gem',
 		[
 			event.recipes.createDeploying(incMvEmitter, [incMvEmitter, '#forge:circuits/mv']),
 			event.recipes.createDeploying(incMvEmitter, [incMvEmitter, 'gtceu:copper_single_cable']),
