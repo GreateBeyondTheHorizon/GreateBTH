@@ -3,11 +3,11 @@ filename = "botarium-forge-1.20.1-2.3.2.jar"
 side = "both"
 
 [download]
+url = "https://cdn.modrinth.com/data/2u6LRnMa/versions/qIdyusHN/botarium-forge-1.20.1-2.3.2.jar"
 hash-format = "sha1"
 hash = "5b39c20b2e4065ef189592c9a963d86c50cd14da"
-mode = "metadata:curseforge"
 
 [update]
-[update.curseforge]
-file-id = 5066854
-project-id = 704113
+[update.modrinth]
+mod-id = "2u6LRnMa"
+version = "qIdyusHN"

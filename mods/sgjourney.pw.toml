@@ -3,11 +3,11 @@ filename = "Stargate Journey-1.20.1-0.6.19.jar"
 side = "both"
 
 [download]
+url = "https://cdn.modrinth.com/data/qlc8dxM6/versions/ohoYFfek/Stargate%20Journey-1.20.1-0.6.19.jar"
 hash-format = "sha1"
 hash = "0fbb9ac778b70530479dabf3a0c420a84728731a"
-mode = "metadata:curseforge"
 
 [update]
-[update.curseforge]
-file-id = 5060829
-project-id = 689083
+[update.modrinth]
+mod-id = "qlc8dxM6"
+version = "ohoYFfek"

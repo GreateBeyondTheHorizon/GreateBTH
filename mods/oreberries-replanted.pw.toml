@@ -3,11 +3,11 @@ filename = "OreBerries-Replanted-1.20.1-0.5.1.jar"
 side = "both"
 
 [download]
+url = "https://cdn.modrinth.com/data/no8wHvOG/versions/YkMBXyBF/OreBerries-Replanted-1.20.1-0.5.1.jar"
 hash-format = "sha1"
-hash = "8cd89ef0685f77849dc967555596003d956cd234"
-mode = "metadata:curseforge"
+hash = "63ee9624b0c981c14d093012a4e9a96fee692e57"
 
 [update]
-[update.curseforge]
-file-id = 4760372
-project-id = 454062
+[update.modrinth]
+mod-id = "no8wHvOG"
+version = "YkMBXyBF"

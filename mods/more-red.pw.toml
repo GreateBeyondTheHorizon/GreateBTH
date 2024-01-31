@@ -3,11 +3,11 @@ filename = "morered-1.20.1-4.0.0.4.jar"
 side = "both"
 
 [download]
+url = "https://cdn.modrinth.com/data/UxYNfnfx/versions/nmvr3DB5/morered-1.20.1-4.0.0.4.jar"
 hash-format = "sha1"
 hash = "1e49a2fca02e1059bf6c94f6292463ed6e4f6122"
-mode = "metadata:curseforge"
 
 [update]
-[update.curseforge]
-file-id = 4691333
-project-id = 387638
+[update.modrinth]
+mod-id = "UxYNfnfx"
+version = "nmvr3DB5"

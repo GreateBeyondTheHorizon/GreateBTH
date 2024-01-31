@@ -1,13 +1,13 @@
-name = "Puzzles Lib [Forge & Fabric]"
+name = "Puzzles Lib"
 filename = "PuzzlesLib-v8.1.15-1.20.1-Forge.jar"
 side = "both"
 
 [download]
+url = "https://cdn.modrinth.com/data/QAGBst4M/versions/jkphsaH8/PuzzlesLib-v8.1.15-1.20.1-Forge.jar"
 hash-format = "sha1"
 hash = "771af099b856d5403dfd241cf0495eb6a827f9e6"
-mode = "metadata:curseforge"
 
 [update]
-[update.curseforge]
-file-id = 5064462
-project-id = 495476
+[update.modrinth]
+mod-id = "QAGBst4M"
+version = "jkphsaH8"
