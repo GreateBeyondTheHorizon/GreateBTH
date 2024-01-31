@@ -10,6 +10,9 @@ file = "config/fancymenu/animations/ebf_5ed795df72a44a03/animation.properties"
 file = "config/fancymenu/config.txt"
 
 [[files]]
+file = "config/fancymenu/custom_gui_screens.txt"
+
+[[files]]
 file = "config/fancymenu/customizablemenus.txt"
 
 [[files]]
@@ -17,6 +20,12 @@ file = "config/fancymenu/customization/loading1.txt"
 
 [[files]]
 file = "config/fancymenu/customization/menu1.txt"
+
+[[files]]
+file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
+
+[[files]]
+file = "config/fancymenu/legacy_checklist.txt"
 
 [[files]]
 file = "config/fancymenu/locals/de_de.local"
@@ -43,6 +52,9 @@ file = "config/fancymenu/locals/zh_cn.local"
 file = "config/fancymenu/menu_identifiers.db"
 
 [[files]]
+file = "config/fancymenu/options.txt"
+
+[[files]]
 file = "config/fancymenu/slideshows/mainSlideShow/images/image1.png"
 
 [[files]]
@@ -56,6 +68,12 @@ file = "config/fancymenu/slideshows/mainSlideShow/images/image4.png"
 
 [[files]]
 file = "config/fancymenu/slideshows/mainSlideShow/properties.txt"
+
+[[files]]
+file = "config/fancymenu/ui_themes/dark.json"
+
+[[files]]
+file = "config/fancymenu/ui_themes/light.json"
 
 [[files]]
 file = "config/fancymenu/user_variables.db"
@@ -1389,6 +1407,10 @@ metafile = true
 
 [[files]]
 file = "mods/load-my-resources-forge.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/melody.pw.toml"
 metafile = true
 
 [[files]]

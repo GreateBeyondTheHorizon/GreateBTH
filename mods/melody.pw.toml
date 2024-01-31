@@ -1,0 +1,13 @@
+name = "Melody"
+filename = "melody_forge_1.0.2_MC_1.20.1-1.20.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f140ab6cf4429a383ddb655057ef4a5139efd4f2"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5056286
+project-id = 938643
