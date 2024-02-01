@@ -104,7 +104,7 @@ ServerEvents.recipes(event => {
 			A:'minecraft:bricks',
 			B:'gtceu:iron_plate',
 			C:'gtceu:annealed_copper_plate', 
-			D:'#forge:circuits/lv'
+			D:'#gtceu:circuits/lv'
 		}
   )
 
@@ -118,7 +118,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 			A:'gtceu:iron_plate',
-			B:'#forge:circuits/mv',
+			B:'#gtceu:circuits/mv',
 			C:'sophisticatedbackpacks:upgrade_base', 
 			D:'gtceu:aluminium_hammer',
 			E:'minecraft:piston'
@@ -150,7 +150,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 			A:'gtceu:iron_plate',
-			B:'#forge:circuits/mv',
+			B:'#gtceu:circuits/mv',
 			C:'sophisticatedbackpacks:upgrade_base', 
 			D:'minecraft:sticky_piston',
 			E:'gtceu:red_alloy_ingot'
@@ -182,7 +182,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 			A:'gtceu:iron_plate',
-			B:'#forge:circuits/lv',
+			B:'#gtceu:circuits/lv',
 			C:'sophisticatedbackpacks:upgrade_base', 
 			D:'minecraft:chest',
 			E:'minecraft:sticky_piston'
@@ -214,7 +214,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 			A:'gtceu:iron_plate',
-			B:'#forge:circuits/lv',
+			B:'#gtceu:circuits/lv',
 			C:'sophisticatedbackpacks:upgrade_base', 
 			D:'minecraft:chest',
 			E:'minecraft:piston'
@@ -246,7 +246,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 			A:'gtceu:iron_plate',
-			B:'#forge:circuits/mv',
+			B:'#gtceu:circuits/mv',
 			C:'sophisticatedbackpacks:upgrade_base', 
 			D:'gtceu:aluminium_hammer', //TRASHCAN IF ADDED
 			E:'gtceu:obsidian_plate'
@@ -278,7 +278,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 			A:'gtceu:iron_plate',
-			B:'#forge:circuits/mv',
+			B:'#gtceu:circuits/mv',
 			C:'sophisticatedbackpacks:upgrade_base', 
 			D:'minecraft:milk_bucket',
 			E:'@pamhc2foodcore',
@@ -313,7 +313,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 			A:'gtceu:iron_plate',
-			B:'#forge:circuits/lv',
+			B:'#gtceu:circuits/lv',
 			C:'sophisticatedbackpacks:upgrade_base', 
 			D:'gtceu:ender_pearl_dust',
 			E:'minecraft:chest'
@@ -345,7 +345,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 			A:'gtceu:iron_plate',
-			B:'#forge:circuits/mv',
+			B:'#gtceu:circuits/mv',
 			C:'sophisticatedbackpacks:upgrade_base', 
 			D:'gtceu:magnetic_steel_rod',
 			E:'gtceu:ender_pearl_dust'
@@ -377,7 +377,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 			A:'gtceu:iron_plate',
-			B:'#forge:circuits/mv',
+			B:'#gtceu:circuits/mv',
 			C:'sophisticatedbackpacks:upgrade_base', 
 			D:'gtceu:item_filter',
 			E:'gtceu:red_alloy_ingot'
@@ -409,7 +409,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 			A:'gtceu:iron_plate',
-			B:'#forge:circuits/lv',
+			B:'#gtceu:circuits/lv',
 			C:'sophisticatedbackpacks:upgrade_base', 
 			D:'#forge:tools/saws',
 			E:'#forge:tools/screwdrivers',
