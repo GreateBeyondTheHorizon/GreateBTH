@@ -11,7 +11,7 @@ ServerEvents.recipes(event => {
         {
             A:Item.of('productivebees:configurable_comb', '{EntityTag:{type:"productivebees:stainless_steel"}}').strongNBT(),
             B:'productivebees:honey_treat',
-            C:'#forge:circuits/hv',
+            C:'#gtceu:circuits/hv',
             D:'gtceu:steel_plate',   
         }
     )

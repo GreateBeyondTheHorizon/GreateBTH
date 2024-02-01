@@ -21,7 +21,7 @@ ServerEvents.recipes(event => {
 			A:'ae2:fluix_block',
 			B:'ae2:energy_cell',
 			C:'gtceu:polyvinyl_chloride_foil',
-			D:'#forge:circuits/hv'
+			D:'#gtceu:circuits/hv'
 		}
 	)
 	
@@ -36,7 +36,7 @@ ServerEvents.recipes(event => {
 			A:'ae2:fluix_block',
 			B:'ae2:chest',
 			C:'gtceu:polyvinyl_chloride_foil',
-			D:'#forge:circuits/hv'
+			D:'#gtceu:circuits/hv'
 		}
 	)
 
@@ -51,7 +51,7 @@ ServerEvents.recipes(event => {
 			A:'ae2:fluix_covered_cable',
 			B:'ae2:terminal',
 			C:'gtceu:polyethylene_foil',
-			D:'#forge:circuits/mv',
+			D:'#gtceu:circuits/mv',
 			E:'minecraft:glass',
 			F:'gtceu:hv_machine_casing'
 		}
@@ -84,7 +84,7 @@ ServerEvents.recipes(event => {
 			B:'gtceu:polyethylene_plate',
 			C:'ae2:cell_component_4k',
 			D:'gtceu:steel_plate',
-			E:'#forge:circuits/lv'
+			E:'#gtceu:circuits/lv'
 		}
 	)
 
@@ -100,7 +100,7 @@ ServerEvents.recipes(event => {
 			B:'gtceu:polyvinyl_chloride_plate',
 			C:'ae2:cell_component_16k',
 			D:'gtceu:vanadium_steel_plate',
-			E:'#forge:circuits/mv'
+			E:'#gtceu:circuits/mv'
 		}
 	)
 
@@ -116,7 +116,7 @@ ServerEvents.recipes(event => {
 			B:'gtceu:polytetrafluoroethylene_plate',
 			C:'ae2:cell_component_64k',
 			D:'gtceu:stainless_steel_plate',
-			E:'#forge:circuits/hv'
+			E:'#gtceu:circuits/hv'
 		}
 	)
 
@@ -132,7 +132,7 @@ ServerEvents.recipes(event => {
 			B:'gtceu:polybenzimidazole_plate',
 			C:'ae2:cell_component_256k',
 			D:'gtceu:tungsten_steel_plate',
-			E:'#forge:circuits/ev'
+			E:'#gtceu:circuits/ev'
 		}
 	)
 
@@ -148,7 +148,7 @@ ServerEvents.recipes(event => {
 			B:'gtceu:polyvinyl_chloride_foil',
 			C:'#forge:gems/certus_quartz',
 			D:'gtceu:stainless_steel_plate',
-			E:'#forge:circuits/hv'
+			E:'#gtceu:circuits/hv'
 		}
 	)
 
@@ -179,7 +179,7 @@ ServerEvents.recipes(event => {
 			B:'gtceu:polyethylene_plate',
 			C:'ae2:cell_component_4k',
 			D:'gtceu:steel_plate',
-			E:'#forge:circuits/lv'
+			E:'#gtceu:circuits/lv'
 		}
 	)
 
@@ -195,7 +195,7 @@ ServerEvents.recipes(event => {
 			B:'gtceu:polyvinyl_chloride_plate',
 			C:'ae2:cell_component_16k',
 			D:'gtceu:vanadium_steel_plate',
-			E:'#forge:circuits/mv'
+			E:'#gtceu:circuits/mv'
 		}
 	)
 
@@ -210,7 +210,7 @@ ServerEvents.recipes(event => {
 			B:'gtceu:polytetrafluoroethylene_plate',
 			C:'ae2:cell_component_64k',
 			D:'gtceu:stainless_steel_plate',
-			E:'#forge:circuits/hv'
+			E:'#gtceu:circuits/hv'
 		}
 	)
 
@@ -226,7 +226,7 @@ ServerEvents.recipes(event => {
 			B:'gtceu:polybenzimidazole_plate',
 			C:'ae2:cell_component_256k',
 			D:'gtceu:tungsten_steel_plate',
-			E:'#forge:circuits/ev'
+			E:'#gtceu:circuits/ev'
 		}
 	)
 

@@ -28,7 +28,7 @@ ServerEvents.recipes(event => {
 			],
 			{
 				A:stripedWood[i],
-				B:'#forge:circuits/lv',
+				B:'#gtceu:circuits/lv',
 				C:'gtceu:aluminium_plate',
 				D:'gtceu:bronze_plate',
 				E:'gtceu:potin_gear',      
