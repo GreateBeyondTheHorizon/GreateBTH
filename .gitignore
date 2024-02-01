@@ -11,10 +11,15 @@
 !/config/emi.css
 !/config/gtceu.yaml
 !/defaultconfigs
-!/resourcepacks
 !/kubejs
 !/fancymenu_resources
 !/resources
+
+# resource packs
+!/resourcepacks
+/resourcepacks/*
+!/resourcepacks/*.pw.toml
+!/resourcepacks/C4Music_v3.0.zip
 
 # mods
 !/mods
