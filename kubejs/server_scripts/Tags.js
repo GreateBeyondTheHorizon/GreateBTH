@@ -15,7 +15,6 @@ ServerEvents.tags('item', event => {
 	event.add('forge:tools/saws', 'kubejs:flint_saw')
 	event.add('forge:armors', /ad_astra:jet(.*)/)
 	event.add('forge:armors', /ad_astra:(.*)space(.*)/)
-	event.add('gtceu:circuits/ulv', 'create:electron_tube')
 
 
 
