@@ -1,6 +1,5 @@
 ServerEvents.recipes(event => {
 	var removed = [
-		'potato_cannon',
 		'fluid_pipe',
 		'smart_fluid_pipe', 
 		'mechanical_pump',
