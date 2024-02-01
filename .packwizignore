@@ -16,3 +16,9 @@
 !/resourcepacks
 !/kubejs
 !/packmenu
+
+# resource packs
+!/resourcepacks
+/resourcepacks/*
+!/resourcepacks/*.pw.toml
+!/resourcepacks/C4Music_v3.0.zip
