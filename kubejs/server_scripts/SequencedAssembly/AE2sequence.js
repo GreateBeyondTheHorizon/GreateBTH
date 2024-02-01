@@ -121,7 +121,7 @@ ServerEvents.recipes(event => {
 		.loops(3)
 
 	event.recipes
-		.createSequencedAssembly(['ae2:logic_processor'], '#forge:circuits/lv', [
+		.createSequencedAssembly(['ae2:logic_processor'], '#gtceu:circuits/lv', [
 			event.recipes.createDeploying('kubejs:incomplete_storage_component', [
 				'kubejs:incomplete_storage_component',
 				'ae2:printed_logic_processor',
@@ -137,7 +137,7 @@ ServerEvents.recipes(event => {
 	event.recipes
 		.createSequencedAssembly(
 			['ae2:engineering_processor'],
-			'#forge:circuits/lv',
+			'#gtceu:circuits/lv',
 			[
 				event.recipes.createDeploying('kubejs:incomplete_storage_component', [
 					'kubejs:incomplete_storage_component',
@@ -155,7 +155,7 @@ ServerEvents.recipes(event => {
 	event.recipes
 		.createSequencedAssembly(
 			['ae2:calculation_processor'],
-			'#forge:circuits/lv',
+			'#gtceu:circuits/lv',
 			[
 				event.recipes.createDeploying('kubejs:incomplete_storage_component', [
 					'kubejs:incomplete_storage_component',

@@ -47,7 +47,7 @@ ServerEvents.recipes(event => {
 		[rawPhenolicCircBoard],
 		'gtceu:phenolic_printed_circuit_board',
 		[
-			event.recipes.createDeploying(rawPhenolicCircBoard, [rawPhenolicCircBoard, '#forge:circuits/lv']),
+			event.recipes.createDeploying(rawPhenolicCircBoard, [rawPhenolicCircBoard, '#gtceu:circuits/lv']),
 			event.recipes.createFilling(rawPhenolicCircBoard, [rawPhenolicCircBoard, Fluid.of('gtceu:soldering_alloy', 36)])
 		]
 	).transitionalItem(rawPhenolicCircBoard).loops(2)
@@ -56,7 +56,7 @@ ServerEvents.recipes(event => {
 		[rawPhenolicCircBoard],
 		'gtceu:phenolic_printed_circuit_board',
 		[
-			event.recipes.createDeploying(rawPhenolicCircBoard, [rawPhenolicCircBoard, '#forge:circuits/lv']),
+			event.recipes.createDeploying(rawPhenolicCircBoard, [rawPhenolicCircBoard, '#gtceu:circuits/lv']),
 			event.recipes.createFilling(rawPhenolicCircBoard, [rawPhenolicCircBoard, Fluid.of('gtceu:tin', 72)])
 		]
 	).transitionalItem(rawPhenolicCircBoard).loops(2)
