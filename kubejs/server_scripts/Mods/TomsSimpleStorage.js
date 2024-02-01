@@ -43,7 +43,7 @@ ServerEvents.recipes(event => {
 	 		B:'ironchest:iron_chest',
 	 		C:'gtceu:mv_conveyor_module',
 	 		D:'toms_storage:ts.inventory_cable',
-			E:'#forge:circuits/mv',
+			E:'#gtceu:circuits/mv',
 			F:'toms_storage:ts.inventory_cable_connector',
 	 	}
 	)
