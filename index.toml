@@ -10,6 +10,9 @@ file = "config/fancymenu/animations/ebf_5ed795df72a44a03/animation.properties"
 file = "config/fancymenu/config.txt"
 
 [[files]]
+file = "config/fancymenu/custom_gui_screens.txt"
+
+[[files]]
 file = "config/fancymenu/customizablemenus.txt"
 
 [[files]]
@@ -17,6 +20,12 @@ file = "config/fancymenu/customization/loading1.txt"
 
 [[files]]
 file = "config/fancymenu/customization/menu1.txt"
+
+[[files]]
+file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
+
+[[files]]
+file = "config/fancymenu/legacy_checklist.txt"
 
 [[files]]
 file = "config/fancymenu/locals/de_de.local"
@@ -43,6 +52,9 @@ file = "config/fancymenu/locals/zh_cn.local"
 file = "config/fancymenu/menu_identifiers.db"
 
 [[files]]
+file = "config/fancymenu/options.txt"
+
+[[files]]
 file = "config/fancymenu/slideshows/mainSlideShow/images/image1.png"
 
 [[files]]
@@ -58,31 +70,190 @@ file = "config/fancymenu/slideshows/mainSlideShow/images/image4.png"
 file = "config/fancymenu/slideshows/mainSlideShow/properties.txt"
 
 [[files]]
+file = "config/fancymenu/ui_themes/dark.json"
+
+[[files]]
+file = "config/fancymenu/ui_themes/light.json"
+
+[[files]]
 file = "config/fancymenu/user_variables.db"
 
 [[files]]
-file = "config/ftbquests/quests/chapter_groups.snbt"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/multiblocks.snbt"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/power_generation.snbt"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/ulvuls__humble_beginnigs.snbt"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/welcome.snbt"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/you_gotta_start_somewhere.snbt"
-
-[[files]]
-file = "config/ftbquests/quests/data.snbt"
-
-[[files]]
 file = "config/gtceu.yaml"
+
+[[files]]
+file = "config/heracles/groups.txt"
+
+[[files]]
+file = "config/heracles/quests/multiblocks/70C4E8974BC7EADA.json"
+
+[[files]]
+file = "config/heracles/quests/powergeneration/037BE8BCC939FD39.json"
+
+[[files]]
+file = "config/heracles/quests/powergeneration/4B5D4F7B9034D410.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/00DAF42D60192A91.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/02357592E8EADB70.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/0B29D5C777C71B40.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/0C0ACACCE8DF5AF0.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/0C80D4F11654672A.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/0CD7CE2F45DFE09B.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/0D9DE4E42D6778A9.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/0DE50DFF22C3DE10.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/0E0F851B75290915.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/0F9B668F0719D7EA.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/16C18DBBDBE10F36.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/172FA64BDE900910.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/1B79FFBFC443B680.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/1DA36C305C53D0E8.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/2ED30AD428BCB890.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/32C29B1A338EAF4F.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/32D671F65C901C11.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/34C948A138F5F063.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/367BC8BE273495CC.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/389976279B71DCD8.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/38AAFF2BEAEEB6CE.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/38F97005C70B390D.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/3AC275D73C13A188.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/3DFF65B08C971881.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/3E67CE7E9504AC55.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/40DC0EE7472EF0DC.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/41C8CC18ED91DC25.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/42041ED4444332C5.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/44820AD7D612AE8C.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/454B9E49684318EC.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/4AA205745CC7A8F5.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/4BE18DBE5D760ECF.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/52E3FAD05EAC41C7.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/550030C3F6D1D54D.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/55F8CE0639EFE9CD.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/5BBE7DCE67C99A3D.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/5D5FA02917C5FE59.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/5E9B34A22427F87B.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/5F2B1D9B77FB1E03.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/6162DB567597E8EF.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/62932011FE13E3F5.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/6445ED96BA55E4B1.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/6BEE2F1701C8B70D.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/6C076DCED7C11113.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/6D0407AADC20AB50.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/7013B83A848D32F0.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/70BDF42738F465DC.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/732951F918E5D036.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/78573C9DB2981947.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/7C0B1306A2275FEE.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/7DC207EFCB7D0A8E.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/7F602A26CF055E05.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/7F6BF6CED379C510.json"
+
+[[files]]
+file = "config/heracles/tutorial.html"
 
 [[files]]
 file = "defaultconfigs/bucketlib-server.toml"
@@ -92,15 +263,6 @@ file = "defaultconfigs/ceramicbucket-server.toml"
 
 [[files]]
 file = "defaultconfigs/create-server.toml"
-
-[[files]]
-file = "defaultconfigs/ftbchunks/client-config.snbt"
-
-[[files]]
-file = "defaultconfigs/ftbchunks/ftbchunks-world.snbt"
-
-[[files]]
-file = "defaultconfigs/ftbessentials-server.snbt"
 
 [[files]]
 file = "defaultconfigs/toms_storage-server.toml"
@@ -1012,6 +1174,12 @@ file = "kubejs/server_scripts/Armor/Vanilla/Leather.js"
 file = "kubejs/server_scripts/Armor/Vanilla/Netherite.js"
 
 [[files]]
+file = "kubejs/server_scripts/CustomQuestItemTags.js"
+
+[[files]]
+file = "kubejs/server_scripts/Gamerules.js"
+
+[[files]]
 file = "kubejs/server_scripts/GregMultiRecipe.js"
 
 [[files]]
@@ -1145,7 +1313,11 @@ file = "mods/ad-astra.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/advanced-peripherals.pw.toml"
+file = "mods/advancedperipherals.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/ae2.pw.toml"
 metafile = true
 
 [[files]]
@@ -1157,10 +1329,6 @@ file = "mods/appleskin.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/applied-energistics-2.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/aquaculture.pw.toml"
 metafile = true
 
@@ -1169,7 +1337,11 @@ file = "mods/architectury-api.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/athena.pw.toml"
+file = "mods/argonauts.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/athena-ctm.pw.toml"
 metafile = true
 
 [[files]]
@@ -1177,7 +1349,7 @@ file = "mods/attributefix.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/auudio-forge.pw.toml"
+file = "mods/auudio.pw.toml"
 metafile = true
 
 [[files]]
@@ -1198,6 +1370,10 @@ metafile = true
 
 [[files]]
 file = "mods/bucketlib.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/cadmus.pw.toml"
 metafile = true
 
 [[files]]
@@ -1265,6 +1441,10 @@ file = "mods/curios.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/elevatormod.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/embeddium.pw.toml"
 metafile = true
 
@@ -1273,7 +1453,7 @@ file = "mods/emi.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/ender-io.pw.toml"
+file = "mods/enderio.pw.toml"
 metafile = true
 
 [[files]]
@@ -1281,7 +1461,7 @@ file = "mods/entityculling.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/fancymenu-forge.pw.toml"
+file = "mods/fancymenu.pw.toml"
 metafile = true
 
 [[files]]
@@ -1289,43 +1469,15 @@ file = "mods/farmers-delight.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/fast-leaf-decay.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/fastsuite.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/ferritecore.pw.toml"
+file = "mods/ferrite-core.pw.toml"
 metafile = true
 
 [[files]]
 file = "mods/framedblocks.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/ftb-backups-2.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/ftb-chunks-forge.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/ftb-essentials-forge.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/ftb-library-forge.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/ftb-quests-forge.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/ftb-teams-forge.pw.toml"
 metafile = true
 
 [[files]]
@@ -1341,7 +1493,7 @@ file = "mods/guard-villagers.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/inventory-hud-forge.pw.toml"
+file = "mods/heracles.pw.toml"
 metafile = true
 
 [[files]]
@@ -1349,7 +1501,7 @@ file = "mods/item-filters.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/jade-addons.pw.toml"
+file = "mods/jade-addons-forge.pw.toml"
 metafile = true
 
 [[files]]
@@ -1385,7 +1537,15 @@ file = "mods/kubejs.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/load-my-resources-forge.pw.toml"
+file = "mods/leaves-be-gone.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/load-my-resources.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/melody.pw.toml"
 metafile = true
 
 [[files]]
@@ -1421,10 +1581,6 @@ file = "mods/oculus.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/openblocks-elevator.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/openblocks-trophies.pw.toml"
 metafile = true
 
@@ -1449,6 +1605,10 @@ file = "mods/productivebees.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/prometheus.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/puzzles-lib.pw.toml"
 metafile = true
 
@@ -1465,15 +1625,15 @@ file = "mods/rhino.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/rubidium-extra.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/searchables.pw.toml"
 metafile = true
 
 [[files]]
 file = "mods/sgjourney.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/simple-backups.pw.toml"
 metafile = true
 
 [[files]]
@@ -1513,5 +1673,12 @@ file = "mods/xtones-reworked.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/yeetusexperimentus.pw.toml"
+file = "mods/yeetus-experimentus.pw.toml"
+metafile = true
+
+[[files]]
+file = "resourcepacks/C4Music_v3.0.zip"
+
+[[files]]
+file = "resourcepacks/gregtech-refreshed.pw.toml"
 metafile = true

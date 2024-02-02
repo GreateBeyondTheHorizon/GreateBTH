@@ -1,6 +1,5 @@
 ServerEvents.recipes(event => {
 	var removed = [
-		'potato_cannon',
 		'fluid_pipe',
 		'smart_fluid_pipe', 
 		'mechanical_pump',
@@ -14,6 +13,7 @@ ServerEvents.recipes(event => {
 		'cogwheel',
 		'large_cogwheel',
 		'brass_hand',
+		'electron_tube'
 	]
 
 	removed.forEach(item => {
@@ -132,18 +132,5 @@ ServerEvents.recipes(event => {
 		}
 	)
 
-	event.shaped(
-		Item.of('create:electron_tube', 1),
-		[
-			' B ',
-			'CAC',
-			'DDD',
-		],
-		{
-			A: 'create:polished_rose_quartz',
-			B: 'gtceu:glass_tube', //needs recipe pre LV
-			C: 'gtceu:steel_bolt',
-			D: 'gtceu:copper_single_wire'
-		}
-	)
+	event.replaceInput({input: 'create:electron_tube'}, 'create:electron_tube', '#gtceu:circuits/ulv')
 })

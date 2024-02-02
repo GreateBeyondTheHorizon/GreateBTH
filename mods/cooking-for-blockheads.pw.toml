@@ -3,11 +3,11 @@ filename = "cookingforblockheads-forge-1.20-16.0.1.jar"
 side = "both"
 
 [download]
+url = "https://cdn.modrinth.com/data/vJnhuDde/versions/yKz0conr/cookingforblockheads-forge-1.20-16.0.1.jar"
 hash-format = "sha1"
-hash = "ae18d4ad7b343382d88b1d3172aeea28a8e00894"
-mode = "metadata:curseforge"
+hash = "0e471f9d49e3355d0e4457082801810bf735dce8"
 
 [update]
-[update.curseforge]
-file-id = 4749420
-project-id = 231484
+[update.modrinth]
+mod-id = "vJnhuDde"
+version = "yKz0conr"

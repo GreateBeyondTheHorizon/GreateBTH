@@ -1,30 +1,50 @@
-type = menu
+type = fancymenu_layout
 
-customization-meta {
-  identifier = net.minecraft.client.gui.screens.LevelLoadingScreen
-  randomgroup = 1
-  renderorder = foreground
+layout-meta {
+  identifier = level_loading_screen
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1706698798704
+  is_enabled = true
   randommode = false
+  randomgroup = 1
   randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:963c7d7b-0ba9-43c0-b5aa-5d7802385ce3-1706698798704] = [groups:][instances:]
 }
 
 customization {
-  keepaspectratio = false
   action = backgroundoptions
+  keepaspectratio = false
 }
 
-customization {
-  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"} * 0.1","decimal":"true"}}
-  orientation = top-left
-  name = ebf_5ed795df72a44a03
-  x = 0
-  width = 42
-  actionid = 7d3a2d83-6c19-4800-ad95-47b0aedcb1f21694220838782
-  action = addanimation
-  y = 0
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+}
+
+element {
+  animation_name = ebf_5ed795df72a44a03
+  element_type = animation
+  instance_identifier = 7d3a2d83-6c19-4800-ad95-47b0aedcb1f21694220838782
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = top-left
   advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"} - {"placeholder":"elementwidth","values":{"id":"7d3a2d83-6c19-4800-ad95-47b0aedcb1f21694220838782"}}","decimal":"true"}}
-  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"} * 0.1","decimal":"true"}}
   advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} - {"placeholder":"elementheight","values":{"id":"7d3a2d83-6c19-4800-ad95-47b0aedcb1f21694220838782"}}","decimal":"true"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"} * 0.1","decimal":"true"}}
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"} * 0.1","decimal":"true"}}
+  x = 0
+  y = 0
+  width = 42
   height = 42
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 863a12ab-85f3-4196-8564-edc63290adab-1706698798715
+  [loading_requirement_container_meta:863a12ab-85f3-4196-8564-edc63290adab-1706698798715] = [groups:][instances:]
 }
 

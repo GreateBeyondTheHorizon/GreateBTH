@@ -9,9 +9,16 @@
 !/config
 /config/*
 !/config/fancymenu
-!/config/ftbquests
+!/config/heracles
 !/config/emi.css
 !/config/gtceu.yaml
 !/defaultconfigs
+!/resourcepacks
 !/kubejs
 !/packmenu
+
+# resource packs
+!/resourcepacks
+/resourcepacks/*
+!/resourcepacks/*.pw.toml
+!/resourcepacks/C4Music_v3.0.zip

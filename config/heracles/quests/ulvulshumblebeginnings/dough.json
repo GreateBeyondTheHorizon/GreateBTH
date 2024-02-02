@@ -1,0 +1,73 @@
+{
+  "dependencies": [
+    "whisky_business"
+  ],
+  "tasks": {
+    "3D201E20E1BDFFE7": {
+      "type": "heracles:item",
+      "item": "minecraft:slime_ball",
+      "amount": 32,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "4959D535CCB57D00": {
+      "type": "heracles:item",
+      "item": "create:dough",
+      "amount": 32,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"3D201E20E1BDFFE7\" quest=\"55F8CE0639EFE9CD\"/>",
+      "<task task=\"4959D535CCB57D00\" quest=\"55F8CE0639EFE9CD\"/>",
+      "<hr/>",
+      "Slimeballs are great for sticking stuff together. Right now however... You will make these into sticky, ooey-gooey resin, which will greately help you make the components for your first circuit."
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings..": {
+        "position": [
+          112,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:slime_ball",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "D' ough!"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

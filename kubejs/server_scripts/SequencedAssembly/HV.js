@@ -58,7 +58,7 @@ ServerEvents.recipes(event => {
  	event.recipes.createSequencedAssembly([
  		'gtceu:hv_robot_arm',
 	], 'gtceu:hv_electric_piston',[
- 	event.recipes.createDeploying(lncHvRobotArm,[lncHvRobotArm, '#forge:circuits/hv']),
+ 	event.recipes.createDeploying(lncHvRobotArm,[lncHvRobotArm, '#gtceu:circuits/hv']),
  	event.recipes.createDeploying(lncHvRobotArm,[lncHvRobotArm, 'gtceu:hv_electric_motor']),
  	event.recipes.createDeploying(lncHvRobotArm,[lncHvRobotArm, 'gtceu:gold_single_cable']),
  	event.recipes.createDeploying(lncHvRobotArm,[lncHvRobotArm, 'gtceu:stainless_steel_rod']),
@@ -122,13 +122,13 @@ ServerEvents.recipes(event => {
  	event.recipes.createSequencedAssembly([
  	'gtceu:hv_fluid_regulator',
 	],	'gtceu:hv_electric_pump', [
- 	event.recipes.createDeploying(invHvFluidRegulator, [invHvFluidRegulator, '#forge:circuits/hv'])
+ 	event.recipes.createDeploying(invHvFluidRegulator, [invHvFluidRegulator, '#gtceu:circuits/hv'])
  	]).transitionalItem(invHvFluidRegulator).loops(2)
 
  	event.recipes.createSequencedAssembly([
  		'gtceu:hv_sensor',
 	],	'gtceu:chromium_rod',[
- 	event.recipes.createDeploying(invHvSensor,[invHvSensor,'#forge:circuits/hv']),
+ 	event.recipes.createDeploying(invHvSensor,[invHvSensor,'#gtceu:circuits/hv']),
  	event.recipes.createDeploying(invHvSensor,[invHvSensor,'gtceu:stainless_steel_double_plate']),
  	event.recipes.createDeploying(invHvSensor,[invHvSensor,'gtceu:stainless_steel_double_plate']),
  	event.recipes.createDeploying(invHvSensor,[invHvSensor,'minecraft:ender_eye']),
@@ -137,7 +137,7 @@ ServerEvents.recipes(event => {
  	event.recipes.createSequencedAssembly([
  	'gtceu:hv_emitter',
 	],	'minecraft:ender_eye', [
- 	event.recipes.createDeploying(incHvEmitter, [incHvEmitter, '#forge:circuits/hv']),
+ 	event.recipes.createDeploying(incHvEmitter, [incHvEmitter, '#gtceu:circuits/hv']),
  	event.recipes.createDeploying(incHvEmitter, [incHvEmitter, 'gtceu:gold_single_cable']),
  	event.recipes.createDeploying(incHvEmitter, [incHvEmitter, 'gtceu:chromium_rod']),
  	event.recipes.createDeploying(incHvEmitter, [incHvEmitter, 'gtceu:chromium_rod']),

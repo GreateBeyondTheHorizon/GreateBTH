@@ -3,11 +3,11 @@ filename = "toms_storage-1.20-1.6.5.jar"
 side = "both"
 
 [download]
+url = "https://cdn.modrinth.com/data/XZNI4Cpy/versions/taaU7hQG/toms_storage-1.20-1.6.5.jar"
 hash-format = "sha1"
 hash = "abcd33998c1baec7e429c705bdbdf9d3c9b377e7"
-mode = "metadata:curseforge"
 
 [update]
-[update.curseforge]
-file-id = 4792109
-project-id = 378609
+[update.modrinth]
+mod-id = "XZNI4Cpy"
+version = "taaU7hQG"

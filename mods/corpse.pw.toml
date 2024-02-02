@@ -3,11 +3,11 @@ filename = "corpse-forge-1.20.1-1.0.10.jar"
 side = "both"
 
 [download]
+url = "https://cdn.modrinth.com/data/WrpuIfhw/versions/yL3olYId/corpse-forge-1.20.1-1.0.10.jar"
 hash-format = "sha1"
-hash = "64da572466f4bf31ae9a57a787feb13ac4684f35"
-mode = "metadata:curseforge"
+hash = "241f02bd97d7f74fdfbc2d71cddfb56c42630e2e"
 
 [update]
-[update.curseforge]
-file-id = 4973430
-project-id = 316582
+[update.modrinth]
+mod-id = "WrpuIfhw"
+version = "yL3olYId"

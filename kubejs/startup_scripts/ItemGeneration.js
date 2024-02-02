@@ -105,7 +105,6 @@ StartupEvents.registry('item', event => {
 	event.create('certus_quartz_lens').displayName('Certus Quartz Lens')
 	event.create('infinity_me_storage_wafer').displayName('Infinity ME Storage Component')
 	event.create('ruthenium_trinium_americium_neutronate_plate').displayName('Ruthenium Trinium Americium Neutronate Plate')
-	event.create('flint_saw').displayName('Flint Saw').maxDamage(64).unstackable()
 
 	//compass
 	event.create('empty_compass').displayName('Empty Compass')

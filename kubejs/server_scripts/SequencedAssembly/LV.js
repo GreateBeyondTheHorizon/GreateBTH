@@ -23,7 +23,7 @@ ServerEvents.recipes(event => {
 		[
 			event.recipes.createDeploying(incBasicElectronicCirc, [incBasicElectronicCirc, 'gtceu:red_alloy_single_wire']),
 			event.recipes.createDeploying(incBasicElectronicCirc, [incBasicElectronicCirc, ['gtceu:resistor', 'gtceu:smd_resistor']]),
-			event.recipes.createDeploying(incBasicElectronicCirc, [incBasicElectronicCirc, ['create:electron_tube', 'gtceu:nand_chip']]),
+			event.recipes.createDeploying(incBasicElectronicCirc, [incBasicElectronicCirc, '#gtceu:circuits/ulv']),
 			event.recipes.createFilling(incBasicElectronicCirc, [incBasicElectronicCirc, Fluid.of('gtceu:tin', 72)])
 		]
 	).transitionalItem(incBasicElectronicCirc).loops(2)
@@ -34,7 +34,7 @@ ServerEvents.recipes(event => {
 		[
 			event.recipes.createDeploying(incBasicElectronicCirc, [incBasicElectronicCirc, 'gtceu:red_alloy_single_wire']),
 			event.recipes.createDeploying(incBasicElectronicCirc, [incBasicElectronicCirc, ['gtceu:resistor', 'gtceu:smd_resistor']]),
-			event.recipes.createDeploying(incBasicElectronicCirc, [incBasicElectronicCirc, ['create:electron_tube', 'gtceu:nand_chip']]),
+			event.recipes.createDeploying(incBasicElectronicCirc, [incBasicElectronicCirc, '#gtceu:circuits/ulv']),
 			event.recipes.createFilling(incBasicElectronicCirc, [incBasicElectronicCirc, Fluid.of('gtceu:soldering_alloy', 36)])
 		]
 	).transitionalItem(incBasicElectronicCirc).loops(2)
@@ -90,7 +90,7 @@ ServerEvents.recipes(event => {
 		['gtceu:lv_robot_arm'],
 		'gtceu:lv_electric_piston',
 		[
-			event.recipes.createDeploying(lncLvRobotArm, [lncLvRobotArm, '#forge:circuits/lv']),
+			event.recipes.createDeploying(lncLvRobotArm, [lncLvRobotArm, '#gtceu:circuits/lv']),
 			event.recipes.createDeploying(lncLvRobotArm, [lncLvRobotArm, 'gtceu:lv_electric_motor']),
 			event.recipes.createDeploying(lncLvRobotArm, [lncLvRobotArm, 'gtceu:tin_single_cable']),
 			event.recipes.createDeploying(lncLvRobotArm, [lncLvRobotArm, 'gtceu:steel_rod'])
@@ -163,13 +163,13 @@ ServerEvents.recipes(event => {
 		['gtceu:lv_fluid_regulator'],
 		'gtceu:lv_electric_piston',
 		[
-			event.recipes.createDeploying(invLvFluidRegulator, [invLvFluidRegulator, '#forge:circuits/lv'])
+			event.recipes.createDeploying(invLvFluidRegulator, [invLvFluidRegulator, '#gtceu:circuits/lv'])
 		]
 	).transitionalItem(invLvFluidRegulator).loops(2)
 
 	event.recipes.createSequencedAssembly(
 		['gtceu:lv_sensor'],
-		'#forge:circuits/lv',
+		'#gtceu:circuits/lv',
 		[
 			event.recipes.createDeploying(invLvSensor, [invLvSensor, 'gtceu:steel_double_plate']),
 			event.recipes.createDeploying(invLvSensor, [invLvSensor, 'gtceu:steel_double_plate']),
@@ -182,7 +182,7 @@ ServerEvents.recipes(event => {
 		['gtceu:lv_emitter'],
 		'gtceu:quartzite_gem',
 		[
-			event.recipes.createDeploying(incLvEmitter, [incLvEmitter, '#forge:circuits/lv']),
+			event.recipes.createDeploying(incLvEmitter, [incLvEmitter, '#gtceu:circuits/lv']),
 			event.recipes.createDeploying(incLvEmitter, [incLvEmitter, 'gtceu:tin_single_cable']),
 			event.recipes.createDeploying(incLvEmitter, [incLvEmitter, 'gtceu:brass_rod']),
 			event.recipes.createDeploying(incLvEmitter, [incLvEmitter, 'gtceu:brass_rod'])

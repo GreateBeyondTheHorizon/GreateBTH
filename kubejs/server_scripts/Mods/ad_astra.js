@@ -25,7 +25,7 @@ ServerEvents.recipes( event => {
 			A:'gtceu:stainless_steel_double_plate',
 			B:'gtceu:stainless_steel_frame',
 			C:'gtceu:stainless_steel_rotor',
-			D:'#forge:circuits/hv'
+			D:'#gtceu:circuits/hv'
 		}
 	)
 	event.shaped(	
@@ -63,7 +63,7 @@ ServerEvents.recipes( event => {
 			A:'gtceu:tungsten_steel_double_plate',
 			B:'gtceu:tungsten_steel_frame',
 			C:'gtceu:tungsten_steel_rotor',
-			D:'#forge:circuits/ev'
+			D:'#gtceu:circuits/ev'
 		}
 	)
 	event.shaped(
@@ -101,7 +101,7 @@ ServerEvents.recipes( event => {
 			A:'gtceu:hsse_double_plate',
 			B:'gtceu:hsse_frame',
 			C:'kubejs:hsse_rotor',
-			D:'#forge:circuits/iv'
+			D:'#gtceu:circuits/iv'
 		}
 	)
 	event.shaped(
@@ -139,7 +139,7 @@ ServerEvents.recipes( event => {
 			A:'gtceu:trinium_double_plate',
 			B:'kubejs:trinium_frame',
 			C:'kubejs:trinium_rotor',
-			D:'#forge:circuits/luv'
+			D:'#gtceu:circuits/luv'
 		}
 	)
 	event.shaped(

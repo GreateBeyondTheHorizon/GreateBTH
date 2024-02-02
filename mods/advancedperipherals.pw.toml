@@ -1,0 +1,13 @@
+name = "Advanced Peripherals"
+filename = "AdvancedPeripherals-1.20.1-0.7.36r.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/SOw6jD6x/versions/xmRykeCl/AdvancedPeripherals-1.20.1-0.7.36r.jar"
+hash-format = "sha1"
+hash = "e2c3adb66bc53b2f6b249e601b83c4107c6615e4"
+
+[update]
+[update.modrinth]
+mod-id = "SOw6jD6x"
+version = "xmRykeCl"

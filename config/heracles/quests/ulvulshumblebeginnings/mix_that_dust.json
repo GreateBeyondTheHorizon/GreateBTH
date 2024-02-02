@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "another_one_bites_the_dust"
+  ],
+  "tasks": {
+    "7C56BB277B8BBF3B": {
+      "type": "heracles:item",
+      "item": "gtceu:bronze_dust",
+      "amount": 16,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"7C56BB277B8BBF3B\" quest=\"16C18DBBDBE10F36\"/>",
+      "<hr/>",
+      "Add copper and tin dusts together in a crafting table to make bronze dust. It's that simple."
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings..": {
+        "position": [
+          -48,
+          -176
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:bronze_dust",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Mix! That! Dust!"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

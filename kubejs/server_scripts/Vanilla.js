@@ -98,20 +98,6 @@ ServerEvents.recipes(event => {
 		}
 	)
 
-	// Flint saw
-	event.shaped('kubejs:flint_saw',
-		[
-			'AAB',
-			'CDB'
-		],
-		{
-			A: 'minecraft:flint',
-			B: 'minecraft:stick',
-			C: '#forge:tools/files',
-			D: '#forge:tools/hammers'
-		}
-	)
-
 	//// Crafting stations ////
 
 	// Smoker

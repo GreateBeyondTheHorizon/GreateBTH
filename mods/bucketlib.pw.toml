@@ -1,13 +1,13 @@
 name = "BucketLib"
-filename = "bucketlib-1.20.1-2.3.0.5.jar"
+filename = "bucketlib-1.20.1-2.3.1.0.jar"
 side = "both"
 
 [download]
+url = "https://cdn.modrinth.com/data/DItE655o/versions/ctCDf4T7/bucketlib-1.20.1-2.3.1.0.jar"
 hash-format = "sha1"
-hash = "0a4a991e9e33faf7766d25d85637abd3da213e9a"
-mode = "metadata:curseforge"
+hash = "41df9496c4c42fafd97f97e03a7419a8141af39f"
 
 [update]
-[update.curseforge]
-file-id = 4841852
-project-id = 560156
+[update.modrinth]
+mod-id = "DItE655o"
+version = "ctCDf4T7"

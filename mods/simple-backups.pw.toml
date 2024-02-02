@@ -1,0 +1,13 @@
+name = "Simple Backups"
+filename = "SimpleBackups-1.20.1-3.1.3.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/fzSKSXVK/versions/5Wg3xlFZ/SimpleBackups-1.20.1-3.1.3.jar"
+hash-format = "sha1"
+hash = "0466813448decacfa48b20f035d32366acc5a3fe"
+
+[update]
+[update.modrinth]
+mod-id = "fzSKSXVK"
+version = "5Wg3xlFZ"

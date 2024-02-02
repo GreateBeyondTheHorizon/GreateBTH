@@ -1,0 +1,13 @@
+name = "FerriteCore"
+filename = "ferritecore-6.0.1-forge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/uXXizFIs/versions/DG5Fn9Sz/ferritecore-6.0.1-forge.jar"
+hash-format = "sha1"
+hash = "417fb6ce8f52abf40bd9d0390371790f9576f8ba"
+
+[update]
+[update.modrinth]
+mod-id = "uXXizFIs"
+version = "DG5Fn9Sz"

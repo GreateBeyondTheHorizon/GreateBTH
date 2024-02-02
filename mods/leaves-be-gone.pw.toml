@@ -1,0 +1,13 @@
+name = "Leaves Be Gone"
+filename = "LeavesBeGone-v8.0.0-1.20.1-Forge.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/AVq17PqV/versions/slScQFdb/LeavesBeGone-v8.0.0-1.20.1-Forge.jar"
+hash-format = "sha1"
+hash = "c5043f862be7db76892c7c0c95d02fa3f8332af0"
+
+[update]
+[update.modrinth]
+mod-id = "AVq17PqV"
+version = "slScQFdb"

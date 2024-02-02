@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "polished_rose_quartz",
+    "glass_tube",
+    "copper_wires"
+  ],
+  "tasks": {
+    "2F61603627D4479A": {
+      "type": "heracles:item",
+      "item": "gtceu:vacuum_tube",
+      "amount": 2,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"2F61603627D4479A\" quest=\"52E3FAD05EAC41C7\"/>",
+      "<hr/>",
+      "Another circuit subcomponent."
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings..": {
+        "position": [
+          -144,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:vacuum_tube",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Vacuum Tubes"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

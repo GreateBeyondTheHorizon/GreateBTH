@@ -1,13 +1,13 @@
 name = "Stargate Journey"
-filename = "Stargate Journey-1.20.1-0.6.17 Hotfix.jar"
+filename = "Stargate Journey-1.20.1-0.6.19.jar"
 side = "both"
 
 [download]
+url = "https://cdn.modrinth.com/data/qlc8dxM6/versions/ohoYFfek/Stargate%20Journey-1.20.1-0.6.19.jar"
 hash-format = "sha1"
-hash = "ce6ae270eb427aa0c1f4c914378d439b638732b3"
-mode = "metadata:curseforge"
+hash = "0fbb9ac778b70530479dabf3a0c420a84728731a"
 
 [update]
-[update.curseforge]
-file-id = 5049956
-project-id = 689083
+[update.modrinth]
+mod-id = "qlc8dxM6"
+version = "ohoYFfek"

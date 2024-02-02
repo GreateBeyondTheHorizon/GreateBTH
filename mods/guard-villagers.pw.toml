@@ -3,11 +3,11 @@ filename = "guardvillagers-1.20.1-1.6.3.jar"
 side = "both"
 
 [download]
+url = "https://cdn.modrinth.com/data/H1sntfo8/versions/APAV3nRX/guardvillagers-1.20.1-1.6.3.jar"
 hash-format = "sha1"
 hash = "a3e0c8f2d074e9b3291ddd8701cbf645fd373cb9"
-mode = "metadata:curseforge"
 
 [update]
-[update.curseforge]
-file-id = 4800776
-project-id = 360203
+[update.modrinth]
+mod-id = "H1sntfo8"
+version = "APAV3nRX"
