@@ -1,28 +1,34 @@
 {
-  "settings": {},
   "dependencies": [
     "2ED30AD428BCB890"
   ],
   "tasks": {
     "5E3A4FA09174C7E8": {
       "type": "heracles:item",
+      "item": "minecraft:paper",
       "amount": 16,
-      "item": "minecraft:paper"
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {},
   "display": {
-    "title": "Paper",
+    "subtitle": {
+      "text": ""
+    },
     "description": [
       "<task task=\"5E3A4FA09174C7E8\" quest=\"1B79FFBFC443B680\"/>",
       "<hr/>",
       "Im not making an Undertale reference. No, I will not referece Papyrus.",
       "This paper is made with sugarcane and gigachad, or just chad if you are not automating it."
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "minecraft:paper"
-    },
     "groups": {
       "ULV/ULS - Humble Beginnings..": {
         "position": [
@@ -30,6 +36,24 @@
           16
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:paper",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Paper"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }
