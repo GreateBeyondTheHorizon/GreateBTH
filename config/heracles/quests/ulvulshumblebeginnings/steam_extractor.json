@@ -5,7 +5,7 @@
   "tasks": {
     "35995E201BBE557D": {
       "type": "heracles:item",
-      "item": "itemfilters:or",
+      "item": "#gbth:steam_extractors",
       "nbt": {
         "items": [
           {
