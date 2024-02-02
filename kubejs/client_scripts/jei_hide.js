@@ -2,6 +2,7 @@ JEIEvents.hideItems(event => {
 	//Create
 	event.hide(/create:(.*)_sheet/)
 	event.hide(/create:crushed_raw_(.*)/)
+	event.hide('create:electron_tube')
 
 	//Wands
 	event.hide("constructionwand:core_angel")
