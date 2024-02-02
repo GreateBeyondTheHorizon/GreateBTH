@@ -1,0 +1,73 @@
+{
+  "dependencies": [
+    "no_not_that_coke"
+  ],
+  "tasks": {
+    "14DABD0A5524E40B": {
+      "type": "heracles:item",
+      "item": "gtceu:coke_gem",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "32D4D08DF57700CD": {
+      "type": "heracles:item",
+      "item": "minecraft:charcoal",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"14DABD0A5524E40B\" quest=\"62932011FE13E3F5\"/>",
+      "<task task=\"32D4D08DF57700CD\" quest=\"62932011FE13E3F5\"/>",
+      "<hr/>",
+      "There are a few different fuels you can make with your new coke oven. I suggest you find a fuel that suits you and automate it."
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings..": {
+        "position": [
+          -80,
+          -192
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:coke_gem",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Pyrolysis"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

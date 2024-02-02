@@ -1,0 +1,86 @@
+{
+  "dependencies": [
+    "pump_it_up",
+    "bronze_brick_casing"
+  ],
+  "tasks": {
+    "2127715A3FA7DD66": {
+      "type": "heracles:item",
+      "item": "#gbth:lp_steam_boilers",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "gtceu:lp_steam_solid_boiler"
+          },
+          {
+            "Count": 1,
+            "id": "gtceu:hp_steam_solid_boiler"
+          },
+          {
+            "Count": 1,
+            "id": "gtceu:lp_steam_liquid_boiler"
+          },
+          {
+            "Count": 1,
+            "id": "gtceu:hp_steam_liquid_boiler"
+          }
+        ]
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Steam Boilers",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"2127715A3FA7DD66\" quest=\"5BBE7DCE67C99A3D\"/>",
+      "<hr/>",
+      "You have three choices for creating steam: Solid Boilers, Liquid Boilers, and Solar Boilers. ",
+      "",
+      "**Solid Boilers** use solid fuels, like coal or wood. ",
+      "**Liquid Boilers** use liquid fuels, like lava or creosote. ",
+      "**Solar Boilers** use the power of the sun.",
+      "<br/>",
+      "There are also two variants of each boiler type: low pressure and high pressure. High pressure boilers produce more steam and consume more fuel than low pressure boilers, but they are more expensive to make.",
+      "<br/>",
+      "Alongside fuel, you must provide water to your boiler, or I will play \"Me and the Birds by Duster\" on full blast.",
+      "<br/>",
+      "Machines require a constant supply of steam while running or else the process will stop and the progress of the recipe will be lost."
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings..": {
+        "position": [
+          -112,
+          -112
+        ]
+      }
+    },
+    "icon": {
+      "item": "#gbth:lp_steam_boilers",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Steam Boilers"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

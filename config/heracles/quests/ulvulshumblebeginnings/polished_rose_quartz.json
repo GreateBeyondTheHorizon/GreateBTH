@@ -1,0 +1,118 @@
+{
+  "dependencies": [
+    "a_hell_of_an_adventure"
+  ],
+  "tasks": {
+    "2E5A3536DCC520CF": {
+      "type": "heracles:item",
+      "item": "minecraft:redstone",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "0034C88F9C227326": {
+      "type": "heracles:item",
+      "item": "create:rose_quartz",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "3D12BF8F2C59D052": {
+      "type": "heracles:item",
+      "item": "minecraft:quartz",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "2E14AE6CA11471FF": {
+      "type": "heracles:item",
+      "item": "#create:sandpaper",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Any #create:sandpaper",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "3C55135313E355D8": {
+      "type": "heracles:item",
+      "item": "create:polished_rose_quartz",
+      "amount": 4,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"3C55135313E355D8\" quest=\"6BEE2F1701C8B70D\"/>",
+      "<task task=\"3D12BF8F2C59D052\" quest=\"6BEE2F1701C8B70D\"/>",
+      "<task task=\"2E5A3536DCC520CF\" quest=\"6BEE2F1701C8B70D\"/>",
+      "<task task=\"2E14AE6CA11471FF\" quest=\"6BEE2F1701C8B70D\"/>",
+      "<task task=\"0034C88F9C227326\" quest=\"6BEE2F1701C8B70D\"/>",
+      "<hr/>",
+      "To polish the rose quartz, put it in either hand and put sandpaper in the other"
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings..": {
+        "position": [
+          -176,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:polished_rose_quartz",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Polished Rose Quartz"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

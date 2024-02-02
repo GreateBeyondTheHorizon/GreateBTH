@@ -1,0 +1,73 @@
+{
+  "dependencies": [
+    "gregtech_tools_and_you"
+  ],
+  "tasks": {
+    "6303171740BCE1AD": {
+      "type": "heracles:item",
+      "item": "gtceu:tin_dust",
+      "amount": 16,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "7C34BE55D098BB41": {
+      "type": "heracles:item",
+      "item": "gtceu:copper_dust",
+      "amount": 48,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"7C34BE55D098BB41\" quest=\"3AC275D73C13A188\"/>",
+      "<task task=\"6303171740BCE1AD\" quest=\"3AC275D73C13A188\"/>",
+      "<hr/>",
+      "Either mortar the ingots, or turn ore to crushed ore and crushed ore to impure dust, which you throw into a cauldron."
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings..": {
+        "position": [
+          -48,
+          -224
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:tin_dust",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Another one bites the dust"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

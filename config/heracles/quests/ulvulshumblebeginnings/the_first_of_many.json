@@ -1,0 +1,64 @@
+{
+  "dependencies": [
+    "vacuum_tubes",
+    "red_alloy_wires",
+    "tin_bucket",
+    "resistor",
+    "resin_printed_circuit_board",
+    "controlling_liquids",
+    "pokey_pokey"
+  ],
+  "tasks": {
+    "183450116A86B09D": {
+      "type": "heracles:item",
+      "item": "gtceu:basic_electronic_circuit",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"183450116A86B09D\" quest=\"6D0407AADC20AB50\"/>",
+      "<hr/>",
+      "Congratulations! Now make more of them as they will be used throughout the next chapter."
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings..": {
+        "position": [
+          0,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:basic_electronic_circuit",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "title": {
+      "translate": "The First of Many"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

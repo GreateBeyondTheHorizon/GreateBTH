@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "the_andesite_age"
+  ],
+  "tasks": {
+    "774D2C75246AF40C": {
+      "type": "heracles:item",
+      "item": "minecraft:bucket",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Dear GOD."
+    },
+    "description": [
+      "<subtitle id=\"32C29B1A338EAF4F\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"774D2C75246AF40C\" quest=\"32C29B1A338EAF4F\"/>",
+      "<hr/>",
+      "Buckets are now made with iron &&nplates&&r, not iron &&ningots&&r.",
+      "Oh, and you need a hammer."
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings..": {
+        "position": [
+          48,
+          -224
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:bucket",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "This is a bucket."
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "the_brass_age"
+  ],
+  "tasks": {
+    "7832120911FCB2B1": {
+      "type": "heracles:item",
+      "item": "create:mechanical_crafter",
+      "amount": 21,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"7832120911FCB2B1\" quest=\"7C0B1306A2275FEE\"/>",
+      "<hr/>",
+      "Enjoy not dying? Make a bunch of mechanical crafters and to craft some armour."
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings..": {
+        "position": [
+          176,
+          -160
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:mechanical_crafter",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Mechanical Crafting"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

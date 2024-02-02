@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "steam_extractor"
+  ],
+  "tasks": {
+    "0C937433794CF082": {
+      "type": "heracles:item",
+      "item": "gtceu:tin_bucket",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"0C937433794CF082\" quest=\"44820AD7D612AE8C\"/>",
+      "<hr/>",
+      "Extract some tin and bucket it. (You should make a more portable way of fluid storage like a GregTech Drum though.)"
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings..": {
+        "position": [
+          -48,
+          64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:tin_bucket",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Tin Bucket"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

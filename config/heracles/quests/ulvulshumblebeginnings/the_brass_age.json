@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "whisky_business"
+  ],
+  "tasks": {
+    "380B71A64491B178": {
+      "type": "heracles:item",
+      "item": "gtceu:brass_ingot",
+      "amount": 7,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"380B71A64491B178\" quest=\"389976279B71DCD8\"/>",
+      "<hr/>",
+      "The brass age. Made from zinc and copper into one, giving you access to some new tools. These will be great from your progress, unless you jump into one of them."
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings..": {
+        "position": [
+          144,
+          -192
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:brass_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "The Brass Age"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

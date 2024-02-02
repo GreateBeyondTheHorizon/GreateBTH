@@ -1,0 +1,73 @@
+{
+  "dependencies": [
+    "the_fun_begins_now"
+  ],
+  "tasks": {
+    "51B9B92753F4677A": {
+      "type": "heracles:item",
+      "item": "create:andesite_casing",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "0BCE402AC980D544": {
+      "type": "heracles:item",
+      "item": "create:andesite_alloy",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"51B9B92753F4677A\" quest=\"7F6BF6CED379C510\"/>",
+      "<task task=\"0BCE402AC980D544\" quest=\"7F6BF6CED379C510\"/>",
+      "<hr/>",
+      "Andesite alloy and casings will be your best friend until you are able to produce steel. they can support up to 8su, or one waterwheel. If any create block confuses you, just hover over them and hold the ponder key."
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings..": {
+        "position": [
+          80,
+          -256
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:andesite_casing",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "The Andesite Age"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "the_andesite_age"
+  ],
+  "tasks": {
+    "1AD2CFD30C66D801": {
+      "title": "I understand",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"1AD2CFD30C66D801\" quest=\"0B29D5C777C71B40\"/>",
+      "<hr/>",
+      "Create now has tiers that mirror GregTech tiers. This means:",
+      "<br/>",
+      "- Stress tiers use the same values as voltage tiers. LV: 32 volts. LS: 32 stress units.",
+      "<br/>",
+      "- Shafts have an SU limit and SU consumption, similar to GregTech wires. Shafts made of different materials have different SU limits and SU consumption.",
+      "<br/>",
+      "- Recipes in Create machines have minimum SU requirements based on tier."
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings..": {
+        "position": [
+          80,
+          -304
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "greate:steel_cogwheel",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Whole new Create... Greate!"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}
