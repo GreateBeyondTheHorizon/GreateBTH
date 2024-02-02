@@ -1,29 +1,35 @@
 {
-  "settings": {},
   "dependencies": [
-    "6BEE2F1701C8B70D",
+    "42041ED4444332C5",
     "32D671F65C901C11",
-    "42041ED4444332C5"
+    "6BEE2F1701C8B70D"
   ],
   "tasks": {
     "2F61603627D4479A": {
       "type": "heracles:item",
+      "item": "gtceu:vacuum_tube",
       "amount": 2,
-      "item": "create:electron_tube"
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {},
   "display": {
-    "title": "Electron tubes",
+    "subtitle": {
+      "text": ""
+    },
     "description": [
       "<task task=\"2F61603627D4479A\" quest=\"52E3FAD05EAC41C7\"/>",
       "<hr/>",
       "Another circuit subcomponent."
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "create:electron_tube"
-    },
     "groups": {
       "ULV/ULS - Humble Beginnings..": {
         "position": [
@@ -31,6 +37,24 @@
           128
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:vacuum_tube",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Vacuum tubes"
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }
