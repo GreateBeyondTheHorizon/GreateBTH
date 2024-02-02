@@ -19,7 +19,7 @@
     },
     "0888DECFE1B14CF3": {
       "type": "heracles:item",
-      "item": "create:mechanical_pump",
+      "item": "greate:andesite_mechanical_pump",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
