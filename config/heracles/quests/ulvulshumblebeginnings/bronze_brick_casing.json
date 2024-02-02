@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "the_first_main_gregtech_material"
+  ],
+  "tasks": {
+    "431A2112ED3305B8": {
+      "type": "heracles:item",
+      "item": "gtceu:bronze_brick_casing",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"431A2112ED3305B8\" quest=\"0E0F851B75290915\"/>",
+      "<hr/>",
+      "Basis for the boilers."
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings..": {
+        "position": [
+          -48,
+          -112
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:bronze_brick_casing",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Bronze Brick Casing"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

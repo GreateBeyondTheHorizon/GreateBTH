@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "dough"
+  ],
+  "tasks": {
+    "0B17999C579A39AD": {
+      "type": "heracles:item",
+      "item": "gtceu:sticky_resin",
+      "amount": 32,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"0B17999C579A39AD\" quest=\"0C0ACACCE8DF5AF0\"/>",
+      "<hr/>",
+      "Great for making rubber and glue. No horses were harmed in the glue-making process."
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings..": {
+        "position": [
+          48,
+          16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:sticky_resin",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "LET'S GET GOOPY!"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

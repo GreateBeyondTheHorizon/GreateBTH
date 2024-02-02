@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "brass_hands"
+  ],
+  "tasks": {
+    "106BF1877C826D19": {
+      "type": "heracles:item",
+      "item": "create:deployer",
+      "amount": 3,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"106BF1877C826D19\" quest=\"0F9B668F0719D7EA\"/>",
+      "<hr/>",
+      "The deployer, where to start. It's essentially a hands-off right clicking machine, it can place blocks and are the main machines involved with sequenced assembly."
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings..": {
+        "position": [
+          96,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:deployer",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Pokey Pokey!"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "dependencies": [
+    "steel_ingot"
+  ],
+  "tasks": {
+    "2F55501FDA08CA0D": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "from": "minecraft:overworld",
+      "to": "minecraft:the_nether",
+      "title": "Go to the nether",
+      "type": "heracles:changed_dimension"
+    },
+    "132BA49F0AB67A10": {
+      "type": "heracles:item",
+      "item": "minecraft:flint_and_steel",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"2F55501FDA08CA0D\" quest=\"0D9DE4E42D6778A9\"/>",
+      "<task task=\"132BA49F0AB67A10\" quest=\"0D9DE4E42D6778A9\"/>",
+      "<hr/>",
+      "Get yourself a flint and steel and head to the Nether. You will find many new resources there, including quartz, which is an important component in crafting your first circuit."
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings..": {
+        "position": [
+          -176,
+          16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:flint_and_steel",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "A Hell of an Adventure"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

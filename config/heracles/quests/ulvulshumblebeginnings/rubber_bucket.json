@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "pulp_fiction"
+  ],
+  "tasks": {
+    "1A7E28941D479212": {
+      "type": "heracles:item",
+      "item": "gtceu:rubber_bucket",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"1A7E28941D479212\" quest=\"1DA36C305C53D0E8\"/>",
+      "<hr/>",
+      "Rubber insulates wires and allows you to make the plunger and a better soft mallet."
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings..": {
+        "position": [
+          16,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:rubber_bucket",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Rubber Bucket"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

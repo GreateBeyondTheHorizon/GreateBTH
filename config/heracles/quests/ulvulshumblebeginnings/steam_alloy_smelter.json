@@ -1,0 +1,67 @@
+{
+  "dependencies": [
+    "steam_boilers"
+  ],
+  "tasks": {
+    "721610F74D7E07A3": {
+      "type": "heracles:item",
+      "item": "#gbth:steam_alloy_smelters",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "gtceu:lp_steam_alloy_smelter"
+          },
+          {
+            "Count": 1,
+            "id": "gtceu:hp_steam_alloy_smelter"
+          }
+        ]
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"721610F74D7E07A3\" quest=\"3DFF65B08C971881\"/>",
+      "<hr/>",
+      "Makes alloys at cheaper prices."
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings..": {
+        "position": [
+          -112,
+          -49
+        ]
+      }
+    },
+    "icon": {
+      "item": "#gbth:steam_alloy_smelters",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Steam Alloy Smelter"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

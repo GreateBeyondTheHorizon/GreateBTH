@@ -1,0 +1,73 @@
+{
+  "dependencies": [
+    "gregtech_tools_and_you"
+  ],
+  "tasks": {
+    "4709AEDDB10EDB09": {
+      "type": "heracles:item",
+      "item": "gtceu:coke_oven_bricks",
+      "amount": 25,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "6EDE5219978B1D4A": {
+      "type": "heracles:item",
+      "item": "gtceu:coke_oven",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"4709AEDDB10EDB09\" quest=\"7013B83A848D32F0\"/>",
+      "<task task=\"6EDE5219978B1D4A\" quest=\"7013B83A848D32F0\"/>",
+      "<hr/>",
+      "The coke oven Pyrolises fuel into better ones, as well as produces creosote oil, which is honestly a somewhat ok fuel later on and allows you to make treated wood."
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings..": {
+        "position": [
+          -112,
+          -224
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:coke_oven",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "No, not that Coke. Not that Coke either!"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}
