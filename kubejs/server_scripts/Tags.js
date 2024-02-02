@@ -12,7 +12,6 @@ ServerEvents.tags('item', event => {
 		'minecraft:stripped_crimson_hyphae',
 		'minecraft:crimson_hyphae',
 	])
-	event.add('forge:tools/saws', 'kubejs:flint_saw')
 	event.add('forge:armors', /ad_astra:jet(.*)/)
 	event.add('forge:armors', /ad_astra:(.*)space(.*)/)
 
