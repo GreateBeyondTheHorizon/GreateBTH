@@ -1,93 +1,124 @@
 ServerEvents.recipes(event => {
-	const backpack = [
-		'sophisticatedbackpacks:backpack', 'sophisticatedbackpacks:upgrade_base', 'sophisticatedbackpacks:filter_upgrade', 'sophisticatedbackpacks:advanced_filter_upgrade',
-		'sophisticatedbackpacks:tool_swapper_upgrade', 'sophisticatedbackpacks:advanced_tool_swapper_upgrade', 'sophisticatedbackpacks:advanced_magnet_upgrade', 
-		'sophisticatedbackpacks:magnet_upgrade', 'sophisticatedbackpacks:stack_upgrade_tier_3', 'sophisticatedbackpacks:stack_upgrade_tier_1', 'sophisticatedbackpacks:restock_upgrade',
-		'sophisticatedbackpacks:advanced_restock_upgrade', 'sophisticatedbackpacks:advanced_void_upgrade', 'sophisticatedbackpacks:feeding_upgrade', 'sophisticatedbackpacks:advanced_refill_upgrade', 
-		'sophisticatedbackpacks:stack_upgrade_tier_4', 'sophisticatedbackpacks:stack_upgrade_tier_2', 'sophisticatedbackpacks:advanced_deposit_upgrade', 'sophisticatedbackpacks:deposit_upgrade', 
-		'sophisticatedbackpacks:void_upgrade', 'sophisticatedbackpacks:advanced_feeding_upgrade', 'sophisticatedbackpacks:refill_upgrade',
-		'sophisticatedbackpacks:iron_backpack', 'sophisticatedbackpacks:gold_backpack', 'sophisticatedbackpacks:advanced_pickup_upgrade', 'sophisticatedbackpacks:pickup_upgrade',
-		'sophisticatedbackpacks:diamond_backpack','sophisticatedbackpacks:inception_upgrade',
-		'sophisticatedbackpacks:everlasting_upgrade', 'sophisticatedbackpacks:auto_blasting_upgrade', 
-		'sophisticatedbackpacks:auto_smoking_upgrade', 'sophisticatedbackpacks:auto_smelting_upgrade', 
-		'sophisticatedbackpacks:crafting_upgrade', 'sophisticatedbackpacks:smoking_upgrade',
-		'sophisticatedbackpacks:stonecutter_upgrade', 'sophisticatedbackpacks:tank_upgrade',
-		'sophisticatedbackpacks:battery_upgrade', 'sophisticatedbackpacks:advanced_pump_upgrade', 
-		'sophisticatedbackpacks:xp_pump_upgrade', 'sophisticatedbackpacks:smelting_upgrade', 'sophisticatedbackpacks:advanced_compacting_upgrade',
-		'sophisticatedbackpacks:pump_upgrade', 'sophisticatedbackpacks:blasting_upgrade', 'sophisticatedbackpacks:compacting_upgrade'
-	]
-	
-	backpack.forEach((element) => event.remove({output: element}))
-	
+	event.remove({mod: 'sophisticatedbackpacks'})
+
+	// Custom backpackUpgrade Recipe
+	var SophisticatedBackpacks = {
+    	backpackUpgrade: function (resultItem, pattern, keys) {
+			event.custom({
+				type: 'sophisticatedbackpacks:backpack_upgrade',
+				result: resultItem,
+				pattern: pattern,
+				key: this.toKeyList(keys)
+			})
+		},
+
+		toKeyList: function(data) {
+			const transformed = {};
+			for (const key in data) {
+			  transformed[key] = Ingredient.of(data[key]).toJson();
+			}
+			return transformed;
+		},
+
+		makeAdvanced: function(id) {
+			event.shaped(
+				Item.of('sophisticatedbackpacks:advanced_'+id, 1),
+				[
+					'ABA',
+					'BCB',
+					'ABA'
+				],
+				{
+					A:'#forge:plates/brass',
+					B:'#forge:plates/stainless_steel',
+					C:'sophisticatedbackpacks:'+id, 
+				}
+			)
+		}
+	}
+
 	//DEFAULT
 	event.shaped(
 		Item.of('sophisticatedbackpacks:backpack', 1),
 		[
-			'FAF',
-			'ECE',
+			'F F',
+			'EAE',
 			'BDB'
 		],
 		{
 			A:'minecraft:chest',
 			B:'minecraft:leather',
-			C:'botania:flower_bag',
 			D:'gtceu:bronze_plate',
-			E:'gtceu:potin_gear',
+			E:'gtceu:bronze_gear',
 			F:'minecraft:chain'  
 		}
 	)
 
 	//IRON
-	event.shaped(
+	SophisticatedBackpacks.backpackUpgrade(
 		Item.of('sophisticatedbackpacks:iron_backpack', 1),
 		[
-      'FAF',
+      		'F F',
 			'ECE',
 			'BDB'
 			
 		],
 		{
-			A:'ironchest:iron_chest',
 			B:'minecraft:leather',
 			C:'sophisticatedbackpacks:backpack',
 			D:'gtceu:steel_plate',
-      E:'gtceu:steel_gear',
+      		E:'gtceu:steel_gear',
 			F:'minecraft:chain'
 		}
-  )
+  	)
 
 	//Gold
-	event.shaped(
+	SophisticatedBackpacks.backpackUpgrade(
 		Item.of('sophisticatedbackpacks:gold_backpack', 1),
 		[
-      'FAF',
+  			'F F',
 			'ECE',
 			'BDB'
 		],
 		{
-			A:'ironchest:gold_chest',
 			B:'gtceu:manganese_phosphide_ingot',
 			C:'sophisticatedbackpacks:iron_backpack',
 			D:'gtceu:aluminium_plate',
-      E:'gtceu:aluminium_gear',
+      		E:'gtceu:aluminium_gear',
 			F:'minecraft:chain'
 		}
 	)
 	
 	//Diamond
-	event.shaped(
+	SophisticatedBackpacks.backpackUpgrade(
 		Item.of('sophisticatedbackpacks:diamond_backpack', 1),
 		[
-			'FAF',
+			'F F',
 			'ECE',
 			'BDB'
 		],
 		{
-			A:'ironchest:diamond_chest',
 			B:'gtceu:diamond_flawless_gem',
 			C:'sophisticatedbackpacks:gold_backpack',
 			D:'gtceu:polyvinyl_chloride_plate',
 			E:'gtceu:stainless_steel_gear',
+			F:'minecraft:chain'
+		}
+	)
+	
+	//Netherite
+	SophisticatedBackpacks.backpackUpgrade(
+		Item.of('sophisticatedbackpacks:netherite_backpack', 1),
+		[
+			'F F',
+			'ECE',
+			'BDB'
+		],
+		{
+			B:'#forge:ingots/netherite',
+			C:'sophisticatedbackpacks:gold_backpack',
+			D:'#forge:plates/ultimet',
+			E:'#forge:gears/titanium',
 			F:'minecraft:chain'
 		}
 	)
@@ -101,12 +132,12 @@ ServerEvents.recipes(event => {
 			'ABA'
 		],
 		{
-			A:'minecraft:bricks',
-			B:'gtceu:iron_plate',
-			C:'gtceu:annealed_copper_plate', 
+			A:'#forge:leather',
+			B:'#forge:plates/iron',
+			C:'#forge:plates/annealed_copper',
 			D:'#gtceu:circuits/lv'
 		}
-  )
+  	)
 
 	//COMPACTING UPGRADE
 	event.shaped(
@@ -120,25 +151,11 @@ ServerEvents.recipes(event => {
 			A:'gtceu:iron_plate',
 			B:'#gtceu:circuits/mv',
 			C:'sophisticatedbackpacks:upgrade_base', 
-			D:'gtceu:aluminium_hammer',
+			D:'#forge:storage_blocks/steel',
 			E:'minecraft:piston'
 		}
-  )
-
-	//ADVANCED COMPACTING UPGRADE
-	event.shaped(
-		Item.of('sophisticatedbackpacks:advanced_compacting_upgrade', 1),
-		[
-			'ABA',
-			'BCB',
-			'ABA'
-		],
-		{
-			A:'gtceu:gold_plate',
-			B:'gtceu:stainless_steel_double_plate',
-			C:'sophisticatedbackpacks:compacting_upgrade', 
-		}
-  )
+  	)
+	SophisticatedBackpacks.makeAdvanced('compacting_upgrade')
 
 	//PICKUP UPGRADE
 	event.shaped(
@@ -155,22 +172,8 @@ ServerEvents.recipes(event => {
 			D:'minecraft:sticky_piston',
 			E:'gtceu:red_alloy_ingot'
 		}
-  )
-
-	//ADVANCED PICKUP UPGRADE
-	event.shaped(
-		Item.of('sophisticatedbackpacks:advanced_pickup_upgrade', 1),
-		[
-			'ABA',
-			'BCB',
-			'ABA'
-		],
-		{
-			A:'gtceu:gold_plate',
-			B:'gtceu:stainless_steel_double_plate',
-			C:'sophisticatedbackpacks:pickup_upgrade', 
-		}
-  )
+  	)
+	  SophisticatedBackpacks.makeAdvanced('pickup_upgrade')
 
 	//DEPOSIT UPGRADE
 	event.shaped(
@@ -187,22 +190,8 @@ ServerEvents.recipes(event => {
 			D:'minecraft:chest',
 			E:'minecraft:sticky_piston'
 		}
-  )
-
-	//ADVANCED PICKUP UPGRADE
-	event.shaped(
-		Item.of('sophisticatedbackpacks:advanced_deposit_upgrade', 1),
-		[
-			'ABA',
-			'BCB',
-			'ABA'
-		],
-		{
-			A:'gtceu:gold_plate',
-			B:'gtceu:stainless_steel_double_plate',
-			C:'sophisticatedbackpacks:deposit_upgrade', 
-		}
-  )
+  	)
+	SophisticatedBackpacks.makeAdvanced('deposit_upgrade')
 	
 	//RESTOCK UPGRADE
 	event.shaped(
@@ -219,22 +208,8 @@ ServerEvents.recipes(event => {
 			D:'minecraft:chest',
 			E:'minecraft:piston'
 		}
-  )
-
-	//ADVANCED RESTOCK UPGRADE
-	event.shaped(
-		Item.of('sophisticatedbackpacks:advanced_restock_upgrade', 1),
-		[
-			'ABA',
-			'BCB',
-			'ABA'
-		],
-		{
-			A:'gtceu:gold_plate',
-			B:'gtceu:stainless_steel_double_plate',
-			C:'sophisticatedbackpacks:restock_upgrade', 
-		}
-  )
+  	)
+	SophisticatedBackpacks.makeAdvanced('restock_upgrade')
 	
 	//VOID UPGRADE
 	event.shaped(
@@ -248,60 +223,29 @@ ServerEvents.recipes(event => {
 			A:'gtceu:iron_plate',
 			B:'#gtceu:circuits/mv',
 			C:'sophisticatedbackpacks:upgrade_base', 
-			D:'gtceu:aluminium_hammer', //TRASHCAN IF ADDED
+			D:'#forge:gems/ender_pearl',
 			E:'gtceu:obsidian_plate'
 		}
-  )
-
-	//ADVANCED VOID UPGRADE
-	event.shaped(
-		Item.of('sophisticatedbackpacks:advanced_void_upgrade', 1),
-		[
-			'ABA',
-			'BCB',
-			'ABA'
-		],
-		{
-			A:'gtceu:gold_plate',
-			B:'gtceu:stainless_steel_double_plate',
-			C:'sophisticatedbackpacks:void_upgrade', 
-		}
-  )
+  	)
+	SophisticatedBackpacks.makeAdvanced('void_upgrade')
 	
 	//FEEDING UPGRADE
 	event.shaped(
 		Item.of('sophisticatedbackpacks:feeding_upgrade', 1),
 		[
-			'ADA',
+			'A A',
 			'FCE',
-			'GBH'
+			'ABA'
 		],
 		{
 			A:'gtceu:iron_plate',
 			B:'#gtceu:circuits/mv',
-			C:'sophisticatedbackpacks:upgrade_base', 
-			D:'minecraft:milk_bucket',
-			E:'@pamhc2foodcore',
-			F:'@pamhc2foodextended',
-			G:'minecraft:golden_apple',
-			H:'minecraft:golden_carrot'
+			C:'sophisticatedstorage:upgrade_base', 
+			E:'gtceu:lv_conveyor_module',
+			F:'gtceu:lv_robot_arm'
 		}
-  )
-
-	//ADVANCED FEEDING UPGRADE
-	event.shaped(
-		Item.of('sophisticatedbackpacks:advanced_feeding_upgrade', 1),
-		[
-			'ABA',
-			'BCB',
-			'ABA'
-		],
-		{
-			A:'gtceu:gold_plate',
-			B:'gtceu:stainless_steel_double_plate',
-			C:'sophisticatedbackpacks:feeding_upgrade', 
-		}
-	)
+  	)
+	SophisticatedBackpacks.makeAdvanced('feeding_upgrade')
 	
 	//REFILL UPGRADE
 	event.shaped(
@@ -318,22 +262,8 @@ ServerEvents.recipes(event => {
 			D:'gtceu:ender_pearl_dust',
 			E:'minecraft:chest'
 		}
-  )
-
-	//ADVANCED REFILL UPGRADE
-	event.shaped(
-		Item.of('sophisticatedbackpacks:advanced_refill_upgrade', 1),
-		[
-			'ABA',
-			'BCB',
-			'ABA'
-		],
-		{
-			A:'gtceu:gold_plate',
-			B:'gtceu:stainless_steel_double_plate',
-			C:'sophisticatedbackpacks:refill_upgrade', 
-		}
-	)
+  	)
+	SophisticatedBackpacks.makeAdvanced('refill_upgrade')
 	
 	//MAGNET UPGRADE
 	event.shaped(
@@ -350,22 +280,8 @@ ServerEvents.recipes(event => {
 			D:'gtceu:magnetic_steel_rod',
 			E:'gtceu:ender_pearl_dust'
 		}
-  )
-
-	//ADVANCED MAGNET UPGRADE
-	event.shaped(
-		Item.of('sophisticatedbackpacks:advanced_magnet_upgrade', 1),
-		[
-			'ABA',
-			'BCB',
-			'ABA'
-		],
-		{
-			A:'gtceu:gold_plate',
-			B:'gtceu:stainless_steel_double_plate',
-			C:'sophisticatedbackpacks:magnet_upgrade', 
-		}
-  )
+  	)
+	SophisticatedBackpacks.makeAdvanced('magnet_upgrade')
 
 	//FILTER UPGRADE
 	event.shaped(
@@ -382,22 +298,8 @@ ServerEvents.recipes(event => {
 			D:'gtceu:item_filter',
 			E:'gtceu:red_alloy_ingot'
 		}
-  )
-
-	//ADVANCED FILTER UPGRADE
-	event.shaped(
-		Item.of('sophisticatedbackpacks:advanced_filter_upgrade', 1),
-		[
-			'ABA',
-			'BCB',
-			'ABA'
-		],
-		{
-			A:'gtceu:gold_plate',
-			B:'gtceu:stainless_steel_double_plate',
-			C:'sophisticatedbackpacks:filter_upgrade', 
-		}
-	)
+ 	)
+	SophisticatedBackpacks.makeAdvanced('filter_upgrade')
 	
 	//TOOL SWAP UPGRADE
 	event.shaped(
@@ -415,20 +317,62 @@ ServerEvents.recipes(event => {
 			E:'#forge:tools/screwdrivers',
 			F:'#forge:tools/wire_cutters'
 		}
-  )
+  	)
+	SophisticatedBackpacks.makeAdvanced('tool_swapper_upgrade')
 
-	//ADVANCED PICKUP UPGRADE
+	//JUKEBOX UPGRADE
 	event.shaped(
-		Item.of('sophisticatedbackpacks:advanced_tool_swapper_upgrade', 1),
+		Item.of('sophisticatedbackpacks:jukebox_upgrade', 1),
 		[
-			'ABA',
-			'BCB',
-			'ABA'
+			'AJA',
+			'RBR'
 		],
 		{
-			A:'gtceu:gold_plate',
-			B:'gtceu:stainless_steel_double_plate',
-			C:'sophisticatedbackpacks:tool_swapper_upgrade', 
+			A:'#forge:screws/iron',
+			B:'sophisticatedbackpacks:upgrade_base',
+			J:'minecraft:jukebox',
+			R:'#forge:ingots/red_alloy'
 		}
-  )
+	)
+
+	//STONECUTTER UPGRADE
+	event.shaped(
+		Item.of('sophisticatedbackpacks:stonecutter_upgrade', 1),
+		[
+			'AJA',
+			'RBR'
+		],
+		{
+			A:'#forge:screws/iron',
+			B:'sophisticatedbackpacks:upgrade_base',
+			J:'minecraft:stonecutter',
+			R:'#gtceu:circuits/ulv'
+		}
+	)
+
+	//CHIPPED UPGRADES
+	const chipped_tables = [
+		'botanist_workbench',
+		'glassblower',
+		'carpenters_table',
+		'loom_table',
+		'mason_table',
+		'alchemy_bench',
+		'tinkering_table'
+	]
+	chipped_tables.forEach(table => {
+		event.shaped(
+			Item.of('sophisticatedbackpacks:chipped/'+table+'_upgrade', 1),
+			[
+				'AJA',
+				'RBR'
+			],
+			{
+				A:'#forge:screws/iron',
+				B:'sophisticatedbackpacks:upgrade_base',
+				J:'chipped:'+table,
+				R:'#gtceu:circuits/ulv'
+			}
+		)
+	})
 })
