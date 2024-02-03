@@ -13,6 +13,7 @@ global.Quality = {
 
 global.AE2 = {
 	CellSizes: ['1k', '4k', '16k', '64k', '256k'],
+	SpatialCellSizes: [2, 16, 128],
 	WaferMaterialQualities: {
 		'silicon': global.Quality.UltraLow,
 		'phosphorus': global.Quality.Low,
