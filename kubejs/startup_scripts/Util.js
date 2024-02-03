@@ -1,24 +1,22 @@
 // priority: 0
 global.Util = {
+	// Returns the index of the given value within the given object. This can act like a tier within
+	// the object if the object is structured like it has tiers. global.Quality is an example of one such object.
+	objectToTier: function (value, object) {
+		let index = Object.values(object).findIndex(item => item === value)
+		if (index == -1)
+			console.error("No Tier exists within object for value: '" + quality + "'")
+		return index
+	},
+
+	tierColor: function (tier) {
+		return GTValues.VNF[tier]
+	},
+
 	qualityTooltip: function (quality) {
 		const formattedQualityString = global.TextUtil.snakeToTitleCase(global.TextUtil.keepBefore(quality, '_quality'))
 		let formattedColorQualityString = Text.of(formattedQualityString)
-		switch (quality) {
-			case global.Quality.UltraLow:
-				formattedColorQualityString.white()
-				break
-			case global.Quality.Low:
-				formattedColorQualityString.gray()
-				break
-			case global.Quality.Medium:
-				formattedColorQualityString.aqua()
-				break
-			case global.Quality.High:
-				formattedColorQualityString.gold()
-				break
-			default:
-			   console.error("Unknown Quality value: '" + quality + "'")
-		}
+			.color(global.Util.tierColor(global.Util.objectToTier(quality, global.Quality)))
 		return Text.darkGray('Quality: ').append(formattedColorQualityString)
 	},
 }
