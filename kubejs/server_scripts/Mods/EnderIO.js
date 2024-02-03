@@ -1,4 +1,6 @@
 ServerEvents.recipes(event => {
+	event.remove({ id: 'enderio:stick' })
+
 	// Remove power-related blocks
 	event.remove({ output: 'enderio:stirling_generator' })
 	event.remove({ output: 'enderio:soul_engine' })
