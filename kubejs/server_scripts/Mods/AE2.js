@@ -1,4 +1,3 @@
-// priority: 0
 ServerEvents.recipes(event => {
 	event.remove({ output: 'ae2:controller' })
 	event.remove({ output: 'ae2:energy_acceptor'})
@@ -273,114 +272,43 @@ ServerEvents.recipes(event => {
 	 		D:'kubejs:infinity_me_storage_wafer'
 	 	}
 	)
-
-	//Wafers
-	event.recipes.gtceu.cutter('kubejs:cutting_1k_wafer_lubricant')
-		.duration(500)
-		.inputFluids(Fluid.of('gtceu:lubricant', 250))
-		.itemInputs('kubejs:1k_me_storage_wafer')
-		.itemOutputs('16x kubejs:1k_me_storage_base')
-		.EUt(32767)
-
-	event.recipes.gtceu.cutter('kubejs:cutting_1k_wafer_distilled_water')
-		.duration(1350)
-		.inputFluids(Fluid.of('gtceu:distilled_water', 750))
-		.itemInputs('kubejs:1k_me_storage_wafer')
-		.itemOutputs('16x kubejs:1k_me_storage_base')
-		.EUt(32767)
-
-	event.recipes.gtceu.cutter('kubejs:cutting_1k_wafer_water')
-		.duration(1800)
-		.inputFluids(Fluid.of('minecraft:water', 1000))
-		.itemInputs('kubejs:1k_me_storage_wafer')
-		.itemOutputs('16x kubejs:1k_me_storage_base')
-		.EUt(32767)
-
-
-	event.recipes.gtceu.cutter('kubejs:cutting_4k_wafer_lubricant')
-		.duration(500)
-		.inputFluids(Fluid.of('gtceu:lubricant', 250))
-		.itemInputs('kubejs:4k_me_storage_wafer')
-		.itemOutputs('16x kubejs:4k_me_storage_base')
-		.EUt(32767)
-
-	event.recipes.gtceu.cutter('kubejs:cutting_4k_wafer_distilled_water')
-		.duration(1350)
-		.inputFluids(Fluid.of('gtceu:distilled_water', 750))
-		.itemInputs('kubejs:4k_me_storage_wafer')
-		.itemOutputs('16x kubejs:4k_me_storage_base')
-		.EUt(32767)
-
-	event.recipes.gtceu.cutter('kubejs:cutting_4k_wafer_water')
-		.duration(1800)
-		.inputFluids(Fluid.of('minecraft:water', 1000))
-		.itemInputs('kubejs:4k_me_storage_wafer')
-		.itemOutputs('16x kubejs:4k_me_storage_base')
-		.EUt(32767)
-
-
-	event.recipes.gtceu.cutter('kubejs:cutting_16k_wafer_lubricant')
-		.duration(500)
-		.inputFluids(Fluid.of('gtceu:lubricant', 250))
-		.itemInputs('kubejs:16k_me_storage_wafer')
-		.itemOutputs('16x kubejs:16k_me_storage_base')
-		.EUt(32767)
-
-	event.recipes.gtceu.cutter('kubejs:cutting_16k_wafer_distilled_water')
-		.duration(1350)
-		.inputFluids(Fluid.of('gtceu:distilled_water', 750))
-		.itemInputs('kubejs:16k_me_storage_wafer')
-		.itemOutputs('16x kubejs:16k_me_storage_base')
-		.EUt(32767)
-
-	event.recipes.gtceu.cutter('kubejs:cutting_16k_wafer_water')
-		.duration(1800)
-		.inputFluids(Fluid.of('minecraft:water', 1000))
-		.itemInputs('kubejs:16k_me_storage_wafer')
-		.itemOutputs('16x kubejs:16k_me_storage_base')
-		.EUt(32767)
-
-
-	event.recipes.gtceu.cutter('kubejs:cutting_64k_wafer_lubricant')
-		.duration(500)
-		.inputFluids(Fluid.of('gtceu:lubricant', 250))
-		.itemInputs('kubejs:64k_me_storage_wafer')
-		.itemOutputs('16x kubejs:64k_me_storage_base')
-		.EUt(32767)
-
-	event.recipes.gtceu.cutter('kubejs:cutting_64k_wafer_distilled_water')
-		.duration(1350)
-		.inputFluids(Fluid.of('gtceu:distilled_water', 750))
-		.itemInputs('kubejs:64k_me_storage_wafer')
-		.itemOutputs('16x kubejs:64k_me_storage_base')
-		.EUt(32767)
-
-	event.recipes.gtceu.cutter('kubejs:cutting_64k_wafer_water')
-		.duration(1800)
-		.inputFluids(Fluid.of('minecraft:water', 1000))
-		.itemInputs('kubejs:64k_me_storage_wafer')
-		.itemOutputs('16x kubejs:64k_me_storage_base')
-		.EUt(32767)
-
-
-	event.recipes.gtceu.cutter('kubejs:cutting_256k_wafer_lubricant')
-		.duration(500)
-		.inputFluids(Fluid.of('gtceu:lubricant', 250))
-		.itemInputs('kubejs:256k_me_storage_wafer')
-		.itemOutputs('16x kubejs:256k_me_storage_base')
-		.EUt(32767)
-
-	event.recipes.gtceu.cutter('kubejs:cutting_256k_wafer_distilled_water')
-		.duration(1350)
-		.inputFluids(Fluid.of('gtceu:distilled_water', 750))
-		.itemInputs('kubejs:256k_me_storage_wafer')
-		.itemOutputs('16x kubejs:256k_me_storage_base')
-		.EUt(32767)
-
-	event.recipes.gtceu.cutter('kubejs:cutting_256k_wafer_water')
-		.duration(1800)
-		.inputFluids(Fluid.of('minecraft:water', 1000))
-		.itemInputs('kubejs:256k_me_storage_wafer')
-		.itemOutputs('16x kubejs:256k_me_storage_base')
-		.EUt(32767)
+	
+	// Storage wafers
+	const storageBaseQualityOutput = {}
+	storageBaseQualityOutput[global.Quality.UltraLow] = 4
+	storageBaseQualityOutput[global.Quality.Low] = 8
+	storageBaseQualityOutput[global.Quality.Medium] = 16
+	storageBaseQualityOutput[global.Quality.High] = 32
+	for (const [i, cellSize] of global.AE2.CellSizes.entries()) {
+		for (const [material, quality] of Object.entries(global.AE2.WaferMaterialQualities)) {
+			// Wafer
+			let engravingOutput = 'kubejs:' + quality + '_' + cellSize + '_me_storage_wafer'
+			let durationMultiplier = 2 ** (i + 1)
+			event.recipes.gtceu
+				.laser_engraver('kubejs:engrave_' + quality + '_' + cellSize + '_me_storage_wafer')
+				.duration(durationMultiplier * 200)
+				.itemInputs('gtceu:' + material + '_wafer')
+				.notConsumable('#forge:lenses/certus')
+				.itemOutputs(engravingOutput)
+				.circuit(i)
+				.EUt(1920)
+			// Base
+			let cuttingIdBase = 'kubejs:cutting_' + quality + '_' + cellSize + '_me_storage_base'
+			let cuttingOutput = storageBaseQualityOutput[quality] + 'x kubejs:' + cellSize + '_me_storage_base'
+			event.recipes.gtceu
+				.cutter(cuttingIdBase + '_lubricant')
+				.duration(durationMultiplier * 200)
+				.inputFluids(Fluid.of('gtceu:lubricant', 250))
+				.itemInputs(engravingOutput)
+				.itemOutputs(cuttingOutput)
+				.EUt(1920)
+			event.recipes.gtceu
+				.cutter(cuttingIdBase + '_distilled_water')
+				.duration(durationMultiplier * 400)
+				.inputFluids(Fluid.of('gtceu:distilled_water', 750))
+				.itemInputs(engravingOutput)
+				.itemOutputs(cuttingOutput)
+				.EUt(1920)
+		}
+	}
 })
