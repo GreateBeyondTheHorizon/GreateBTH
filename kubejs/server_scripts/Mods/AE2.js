@@ -1,14 +1,11 @@
 ServerEvents.recipes(event => {
-	event.remove({ output: 'ae2:controller' })
-	event.remove({ output: 'ae2:energy_acceptor'})
-	event.remove({ output: 'ae2:chest' })
 	event.remove({ output: 'ae2:logic_processor' })
 	event.remove({ output: 'ae2:calculation_processor' })
 	event.remove({ output: 'ae2:engineering_processor' })
-	event.remove({ output: 'ae2:blank_pattern' })
-	event.remove({ output:  /ae2:(.*)_(.*)k/ })
 	event.remove({ id: 'ae2:charger/charged_certus_quartz_crystal' })
 	
+	// Energy acceptor
+	event.remove({ output: 'ae2:energy_acceptor'})
 	event.shaped(
 		Item.of('ae2:energy_acceptor'),
 		[
@@ -24,6 +21,8 @@ ServerEvents.recipes(event => {
 		}
 	)
 	
+	// Controller
+	event.remove({ output: 'ae2:controller' })
 	event.shaped(
 		Item.of('ae2:controller'),
 		[
@@ -39,6 +38,8 @@ ServerEvents.recipes(event => {
 		}
 	)
 
+	// Chest
+	event.remove({ output: 'ae2:chest' })
 	event.shaped(
 		Item.of('ae2:chest'),
 		[
@@ -56,85 +57,119 @@ ServerEvents.recipes(event => {
 		}
 	)
 
-	event.shaped(
-		Item.of('ae2:item_storage_cell_1k'),
-		[
-			'ABA',
-			'BCB',
-			'DDD'
-		],
-		{
-			A:'ae2:quartz_glass',
-			B:'gtceu:rubber_plate',
-			C:'ae2:cell_component_1k',
-			D:'gtceu:wrought_iron_plate'
-		}
-	)
+	// Storage cells
+	event.remove({ output: /ae2:(.*)_storage_cell_(.*)/ })
+	for (const cellSize of global.AE2.CellSizes) {
+		let transitionalItem = 'kubejs:incomplete_storage_cell'
+		// Item
+		event.recipes
+			.createSequencedAssembly(
+				['ae2:item_storage_cell_' + cellSize],
+				'gtceu:polyethylene_plate',
+				[
+					event.recipes.createDeploying(transitionalItem, [
+						transitionalItem,
+						'gtceu:copper_single_cable',
+					]),
+					event.recipes.createDeploying(transitionalItem, [
+						transitionalItem,
+						'ae2:cell_component_' + cellSize,
+					]),
+					event.recipes.createDeploying(transitionalItem, [
+						transitionalItem,
+						'ae2:quartz_glass',
+					]),
+					event.recipes.createDeploying(transitionalItem, [
+						transitionalItem,
+						'gtceu:polyethylene_plate',
+					]),
+					event.recipes.createDeploying(transitionalItem, [
+						transitionalItem,
+						'gtceu:steel_screw',
+					]),
+					event.recipes.createDeploying(transitionalItem, [
+						transitionalItem,
+						'gtceu:steel_screw',
+					]),
+				]
+			)
+			.transitionalItem(transitionalItem)
+			.loops(1)
+		// Fluid
+		event.recipes
+			.createSequencedAssembly(
+				['ae2:fluid_storage_cell_' + cellSize],
+				'gtceu:annealed_copper_plate',
+				[
+					event.recipes.createDeploying(transitionalItem, [
+						transitionalItem,
+						'gtceu:copper_single_cable',
+					]),
+					event.recipes.createDeploying(transitionalItem, [
+						transitionalItem,
+						'ae2:cell_component_' + cellSize,
+					]),
+					event.recipes.createDeploying(transitionalItem, [
+						transitionalItem,
+						'ae2:quartz_glass',
+					]),
+					event.recipes.createDeploying(transitionalItem, [
+						transitionalItem,
+						'gtceu:annealed_copper_plate',
+					]),
+					event.recipes.createDeploying(transitionalItem, [
+						transitionalItem,
+						'gtceu:steel_screw',
+					]),
+					event.recipes.createDeploying(transitionalItem, [
+						transitionalItem,
+						'gtceu:steel_screw',
+					]),
+				]
+			)
+			.transitionalItem(transitionalItem)
+			.loops(1)
+	}
+	for (const spatialCellSize of global.AE2.SpatialCellSizes) {
+		let transitionalItem = 'kubejs:incomplete_storage_cell'
+		// Spatial
+		event.recipes
+			.createSequencedAssembly(
+				['ae2:spatial_storage_cell_' + spatialCellSize],
+				'gtceu:ender_pearl_plate',
+				[
+					event.recipes.createDeploying(transitionalItem, [
+						transitionalItem,
+						'gtceu:copper_single_cable',
+					]),
+					event.recipes.createDeploying(transitionalItem, [
+						transitionalItem,
+						'ae2:spatial_cell_component_' + spatialCellSize,
+					]),
+					event.recipes.createDeploying(transitionalItem, [
+						transitionalItem,
+						'ae2:quartz_glass',
+					]),
+					event.recipes.createDeploying(transitionalItem, [
+						transitionalItem,
+						'gtceu:ender_pearl_plate',
+					]),
+					event.recipes.createDeploying(transitionalItem, [
+						transitionalItem,
+						'gtceu:steel_screw',
+					]),
+					event.recipes.createDeploying(transitionalItem, [
+						transitionalItem,
+						'gtceu:steel_screw',
+					]),
+				]
+			)
+			.transitionalItem(transitionalItem)
+			.loops(1)
+	}
 
-	event.shaped(
-		Item.of('ae2:item_storage_cell_4k'),
-		[
-			'AEA',
-			'BCB',
-			'DDD'
-		],
-		{
-			A:'ae2:quartz_glass',
-			B:'gtceu:polyethylene_plate',
-			C:'ae2:cell_component_4k',
-			D:'gtceu:steel_plate',
-			E:'#gtceu:circuits/lv'
-		}
-	)
-
-	event.shaped(
-		Item.of('ae2:item_storage_cell_16k'),
-		[
-			'AEA',
-			'BCB',
-			'DDD'
-		],
-		{
-			A:'ae2:quartz_glass',
-			B:'gtceu:polyvinyl_chloride_plate',
-			C:'ae2:cell_component_16k',
-			D:'gtceu:vanadium_steel_plate',
-			E:'#gtceu:circuits/mv'
-		}
-	)
-
-	event.shaped(
-		Item.of('ae2:item_storage_cell_64k'),
-		[
-			'AEA',
-			'BCB',
-			'DDD'
-		],
-		{
-			A:'ae2:quartz_glass',
-			B:'gtceu:polytetrafluoroethylene_plate',
-			C:'ae2:cell_component_64k',
-			D:'gtceu:stainless_steel_plate',
-			E:'#gtceu:circuits/hv'
-		}
-	)
-
-	event.shaped(
-		Item.of('ae2:item_storage_cell_256k'),
-		[
-			'AEA',
-			'BCB',
-			'DDD'
-		],
-		{
-			A:'ae2:quartz_glass',
-			B:'gtceu:polybenzimidazole_plate',
-			C:'ae2:cell_component_256k',
-			D:'gtceu:tungsten_steel_plate',
-			E:'#gtceu:circuits/ev'
-		}
-	)
-
+	// Blank pattern
+	event.remove({ output: 'ae2:blank_pattern' })
 	event.shaped(
 		Item.of('ae2:blank_pattern'),
 		[
@@ -151,84 +186,7 @@ ServerEvents.recipes(event => {
 		}
 	)
 
-	event.shaped(
-		Item.of('ae2:fluid_storage_cell_1k'),
-		[
-			'ABA',
-			'BCB',
-			'DDD'
-		],
-		{
-			A:'gtceu:annealed_copper_double_plate',
-			B:'gtceu:rubber_plate',
-			C:'ae2:cell_component_1k',
-			D:'gtceu:wrought_iron_plate'
-		}
-	)
-
-	event.shaped(
-		Item.of('ae2:fluid_storage_cell_4k'),
-		[
-			'AEA',
-			'BCB',
-			'DDD'
-		],
-		{
-			A:'gtceu:annealed_copper_double_plate',
-			B:'gtceu:polyethylene_plate',
-			C:'ae2:cell_component_4k',
-			D:'gtceu:steel_plate',
-			E:'#gtceu:circuits/lv'
-		}
-	)
-
-	event.shaped(
-		Item.of('ae2:fluid_storage_cell_16k'),
-		[
-			'AEA',
-			'BCB',
-			'DDD'
-		],
-		{
-			A:'gtceu:annealed_copper_double_plate',
-			B:'gtceu:polyvinyl_chloride_plate',
-			C:'ae2:cell_component_16k',
-			D:'gtceu:vanadium_steel_plate',
-			E:'#gtceu:circuits/mv'
-		}
-	)
-
-	event.shaped('ae2:fluid_storage_cell_64k',
-		[
-			'AEA',
-			'BCB',
-			'DDD'
-		],
-		{
-			A:'gtceu:annealed_copper_double_plate',
-			B:'gtceu:polytetrafluoroethylene_plate',
-			C:'ae2:cell_component_64k',
-			D:'gtceu:stainless_steel_plate',
-			E:'#gtceu:circuits/hv'
-		}
-	)
-
-	event.shaped(
-		Item.of('ae2:fluid_storage_cell_256k'),
-		[
-			'AEA',
-			'BCB',
-			'DDD'
-		],
-		{
-			A:'gtceu:annealed_copper_double_plate',
-			B:'gtceu:polybenzimidazole_plate',
-			C:'ae2:cell_component_256k',
-			D:'gtceu:tungsten_steel_plate',
-			E:'#gtceu:circuits/ev'
-		}
-	)
-
+	// Cell workbench
 	event.shaped(
 		Item.of('ae2:cell_workbench'),
 		[
@@ -241,36 +199,6 @@ ServerEvents.recipes(event => {
 			B:'gtceu:stainless_steel_plate',
 			C:'ae2:calculation_processor'
 		}
-	)
-	
-	event.recipes.createMechanicalCrafting(
-		Item.of('ae2:creative_item_cell'),
-		[
-			'CBC',
-			'ADA',
-			'AAA'
-		],
-		{
-			A:'avaritia:infinity_ingot',
-			B:'gtceu:wetware_processor_mainframe',
-			C:'kubejs:ruthenium_trinium_americium_neutronate_plate',
-			D:'kubejs:infinity_me_storage_wafer'
-		}
-	)
-
-	event.recipes.createMechanicalCrafting(
-		Item.of('ae2:creative_fluid_cell'),
-	 	[
-	  	'CBC',
-	  	'ADA',
-	  	'AAA'
-	 	],
-	 	{
-	 		A:'avaritia:infinity_ingot',
-	 		B:'gtceu:wetware_processor_mainframe',
-	 		C:'gtceu:darmstadtium_double_plate',
-	 		D:'kubejs:infinity_me_storage_wafer'
-	 	}
 	)
 	
 	// Storage wafers
