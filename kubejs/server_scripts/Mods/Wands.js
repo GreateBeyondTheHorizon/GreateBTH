@@ -1,13 +1,10 @@
-// priority: 0
 ServerEvents.recipes(event => {
-	// #region removal
-	event.remove({ output: 'constructionwand:stone_wand' })
-	event.remove({ output: 'constructionwand:iron_wand'})
-	event.remove({ output: 'constructionwand:diamond_wand'})
-	event.remove({ output: 'constructionwand:infinity_wand'})
+	// Disable wand cores so that players can't mine super easily in early game.
 	event.remove({ output: 'constructionwand:core_angel'})
 	event.remove({ output: 'constructionwand:core_destruction'})
 
+	// Stone wand
+	event.remove({ output: 'constructionwand:stone_wand' })
 	event.shaped(
 		Item.of('constructionwand:stone_wand'),
 		[
@@ -20,6 +17,9 @@ ServerEvents.recipes(event => {
 			B:'create:andesite_alloy'
 		}
 	)
+
+	// Iron wand
+	event.remove({ output: 'constructionwand:iron_wand'})
 	event.shaped(
 		Item.of('constructionwand:iron_wand'),
 		[
@@ -33,6 +33,9 @@ ServerEvents.recipes(event => {
 			C:'gtceu:iron_screw'
 		}
 	)
+
+	// Diamond wand
+	event.remove({ output: 'constructionwand:diamond_wand'})
 	event.recipes.createMechanicalCrafting(
 	 	Item.of('constructionwand:diamond_wand', 1),
 	 	[
@@ -48,6 +51,9 @@ ServerEvents.recipes(event => {
 	 		D:'gtceu:diamond_gear'
 	 	}
 	)
+
+	// Infinity wand
+	event.remove({ output: 'constructionwand:infinity_wand'})
 	event.recipes.createMechanicalCrafting(
 	 	Item.of('constructionwand:infinity_wand', 1),
 	 	[
