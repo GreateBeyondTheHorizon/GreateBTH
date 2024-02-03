@@ -1,4 +1,3 @@
-// Priority: 0
 StartupEvents.registry('item', event => {
 	event.create('drinkable_liquid_concrete').useAnimation("drink").displayName('Bucket of Drinkable Liquid Concrete')
 
@@ -54,21 +53,15 @@ StartupEvents.registry('item', event => {
 	event.create('inc_hv_robot_arm', 'create:sequenced_assembly').displayName('Incomplete HV Robot Arm')
 	
 	// AE2
-	
-	event.create('1k_me_storage_wafer').displayName('1k ME Storage Wafer')
-	event.create('1k_me_storage_base').displayName('1k ME Storage Base')
-	
-	event.create('4k_me_storage_wafer').displayName('4k ME Storage Wafer')
-	event.create('4k_me_storage_base').displayName('4k ME Storage Base')
-	
-	event.create('16k_me_storage_wafer').displayName('16k ME Storage Wafer')
-	event.create('16k_me_storage_base').displayName('16k ME Storage Base')
-	
-	event.create('64k_me_storage_wafer').displayName('64k ME Storage Wafer')
-	event.create('64k_me_storage_base').displayName('64k ME Storage Base')
-	
-	event.create('256k_me_storage_wafer').displayName('256k ME Storage Wafer')
-	event.create('256k_me_storage_base').displayName('256k ME Storage Base')
+	for (const cellSize of global.AE2.CellSizes) {
+		event.create(cellSize + '_me_storage_base')
+			.displayName(cellSize + ' ME Storage Base')
+		for (const quality of Object.values(global.AE2.WaferMaterialQualities)) {
+			event.create(quality + '_' + cellSize + '_me_storage_wafer')
+				.displayName(cellSize + ' ME Storage Wafer')
+				.tooltip(global.Util.qualityTooltip(quality))
+		}
+	}
 	
 	event.create('incomplete_storage_cell', 'create:sequenced_assembly').displayName('Incomplete Storage Cell')
 	event.create('incomplete_storage_component', 'create:sequenced_assembly').displayName('Incomplete Storage Component')
