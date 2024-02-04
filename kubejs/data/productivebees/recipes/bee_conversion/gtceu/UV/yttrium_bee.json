@@ -3,7 +3,7 @@
   "source": "productivebees:draconic",
   "result": "productivebees:yttrium",
   "item": {
-    "item": "gtceu:yttrium"
+    "item": "gtceu:yttrium_block"
   },
   "conditions": [
     {
