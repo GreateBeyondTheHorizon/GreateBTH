@@ -1,18 +1,5 @@
 // priority: 0
 ServerEvents.recipes(event => {
-	let tiers = [
-		'andesite',
-		'steel',
-		'aluminium',
-		'stainless_steel',
-		'titanium',
-		'tungstensteel',
-		'palladium',
-		'naquadah',
-		'darmstadtium',
-		'neutronium'
-	];
-
 	let plates = [
 		'gtceu:wood_plate',
 		'gtceu:stone_plate',
@@ -24,7 +11,7 @@ ServerEvents.recipes(event => {
 		'gtceu:palladium_plate',
 		'gtceu:naquadah_plate',
 		'gtceu:darmstadtium_plate'
-	];
+	]
 	let nuggets = [
 		'gtceu:zinc_nugget',
 		'gtceu:steel_nugget',
@@ -36,8 +23,7 @@ ServerEvents.recipes(event => {
 		'gtceu:naquadah_nugget',
 		'gtceu:darmstadtium_nugget',
 		'gtceu:neutronium_nugget'
-	];
-
+	]
 	let materials = [
 		'minecraft:andesite',
 		'minecraft:glowstone_dust',
@@ -52,23 +38,23 @@ ServerEvents.recipes(event => {
 		// TODO change after magic mods are established
 	]
 
-	tiers.forEach((tier, index) => {
+	for (const [i, tier] of Object.values(global.Greate.Tiers).entries()) {
 		// small cogwheel
-		event.recipes.create.deploying(`greate:${tier}_cogwheel`, [`greate:${tier}_shaft`, `${plates[index]}`]);
+		event.recipes.create.deploying(`greate:${tier}_cogwheel`, [`greate:${tier}_shaft`, `${plates[i]}`]);
 		// large cogwheel
-		event.recipes.create.deploying(`greate:large_${tier}_cogwheel`, [`greate:${tier}_cogwheel`, `${plates[index]}`]);
+		event.recipes.create.deploying(`greate:large_${tier}_cogwheel`, [`greate:${tier}_cogwheel`, `${plates[i]}`]);
 		event.recipes.create.sequenced_assembly([
 		`greate:large_${tier}_cogwheel`
 		],  `greate:${tier}_shaft`, [
-			event.recipes.create.deploying(`greate:${tier}_cogwheel`, [`greate:${tier}_cogwheel`, `${plates[index]}`])
+			event.recipes.create.deploying(`greate:${tier}_cogwheel`, [`greate:${tier}_cogwheel`, `${plates[i]}`])
 		]).transitionalItem(`greate:${tier}_cogwheel`).loops(2)
 		// alloys
 		event.recipes.create.mixing(
 			Item.of(`greate:${tier}_alloy`, 1),
 			[
-				`${materials[index]}`,
-				`${nuggets[index]}`
+				`${materials[i]}`,
+				`${nuggets[i]}`
 			]
 		)
-	})
+	}
 })

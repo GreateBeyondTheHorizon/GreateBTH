@@ -11,6 +11,21 @@ global.Quality = {
 
 //// Mods ////
 
+global.Greate = {
+	Tiers: {
+		Andesite: 'andesite',
+		Steel: 'steel',
+		Aluminium: 'aluminium',
+		StainlessSteel: 'stainless_steel',
+		Titanium: 'titanium',
+		TungstenSteel: 'tungstensteel',
+		Palladium: 'palladium',
+		Naquadah: 'naquadah',
+		Darmstadtium: 'darmstadtium',
+		Neutronium: 'neutronium',
+	}
+}
+
 global.AE2 = {
 	CellSizes: ['1k', '4k', '16k', '64k', '256k'],
 	SpatialCellSizes: [2, 16, 128],
