@@ -7,7 +7,7 @@ ServerEvents.recipes(event => {
 			'DCD'
 		],
 		{
-			A: 'gtceu:tungsten_carbide_double_plate',
+			A: 'gtceu:double_tungsten_carbide_plate',
 			B: 'minecraft:netherite_helmet',
 			C: 'gtceu:polytetrafluoroethylene_normal_fluid_pipe',
 			D: 'gtceu:styrene_butadiene_rubber_plate'
@@ -21,7 +21,7 @@ ServerEvents.recipes(event => {
 			'AAA'
 		],
 		{
-			A: 'gtceu:tungsten_carbide_double_plate',
+			A: 'gtceu:double_tungsten_carbide_plate',
 			B: 'gtceu:tungsten_steel_drum',
 			C: 'gtceu:polytetrafluoroethylene_normal_fluid_pipe',
 			D: 'gtceu:styrene_butadiene_rubber_plate'
@@ -35,7 +35,7 @@ ServerEvents.recipes(event => {
 			'A A'
 		],
 		{
-			A: 'gtceu:tungsten_carbide_double_plate',
+			A: 'gtceu:double_tungsten_carbide_plate',
 			B: 'minecraft:netherite_boots',
 			D: 'gtceu:styrene_butadiene_rubber_plate'
 		}

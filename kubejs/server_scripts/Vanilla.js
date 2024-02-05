@@ -139,12 +139,11 @@ ServerEvents.recipes(event => {
 	event.shaped('minecraft:smithing_table',
 		[
 			'PPP',
-			'SLS',
+			'SFS',
 			'RHR'
 		],
 		{
 			H: '#forge:tools/hammers',
-
 			P: '#forge:plates/steel',
 			S: '#forge:screws/steel',
 			R: '#forge:rods/steel',
