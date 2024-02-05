@@ -45,7 +45,7 @@ ServerEvents.recipes(event => {
 		[
 			event.recipes.createDeploying(incBasicIntegrated, [incBasicIntegrated, ['gtceu:resistor', 'gtceu:smd_resistor']]),
 			event.recipes.createDeploying(incBasicIntegrated, [incBasicIntegrated, ['gtceu:diode', 'gtceu:smd_diode']]),
-			event.recipes.createDeploying(incBasicIntegrated, [incBasicIntegrated, 'gtceu:copper_fine_wire']),
+			event.recipes.createDeploying(incBasicIntegrated, [incBasicIntegrated, 'gtceu:fine_copper_wire']),
 			event.recipes.createDeploying(incBasicIntegrated, [incBasicIntegrated, 'gtceu:tin_bolt']),
 		]
 	).transitionalItem(Item.of(incBasicIntegrated)).loops(2)
@@ -57,7 +57,7 @@ ServerEvents.recipes(event => {
 			event.recipes.createDeploying(incMicrochipProcessor, [incMicrochipProcessor, ['gtceu:resistor', 'gtceu:smd_resistor']]),
 			event.recipes.createDeploying(incMicrochipProcessor, [incMicrochipProcessor, ['gtceu:capacitor', 'gtceu:smd_capacitor']]),
 			event.recipes.createDeploying(incMicrochipProcessor, [incMicrochipProcessor, ['gtceu:transistor', 'gtceu:smd_transistor']]),
-			event.recipes.createDeploying(incMicrochipProcessor, [incMicrochipProcessor, 'gtceu:copper_fine_wire']),
+			event.recipes.createDeploying(incMicrochipProcessor, [incMicrochipProcessor, 'gtceu:fine_copper_wire']),
 		]
 	).transitionalItem(incMicrochipProcessor).loops(2)
 	
@@ -80,7 +80,7 @@ ServerEvents.recipes(event => {
 		'gtceu:lv_electric_motor',
 		[
 			event.recipes.createDeploying(incLvPiston, [incLvPiston, 'gtceu:tin_single_cable']),
-			event.recipes.createDeploying(incLvPiston, [incLvPiston, 'gtceu:steel_small_gear']),
+			event.recipes.createDeploying(incLvPiston, [incLvPiston, 'gtceu:small_steel_gear']),
 			event.recipes.createDeploying(incLvPiston, [incLvPiston, 'gtceu:steel_rod']),
 			event.recipes.createDeploying(incLvPiston, [incLvPiston, 'gtceu:steel_plate'])
 		]
@@ -171,8 +171,8 @@ ServerEvents.recipes(event => {
 		['gtceu:lv_sensor'],
 		'#gtceu:circuits/lv',
 		[
-			event.recipes.createDeploying(invLvSensor, [invLvSensor, 'gtceu:steel_double_plate']),
-			event.recipes.createDeploying(invLvSensor, [invLvSensor, 'gtceu:steel_double_plate']),
+			event.recipes.createDeploying(invLvSensor, [invLvSensor, 'gtceu:double_steel_plate']),
+			event.recipes.createDeploying(invLvSensor, [invLvSensor, 'gtceu:double_steel_plate']),
 			event.recipes.createDeploying(invLvSensor, [invLvSensor, 'gtceu:brass_rod']),
 			event.recipes.createDeploying(invLvSensor, [invLvSensor, 'gtceu:quartzite_gem'])
 		]

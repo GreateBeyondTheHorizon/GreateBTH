@@ -77,7 +77,7 @@ ServerEvents.recipes(event => {
 			'ACA'
 		],
 		{
-			A: 'gtceu:tungsten_carbide_double_plate',
+			A: 'gtceu:double_tungsten_carbide_plate',
 			B: 'gtceu:laminated_glass',
 			C: 'minecraft:netherite_helmet'
 		}
@@ -90,7 +90,7 @@ ServerEvents.recipes(event => {
 			'AAA'
 		],
 		{
-			A: 'gtceu:tungsten_carbide_double_plate',
+			A: 'gtceu:double_tungsten_carbide_plate',
 			B: 'minecraft:netherite_chestplate',
 			C: 'gtceu:tungsten_steel_drum'
 		}
@@ -103,7 +103,7 @@ ServerEvents.recipes(event => {
 			'A A'
 		],
 		{
-			A: 'gtceu:tungsten_carbide_double_plate',
+			A: 'gtceu:double_tungsten_carbide_plate',
 			B: 'minecraft:netherite_leggings'
 		}
 	)
@@ -115,7 +115,7 @@ ServerEvents.recipes(event => {
 			'   '
 		],
 		{
-			A: 'gtceu:tungsten_carbide_double_plate',
+			A: 'gtceu:double_tungsten_carbide_plate',
 			B: 'minecraft:netherite_boots'
 		}
 	)
