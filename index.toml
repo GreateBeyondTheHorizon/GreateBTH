@@ -494,11 +494,32 @@ file = "kubejs/assets/gtceu/lang/en_us.json"
 hash = "ab47997d3f6ea56621615ed8f35464ef85aeb98e5b9d68b2ddc2a15cc35be426"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/16k_me_storage_base.png"
+hash = "eb922ba8181affcd954f0abac355edfa1f419057a3ecdba7e906a7e864806e20"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/1k_me_storage_base.png"
+hash = "29dfc3ee431f5165b3ae9dc5ec33770a81db49a6cf0e822736ba77ca8950b60a"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/256k_me_storage_base.png"
+hash = "d4c5f882793bdc38e13e4f8700673917e09536a9ff7e725d350590d5410008a1"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/4k_me_storage_base.png"
+hash = "c7a57e2c164a93800ad2984dcc37ea53b10416af51247c680662e22884900495"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/64k_me_storage_base.png"
+hash = "cab32956605b54bf6045a40297e389a2e8ab45c851d6f239ab7c86f583ecb74a"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/advanced_honey_treat.png"
 hash = "9d630e6044ca786d047a177f88828d8dccdb3509c4a2c47d8e2b2b51e20880c1"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/item/block_wooden_form.png"
+file = "kubejs/assets/kubejs/textures/item/certus_quartz_lens.png"
+hash = "539011bb10d09930200abfcdbca37cbec590cbee10652fdee48ee1fc5e46018f"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/drinkable_liquid_concrete.png"
@@ -509,196 +530,160 @@ file = "kubejs/assets/kubejs/textures/item/empty_compass.png"
 hash = "b1103c5841f52173cda8d34bffa39d0e8cb1d72c155b9627d36d120270a0b1e1"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/item/fire_starter.png"
+file = "kubejs/assets/kubejs/textures/item/high_quality_16k_me_storage_wafer.png"
+hash = "f870f6260ab8b47ffa933dea2a66247ce1da3f671111ef86d1aac7b85ac0e949"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/item/flint_axe_head.png"
+file = "kubejs/assets/kubejs/textures/item/high_quality_1k_me_storage_wafer.png"
+hash = "caca32d8b8893e407f62bf857a801040173d4821e50d3c995526e98390ac28c9"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/item/flint_pickaxe_head.png"
+file = "kubejs/assets/kubejs/textures/item/high_quality_256k_me_storage_wafer.png"
+hash = "7867b48055bae18d72f8614c77d37d0e39d8cb5ba896534f1e782f9005d54942"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/item/flint_shovel_head.png"
+file = "kubejs/assets/kubejs/textures/item/high_quality_4k_me_storage_wafer.png"
+hash = "b84144c8be1ac036c430731e0463afeba23d22bdc564469eb78a9530fa68c24e"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/high_quality_64k_me_storage_wafer.png"
+hash = "ca29c0adbf966b3a63193aa8fe5d046d8560b522ceb389a2c0c0e109952cc97a"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/inc_advanced_integrated_circuit.png"
-hash = "50a382294cd4b7dbe5256207449c1a8a13476afe08aa2028030f6f09186ef9a4"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/inc_advanced_integrated_circuit_show.png"
-hash = "616899ef0506f07abfd4e25a7c1ef92c983b2d816a59a021d85203892b7843cb"
+hash = "f24cbfe82c619087bff6597981095585228d1cbbf8c90f9e92dea7a44e1184f8"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/inc_basic_electronic_circuit.png"
-hash = "0049dcb4763cea7cd9502210b620915fe4538dd90ac370a5bcc4e9be9da4fd9d"
+hash = "ed87f8a1a9f267289f861ae28154edf88163ca599be8a5a3ab7ed5278ebfc286"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/inc_basic_integrated_circuit.png"
-hash = "8ea454212d629a6f0430f511eecf6519669f3304e46d063fa651f29f01641d27"
+hash = "6a215113dcd9ee6749a70e3088b92ee87607ff9410f14984223ab3e328a7ecb2"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/inc_good_electronic_circuit.png"
-hash = "424a37f7fea536881493900cf15fc7267e9027cc4fdfd5142bf0e82fa03371e8"
+hash = "99f6ff5c1d8db674d219993f4a090343bf428183d14e58c29b3c4857e5d75a69"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/inc_good_integrated_circuit.png"
-hash = "0f2c80c47311ecb7c5e1b02b6f231d95976e221e253984e5a23b7e35613838f6"
+hash = "8c590e74d12074c5e0dfaf807cf31556b766525173a189d60b373a751a81b7a7"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/inc_hv_conveyor.png"
-hash = "874bdcd52b957f90b39d9ef2b55a282098240a77ea41e8473a946de82248e9a9"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/inc_hv_conveyor_module_show.png"
-hash = "3606ba65f1becea560e73475406d697aab113132b48b1087bb2c2efc022867da"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/inc_hv_electric_motor_show.png"
-hash = "bcb6cbc096a1204c19627a348b9f411eb356a1c1ef972d552c4903886b24ebcf"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/inc_hv_electric_piston_show.png"
-hash = "e546edba5525c904f7818f4497acec2a005541718c2e19b35133e710409c6d58"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/inc_hv_electric_pump_show.png"
-hash = "f3042c45f8834ad961da1421c97400dca8d173e530762620e043f4408293fc06"
+hash = "44fa108c2cbd623121b5a8669db25a64950737759a4f33911ee98b70acdc5f29"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/inc_hv_emitter.png"
-hash = "355413516d488cae92d2273117b9291619b470bc32cec00697d05b4385ea3dd7"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/inc_hv_emitter_show.png"
-hash = "3cf5b635babe5d986b291120d3a413a3831d137e85b46ff5bea03e9f3712da91"
+hash = "37b50285fdd91861e281dbb329e5a0d621c6682a28118a81a39c8bbed7a05ef5"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/inc_hv_fluid_regulator.png"
-hash = "b379bfa5bbc4d8f7903d0a72c19861dbaec4edb162d1aedbfa956a5cc74cf135"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/inc_hv_fluid_regulator_show.png"
-hash = "4b8027be570a773560e983b1c3888f7f6224fef593f6f7c547becde936e6d8c9"
+hash = "f67ce2a0b5ef14f1ae3af919de9acc1688e7b5717a45ee807a5741126ca9d970"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/inc_hv_motor.png"
-hash = "9de49c3d3e6decf320a8486f83b9e9715a67be223b0823c2fa654457bfbbda1b"
+hash = "fe99416b25ada0e020009c6053ba7577cbfb07fe81ae16d200d8cc7d86bd09cc"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/inc_hv_piston.png"
-hash = "5c589905a4bbb9e21ad048e5802339e5d2b250a98e294521f835b56f8fee28af"
+hash = "d588dc115d2e3ddf658d3acdb6c163745e9d98ad11425e753f983fb5dc386a7d"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/inc_hv_pump.png"
-hash = "8fa3ddc54badc9821774b537973b7225643ac3991bc8527f2e71453c0b2aa955"
+hash = "27f927e358eb6bc2bd0193ee67597ef55a8be7d84f5db10797454036abce3bb7"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/inc_hv_robot_arm.png"
-hash = "53fb3a13be65f2af60033fdc93fff5149a46487c75533befce36daf91ef1587b"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/inc_hv_robot_arm_show.png"
-hash = "4a3fddcfb2aa5d013e8e668a7e49e7b494bac6190b7815beaca168110abee227"
+hash = "cf9a96d526065ef73825df6dc2c8f4057b489a97059174dec1e7304486689566"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/inc_hv_sensor.png"
-hash = "728dded9001961a7091f78bd5473ac6ccdab52363b206e4a371234ca9551e7b8"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/inc_hv_sensor_show.png"
-hash = "67b770e7bfbeff75ab3a1acf1bea881963545cc3e4ae85648b24f8d82c27db98"
+hash = "46c087a2729e65fb920c7970ace08a888fdc53bd925bc83f8bb27f529fda4338"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/inc_inter_nano_processor.png"
 hash = "d28739592a1df725032f005d67952dff22618c8bb8aef8d7112795516448856e"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/item/inc_inter_nano_processor_show.png"
-hash = "0eabd78f24caa9f3a39b76473bc3001ccff5f98f52d01a1d66cbf9b862384f1a"
-
-[[files]]
 file = "kubejs/assets/kubejs/textures/item/inc_lv_conveyor.png"
-hash = "cb4e68692a221ecb8b6b8a91c8a272301508d8b1783cc3874d49f948bcc1d38d"
+hash = "3f163b0f337797fc650ec355649b823c6f3a4c5a221bfd0397d43dbdaf11a21a"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/inc_lv_emitter.png"
-hash = "2f577ab809a89ecbb290ac2ea3c039f7fd9bdaa8781987af252007ac0e4807e4"
+hash = "29b576d0a6790eba5394e63f30b93af41058d22620cde014fd12d3ae84d261c2"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/inc_lv_fluid_regulator.png"
-hash = "3bd9503ad9b5c44da5b4dbabd3f75c2f443145012fe4a7ed0de98dbdff399209"
+hash = "cfdcf19bc11cde06610dc1390dc4580ffbe546d702da32c59bf0f68b6f4874dc"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/inc_lv_motor.png"
-hash = "6a748c5b6fcc311c4142954367f14d569f2f8d011c67ebf8949184bec399a001"
+hash = "29790cb471781732c3c37bf56d6a68525c5b8c0343082f0fd8f5da99bdfe95f7"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/inc_lv_piston.png"
-hash = "d4dda04a3f00538d4d7edf611d90bf79eac7e8da48ed8a9f29efce7a3d4e2ec5"
+hash = "d3a9bac6eeb630bba3a68e756ea16396e2e0f902b6df80a7216b5ad100994c08"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/inc_lv_pump.png"
-hash = "b3528a5741e9ff93ca07aa35f748a7b0d011ef6bcfb2ec8dc484d4aebc6c04b0"
+hash = "77e09c913feaec788396a9196efb3b2a653afbb395d75068594242d352b362dd"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/inc_lv_robot_arm.png"
-hash = "5bd676b5d230d3c7381ecbce46a58ff45631e4965f6589287c4260e0c3ded075"
+hash = "fa7a5c1cb111ae882ba33e6d50b04909efe303f4a660cd22fb1784d849cfd005"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/inc_lv_sensor.png"
-hash = "c5818875ce1e64a7e9d163dd4d8ee4ac69b3803d97bca58d8133b5ae4560bc22"
+hash = "421158bfc2a969c182a324daf978de355536bd5615373bb3b22306cd6c75730e"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/inc_micro_processor.png"
-hash = "8c2888cb8c5dd75573c67ee4963fb9a1a36b584eb5921003297959ce3b596075"
+hash = "829653fa7840d70db9b8df799b4d03b5506e04ce7a3cbadb8f02269b99b54dee"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/inc_micro_processor_assembly.png"
-hash = "23ae84d9ea776b1917bdfee1a6d1ead76dc5cad7d2e13514cc27490b64f42edc"
+hash = "77a145f1afe3e09faa394ce456d3a1c3b0d609d6743e274388dccc8dbbdf819e"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/inc_microchip_processor.png"
-hash = "3f192c9a82bf8cc568a3a822114037a7d99fca617ca68010bc96cbcb875c3845"
+hash = "f3f17fe7028080ec12ead7e12e32c21223983d6fc1c4a899cc0dcfc1fe55e658"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/inc_mv_conveyor.png"
-hash = "2201d457be9d1a7ee633006504f72bb25c515bc4a2acc84f9b8ee28133081f12"
+hash = "bbff69be668e14b7620c9400a42b274b942ad0e53fcb35ce2e7fcccefc38ff5f"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/inc_mv_emitter.png"
-hash = "ee5ed72cc47a4d82593c40d3bb7bf2fdbc91465c486129f9b98a5977ee47cb11"
+hash = "f7b03896b346ec26390469db07ad44c6cd6eb5c51f80e0d37d329d16ca201ff4"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/inc_mv_fluid_regulator.png"
-hash = "8eb985b40b777b456ad917656e816f2674cba214583c67cbbf88e8fe1f1ec68c"
+hash = "06048ab4c3c5b96bc44a040e4db697ce36e9f7236a908fca0d028a95fae968a5"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/inc_mv_motor.png"
-hash = "4bd8c03c01a6dc7ad942ed4f2038505b377b41bdbecce79a85b06d649043ebbb"
+hash = "03f0ee45faeca265205f643c7cb4ddeef87d58af0c73ed8d2185d024af51323f"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/inc_mv_piston.png"
-hash = "204fe38a92726fb55440d44238a15d59cf653586b866cf83b8ce725cacdf27eb"
+hash = "e61788cd9fd0153c56b45f07338cdfb80ddb7445f2e2f5a46f24503650c46c02"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/inc_mv_pump.png"
-hash = "82f31df9e54cd502b43855ad7563edef3f14d7adf08c08604ec6e730e29c54ef"
+hash = "060aaa8a66d30442868ff9ec57bc38c4154451df3cae787de3102c521ab2b809"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/inc_mv_robot_arm.png"
-hash = "30ac364d1825d523b67b3678e8bd871a1d6092257b86d62d0445141af1c837e0"
+hash = "5b803e9237f43b67f149658ff80cf39078e6ce68de9108a4f4eea794a3fe72d1"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/inc_mv_sensor.png"
-hash = "afe11c6064f904501f54eb316e589255105cbf24b6b2bae79701614ab0c6f5b6"
+hash = "372f77bdb354d342b0aaef93f780265ec5782df3998ece068229c2614e06b27f"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/inc_nano_processor.png"
-hash = "2a7236975aab1dd6d33d3203420433b8c8c8d4f441cf0ebcdb7d9eea41301b80"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/inc_nano_processor_show.png"
-hash = "683dd3b58a465cdeef177dcbfc2678ecf7a68b58396a99efea1b56cf111b38b4"
+hash = "c391259ca0382eb9bd36869c94f1611e2a70f0f6a7fad8b439e7c9ea35739995"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/inc_raw_resin_printed_circuit_board_show.png"
@@ -713,7 +698,44 @@ file = "kubejs/assets/kubejs/textures/item/inter_nano_processor.png"
 hash = "5d26409fba8d82204aa09ed610e07359086dfb19c9a3dd59c323295e7d61811b"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/item/mud_brick.png"
+file = "kubejs/assets/kubejs/textures/item/low_quality_16k_me_storage_wafer.png"
+hash = "e2ec3b9000db2880b384af356fd009edd2c0cf2dcf23874f823976254c4c9d17"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/low_quality_1k_me_storage_wafer.png"
+hash = "733e9064fe0957e4a56ba7b0cd75deaaec69fa17b39446daa588cf7d41ba32f2"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/low_quality_256k_me_storage_wafer.png"
+hash = "97e0c5590088d903d4de38157a363505b690ee0260fcfef1f591970c0d6a7cbd"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/low_quality_4k_me_storage_wafer.png"
+hash = "108c36ceecba5ccb196ddc7b7e0565bccb751e2877b464d371a8ec38cdad171d"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/low_quality_64k_me_storage_wafer.png"
+hash = "4fbef333b49bbebd3d074d48d3fc3bd06fd2e80acaca86d50f97ff244d2a57c6"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/medium_quality_16k_me_storage_wafer.png"
+hash = "d1de08088271a3beca6a7c20ee624bed39a02f145420a6cedceca25134d71a2f"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/medium_quality_1k_me_storage_wafer.png"
+hash = "dd9b1147a7b47390bff073538a132296ea708933702ba6df1e10234ae42c5025"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/medium_quality_256k_me_storage_wafer.png"
+hash = "21a5e9aea24bc6fe3cc2162391ccaf7ba45fdcdbba13883038924f4ab11565ac"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/medium_quality_4k_me_storage_wafer.png"
+hash = "214715c3a464f95552dadcfc87abda0e0aba73d7bc213a86f20d63346b152dd0"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/medium_quality_64k_me_storage_wafer.png"
+hash = "55d987a17a633d617f1e91c955745a1e84e8bb974c722f3f4c13896fdf23b097"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/netherite_plate_show.png"
@@ -758,6 +780,26 @@ hash = "406c2855357cc719b14eee49704dcfe71f79b6d0274336a20612c34f7440923f"
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/titanium_bee_food.png"
 hash = "a03472babcb71352e1a971ff022870a86442df2547a22bf300d6ae9173295318"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/ultra_low_quality_16k_me_storage_wafer.png"
+hash = "d80aa23d028cbcf55d1db25dedb15b126466b39238064ff898aab15a223dcd6e"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/ultra_low_quality_1k_me_storage_wafer.png"
+hash = "21f54686527ffa148c570e9e4d3b220d52f1c3b3aa4e593a2c520d1a738a622e"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/ultra_low_quality_256k_me_storage_wafer.png"
+hash = "5e65db61471fbb0e5a95cc6691d8acce1e5db40b3665534b5a473d6b04b6ffde"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/ultra_low_quality_4k_me_storage_wafer.png"
+hash = "7dcaa954e07581ba1ad3348e621de0d3075880c2d0ecce5f5a692ef02ab09232"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/ultra_low_quality_64k_me_storage_wafer.png"
+hash = "67528f7973b5031b22ba72767527ecfc18840f29cdda2bd93c6a722ac8e36d1b"
 
 [[files]]
 file = "kubejs/client_scripts/debug.js"
