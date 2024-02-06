@@ -106,6 +106,16 @@ StartupEvents.registry('item', event => {
 	//befood
 	event.create('advanced_honey_treat').displayName('Advanced Honey Treat')
 	event.create('titanium_bee_food').displayName('Titanium Bee Food')
+
+	//CustomEarlyGame
+	event.create('fire_starter').unstackable().displayName('Campfire Starter')
+
+
+
+
+	event.create('flint_pickaxe_head').displayName('Flint Pickaxe Head')
+	event.create('flint_axe_head').displayName('Flint Axe Head')
+	event.create('flint_shovel_head').displayName('Flint Shovel Head')
 	
 	
 })

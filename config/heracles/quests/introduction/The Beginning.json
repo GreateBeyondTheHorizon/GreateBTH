@@ -1,0 +1,51 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "The Beginning": {
+      "title": "The Beginning",
+      "icon": {
+        "item": {
+          "id": "minecraft:grass_block",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Introduction": {
+        "position": [
+          -20,
+          -121
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "greate:large_tungstensteel_cogwheel",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "The Beginning"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}
