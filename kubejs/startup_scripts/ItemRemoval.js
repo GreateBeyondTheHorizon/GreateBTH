@@ -11,10 +11,7 @@ StartupEvents.registry('item', event => {
 		.texture('minecraft:item/barrier')
 })
 
-// Arrays to populate with item removals
 global.ItemsToRemove = []
-global.ItemsToRemoveAsInputs = []
-global.ItemsToReplaceAsInputs = []
 
 //// Removal API ////
 
@@ -40,31 +37,6 @@ function removeNamespaceItems(namespace, items) {
 	}
 }
 
-function removeItemAndInputRecipes(item) {
-	removeItem(item)
-	global.ItemsToRemoveAsInputs.push(item)
-}
-
-function removeItemsAndInputRecipes(items) {
-	for (const item of items) {
-		removeItemAndInputRecipes(item)
-	}
-}
-
-function removeItemAndReplaceInputs(item, replacementInput) {
-	removeItem(item)
-	global.ItemsToReplaceAsInputs.push({
-		item: item,
-		replacementInput: replacementInput,
-	})
-}
-
-function removeItemsAndReplaceInputs(itemsWithReplacementInputs) {
-	for (const item of itemsWithReplacementInputs) {
-		removeItemAndReplaceInputs(item[0], item[1])
-	}
-}
-
 //////////////////////////////////////////////////////////////
 //////////                                          //////////
 //////////                REMOVALS                  //////////
@@ -75,8 +47,8 @@ function removeItemsAndReplaceInputs(itemsWithReplacementInputs) {
 removeNamespaceItems('create', [
 	/(.*)_sheet/, // Remove all sheets in favor of GT plates
 	/crushed_raw_(.*)/,
+	'electron_tube',
 ])
-removeItemAndReplaceInputs('create:electron_tube', 'gtceu:vacuum_tube')
 
 // Construction Wand
 // Disable wand cores so that players can't mine super easily in early game

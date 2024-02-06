@@ -999,6 +999,10 @@ file = "mods/load-my-resources.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/lootjs.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/melody.pw.toml"
 metafile = true
 
