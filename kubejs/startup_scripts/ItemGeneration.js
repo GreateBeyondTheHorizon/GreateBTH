@@ -116,6 +116,8 @@ StartupEvents.registry('item', event => {
 	event.create('flint_pickaxe_head').displayName('Flint Pickaxe Head')
 	event.create('flint_axe_head').displayName('Flint Axe Head')
 	event.create('flint_shovel_head').displayName('Flint Shovel Head')
+	event.create('flint_sword_head').displayName('Flint Sword Head')
+	event.create('flint_hoe_head').displayName('Flint Hoe Head')
 	
 	
 })
