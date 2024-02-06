@@ -460,10 +460,10 @@ file = "kubejs/assets/kubejs/textures/item/raw_plastic_circuit_board.png"
 file = "kubejs/assets/kubejs/textures/item/titanium_bee_food.png"
 
 [[files]]
-file = "kubejs/client_scripts/debug.js"
+file = "kubejs/client_scripts/Tooltips.js"
 
 [[files]]
-file = "kubejs/client_scripts/jei_hide.js"
+file = "kubejs/client_scripts/debug.js"
 
 [[files]]
 file = "kubejs/config/client.properties"
@@ -476,48 +476,6 @@ file = "kubejs/config/packicon.png"
 
 [[files]]
 file = "kubejs/config/probejs.json"
-
-[[files]]
-file = "kubejs/data/ad_astra/recipes/compressing/calorite_plate_from_compressing_calorite_blocks.json"
-
-[[files]]
-file = "kubejs/data/ad_astra/recipes/compressing/calorite_plate_from_compressing_calorite_ingots.json"
-
-[[files]]
-file = "kubejs/data/ad_astra/recipes/compressing/desh_plate_from_compressing_desh_blocks.json"
-
-[[files]]
-file = "kubejs/data/ad_astra/recipes/compressing/desh_plate_from_compressing_desh_ingots.json"
-
-[[files]]
-file = "kubejs/data/ad_astra/recipes/compressing/iron_plate_from_compressing_iron_block.json"
-
-[[files]]
-file = "kubejs/data/ad_astra/recipes/compressing/iron_plate_from_compressing_iron_ingot.json"
-
-[[files]]
-file = "kubejs/data/ad_astra/recipes/compressing/ostrum_plate_from_compressing_ostrum_blocks.json"
-
-[[files]]
-file = "kubejs/data/ad_astra/recipes/compressing/ostrum_plate_from_compressing_ostrum_ingots.json"
-
-[[files]]
-file = "kubejs/data/ad_astra/recipes/compressing/steel_plate_from_compressing_steel_blocks.json"
-
-[[files]]
-file = "kubejs/data/ad_astra/recipes/compressing/steel_plate_from_compressing_steel_ingots.json"
-
-[[files]]
-file = "kubejs/data/ad_astra/recipes/nasa_workbench/tier_1_rocket_from_nasa_workbench.json"
-
-[[files]]
-file = "kubejs/data/ad_astra/recipes/nasa_workbench/tier_2_rocket_from_nasa_workbench.json"
-
-[[files]]
-file = "kubejs/data/ad_astra/recipes/nasa_workbench/tier_3_rocket_from_nasa_workbench.json"
-
-[[files]]
-file = "kubejs/data/ad_astra/recipes/nasa_workbench/tier_4_rocket_from_nasa_workbench.json"
 
 [[files]]
 file = "kubejs/data/productivebees/productivebees/gtceu/EV/neodymium.json"
@@ -604,514 +562,10 @@ file = "kubejs/data/productivebees/productivebees/gtceu/vanadium.json"
 file = "kubejs/data/productivebees/productivebees/gtceu/yttrium.json"
 
 [[files]]
-file = "kubejs/data/productivebees/productivebees/neutronium.json"
-
-[[files]]
 file = "kubejs/data/productivebees/productivebees/raw_materials/osmium.json"
 
 [[files]]
 file = "kubejs/data/productivebees/productivebees/raw_materials/titanium.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/bee_breeding/gtceu/placeholder.txt"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/bee_breeding/gtceu/rhodium_plated_palladium_breeding.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/bee_breeding/placeholder.txt"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/bee_breeding/raw_materials/info.txt"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/bee_breeding/raw_materials/titanium_bee.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/bee_breeding/raw_materials/tungsten_bee.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/bee_conversion/gtceu/EV/neodymium.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/bee_conversion/gtceu/EV/titanium_bee.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/bee_conversion/gtceu/HV/stainless_steel_bee.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/bee_conversion/gtceu/IV/niobium.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/bee_conversion/gtceu/IV/samarium.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/bee_conversion/gtceu/IV/tungsten_bee.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/bee_conversion/gtceu/IV/tungsten_steel_bee.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/bee_conversion/gtceu/LUV/palladium.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/bee_conversion/gtceu/LUV/rhodium.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/bee_conversion/gtceu/LUV/ruthenium.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/bee_conversion/gtceu/LV/placeholder.txt"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/bee_conversion/gtceu/MV/aluminium_bee.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/bee_conversion/gtceu/MV/chromium.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/bee_conversion/gtceu/UHV/europium.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/bee_conversion/gtceu/UHV/neutronium_bee.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/bee_conversion/gtceu/UV/yttrium_bee.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/bee_conversion/gtceu/ZMP/naquadah_alloy_bee.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/bee_conversion/gtceu/ZMP/naquadah_bee.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/bee_conversion/gtceu/ZMP/vanadium_bee.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/bee_conversion/gtceu/neutronium_bee.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/bee_conversion/gtceu/yttrium_bee.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/bee_produce/gtceu/EV/neodymium_produce.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/bee_produce/gtceu/HV/stainless_steel_produce.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/bee_produce/gtceu/IV/niobium_produce.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/bee_produce/gtceu/IV/samarium_produce.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/bee_produce/gtceu/IV/tungsten_steel_produce.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/bee_produce/gtceu/LUV/palladium_produce.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/bee_produce/gtceu/LUV/rhodium_plated_palladium_produce.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/bee_produce/gtceu/LUV/rhodium_produce.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/bee_produce/gtceu/LUV/ruthenium_produce.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/bee_produce/gtceu/LV/placeholder.txt"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/bee_produce/gtceu/MV/aluminium_produce.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/bee_produce/gtceu/MV/chromium_produce.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/bee_produce/gtceu/UHV/europium_produce.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/bee_produce/gtceu/UHV/neutronium_produce.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/bee_produce/gtceu/UV/yttrium_produce.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/bee_produce/gtceu/ZMP/naquadah_alloy_produce.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/bee_produce/gtceu/ZMP/naquadah_produce.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/bee_produce/gtceu/ZMP/vanadium_produce.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/bee_produce/neutronium_bee.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/ad_astra/honeycomb_calorite.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/ad_astra/honeycomb_cheese.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/ad_astra/honeycomb_desh.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/ad_astra/honeycomb_ostrum.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/ae2/honeycomb_fluix.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/ae2/honeycomb_silicon.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/ae2/honeycomb_spacial.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/alloys/honeycomb_brass.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/alloys/honeycomb_bronze.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/alloys/honeycomb_constantan.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/alloys/honeycomb_electrum.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/alloys/honeycomb_enderium.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/alloys/honeycomb_invar.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/alloys/honeycomb_lumium.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/alloys/honeycomb_signalum.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/alloys/honeycomb_steel.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/bloodmagic/honeycomb_hematophagous.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/botania/honeycomb_elementium.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/botania/honeycomb_manasteel.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/botania/honeycomb_terrasteel.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/create_enchantment_industry/honeycomb_hyper_experience.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/dusts/comb_blazing.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/dusts/honeycomb_aluminium.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/dusts/honeycomb_bismuth.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/dusts/honeycomb_blazing.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/dusts/honeycomb_glowing.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/dusts/honeycomb_leaden.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/dusts/honeycomb_nickel.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/dusts/honeycomb_niter.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/dusts/honeycomb_osmium.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/dusts/honeycomb_platinum.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/dusts/honeycomb_radioactive.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/dusts/honeycomb_redstone.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/dusts/honeycomb_saltpeter.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/dusts/honeycomb_salty.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/dusts/honeycomb_silver.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/dusts/honeycomb_sulfur.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/dusts/honeycomb_tin.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/dusts/honeycomb_titanium.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/dusts/honeycomb_tungsten.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/dusts/honeycomb_zinc.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/dusts/neodymium.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/enderio/honeycomb_conductive_alloy.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/enderio/honeycomb_copper_alloy.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/enderio/honeycomb_dark_steel.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/enderio/honeycomb_end_steel.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/enderio/honeycomb_energetic_alloy.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/enderio/honeycomb_infinity.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/enderio/honeycomb_pulsating_alloy.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/enderio/honeycomb_redstone_alloy.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/enderio/honeycomb_soularium.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/enderio/honeycomb_vibrant_alloy.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/fluids/honeycomb_chocolate.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/fluids/honeycomb_milky_fluid.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/fluids/honeycomb_oily.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/fluids/honeycomb_tea.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/gems/honeycomb_amethyst.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/gems/honeycomb_apatite.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/gems/honeycomb_cinnabar_dust.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/gems/honeycomb_diamond.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/gems/honeycomb_emerald.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/gems/honeycomb_green_sapphire.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/gems/honeycomb_lapis.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/gems/honeycomb_malachite.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/gems/honeycomb_opal.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/gems/honeycomb_peridot.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/gems/honeycomb_pyrope.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/gems/honeycomb_quartz.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/gems/honeycomb_rose_quartz.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/gems/honeycomb_ruby.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/gems/honeycomb_sapphire.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/gems/honeycomb_sodalite.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/gems/honeycomb_topaz.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/honeycomb.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/honeycomb_bone.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/honeycomb_draconic.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/honeycomb_ender.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/honeycomb_ender_integrateddynamics.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/honeycomb_experience.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/honeycomb_experience_fluid.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/honeycomb_fossilised.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/honeycomb_frosty.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/honeycomb_ghostly.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/honeycomb_magmatic.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/honeycomb_menril.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/honeycomb_obsidian.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/honeycomb_obsidian_dust.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/honeycomb_powdery.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/honeycomb_prismarine.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/honeycomb_rotten.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/honeycomb_sculk.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/honeycomb_silky.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/honeycomb_slimy.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/honeycomb_withered.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/materials/honeycomb_plastic.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/materials/honeycomb_silicon.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/materials/honeycomb_sticky_resin_gtceu.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/materials/honeycomb_sticky_resin_ic2.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/raw_materials/honeycomb_aluminium.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/raw_materials/honeycomb_bismuth.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/raw_materials/honeycomb_copper.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/raw_materials/honeycomb_gold.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/raw_materials/honeycomb_iridium.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/raw_materials/honeycomb_iron.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/raw_materials/honeycomb_leaden.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/raw_materials/honeycomb_netherite.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/raw_materials/honeycomb_nickel.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/raw_materials/honeycomb_osmium.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/raw_materials/honeycomb_platinum.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/raw_materials/honeycomb_radioactive.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/raw_materials/honeycomb_silver.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/raw_materials/honeycomb_tin.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/raw_materials/honeycomb_titanium.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/raw_materials/honeycomb_tungsten.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/raw_materials/honeycomb_zinc.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/shroom/honeycomb_brown_shroom.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/shroom/honeycomb_crimson.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/shroom/honeycomb_red_shroom.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/shroom/honeycomb_warped.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/tconstruct/honeycomb_cobalt.json"
-
-[[files]]
-file = "kubejs/data/productivebees/recipes/centrifuge/tconstruct/honeycomb_rose_gold.json"
 
 [[files]]
 file = "kubejs/data/sgjourney/tags/worldgen/biome/has_structure/buried_stargate/buried_stargate_biomes.json"
@@ -1139,255 +593,6 @@ file = "kubejs/data/sgjourney/tags/worldgen/biome/has_structure/terra_stargate_b
 
 [[files]]
 file = "kubejs/jsconfig.json"
-
-[[files]]
-file = "kubejs/probe/.gitignore"
-
-[[files]]
-file = "kubejs/probe/cache/cachedForgeEvents.json"
-
-[[files]]
-file = "kubejs/probe/cache/cachedJava.json"
-
-[[files]]
-file = "kubejs/probe/cache/docs/dynamicjs.json"
-
-[[files]]
-file = "kubejs/probe/cache/docs/events.json"
-
-[[files]]
-file = "kubejs/probe/cache/docs/kubejs.json"
-
-[[files]]
-file = "kubejs/probe/cache/docs/kubejs_recipes.json"
-
-[[files]]
-file = "kubejs/probe/cache/docs/morejs.json"
-
-[[files]]
-file = "kubejs/probe/cache/docs/probe.json"
-
-[[files]]
-file = "kubejs/probe/cache/docs/registry.json"
-
-[[files]]
-file = "kubejs/probe/cache/docs/types.json"
-
-[[files]]
-file = "kubejs/probe/cache/modHash.txt"
-
-[[files]]
-file = "kubejs/probe/generated/constants.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/events.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/globals.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/internals/index.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_0.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_1.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_10.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_11.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_12.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_13.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_14.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_15.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_16.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_17.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_18.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_19.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_2.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_20.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_21.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_22.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_23.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_24.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_25.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_26.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_27.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_28.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_29.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_3.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_30.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_31.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_32.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_33.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_34.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_35.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_36.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_37.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_38.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_39.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_4.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_40.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_41.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_42.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_43.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_44.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_45.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_46.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_47.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_48.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_49.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_5.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_50.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_51.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_52.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_53.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_54.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_55.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_56.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_57.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_58.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_59.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_6.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_60.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_61.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_62.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_7.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_8.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/internals/internal_9.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/names.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/raw.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/registries.d.ts"
-
-[[files]]
-file = "kubejs/probe/generated/tag_events.d.ts"
 
 [[files]]
 file = "kubejs/server_scripts/Armor/AD Astra/JetSuit.js"
@@ -1435,6 +640,9 @@ file = "kubejs/server_scripts/GregMultiRecipe.js"
 file = "kubejs/server_scripts/GregOreVeins.js"
 
 [[files]]
+file = "kubejs/server_scripts/ItemRemoval.js"
+
+[[files]]
 file = "kubejs/server_scripts/Items/Compass.js"
 
 [[files]]
@@ -1456,7 +664,7 @@ file = "kubejs/server_scripts/JSONRecipes/Ad_Astra/T4Rocket.js"
 file = "kubejs/server_scripts/Mods/AE2.js"
 
 [[files]]
-file = "kubejs/server_scripts/Mods/Avaritia.js"
+file = "kubejs/server_scripts/Mods/ConstructionWand.js"
 
 [[files]]
 file = "kubejs/server_scripts/Mods/Create.js"
@@ -1483,9 +691,6 @@ file = "kubejs/server_scripts/Mods/Greg/bender.js"
 file = "kubejs/server_scripts/Mods/Greg/circuit_assembler.js"
 
 [[files]]
-file = "kubejs/server_scripts/Mods/Greg/engraver.js"
-
-[[files]]
 file = "kubejs/server_scripts/Mods/ProductiveBees/BeeFood.js"
 
 [[files]]
@@ -1501,22 +706,13 @@ file = "kubejs/server_scripts/Mods/SophisticatedBackpacks.js"
 file = "kubejs/server_scripts/Mods/SophisticatedStorage.js"
 
 [[files]]
-file = "kubejs/server_scripts/Mods/StargateJourney.js"
-
-[[files]]
 file = "kubejs/server_scripts/Mods/TomsSimpleStorage.js"
-
-[[files]]
-file = "kubejs/server_scripts/Mods/Wands.js"
 
 [[files]]
 file = "kubejs/server_scripts/Mods/ad_astra.js"
 
 [[files]]
 file = "kubejs/server_scripts/Mods/cc_tweaked.js"
-
-[[files]]
-file = "kubejs/server_scripts/Mods/productive_bees.js"
 
 [[files]]
 file = "kubejs/server_scripts/SequencedAssembly/AE2sequence.js"
@@ -1537,9 +733,6 @@ file = "kubejs/server_scripts/SequencedAssembly/MV.js"
 file = "kubejs/server_scripts/Tags.js"
 
 [[files]]
-file = "kubejs/server_scripts/Util.js"
-
-[[files]]
 file = "kubejs/server_scripts/Vanilla.js"
 
 [[files]]
@@ -1549,7 +742,10 @@ file = "kubejs/startup_scripts/BlockGeneration.js"
 file = "kubejs/startup_scripts/ItemGeneration.js"
 
 [[files]]
-file = "kubejs/startup_scripts/ItemsModification.js"
+file = "kubejs/startup_scripts/ItemModification.js"
+
+[[files]]
+file = "kubejs/startup_scripts/ItemRemoval.js"
 
 [[files]]
 file = "kubejs/startup_scripts/Materials.js"
@@ -1558,7 +754,13 @@ file = "kubejs/startup_scripts/Materials.js"
 file = "kubejs/startup_scripts/MultiBlock.js"
 
 [[files]]
+file = "kubejs/startup_scripts/Objects.js"
+
+[[files]]
 file = "kubejs/startup_scripts/Ores.js"
+
+[[files]]
+file = "kubejs/startup_scripts/Util.js"
 
 [[files]]
 file = "mods/ad-astra.pw.toml"
