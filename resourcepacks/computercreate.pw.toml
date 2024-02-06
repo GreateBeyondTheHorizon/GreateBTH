@@ -1,0 +1,13 @@
+name = "ComputerCreate"
+filename = "ComputerCreate.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/KqGEAQeu/versions/vK18AafF/ComputerCreate.zip"
+hash-format = "sha1"
+hash = "7d9a960084a787546a8bd968377013d0f5175908"
+
+[update]
+[update.modrinth]
+mod-id = "KqGEAQeu"
+version = "vK18AafF"
