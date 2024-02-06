@@ -7,20 +7,6 @@ ServerEvents.tags('item', event => {
 })
 
 ServerEvents.recipes(event => {
-    // Remove removed item input recipes
-	for (const item of global.ItemsToRemoveAsInputs) {
-        event.remove({ input: item })
-    }
-
-    // Replace removed items in input recipes
-    for (const item of global.ItemsToReplaceAsInputs) {
-        event.replaceInput(
-            { input: item.item },
-            item.item,
-            item.replacementInput
-        )
-    }
-
     // Remove the recipes for removed items, and replace them in inputs as Removed Item Placeholders
 	for (const item of global.ItemsToRemove) {
         event.remove({ output: item })
