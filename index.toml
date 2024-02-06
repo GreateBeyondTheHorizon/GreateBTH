@@ -472,6 +472,9 @@ file = "kubejs/config/client.properties"
 file = "kubejs/config/common.properties"
 
 [[files]]
+file = "kubejs/config/defaultoptions.txt"
+
+[[files]]
 file = "kubejs/config/packicon.png"
 
 [[files]]
@@ -1131,8 +1134,25 @@ file = "mods/yeetus-experimentus.pw.toml"
 metafile = true
 
 [[files]]
-file = "resourcepacks/C4Music_v3.0.zip"
+file = "resourcepacks/GBTHOverrides/assets/toms_storage/textures/gui/crafting_terminal.png"
+
+[[files]]
+file = "resourcepacks/GBTHOverrides/assets/toms_storage/textures/gui/storage_terminal.png"
+
+[[files]]
+file = "resourcepacks/GBTHOverrides/pack.mcmeta"
+
+[[files]]
+file = "resourcepacks/GBTHOverrides/pack.png"
+
+[[files]]
+file = "resourcepacks/computercreate.pw.toml"
+metafile = true
 
 [[files]]
 file = "resourcepacks/gregtech-refreshed.pw.toml"
+metafile = true
+
+[[files]]
+file = "resourcepacks/toms-create-storage.pw.toml"
 metafile = true

@@ -15,6 +15,7 @@
 !/defaultconfigs
 !/resourcepacks
 !/kubejs
+/kubejs/probe
 !/packmenu
 
 # resource packs
