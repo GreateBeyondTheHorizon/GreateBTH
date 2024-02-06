@@ -2,10 +2,10 @@ ItemEvents.tooltip(event => {
 	event.addAdvanced(
 		'kubejs:removed_item_placeholder',
 		(item, advanced, text) => {
-			if (!advanced) return
-			text.add(
-				Text.gray('Removed: ').append(Text.darkPurple(item.nbt?.Removed))
-			)
+			let removedItem = item.nbt?.Removed
+			if (removedItem != undefined) {
+				text.add(Text.darkGray('Removed: ').append(Text.lightPurple(removedItem)))
+			}
 		}
 	)
 })
