@@ -45,8 +45,8 @@ ServerEvents.recipes(event => {
 		[
 			event.recipes.createDeploying(incGoodIntegratedCirc, [incGoodIntegratedCirc, ['gtceu:smd_resistor', 'gtceu:resistor']]),
 			event.recipes.createDeploying(incGoodIntegratedCirc, [incGoodIntegratedCirc, ['gtceu:smd_diode', 'gtceu:diode']]),
-			event.recipes.createDeploying(incGoodIntegratedCirc, [incGoodIntegratedCirc, 'gtceu:gold_fine_wire']),
-			event.recipes.createDeploying(incGoodIntegratedCirc, [incGoodIntegratedCirc, 'gtceu:gold_fine_wire']),
+			event.recipes.createDeploying(incGoodIntegratedCirc, [incGoodIntegratedCirc, 'gtceu:fine_gold_wire']),
+			event.recipes.createDeploying(incGoodIntegratedCirc, [incGoodIntegratedCirc, 'gtceu:fine_gold_wire']),
 			event.recipes.createDeploying(incGoodIntegratedCirc, [incGoodIntegratedCirc, 'gtceu:silver_bolt']),
 			event.recipes.createDeploying(incGoodIntegratedCirc, [incGoodIntegratedCirc, 'gtceu:silver_bolt'])
 		]
@@ -59,7 +59,7 @@ ServerEvents.recipes(event => {
 			event.recipes.createDeploying(incMicroProcessor, [incMicroProcessor, ['gtceu:resistor', 'gtceu:smd_resistor']]),
 			event.recipes.createDeploying(incMicroProcessor, [incMicroProcessor, ['gtceu:capacitor', 'gtceu:smd_capacitor']]),
 			event.recipes.createDeploying(incMicroProcessor, [incMicroProcessor, ['gtceu:transistor', 'gtceu:smd_transistor']]),
-			event.recipes.createDeploying(incMicroProcessor, [incMicroProcessor, 'gtceu:red_alloy_fine_wire']),
+			event.recipes.createDeploying(incMicroProcessor, [incMicroProcessor, 'gtceu:fine_red_alloy_wire']),
 		]
 	).transitionalItem(incMicroProcessor).loops(4)
 // #endregion
@@ -80,7 +80,7 @@ ServerEvents.recipes(event => {
 		'gtceu:mv_electric_motor',
 		[
 			event.recipes.createDeploying(incMvPiston,[incMvPiston, 'gtceu:copper_single_cable']),
-			event.recipes.createDeploying(incMvPiston,[incMvPiston, 'gtceu:aluminium_small_gear']),
+			event.recipes.createDeploying(incMvPiston,[incMvPiston, 'gtceu:small_aluminium_gear']),
 			event.recipes.createDeploying(incMvPiston,[incMvPiston, 'gtceu:aluminium_rod']),
 			event.recipes.createDeploying(incMvPiston,[incMvPiston, 'gtceu:aluminium_plate']),
 		]
@@ -169,9 +169,9 @@ ServerEvents.recipes(event => {
 		'gtceu:electrum_rod',
 		[
 			event.recipes.createDeploying(invMvSensor,[invMvSensor,'#gtceu:circuits/mv']),
-			event.recipes.createDeploying(invMvSensor,[invMvSensor,'gtceu:aluminium_double_plate']),
-			event.recipes.createDeploying(invMvSensor,[invMvSensor,'gtceu:aluminium_double_plate']),
-			event.recipes.createDeploying(invMvSensor,[invMvSensor,'gtceu:emerald_flawless_gem']),
+			event.recipes.createDeploying(invMvSensor,[invMvSensor,'gtceu:double_aluminium_plate']),
+			event.recipes.createDeploying(invMvSensor,[invMvSensor,'gtceu:double_aluminium_plate']),
+			event.recipes.createDeploying(invMvSensor,[invMvSensor,'gtceu:flawless_emerald_gem']),
 		]
 	).transitionalItem(invMvSensor).loops(1)
 

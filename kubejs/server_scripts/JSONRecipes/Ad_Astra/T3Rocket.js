@@ -1,78 +1,51 @@
 ServerEvents.recipes(event => {
+	event.remove({ id: 'ad_astra:nasa_workbench/tier_3_rocket_from_nasa_workbench' })
 	event.custom({
 		type: 'ad_astra:nasa_workbench',
 		ingredients: [
 			{
-				ingredient: {
-					item: 'kubejs:hsse_cone',
-				},
+				item: 'kubejs:hsse_cone'
 			},
 			{
-				ingredient: {
-					item: 'gtceu:hsse_block',
-				},
+				item: 'gtceu:hsse_block'
 			},
 			{
-				ingredient: {
-					item: 'gtceu:hsse_block',
-				},
+				item: 'gtceu:hsse_block'
 			},
 			{
-				ingredient: {
-					item: 'gtceu:hsse_block',
-				},
+				item: 'gtceu:hsse_block'
 			},
 			{
-				ingredient: {
-					item: 'gtceu:hsse_block',
-				},
+				item: 'gtceu:hsse_block'
 			},
 			{
-				ingredient: {
-					item: 'gtceu:hsse_block',
-				},
+				item: 'gtceu:hsse_block'
 			},
 			{
-				ingredient: {
-					item: 'gtceu:hsse_block',
-				},
+				item: 'gtceu:hsse_block'
 			},
 			{
-				ingredient: {
-					item: 'kubejs:hsse_fin',
-				},
+				item: 'kubejs:hsse_fin'
 			},
 			{
-				ingredient: {
-					item: 'gtceu:iv_quantum_tank',
-				},
+				item: 'gtceu:iv_quantum_tank'
 			},
 			{
-				ingredient: {
-					item: 'gtceu:iv_quantum_tank',
-				},
+				item: 'gtceu:iv_quantum_tank'
 			},
 			{
-				ingredient: {
-					item: 'kubejs:hsse_fin',
-				},
+				item: 'kubejs:hsse_fin'
 			},
 			{
-				ingredient: {
-					item: 'kubejs:hsse_fin',
-				},
+				item: 'kubejs:hsse_fin'
 			},
 			{
-				ingredient: {
-					item: 'kubejs:hsse_engine',
-				},
+				item: 'kubejs:hsse_engine'
 			},
 			{
-				ingredient: {
-					item: 'kubejs:hsse_fin',
-				},
-			},
+				item: 'kubejs:hsse_fin'
+			}
 		],
-		output: 'ad_astra:tier_3_rocket',
+		result: 'ad_astra:tier_3_rocket'
 	})
 })

@@ -2,6 +2,7 @@ ServerEvents.recipes( event => {
 	event.remove({ output:'ad_astra:rocket_fin' })
 	event.remove({ output:/ad_astra:(.*)engine/ })
 	event.remove({ output:'ad_astra:rocket_nose_cone' })
+	event.remove({ type: 'ad_astra:compressing' })
 
 	//stainless steel
 	event.shaped(
@@ -12,7 +13,7 @@ ServerEvents.recipes( event => {
 			'DCD'
 		],
 		{
-			A:'gtceu:stainless_steel_double_plate',
+			A:'gtceu:double_stainless_steel_plate',
 			B:'gtceu:stainless_steel_frame',
 			C:'gtceu:stainless_steel_rotor',
 			D:'#gtceu:circuits/hv'
@@ -26,7 +27,7 @@ ServerEvents.recipes( event => {
 			'A A'
 		],
 		{
-			A:'gtceu:stainless_steel_double_plate'
+			A:'gtceu:double_stainless_steel_plate'
 		}
 	)
 	event.shaped(
@@ -37,7 +38,7 @@ ServerEvents.recipes( event => {
 			'AAA'
 		],
 		{
-			A:'gtceu:stainless_steel_double_plate',
+			A:'gtceu:double_stainless_steel_plate',
 		}
 	)
 	
@@ -50,7 +51,7 @@ ServerEvents.recipes( event => {
 			'DCD'
 		],
 		{
-			A:'gtceu:tungsten_steel_double_plate',
+			A:'gtceu:double_tungsten_steel_plate',
 			B:'gtceu:tungsten_steel_frame',
 			C:'gtceu:tungsten_steel_rotor',
 			D:'#gtceu:circuits/ev'
@@ -64,7 +65,7 @@ ServerEvents.recipes( event => {
 			'A A'
 		],
 		{
-			A:'gtceu:tungsten_steel_double_plate'
+			A:'gtceu:double_tungsten_steel_plate'
 		}
 	)
 	event.shaped(
@@ -75,7 +76,7 @@ ServerEvents.recipes( event => {
 			'AAA'
 		],
 		{
-			A:'gtceu:tungsten_carbide_double_plate'
+			A:'gtceu:double_tungsten_carbide_plate'
 		}
 	)
 	
@@ -88,7 +89,7 @@ ServerEvents.recipes( event => {
 			'DCD'
 		],
 		{
-			A:'gtceu:hsse_double_plate',
+			A:'gtceu:double_hsse_plate',
 			B:'gtceu:hsse_frame',
 			C:'kubejs:hsse_rotor',
 			D:'#gtceu:circuits/iv'
@@ -102,7 +103,7 @@ ServerEvents.recipes( event => {
 			'A A'
 		],
 		{
-			A:'gtceu:hsse_double_plate'
+			A:'gtceu:double_hsse_plate'
 		}
 	)
 	event.shaped(
@@ -113,7 +114,7 @@ ServerEvents.recipes( event => {
 			'AAA'
 		],
 		{
-			A:'gtceu:hsse_double_plate'
+			A:'gtceu:double_hsse_plate'
 		}
 	)
 	
@@ -126,7 +127,7 @@ ServerEvents.recipes( event => {
 			'DCD'
 		],
 		{
-			A:'gtceu:trinium_double_plate',
+			A:'gtceu:double_trinium_plate',
 			B:'kubejs:trinium_frame',
 			C:'kubejs:trinium_rotor',
 			D:'#gtceu:circuits/luv'
@@ -140,7 +141,7 @@ ServerEvents.recipes( event => {
 			'A A'
 		],
 		{
-			A:'gtceu:trinium_double_plate'
+			A:'gtceu:double_trinium_plate'
 		}
 	)
 	event.shaped(
@@ -151,7 +152,7 @@ ServerEvents.recipes( event => {
 			'AAA'
 		],
 		{
-			A:'gtceu:trinium_double_plate'
+			A:'gtceu:double_trinium_plate'
 		}
 	)
 

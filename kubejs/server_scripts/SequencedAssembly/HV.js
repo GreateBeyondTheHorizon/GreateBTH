@@ -20,8 +20,8 @@ ServerEvents.recipes(event => {
 		'gtceu:advanced_integrated_circuit'
 	],	interAdvCirc, [
 		event.recipes.createDeploying(incAdvCirc, [incAdvCirc, ['gtceu:transistor','gtceu:smd_transistor']]),
-		event.recipes.createDeploying(incAdvCirc, [incAdvCirc, 'gtceu:electrum_fine_wire']),
-		event.recipes.createDeploying(incAdvCirc, [incAdvCirc, 'gtceu:electrum_fine_wire']),
+		event.recipes.createDeploying(incAdvCirc, [incAdvCirc, 'gtceu:fine_electrum_wire']),
+		event.recipes.createDeploying(incAdvCirc, [incAdvCirc, 'gtceu:fine_electrum_wire']),
 		event.recipes.createDeploying(incAdvCirc, [incAdvCirc, 'gtceu:annealed_copper_bolt']),
 		event.recipes.createDeploying(incAdvCirc, [incAdvCirc, 'gtceu:annealed_copper_bolt']),
 		]).transitionalItem(incAdvCirc).loops(4)
@@ -29,8 +29,8 @@ ServerEvents.recipes(event => {
  	event.recipes.createSequencedAssembly([
 		'gtceu:micro_processor_assembly'
 	 	],	interMicroProcCirc, [
-		event.recipes.createDeploying(incMicroProcCirc, [incMicroProcCirc, 'gtceu:red_alloy_fine_wire']),
-		event.recipes.createDeploying(incMicroProcCirc, [incMicroProcCirc, 'gtceu:red_alloy_fine_wire']),
+		event.recipes.createDeploying(incMicroProcCirc, [incMicroProcCirc, 'gtceu:fine_red_alloy_wire']),
+		event.recipes.createDeploying(incMicroProcCirc, [incMicroProcCirc, 'gtceu:fine_red_alloy_wire']),
 		event.recipes.createDeploying(incMicroProcCirc, [incMicroProcCirc, ['gtceu:inductor', 'gtceu:smd_inductor']]),
 		event.recipes.createDeploying(incMicroProcCirc, [incMicroProcCirc, ['gtceu:capacitor', 'gtceu:smd_capacitor']]),
 		event.recipes.createDeploying(incMicroProcCirc, [incMicroProcCirc, ['gtceu:capacitor', 'gtceu:smd_capacitor']])
@@ -50,7 +50,7 @@ ServerEvents.recipes(event => {
  		'gtceu:hv_electric_piston',
 	], 'gtceu:hv_electric_motor',[
  	event.recipes.createDeploying(incHvPiston,[incHvPiston, 'gtceu:gold_single_cable']),
- 	event.recipes.createDeploying(incHvPiston,[incHvPiston, 'gtceu:stainless_steel_small_gear']),
+	event.recipes.createDeploying(incHvPiston,[incHvPiston, 'gtceu:small_stainless_steel_gear']),
  	event.recipes.createDeploying(incHvPiston,[incHvPiston, 'gtceu:stainless_steel_rod']),
  	event.recipes.createDeploying(incHvPiston,[incHvPiston, 'gtceu:stainless_steel_plate']),
  	]).transitionalItem(incHvPiston).loops(2)
@@ -129,8 +129,8 @@ ServerEvents.recipes(event => {
  		'gtceu:hv_sensor',
 	],	'gtceu:chromium_rod',[
  	event.recipes.createDeploying(invHvSensor,[invHvSensor,'#gtceu:circuits/hv']),
- 	event.recipes.createDeploying(invHvSensor,[invHvSensor,'gtceu:stainless_steel_double_plate']),
- 	event.recipes.createDeploying(invHvSensor,[invHvSensor,'gtceu:stainless_steel_double_plate']),
+ 	event.recipes.createDeploying(invHvSensor,[invHvSensor,'gtceu:double_stainless_steel_plate']),
+ 	event.recipes.createDeploying(invHvSensor,[invHvSensor,'gtceu:double_stainless_steel_plate']),
  	event.recipes.createDeploying(invHvSensor,[invHvSensor,'minecraft:ender_eye']),
  	]).transitionalItem(invHvSensor).loops(1)
 

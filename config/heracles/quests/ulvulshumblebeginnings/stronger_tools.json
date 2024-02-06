@@ -3,48 +3,9 @@
     "wrought_iron"
   ],
   "tasks": {
-    "3C48466F6459D09D": {
+    "tools": {
       "type": "heracles:item",
-      "item": "itemfilters:or",
-      "nbt": {
-        "items": [
-          {
-            "Count": 1,
-            "id": "gtceu:wrought_iron_wrench",
-            "tag": {
-              "Damage": 0
-            }
-          },
-          {
-            "Count": 1,
-            "id": "gtceu:wrought_iron_hammer",
-            "tag": {
-              "Damage": 0
-            }
-          },
-          {
-            "Count": 1,
-            "id": "gtceu:wrought_iron_file",
-            "tag": {
-              "Damage": 0
-            }
-          },
-          {
-            "Count": 1,
-            "id": "gtceu:wrought_iron_saw",
-            "tag": {
-              "Damage": 0
-            }
-          },
-          {
-            "Count": 1,
-            "id": "gtceu:wrought_iron_screwdriver",
-            "tag": {
-              "Damage": 0
-            }
-          }
-        ]
-      },
+      "item": "#gbth:wrought_iron_tools",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",
