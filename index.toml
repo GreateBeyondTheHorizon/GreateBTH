@@ -890,6 +890,10 @@ file = "mods/create-connected.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/create-diesel-generators.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/create-steam-n-rails.pw.toml"
 metafile = true
 
