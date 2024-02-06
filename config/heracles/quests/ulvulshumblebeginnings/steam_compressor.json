@@ -3,21 +3,9 @@
     "its_moldin_time"
   ],
   "tasks": {
-    "0A58E7E68CA45387": {
+    "steam_compressors": {
       "type": "heracles:item",
-      "item": "itemfilters:or",
-      "nbt": {
-        "items": [
-          {
-            "Count": 1,
-            "id": "gtceu:lp_steam_compressor"
-          },
-          {
-            "Count": 1,
-            "id": "gtceu:hp_steam_compressor"
-          }
-        ]
-      },
+      "item": "#gbth:steam_compressors",
       "amount": 1,
       "collection": "AUTOMATIC",
       "title": "",

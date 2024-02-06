@@ -129,7 +129,7 @@ ServerEvents.recipes(event => {
 			event.recipes.createDeploying(incNanoProc, [incNanoProc, 'gtceu:smd_resistor']),
 			event.recipes.createDeploying(incNanoProc, [incNanoProc, 'gtceu:smd_capacitor']),
 			event.recipes.createDeploying(incNanoProc, [incNanoProc, 'gtceu:smd_transistor']),
-			event.recipes.createDeploying(incNanoProc, [incNanoProc, 'gtceu:electrum_fine_wire']),
+			event.recipes.createDeploying(incNanoProc, [incNanoProc, 'gtceu:fine_electrum_wire']),
 		]
 	).transitionalItem(incNanoProc).loops(6)
 
@@ -140,8 +140,8 @@ ServerEvents.recipes(event => {
 			event.recipes.createDeploying(incNanoProc, [incNanoProc, 'gtceu:advanced_smd_resistor']),
 			event.recipes.createDeploying(incNanoProc, [incNanoProc, 'gtceu:advanced_smd_capacitor']),
 			event.recipes.createDeploying(incNanoProc, [incNanoProc, 'gtceu:advanced_smd_transistor']),
-			event.recipes.createDeploying(incNanoProc, [incNanoProc, 'gtceu:electrum_fine_wire']),
-			event.recipes.createDeploying(incNanoProc, [incNanoProc, 'gtceu:electrum_fine_wire']),
+			event.recipes.createDeploying(incNanoProc, [incNanoProc, 'gtceu:fine_electrum_wire']),
+			event.recipes.createDeploying(incNanoProc, [incNanoProc, 'gtceu:fine_electrum_wire']),
 		]
 	).transitionalItem(incNanoProc).loops(2)
 })

@@ -98,7 +98,7 @@ ServerEvents.recipes(event => {
 			'BDB'
 		],
 		{
-			B:'gtceu:diamond_flawless_gem',
+			B:'gtceu:flawless_diamond_gem',
 			C:'sophisticatedbackpacks:gold_backpack',
 			D:'gtceu:polyvinyl_chloride_plate',
 			E:'gtceu:stainless_steel_gear',
@@ -116,7 +116,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 			B:'#forge:ingots/netherite',
-			C:'sophisticatedbackpacks:gold_backpack',
+			C:'sophisticatedbackpacks:diamond_backpack',
 			D:'#forge:plates/ultimet',
 			E:'#forge:gears/titanium',
 			F:'minecraft:chain'

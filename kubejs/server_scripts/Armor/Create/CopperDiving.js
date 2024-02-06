@@ -7,7 +7,7 @@ ServerEvents.recipes(event => {
 			'DCD'
 		],
 		{
-			A: 'gtceu:copper_double_plate',
+			A: 'gtceu:double_copper_plate',
 			B: 'gtceu:tempered_glass',
 			C: 'gtceu:polyethylene_small_fluid_pipe',
 			D: 'gtceu:rubber_plate'
@@ -21,7 +21,7 @@ ServerEvents.recipes(event => {
 			'AAA'
 		],
 		{
-			A: 'gtceu:copper_double_plate',
+			A: 'gtceu:double_copper_plate',
 			B: 'gtceu:bronze_drum',
 			C: 'gtceu:polyethylene_small_fluid_pipe',
 			D: 'gtceu:rubber_plate'
@@ -35,7 +35,7 @@ ServerEvents.recipes(event => {
 			'A A'
 		],
 		{
-			A: 'gtceu:copper_double_plate',
+			A: 'gtceu:double_copper_plate',
 			D: 'gtceu:rubber_plate'
 		}
 	)

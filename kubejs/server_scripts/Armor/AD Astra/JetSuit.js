@@ -6,7 +6,7 @@ ServerEvents.recipes(event => {
 			'ABA', 
 		],
 		{
-			A: 'gtceu:hsss_double_plate',
+			A: 'gtceu:double_hsss_plate',
 			B: 'ad_astra:netherite_space_helmet'
 		}
 	)
@@ -18,7 +18,7 @@ ServerEvents.recipes(event => {
 			'ADA'  
 		],
 		{
-			A: 'gtceu:hsss_double_plate',
+			A: 'gtceu:double_hsss_plate',
 			B: 'ad_astra:netherite_space_suit',
 			C: 'gtceu:iv_vanadium_battery',
 			D: 'gtceu:iv_quantum_tank'
@@ -33,7 +33,7 @@ ServerEvents.recipes(event => {
 			'A A'  
 		],
 		{
-			A: 'gtceu:hsss_double_plate',
+			A: 'gtceu:double_hsss_plate',
 			B: 'ad_astra:netherite_space_pants'
 		}
 	)
@@ -45,7 +45,7 @@ ServerEvents.recipes(event => {
 			'   '  
 		],
 		{
-			A: 'gtceu:hsss_double_plate',
+			A: 'gtceu:double_hsss_plate',
 			B: 'ad_astra:netherite_space_boots'
 		}
 	)
