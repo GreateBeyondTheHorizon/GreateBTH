@@ -1,8 +1,4 @@
 ServerEvents.recipes(event => {
-	// Disable wand cores so that players can't mine super easily in early game.
-	event.remove({ output: 'constructionwand:core_angel'})
-	event.remove({ output: 'constructionwand:core_destruction'})
-
 	// Stone wand
 	event.remove({ output: 'constructionwand:stone_wand' })
 	event.shaped(

@@ -13,18 +13,11 @@ ServerEvents.recipes(event => {
 		'cogwheel',
 		'large_cogwheel',
 		'brass_hand',
-		'electron_tube'
 	]
 
 	removed.forEach(item => {
 		event.remove({output: `create:${item}`})
 	})
-
-	event.remove({ output: 'create:iron_sheet'})
-	event.remove({ output: 'create:brass_sheet'})
-	event.remove({ output: 'create:copper_sheet'})
-	event.remove({ output: 'create:golden_sheet'})
-	event.remove({ id: 'create:iron_sheet'})
 
 	event.recipes.createMixing('minecraft:turtle_helmet', [
 		'kubejs:unf_turtle_helmet',
