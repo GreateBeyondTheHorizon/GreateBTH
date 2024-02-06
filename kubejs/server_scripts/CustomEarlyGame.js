@@ -1,5 +1,3 @@
-
-
 //Changes the output of grass to have fiber as new Loot
 LootJS.modifiers((event) => {
     event
@@ -19,31 +17,20 @@ LootJS.modifiers((event) => {
         .addLoot('farmersdelight:straw');
 });
 
-BlockEvents.placed('minecraft:campfire', (e) => {
-    e.block.set('minecraft:campfire', {lit:'false'})
+BlockEvents.placed('minecraft:campfire', (event) => {
+    event.block.set('minecraft:campfire', {lit:'false'})
 });
 
 
-BlockEvents.rightClicked(e => {
-	if(e.block.id === 'minecraft:campfire' && e.item.id === 'kubejs:fire_starter') {
-		e.block.set('minecraft:campfire', {lit:'true'});
+BlockEvents.rightClicked(event => {
+	if(event.block.id === 'minecraft:campfire' && event.item.id === 'kubejs:fire_starter') {
+		event.block.set('minecraft:campfire', {lit:'true'})
+		event.player.inventory.getStackInSlot
+		//event.player.inventory.clear()	
 	}
 })
 
 ServerEvents.recipes(event => {
-
-
-	//Removes the default recipes of flint tools the get replaced with new ones
-	event.remove({output: 'gtceu:flint_pickaxe'})
-	
-	event.remove({output:'gtceu:flint_shovel'})
-
-	event.remove({output:'gtceu:flint_axe'})
-
-	event.remove({output:'gtceu:flint_knife'})
-
-	event.remove({output:'gtceu:flint_sword'})
-	event.remove({output:'gtceu:flint_hoe'})
 
 	event.shaped(
 		Item.of('kubejs:fire_starter', 1),
@@ -66,7 +53,7 @@ ServerEvents.recipes(event => {
 			],
 			{
 				A:'minecraft:flint',
-				B:'gtceu:flint_knife'
+				B:'#forge:tools/knives'
 			}
 	)
 
@@ -78,7 +65,7 @@ ServerEvents.recipes(event => {
 			],
 			{
 				A:'minecraft:flint',
-				B:'gtceu:flint_knife'
+				B:'#forge:tools/knives'
 			}
 	)
 	
@@ -90,7 +77,7 @@ ServerEvents.recipes(event => {
 			],
 			{
 				A:'minecraft:flint',
-				B:'gtceu:flint_knife'
+				B:'#forge:tools/knives'
 			}
 	)
 	event.shaped(
@@ -101,7 +88,7 @@ ServerEvents.recipes(event => {
 			],
 			{
 				A:'minecraft:flint',
-				B:'gtceu:flint_knife'
+				B:'#forge:tools/knives'
 			}
 	)
 
@@ -113,9 +100,11 @@ ServerEvents.recipes(event => {
 			],
 			{
 				A:'minecraft:flint',
-				B:'gtceu:flint_knife'
+				B:'#forge:tools/knives'
 			}
 	)
+
+
 	event.shaped(
 		Item.of('gtceu:flint_knife', '{DisallowContainerItem:0,GT.Behaviours:{},GT.Tool:{AttackDamage:1.0f,AttackSpeed:3.0f,Damage:0,MaxDamage:50},HideFlags:2}'),
 			[
@@ -194,7 +183,6 @@ ServerEvents.recipes(event => {
 				C:'kubejs:flint_hoe_head'
 			}
 	)
-	
 
 	event.shaped(
 		Item.of('minecraft:campfire', ),
@@ -208,8 +196,101 @@ ServerEvents.recipes(event => {
 				C:'kubejs:flint_shovel_head'
 			}
 	)
-	
-	
 
+	event.shaped(
+		Item.of('gtceu:compressed_clay', 1),
+			[
+				'AA',
+				'B ',
+			],
+			{
+				A:'minecraft:clay_ball',
+				B:'gtceu:brick_wooden_form'
+			}
+	)
+
+	event.shaped(
+		Item.of('kubejs:block_wooden_form'),
+			[
+				'A ',
+				'B ',
+			],
+			{
+				A:'gtceu:empty_wooden_form',
+				B:'#forge:tools/knives'
+			}
+	)
+
+	event.shaped(
+		Item.of('minecraft:clay', 1),
+			[
+				'AA',
+				'BA',
+			],
+			{
+				A:'gtceu:compressed_clay',
+				B:'kubejs:block_wooden_form'
+			}
+	)
+
+	event.shaped(
+		Item.of('ceramicbucket:unfired_clay_bucket', 1),
+			[
+				'B ',
+				'AA',
+			],
+			{
+				A:'minecraft:clay',
+				B:'#forge:tools/knives'
+			}
+	)
+
+	event.shaped(
+		Item.of('minecraft:mud', 3),
+			[
+				'BB',
+				'BA',
+			],
+			{
+				A:Item.of('ceramicbucket:ceramic_bucket', '{Fluid:{Amount:1000,FluidName:"minecraft:water"}}').strongNBT(),
+				B:'minecraft:dirt'
+			}
+	)
+
+	event.shaped(
+		Item.of('minecraft:packed_mud', 2),
+			[
+				'BA',
+				'A '
+			],
+			{
+				A:'minecraft:wheat',
+				B:'minecraft:mud'
+			}
+	)
+
+	event.shaped(
+		Item.of('kubejs:mud_brick', 1),
+			[
+				'AB'
+			],
+			{
+				A:'minecraft:packed_mud',
+				B:'gtceu:brick_wooden_form'
+			}
+	)
+
+	event.shaped(
+		Item.of('minecraft:mud_bricks', 1),
+			[
+				'AA',
+				'AA'
+			],
+			{
+				A:'kubejs:mud_brick',
+			}
+	)
+
+	event.campfireCooking('ceramicbucket:ceramic_bucket', 'ceramicbucket:unfired_clay_bucket')
 
 })

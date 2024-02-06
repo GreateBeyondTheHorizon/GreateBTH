@@ -150,3 +150,19 @@ removeNamespaceItems('enderio', [
 	'pressurized_fluid_tank',
 	'drain',
 ])
+
+//EarlyGameRework
+
+removeItems([
+
+// Removed because all got new Recipes
+'gtceu:flint_pickaxe',
+'gtceu:flint_shovel',
+'gtceu:flint_axe',
+'gtceu:flint_knife',
+'gtceu:flint_sword',
+'gtceu:flint_hoe',
+'gtceu:compressed_clay',
+'minecraft:packed_mud',
+'minecraft:mud_bricks'
+])
