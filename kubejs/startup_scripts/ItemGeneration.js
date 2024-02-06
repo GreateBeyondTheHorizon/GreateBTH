@@ -108,10 +108,11 @@ StartupEvents.registry('item', event => {
 	event.create('titanium_bee_food').displayName('Titanium Bee Food')
 
 	//CustomEarlyGame
-	event.create('fire_starter').unstackable().displayName('Campfire Starter')
+	event.create('fire_starter').maxDamage(10).unstackable().displayName('Campfire Starter')
+	event.create('block_wooden_form').unstackable().displayName('Block Wooden Form').maxDamage(100)
 
-
-
+	event.create('mud_brick').displayName('Mud Brick')
+	
 
 	event.create('flint_pickaxe_head').displayName('Flint Pickaxe Head')
 	event.create('flint_axe_head').displayName('Flint Axe Head')
