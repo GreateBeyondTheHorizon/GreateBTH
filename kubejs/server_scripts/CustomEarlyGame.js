@@ -5,7 +5,6 @@ LootJS.modifiers((event) => {
         .randomChance(0.5)
         .addLoot("kubejs:fiber");
 
-
 	event
 		.addBlockLootModifier('minecraft:campfire')
 		.removeLoot('minecraft:charcoal')
@@ -23,10 +22,17 @@ BlockEvents.placed('minecraft:campfire', (event) => {
 
 
 BlockEvents.rightClicked(event => {
-	if(event.block.id === 'minecraft:campfire' && event.item.id === 'kubejs:fire_starter') {
-		event.block.set('minecraft:campfire', {lit:'true'})
-		event.player.inventory.getStackInSlot
-		//event.player.inventory.clear()	
+	if(event.block.id === 'minecraft:campfire' && event.item.id === 'kubejs:fire_starter') {			
+		var mainHandItem = event.player.getMainHandItem().getDamageValue()
+
+		if(mainHandItem < event.item.maxDamage){
+			mainHandItem = mainHandItem + 1 
+			event.player.getMainHandItem().setDamageValue(mainHandItem)
+			event.block.set('minecraft:campfire', {lit:'true'})
+		}
+		else{
+			event.entity.mainHandItem = "minecraft:air"
+		}	
 	}
 })
 
@@ -207,7 +213,7 @@ ServerEvents.recipes(event => {
 				A:'minecraft:clay_ball',
 				B:'gtceu:brick_wooden_form'
 			}
-	)
+	).keepIngredient('gtceu:brick_wooden_form')
 
 	event.shaped(
 		Item.of('kubejs:block_wooden_form'),
@@ -219,7 +225,7 @@ ServerEvents.recipes(event => {
 				A:'gtceu:empty_wooden_form',
 				B:'#forge:tools/knives'
 			}
-	)
+	).keepIngredient('gtceu:empty_wooden_form')
 
 	event.shaped(
 		Item.of('minecraft:clay', 1),
@@ -231,7 +237,7 @@ ServerEvents.recipes(event => {
 				A:'gtceu:compressed_clay',
 				B:'kubejs:block_wooden_form'
 			}
-	)
+	).keepIngredient('kubejs:block_wooden_form')
 
 	event.shaped(
 		Item.of('ceramicbucket:unfired_clay_bucket', 1),
@@ -278,7 +284,7 @@ ServerEvents.recipes(event => {
 				A:'minecraft:packed_mud',
 				B:'gtceu:brick_wooden_form'
 			}
-	)
+	).keepIngredient('gtceu:brick_wooden_form')
 
 	event.shaped(
 		Item.of('minecraft:mud_bricks', 1),

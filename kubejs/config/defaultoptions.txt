@@ -1,0 +1,2 @@
+resourcePacks:["vanilla","mod_resources","file/GregTech Refreshed v0.6 [Modern].zip","file/ComputerCreate.zip","file/Create+Simple+Storage+2.1.zip","file/GBTHOverrides"]
+incompatibleResourcePacks:["file/Create+Simple+Storage+2.1.zip"]
