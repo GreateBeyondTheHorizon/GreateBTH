@@ -40,7 +40,7 @@ ServerEvents.recipes(event => {
 					A: boatWithoutChest,
 					B: 'gtceu:iron_screw',
 					C: '#forge:tools/screwdrivers',
-					D: 'minecraft:chest'
+					D: 'minecraft:chest',
 				}
 			)
 		}
@@ -53,7 +53,7 @@ ServerEvents.recipes(event => {
 			'L'
 		],
 		{
-			L: 'minecraft:bamboo_block'
+			L: 'minecraft:bamboo_block',
 		}
 	)
 	event.shaped('2x minecraft:bamboo_planks',
@@ -63,7 +63,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 			S: '#forge:tools/saws',
-			L: 'minecraft:bamboo_block'
+			L: 'minecraft:bamboo_block',
 		}
 	)
 
@@ -79,7 +79,7 @@ ServerEvents.recipes(event => {
 		{
 			A: 'gtceu:wood_plate',
 			B: 'gtceu:wood_ring',
-			C: 'minecraft:flint'
+			C: 'minecraft:flint',
 		}
 	)
 
@@ -94,7 +94,7 @@ ServerEvents.recipes(event => {
 		{
 			P: '#forge:plates/wood',
 			I: '#forge:rods/iron',
-			R: '#forge:frames/wood'
+			R: '#forge:frames/wood',
 		}
 	)
 
@@ -111,7 +111,7 @@ ServerEvents.recipes(event => {
 		{
 			L: '#minecraft:logs',
 			F: 'minecraft:furnace',
-			P: '#forge:plates/copper'
+			P: '#forge:plates/copper',
 		}
 	)
 
@@ -126,11 +126,10 @@ ServerEvents.recipes(event => {
 		{
 			D: '#forge:tools/screwdrivers',
 			W: '#forge:tools/wrenches',
-
 			G: '#forge:small_gears/iron',
 			B: 'gtceu:iron_buzz_saw_blade',
 			L: '#minecraft:logs',
-			S: 'minecraft:smooth_stone'
+			S: 'minecraft:smooth_stone',
 		}
 	)
 
@@ -147,7 +146,7 @@ ServerEvents.recipes(event => {
 			P: '#forge:plates/steel',
 			S: '#forge:screws/steel',
 			R: '#forge:rods/steel',
-			F: 'gtceu:wood_frame'
+			F: 'gtceu:wood_frame',
 		}
 	)
 
@@ -161,10 +160,9 @@ ServerEvents.recipes(event => {
 		],
 		{
 			W: '#forge:tools/saws',
-
 			R: '#forge:rods/long/wood',
 			G: '#forge:gears/wood',
-			P: '#forge:plates/treated_wood'
+			P: '#forge:plates/treated_wood',
 		}
 	)
 
@@ -178,8 +176,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 			W: '#forge:tools/saws',
-
-			P: '#forge:plates/treated_wood'
+			P: '#forge:plates/treated_wood',
 		}
 	)
 
@@ -194,11 +191,10 @@ ServerEvents.recipes(event => {
 		{
 			W: '#forge:tools/saws',
 			H: '#forge:tools/hammers',
-
 			P: '#forge:plates/wood',
 			S: '#forge:screws/iron',
 			B: '#chipped:bookshelf',
-			O: '#chipped:red_wool'
+			O: '#chipped:red_wool',
 		}
 	)
 
@@ -213,11 +209,10 @@ ServerEvents.recipes(event => {
 		{
 			W: '#forge:tools/saws',
 			N: '#forge:tools/wrenches',
-
 			G: 'ad_astra:earth_globe',
 			R: '#forge:plates/paper',
 			P: '#forge:plates/wood',
-			L: '#minecraft:logs'
+			L: '#minecraft:logs',
 		}
 	)
 
@@ -233,7 +228,33 @@ ServerEvents.recipes(event => {
 			R: '#forge:screws/iron',
 			S: '#chipped:smooth_stone',
 			T: '#forge:rods/wood',
-			L: '#minecraft:wooden_slabs'
+			L: '#minecraft:wooden_slabs',
 		}
 	)
+
+	// Compass
+	let emptyCompass = 'kubejs:empty_compass'
+	event.shaped(
+		Item.of(emptyCompass, 1),
+		[
+			' B ',
+			'BAB',
+			' B '
+		],
+		{
+			A: 'gtceu:steel_plate',
+			B: 'gtceu:tin_ingot'
+		}
+	)
+	event.remove({ output: 'minecraft:compass' })
+	event.recipes.createSequencedAssembly(
+		['minecraft:compass'],
+		emptyCompass,
+		[
+			event.recipes.createFilling(emptyCompass, [emptyCompass, Fluid.of('minecraft:water', 1000)]),
+			event.recipes.createDeploying(emptyCompass, [emptyCompass, 'gtceu:magnetic_iron_rod']),
+			event.recipes.createDeploying(emptyCompass, [emptyCompass, 'gtceu:red_alloy_bolt']),
+			event.recipes.createDeploying(emptyCompass, [emptyCompass, 'minecraft:glass_pane'])
+		]
+	).transitionalItem(emptyCompass).loops(1)
 })
