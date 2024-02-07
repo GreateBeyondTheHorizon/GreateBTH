@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "The Beginning",
+    "Flint Knife"
+  ],
+  "tasks": {
+    "Straw": {
+      "type": "heracles:item",
+      "item": "farmersdelight:straw",
+      "amount": 16,
+      "collection": "AUTOMATIC",
+      "title": "Straw",
+      "icon": {
+        "item": {
+          "id": "farmersdelight:straw",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Get Straw by breaking grass with the a knife"
+    ],
+    "groups": {
+      "Introduction": {
+        "position": [
+          -138,
+          13
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmersdelight:straw",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Straw"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}
