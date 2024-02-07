@@ -106,6 +106,19 @@ StartupEvents.registry('item', event => {
 	//befood
 	event.create('advanced_honey_treat').displayName('Advanced Honey Treat')
 	event.create('titanium_bee_food').displayName('Titanium Bee Food')
+
+	//CustomEarlyGame
+	event.create('fire_starter').maxDamage(5).unstackable().displayName('Campfire Starter')
+	event.create('block_wooden_form').unstackable().displayName('Block Wooden Form')
+
+	event.create('mud_brick').displayName('Mud Brick')
+	
+
+	event.create('flint_pickaxe_head').displayName('Flint Pickaxe Head')
+	event.create('flint_axe_head').displayName('Flint Axe Head')
+	event.create('flint_shovel_head').displayName('Flint Shovel Head')
+	event.create('flint_sword_head').displayName('Flint Sword Head')
+	event.create('flint_hoe_head').displayName('Flint Hoe Head')
 	
 	
 })

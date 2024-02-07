@@ -1,0 +1,65 @@
+{
+  "dependencies": [
+    "The Beginning"
+  ],
+  "tasks": {
+    "Flint Knife": {
+      "type": "heracles:item",
+      "item": "farmersdelight:flint_knife",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Flint Knife",
+      "icon": {
+        "item": {
+          "id": "farmersdelight:flint_knife",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Introduction": {
+        "position": [
+          -95,
+          -77
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmersdelight:flint_knife",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Flint Knife"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}
