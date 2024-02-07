@@ -86,7 +86,7 @@ ServerEvents.recipes(event => {
 			C:'gtceu:steel_plate',
 			D:'gtceu:treated_wood_plate',
 			E:'greate:large_steel_cogwheel',
-			F:'gtceu:steel_spring'
+			F:'gtceu:steel_spring',
 		}
 	)
 	//steam engine
@@ -106,7 +106,7 @@ ServerEvents.recipes(event => {
 			C: 'greate:steel_shaft',
 			D: 'gtceu:bronze_plate',
 			E: 'gtceu:steel_gearbox',
-			F: 'gtceu:gold_plate'
+			F: 'gtceu:gold_plate',
 		}
 )
 	// #endregion
@@ -125,5 +125,94 @@ ServerEvents.recipes(event => {
 		}
 	)
 
-	event.replaceInput({input: 'create:electron_tube'}, 'create:electron_tube', '#gtceu:circuits/ulv')
+	event.replaceInput({ input: 'create:electron_tube' }, 'create:electron_tube', '#gtceu:circuits/ulv')
+	
+	// Copper Diving Helmet
+	event.shaped(
+		Item.of('create:copper_diving_helmet', 1),
+		[
+			'AAA',
+			'ABA',
+			'DCD'
+		],
+		{
+			A: 'gtceu:double_copper_plate',
+			B: 'gtceu:tempered_glass',
+			C: 'gtceu:polyethylene_small_fluid_pipe',
+			D: 'gtceu:rubber_plate',
+		}
+	)
+	// Copper Backtank
+	event.shaped(
+		Item.of('create:copper_backtank', 1),
+		[
+			'DCD',
+			'ABA',
+			'AAA'
+		],
+		{
+			A: 'gtceu:double_copper_plate',
+			B: 'gtceu:bronze_drum',
+			C: 'gtceu:polyethylene_small_fluid_pipe',
+			D: 'gtceu:rubber_plate',
+		}
+	)
+	// Copper Diving Boots
+	event.shaped(
+		Item.of('create:copper_diving_boots', 1),
+		[
+			'D D',
+			'A A',
+			'A A'
+		],
+		{
+			A: 'gtceu:double_copper_plate',
+			D: 'gtceu:rubber_plate',
+		}
+	)
+
+	// Netherite Diving Helmet
+	event.shaped(
+		Item.of('create:netherite_diving_helmet', 1),
+		[
+			'AAA',
+			'ABA',
+			'DCD'
+		],
+		{
+			A: 'gtceu:double_tungsten_carbide_plate',
+			B: 'minecraft:netherite_helmet',
+			C: 'gtceu:polytetrafluoroethylene_normal_fluid_pipe',
+			D: 'gtceu:styrene_butadiene_rubber_plate',
+		}
+	)
+	// Netherite Backtank
+	event.shaped(
+		Item.of('create:netherite_backtank', 1),
+		[
+			'DCD',
+			'ABA',
+			'AAA'
+		],
+		{
+			A: 'gtceu:double_tungsten_carbide_plate',
+			B: 'gtceu:tungsten_steel_drum',
+			C: 'gtceu:polytetrafluoroethylene_normal_fluid_pipe',
+			D: 'gtceu:styrene_butadiene_rubber_plate',
+		}
+	)
+	// Netherite Diving Boots
+	event.shaped(
+		Item.of('create:netherite_diving_boots', 1),
+		[
+			'DBD',
+			'A A',
+			'A A'
+		],
+		{
+			A: 'gtceu:double_tungsten_carbide_plate',
+			B: 'minecraft:netherite_boots',
+			D: 'gtceu:styrene_butadiene_rubber_plate',
+		}
+	)
 })
