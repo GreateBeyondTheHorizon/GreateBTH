@@ -20,7 +20,6 @@ BlockEvents.placed('minecraft:campfire', (event) => {
     event.block.set('minecraft:campfire', {lit:'false'})
 });
 
-
 BlockEvents.rightClicked(event => {
 	if(event.block.id === 'minecraft:campfire' && event.item.id === 'kubejs:fire_starter') {			
 		var mainHandItem = event.player.getMainHandItem().getDamageValue()
@@ -36,7 +35,30 @@ BlockEvents.rightClicked(event => {
 	}
 })
 
+
+
+
+
 ServerEvents.recipes(event => {
+
+
+	let remove = [
+
+		// Removed because all got new Recipes
+		'gtceu:flint_pickaxe',
+		'gtceu:flint_shovel',
+		'gtceu:flint_axe',
+		'gtceu:flint_knife',
+		'gtceu:flint_sword',
+		'gtceu:flint_hoe',
+		'gtceu:compressed_clay',
+		'minecraft:packed_mud',
+		'minecraft:mud_bricks'
+	]
+
+	remove.forEach( item => 
+		event.remove({output: item})
+	)
 
 	event.shaped(
 		Item.of('kubejs:fire_starter', 1),
