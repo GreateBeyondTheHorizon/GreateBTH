@@ -598,39 +598,6 @@ file = "kubejs/data/sgjourney/tags/worldgen/biome/has_structure/terra_stargate_b
 file = "kubejs/jsconfig.json"
 
 [[files]]
-file = "kubejs/server_scripts/Armor/AD Astra/JetSuit.js"
-
-[[files]]
-file = "kubejs/server_scripts/Armor/AD Astra/NetheriteSpaceSuit.js"
-
-[[files]]
-file = "kubejs/server_scripts/Armor/AD Astra/SpaceSuit.js"
-
-[[files]]
-file = "kubejs/server_scripts/Armor/Create/CopperDiving.js"
-
-[[files]]
-file = "kubejs/server_scripts/Armor/Create/NetheriteDiving.js"
-
-[[files]]
-file = "kubejs/server_scripts/Armor/Vanilla/Chain.js"
-
-[[files]]
-file = "kubejs/server_scripts/Armor/Vanilla/Diamond.js"
-
-[[files]]
-file = "kubejs/server_scripts/Armor/Vanilla/Gold.js"
-
-[[files]]
-file = "kubejs/server_scripts/Armor/Vanilla/Iron.js"
-
-[[files]]
-file = "kubejs/server_scripts/Armor/Vanilla/Leather.js"
-
-[[files]]
-file = "kubejs/server_scripts/Armor/Vanilla/Netherite.js"
-
-[[files]]
 file = "kubejs/server_scripts/CustomQuestItemTags.js"
 
 [[files]]
@@ -644,24 +611,6 @@ file = "kubejs/server_scripts/GregOreVeins.js"
 
 [[files]]
 file = "kubejs/server_scripts/ItemRemoval.js"
-
-[[files]]
-file = "kubejs/server_scripts/Items/Compass.js"
-
-[[files]]
-file = "kubejs/server_scripts/Items/Piston.js"
-
-[[files]]
-file = "kubejs/server_scripts/JSONRecipes/Ad_Astra/T1Rocket.js"
-
-[[files]]
-file = "kubejs/server_scripts/JSONRecipes/Ad_Astra/T2Rocket.js"
-
-[[files]]
-file = "kubejs/server_scripts/JSONRecipes/Ad_Astra/T3Rocket.js"
-
-[[files]]
-file = "kubejs/server_scripts/JSONRecipes/Ad_Astra/T4Rocket.js"
 
 [[files]]
 file = "kubejs/server_scripts/Mods/AE2.js"
