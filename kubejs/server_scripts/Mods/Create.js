@@ -215,4 +215,21 @@ ServerEvents.recipes(event => {
 			D: 'gtceu:styrene_butadiene_rubber_plate',
 		}
 	)
+
+	event.custom({
+		"type": "lychee:item_inside",
+		"ghost": true,
+		"item_in": [
+			{
+				"item": "create:chromatic_compound"
+			}
+		],
+		"block_in": "minecraft:beacon",
+		"post": [
+			{
+				"type": "drop_item",
+				"item": "create:refined_radiance"
+			}
+		]
+	})
 })
