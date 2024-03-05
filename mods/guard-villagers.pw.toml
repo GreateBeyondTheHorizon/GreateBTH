@@ -1,13 +1,13 @@
 name = "Guard Villagers"
-filename = "guardvillagers-1.20.1-1.6.3.jar"
+filename = "guardvillagers-1.20.1-1.6.4.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/H1sntfo8/versions/APAV3nRX/guardvillagers-1.20.1-1.6.3.jar"
+url = "https://cdn.modrinth.com/data/H1sntfo8/versions/bhwMZR6g/guardvillagers-1.20.1-1.6.4.jar"
 hash-format = "sha1"
-hash = "a3e0c8f2d074e9b3291ddd8701cbf645fd373cb9"
+hash = "264d0e8576a21c81b11f199fa3331485749f059c"
 
 [update]
 [update.modrinth]
 mod-id = "H1sntfo8"
-version = "APAV3nRX"
+version = "bhwMZR6g"
