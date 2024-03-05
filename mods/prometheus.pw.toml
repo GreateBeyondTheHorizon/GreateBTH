@@ -1,13 +1,13 @@
 name = "Prometheus"
-filename = "prometheus-forge-1.20.1-1.2.3.jar"
+filename = "prometheus-forge-1.20.1-1.2.4.jar"
 side = "server"
 
 [download]
-url = "https://cdn.modrinth.com/data/iYcNKH7W/versions/dFIH423O/prometheus-forge-1.20.1-1.2.3.jar"
+url = "https://cdn.modrinth.com/data/iYcNKH7W/versions/CXv4vcq3/prometheus-forge-1.20.1-1.2.4.jar"
 hash-format = "sha1"
-hash = "3a0eb0de918cc97cfdcdeb2274e040571694e633"
+hash = "c6d7b5e126c75cf62dd231f396b2a04392612bba"
 
 [update]
 [update.modrinth]
 mod-id = "iYcNKH7W"
-version = "dFIH423O"
+version = "CXv4vcq3"

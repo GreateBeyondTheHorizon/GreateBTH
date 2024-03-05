@@ -1,13 +1,13 @@
 name = "Cooking for Blockheads"
-filename = "cookingforblockheads-forge-1.20-16.0.1.jar"
+filename = "cookingforblockheads-forge-1.20.1-16.0.3.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/vJnhuDde/versions/yKz0conr/cookingforblockheads-forge-1.20-16.0.1.jar"
+url = "https://cdn.modrinth.com/data/vJnhuDde/versions/QVszaOop/cookingforblockheads-forge-1.20.1-16.0.3.jar"
 hash-format = "sha1"
-hash = "0e471f9d49e3355d0e4457082801810bf735dce8"
+hash = "c3dfebfbaa8cac5e82160a650b49165491b7b264"
 
 [update]
 [update.modrinth]
 mod-id = "vJnhuDde"
-version = "yKz0conr"
+version = "QVszaOop"

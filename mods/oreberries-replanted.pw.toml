@@ -1,13 +1,13 @@
 name = "Oreberries Replanted"
-filename = "OreBerries-Replanted-1.20.1-0.5.1.jar"
+filename = "OreBerries-Replanted-1.20.1-0.5.2.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/no8wHvOG/versions/YkMBXyBF/OreBerries-Replanted-1.20.1-0.5.1.jar"
+url = "https://cdn.modrinth.com/data/no8wHvOG/versions/Fdl65PdK/OreBerries-Replanted-1.20.1-0.5.2.jar"
 hash-format = "sha1"
-hash = "63ee9624b0c981c14d093012a4e9a96fee692e57"
+hash = "1fd6ba5f33e5bb900e04964a572ae92b6b13c7c5"
 
 [update]
 [update.modrinth]
 mod-id = "no8wHvOG"
-version = "YkMBXyBF"
+version = "Fdl65PdK"
