@@ -867,10 +867,6 @@ file = "mods/emi.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/enderio.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/entityculling.pw.toml"
 metafile = true
 
