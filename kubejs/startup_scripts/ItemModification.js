@@ -34,6 +34,10 @@ ItemEvents.modification(event => {
 		item.craftingRemainder = Item.of('gtceu:brick_wooden_form').item
 	})
 
+	event.modify('kubejs:stone_hammer', item => {
+		item.craftingRemainder = Item.of('kubejs:stone_hammer').item
+	})
+
 
 	event.modify('kubejs:drinkable_liquid_concrete', item => {
 		item.foodProperties = food => {

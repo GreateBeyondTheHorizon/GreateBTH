@@ -85,6 +85,57 @@ file = "config/gtceu.yaml"
 file = "config/heracles/groups.txt"
 
 [[files]]
+file = "config/heracles/quests/introduction/andesite_alloy.json"
+
+[[files]]
+file = "config/heracles/quests/introduction/bloomery.json"
+
+[[files]]
+file = "config/heracles/quests/introduction/blooms.json"
+
+[[files]]
+file = "config/heracles/quests/introduction/campfire.json"
+
+[[files]]
+file = "config/heracles/quests/introduction/clay_bucket.json"
+
+[[files]]
+file = "config/heracles/quests/introduction/crafting_table.json"
+
+[[files]]
+file = "config/heracles/quests/introduction/empty_form.json"
+
+[[files]]
+file = "config/heracles/quests/introduction/firestarter.json"
+
+[[files]]
+file = "config/heracles/quests/introduction/flint_knife.json"
+
+[[files]]
+file = "config/heracles/quests/introduction/flint_tools.json"
+
+[[files]]
+file = "config/heracles/quests/introduction/forms.json"
+
+[[files]]
+file = "config/heracles/quests/introduction/mud_brick.json"
+
+[[files]]
+file = "config/heracles/quests/introduction/mud_bricks.json"
+
+[[files]]
+file = "config/heracles/quests/introduction/packed_mud.json"
+
+[[files]]
+file = "config/heracles/quests/introduction/straw.json"
+
+[[files]]
+file = "config/heracles/quests/introduction/the_start_of_something_new.json"
+
+[[files]]
+file = "config/heracles/quests/introduction/wood.json"
+
+[[files]]
 file = "config/heracles/quests/multiblocks/primitive_blast_furnace.json"
 
 [[files]]
@@ -100,22 +151,22 @@ file = "config/heracles/quests/ulvulshumblebeginnings/a_hell_of_an_adventure.jso
 file = "config/heracles/quests/ulvulshumblebeginnings/another_one_bites_the_dust.json"
 
 [[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/bed.json"
+
+[[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/brass_hands.json"
 
 [[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/bronze_brick_casing.json"
 
 [[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/chest.json"
+
+[[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/controlling_liquids.json"
 
 [[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/copper_wires.json"
-
-[[files]]
-file = "config/heracles/quests/ulvulshumblebeginnings/crusher_v0.5.json"
-
-[[files]]
-file = "config/heracles/quests/ulvulshumblebeginnings/crusher_v0.75.json"
 
 [[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/crusher_v1.json"
@@ -140,6 +191,9 @@ file = "config/heracles/quests/ulvulshumblebeginnings/glass_tube.json"
 
 [[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/gregtech_tools_and_you.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/hand_crank.json"
 
 [[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/its_moldin_time.json"
@@ -277,10 +331,25 @@ file = "kubejs/assets/gtceu/lang/en_us.json"
 file = "kubejs/assets/kubejs/textures/item/advanced_honey_treat.png"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/block_wooden_form.png"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/drinkable_liquid_concrete.png"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/empty_compass.png"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/fire_starter.png"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/flint_axe_head.png"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/flint_pickaxe_head.png"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/flint_shovel_head.png"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/inc_advanced_integrated_circuit.png"
@@ -427,6 +496,9 @@ file = "kubejs/assets/kubejs/textures/item/inter_micro_processor_assembly.png"
 file = "kubejs/assets/kubejs/textures/item/inter_nano_processor.png"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/mud_brick.png"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/netherite_plate_show.png"
 
 [[files]]
@@ -458,6 +530,9 @@ file = "kubejs/assets/kubejs/textures/item/raw_plastic_circuit_board.png"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/titanium_bee_food.png"
+
+[[files]]
+file = "kubejs/client_scripts/JEI.js"
 
 [[files]]
 file = "kubejs/client_scripts/Tooltips.js"
@@ -598,6 +673,12 @@ file = "kubejs/data/sgjourney/tags/worldgen/biome/has_structure/terra_stargate_b
 file = "kubejs/jsconfig.json"
 
 [[files]]
+file = "kubejs/server_scripts/Bloomery.js"
+
+[[files]]
+file = "kubejs/server_scripts/CustomEarlyGame.js"
+
+[[files]]
 file = "kubejs/server_scripts/CustomQuestItemTags.js"
 
 [[files]]
@@ -616,13 +697,13 @@ file = "kubejs/server_scripts/ItemRemoval.js"
 file = "kubejs/server_scripts/Mods/AE2.js"
 
 [[files]]
+file = "kubejs/server_scripts/Mods/AdAstra.js"
+
+[[files]]
 file = "kubejs/server_scripts/Mods/ConstructionWand.js"
 
 [[files]]
 file = "kubejs/server_scripts/Mods/Create.js"
-
-[[files]]
-file = "kubejs/server_scripts/Mods/EnderIO.js"
 
 [[files]]
 file = "kubejs/server_scripts/Mods/EnderStorage.js"
@@ -661,10 +742,10 @@ file = "kubejs/server_scripts/Mods/SophisticatedStorage.js"
 file = "kubejs/server_scripts/Mods/TomsSimpleStorage.js"
 
 [[files]]
-file = "kubejs/server_scripts/Mods/ad_astra.js"
+file = "kubejs/server_scripts/Mods/cc_tweaked.js"
 
 [[files]]
-file = "kubejs/server_scripts/Mods/cc_tweaked.js"
+file = "kubejs/server_scripts/Oreberries.js"
 
 [[files]]
 file = "kubejs/server_scripts/SequencedAssembly/AE2sequence.js"
@@ -689,6 +770,9 @@ file = "kubejs/server_scripts/Vanilla.js"
 
 [[files]]
 file = "kubejs/startup_scripts/BlockGeneration.js"
+
+[[files]]
+file = "kubejs/startup_scripts/BlockModification.js"
 
 [[files]]
 file = "kubejs/startup_scripts/ItemGeneration.js"
@@ -807,10 +891,6 @@ file = "mods/colorful-hearts.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/configuration.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/construction-wand.pw.toml"
 metafile = true
 
@@ -891,6 +971,9 @@ file = "mods/framedblocks.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/gbthcore-1.0.0.jar"
+
+[[files]]
 file = "mods/greate.pw.toml"
 metafile = true
 
@@ -964,14 +1047,6 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/more-red-x-cc-tweaked-compat.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/more-red.pw.toml"
 metafile = true
 
 [[files]]

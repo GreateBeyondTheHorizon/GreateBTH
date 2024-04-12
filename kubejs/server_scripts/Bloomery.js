@@ -1,0 +1,20 @@
+ServerEvents.recipes(event => {
+    event.recipes.gbthcore.bloomery("kubejs:copper_bloom")
+        .duration(600)
+        .itemInputs('#forge:raw_materials/copper')
+        .itemInputs('2x minecraft:charcoal')
+        .itemOutputs('kubejs:copper_bloom')
+
+    event.recipes.gbthcore.bloomery("kubejs:tin_bloom")
+        .duration(600)
+        .itemInputs('#forge:raw_materials/tin')
+        .itemInputs('2x minecraft:charcoal')
+        .itemOutputs('kubejs:tin_bloom')
+
+    event.recipes.gbthcore.bloomery("kubejs:bronze_bloom")
+        .duration(900)
+        .itemInputs('3x minecraft:copper_ingot')
+        .itemInputs('gtceu:tin_ingot')
+        .itemInputs('minecraft:charcoal')
+        .itemOutputs('4x kubejs:bronze_bloom')
+})
