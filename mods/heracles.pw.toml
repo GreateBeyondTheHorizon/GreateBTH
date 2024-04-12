@@ -1,13 +1,13 @@
 name = "Heracles"
-filename = "heracles-forge-1.20.1-1.1.10.jar"
+filename = "Heracles-forge-1.20.1-1.1.12.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/lo90fZoB/versions/3aABskCg/heracles-forge-1.20.1-1.1.10.jar"
+url = "https://cdn.modrinth.com/data/lo90fZoB/versions/UVyQoEfQ/Heracles-forge-1.20.1-1.1.12.jar"
 hash-format = "sha1"
-hash = "a598b365da51d9ef9e2237f590681d63883e0ae0"
+hash = "747d4165a91fd0f984064dab9af28cbc01bc83c5"
 
 [update]
 [update.modrinth]
 mod-id = "lo90fZoB"
-version = "3aABskCg"
+version = "UVyQoEfQ"
