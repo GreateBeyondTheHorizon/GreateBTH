@@ -48,6 +48,8 @@ removeNamespaceItems('create', [
 	/(.*)_sheet/, // Remove all sheets in favor of GT plates
 	/crushed_raw_(.*)/,
 	'electron_tube',
+	'zinc_ingot',
+	'zinc_nugget'
 ])
 
 // Construction Wand
@@ -64,7 +66,6 @@ removeNamespaceItems('toms_storage', [
 	'ts.open_crate',
 	'ts.inventory_hopper_basic',
 	'ts.level_emitter',
-	'ts.painted_trim',
 	'ts.storage_terminal',
 	'ts.adv_wireless_terminal',
 ])
@@ -125,28 +126,43 @@ removeNamespaceItems('sophisticatedstorage', [
 // Ad Astra
 removeNamespaceItems('ad_astra', [
 	// Remove items in favor of GT items
-	/(.*)_plate/,
+	'steel_plate',
 	'steel_ingot',
+	'steel_nugget',
 	'steel_block',
 	'steel_rod',
+	'iron_plate',
 	'iron_rod',
 	'compressor',
 ])
 
-// EnderIO
-removeNamespaceItems('enderio', [
-	// Remove power-related blocks
-	'stirling_generator',
-	'soul_engine',
-	'energetic_photovoltaic_module',
-	'pulsating_photovoltaic_module',
-	'vibrant_photovoltaic_module',
-	'wired_charger',
-	// Remove machines that have a gt/create counterpart
-	'primitive_alloy_smelter',
-	'alloy_smelter',
-	'sag_mill',
-	'fluid_tank',
-	'pressurized_fluid_tank',
-	'drain',
+//Farmers Delight
+removeNamespaceItems('farmersdelight', [
+	'flint_knife', 
+	'iron_knife', 
+	'diamond_knife', 
+	'netherite_knife', 
+	'golden_knife'
+])
+
+//Oreberries
+removeNamespaceItems('oreberriesreplanted', [
+	'copper_nugget'
+])
+
+//Nethers Delight
+removeNamespaceItems('nethersdelight', [
+	'blackstone_furnace',
+	'blackstone_blast_furnace',
+	'nether_brick_smoker'
+])
+
+//Aquaculture
+removeNamespaceItems('aquaculture', [
+	'wooden_fillet_knife', 
+	'stone_fillet_knife',
+	'iron_fillet_knife', 
+	'gold_fillet_knife', 
+	'diamond_fillet_knife', 
+	'neptunium_fillet_knife'
 ])

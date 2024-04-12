@@ -13,14 +13,14 @@ global.Quality = {
 
 global.Greate = {
 	Tiers: {
-		Andesite: 'andesite',
+		Andesite: 'andesite_alloy',
 		Steel: 'steel',
 		Aluminium: 'aluminium',
 		StainlessSteel: 'stainless_steel',
 		Titanium: 'titanium',
-		TungstenSteel: 'tungstensteel',
-		Palladium: 'palladium',
-		Naquadah: 'naquadah',
+		TungstenSteel: 'tungsten_steel',
+		Palladium: 'rhodium_plated_palladium',
+		Naquadah: 'naquadah_alloy',
 		Darmstadtium: 'darmstadtium',
 		Neutronium: 'neutronium',
 	}
@@ -51,3 +51,9 @@ global.ProductiveBees = {
 	UHVMaterials: ['europium'],
 	AfterUHVMaterials: ['infinity', 'neutronium']
 }
+
+/* 
+//Items that no longer have a use, their recipe will be removed and they will be hidden in EMI.
+global.ItemsToRemoveAndHide = {
+	FarmersDelight: []
+} */

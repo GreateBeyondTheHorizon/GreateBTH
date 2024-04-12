@@ -2,18 +2,13 @@
 LootJS.modifiers((event) => {
     event
         .addBlockLootModifier('minecraft:grass')
-        .randomChance(0.5)
-        .addLoot("kubejs:fiber");
+        .randomChance(0.33)
+		.addLoot('farmersdelight:straw');
 
 	event
 		.addBlockLootModifier('minecraft:campfire')
 		.removeLoot('minecraft:charcoal')
 		.addLoot("2x minecraft:stick");
-
-	event
-        .addBlockLootModifier("#minecraft:leaves")
-        .matchMainHand('minecraft:flint')
-        .addLoot('farmersdelight:straw');
 });
 
 BlockEvents.placed('minecraft:campfire', (event) => {
@@ -21,27 +16,24 @@ BlockEvents.placed('minecraft:campfire', (event) => {
 });
 
 BlockEvents.rightClicked(event => {
-	if(event.block.id === 'minecraft:campfire' && event.item.id === 'kubejs:fire_starter') {			
-		var mainHandItem = event.player.getMainHandItem().getDamageValue()
+	if(event.block.id === 'minecraft:campfire' && event.item.id === 'kubejs:fire_starter') {
+		if (event.block.properties.get('lit') !== true) {
+			var mainHandItem = event.player.getMainHandItem().getDamageValue()
 
-		if(mainHandItem < event.item.maxDamage){
-			mainHandItem = mainHandItem + 1 
-			event.player.getMainHandItem().setDamageValue(mainHandItem)
-			event.block.set('minecraft:campfire', {lit:'true'})
+			if(mainHandItem < event.item.maxDamage) {
+				mainHandItem = mainHandItem + 1 
+				event.player.getMainHandItem().setDamageValue(mainHandItem)
+			}
+			else {
+				event.entity.mainHandItem = "minecraft:air"
+			}	
+			event.block.set('minecraft:campfire', { lit: 'true' })
 		}
-		else{
-			event.entity.mainHandItem = "minecraft:air"
-		}	
 	}
 })
 
 
-
-
-
 ServerEvents.recipes(event => {
-
-
 	let remove = [
 
 		// Removed because all got new Recipes
@@ -51,9 +43,14 @@ ServerEvents.recipes(event => {
 		'gtceu:flint_knife',
 		'gtceu:flint_sword',
 		'gtceu:flint_hoe',
-		'gtceu:compressed_clay',
 		'minecraft:packed_mud',
-		'minecraft:mud_bricks'
+		'minecraft:mud_bricks',
+		'minecraft:campfire',
+		'minecraft:crafting_table',
+		'minecraft:furnace',
+		'minecraft:blast_furnace',
+		'create:andesite_alloy',
+		'create:hand_crank'
 	]
 
 	remove.forEach( item => 
@@ -213,103 +210,92 @@ ServerEvents.recipes(event => {
 	)
 
 	event.shaped(
-		Item.of('minecraft:campfire', ),
+		Item.of('minecraft:campfire'),
 			[
-				'AC',
-				'B ',
+				'CS',
+				'L ',
 			],
 			{
-				A:'farmersdelight:rope',
-				B:'minecraft:stick',
-				C:'kubejs:flint_shovel_head'
+				C:'farmersdelight:canvas',
+				S:'minecraft:string',
+				L:'#minecraft:logs'
 			}
 	)
 
 	event.shaped(
-		Item.of('gtceu:compressed_clay', 1),
+		Item.of('gtceu:empty_wooden_form'),
+		[
+			'FP',
+			'PF'
+		],
+		{
+			P: '#minecraft:planks',
+			F: 'minecraft:flint'
+		}
+	)
+
+	event.shapeless(
+		Item.of('gtceu:compressed_clay'),
 			[
-				'AA',
-				'B ',
-			],
-			{
-				A:'minecraft:clay_ball',
-				B:'gtceu:brick_wooden_form'
-			}
+				'minecraft:clay_ball',
+				'gtceu:brick_wooden_form'
+			]
 	).keepIngredient('gtceu:brick_wooden_form')
 
 	event.shaped(
 		Item.of('kubejs:block_wooden_form'),
 			[
-				'A ',
-				'B ',
+				'A',
+				'B',
 			],
 			{
 				A:'gtceu:empty_wooden_form',
 				B:'#forge:tools/knives'
 			}
-	).keepIngredient('gtceu:empty_wooden_form')
+	)
 
-	event.shaped(
-		Item.of('minecraft:clay', 1),
+	event.shapeless(
+		Item.of('minecraft:clay'),
 			[
-				'AA',
-				'BA',
-			],
-			{
-				A:'gtceu:compressed_clay',
-				B:'kubejs:block_wooden_form'
-			}
+				'3x gtceu:compressed_clay',
+				'kubejs:block_wooden_form'
+			]
 	).keepIngredient('kubejs:block_wooden_form')
 
-	event.shaped(
-		Item.of('ceramicbucket:unfired_clay_bucket', 1),
+	event.shapeless(
+		Item.of('ceramicbucket:unfired_clay_bucket'),
 			[
-				'B ',
-				'AA',
-			],
-			{
-				A:'minecraft:clay',
-				B:'#forge:tools/knives'
-			}
+				'3x gtceu:compressed_clay',
+				'#forge:tools/knives',
+			]
 	)
 
-	event.shaped(
+	event.shapeless(
 		Item.of('minecraft:mud', 3),
 			[
-				'BB',
-				'BA',
-			],
-			{
-				A:Item.of('ceramicbucket:ceramic_bucket', '{Fluid:{Amount:1000,FluidName:"minecraft:water"}}').strongNBT(),
-				B:'minecraft:dirt'
-			}
+				Item.of('ceramicbucket:ceramic_bucket', '{Fluid:{Amount:1000,FluidName:"minecraft:water"}}').strongNBT(),
+				'3x minecraft:dirt'
+			]
 	)
 
-	event.shaped(
+	event.shapeless(
 		Item.of('minecraft:packed_mud', 2),
 			[
-				'BA',
-				'A '
-			],
-			{
-				A:'minecraft:wheat',
-				B:'minecraft:mud'
-			}
+				'2x minecraft:wheat',
+				'minecraft:mud'
+			]
 	)
 
-	event.shaped(
-		Item.of('kubejs:mud_brick', 1),
+	event.shapeless(
+		Item.of('kubejs:mud_brick'),
 			[
-				'AB'
-			],
-			{
-				A:'minecraft:packed_mud',
-				B:'gtceu:brick_wooden_form'
-			}
+				'minecraft:packed_mud',
+				'gtceu:brick_wooden_form'
+			]
 	).keepIngredient('gtceu:brick_wooden_form')
 
 	event.shaped(
-		Item.of('minecraft:mud_bricks', 1),
+		Item.of('minecraft:mud_bricks'),
 			[
 				'AA',
 				'AA'
@@ -319,6 +305,140 @@ ServerEvents.recipes(event => {
 			}
 	)
 
-	event.campfireCooking('ceramicbucket:ceramic_bucket', 'ceramicbucket:unfired_clay_bucket')
+	event.campfireCooking('minecraft:charcoal', '#minecraft:logs').xp(0.15)
+	event.campfireCooking('ceramicbucket:ceramic_bucket', 'ceramicbucket:unfired_clay_bucket').xp(0.3)
 
+	event.shaped(
+		Item.of('gbthcore:bloomery'),
+		[
+			'MO',
+			'MC'
+		],
+		{
+			M: 'minecraft:mud_bricks',
+			O: 'minecraft:charcoal',
+			C: 'minecraft:campfire'
+		}
+	)
+
+	event.shaped(
+		Item.of('kubejs:nugget_wooden_form'),
+		[
+			'FK'
+		],
+		{
+			F: 'gtceu:empty_wooden_form',
+			K: '#forge:tools/knives'
+		}
+	)
+
+	event.shaped(
+		Item.of('kubejs:stone_hammer'),
+		[
+			'RC',
+			'S '
+		],
+		{
+			R: 'farmersdelight:rope',
+			C: '#forge:cobblestone',
+			S: '#forge:rods/wooden'
+		}
+	)
+	
+	createBloomeryMetalworkingRecipe('minecraft:copper_ingot', 'kubejs:copper_bloom', 'gtceu:brick_wooden_form')
+	createBloomeryMetalworkingRecipe('9x gtceu:copper_nugget', 'kubejs:copper_bloom', 'kubejs:nugget_wooden_form')
+	createBloomeryMetalworkingRecipe('gtceu:tin_ingot', 'kubejs:tin_bloom', 'gtceu:brick_wooden_form')
+	createBloomeryMetalworkingRecipe('9x gtceu:tin_nugget', 'kubejs:tin_bloom', 'kubejs:nugget_wooden_form')
+	createBloomeryMetalworkingRecipe('gtceu:bronze_ingot', 'kubejs:bronze_bloom', 'gtceu:brick_wooden_form')
+	createBloomeryMetalworkingRecipe('9x gtceu:bronze_nugget', 'kubejs:bronze_bloom', 'kubejs:nugget_wooden_form')
+	createBloomeryMetalworkingRecipe('gtceu:wrought_iron_ingot', 'kubejs:wrought_iron_bloom', 'gtceu:brick_wooden_form')
+	createBloomeryMetalworkingRecipe('9x gtceu:wrought_iron_nugget', 'kubejs:wrought_iron_bloom', 'kubejs:nugget_wooden_form')
+
+	function createBloomeryMetalworkingRecipe(output, input, form) {
+		event.shapeless(
+			Item.of(output),
+			[
+				form,
+				'kubejs:stone_hammer',
+				input
+			]
+		).keepIngredient(form).damageIngredient('kubejs:stone_hammer')
+	}
+
+	event.shapeless(
+		Item.of('create:andesite_alloy', 9),
+		[
+			'create:andesite_alloy_block'
+		]
+	)
+
+	event.shaped(
+		Item.of('create:andesite_alloy'),
+		[
+			'AN',
+			'NA'
+		],
+		{
+			A: 'minecraft:andesite',
+			N: '#gbth:valid_aa_nuggets'
+		}
+	)
+
+	event.shaped(
+		Item.of('create:andesite_alloy'),
+		[
+			'NA',
+			'AN'
+		],
+		{
+			A: 'minecraft:andesite',
+			N: '#gbth:valid_aa_nuggets'
+		}
+	)
+
+	event.shaped(
+		Item.of('minecraft:crafting_table'),
+		[
+			'AA',
+			'LL'
+		],
+		{
+			A: 'create:andesite_alloy',
+			L: '#minecraft:logs'
+		}
+	)
+
+	event.shaped(
+		Item.of('create:hand_crank'),
+		[
+			'TTT',
+			'  A'
+		],
+		{
+			A: 'create:andesite_alloy',
+			T: 'gtceu:treated_wood_planks'
+		}
+	)
+
+	event.campfireCooking('gtceu:coke_oven_brick', 'gtceu:compressed_coke_clay').xp(0.3)
+
+	event.replaceInput('gtceu:shaped/coke_oven', 'gtceu:iron_plate', 'gtceu:wrought_iron_plate')
+
+	event.shaped(
+		Item.of('gtceu:treated_wood_planks', 8),
+		[
+			'PPP',
+			'PBP',
+			'PPP'
+		],
+		{
+			P: '#minecraft:planks',
+			B: Item.of('ceramicbucket:ceramic_bucket','{Fluid:{Amount:1000,FluidName:"gtceu:creosote"}}').strongNBT()
+		}
+	)
+
+	//Temp
+	event.remove({type: 'minecraft:smelting', output: 'gtceu:wrought_iron_nugget'})
+	event.smelting('minecraft:iron_nugget', 'gtceu:wrought_iron_nugget')
+	event.campfireCooking('minecraft:iron_nugget', 'gtceu:wrought_iron_nugget')
 })

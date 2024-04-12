@@ -1,3 +1,13 @@
+GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
+	event
+		.create('ore_proc')
+		.category('multi') //Used in the GTlib / LDlib ui editor
+		.setEUIO('in')
+		.setMaxIOSize(3, 4, 4, 3) //Max Item Inputs, Max Item Outputs, Max Fluid Inputs, Max Fluid Outputs
+		.setSlotOverlay(false, false, GuiTextures.SOLIDIFIER_OVERLAY)
+		.setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
+		.setSound(GTSoundEntries.FIRE);
+})
 GTCEuStartupEvents.registry('gtceu:machine', event => {
 	//multi
 	event
@@ -28,16 +38,5 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
 			'gtceu:block/casings/solid/machine_casing_inert_ptfe',
 			'gtceu:block/multiblock/implosion_compressor',
 			false
-		)
-})
-
-GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
-	event
-		.create('ore_proc')
-		.category('multi') //Used in the GTlib / LDlib ui editor
-		.setEUIO('in')
-		.setMaxIOSize(3, 4, 4, 3) //Max Item Inputs, Max Item Outputs, Max Fluid Inputs, Max Fluid Outputs
-		.setSlotOverlay(false, false, GuiTextures.SOLIDIFIER_OVERLAY)
-		.setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
-		.setSound(GTSoundEntries.FIRE)
+		);
 })

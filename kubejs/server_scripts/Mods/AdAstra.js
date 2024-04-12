@@ -1,4 +1,5 @@
 ServerEvents.recipes( event => {
+
 	event.remove({ output:'ad_astra:rocket_fin' })
 	event.remove({ output:/ad_astra:(.*)engine/ })
 	event.remove({ output:'ad_astra:rocket_nose_cone' })
