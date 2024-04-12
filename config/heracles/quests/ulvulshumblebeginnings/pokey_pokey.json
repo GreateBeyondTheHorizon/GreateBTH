@@ -29,7 +29,7 @@
       "The deployer, where to start. It's essentially a hands-off right clicking machine, it can place blocks and are the main machines involved with sequenced assembly."
     ],
     "groups": {
-      "ULV/ULS - Humble Beginnings..": {
+      "ULV/ULS - Humble Beginnings": {
         "position": [
           96,
           128

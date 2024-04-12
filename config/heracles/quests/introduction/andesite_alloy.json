@@ -1,27 +1,13 @@
 {
   "dependencies": [
-    "The Beginning"
+    "blooms"
   ],
   "tasks": {
-    "Flint Knife": {
+    "andesite_alloy": {
       "type": "heracles:item",
-      "item": "farmersdelight:flint_knife",
-      "nbt": {
-        "Damage": 0
-      },
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "Flint Knife",
-      "icon": {
-        "item": {
-          "id": "farmersdelight:flint_knife",
-          "count": 1,
-          "nbt": {
-            "Damage": 0
-          }
-        },
-        "type": "heracles:item"
-      }
+      "item": "create:andesite_alloy",
+      "amount": 2,
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {},
@@ -35,24 +21,21 @@
     "groups": {
       "Introduction": {
         "position": [
-          -95,
-          -77
+          6,
+          191
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "farmersdelight:flint_knife",
-        "count": 1,
-        "nbt": {
-          "Damage": 0
-        }
+        "id": "create:andesite_alloy",
+        "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Flint Knife"
+      "translate": "Andesite Alloy"
     }
   },
   "settings": {

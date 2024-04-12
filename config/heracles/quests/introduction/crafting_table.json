@@ -1,12 +1,12 @@
 {
   "dependencies": [
-    "flint_knife"
+    "andesite_alloy"
   ],
   "tasks": {
-    "straw": {
+    "crafting_table": {
       "type": "heracles:item",
-      "item": "farmersdelight:straw",
-      "amount": 8,
+      "item": "minecraft:crafting_table",
+      "amount": 1,
       "collection": "AUTOMATIC"
     }
   },
@@ -21,21 +21,21 @@
     "groups": {
       "Introduction": {
         "position": [
-          50,
-          10
+          6,
+          226
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "farmersdelight:straw",
+        "id": "minecraft:crafting_table",
         "count": 1
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
     "title": {
-      "translate": "Straw"
+      "translate": "Finally, a Proper Crafting Table"
     }
   },
   "settings": {

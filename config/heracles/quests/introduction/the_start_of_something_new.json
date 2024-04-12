@@ -1,41 +1,32 @@
 {
-  "dependencies": [
-    "flint_knife"
-  ],
-  "tasks": {
-    "straw": {
-      "type": "heracles:item",
-      "item": "farmersdelight:straw",
-      "amount": 8,
-      "collection": "AUTOMATIC"
-    }
-  },
+  "dependencies": [],
+  "tasks": {},
   "rewards": {},
   "display": {
     "subtitle": {
       "text": ""
     },
     "description": [
-      ""
+      "placeholder"
     ],
     "groups": {
       "Introduction": {
         "position": [
-          50,
-          10
+          6,
+          -32
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "farmersdelight:straw",
+        "id": "minecraft:experience_bottle",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Straw"
+      "translate": "The Start of Something New"
     }
   },
   "settings": {

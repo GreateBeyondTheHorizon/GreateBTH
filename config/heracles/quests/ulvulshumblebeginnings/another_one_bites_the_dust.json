@@ -7,29 +7,13 @@
       "type": "heracles:item",
       "item": "gtceu:tin_dust",
       "amount": 16,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     },
     "7C34BE55D098BB41": {
       "type": "heracles:item",
       "item": "gtceu:copper_dust",
       "amount": 48,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {},
@@ -44,7 +28,7 @@
       "Either mortar the ingots, or turn ore to crushed ore and crushed ore to impure dust, which you throw into a cauldron."
     ],
     "groups": {
-      "ULV/ULS - Humble Beginnings..": {
+      "ULV/ULS - Humble Beginnings": {
         "position": [
           -48,
           -224

@@ -1,23 +1,16 @@
 {
   "dependencies": [
-    "fine_copper_wire",
-    "paper",
-    "lets_get_goopy"
+    "straw"
   ],
   "tasks": {
-    "5F023AF069A7E9A4": {
+    "firestarter": {
       "type": "heracles:item",
-      "item": "gtceu:resistor",
+      "item": "kubejs:fire_starter",
+      "nbt": {
+        "Damage": 0
+      },
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {},
@@ -26,28 +19,29 @@
       "text": ""
     },
     "description": [
-      "<task task=\"5F023AF069A7E9A4\" quest=\"0DE50DFF22C3DE10\"/>",
-      "<hr/>",
-      "Irresistable to the eyes of any hardware engineer."
+      ""
     ],
     "groups": {
-      "ULV/ULS - Humble Beginnings": {
+      "Introduction": {
         "position": [
-          0,
-          64
+          50,
+          39
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "gtceu:resistor",
-        "count": 1
+        "id": "kubejs:fire_starter",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Resistor"
+      "translate": "We Didn't Start the Fire"
     }
   },
   "settings": {

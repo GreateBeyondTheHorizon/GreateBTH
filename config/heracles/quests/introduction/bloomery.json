@@ -1,23 +1,26 @@
 {
   "dependencies": [
-    "fine_copper_wire",
-    "paper",
-    "lets_get_goopy"
+    "mud_bricks",
+    "campfire"
   ],
   "tasks": {
-    "5F023AF069A7E9A4": {
+    "mud_bricks": {
       "type": "heracles:item",
-      "item": "gtceu:resistor",
+      "item": "minecraft:mud_bricks",
+      "amount": 20,
+      "collection": "AUTOMATIC"
+    },
+    "bloomery": {
+      "type": "heracles:item",
+      "item": "gbthcore:bloomery",
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
+    },
+    "campfire": {
+      "type": "heracles:item",
+      "item": "minecraft:campfire",
+      "amount": 1,
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {},
@@ -26,28 +29,26 @@
       "text": ""
     },
     "description": [
-      "<task task=\"5F023AF069A7E9A4\" quest=\"0DE50DFF22C3DE10\"/>",
-      "<hr/>",
-      "Irresistable to the eyes of any hardware engineer."
+      ""
     ],
     "groups": {
-      "ULV/ULS - Humble Beginnings": {
+      "Introduction": {
         "position": [
-          0,
-          64
+          6,
+          131
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "gtceu:resistor",
+        "id": "gbthcore:bloomery",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Resistor"
+      "translate": "Bloomery"
     }
   },
   "settings": {

@@ -1,5 +1,4 @@
 {
-  "settings": {},
   "dependencies": [
     "mix_that_dust",
     "encased_fan"
@@ -7,29 +6,46 @@
   "tasks": {
     "3B343C6880CD67F2": {
       "type": "heracles:item",
+      "item": "gtceu:bronze_ingot",
       "amount": 16,
-      "item": "gtceu:bronze_ingot"
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {},
   "display": {
-    "title": "The first main GregTech material.",
+    "subtitle": {
+      "text": ""
+    },
     "description": [
       "<task task=\"3B343C6880CD67F2\" quest=\"4BE18DBE5D760ECF\"/>",
       "<hr/>",
       "You need to blast the dust you made via the fan."
     ],
-    "icon": {
-      "type": "heracles:item",
-      "item": "gtceu:bronze_ingot"
-    },
     "groups": {
-      "ULV/ULS - Humble Beginnings..": {
+      "ULV/ULS - Humble Beginnings": {
         "position": [
           0,
           -144
         ]
       }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:bronze_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "The first main GregTech material."
     }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }

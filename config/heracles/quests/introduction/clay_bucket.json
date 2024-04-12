@@ -1,21 +1,14 @@
 {
   "dependencies": [
-    "the_andesite_age"
+    "campfire",
+    "forms"
   ],
   "tasks": {
-    "3E78796AE8750624": {
+    "clay_bucket": {
       "type": "heracles:item",
-      "item": "greate:andesite_millstone",
+      "item": "ceramicbucket:ceramic_bucket",
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {},
@@ -24,28 +17,26 @@
       "text": ""
     },
     "description": [
-      "<task task=\"3E78796AE8750624\" quest=\"6C076DCED7C11113\"/>",
-      "<hr/>",
-      "Millstones are the delicate younger brother of the crushing wheel. They can turn crushed ore into dust."
+      ""
     ],
     "groups": {
-      "ULV/ULS - Humble Beginnings..": {
+      "Introduction": {
         "position": [
-          112,
-          -288
+          50,
+          66
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "greate:andesite_millstone",
+        "id": "ceramicbucket:ceramic_bucket",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Crusher V0.5"
+      "translate": "Moving Fluids"
     }
   },
   "settings": {
