@@ -1,12 +1,12 @@
 {
   "dependencies": [
-    "flint_knife"
+    "empty_form"
   ],
   "tasks": {
-    "straw": {
+    "form": {
       "type": "heracles:item",
-      "item": "farmersdelight:straw",
-      "amount": 8,
+      "item": "#gbth:forms",
+      "amount": 1,
       "collection": "AUTOMATIC"
     }
   },
@@ -21,21 +21,18 @@
     "groups": {
       "Introduction": {
         "position": [
-          50,
-          10
+          6,
+          99
         ]
       }
     },
     "icon": {
-      "item": {
-        "id": "farmersdelight:straw",
-        "count": 1
-      },
+      "item": "#gbth:forms",
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Straw"
+      "translate": "More Forms to Sign?!"
     }
   },
   "settings": {

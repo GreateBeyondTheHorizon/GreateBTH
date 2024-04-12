@@ -1,0 +1,111 @@
+{
+  "dependencies": [
+    "flint_knife"
+  ],
+  "tasks": {
+    "flint_shovel": {
+      "type": "heracles:item",
+      "item": "gtceu:flint_shovel",
+      "nbt": {
+        "DisallowContainerItem": 0,
+        "GT.Behaviours": {},
+        "HideFlags": 2,
+        "GT.Tool": {
+          "MaxDamage": 63,
+          "Damage": 0
+        }
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "flint_axe": {
+      "type": "heracles:item",
+      "item": "gtceu:flint_axe",
+      "nbt": {
+        "DisallowContainerItem": 0,
+        "GT.Behaviours": {
+          "DisableShields": 1,
+          "TreeFelling": 1
+        },
+        "HideFlags": 2,
+        "GT.Tool": {
+          "MaxDamage": 63,
+          "Damage": 0
+        }
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "flint_sword": {
+      "type": "heracles:item",
+      "item": "gtceu:flint_sword",
+      "nbt": {
+        "DisallowContainerItem": 0,
+        "GT.Behaviours": {},
+        "HideFlags": 2,
+        "Enchantments": [
+          {
+            "lvl": 2,
+            "id": "minecraft:fire_aspect"
+          }
+        ],
+        "GT.Tool": {
+          "MaxDamage": 63,
+          "Damage": 0
+        }
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "flint_pickaxe": {
+      "type": "heracles:item",
+      "item": "gtceu:flint_pickaxe",
+      "nbt": {
+        "DisallowContainerItem": 0,
+        "GT.Behaviours": {},
+        "HideFlags": 2,
+        "GT.Tool": {
+          "MaxDamage": 63,
+          "Damage": 0
+        }
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Introduction": {
+        "position": [
+          -27,
+          39
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "kubejs:flint_axe_head",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Flint Tools"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

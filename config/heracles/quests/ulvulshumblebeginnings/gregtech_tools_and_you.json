@@ -5,73 +5,95 @@
   "tasks": {
     "58C2A01DB206AC8F": {
       "type": "heracles:item",
-      "item": "gtceu:iron_hammer",
+      "item": "gtceu:wrought_iron_hammer",
+      "nbt": {
+        "DisallowContainerItem": 0,
+        "GT.Behaviours": {},
+        "HideFlags": 2,
+        "GT.Tool": {
+          "MaxDamage": 383,
+          "Damage": 0
+        }
+      },
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
+    },
+    "soft_mallet": {
+      "type": "heracles:item",
+      "item": "gtceu:wood_mallet",
+      "nbt": {
+        "DisallowContainerItem": 0,
+        "GT.Behaviours": {},
+        "HideFlags": 2,
+        "GT.Tool": {
+          "MaxDamage": 127,
+          "Damage": 0
+        }
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
     },
     "4F40C57A5EA0C4F7": {
       "type": "heracles:item",
-      "item": "gtceu:iron_file",
+      "item": "gtceu:wrought_iron_file",
+      "nbt": {
+        "DisallowContainerItem": 0,
+        "GT.Behaviours": {},
+        "HideFlags": 2,
+        "GT.Tool": {
+          "MaxDamage": 383,
+          "Damage": 0
+        }
+      },
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     },
     "6C335F58C719C53D": {
       "type": "heracles:item",
-      "item": "gtceu:iron_saw",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
+      "item": "gtceu:wrought_iron_saw",
+      "nbt": {
+        "DisallowContainerItem": 0,
+        "GT.Behaviours": {
+          "HarvestIce": 1
         },
-        "type": "heracles:item"
-      }
+        "HideFlags": 2,
+        "GT.Tool": {
+          "MaxDamage": 383,
+          "Damage": 0
+        }
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
     },
     "15E08123C52E3EEE": {
       "type": "heracles:item",
-      "item": "gtceu:iron_screwdriver",
+      "item": "gtceu:wrought_iron_screwdriver",
+      "nbt": {
+        "DisallowContainerItem": 0,
+        "GT.Behaviours": {},
+        "HideFlags": 2,
+        "GT.Tool": {
+          "MaxDamage": 383,
+          "Damage": 0
+        }
+      },
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     },
     "367E87F58A5B6E4F": {
       "type": "heracles:item",
-      "item": "gtceu:iron_wrench",
+      "item": "gtceu:wrought_iron_wrench",
+      "nbt": {
+        "DisallowContainerItem": 0,
+        "GT.Behaviours": {},
+        "HideFlags": 2,
+        "GT.Tool": {
+          "MaxDamage": 383,
+          "Damage": 0
+        }
+      },
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {},
@@ -99,7 +121,7 @@
       "Screwdriver: Configures machines."
     ],
     "groups": {
-      "ULV/ULS - Humble Beginnings..": {
+      "ULV/ULS - Humble Beginnings": {
         "position": [
           -80,
           -256

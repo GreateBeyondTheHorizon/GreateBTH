@@ -1,12 +1,12 @@
 {
   "dependencies": [
-    "flint_knife"
+    "bloomery"
   ],
   "tasks": {
-    "straw": {
+    "bloom": {
       "type": "heracles:item",
-      "item": "farmersdelight:straw",
-      "amount": 8,
+      "item": "#gbth:blooms",
+      "amount": 1,
       "collection": "AUTOMATIC"
     }
   },
@@ -21,21 +21,18 @@
     "groups": {
       "Introduction": {
         "position": [
-          50,
-          10
+          6,
+          163
         ]
       }
     },
     "icon": {
-      "item": {
-        "id": "farmersdelight:straw",
-        "count": 1
-      },
+      "item": "#gbth:blooms",
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Straw"
+      "translate": "Bloomery Products"
     }
   },
   "settings": {

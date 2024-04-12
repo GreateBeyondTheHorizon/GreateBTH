@@ -7,15 +7,7 @@
       "type": "heracles:item",
       "item": "gtceu:steel_ingot",
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {},
@@ -35,7 +27,7 @@
       "[\"To make steel, you'll need to construct a \", { \"text\": \"primitive blast furnace\", \"underlined\": true, \"color\": \"light_purple\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"70C4E8974BC7EADA\" } }, \".\"]"
     ],
     "groups": {
-      "ULV/ULS - Humble Beginnings..": {
+      "ULV/ULS - Humble Beginnings": {
         "position": [
           -176,
           -48

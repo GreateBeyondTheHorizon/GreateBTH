@@ -13,8 +13,6 @@ var NeedsToBeChecked= ['rose_gold']
 //needs to be checked
 var Astra = ['ostrum','calorite', 'cheese', 'desh',] 
 
-var EnderIO = ['redstone_alloy', 'energetic_alloy','end_steel', 'dark_steel', 'conductive_alloy','copper_alloy', 'vibrant_alloy', 'pulsating_alloy', 'soularium']
-
 var configurableBeeMaterialsSpecial = ['experience']
 
 var configurableBeeMaterialsCustomLV = ['glowing','blazing','prismarine','sculk','warped', 'brown_shroom','red_shroom','withered','skeletal', 
@@ -54,15 +52,6 @@ ServerEvents.recipes(event => {
     customHCFluidProcessingRecipe('create:tea', Item.of('productivebees:configurable_honeycomb', '{EntityTag:{type:"productivebees:tea"}}').strongNBT(), Fluid.of('create:tea', 250), 150, 16)
     customHCFluidProcessingRecipe('gtceu:oil', Item.of('productivebees:configurable_honeycomb', '{EntityTag:{type:"productivebees:oily"}}').strongNBT(), Fluid.of('gtceu:oil', 250), 150, 128)
     customHCFluidProcessingRecipe('minecraft:milk', Item.of('productivebees:honeycomb_milky'), Fluid.of('minecraft:milk', 250), 150, 16)
-
-    //Chemical Reactor for beer output
-    EnderIO.forEach(material => {event.recipes.gtceu.chemical_reactor(`enderio:${material}_nugget`)
-        .itemInputs(Item.of('productivebees:configurable_honeycomb', `{EntityTag:{type:"productivebees:${material}"}}`).strongNBT())
-        .inputFluids(Fluid.of('enderio:cloud_seed_concentrated', 100))
-        .itemOutputs(`3x enderio:${material}_nugget`)
-        .duration(150)
-        .EUt(16)
-    })
 
     for(let i = 0; i < configurableBeeMaterialsCustomLvOutput.length; i++){
       event.recipes.gtceu.chemical_reactor(configurableBeeMaterialsCustomLvOutput[i])

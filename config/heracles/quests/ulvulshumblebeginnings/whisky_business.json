@@ -3,33 +3,11 @@
     "the_andesite_age"
   ],
   "tasks": {
-    "0BB6686F580E54C1": {
+    "whisk": {
       "type": "heracles:item",
-      "item": "greate:andesite_mechanical_mixer",
+      "item": "create:whisk",
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    },
-    "7AF9093731AE452A": {
-      "type": "heracles:item",
-      "item": "create:basin",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {},
@@ -44,7 +22,7 @@
       "The mixer requires a basin two blocks below it. It is a great thing for brass making. It also has other uses, but we will get there when we will get  there..."
     ],
     "groups": {
-      "ULV/ULS - Humble Beginnings..": {
+      "ULV/ULS - Humble Beginnings": {
         "position": [
           112,
           -224
@@ -53,7 +31,7 @@
     },
     "icon": {
       "item": {
-        "id": "greate:andesite_mechanical_mixer",
+        "id": "create:whisk",
         "count": 1
       },
       "type": "heracles:item"

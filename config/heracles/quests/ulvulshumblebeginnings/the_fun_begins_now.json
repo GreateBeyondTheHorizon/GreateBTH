@@ -3,13 +3,6 @@
   "tasks": {
     "537B6CCDA4BAFB81": {
       "title": "I understand",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "type": "heracles:check"
     }
   },
@@ -25,7 +18,7 @@
       "In this chapter you will discover steam and kinetic power and learn to utilise them. I prepared some quests and optional challanges for you. Now get to work, so i can begin your greatification."
     ],
     "groups": {
-      "ULV/ULS - Humble Beginnings..": {
+      "ULV/ULS - Humble Beginnings": {
         "position": [
           0,
           -336

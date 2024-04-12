@@ -1,23 +1,14 @@
 {
   "dependencies": [
-    "fine_copper_wire",
-    "paper",
-    "lets_get_goopy"
+    "bed",
+    "gregtech_tools_and_you"
   ],
   "tasks": {
-    "5F023AF069A7E9A4": {
+    "chest": {
       "type": "heracles:item",
-      "item": "gtceu:resistor",
+      "item": "#forge:chests/wooden",
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {},
@@ -26,28 +17,23 @@
       "text": ""
     },
     "description": [
-      "<task task=\"5F023AF069A7E9A4\" quest=\"0DE50DFF22C3DE10\"/>",
-      "<hr/>",
-      "Irresistable to the eyes of any hardware engineer."
+      ""
     ],
     "groups": {
       "ULV/ULS - Humble Beginnings": {
         "position": [
-          0,
-          64
+          -80,
+          -192
         ]
       }
     },
     "icon": {
-      "item": {
-        "id": "gtceu:resistor",
-        "count": 1
-      },
+      "item": "#forge:chests/wooden",
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Resistor"
+      "translate": "Store Those Items!"
     }
   },
   "settings": {

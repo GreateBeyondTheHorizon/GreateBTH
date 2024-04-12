@@ -1,16 +1,14 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "firestarter",
+    "wood"
+  ],
   "tasks": {
-    "The Beginning": {
-      "title": "The Beginning",
-      "icon": {
-        "item": {
-          "id": "minecraft:grass_block",
-          "count": 1
-        },
-        "type": "heracles:item"
-      },
-      "type": "heracles:check"
+    "campfire": {
+      "type": "heracles:item",
+      "item": "minecraft:campfire",
+      "amount": 1,
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {},
@@ -24,21 +22,21 @@
     "groups": {
       "Introduction": {
         "position": [
-          -20,
-          -121
+          6,
+          39
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "greate:large_tungstensteel_cogwheel",
+        "id": "minecraft:campfire",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "The Beginning"
+      "translate": "Campfire"
     }
   },
   "settings": {

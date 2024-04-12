@@ -29,14 +29,7 @@
       },
       "amount": 1,
       "collection": "AUTOMATIC",
-      "title": "Steam Boilers",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "title": "Steam Boilers"
     }
   },
   "rewards": {},
@@ -60,7 +53,7 @@
       "Machines require a constant supply of steam while running or else the process will stop and the progress of the recipe will be lost."
     ],
     "groups": {
-      "ULV/ULS - Humble Beginnings..": {
+      "ULV/ULS - Humble Beginnings": {
         "position": [
           -112,
           -112

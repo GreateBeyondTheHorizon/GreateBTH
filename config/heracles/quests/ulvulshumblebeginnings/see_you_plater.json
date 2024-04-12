@@ -3,19 +3,11 @@
     "the_andesite_age"
   ],
   "tasks": {
-    "56D7409EDB5DBC6F": {
+    "depot": {
       "type": "heracles:item",
-      "item": "greate:andesite_mechanical_press",
+      "item": "create:depot",
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {},
@@ -31,7 +23,7 @@
       "&&oLooks like he forgot to write this&&r - lonevox"
     ],
     "groups": {
-      "ULV/ULS - Humble Beginnings..": {
+      "ULV/ULS - Humble Beginnings": {
         "position": [
           128,
           -256
@@ -40,7 +32,7 @@
     },
     "icon": {
       "item": {
-        "id": "greate:andesite_mechanical_press",
+        "id": "create:depot",
         "count": 1
       },
       "type": "heracles:item"
