@@ -3,72 +3,27 @@
     "flint_knife"
   ],
   "tasks": {
-    "flint_shovel": {
+    "shovel_head": {
       "type": "heracles:item",
-      "item": "gtceu:flint_shovel",
-      "nbt": {
-        "DisallowContainerItem": 0,
-        "GT.Behaviours": {},
-        "HideFlags": 2,
-        "GT.Tool": {
-          "MaxDamage": 63,
-          "Damage": 0
-        }
-      },
+      "item": "kubejs:flint_shovel_head",
       "amount": 1,
       "collection": "AUTOMATIC"
     },
-    "flint_axe": {
+    "axe_head": {
       "type": "heracles:item",
-      "item": "gtceu:flint_axe",
-      "nbt": {
-        "DisallowContainerItem": 0,
-        "GT.Behaviours": {
-          "DisableShields": 1,
-          "TreeFelling": 1
-        },
-        "HideFlags": 2,
-        "GT.Tool": {
-          "MaxDamage": 63,
-          "Damage": 0
-        }
-      },
+      "item": "kubejs:flint_axe_head",
       "amount": 1,
       "collection": "AUTOMATIC"
     },
-    "flint_sword": {
+    "pickaxe_head": {
       "type": "heracles:item",
-      "item": "gtceu:flint_sword",
-      "nbt": {
-        "DisallowContainerItem": 0,
-        "GT.Behaviours": {},
-        "HideFlags": 2,
-        "Enchantments": [
-          {
-            "lvl": 2,
-            "id": "minecraft:fire_aspect"
-          }
-        ],
-        "GT.Tool": {
-          "MaxDamage": 63,
-          "Damage": 0
-        }
-      },
+      "item": "kubejs:flint_pickaxe_head",
       "amount": 1,
       "collection": "AUTOMATIC"
     },
-    "flint_pickaxe": {
+    "sword_head": {
       "type": "heracles:item",
-      "item": "gtceu:flint_pickaxe",
-      "nbt": {
-        "DisallowContainerItem": 0,
-        "GT.Behaviours": {},
-        "HideFlags": 2,
-        "GT.Tool": {
-          "MaxDamage": 63,
-          "Damage": 0
-        }
-      },
+      "item": "kubejs:flint_sword_head",
       "amount": 1,
       "collection": "AUTOMATIC"
     }
