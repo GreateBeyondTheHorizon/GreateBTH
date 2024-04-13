@@ -51,9 +51,3 @@ global.ProductiveBees = {
 	UHVMaterials: ['europium'],
 	AfterUHVMaterials: ['infinity', 'neutronium']
 }
-
-/* 
-//Items that no longer have a use, their recipe will be removed and they will be hidden in EMI.
-global.ItemsToRemoveAndHide = {
-	FarmersDelight: []
-} */

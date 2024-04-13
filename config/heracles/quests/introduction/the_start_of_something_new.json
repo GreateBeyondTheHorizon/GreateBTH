@@ -1,6 +1,11 @@
 {
   "dependencies": [],
-  "tasks": {},
+  "tasks": {
+    "537B6CCDA4BAFB82": {
+      "title": "I understand",
+      "type": "heracles:check"
+    }
+  },
   "rewards": {},
   "display": {
     "subtitle": {

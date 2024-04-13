@@ -2,6 +2,10 @@
 LootJS.modifiers((event) => {
     event
         .addBlockLootModifier('minecraft:grass')
+		.matchMainHand("#forge:tools/knives")
+		.playerAction(p => {
+			p.damageHeldItem()
+		})
         .randomChance(0.33)
 		.addLoot('farmersdelight:straw');
 
@@ -9,6 +13,11 @@ LootJS.modifiers((event) => {
 		.addBlockLootModifier('minecraft:campfire')
 		.removeLoot('minecraft:charcoal')
 		.addLoot("2x minecraft:stick");
+
+	event
+		.addBlockLootModifier('#minecraft:leaves')
+		.randomChance(0.33)
+		.addLoot('minecraft:stick');
 });
 
 BlockEvents.placed('minecraft:campfire', (event) => {
@@ -58,10 +67,10 @@ ServerEvents.recipes(event => {
 	)
 
 	event.shaped(
-		Item.of('kubejs:fire_starter', 1),
+		Item.of('kubejs:fire_starter'),
 			[
 				'AC',
-				'B ',
+				'B '
 			],
 			{
 				A:'farmersdelight:rope',
@@ -71,10 +80,10 @@ ServerEvents.recipes(event => {
 	)
 
 	event.shaped(
-		Item.of('kubejs:flint_pickaxe_head', 1),
+		Item.of('kubejs:flint_pickaxe_head'),
 			[
 				'AA',
-				'BA',
+				'BA'
 			],
 			{
 				A:'minecraft:flint',
@@ -83,10 +92,10 @@ ServerEvents.recipes(event => {
 	)
 
 	event.shaped(
-		Item.of('kubejs:flint_axe_head', 1),
+		Item.of('kubejs:flint_axe_head'),
 			[
-				'AA',
 				'AB',
+				'AA'
 			],
 			{
 				A:'minecraft:flint',
@@ -95,7 +104,7 @@ ServerEvents.recipes(event => {
 	)
 	
 	event.shaped(
-		Item.of('kubejs:flint_shovel_head', 1),
+		Item.of('kubejs:flint_shovel_head'),
 			[
 				' A',
 				' B',
@@ -106,7 +115,7 @@ ServerEvents.recipes(event => {
 			}
 	)
 	event.shaped(
-		Item.of('kubejs:flint_sword_head', 1),
+		Item.of('kubejs:flint_sword_head'),
 			[
 				' A',
 				'BA',
@@ -118,7 +127,7 @@ ServerEvents.recipes(event => {
 	)
 
 	event.shaped(
-		Item.of('kubejs:flint_hoe_head', 1),
+		Item.of('kubejs:flint_hoe_head'),
 			[
 				'AA',
 				' B',
@@ -133,13 +142,12 @@ ServerEvents.recipes(event => {
 	event.shaped(
 		Item.of('gtceu:flint_knife', '{DisallowContainerItem:0,GT.Behaviours:{},GT.Tool:{AttackDamage:1.0f,AttackSpeed:3.0f,Damage:0,MaxDamage:50},HideFlags:2}'),
 			[
-				'AC',
+				' A',
 				'B ',
 			],
 			{
-				A:'farmersdelight:rope',
 				B:'minecraft:stick',
-				C:'minecraft:flint'
+				A:'minecraft:flint'
 			}
 	)
 

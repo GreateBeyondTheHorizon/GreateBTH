@@ -10,15 +10,11 @@
         "DisallowContainerItem": 0,
         "GT.Behaviours": {},
         "HideFlags": 2,
-        "Enchantments": [
-          {
-            "lvl": 2,
-            "id": "minecraft:fire_aspect"
-          }
-        ],
         "GT.Tool": {
-          "MaxDamage": 63,
-          "Damage": 0
+          "AttackDamage": 1,
+          "MaxDamage": 50,
+          "Damage": 0,
+          "AttackSpeed": 3
         }
       },
       "amount": 1,
