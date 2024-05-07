@@ -22,7 +22,7 @@ GTCEuStartupEvents.registry('gtceu:tag_prefix', e => {
 
     stoneTypes.forEach(type => {
         e.create(type.split(':')[1], 'ore')
-            .baseModelLocation(type)
+            .baseModelLocation(type.split(':')[0] + ':block/' + type.split(':')[1])
             .stateSupplier(() => Block.getBlock(type).defaultBlockState())
             .unificationEnabled(true)
             .materialIconType(GTMaterialIconType.ore)

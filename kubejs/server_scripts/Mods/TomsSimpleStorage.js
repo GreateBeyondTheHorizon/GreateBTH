@@ -1,6 +1,7 @@
 ServerEvents.recipes(event => {
 
 	event.remove('toms_storage:crafting_terminal')
+	event.remove({id: "toms_storage:wireless_terminal"})
 
 	//Storage Connector
 	event.recipes.createMechanicalCrafting(
