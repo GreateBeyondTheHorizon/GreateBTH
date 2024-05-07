@@ -1,13 +1,13 @@
 name = "Chipped"
-filename = "Chipped-forge-1.20.1-3.0.4.jar"
+filename = "Chipped-forge-1.20.1-3.0.6.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/BAscRYKm/versions/rGLT7po1/Chipped-forge-1.20.1-3.0.4.jar"
+url = "https://cdn.modrinth.com/data/BAscRYKm/versions/gfGw4ln2/Chipped-forge-1.20.1-3.0.6.jar"
 hash-format = "sha1"
-hash = "488d6d869aeac6e7835d1e91dd16ca892bba8ad6"
+hash = "977756a36171b80ba1767b59ffa74b90f074d74d"
 
 [update]
 [update.modrinth]
 mod-id = "BAscRYKm"
-version = "rGLT7po1"
+version = "gfGw4ln2"

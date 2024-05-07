@@ -1,6 +1,6 @@
 name = "Leaves Be Gone"
 filename = "LeavesBeGone-v8.0.0-1.20.1-Forge.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/AVq17PqV/versions/slScQFdb/LeavesBeGone-v8.0.0-1.20.1-Forge.jar"

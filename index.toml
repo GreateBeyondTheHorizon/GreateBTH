@@ -319,6 +319,9 @@ file = "defaultconfigs/ceramicbucket-server.toml"
 file = "defaultconfigs/create-server.toml"
 
 [[files]]
+file = "defaultconfigs/sophisticatedbackpacks-server.toml"
+
+[[files]]
 file = "defaultconfigs/toms_storage-server.toml"
 
 [[files]]
@@ -556,6 +559,12 @@ file = "kubejs/config/packicon.png"
 file = "kubejs/config/probejs.json"
 
 [[files]]
+file = "kubejs/data/gbth/loot_tables/common_food.json"
+
+[[files]]
+file = "kubejs/data/gbth/loot_tables/dirt_age.json"
+
+[[files]]
 file = "kubejs/data/productivebees/productivebees/gtceu/EV/neodymium.json"
 
 [[files]]
@@ -694,10 +703,16 @@ file = "kubejs/server_scripts/GregOreVeins.js"
 file = "kubejs/server_scripts/ItemRemoval.js"
 
 [[files]]
+file = "kubejs/server_scripts/Lootbags.js"
+
+[[files]]
 file = "kubejs/server_scripts/Mods/AE2.js"
 
 [[files]]
 file = "kubejs/server_scripts/Mods/AdAstra.js"
+
+[[files]]
+file = "kubejs/server_scripts/Mods/Chipped.js"
 
 [[files]]
 file = "kubejs/server_scripts/Mods/ConstructionWand.js"
@@ -707,6 +722,9 @@ file = "kubejs/server_scripts/Mods/Create.js"
 
 [[files]]
 file = "kubejs/server_scripts/Mods/EnderStorage.js"
+
+[[files]]
+file = "kubejs/server_scripts/Mods/FarmersDelight.js"
 
 [[files]]
 file = "kubejs/server_scripts/Mods/Greate.js"
@@ -990,6 +1008,10 @@ file = "mods/heracles.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/inventory-profiles-next.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/jade-addons-forge.pw.toml"
 metafile = true
 
@@ -1018,6 +1040,10 @@ file = "mods/konkrete.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/kotlin-for-forge.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/kubejs-create.pw.toml"
 metafile = true
 
@@ -1027,6 +1053,10 @@ metafile = true
 
 [[files]]
 file = "mods/leaves-be-gone.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/libipn.pw.toml"
 metafile = true
 
 [[files]]
@@ -1107,6 +1137,10 @@ metafile = true
 
 [[files]]
 file = "mods/resourceful-lib.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/resourceful-lootbags.pw.toml"
 metafile = true
 
 [[files]]

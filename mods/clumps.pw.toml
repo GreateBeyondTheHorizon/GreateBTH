@@ -1,13 +1,13 @@
 name = "Clumps"
-filename = "Clumps-forge-1.20.1-12.0.0.3.jar"
+filename = "Clumps-forge-1.20.1-12.0.0.4.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/Wnxd13zP/versions/yQVnODwU/Clumps-forge-1.20.1-12.0.0.3.jar"
+url = "https://cdn.modrinth.com/data/Wnxd13zP/versions/nAHGB5ls/Clumps-forge-1.20.1-12.0.0.4.jar"
 hash-format = "sha1"
-hash = "99fb4cf6d0339d72cec603e045d664c3909ad408"
+hash = "8809c7aa6c71389e9c59abfe5def52c1cb8d4f1c"
 
 [update]
 [update.modrinth]
 mod-id = "Wnxd13zP"
-version = "yQVnODwU"
+version = "nAHGB5ls"
