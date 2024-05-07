@@ -134,6 +134,8 @@ removeNamespaceItems('ad_astra', [
 	'iron_plate',
 	'iron_rod',
 	'compressor',
+	'etrionic_blast_furnace',
+	'coal_generator'
 ])
 
 //Farmers Delight
@@ -165,4 +167,8 @@ removeNamespaceItems('aquaculture', [
 	'gold_fillet_knife', 
 	'diamond_fillet_knife', 
 	'neptunium_fillet_knife'
+])
+
+removeNamespaceItems('ae2', [
+	'vibration_chamber'
 ])
