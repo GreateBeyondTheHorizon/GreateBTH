@@ -13,6 +13,7 @@ ServerEvents.recipes(event => {
 		'cogwheel',
 		'large_cogwheel',
 		'brass_hand',
+		'raw_zinc_block'
 	]
 
 	removed.forEach(item => {

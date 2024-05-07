@@ -14,6 +14,10 @@ ServerEvents.recipes(event => {
 	// We don't want players to be able to teleport items, so remove ender chests
 	event.remove({ output: 'minecraft:ender_chest' })
 
+	event.remove({id: 'minecraft:raw_iron_block'})
+	event.remove({id: 'minecraft:raw_gold_block'})
+	event.remove({id: 'minecraft:raw_copper_block'})
+
 	// Netherite ingot
 	event.remove({ output: 'minecraft:netherite_ingot' })
 	event.recipes.createMixing('minecraft:netherite_ingot', [
@@ -99,21 +103,6 @@ ServerEvents.recipes(event => {
 	)
 
 	//// Crafting stations ////
-
-	// Smoker
-	event.remove({ output: 'minecraft:smoker' })
-	event.shaped('minecraft:smoker',
-		[
-			'LPL',
-			'PFP',
-			'LPL'
-		],
-		{
-			L: '#minecraft:logs',
-			F: 'minecraft:furnace',
-			P: '#forge:plates/copper',
-		}
-	)
 
 	// Stonecutter
 	event.remove({ output: 'minecraft:stonecutter' })

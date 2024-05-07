@@ -12,7 +12,21 @@ ServerEvents.recipes(event => {
 		'electric_pump',
 		'fluid_regulator',
 	]
-	event.remove({ output: 'gtceu:lp_steam_furnace' })
+
+	//Recipe ids that should have a campfire in place of a furnace in its recipe
+	const furnaceRecipesToReplace = [
+		'gtceu:shaped/steam_furnace_bronze',
+		'gtceu:shaped/steam_alloy_smelter_bronze',
+		'gtceu:shaped/furnace_minecart',
+		'cookingforblockheads:oven',
+		'productivebees:honey_generator',
+		'gtceu:shaped/steam_boiler_coal_bronze',
+		'gtceu:shaped/steam_boiler_coal_steel',
+		'gtceu:shaped/electric_blast_furnace',
+		'gtceu:shaped/multi_furnace',
+		'gtceu:assembler/furnace_minecart'
+	]
+	
 	tiers.forEach(tier => {
 		components.forEach(component => {
 			event.remove({ output: `gtceu:${tier}_${component}` })
@@ -48,9 +62,11 @@ ServerEvents.recipes(event => {
 		[
 			'A',
 			'A',
+			'H'
 		],
 		{
-			A:'#minecraft:logs'
+			A:'#minecraft:logs',
+			H: '#forge:tools/hammers'
 		}
 	)
 	event.shaped(
@@ -76,21 +92,10 @@ ServerEvents.recipes(event => {
 			G: 'gtceu:stone_rod'
 		}
 	)
-	
-	event.shaped(
-		Item.of('gtceu:lp_steam_furnace', 1),
-		[
-			'ABA',
-			'ACA',
-			'ADA'
-		],
-		{
-			A:'gtceu:bronze_small_fluid_pipe',
-			B:'minecraft:blast_furnace',
-			C:'gtceu:bronze_brick_casing',
-			D:'minecraft:smoker'
-		}
-	)
+
+	furnaceRecipesToReplace.forEach(recipeID => {
+		event.replaceInput({id: recipeID}, 'minecraft:furnace', 'minecraft:campfire')
+	})
 
 	// Material parts
 	// Wood
