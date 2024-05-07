@@ -11,13 +11,29 @@
       "collection": "AUTOMATIC"
     }
   },
-  "rewards": {},
+  "rewards": {
+    "lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 13882323,
+          "Loot": "lootbags:kjs/9kff06xm19izwh9o5g3dsfrhn",
+          "Name": "Lootbag (Common Food)"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
     "description": [
-      ""
+      "If you haven't seen already, /d/Furnaces/d/, /d/Blast Furnaces/d/, and/d/ Smokers/d/ are /c/disabled/c/! You will have to use /d/Campfires/d/ until you are able to unlock better technology.",
+      "",
+      "Using the /d/Wood/d/ you've collected, alongside some other components, you can now make your first /d/Campfire/d/."
     ],
     "groups": {
       "Introduction": {

@@ -3,95 +3,45 @@
     "the_fun_begins_now"
   ],
   "tasks": {
-    "58C2A01DB206AC8F": {
-      "type": "heracles:item",
-      "item": "gtceu:wrought_iron_hammer",
-      "nbt": {
-        "DisallowContainerItem": 0,
-        "GT.Behaviours": {},
-        "HideFlags": 2,
-        "GT.Tool": {
-          "MaxDamage": 383,
-          "Damage": 0
-        }
-      },
-      "amount": 1,
-      "collection": "AUTOMATIC"
-    },
     "soft_mallet": {
       "type": "heracles:item",
-      "item": "gtceu:wood_mallet",
-      "nbt": {
-        "DisallowContainerItem": 0,
-        "GT.Behaviours": {},
-        "HideFlags": 2,
-        "GT.Tool": {
-          "MaxDamage": 127,
-          "Damage": 0
-        }
-      },
-      "amount": 1,
-      "collection": "AUTOMATIC"
-    },
-    "4F40C57A5EA0C4F7": {
-      "type": "heracles:item",
-      "item": "gtceu:wrought_iron_file",
-      "nbt": {
-        "DisallowContainerItem": 0,
-        "GT.Behaviours": {},
-        "HideFlags": 2,
-        "GT.Tool": {
-          "MaxDamage": 383,
-          "Damage": 0
-        }
-      },
-      "amount": 1,
-      "collection": "AUTOMATIC"
-    },
-    "6C335F58C719C53D": {
-      "type": "heracles:item",
-      "item": "gtceu:wrought_iron_saw",
-      "nbt": {
-        "DisallowContainerItem": 0,
-        "GT.Behaviours": {
-          "HarvestIce": 1
-        },
-        "HideFlags": 2,
-        "GT.Tool": {
-          "MaxDamage": 383,
-          "Damage": 0
-        }
-      },
-      "amount": 1,
-      "collection": "AUTOMATIC"
-    },
-    "15E08123C52E3EEE": {
-      "type": "heracles:item",
-      "item": "gtceu:wrought_iron_screwdriver",
-      "nbt": {
-        "DisallowContainerItem": 0,
-        "GT.Behaviours": {},
-        "HideFlags": 2,
-        "GT.Tool": {
-          "MaxDamage": 383,
-          "Damage": 0
-        }
-      },
+      "item": "#forge:tools/mallets",
+      "nbt": {},
       "amount": 1,
       "collection": "AUTOMATIC"
     },
     "367E87F58A5B6E4F": {
       "type": "heracles:item",
-      "item": "gtceu:wrought_iron_wrench",
-      "nbt": {
-        "DisallowContainerItem": 0,
-        "GT.Behaviours": {},
-        "HideFlags": 2,
-        "GT.Tool": {
-          "MaxDamage": 383,
-          "Damage": 0
-        }
-      },
+      "item": "#forge:tools/wrenches",
+      "nbt": {},
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "58C2A01DB206AC8F": {
+      "type": "heracles:item",
+      "item": "#forge:tools/hammers",
+      "nbt": {},
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "4F40C57A5EA0C4F7": {
+      "type": "heracles:item",
+      "item": "#forge:tools/files",
+      "nbt": {},
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "6C335F58C719C53D": {
+      "type": "heracles:item",
+      "item": "#forge:tools/saws",
+      "nbt": {},
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "15E08123C52E3EEE": {
+      "type": "heracles:item",
+      "item": "#forge:tools/screwdrivers",
+      "nbt": {},
       "amount": 1,
       "collection": "AUTOMATIC"
     }

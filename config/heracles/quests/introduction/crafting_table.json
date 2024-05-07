@@ -10,13 +10,42 @@
       "collection": "AUTOMATIC"
     }
   },
-  "rewards": {},
+  "rewards": {
+    "lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 13882323,
+          "Loot": "lootbags:kjs/9kff06xm19izwh9o5g3dsfrhn",
+          "Name": "Lootbag (Common Food)"
+        }
+      },
+      "type": "heracles:item"
+    },
+    "grant_stage": {
+      "title": "Unlock the ability to use a Crafting Table",
+      "icon": {
+        "item": {
+          "id": "minecraft:crafting_table",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "command": "kubejs stages add @s early_game_completed",
+      "type": "heracles:command"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
     "description": [
-      ""
+      "Congrats! You have made it through the introduction chapter. Good luck on the rest of your journey!",
+      "",
+      "P.S.",
+      "Make sure you claim the reward to unlock the ability to use your new /d/Crafting Table/d/."
     ],
     "groups": {
       "Introduction": {

@@ -6,17 +6,31 @@
     "mud_brick": {
       "type": "heracles:item",
       "item": "kubejs:mud_brick",
-      "amount": 1,
+      "amount": 88,
       "collection": "AUTOMATIC"
     }
   },
-  "rewards": {},
+  "rewards": {
+    "lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 13882323,
+          "Loot": "lootbags:kjs/a56sxbdiu1pi85bk1lyyz44ov",
+          "Name": "Lootbag (Dirt Age)"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
     "description": [
-      ""
+      "You can turn /d/Packed Mud/d/ into /d/Mud Bricks/d/ using the /d/Brick Form/d/."
     ],
     "groups": {
       "Introduction": {
