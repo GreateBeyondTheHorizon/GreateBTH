@@ -13,11 +13,6 @@ ServerEvents.tags('item', event => {
 	])
 	event.add('forge:armors', /ad_astra:jet(.*)/)
 	event.add('forge:armors', /ad_astra:(.*)space(.*)/)
-	
-	event.add('gbth:valid_aa_nuggets', [
-		'gtceu:copper_nugget',
-		'gtceu:tin_nugget'
-	])
 
 	event.add('gbth:forms', [
 		'kubejs:block_wooden_form',
