@@ -6,17 +6,35 @@
     "packed_mud": {
       "type": "heracles:item",
       "item": "minecraft:packed_mud",
-      "amount": 1,
+      "amount": 88,
       "collection": "AUTOMATIC"
     }
   },
-  "rewards": {},
+  "rewards": {
+    "lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 13882323,
+          "Loot": "lootbags:kjs/a56sxbdiu1pi85bk1lyyz44ov",
+          "Name": "Lootbag (Dirt Age)"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
     "description": [
-      ""
+      "In order to craft the /d/Bloomery/d/, you'll need some /d/Mud/d/.",
+      "",
+      "You can either Craft it, or if you're lucky, find some in a /d/Mangrove Swamp/d/.",
+      "",
+      "If you /d/Craft/d/ it, you'll need /d/22 Mud/d/ if using the /d/Wheat/d/ recipe, or /d/44 Mud/d/ if using the /d/Straw/d/ recipe."
     ],
     "groups": {
       "Introduction": {
@@ -35,7 +53,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Packed Mud"
+      "translate": "Getting Muddy"
     }
   },
   "settings": {

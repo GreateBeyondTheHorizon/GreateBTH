@@ -11,13 +11,31 @@
       "collection": "AUTOMATIC"
     }
   },
-  "rewards": {},
+  "rewards": {
+    "lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 13882323,
+          "Loot": "lootbags:kjs/a56sxbdiu1pi85bk1lyyz44ov",
+          "Name": "Lootbag (Dirt Age)"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
     "description": [
-      ""
+      "Since you are not able to smelt metals yet, something more primitive is needed. Luckly this /d/Ceramic Bucket/d/ will suffice!",
+      "",
+      "You can smelt the /d/Unfired Ceramic Bucket/d/ on the /d/Campfire/d/ to turn it into a useable /d/Bucket/d/.",
+      "",
+      "/c/WARNING/c/: May break under extreme temperatures."
     ],
     "groups": {
       "Introduction": {

@@ -28,13 +28,29 @@
       "collection": "AUTOMATIC"
     }
   },
-  "rewards": {},
+  "rewards": {
+    "lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 13882323,
+          "Loot": "lootbags:kjs/a56sxbdiu1pi85bk1lyyz44ov",
+          "Name": "Lootbag (Dirt Age)"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
     "description": [
-      ""
+      "Before crafting your /d/Flint Tools/d/, you need to craft certain /d/Tool Heads/d/.",
+      "",
+      "Now that you have your /d/Flint Knife/d/, you can shape /d/Flint/d/ into different /d/Tool Heads/d/, and eventually /d/Flint Tools/d/."
     ],
     "groups": {
       "Introduction": {
@@ -53,7 +69,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Flint Tools"
+      "translate": "Toolcrafting"
     }
   },
   "settings": {
