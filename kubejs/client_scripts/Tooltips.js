@@ -8,4 +8,5 @@ ItemEvents.tooltip(event => {
 			}
 		}
 	)
+	event.add('gtceu:flint_axe', Text.red("Hold [CTRL] to enable tree felling"))
 })
