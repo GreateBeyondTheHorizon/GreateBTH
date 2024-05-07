@@ -1,6 +1,6 @@
 name = "KleeSlabs"
 filename = "kleeslabs-forge-1.20-15.0.0.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/7uh75ruZ/versions/aG4T8pjo/kleeslabs-forge-1.20-15.0.0.jar"
