@@ -38,6 +38,13 @@ BlockEvents.rightClicked(event => {
 			}	
 			event.block.set('minecraft:campfire', { lit: 'true' })
 		}
+	} else if (event.block.id === 'minecraft:crafting_table' &&
+		!event.getPlayer().stages.has('early_game_completed')) {
+		event.getPlayer().displayClientMessage(Component.literal("You have not unlocked the ability to use this yet!").red(), true)
+		event.cancel()
+	} else if (event.block.id === 'minecraft:furnace' || event.block.id === 'minecraft:blast_furnace' || event.block.id === 'minecraft:smoker') {
+		event.getPlayer().displayClientMessage(Component.literal("This block has no functionality!").red(), true)
+		event.cancel()
 	}
 })
 
@@ -58,6 +65,7 @@ ServerEvents.recipes(event => {
 		'minecraft:crafting_table',
 		'minecraft:furnace',
 		'minecraft:blast_furnace',
+		'minecraft:smoker',
 		'create:andesite_alloy',
 		'create:hand_crank'
 	]
@@ -140,7 +148,7 @@ ServerEvents.recipes(event => {
 
 
 	event.shaped(
-		Item.of('gtceu:flint_knife', '{DisallowContainerItem:0,GT.Behaviours:{},GT.Tool:{AttackDamage:1.0f,AttackSpeed:3.0f,Damage:0,MaxDamage:50},HideFlags:2}'),
+		Item.of('gtceu:flint_knife', '{DisallowContainerItem:0,GT.Behaviours:{},GT.Tool:{AttackDamage:1.0f,AttackSpeed:3.0f,Damage:0,MaxDamage:50},HideFlags:2,Enchantments:[{id:"minecraft:fire_aspect", "lvl": 2}]}'),
 			[
 				' A',
 				'B ',
@@ -192,7 +200,7 @@ ServerEvents.recipes(event => {
 	)
 
 	event.shaped(
-		Item.of('gtceu:flint_sword', '{DisallowContainerItem:0b,GT.Behaviours:{},GT.Tool:{AttackDamage:4.0f,AttackSpeed:-2.4f,Damage:0,MaxDamage:63},HideFlags:2}'),
+		Item.of('gtceu:flint_sword', '{DisallowContainerItem:0b,GT.Behaviours:{},GT.Tool:{AttackDamage:4.0f,AttackSpeed:-2.4f,Damage:0,MaxDamage:63},HideFlags:2,Enchantments:[{id:"minecraft:fire_aspect", "lvl": 2}]}'),
 			[
 				'AC',
 				' B',
@@ -288,10 +296,18 @@ ServerEvents.recipes(event => {
 
 	event.shapeless(
 		Item.of('minecraft:packed_mud', 2),
-			[
-				'2x minecraft:wheat',
-				'minecraft:mud'
-			]
+		[
+			'2x farmersdelight:straw',
+			'minecraft:mud'
+		]
+	)
+
+	event.shapeless(
+		Item.of('minecraft:packed_mud', 4),
+		[
+			'2x minecraft:wheat',
+			'minecraft:mud'
+		]
 	)
 
 	event.shapeless(
@@ -313,8 +329,8 @@ ServerEvents.recipes(event => {
 			}
 	)
 
-	event.campfireCooking('minecraft:charcoal', '#minecraft:logs').xp(0.15)
-	event.campfireCooking('ceramicbucket:ceramic_bucket', 'ceramicbucket:unfired_clay_bucket').xp(0.3)
+	event.campfireCooking('minecraft:charcoal', '#minecraft:logs').cookingTime(200).xp(0.15)
+	event.campfireCooking('ceramicbucket:ceramic_bucket', 'ceramicbucket:unfired_clay_bucket').cookingTime(200).xp(0.3)
 
 	event.shaped(
 		Item.of('gbthcore:bloomery'),
@@ -388,7 +404,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 			A: 'minecraft:andesite',
-			N: '#gbth:valid_aa_nuggets'
+			N: 'gtceu:bronze_nugget'
 		}
 	)
 
@@ -400,7 +416,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 			A: 'minecraft:andesite',
-			N: '#gbth:valid_aa_nuggets'
+			N: 'gtceu:bronze_nugget'
 		}
 	)
 
@@ -428,7 +444,7 @@ ServerEvents.recipes(event => {
 		}
 	)
 
-	event.campfireCooking('gtceu:coke_oven_brick', 'gtceu:compressed_coke_clay').xp(0.3)
+	event.campfireCooking('gtceu:coke_oven_brick', 'gtceu:compressed_coke_clay').cookingTime(200).xp(0.3)
 
 	event.replaceInput('gtceu:shaped/coke_oven', 'gtceu:iron_plate', 'gtceu:wrought_iron_plate')
 
@@ -448,5 +464,5 @@ ServerEvents.recipes(event => {
 	//Temp
 	event.remove({type: 'minecraft:smelting', output: 'gtceu:wrought_iron_nugget'})
 	event.smelting('minecraft:iron_nugget', 'gtceu:wrought_iron_nugget')
-	event.campfireCooking('minecraft:iron_nugget', 'gtceu:wrought_iron_nugget')
+	event.campfireCooking('minecraft:iron_nugget', 'gtceu:wrought_iron_nugget').cookingTime(200)
 })
