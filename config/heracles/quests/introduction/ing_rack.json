@@ -1,11 +1,11 @@
 {
   "dependencies": [
-    "andesite_alloy"
+    "straw"
   ],
   "tasks": {
-    "crafting_table": {
+    "spice_rack": {
       "type": "heracles:item",
-      "item": "minecraft:crafting_table",
+      "item": "cookingforblockheads:spice_rack",
       "amount": 1,
       "collection": "AUTOMATIC"
     }
@@ -30,26 +30,28 @@
       "text": ""
     },
     "description": [
-      "Congrats! You have made it through the introduction chapter. Good luck on the rest of your journey!"
+      "Since you're unable to make a crafting table, and thus a chest currently, how about a /d/Spice Rack/d/ instead? ",
+      "",
+      "You can store /d/9 Stacks/d/ per /d/Spice Rack/d/."
     ],
     "groups": {
       "Introduction": {
         "position": [
-          6,
-          226
+          85,
+          10
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:crafting_table",
+        "id": "cookingforblockheads:spice_rack",
         "count": 1
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Finally, a Proper Crafting Table"
+      "translate": "Spice It Up"
     }
   },
   "settings": {
