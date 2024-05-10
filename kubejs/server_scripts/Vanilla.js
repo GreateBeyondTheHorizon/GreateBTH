@@ -246,4 +246,88 @@ ServerEvents.recipes(event => {
 			event.recipes.createDeploying(emptyCompass, [emptyCompass, 'minecraft:glass_pane'])
 		]
 	).transitionalItem(emptyCompass).loops(1)
+
+	event.custom({
+		type: "farmersdelight:cutting",
+		ingredients: [
+			{
+				"item": "minecraft:hay_block"
+			}
+		],
+		result: [
+			{
+				"count": 9,
+				"item": "minecraft:wheat"
+			}
+		],
+		tool: {
+			"tag": "forge:tools/knives"
+		}
+	})
+
+	let woodMaterials = [
+		'oak',
+		'spruce',
+		'birch',
+		'jungle',
+		'acacia',
+		'dark_oak',
+		'mangrove',
+		'cherry',
+		'bamboo',
+		'crimson',
+		'warped',
+	]
+
+	woodMaterials.forEach(wood => {
+		event.remove('minecraft:' + wood + '_slab')
+		event.shapeless(
+			Item.of('minecraft:' + wood + '_slab', 2),
+			[
+				'minecraft:' + wood + '_planks',
+				'#forge:tools/saws'
+			]
+		)
+		event.custom({
+			type: "farmersdelight:cutting",
+			ingredients: [
+				{
+					"item": "minecraft:" + wood + '_planks'
+				}
+			],
+			result: [
+				{
+					"item": "minecraft:" + wood + "_slab"
+				}
+			],
+			tool: {
+				"tag": "forge:tools/axes"
+			}
+		})
+	})
+
+	event.remove('minecraft:bamboo_mosaic_slab')
+	event.shapeless(
+		Item.of('minecraft:bamboo_mosaic_slab', 2),
+		[
+			'minecraft:bamboo_mosaic',
+			'#forge:tools/saws'
+		]
+	)
+	event.custom({
+		type: "farmersdelight:cutting",
+		ingredients: [
+			{
+				"item": "minecraft:bamboo_masaic"
+			}
+		],
+		result: [
+			{
+				"item": "minecraft:bamboo_mosaic_slab"
+			}
+		],
+		tool: {
+			"tag": "forge:tools/axes"
+		}
+	})
 })

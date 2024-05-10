@@ -14,22 +14,4 @@ ServerEvents.recipes(event => {
 			P: '#minecraft:planks'
 		}
 	)
-
-	event.custom({
-		type: "farmersdelight:cutting",
-		ingredients: [
-			{
-				"item": "minecraft:hay_block"
-			}
-		],
-		result: [
-			{
-				"count": 9,
-				"item": "minecraft:wheat"
-			}
-		],
-		tool: {
-			"tag": "forge:tools/knives"
-		}
-	})
 })
