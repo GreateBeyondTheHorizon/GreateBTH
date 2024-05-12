@@ -1,47 +1,19 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "steam_compressor"
+  ],
   "tasks": {
     "09FA2B8FB442681B": {
       "type": "heracles:item",
       "item": "gtceu:primitive_blast_furnace",
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
-    },
-    "5C4D506EAAC3D265": {
-      "type": "heracles:item",
-      "item": "minecraft:lava_bucket",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     },
     "05BA055C293215C2": {
       "type": "heracles:item",
       "item": "gtceu:firebricks",
       "amount": 32,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {},
@@ -50,11 +22,7 @@
       "text": ""
     },
     "description": [
-      "<task task=\"09FA2B8FB442681B\" quest=\"70C4E8974BC7EADA\"/>",
-      "<task task=\"5C4D506EAAC3D265\" quest=\"70C4E8974BC7EADA\"/>",
-      "<task task=\"05BA055C293215C2\" quest=\"70C4E8974BC7EADA\"/>",
-      "<hr/>",
-      "The primitive blast furnace produces steel very slowly. Just make more than one! Remeber that GregTech multiblocks can share walls, which makes a second blast furnace less painful to make than the first. "
+      "The /d/Primitive Blast Furnace/d/ produces /d/Steel/d/ very slowly. Just make more than one! Remeber that GregTech multiblocks can share walls, which makes a second blast furnace less painful to make than the first. "
     ],
     "groups": {
       "Multiblocks": {
@@ -81,6 +49,6 @@
     "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "COMPLETED"
   }
 }

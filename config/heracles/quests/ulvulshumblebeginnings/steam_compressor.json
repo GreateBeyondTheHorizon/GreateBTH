@@ -1,21 +1,13 @@
 {
   "dependencies": [
-    "its_moldin_time"
+    "bronze_brick_casing"
   ],
   "tasks": {
     "steam_compressors": {
       "type": "heracles:item",
       "item": "#gbth:steam_compressors",
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {},
@@ -24,15 +16,15 @@
       "text": ""
     },
     "description": [
-      "<task task=\"0A58E7E68CA45387\" quest=\"41C8CC18ED91DC25\"/>",
-      "<hr/>",
-      "No silly, you cant just craft 9 ingots together to make a solid block of iron with your bare hands. You need to use a compressor for that."
+      "No silly, you cant just craft 9 ingots together to make a solid block of iron with your bare hands. You need to use a compressor for that.",
+      "",
+      "This quests unlocks the /d/Primitive Blast Furnace/d/ quest in the /d/Multiblocks/d/ section."
     ],
     "groups": {
       "ULV/ULS - Humble Beginnings": {
         "position": [
-          -112,
-          -16
+          -192,
+          -112
         ]
       }
     },

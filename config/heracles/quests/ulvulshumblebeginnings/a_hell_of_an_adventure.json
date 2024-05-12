@@ -4,13 +4,6 @@
   ],
   "tasks": {
     "2F55501FDA08CA0D": {
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "from": "minecraft:overworld",
       "to": "minecraft:the_nether",
       "title": "Go to the nether",
@@ -20,15 +13,7 @@
       "type": "heracles:item",
       "item": "minecraft:flint_and_steel",
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {},
