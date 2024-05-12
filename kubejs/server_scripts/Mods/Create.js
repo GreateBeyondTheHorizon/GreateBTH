@@ -1,25 +1,4 @@
 ServerEvents.recipes(event => {
-	var removed = [
-		'fluid_pipe',
-		'smart_fluid_pipe', 
-		'mechanical_pump',
-		'fluid_valve',
-		'water_wheel',
-		'large_water_wheel',
-		'andesite_casing',
-		'windmill_bearing',
-		'steam_engine',
-		'belt_connector',
-		'cogwheel',
-		'large_cogwheel',
-		'brass_hand',
-		'raw_zinc_block'
-	]
-
-	removed.forEach(item => {
-		event.remove({output: `create:${item}`})
-	})
-
 	event.recipes.createMixing('minecraft:turtle_helmet', [
 		'kubejs:unf_turtle_helmet',
 		Fluid.of('create:potion', 576, {Bottle:'REGULAR', Potion:'minecraft:water_breathing'})
@@ -233,4 +212,47 @@ ServerEvents.recipes(event => {
 			}
 		]
 	})
+
+	event.shapeless(
+		Item.of('create:andesite_alloy', 9),
+		[
+			'create:andesite_alloy_block'
+		]
+	)
+
+	event.shaped(
+		Item.of('create:andesite_alloy'),
+		[
+			'AN',
+			'NA'
+		],
+		{
+			A: 'minecraft:andesite',
+			N: 'gtceu:bronze_nugget'
+		}
+	)
+
+	event.shaped(
+		Item.of('create:andesite_alloy'),
+		[
+			'NA',
+			'AN'
+		],
+		{
+			A: 'minecraft:andesite',
+			N: 'gtceu:bronze_nugget'
+		}
+	)
+
+	event.shaped(
+		Item.of('create:hand_crank'),
+		[
+			'TTT',
+			'  A'
+		],
+		{
+			A: 'create:andesite_alloy',
+			T: 'gtceu:treated_wood_planks'
+		}
+	)
 })

@@ -1,78 +1,36 @@
 ServerEvents.tags('item', event => {
 	event.add('forge:lenses', 'kubejs:certus_quartz_lens')
 	event.add('forge:lenses/certus', 'kubejs:certus_quartz_lens')
-	event.add('kubejs:fireproof_wood', [
-		'minecraft:warped_stem',
-		'minecraft:stripped_warped_stem',
-		'minecraft:stripped_warped_hyphae',
-		'minecraft:warped_hyphae',
-		'minecraft:crimson_stem',
-		'minecraft:stripped_crimson_stem',
-		'minecraft:stripped_crimson_hyphae',
-		'minecraft:crimson_hyphae',
-	])
 	event.add('forge:armors', /ad_astra:jet(.*)/)
 	event.add('forge:armors', /ad_astra:(.*)space(.*)/)
 
-	event.add('gbth:forms', [
-		'kubejs:block_wooden_form',
-		'kubejs:nugget_wooden_form',
-		'gtceu:brick_wooden_form'
-	])
+	event.add('kubejs:fireproof_wood', ['minecraft:warped_stem', 'minecraft:stripped_warped_stem', 'minecraft:stripped_warped_hyphae', 'minecraft:warped_hyphae', 'minecraft:crimson_stem', 'minecraft:stripped_crimson_stem', 'minecraft:stripped_crimson_hyphae', 'minecraft:crimson_hyphae'])
 
-	event.add('gbth:blooms', [
-		'kubejs:copper_bloom', 
-		'kubejs:tin_bloom',
-		'kubejs:bronze_bloom', 
-		'kubejs:wrought_iron_bloom'
-	])
+	event.add('gbth:forms', ['kubejs:block_wooden_form', 'kubejs:nugget_wooden_form', 'gtceu:brick_wooden_form'])
+	event.add('gbth:blooms', ['kubejs:copper_bloom', 'kubejs:tin_bloom','kubejs:bronze_bloom', 'kubejs:wrought_iron_bloom'])
+	event.add('gbth:lp_steam_boilers', ['gtceu:lp_steam_solid_boiler', 'gtceu:lp_steam_liquid_boiler', 'gtceu:lp_steam_solar_boiler'])
+	event.add('gbth:steam_furnaces', ['gtceu:lp_steam_furnace', 'gtceu:hp_steam_furnace'])
+	event.add('gbth:steam_extractors', ['gtceu:lp_steam_extractor', 'gtceu:hp_steam_extractor'])
+	event.add('gbth:steam_macerators', ['gtceu:lp_steam_macerator', 'gtceu:hp_steam_macerator'])
+	event.add('gbth:steam_forge_hammers', ['gtceu:lp_steam_forge_hammer', 'gtceu:hp_steam_forge_hammer'])
+	event.add('gbth:steam_alloy_smelters', ['gtceu:lp_steam_alloy_smelter', 'gtceu:hp_steam_alloy_smelter'])
+	event.add('gbth:steam_compressors', ['gtceu:lp_steam_compressor', 'gtceu:hp_steam_compressor'])
+	event.add('gbth:wrought_iron_tools', ['gtceu:wrought_iron_wrench', 'gtceu:wrought_iron_hammer', 'gtceu:wrought_iron_file', 'gtceu:wrought_iron_saw', 'gtceu:wrought_iron_screwdriver'])
 
-	event.add('c:black_dyes', [
-		'#forge:dyes/black'
-	])
-	event.add('c:blue_dyes', [
-		'#forge:dyes/blue'
-	])
-	event.add('c:brown_dyes', [
-		'#forge:dyes/brown'
-	])
-	event.add('c:cyan_dyes', [
-		'#forge:dyes/cyan'
-	])
-	event.add('c:gray_dyes', [
-		'#forge:dyes/gray'
-	])
-	event.add('c:green_dyes', [
-		'#forge:dyes/green'
-	])
-	event.add('c:light_blue_dyes',[
-		 '#forge:dyes/light_blue'
-	])
-	event.add('c:light_gray_dyes',[
-		 '#forge:dyes/light_gray' 
-	])
-	event.add('c:lime_dyes', [
-		'#forge:dyes/lime'
-	])
-	event.add('c:magenta_dyes', [
-		'#forge:dyes/magenta'
-	])
-	event.add('c:orange_dyes', [
-		'#forge:dyes/orange'
-	])
-	event.add('c:pink_dyes', [
-		'#forge:dyes/pink'
-	])
-	event.add('c:purple_dyes', [
-		'#forge:dyes/purple'
-	])
-	event.add('c:red_dyes', [
-		'#forge:dyes/red'
-	])
-	event.add('c:white_dyes', [
-		'#forge:dyes/white'
-	])
-	event.add('c:yellow_dyes', [
-		'#forge:dyes/yellow'
-	])
+	event.add('c:black_dyes', ['#forge:dyes/black'])
+	event.add('c:blue_dyes', ['#forge:dyes/blue'])
+	event.add('c:brown_dyes', ['#forge:dyes/brown'])
+	event.add('c:cyan_dyes', ['#forge:dyes/cyan'])
+	event.add('c:gray_dyes', ['#forge:dyes/gray'])
+	event.add('c:green_dyes', ['#forge:dyes/green'])
+	event.add('c:light_blue_dyes', ['#forge:dyes/light_blue'])
+	event.add('c:light_gray_dyes', ['#forge:dyes/light_gray' ])
+	event.add('c:lime_dyes', ['#forge:dyes/lime'])
+	event.add('c:magenta_dyes', ['#forge:dyes/magenta'])
+	event.add('c:orange_dyes', ['#forge:dyes/orange'])
+	event.add('c:pink_dyes', ['#forge:dyes/pink'])
+	event.add('c:purple_dyes', ['#forge:dyes/purple'])
+	event.add('c:red_dyes', ['#forge:dyes/red'])
+	event.add('c:white_dyes', ['#forge:dyes/white'])
+	event.add('c:yellow_dyes', ['#forge:dyes/yellow'])
 })
