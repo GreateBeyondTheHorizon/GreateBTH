@@ -17,11 +17,11 @@ ServerEvents.recipes(event => {
         let material = berry.substring(berry.indexOf(':') + 1, berry.indexOf('_'))
 
         if(material === 'iron' || material === 'gold') {
-            event.campfireCooking('minecraft:' + material + '_nugget', berry).cookingTime(200)
+            event.campfireCooking('minecraft:' + material + '_nugget', berry).cookingTime(300)
         } else if(material === 'aluminum') {
-            event.campfireCooking('gtceu:aluminium_nugget', berry).cookingTime(200)
+            event.campfireCooking('gtceu:aluminium_nugget', berry).cookingTime(300)
         } else {
-            event.campfireCooking('gtceu:' + material + '_nugget', berry).cookingTime(200)
+            event.campfireCooking('gtceu:' + material + '_nugget', berry).cookingTime(300)
         }
     })
 })

@@ -10,16 +10,23 @@ ServerEvents.recipes(event => {
 	// 		/(.*)a(.*):(.*)_axe/,
 	// 	],
 	// })
-	
-	// We don't want players to be able to teleport items, so remove ender chests
-	event.remove({ output: 'minecraft:ender_chest' })
 
-	event.remove({id: 'minecraft:raw_iron_block'})
-	event.remove({id: 'minecraft:raw_gold_block'})
-	event.remove({id: 'minecraft:raw_copper_block'})
+	event.campfireCooking('minecraft:charcoal', '#minecraft:logs').cookingTime(300).xp(0.15)
+	event.campfireCooking('minecraft:coal', 'gtceu:raw_coal').cookingTime(300).xp(0.6)
+	event.campfireCooking('minecraft:brick', 'gtceu:compressed_clay').cookingTime(300).xp(0.3)
+	event.campfireCooking('minecraft:stone', 'minecraft:cobblestone').cookingTime(300).xp(0.1)
+	event.campfireCooking('minecraft:smooth_stone', 'minecraft:stone').cookingTime(300).xp(0.1)
+
+
+	event.replaceInput('gtceu:shaped/piston_iron', 'gtceu:small_iron_gear', 'gtceu:small_bronze_gear')
+
+	//Temp
+	event.remove({type: 'minecraft:smelting', output: 'gtceu:wrought_iron_nugget'})
+	event.smelting('minecraft:iron_nugget', 'gtceu:wrought_iron_nugget')
+	event.campfireCooking('minecraft:iron_nugget', 'gtceu:wrought_iron_nugget').cookingTime(300)
+	
 
 	// Netherite ingot
-	event.remove({ output: 'minecraft:netherite_ingot' })
 	event.recipes.createMixing('minecraft:netherite_ingot', [
 		'minecraft:netherite_scrap',
 		'minecraft:netherite_scrap',
@@ -51,7 +58,6 @@ ServerEvents.recipes(event => {
 	})
 
 	// Bamboo planks
-	event.remove({ id: 'minecraft:bamboo_planks' })
 	event.shaped('minecraft:bamboo_planks',
 		[
 			'L'
@@ -72,7 +78,6 @@ ServerEvents.recipes(event => {
 	)
 
 	// Chest
-	event.remove({ output: 'minecraft:chest' })
 	event.shaped(
 		Item.of('minecraft:chest'),
 		[
@@ -88,7 +93,6 @@ ServerEvents.recipes(event => {
 	)
 
 	// Barrel
-	event.remove({ output: 'minecraft:barrel' })
 	event.shaped('minecraft:barrel',
 		[
 			'PPP',
@@ -105,7 +109,6 @@ ServerEvents.recipes(event => {
 	//// Crafting stations ////
 
 	// Stonecutter
-	event.remove({ output: 'minecraft:stonecutter' })
 	event.shaped('minecraft:stonecutter',
 		[
 			'D W',
@@ -123,7 +126,6 @@ ServerEvents.recipes(event => {
 	)
 
 	// Smithing table
-	event.remove({ output: 'minecraft:smithing_table' })
 	event.shaped('minecraft:smithing_table',
 		[
 			'PPP',
@@ -140,7 +142,6 @@ ServerEvents.recipes(event => {
 	)
 
 	// Loom
-	event.remove({ output: 'minecraft:loom' })
 	event.shaped('minecraft:loom',
 		[
 			'WRR',
@@ -156,7 +157,6 @@ ServerEvents.recipes(event => {
 	)
 
 	// Composter
-	event.remove({ output: 'minecraft:composter' })
 	event.shaped('minecraft:composter',
 		[
 			'PWP',
@@ -170,7 +170,6 @@ ServerEvents.recipes(event => {
 	)
 
 	// Lecturn
-	event.remove({ output: 'minecraft:lectern' })
 	event.shaped('minecraft:lectern',
 		[
 			'PPP',
@@ -188,7 +187,6 @@ ServerEvents.recipes(event => {
 	)
 
 	// Cartography table
-	event.remove({ output: 'minecraft:cartography_table' })
 	event.shaped('minecraft:cartography_table',
 		[
 			'GRR',
@@ -206,7 +204,6 @@ ServerEvents.recipes(event => {
 	)
 
 	// Grindstone
-	event.remove({ output: 'minecraft:grindstone' })
 	event.shaped('minecraft:grindstone',
 		[
 			'RSR',
@@ -235,7 +232,6 @@ ServerEvents.recipes(event => {
 			B: 'gtceu:tin_ingot'
 		}
 	)
-	event.remove({ output: 'minecraft:compass' })
 	event.recipes.createSequencedAssembly(
 		['minecraft:compass'],
 		emptyCompass,
@@ -306,7 +302,6 @@ ServerEvents.recipes(event => {
 		})
 	})
 
-	event.remove('minecraft:bamboo_mosaic_slab')
 	event.shapeless(
 		Item.of('minecraft:bamboo_mosaic_slab', 2),
 		[
@@ -330,4 +325,86 @@ ServerEvents.recipes(event => {
 			"tag": "forge:tools/axes"
 		}
 	})
+
+	event.shaped(
+		Item.of('minecraft:campfire'),
+			[
+				'CS',
+				'L ',
+			],
+			{
+				C:'farmersdelight:canvas',
+				S:'minecraft:string',
+				L:'#minecraft:logs'
+			}
+	)
+
+	event.shapeless(
+		Item.of('minecraft:clay'),
+			[
+				'3x gtceu:compressed_clay',
+				'kubejs:block_wooden_form'
+			]
+	).keepIngredient('kubejs:block_wooden_form')
+
+
+	event.shapeless(
+		Item.of('minecraft:mud', 3),
+			[
+				Item.of('ceramicbucket:ceramic_bucket', '{Fluid:{Amount:1000,FluidName:"minecraft:water"}}').strongNBT(),
+				'3x minecraft:dirt'
+			]
+	)
+
+	event.shapeless(
+		Item.of('minecraft:packed_mud', 2),
+		[
+			'2x farmersdelight:straw',
+			'minecraft:mud'
+		]
+	)
+
+	event.shapeless(
+		Item.of('minecraft:packed_mud', 4),
+		[
+			'2x minecraft:wheat',
+			'minecraft:mud'
+		]
+	)
+
+	event.shaped(
+		Item.of('minecraft:mud_bricks'),
+			[
+				'AA',
+				'AA'
+			],
+			{
+				A:'kubejs:mud_brick',
+			}
+	)
+
+	event.shaped(
+		Item.of('minecraft:crafting_table'),
+		[
+			'AA',
+			'LL'
+		],
+		{
+			A: 'create:andesite_alloy',
+			L: '#minecraft:logs'
+		}
+	)
+
+	event.shaped(
+		Item.of('minecraft:bricks', 2),
+		[
+			'BBB',
+			'BWB',
+			'BBB'
+		],
+		{
+			W: Item.of('ceramicbucket:ceramic_bucket', '{Fluid:{Amount:1000,FluidName:"minecraft:water"}}').strongNBT(),
+			B: 'minecraft:brick'
+		}
+	)
 })

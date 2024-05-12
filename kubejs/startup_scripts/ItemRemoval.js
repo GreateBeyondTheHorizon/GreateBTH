@@ -49,7 +49,8 @@ removeNamespaceItems('create', [
 	/crushed_raw_(.*)/,
 	'electron_tube',
 	'zinc_ingot',
-	'zinc_nugget'
+	'zinc_nugget',
+	'copper_nugget'
 ])
 
 // Construction Wand
