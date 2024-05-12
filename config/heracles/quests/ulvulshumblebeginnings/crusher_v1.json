@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "steam_boilers"
+    "bronze_brick_casing"
   ],
   "tasks": {
     "536181BB0DB13E4D": {
@@ -19,15 +19,7 @@
         ]
       },
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {},

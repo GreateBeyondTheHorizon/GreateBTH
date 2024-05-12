@@ -1,21 +1,19 @@
 {
   "dependencies": [
-    "another_one_bites_the_dust"
+    "pump_it_up"
   ],
   "tasks": {
-    "7C56BB277B8BBF3B": {
+    "wall": {
       "type": "heracles:item",
-      "item": "gtceu:bronze_dust",
-      "amount": 16,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "item": "gtceu:wood_wall",
+      "amount": 25,
+      "collection": "AUTOMATIC"
+    },
+    "controller": {
+      "type": "heracles:item",
+      "item": "gtceu:wooden_multiblock_tank",
+      "amount": 1,
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {},
@@ -24,28 +22,28 @@
       "text": ""
     },
     "description": [
-      "<task task=\"7C56BB277B8BBF3B\" quest=\"16C18DBBDBE10F36\"/>",
-      "<hr/>",
-      "Add copper and tin dusts together in a crafting table to make bronze dust. It's that simple."
+      "In order to store the water you are now pumping up, invest in a /d/Wooden Multiblock Tank/d/.",
+      "",
+      "You can pump out of the /d/Controller/d/, or optionally any /d/Valves/d/."
     ],
     "groups": {
       "ULV/ULS - Humble Beginnings": {
         "position": [
-          -48,
-          -176
+          -112,
+          -148
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "gtceu:bronze_dust",
+        "id": "gtceu:wooden_multiblock_tank",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Mix! That! Dust!"
+      "translate": "Storing Fluids"
     }
   },
   "settings": {

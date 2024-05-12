@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "steam_boilers"
+    "bronze_brick_casing"
   ],
   "tasks": {
     "524F54D566419CAF": {
@@ -16,15 +16,7 @@
       "text": ""
     },
     "description": [
-      "<task task=\"524F54D566419CAF\" quest=\"5F2B1D9B77FB1E03\"/>",
-      "<hr/>",
-      "",
-      "<component>{\"text\":\"This is a link\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"70C4E8974BC7EADA\"}}</component>",
-      "",
-      "",
-      "",
-      "",
-      "[\"To make steel, you'll need to construct a \", { \"text\": \"primitive blast furnace\", \"underlined\": true, \"color\": \"light_purple\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"70C4E8974BC7EADA\" } }, \".\"]"
+      "To make steel, you'll need to construct a /d/Primitive Blast Furnace/d/."
     ],
     "groups": {
       "ULV/ULS - Humble Beginnings": {

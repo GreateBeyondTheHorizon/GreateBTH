@@ -1,7 +1,6 @@
 {
   "dependencies": [
-    "pump_it_up",
-    "bronze_brick_casing"
+    "pump_it_up"
   ],
   "tasks": {
     "2127715A3FA7DD66": {
@@ -38,25 +37,23 @@
       "text": ""
     },
     "description": [
-      "<task task=\"2127715A3FA7DD66\" quest=\"5BBE7DCE67C99A3D\"/>",
-      "<hr/>",
-      "You have three choices for creating steam: Solid Boilers, Liquid Boilers, and Solar Boilers. ",
+      "You have three choices for creating steam: /d/Solid Boilers/d/, /d/Liquid Boilers/d/, and /d/Solar Boilers/d/. ",
       "",
-      "**Solid Boilers** use solid fuels, like coal or wood. ",
-      "**Liquid Boilers** use liquid fuels, like lava or creosote. ",
-      "**Solar Boilers** use the power of the sun.",
-      "<br/>",
-      "There are also two variants of each boiler type: low pressure and high pressure. High pressure boilers produce more steam and consume more fuel than low pressure boilers, but they are more expensive to make.",
-      "<br/>",
-      "Alongside fuel, you must provide water to your boiler, or I will play \"Me and the Birds by Duster\" on full blast.",
-      "<br/>",
+      "/d/Solid Boilers/d/ use solid fuels, like coal or wood. ",
+      "/d/Liquid Boilers/d/ use liquid fuels, like lava or creosote. ",
+      "/d/Solar Boilers/d/ use the power of the sun.",
+      "",
+      "There are also two variants of each boiler type: /d/Low Pressure/d/ and /d/High Pressure/d/. /d/High Pressure/d/ boilers produce more steam and consume more fuel than /d/Low Pressure/d/ boilers, but they are more expensive to make.",
+      "",
+      "Alongside /d/Fuel/d/, you must provide /d/Water/d/ to your boiler, or I will play \"Me and the Birds by Duster\" on full blast.",
+      "",
       "Machines require a constant supply of steam while running or else the process will stop and the progress of the recipe will be lost."
     ],
     "groups": {
       "ULV/ULS - Humble Beginnings": {
         "position": [
-          -112,
-          -112
+          -56,
+          -144
         ]
       }
     },

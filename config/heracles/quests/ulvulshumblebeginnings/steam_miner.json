@@ -1,21 +1,13 @@
 {
   "dependencies": [
-    "steam_boilers"
+    "bronze_brick_casing"
   ],
   "tasks": {
     "3A5170EDCF7B97CF": {
       "type": "heracles:item",
       "item": "gtceu:steam_miner",
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {},
@@ -31,7 +23,7 @@
     "groups": {
       "ULV/ULS - Humble Beginnings": {
         "position": [
-          -192,
+          -56,
           -112
         ]
       }
