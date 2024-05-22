@@ -48,9 +48,18 @@ removeNamespaceItems('create', [
 	/(.*)_sheet/, // Remove all sheets in favor of GT plates
 	/crushed_raw_(.*)/,
 	'electron_tube',
+	'zinc_ore',
+	'deepslate_zinc_ore',
+	'raw_zinc',
+	'raw_zinc_block',
+	'zinc_block',
 	'zinc_ingot',
 	'zinc_nugget',
-	'copper_nugget'
+	'copper_nugget',
+	'brass_ingot',
+	'brass_nugget',
+	'brass_block',
+	'dough'
 ])
 
 // Construction Wand
@@ -136,7 +145,11 @@ removeNamespaceItems('ad_astra', [
 	'iron_rod',
 	'compressor',
 	'etrionic_blast_furnace',
-	'coal_generator'
+	'coal_generator',
+	'moon_iron_ore',
+	'mars_iron_ore',
+	'mercury_iron_ore',
+	'glacio_iron_ore'
 ])
 
 //Farmers Delight
@@ -172,4 +185,9 @@ removeNamespaceItems('aquaculture', [
 
 removeNamespaceItems('ae2', [
 	'vibration_chamber'
+])
+
+removeNamespaceItems('gtceu', [
+	'lp_steam_solar_boiler',
+	'hp_steam_solar_boiler'
 ])

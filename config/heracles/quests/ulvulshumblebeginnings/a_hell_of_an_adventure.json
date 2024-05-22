@@ -16,15 +16,26 @@
       "collection": "AUTOMATIC"
     }
   },
-  "rewards": {},
+  "rewards": {
+    "lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 13882323,
+          "Loot": "lootbags:kjs/66ldxioecfcrske6m3a446300",
+          "Name": "Lootbag (ULV Age)"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
     "description": [
-      "<task task=\"2F55501FDA08CA0D\" quest=\"0D9DE4E42D6778A9\"/>",
-      "<task task=\"132BA49F0AB67A10\" quest=\"0D9DE4E42D6778A9\"/>",
-      "<hr/>",
       "Get yourself a flint and steel and head to the Nether. You will find many new resources there, including quartz, which is an important component in crafting your first circuit."
     ],
     "groups": {

@@ -74,18 +74,26 @@
       }
     }
   },
-  "rewards": {},
+  "rewards": {
+    "lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 13882323,
+          "Loot": "lootbags:kjs/66ldxioecfcrske6m3a446300",
+          "Name": "Lootbag (ULV Age)"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
     "description": [
-      "<task task=\"3C55135313E355D8\" quest=\"6BEE2F1701C8B70D\"/>",
-      "<task task=\"3D12BF8F2C59D052\" quest=\"6BEE2F1701C8B70D\"/>",
-      "<task task=\"2E5A3536DCC520CF\" quest=\"6BEE2F1701C8B70D\"/>",
-      "<task task=\"2E14AE6CA11471FF\" quest=\"6BEE2F1701C8B70D\"/>",
-      "<task task=\"0034C88F9C227326\" quest=\"6BEE2F1701C8B70D\"/>",
-      "<hr/>",
       "To polish the rose quartz, put it in either hand and put sandpaper in the other"
     ],
     "groups": {

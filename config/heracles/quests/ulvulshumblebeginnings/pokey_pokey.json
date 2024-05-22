@@ -18,14 +18,26 @@
       }
     }
   },
-  "rewards": {},
+  "rewards": {
+    "lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 13882323,
+          "Loot": "lootbags:kjs/66ldxioecfcrske6m3a446300",
+          "Name": "Lootbag (ULV Age)"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
     "description": [
-      "<task task=\"106BF1877C826D19\" quest=\"0F9B668F0719D7EA\"/>",
-      "<hr/>",
       "The deployer, where to start. It's essentially a hands-off right clicking machine, it can place blocks and are the main machines involved with sequenced assembly."
     ],
     "groups": {

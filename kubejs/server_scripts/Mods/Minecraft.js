@@ -11,11 +11,35 @@ ServerEvents.recipes(event => {
 	// 	],
 	// })
 
-	event.campfireCooking('minecraft:charcoal', '#minecraft:logs').cookingTime(300).xp(0.15)
+	event.remove({id: 'minecraft:bamboo_mosaic_slab'})
+	event.remove({id: 'minecraft:bamboo_planks'})
+	event.remove({id: 'minecraft:barrel'})
+	event.remove({id: 'minecraft:blast_furnace'})
+	event.remove({id: 'minecraft:bone_meal_from_bone_block'})
+	event.remove({id: 'minecraft:bone_meal'})
+	event.remove({id: 'minecraft:cartography_table'})
+	event.remove({id: 'minecraft:chest'})
+	event.remove({id: 'gtceu:shaped/compass'})
+	event.remove({id: 'minecraft:composter'})
+	event.remove({id: 'minecraft:ender_chest'})
+	event.remove({id: 'minecraft:furnace'})
+	event.remove({id: 'minecraft:grindstone'})
+	event.remove({id: /minecraft:iron_ingot_from_(.*)_iron(.*)/})
+	event.remove({id: 'minecraft:lectern'})
+	event.remove({id: 'minecraft:loom'})
+	event.remove({id: 'minecraft:mud_bricks'})
+	event.remove({id: 'minecraft:netherite_ingot'})
+	event.remove({id: 'minecraft:packed_mud'})
+	event.remove({id: /minecraft:raw_(.*)_block/})
+	event.remove({id: 'minecraft:smithing_table'})
+	event.remove({id: 'minecraft:smoker'})
+	event.remove({id: 'minecraft:stonecutter'})
+
 	event.campfireCooking('minecraft:coal', 'gtceu:raw_coal').cookingTime(300).xp(0.6)
 	event.campfireCooking('minecraft:brick', 'gtceu:compressed_clay').cookingTime(300).xp(0.3)
 	event.campfireCooking('minecraft:stone', 'minecraft:cobblestone').cookingTime(300).xp(0.1)
 	event.campfireCooking('minecraft:smooth_stone', 'minecraft:stone').cookingTime(300).xp(0.1)
+	event.campfireCooking('minecraft:redstone', 'gtceu:raw_redstone').cookingTime(300).xp(0.9)
 
 
 	event.replaceInput('gtceu:shaped/piston_iron', 'gtceu:small_iron_gear', 'gtceu:small_bronze_gear')
@@ -101,7 +125,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 			P: '#forge:plates/wood',
-			I: '#forge:rods/iron',
+			I: 'gtceu:long_wood_rod',
 			R: '#forge:frames/wood',
 		}
 	)
@@ -276,14 +300,6 @@ ServerEvents.recipes(event => {
 	]
 
 	woodMaterials.forEach(wood => {
-		event.remove('minecraft:' + wood + '_slab')
-		event.shapeless(
-			Item.of('minecraft:' + wood + '_slab', 2),
-			[
-				'minecraft:' + wood + '_planks',
-				'#forge:tools/saws'
-			]
-		)
 		event.custom({
 			type: "farmersdelight:cutting",
 			ingredients: [
@@ -313,7 +329,7 @@ ServerEvents.recipes(event => {
 		type: "farmersdelight:cutting",
 		ingredients: [
 			{
-				"item": "minecraft:bamboo_masaic"
+				"item": "minecraft:bamboo_mosaic"
 			}
 		],
 		result: [
@@ -406,5 +422,27 @@ ServerEvents.recipes(event => {
 			W: Item.of('ceramicbucket:ceramic_bucket', '{Fluid:{Amount:1000,FluidName:"minecraft:water"}}').strongNBT(),
 			B: 'minecraft:brick'
 		}
+	)
+
+	event.shaped(
+		Item.of('minecraft:paper', 2),
+		[
+			' M ',
+			'CCC',
+			' W '
+		],
+		{
+			M: '#forge:tools/mallets',
+			C: 'gtceu:paper_dust',
+			W: Item.of('ceramicbucket:ceramic_bucket', '{Fluid:{Amount:1000,FluidName:"minecraft:water"}}').strongNBT()
+		}
+	)
+
+	event.shapeless(
+		Item.of('minecraft:slime_ball'),
+		[
+			'farmersdelight:wheat_dough',
+			'#forge:dyes/lime'
+		]
 	)
 })

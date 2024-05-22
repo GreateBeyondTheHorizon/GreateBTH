@@ -8,14 +8,10 @@ ServerEvents.tags('item', event => {
 
 	event.add('gbth:forms', ['kubejs:block_wooden_form', 'kubejs:nugget_wooden_form', 'gtceu:brick_wooden_form'])
 	event.add('gbth:blooms', ['kubejs:copper_bloom', 'kubejs:tin_bloom','kubejs:bronze_bloom', 'kubejs:wrought_iron_bloom'])
-	event.add('gbth:lp_steam_boilers', ['gtceu:lp_steam_solid_boiler', 'gtceu:lp_steam_liquid_boiler', 'gtceu:lp_steam_solar_boiler'])
-	event.add('gbth:steam_furnaces', ['gtceu:lp_steam_furnace', 'gtceu:hp_steam_furnace'])
-	event.add('gbth:steam_extractors', ['gtceu:lp_steam_extractor', 'gtceu:hp_steam_extractor'])
-	event.add('gbth:steam_macerators', ['gtceu:lp_steam_macerator', 'gtceu:hp_steam_macerator'])
-	event.add('gbth:steam_forge_hammers', ['gtceu:lp_steam_forge_hammer', 'gtceu:hp_steam_forge_hammer'])
-	event.add('gbth:steam_alloy_smelters', ['gtceu:lp_steam_alloy_smelter', 'gtceu:hp_steam_alloy_smelter'])
-	event.add('gbth:steam_compressors', ['gtceu:lp_steam_compressor', 'gtceu:hp_steam_compressor'])
-	event.add('gbth:wrought_iron_tools', ['gtceu:wrought_iron_wrench', 'gtceu:wrought_iron_hammer', 'gtceu:wrought_iron_file', 'gtceu:wrought_iron_saw', 'gtceu:wrought_iron_screwdriver'])
+	event.add('gbth:copper_bloom_inputs', ['#forge:raw_materials/copper', '#forge:raw_materials/chalcopyrite', '#forge:raw_materials/tetrahedrite', '#forge:raw_materials/bornite', '#forge:raw_materials/chalcocite', '#forge:raw_materials/malachite'])
+	event.add('gbth:tin_bloom_inputs', ['#forge:raw_materials/tin', '#forge:raw_materials/cassiterite', '#forge:raw_materials/cassiterite_sand'])
+	event.add('gbth:wrought_iron_bloom_inputs', ['#forge:raw_materials/iron', '#forge:raw_materials/pyrite', '#forge:raw_materials/magnetite', '#forge:raw_materials/hematite', '#forge:raw_materials/goethite', '#forge:raw_materials/yellow_limonite', '#forge:raw_materials/basaltic_mineral_sand', '#forge:raw_materials/granitic_mineral_sand'])
+	event.add('gbth:sandpaper_base', ['create:sand_paper', 'create:red_sand_paper'])
 
 	event.add('c:black_dyes', ['#forge:dyes/black'])
 	event.add('c:blue_dyes', ['#forge:dyes/blue'])
@@ -33,4 +29,8 @@ ServerEvents.tags('item', event => {
 	event.add('c:red_dyes', ['#forge:dyes/red'])
 	event.add('c:white_dyes', ['#forge:dyes/white'])
 	event.add('c:yellow_dyes', ['#forge:dyes/yellow'])
+
+	event.remove('create:sandpaper', ['create:sand_paper', 'create:red_sand_paper'])
+	
+	event.remove('minecraft:planks', 'gtceu:treated_wood_planks')
 })

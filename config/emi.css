@@ -384,12 +384,12 @@
 	/**
 	 * Cheat in one of an item into the inventory.
 	 */
-	cheat-one-to-inventory: "ctrl key.mouse.right";
+	cheat-one-to-inventory: "shift key.mouse.right";
 
 	/**
 	 * Cheat in a stack of an item into the inventory.
 	 */
-	cheat-stack-to-inventory: "ctrl key.mouse.left";
+	cheat-stack-to-inventory: "shift key.mouse.left";
 
 	/**
 	 * Cheat in one of an item into the cursor.
@@ -428,7 +428,7 @@
 	 * Whether development functions should be enabled. Not recommended for general
 	 * play.
 	 */
-	dev-mode: true;
+	dev-mode: false;
 
 	/**
 	 * Whether editing the index is enabled

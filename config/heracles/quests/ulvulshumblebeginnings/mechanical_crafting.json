@@ -18,14 +18,26 @@
       }
     }
   },
-  "rewards": {},
+  "rewards": {
+    "lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 13882323,
+          "Loot": "lootbags:kjs/66ldxioecfcrske6m3a446300",
+          "Name": "Lootbag (ULV Age)"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
     "description": [
-      "<task task=\"7832120911FCB2B1\" quest=\"7C0B1306A2275FEE\"/>",
-      "<hr/>",
       "Enjoy not dying? Make a bunch of mechanical crafters and to craft some armour."
     ],
     "groups": {

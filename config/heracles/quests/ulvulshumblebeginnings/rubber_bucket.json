@@ -18,14 +18,26 @@
       }
     }
   },
-  "rewards": {},
+  "rewards": {
+    "lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 13882323,
+          "Loot": "lootbags:kjs/66ldxioecfcrske6m3a446300",
+          "Name": "Lootbag (ULV Age)"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
     "description": [
-      "<task task=\"1A7E28941D479212\" quest=\"1DA36C305C53D0E8\"/>",
-      "<hr/>",
       "Rubber insulates wires and allows you to make the plunger and a better soft mallet."
     ],
     "groups": {

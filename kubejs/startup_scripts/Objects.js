@@ -12,18 +12,18 @@ global.Quality = {
 //// Mods ////
 
 global.Greate = {
-	Tiers: {
-		Andesite: 'andesite_alloy',
-		Steel: 'steel',
-		Aluminium: 'aluminium',
-		StainlessSteel: 'stainless_steel',
-		Titanium: 'titanium',
-		TungstenSteel: 'tungsten_steel',
-		Palladium: 'rhodium_plated_palladium',
-		Naquadah: 'naquadah_alloy',
-		Darmstadtium: 'darmstadtium',
-		Neutronium: 'neutronium',
-	}
+	Tiers: [
+		'andesite_alloy',
+		'steel',
+		'aluminium',
+		'stainless_steel',
+		'titanium',
+		'tungsten_steel',
+		'rhodium_plated_palladium',
+		'naquadah_alloy',
+		'darmstadtium',
+		'neutronium'
+	]
 }
 
 global.AE2 = {

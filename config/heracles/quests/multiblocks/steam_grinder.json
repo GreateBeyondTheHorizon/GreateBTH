@@ -1,0 +1,72 @@
+{
+  "dependencies": [
+    "steel_ingot"
+  ],
+  "tasks": {
+    "input_bus": {
+      "type": "heracles:item",
+      "item": "gtceu:steam_input_bus",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "controller": {
+      "type": "heracles:item",
+      "item": "gtceu:steam_grinder",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "output_bus": {
+      "type": "heracles:item",
+      "item": "gtceu:steam_output_bus",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "input_hatch": {
+      "type": "heracles:item",
+      "item": "gtceu:steam_input_hatch",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "machine_casing": {
+      "type": "heracles:item",
+      "item": "gtceu:steam_machine_casing",
+      "amount": 22,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Multiblocks": {
+        "position": [
+          -79,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:steam_grinder",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Steam Grinder"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

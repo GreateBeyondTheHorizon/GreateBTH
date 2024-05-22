@@ -1,5 +1,6 @@
 {
   "dependencies": [
+    "crusher_v1",
     "steam_compressor"
   ],
   "tasks": {
@@ -49,6 +50,6 @@
     "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
-    "hidden": "COMPLETED"
+    "hidden": "LOCKED"
   }
 }

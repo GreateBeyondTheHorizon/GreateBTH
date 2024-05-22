@@ -3,33 +3,33 @@
     "bronze_brick_casing"
   ],
   "tasks": {
-    "721610F74D7E07A3": {
+    "alloy_smelter": {
       "type": "heracles:item",
-      "item": "#gbth:steam_alloy_smelters",
-      "nbt": {
-        "items": [
-          {
-            "Count": 1,
-            "id": "gtceu:lp_steam_alloy_smelter"
-          },
-          {
-            "Count": 1,
-            "id": "gtceu:hp_steam_alloy_smelter"
-          }
-        ]
-      },
+      "item": "gtceu:lp_steam_alloy_smelter",
       "amount": 1,
       "collection": "AUTOMATIC"
     }
   },
-  "rewards": {},
+  "rewards": {
+    "lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 13882323,
+          "Loot": "lootbags:kjs/66ldxioecfcrske6m3a446300",
+          "Name": "Lootbag (ULV Age)"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
     "description": [
-      "<task task=\"721610F74D7E07A3\" quest=\"3DFF65B08C971881\"/>",
-      "<hr/>",
       "Makes alloys at cheaper prices."
     ],
     "groups": {
@@ -41,7 +41,10 @@
       }
     },
     "icon": {
-      "item": "#gbth:steam_alloy_smelters",
+      "item": {
+        "id": "gtceu:lp_steam_alloy_smelter",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",

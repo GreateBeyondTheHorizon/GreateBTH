@@ -22,16 +22,13 @@
       "text": ""
     },
     "description": [
-      "<task task=\"4709AEDDB10EDB09\" quest=\"7013B83A848D32F0\"/>",
-      "<task task=\"6EDE5219978B1D4A\" quest=\"7013B83A848D32F0\"/>",
-      "<hr/>",
       "The coke oven Pyrolises fuel into better ones, as well as produces creosote oil, which is honestly a somewhat ok fuel later on and allows you to make treated wood."
     ],
     "groups": {
-      "ULV/ULS - Humble Beginnings": {
+      "Multiblocks": {
         "position": [
-          -112,
-          -224
+          -49,
+          -5
         ]
       }
     },

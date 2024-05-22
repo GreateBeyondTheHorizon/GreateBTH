@@ -10,14 +10,26 @@
       "collection": "AUTOMATIC"
     }
   },
-  "rewards": {},
+  "rewards": {
+    "lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 13882323,
+          "Loot": "lootbags:kjs/66ldxioecfcrske6m3a446300",
+          "Name": "Lootbag (ULV Age)"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
     "description": [
-      "<task task=\"380B71A64491B178\" quest=\"389976279B71DCD8\"/>",
-      "<hr/>",
       "The brass age. Made from zinc and copper into one, giving you access to some new tools. These will be great from your progress, unless you jump into one of them."
     ],
     "groups": {

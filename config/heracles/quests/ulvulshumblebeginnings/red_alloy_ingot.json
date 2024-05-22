@@ -18,14 +18,26 @@
       }
     }
   },
-  "rewards": {},
+  "rewards": {
+    "lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 13882323,
+          "Loot": "lootbags:kjs/66ldxioecfcrske6m3a446300",
+          "Name": "Lootbag (ULV Age)"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
     "description": [
-      "<task task=\"0BC06EB9CBFEA2B1\" quest=\"6162DB567597E8EF\"/>",
-      "<hr/>",
       "Made with &&mlove&&r 4 redstone and one copper"
     ],
     "groups": {

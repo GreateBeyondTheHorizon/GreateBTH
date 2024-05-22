@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "no_not_that_coke"
+    "gregtech_tools_and_you"
   ],
   "tasks": {
     "14DABD0A5524E40B": {
@@ -16,21 +16,34 @@
       "collection": "AUTOMATIC"
     }
   },
-  "rewards": {},
+  "rewards": {
+    "lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 13882323,
+          "Loot": "lootbags:kjs/66ldxioecfcrske6m3a446300",
+          "Name": "Lootbag (ULV Age)"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
     "description": [
-      "<task task=\"14DABD0A5524E40B\" quest=\"62932011FE13E3F5\"/>",
-      "<task task=\"32D4D08DF57700CD\" quest=\"62932011FE13E3F5\"/>",
-      "<hr/>",
-      "There are a few different fuels you can make with your new coke oven. I suggest you find a fuel that suits you and automate it."
+      "Time for another multiblock. Currently, you may only be able to afford one, but in the not-so-near future you'll need to scale this up.",
+      "",
+      "Check the /d/Multiblocks/d/ section or /d/EMI/d/ to see structure requirements for the /d/Coke Oven/d/."
     ],
     "groups": {
       "ULV/ULS - Humble Beginnings": {
         "position": [
-          -140,
+          -112,
           -224
         ]
       }
