@@ -1,19 +1,34 @@
 ServerEvents.recipes(event => {
+	event.remove({id: 'create:pressing/sugar_cane'})
+	event.remove({id: 'create:crafting/kinetics/cart_assembler' })
+	event.remove({id: 'create:crafting/kinetics/chute'})
+	event.remove({id: 'create:crafting/kinetics/hand_crank' })
+	event.remove({id: 'create:crafting/kinetics/hand_crank'})
+	event.remove({id: 'create:crafting/kinetics/hand_crank'})
+	event.remove({id: 'create:crafting/kinetics/large_water_wheel' })
+	event.remove({id: 'create:crafting/kinetics/mechanical_drill'})
+	event.remove({id: 'create:crafting/kinetics/steam_engine'})
+	event.remove({id: 'create:crafting/kinetics/water_wheel' })
+	event.remove({id: 'create:crafting/kinetics/windmill_bearing'})
+
+
+	event.replaceInput({id: 'create:crafting/kinetics/empty_blaze_burner'}, 'gtceu:iron_plate', 'gtceu:steel_plate')
+
+	//#region mixing
 	event.recipes.createMixing('minecraft:turtle_helmet', [
 		'kubejs:unf_turtle_helmet',
 		Fluid.of('create:potion', 576, {Bottle:'REGULAR', Potion:'minecraft:water_breathing'})
 	]).heated()
 
-	//mechanical belts
+	event.recipes.createMixing('create:rose_quartz', [
+		'4x minecraft:redstone',
+		'minecraft:quartz'
+	])
+
 	event.recipes.createMixing(Fluid.of('gtceu:rubber', 500), [
 		Item.of('gtceu:raw_rubber_dust', 8),
 		Item.of('gtceu:sulfur_dust', 1)
 	]).heated()
-
-	event.recipes.createFilling(Item.of('create:belt_connector', 1), [
-			'gtceu:steel_plate',
-			Fluid.of('gtceu:rubber', 250)
-	])
 
 
 	//#region SU gen
@@ -104,8 +119,6 @@ ServerEvents.recipes(event => {
 			D:'minecraft:copper_ingot',
 		}
 	)
-
-	event.replaceInput({ input: 'create:electron_tube' }, 'create:electron_tube', '#gtceu:circuits/ulv')
 	
 	// Copper Diving Helmet
 	event.shaped(
@@ -196,30 +209,6 @@ ServerEvents.recipes(event => {
 		}
 	)
 
-	event.custom({
-		"type": "lychee:item_inside",
-		"ghost": true,
-		"item_in": [
-			{
-				"item": "create:chromatic_compound"
-			}
-		],
-		"block_in": "minecraft:beacon",
-		"post": [
-			{
-				"type": "drop_item",
-				"item": "create:refined_radiance"
-			}
-		]
-	})
-
-	event.shapeless(
-		Item.of('create:andesite_alloy', 9),
-		[
-			'create:andesite_alloy_block'
-		]
-	)
-
 	event.shaped(
 		Item.of('create:andesite_alloy'),
 		[
@@ -253,6 +242,50 @@ ServerEvents.recipes(event => {
 		{
 			A: 'create:andesite_alloy',
 			T: 'gtceu:treated_wood_planks'
+		}
+	)
+
+	event.shaped(
+		Item.of('create:chute'),
+		[
+			'PGP',
+			'PCP',
+			'WPH',
+		],
+		{
+			P: 'gtceu:iron_plate',
+			G: 'gtceu:small_iron_gear',
+			C: '#forge:chests/wooden',
+			W: '#forge:tools/wrenches',
+			H: '#forge:tools/hammers'
+		}
+	)
+
+	event.shaped(
+		Item.of('create:cart_assembler'),
+		[
+			'SRS',
+			'LCL',
+		],
+		{
+			S: 'gtceu:steel_plate',
+			R: 'minecraft:redstone',
+			L: '#minecraft:logs',
+			C: '#gtceu:circuits/lv'
+		}
+	)
+
+	event.shaped(
+		Item.of('create:mechanical_drill'),
+		[
+			' A ',
+			'ASA',
+			' C '
+		],
+		{
+			A: 'create:andesite_alloy',
+			S: 'gtceu:steel_plate',
+			C: 'create:andesite_casing',
 		}
 	)
 })

@@ -10,15 +10,26 @@
       "collection": "AUTOMATIC"
     }
   },
-  "rewards": {},
+  "rewards": {
+    "lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 13882323,
+          "Loot": "lootbags:kjs/66ldxioecfcrske6m3a446300",
+          "Name": "Lootbag (ULV Age)"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
     "description": [
-      "<task task=\"0BB6686F580E54C1\" quest=\"38AAFF2BEAEEB6CE\"/>",
-      "<task task=\"7AF9093731AE452A\" quest=\"38AAFF2BEAEEB6CE\"/>",
-      "<hr/>",
       "The mixer requires a basin two blocks below it. It is a great thing for brass making. It also has other uses, but we will get there when we will get  there..."
     ],
     "groups": {

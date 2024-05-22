@@ -1,23 +1,18 @@
 // priority: 0
 ServerEvents.recipes(event => {
-
-	event.campfireCooking('gtceu:coke_oven_brick', 'gtceu:compressed_coke_clay').cookingTime(300).xp(0.3)
-
-
-	event.replaceInput('gtceu:shaped/coke_oven', 'gtceu:iron_plate', 'gtceu:wrought_iron_plate')
-	event.replaceInput('gtceu:shaped/primitive_pump', 'gtceu:iron_ring', 'gtceu:wrought_iron_ring')
-	event.replaceInput('gtceu:shaped/primitive_pump', 'gtceu:iron_screw', 'gtceu:wrought_iron_screw')
-	event.replaceInput('gtceu:shaped/primitive_pump', 'gtceu:iron_rotor', 'gtceu:wrought_iron_rotor')
-	event.replaceInput('gtceu:shaped/pump_deck', 'gtceu:iron_screw', 'gtceu:wrought_iron_screw')
-	event.replaceInput('gtceu:shaped/pump_hatch', 'gtceu:iron_screw', 'gtceu:wrought_iron_screw')
-	event.replaceInput('gtceu:shaped/pump_hatch', 'gtceu:iron_ring', 'gtceu:wrought_iron_ring')
-
-	event.replaceInput('gtceu:shaped/bronze_primitive_blast_furnace', 'gtceu:iron_screw', 'gtceu:wrought_iron_screw')
-	event.replaceInput('gtceu:shaped/bronze_primitive_blast_furnace', 'gtceu:iron_rod', 'gtceu:wrought_iron_rod')
-	event.replaceInput('gtceu:shaped/bronze_primitive_blast_furnace', 'gtceu:iron_plate', 'gtceu:wrought_iron_plate')
-
-
 	// #region removal
+	event.remove({id: 'gtceu:shaped/chest'})
+	event.remove({id: 'gtceu:shaped/crafting_table'})
+	event.remove({id: 'gtceu:shaped/wood_wall'})
+	event.remove({id: 'gtceu:shaped/wood_multiblock_tank'})
+	event.remove({id: 'gtceu:shaped/wood_tank_valve'})
+	event.remove({id: 'gtceu:shaped/vacuum_tube'})
+	event.remove({id: 'gtceu:shapeless/compressed_clay'})
+	event.remove({id: 'gtceu:shapeless/rubber_wood_planks'})
+	event.remove({id: 'gtceu:smelting/sticky_resin_from_slime'})
+	event.remove({id: /gtceu:primitive_blast_furnace(.*)/})
+	event.remove({id: /gtceu:shaped(.*)shape_(.*)/})
+
 	const tiers = ['lv', 'mv', 'hv' /*'ev', 'iv', 'luv', 'zpm', 'uv' */]
 	const components = [
 		'emitter',
@@ -30,6 +25,19 @@ ServerEvents.recipes(event => {
 		'fluid_regulator',
 	]
 
+	tiers.forEach(tier => {
+		components.forEach(component => {
+			event.remove({ output: `gtceu:${tier}_${component}` })
+		})
+	})
+	//lv
+	event.remove({output: '#gtceu:circuits/lv'})
+	//mv
+	event.remove({output: '#gtceu:circuits/mv'})
+	//hv
+	event.remove({output: '#gtceu:circuits/hv'})
+
+	//#region replacement
 	//Recipe ids that should have a campfire in place of a furnace in its recipe
 	const furnaceRecipesToReplace = [
 		'gtceu:shaped/steam_furnace_bronze',
@@ -47,19 +55,64 @@ ServerEvents.recipes(event => {
 	furnaceRecipesToReplace.forEach(recipeID => {
 		event.replaceInput({id: recipeID}, 'minecraft:furnace', 'minecraft:campfire')
 	})
-	
-	tiers.forEach(tier => {
-		components.forEach(component => {
-			event.remove({ output: `gtceu:${tier}_${component}` })
-		})
-	})
-	//lv
-	event.remove({ output: '#forge:circuits/lv' })
-	//mv
-	event.remove({ output: '#forge:circuits/mv' })
-	//hv
-	event.remove({ output: '#forge:circuits/hv' })
 
+	event.replaceInput('gtceu:shaped/coke_oven', 'gtceu:iron_plate', 'gtceu:wrought_iron_plate')
+	event.replaceInput('gtceu:shaped/primitive_pump', 'gtceu:iron_ring', 'gtceu:wrought_iron_ring')
+	event.replaceInput('gtceu:shaped/primitive_pump', 'gtceu:iron_screw', 'gtceu:wrought_iron_screw')
+	event.replaceInput('gtceu:shaped/primitive_pump', 'gtceu:iron_rotor', 'gtceu:wrought_iron_rotor')
+	event.replaceInput('gtceu:shaped/pump_deck', 'gtceu:iron_screw', 'gtceu:wrought_iron_screw')
+	event.replaceInput('gtceu:shaped/pump_hatch', 'gtceu:iron_screw', 'gtceu:wrought_iron_screw')
+	event.replaceInput('gtceu:shaped/pump_hatch', 'gtceu:iron_ring', 'gtceu:wrought_iron_ring')
+	event.replaceInput('gtceu:shaped/steam_extractor_bronze', 'gtceu:bronze_machine_casing', 'gtceu:bronze_brick_casing')
+	event.replaceInput('gtceu:shaped/steam_macerator_bronze', 'gtceu:bronze_machine_casing', 'gtceu:bronze_brick_casing')
+	event.replaceInput('gtceu:shaped/steam_compressor_bronze', 'gtceu:bronze_machine_casing', 'gtceu:bronze_brick_casing')
+	event.replaceInput('gtceu:shaped/steam_hammer_bronze', 'gtceu:bronze_machine_casing', 'gtceu:bronze_brick_casing')
+	event.replaceInput('gtceu:shaped/steam_rock_breaker_bronze', 'gtceu:bronze_machine_casing', 'gtceu:bronze_brick_casing')
+	event.replaceInput('gtceu:shaped/steam_oven', 'gtceu:lp_steam_furnace', 'gtceu:hp_steam_furnace')
+	event.replaceInput('gtceu:shaped/steam_grinder', 'gtceu:lp_steam_macerator', 'gtceu:hp_steam_macerator')
+
+	event.replaceOutput(/gtceu:(smelting|blasting)(.*)_to_ingot/, 'minecraft:iron_ingot', 'gtceu:wrought_iron_ingot')
+
+	//#region campfire
+	event.campfireCooking('gtceu:coke_oven_brick', 'gtceu:compressed_coke_clay').cookingTime(300).xp(0.3)
+	event.campfireCooking('gtceu:firebrick', 'gtceu:compressed_fireclay').cookingTime(300).xp(0.1)
+
+	//#region stonecutter
+	//random mold crafting recipes decided to not work so...
+	event.stonecutting('gtceu:plate_casting_mold', 'gtceu:empty_mold')
+	event.stonecutting('gtceu:gear_casting_mold', 'gtceu:empty_mold')
+	event.stonecutting('gtceu:credit_casting_mold', 'gtceu:empty_mold')
+	event.stonecutting('gtceu:bottle_casting_mold', 'gtceu:empty_mold')
+	event.stonecutting('gtceu:ingot_casting_mold', 'gtceu:empty_mold')
+	event.stonecutting('gtceu:ball_casting_mold', 'gtceu:empty_mold')
+	event.stonecutting('gtceu:block_casting_mold', 'gtceu:empty_mold')
+	event.stonecutting('gtceu:nugget_casting_mold', 'gtceu:empty_mold')
+	event.stonecutting('gtceu:cylinder_casting_mold', 'gtceu:empty_mold')
+	event.stonecutting('gtceu:anvil_casting_mold', 'gtceu:empty_mold')
+	event.stonecutting('gtceu:name_casting_mold', 'gtceu:empty_mold')
+	event.stonecutting('gtceu:small_gear_casting_mold', 'gtceu:empty_mold')
+	event.stonecutting('gtceu:rotor_casting_mold', 'gtceu:empty_mold')
+	event.stonecutting('gtceu:plate_extruder_mold', 'gtceu:empty_mold')
+	event.stonecutting('gtceu:rod_extruder_mold', 'gtceu:empty_mold')
+	event.stonecutting('gtceu:bolt_extruder_mold', 'gtceu:empty_mold')
+	event.stonecutting('gtceu:ring_extruder_mold', 'gtceu:empty_mold')
+	event.stonecutting('gtceu:cell_extruder_mold', 'gtceu:empty_mold')
+	event.stonecutting('gtceu:ingot_extruder_mold', 'gtceu:empty_mold')
+	event.stonecutting('gtceu:wire_extruder_mold', 'gtceu:empty_mold')
+	event.stonecutting('gtceu:tiny_pipe_extruder_mold', 'gtceu:empty_mold')
+	event.stonecutting('gtceu:small_pipe_extruder_mold', 'gtceu:empty_mold')
+	event.stonecutting('gtceu:normal_pipe_extruder_mold', 'gtceu:empty_mold')
+	event.stonecutting('gtceu:large_pipe_extruder_mold', 'gtceu:empty_mold')
+	event.stonecutting('gtceu:huge_pipe_extruder_mold', 'gtceu:empty_mold')
+	event.stonecutting('gtceu:block_extruder_mold', 'gtceu:empty_mold')
+	event.stonecutting('gtceu:gear_extruder_mold', 'gtceu:empty_mold')
+	event.stonecutting('gtceu:bottle_extruder_mold', 'gtceu:empty_mold')
+	event.stonecutting('gtceu:foil_extruder_mold', 'gtceu:empty_mold')
+	event.stonecutting('gtceu:small_gear_extruder_mold', 'gtceu:empty_mold')
+	event.stonecutting('gtceu:long_rod_extruder_mold', 'gtceu:empty_mold')
+	event.stonecutting('gtceu:rotor_extruder_mold', 'gtceu:empty_mold')
+
+	//#region shaped/shapeless recipes
 	event.shaped(
 		Item.of('gtceu:vacuum_tube'),
 		[
@@ -204,7 +257,7 @@ ServerEvents.recipes(event => {
 	event.shapeless(
 		Item.of('gtceu:compressed_clay'),
 			[
-				'minecraft:clay_ball',
+				'2x minecraft:clay_ball',
 				'gtceu:brick_wooden_form'
 			]
 	).keepIngredient('gtceu:brick_wooden_form')
@@ -287,6 +340,79 @@ ServerEvents.recipes(event => {
 		}
 	)
 
+	event.shaped(
+		Item.of('ceramicbucket:ceramic_bucket', '{Fluid:{Amount:1000,FluidName:"gtceu:concrete"}}').strongNBT(),
+		[
+			'CBS',
+			'CWQ',
+			' L '
+		],
+		{
+			C: 'gtceu:calcite_dust',
+			B: 'ceramicbucket:ceramic_bucket',
+			S: 'gtceu:stone_dust',
+			W: Item.of('ceramicbucket:ceramic_bucket', '{Fluid:{Amount:1000,FluidName:"minecraft:water"}}').strongNBT(),
+			Q: 'gtceu:quartz_sand_dust',
+			L: 'gtceu:clay_dust'
+		}
+	)
+
+	event.shaped(
+		Item.of('gtceu:firebricks'),
+		[
+			'FGF',
+			'FCF',
+			'FGF'
+		],
+		{
+			F: 'gtceu:firebrick',
+			G: 'gtceu:gypsum_dust',
+			C: Item.of('ceramicbucket:ceramic_bucket', '{Fluid:{Amount:1000,FluidName:"gtceu:concrete"}}').strongNBT()
+		}
+	)
+
+	event.shaped(
+		Item.of('gtceu:hp_steam_solid_boiler'),
+		[
+			'SSS',
+			'SWS',
+			'BLB'
+		],
+		{
+			S: 'gtceu:steel_plate',
+			W: '#forge:tools/wrenches',
+			B: 'minecraft:bricks',
+			L: 'gtceu:lp_steam_solid_boiler'
+		}
+	)
+
+	event.shaped(
+		Item.of('gtceu:hp_steam_liquid_boiler'),
+		[
+			'SSS',
+			'SGS',
+			'SLS'
+		],
+		{
+			S: 'gtceu:steel_plate',
+			G: '#forge:glass',
+			L: 'gtceu:lp_steam_liquid_boiler'
+		}
+	)
+
+	event.shaped(
+		Item.of('gtceu:empty_mold'),
+		[
+			'HF',
+			'PP',
+			'PP'
+		],
+		{
+			H: '#forge:tools/hammers',
+			F: '#forge:tools/files',
+			P: 'gtceu:steel_plate'
+		}
+	)
 	
 	// Material parts
 	// Wood
@@ -298,8 +424,8 @@ ServerEvents.recipes(event => {
 			' B'
 		],
 		{
-			A: '#forge:tools/files',
-			B: 'gtceu:wood_plate'
+			A: '#forge:tools/hammers',
+			B: 'gtceu:long_wood_rod'
 		}
 	)
 })

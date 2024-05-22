@@ -10,16 +10,28 @@
       "collection": "AUTOMATIC"
     }
   },
-  "rewards": {},
+  "rewards": {
+    "lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 13882323,
+          "Loot": "lootbags:kjs/66ldxioecfcrske6m3a446300",
+          "Name": "Lootbag (ULV Age)"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
     "description": [
-      "<task task=\"56D7409EDB5DBC6F\" quest=\"2ED30AD428BCB890\"/>",
-      "<hr/>",
       "Magmati will later add a proper description when this is finalised. He will deffinately not  forget to write this.",
-      "<br/>",
+      
       "&&oLooks like he forgot to write this&&r - lonevox"
     ],
     "groups": {

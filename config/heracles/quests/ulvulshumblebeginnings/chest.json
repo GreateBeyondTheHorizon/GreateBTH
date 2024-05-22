@@ -1,6 +1,5 @@
 {
   "dependencies": [
-    "bed",
     "gregtech_tools_and_you"
   ],
   "tasks": {
@@ -11,7 +10,21 @@
       "collection": "AUTOMATIC"
     }
   },
-  "rewards": {},
+  "rewards": {
+    "lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 13882323,
+          "Loot": "lootbags:kjs/66ldxioecfcrske6m3a446300",
+          "Name": "Lootbag (ULV Age)"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
@@ -22,8 +35,8 @@
     "groups": {
       "ULV/ULS - Humble Beginnings": {
         "position": [
-          -80,
-          -192
+          -41,
+          -224
         ]
       }
     },

@@ -16,7 +16,7 @@ ItemEvents.modification(event => {
 	event.modify(
 		[
 			/minecraft:raw_(.*)_block/,
-			/gtceu:raw_(.*)_(.*)/,
+			/gtceu:raw_(.*)_block/,
 			/ad_astra:raw_(.*)_block/,
 			/gtceu:(.*)_crushed_ore/,
 			/gtceu:(.*)_refined_ore/,

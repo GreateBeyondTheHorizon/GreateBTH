@@ -5,43 +5,47 @@
   "tasks": {
     "536181BB0DB13E4D": {
       "type": "heracles:item",
-      "item": "#gbth:steam_macerators",
-      "nbt": {
-        "items": [
-          {
-            "Count": 1,
-            "id": "gtceu:lp_steam_macerator"
-          },
-          {
-            "Count": 1,
-            "id": "gtceu:hp_steam_macerator"
-          }
-        ]
-      },
+      "item": "gtceu:lp_steam_macerator",
+      "nbt": {},
       "amount": 1,
       "collection": "AUTOMATIC"
     }
   },
-  "rewards": {},
+  "rewards": {
+    "lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 13882323,
+          "Loot": "lootbags:kjs/66ldxioecfcrske6m3a446300",
+          "Name": "Lootbag (ULV Age)"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
     "description": [
-      "<task task=\"536181BB0DB13E4D\" quest=\"7F602A26CF055E05\"/>",
-      "<hr/>",
-      "<crafting-recipe id=\"gtceu:shaped/diamond_sword\"/>"
+      "A crusher powered by steam."
     ],
     "groups": {
       "ULV/ULS - Humble Beginnings": {
         "position": [
           -192,
-          -176
+          -112
         ]
       }
     },
     "icon": {
-      "item": "#gbth:steam_macerators",
+      "item": {
+        "id": "gtceu:lp_steam_macerator",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",

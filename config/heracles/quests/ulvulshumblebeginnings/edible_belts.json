@@ -5,27 +5,31 @@
   "tasks": {
     "2F28652D1DC6C843": {
       "type": "heracles:item",
-      "item": "create:belt_connector",
+      "item": "greate:rubber_belt_connector",
       "amount": 8,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     }
   },
-  "rewards": {},
+  "rewards": {
+    "lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 13882323,
+          "Loot": "lootbags:kjs/66ldxioecfcrske6m3a446300",
+          "Name": "Lootbag (ULV Age)"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
     "description": [
-      "<task task=\"2F28652D1DC6C843\" quest=\"0C80D4F11654672A\"/>",
-      "<hr/>",
       "Logistic principles incarnate."
     ],
     "groups": {
@@ -38,7 +42,7 @@
     },
     "icon": {
       "item": {
-        "id": "create:belt_connector",
+        "id": "greate:rubber_belt_connector",
         "count": 1
       },
       "type": "heracles:item"

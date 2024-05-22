@@ -5,31 +5,32 @@
   "tasks": {
     "13E74758C0129CF8": {
       "type": "heracles:item",
-      "item": "#gbth:steam_furnaces",
-      "nbt": {
-        "items": [
-          {
-            "Count": 1,
-            "id": "gtceu:lp_steam_furnace"
-          },
-          {
-            "Count": 1,
-            "id": "gtceu:hp_steam_furnace"
-          }
-        ]
-      },
+      "item": "gtceu:lp_steam_furnace",
+      "nbt": {},
       "amount": 1,
       "collection": "AUTOMATIC"
     }
   },
-  "rewards": {},
+  "rewards": {
+    "lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 13882323,
+          "Loot": "lootbags:kjs/66ldxioecfcrske6m3a446300",
+          "Name": "Lootbag (ULV Age)"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
     "description": [
-      "<task task=\"13E74758C0129CF8\" quest=\"4AA205745CC7A8F5\"/>",
-      "<hr/>",
       "Just a furnace powered by steam, complicated, i know."
     ],
     "groups": {
@@ -41,7 +42,10 @@
       }
     },
     "icon": {
-      "item": "#gbth:steam_furnaces",
+      "item": {
+        "id": "gtceu:lp_steam_furnace",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",

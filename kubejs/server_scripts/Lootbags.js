@@ -16,4 +16,13 @@ ServerEvents.recipes(event => {
 			table: 'gbth:common_food'
 		}
 	})
+
+	event.custom({
+		type: 'lootbags:loot',
+		name: 'Lootbag (ULV Age)',
+		rarity: 'COMMON',
+		output: {
+			table: 'gbth:ulv_age'
+		}
+	})
 })

@@ -449,5 +449,48 @@ GTCEuServerEvents.oreVeins(event => {
 			.layer(l => l.weight(2).mat(GTMaterials.Pyrope).size(1, 1))
 			.layer(l => l.weight(1).mat(GTMaterials.Sapphire).size(1, 1))
 			.layer(l => l.weight(1).mat(GTMaterials.GreenSapphire).size(1, 1))
-	})
+	}) 
+
+	 /*event.add('test', vein => {
+		vein.clusterSize(24)
+		vein.weight(200)
+		vein.layer('moon') 
+		vein.density(0.2)
+		vein.heightRangeUniform(20, 40)
+		vein.discardChanceOnAirExposure(0)
+		vein.layeredVeinGenerator(generator => generator
+			.buildLayerPattern(pattern => pattern
+				.layer(l => l.weight(3).mat(GTMaterials.Bastnasite).size(2, 4))
+				.layer(l => l.weight(1).block(() => Block.getBlock('minecraft:diamond_ore')).size(1, 1))
+				.layer(l => l.weight(1).mat(GTMaterials.Neodymium).size(1, 1))
+			))
+		.surfaceIndicatorGenerator(indicator => indicator
+			.surfaceRock(GTMaterials.Neodymium)
+			.placement("above") // 
+			.density(0.4)
+			.radius(5)
+		)
+	}) */
+
+	/*event.add('kubejs:tetrahedrite_vein_aether', vein => {
+		vein.layer('moon')
+		vein.weight(200)
+		vein.clusterSize(20)
+		vein.density(0.45)
+		vein.discardChanceOnAirExposure(0)
+		vein.heightRangeUniform(16, 128)
+		vein.layeredVeinGenerator(generator => generator
+			.buildLayerPattern(pattern => pattern
+				.layer(l => l.weight(3).mat(GTMaterials.Tetrahedrite).size(2, 4))
+				.layer(l => l.weight(3).block(() => Block.getBlock('minecraft:diamond_ore')).size(1, 3))
+				.layer(l => l.weight(2).mat(GTMaterials.Stibnite).size(1, 2))
+			)
+		)
+			.surfaceIndicatorGenerator(indicator => indicator
+				.surfaceRock(GTMaterials.Tetrahedrite)
+				.density(0.2)
+				.radius(4)
+			)
+})
+*/
 })

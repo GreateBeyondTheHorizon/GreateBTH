@@ -13,14 +13,10 @@ ServerEvents.recipes(event => {
         }
     )
 
-    bloomeryRecipe('kubejs:copper_bloom', 600, 'kubejs:copper_bloom', ['#forge:raw_materials/copper', 'minecraft:charcoal'])
-    bloomeryRecipe('kubejs:copper_bloom_1', 600, 'kubejs:copper_bloom', ['#forge:raw_materials/chalcopyrite', 'minecraft:charcoal'])
-    bloomeryRecipe('kubejs:tin_bloom', 600, 'kubejs:tin_bloom', ['#forge:raw_materials/tin', 'minecraft:charcoal'])
-    bloomeryRecipe('kubejs:tin_bloom_1', 600, 'kubejs:tin_bloom', ['#forge:raw_materials/cassiterite', 'minecraft:charcoal'])
-    bloomeryRecipe('kubejs:tin_bloom_2', 600, 'kubejs:tin_bloom', ['#forge:raw_materials/cassiterite_sand', 'minecraft:charcoal'])
-    bloomeryRecipe('kubejs:wrought_iron_bloom', 600, 'kubejs:wrought_iron_bloom', ['#forge:raw_materials/iron', 'minecraft:charcoal'])
-    bloomeryRecipe('kubejs:wrought_iron_bloom_1', 600, 'kubejs:wrought_iron_bloom', ['#forge:raw_materials/pyrite', 'minecraft:charcoal'])
-    bloomeryRecipe('kubejs:bronze_bloom', 900, '4x kubejs:bronze_bloom', ['3x minecraft:copper_ingot', 'gtceu:tin_ingot', '2x minecraft:charcoal'])
+    bloomeryRecipe('kubejs:copper_bloom', 600, 'kubejs:copper_bloom', ['#gbth:copper_bloom_inputs', 'minecraft:coal'])
+    bloomeryRecipe('kubejs:tin_bloom', 600, 'kubejs:tin_bloom', ['#gbth:tin_bloom_inputs', 'minecraft:coal'])
+    bloomeryRecipe('kubejs:wrought_iron_bloom', 600, 'kubejs:wrought_iron_bloom', ['#gbth:wrought_iron_bloom_inputs', 'minecraft:coal'])
+    bloomeryRecipe('kubejs:bronze_bloom', 900, '4x kubejs:bronze_bloom', ['3x minecraft:copper_ingot', 'gtceu:tin_ingot', '2x minecraft:coal'])
 
     function bloomeryRecipe(id, duration, output, input) {
         event.recipes.gbthcore.bloomery(id)

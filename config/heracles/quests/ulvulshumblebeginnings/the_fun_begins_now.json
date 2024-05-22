@@ -6,14 +6,26 @@
       "type": "heracles:check"
     }
   },
-  "rewards": {},
+  "rewards": {
+    "lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 13882323,
+          "Loot": "lootbags:kjs/66ldxioecfcrske6m3a446300",
+          "Name": "Lootbag (ULV Age)"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
     "description": [
-      "<task task=\"537B6CCDA4BAFB81\" quest=\"5E9B34A22427F87B\"/>",
-      "<hr/>",
       "Congratulations on finishing the first chapter, user!",
       "In this chapter you will discover steam and kinetic power and learn to utilise them. I prepared some quests and optional challanges for you. Now get to work, so I can begin your gregification."
     ],

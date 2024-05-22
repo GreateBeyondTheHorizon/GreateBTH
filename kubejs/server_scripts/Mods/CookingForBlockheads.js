@@ -10,4 +10,5 @@ ServerEvents.recipes(event => {
             S: '#minecraft:wooden_slabs'
         }
     )
+    event.campfireCooking('cookingforblockheads:recipe_book', 'minecraft:book').cookingTime(300).xp(1.0)
 })

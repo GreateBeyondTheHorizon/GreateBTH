@@ -51,6 +51,17 @@ StartupEvents.registry('item', event => {
 	event.create('inc_hv_emitter', 'create:sequenced_assembly').displayName('Incomplete HV Emitter')
 	event.create('inc_hv_conveyor', 'create:sequenced_assembly').displayName('Incomplete HV Conveyor')
 	event.create('inc_hv_robot_arm', 'create:sequenced_assembly').displayName('Incomplete HV Robot Arm')
+
+	event.create('andesite_alloy_sand_paper', 'create:sandpaper').maxDamage(8).displayName('Andesite Alloy Sand Paper')
+	event.create('steel_sand_paper', 'create:sandpaper').maxDamage(32).displayName('Steel Sand Paper')
+	event.create('aluminium_sand_paper', 'create:sandpaper').maxDamage(128).displayName('Aluminium Sand Paper')
+	event.create('stainless_steel_sand_paper', 'create:sandpaper').maxDamage(512).displayName('Stainless Steel Sand Paper')
+	event.create('titanium_sand_paper', 'create:sandpaper').maxDamage(2048).displayName('Titanium Sand Paper')
+	event.create('tungsten_steel_sand_paper', 'create:sandpaper').maxDamage(8192).displayName('Tungsten Steel Sand Paper')
+	event.create('rhodium_plated_palladium_sand_paper', 'create:sandpaper').maxDamage(32768).displayName('Rhodium Plated Palladium Sand Paper')
+	event.create('naquadah_alloy_sand_paper', 'create:sandpaper').maxDamage(131072).displayName('Naquadah Alloy Sand Paper')
+	event.create('darmstadtium_sand_paper', 'create:sandpaper').maxDamage(524288).displayName('Darmstadtium Sand Paper')
+	event.create('neutronium_sand_paper', 'create:sandpaper').maxDamage(2097152).displayName('Neutronium Sand Paper')
 	
 	// AE2
 	for (const cellSize of global.AE2.CellSizes) {

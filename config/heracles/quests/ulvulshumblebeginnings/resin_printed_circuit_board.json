@@ -32,15 +32,26 @@
       }
     }
   },
-  "rewards": {},
+  "rewards": {
+    "lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 13882323,
+          "Loot": "lootbags:kjs/66ldxioecfcrske6m3a446300",
+          "Name": "Lootbag (ULV Age)"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
     "description": [
-      "<task task=\"4F54E34EFE5F4ED6\" quest=\"78573C9DB2981947\"/>",
-      "<task task=\"2418DFCEDA4EAB20\" quest=\"78573C9DB2981947\"/>",
-      "<hr/>",
       "The base of the circuit."
     ],
     "groups": {

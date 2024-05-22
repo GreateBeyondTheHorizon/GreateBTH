@@ -1,6 +1,9 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/cookingforblockheads-common.toml"
+
+[[files]]
 file = "config/emi.css"
 
 [[files]]
@@ -118,6 +121,9 @@ file = "config/heracles/quests/introduction/flint_tools.json"
 file = "config/heracles/quests/introduction/forms.json"
 
 [[files]]
+file = "config/heracles/quests/introduction/ing_rack.json"
+
+[[files]]
 file = "config/heracles/quests/introduction/mud_brick.json"
 
 [[files]]
@@ -136,7 +142,16 @@ file = "config/heracles/quests/introduction/the_start_of_something_new.json"
 file = "config/heracles/quests/introduction/wood.json"
 
 [[files]]
+file = "config/heracles/quests/multiblocks/no_not_that_coke.json"
+
+[[files]]
 file = "config/heracles/quests/multiblocks/primitive_blast_furnace.json"
+
+[[files]]
+file = "config/heracles/quests/multiblocks/steam_grinder.json"
+
+[[files]]
+file = "config/heracles/quests/multiblocks/steam_oven.json"
 
 [[files]]
 file = "config/heracles/quests/powergeneration/large_water_wheel.json"
@@ -148,10 +163,10 @@ file = "config/heracles/quests/powergeneration/water_wheel.json"
 file = "config/heracles/quests/ulvulshumblebeginnings/a_hell_of_an_adventure.json"
 
 [[files]]
-file = "config/heracles/quests/ulvulshumblebeginnings/another_one_bites_the_dust.json"
+file = "config/heracles/quests/ulvulshumblebeginnings/bed.json"
 
 [[files]]
-file = "config/heracles/quests/ulvulshumblebeginnings/bed.json"
+file = "config/heracles/quests/ulvulshumblebeginnings/blaze_burner.json"
 
 [[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/brass_hands.json"
@@ -184,9 +199,6 @@ file = "config/heracles/quests/ulvulshumblebeginnings/encased_fan.json"
 file = "config/heracles/quests/ulvulshumblebeginnings/fine_copper_wire.json"
 
 [[files]]
-file = "config/heracles/quests/ulvulshumblebeginnings/generating_stress.json"
-
-[[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/glass_tube.json"
 
 [[files]]
@@ -196,19 +208,28 @@ file = "config/heracles/quests/ulvulshumblebeginnings/gregtech_tools_and_you.jso
 file = "config/heracles/quests/ulvulshumblebeginnings/hand_crank.json"
 
 [[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/hp_liquid_boiler.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/hp_solid_boiler.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/iron_ingot.json"
+
+[[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/its_moldin_time.json"
 
 [[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/lets_get_goopy.json"
 
 [[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/liquid_steam_boiler.json"
+
+[[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/mechanical_crafting.json"
 
 [[files]]
-file = "config/heracles/quests/ulvulshumblebeginnings/mix_that_dust.json"
-
-[[files]]
-file = "config/heracles/quests/ulvulshumblebeginnings/no_not_that_coke.json"
+file = "config/heracles/quests/ulvulshumblebeginnings/mixer.json"
 
 [[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/paper.json"
@@ -218,6 +239,9 @@ file = "config/heracles/quests/ulvulshumblebeginnings/pokey_pokey.json"
 
 [[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/polished_rose_quartz.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/primitive_tank.json"
 
 [[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/pulp_fiction.json"
@@ -250,9 +274,6 @@ file = "config/heracles/quests/ulvulshumblebeginnings/see_you_plater.json"
 file = "config/heracles/quests/ulvulshumblebeginnings/steam_alloy_smelter.json"
 
 [[files]]
-file = "config/heracles/quests/ulvulshumblebeginnings/steam_boilers.json"
-
-[[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/steam_compressor.json"
 
 [[files]]
@@ -268,19 +289,16 @@ file = "config/heracles/quests/ulvulshumblebeginnings/steam_furnace.json"
 file = "config/heracles/quests/ulvulshumblebeginnings/steam_miner.json"
 
 [[files]]
-file = "config/heracles/quests/ulvulshumblebeginnings/steel_ingot.json"
+file = "config/heracles/quests/ulvulshumblebeginnings/steam_solid_boiler.json"
 
 [[files]]
-file = "config/heracles/quests/ulvulshumblebeginnings/stronger_tools.json"
+file = "config/heracles/quests/ulvulshumblebeginnings/steel_ingot.json"
 
 [[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/the_andesite_age.json"
 
 [[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/the_brass_age.json"
-
-[[files]]
-file = "config/heracles/quests/ulvulshumblebeginnings/the_first_main_gregtech_material.json"
 
 [[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/the_first_of_many.json"
@@ -304,10 +322,10 @@ file = "config/heracles/quests/ulvulshumblebeginnings/whisky_business.json"
 file = "config/heracles/quests/ulvulshumblebeginnings/whole_new_create.json"
 
 [[files]]
-file = "config/heracles/quests/ulvulshumblebeginnings/wrought_iron.json"
+file = "config/heracles/tutorial.html"
 
 [[files]]
-file = "config/heracles/tutorial.html"
+file = "config/rightclickharvest.toml"
 
 [[files]]
 file = "defaultconfigs/bucketlib-server.toml"
@@ -565,6 +583,15 @@ file = "kubejs/data/gbth/loot_tables/common_food.json"
 file = "kubejs/data/gbth/loot_tables/dirt_age.json"
 
 [[files]]
+file = "kubejs/data/gbth/loot_tables/logs.json"
+
+[[files]]
+file = "kubejs/data/gbth/loot_tables/saplings.json"
+
+[[files]]
+file = "kubejs/data/gbth/loot_tables/ulv_age.json"
+
+[[files]]
 file = "kubejs/data/productivebees/productivebees/gtceu/EV/neodymium.json"
 
 [[files]]
@@ -682,13 +709,7 @@ file = "kubejs/data/sgjourney/tags/worldgen/biome/has_structure/terra_stargate_b
 file = "kubejs/jsconfig.json"
 
 [[files]]
-file = "kubejs/server_scripts/Bloomery.js"
-
-[[files]]
-file = "kubejs/server_scripts/CustomEarlyGame.js"
-
-[[files]]
-file = "kubejs/server_scripts/CustomQuestItemTags.js"
+file = "kubejs/server_scripts/BlockEvents.js"
 
 [[files]]
 file = "kubejs/server_scripts/Gamerules.js"
@@ -700,7 +721,13 @@ file = "kubejs/server_scripts/GregMultiRecipe.js"
 file = "kubejs/server_scripts/GregOreVeins.js"
 
 [[files]]
+file = "kubejs/server_scripts/ItemEvents.js"
+
+[[files]]
 file = "kubejs/server_scripts/ItemRemoval.js"
+
+[[files]]
+file = "kubejs/server_scripts/Loot.js"
 
 [[files]]
 file = "kubejs/server_scripts/Lootbags.js"
@@ -712,10 +739,19 @@ file = "kubejs/server_scripts/Mods/AE2.js"
 file = "kubejs/server_scripts/Mods/AdAstra.js"
 
 [[files]]
+file = "kubejs/server_scripts/Mods/CeramicBucket.js"
+
+[[files]]
 file = "kubejs/server_scripts/Mods/Chipped.js"
 
 [[files]]
+file = "kubejs/server_scripts/Mods/ComputerCraft.js"
+
+[[files]]
 file = "kubejs/server_scripts/Mods/ConstructionWand.js"
+
+[[files]]
+file = "kubejs/server_scripts/Mods/CookingForBlockheads.js"
 
 [[files]]
 file = "kubejs/server_scripts/Mods/Create.js"
@@ -730,16 +766,34 @@ file = "kubejs/server_scripts/Mods/FarmersDelight.js"
 file = "kubejs/server_scripts/Mods/Greate.js"
 
 [[files]]
-file = "kubejs/server_scripts/Mods/Greg/Greg.js"
+file = "kubejs/server_scripts/Mods/Greg/AlloySmelter.js"
+
+[[files]]
+file = "kubejs/server_scripts/Mods/Greg/Bender.js"
+
+[[files]]
+file = "kubejs/server_scripts/Mods/Greg/Bloomery.js"
+
+[[files]]
+file = "kubejs/server_scripts/Mods/Greg/CircuitAssembler.js"
 
 [[files]]
 file = "kubejs/server_scripts/Mods/Greg/GregUtil.js"
 
 [[files]]
-file = "kubejs/server_scripts/Mods/Greg/bender.js"
+file = "kubejs/server_scripts/Mods/Greg/PrimitiveBlastFurnace.js"
 
 [[files]]
-file = "kubejs/server_scripts/Mods/Greg/circuit_assembler.js"
+file = "kubejs/server_scripts/Mods/Gregtech.js"
+
+[[files]]
+file = "kubejs/server_scripts/Mods/KubeJS.js"
+
+[[files]]
+file = "kubejs/server_scripts/Mods/Minecraft.js"
+
+[[files]]
+file = "kubejs/server_scripts/Mods/OreberriesReplanted.js"
 
 [[files]]
 file = "kubejs/server_scripts/Mods/ProductiveBees/BeeFood.js"
@@ -751,6 +805,24 @@ file = "kubejs/server_scripts/Mods/ProductiveBees/HoneyCombProcessing.js"
 file = "kubejs/server_scripts/Mods/ProductiveBees/ProductiveBees.js"
 
 [[files]]
+file = "kubejs/server_scripts/Mods/SequencedAssembly/AE2sequence.js"
+
+[[files]]
+file = "kubejs/server_scripts/Mods/SequencedAssembly/FarmersDelight.js"
+
+[[files]]
+file = "kubejs/server_scripts/Mods/SequencedAssembly/HV.js"
+
+[[files]]
+file = "kubejs/server_scripts/Mods/SequencedAssembly/IntermediateItems.js"
+
+[[files]]
+file = "kubejs/server_scripts/Mods/SequencedAssembly/LV.js"
+
+[[files]]
+file = "kubejs/server_scripts/Mods/SequencedAssembly/MV.js"
+
+[[files]]
 file = "kubejs/server_scripts/Mods/SophisticatedBackpacks.js"
 
 [[files]]
@@ -760,31 +832,7 @@ file = "kubejs/server_scripts/Mods/SophisticatedStorage.js"
 file = "kubejs/server_scripts/Mods/TomsSimpleStorage.js"
 
 [[files]]
-file = "kubejs/server_scripts/Mods/cc_tweaked.js"
-
-[[files]]
-file = "kubejs/server_scripts/Oreberries.js"
-
-[[files]]
-file = "kubejs/server_scripts/SequencedAssembly/AE2sequence.js"
-
-[[files]]
-file = "kubejs/server_scripts/SequencedAssembly/HV.js"
-
-[[files]]
-file = "kubejs/server_scripts/SequencedAssembly/IntermediateItems.js"
-
-[[files]]
-file = "kubejs/server_scripts/SequencedAssembly/LV.js"
-
-[[files]]
-file = "kubejs/server_scripts/SequencedAssembly/MV.js"
-
-[[files]]
 file = "kubejs/server_scripts/Tags.js"
-
-[[files]]
-file = "kubejs/server_scripts/Vanilla.js"
 
 [[files]]
 file = "kubejs/startup_scripts/BlockGeneration.js"
@@ -1044,6 +1092,10 @@ file = "mods/kotlin-for-forge.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/kubejs-additions.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/kubejs-create.pw.toml"
 metafile = true
 
@@ -1065,10 +1117,6 @@ metafile = true
 
 [[files]]
 file = "mods/lootjs.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/lychee.pw.toml"
 metafile = true
 
 [[files]]
@@ -1145,6 +1193,10 @@ metafile = true
 
 [[files]]
 file = "mods/rhino.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/rightclickharvest.pw.toml"
 metafile = true
 
 [[files]]

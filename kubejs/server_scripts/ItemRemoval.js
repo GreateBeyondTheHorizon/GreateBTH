@@ -25,6 +25,10 @@ var recpiesToReplace = [
     { input: Item.of('kubejs:removed_item_placeholder', '{Removed:"ad_astra:steel_rod"}').weakNBT(), replacement: '#forge:rods/steel' },
     { input: Item.of('kubejs:removed_item_placeholder', '{Removed:"ad_astra:iron_rod"}').weakNBT(), replacement: '#forge:rods/iron' },
     { input: Item.of('kubejs:removed_item_placeholder', '{Removed:"create:iron_sheet"}').weakNBT(), replacement: '#forge:plates/iron' },
+    { input: Item.of('kubejs:removed_item_placeholder', '{Removed:"create:electron_tube"}').weakNBT(), replacement: '#gtceu:circuits/ulv' },
+    { input: Item.of('kubejs:removed_item_placeholder', '{Removed:"create:sturdy_sheet"}').weakNBT(), replacement: '#forge:plates/obsidian' },
+    { input: Item.of('kubejs:removed_item_placeholder', '{Removed:"create:brass_sheet"}').weakNBT(), replacement: '#forge:plates/brass' },
+    { input: Item.of('kubejs:removed_item_placeholder', '{Removed:"create:brass_ingot"}').weakNBT(), replacement: '#forge:plates/brass' }
 ]
 
 //priority: 1

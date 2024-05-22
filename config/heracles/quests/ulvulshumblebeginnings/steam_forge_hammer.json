@@ -5,31 +5,32 @@
   "tasks": {
     "0BA366648050021A": {
       "type": "heracles:item",
-      "item": "#gbth:steam_forge_hammers",
-      "nbt": {
-        "items": [
-          {
-            "Count": 1,
-            "id": "gtceu:lp_steam_forge_hammer"
-          },
-          {
-            "Count": 1,
-            "id": "gtceu:hp_steam_forge_hammer"
-          }
-        ]
-      },
+      "item": "gtceu:lp_steam_forge_hammer",
+      "nbt": {},
       "amount": 1,
       "collection": "AUTOMATIC"
     }
   },
-  "rewards": {},
+  "rewards": {
+    "lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 13882323,
+          "Loot": "lootbags:kjs/66ldxioecfcrske6m3a446300",
+          "Name": "Lootbag (ULV Age)"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
     "description": [
-      "<task task=\"0BA366648050021A\" quest=\"00DAF42D60192A91\"/>",
-      "<hr/>",
       "You'll appreciate this machine alot. It can make plates much cheaper than hammers."
     ],
     "groups": {
@@ -41,7 +42,10 @@
       }
     },
     "icon": {
-      "item": "#gbth:steam_forge_hammers",
+      "item": {
+        "id": "gtceu:lp_steam_forge_hammer",
+        "count": 1
+      },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",

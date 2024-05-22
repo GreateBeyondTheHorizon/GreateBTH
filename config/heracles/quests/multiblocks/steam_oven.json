@@ -1,0 +1,78 @@
+{
+  "dependencies": [
+    "steel_ingot"
+  ],
+  "tasks": {
+    "controller": {
+      "type": "heracles:item",
+      "item": "gtceu:steam_oven",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "firebox_casing": {
+      "type": "heracles:item",
+      "item": "gtceu:bronze_firebox_casing",
+      "amount": 8,
+      "collection": "AUTOMATIC"
+    },
+    "output_bus": {
+      "type": "heracles:item",
+      "item": "gtceu:steam_output_bus",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "input_hatch": {
+      "type": "heracles:item",
+      "item": "gtceu:steam_input_hatch",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "input_bus": {
+      "type": "heracles:item",
+      "item": "gtceu:steam_input_bus",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "machine_casing": {
+      "type": "heracles:item",
+      "item": "gtceu:steam_machine_casing",
+      "amount": 8,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "A multiblock furnace, using steam."
+    ],
+    "groups": {
+      "Multiblocks": {
+        "position": [
+          -49,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:steam_oven",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Steam Oven"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

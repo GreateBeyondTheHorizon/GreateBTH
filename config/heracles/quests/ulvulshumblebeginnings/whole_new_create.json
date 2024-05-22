@@ -15,20 +15,32 @@
       "type": "heracles:check"
     }
   },
-  "rewards": {},
+  "rewards": {
+    "lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 13882323,
+          "Loot": "lootbags:kjs/66ldxioecfcrske6m3a446300",
+          "Name": "Lootbag (ULV Age)"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
     },
     "description": [
-      "<task task=\"1AD2CFD30C66D801\" quest=\"0B29D5C777C71B40\"/>",
-      "<hr/>",
       "Create now has tiers that mirror GregTech tiers. This means:",
-      "<br/>",
+      
       "- Stress tiers use the same values as voltage tiers. LV: 32 volts. LS: 32 stress units.",
-      "<br/>",
+      
       "- Shafts have an SU limit and SU consumption, similar to GregTech wires. Shafts made of different materials have different SU limits and SU consumption.",
-      "<br/>",
+      
       "- Recipes in Create machines have minimum SU requirements based on tier."
     ],
     "groups": {

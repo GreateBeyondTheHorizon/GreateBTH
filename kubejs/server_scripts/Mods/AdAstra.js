@@ -3,7 +3,9 @@ ServerEvents.recipes( event => {
 	event.remove({ output:'ad_astra:rocket_fin' })
 	event.remove({ output:/ad_astra:(.*)engine/ })
 	event.remove({ output:'ad_astra:rocket_nose_cone' })
+	event.remove({ id: /ad_astra:(smelting|blasting)(.*)iron_ingot_from_(smelting|blasting)_(.*)_iron_ore/})
 	event.remove({ type: 'ad_astra:compressing' })
+	event.remove({ type: 'ad_astra:alloying' })
 
 	//stainless steel
 	event.shaped(
