@@ -11,7 +11,7 @@ ServerEvents.recipes(event => {
 	event.remove({id: 'gtceu:shapeless/rubber_wood_planks'})
 	event.remove({id: 'gtceu:smelting/sticky_resin_from_slime'})
 	event.remove({id: /gtceu:primitive_blast_furnace(.*)/})
-	event.remove({id: /gtceu:shaped(.*)shape_(.*)/})
+	event.remove({output: /gtceu:(.*)_mold/})
 
 	const tiers = ['lv', 'mv', 'hv' /*'ev', 'iv', 'luv', 'zpm', 'uv' */]
 	const components = [

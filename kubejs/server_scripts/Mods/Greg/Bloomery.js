@@ -8,7 +8,7 @@ ServerEvents.recipes(event => {
         ],
         {
             M: 'minecraft:mud_bricks',
-            O: 'minecraft:charcoal',
+            O: 'minecraft:coal',
             C: 'minecraft:campfire'
         }
     )

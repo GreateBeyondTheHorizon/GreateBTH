@@ -13,41 +13,53 @@ ServerEvents.recipes(event => {
 	event.remove({type: 'minecraft:crafting_shapeless', id: /farmersdelight:straw(.*)/})
 	event.remove({id: /(farmersdelight|bucketlib):(.*)wheat_dough_from_(.*)/})
 	event.remove({type: 'minecraft:crafting_shaped', id: /farmersdelight:(.*)pie(.*)/})
-	event.remove({id:'farmersdelight:shepherds_pie_block' })
-	event.remove({id:'farmersdelight:sweet_berry_cookie' })
-	event.remove({id:'farmersdelight:honey_cookie' })
-	event.remove({id:'farmersdelight:melon_juice' })
-	event.remove({id:'farmersdelight:melon_popsicle' })
-	event.remove({id:'farmersdelight:fruit_salad' })
-	event.remove({id:'farmersdelight:mixed_salad' })
-	event.remove({id:'farmersdelight:barbecue_stick'})
-	event.remove({id:'farmersdelight:egg_sandwich'})
-	event.remove({id:'farmersdelight:chicken_sandwich'})
-	event.remove({ id: 'farmersdelight:hamburger' })
-	event.remove({ id: 'farmersdelight:bacon_sandwich' })
-	event.remove({ id: 'farmersdelight:mutton_wrap' })
-	event.remove({ id: 'farmersdelight:stuffed_potato' })
-	event.remove({ id: 'farmersdelight:salmon_roll' })
-	event.remove({ id: 'farmersdelight:cod_roll' })
-	event.remove({ id: 'farmersdelight:kelp_roll' })
-	event.remove({ id: 'farmersdelight:bacon_and_eggs' })
-	event.remove({ id: 'farmersdelight:roasted_mutton_chops' })
-	event.remove({ id: 'farmersdelight:steak_and_potatoes' })
-	event.remove({ id: 'farmersdelight:grilled_salmon' })
-	event.remove({ id: 'farmersdelight:roast_chicken_block' })
-	event.remove({ id: 'farmersdelight:honey_glazed_ham_block' })
+	event.remove({id: /farmersdelight:sweet_berry_cheesecake(.*)/})
+	event.remove({id: 'farmersdelight:shepherds_pie_block'})
+	event.remove({id: 'farmersdelight:sweet_berry_cookie'})
+	event.remove({id: 'farmersdelight:honey_cookie'})
+	event.remove({id: 'farmersdelight:melon_juice'})
+	event.remove({id: 'farmersdelight:melon_popsicle'})
+	event.remove({id: 'farmersdelight:fruit_salad'})
+	event.remove({id: 'farmersdelight:mixed_salad'})
+	event.remove({id: 'farmersdelight:barbecue_stick'})
+	event.remove({id: 'farmersdelight:egg_sandwich'})
+	event.remove({id: 'farmersdelight:chicken_sandwich'})
+	event.remove({id: 'farmersdelight:hamburger'})
+	event.remove({id: 'farmersdelight:bacon_sandwich'})
+	event.remove({id: 'farmersdelight:mutton_wrap'})
+	event.remove({id: 'farmersdelight:stuffed_potato'})
+	event.remove({id: 'farmersdelight:salmon_roll'})
+	event.remove({id: 'farmersdelight:cod_roll'})
+	event.remove({id: 'farmersdelight:kelp_roll'})
+	event.remove({id: 'farmersdelight:bacon_and_eggs'})
+	event.remove({id: 'farmersdelight:roasted_mutton_chops'})
+	event.remove({id: 'farmersdelight:steak_and_potatoes'})
+	event.remove({id: 'farmersdelight:grilled_salmon'})
+	event.remove({id: 'farmersdelight:roast_chicken_block'})
+	event.remove({id: 'farmersdelight:honey_glazed_ham_block'})
+	event.remove({output: 'farmersdelight:pie_crust'})
+	event.remove({output: 'farmersdelight:cake_slice'})
 
-	event.recipes.create.mixing('farmersdelight:apple_pie', ['3x minecraft:wheat', '3x minecraft:apple', '2x minecraft:sugar', 'farmersdelight:pie_crust'])
-	event.recipes.create.mixing('farmersdelight:chocolate_pie', ['3x minecraft:cocoa_beans', Fluid.of("minecraft:milk", 3000), '2x minecraft:sugar', 'farmersdelight:pie_crust'])
+	event.campfireCooking('minecraft:bread', 'farmersdelight:wheat_dough')
+
+	event.replaceInput({id: 'farmersdelight:stove'}, 'minecraft:iron_ingot', 'gtceu:steel_plate')
+	event.replaceInput({id: 'nethersdelight:blackstone_stove'}, 'minecraft:nether_brick', 'gtceu:steel_plate')
+	event.replaceInput({id: 'farmersdelight:cooking_pot'}, 'minecraft:iron_ingot', 'gtceu:steel_plate')
+
+
+	event.recipes.create.mixing('farmersdelight:apple_pie', ['3x minecraft:wheat', '3x minecraft:apple', '2x minecraft:sugar', 'farmersdelight:pie_crust']).heated()
+	event.recipes.create.mixing('farmersdelight:chocolate_pie', ['3x minecraft:cocoa_beans', Fluid.of("minecraft:milk", 3000), '2x minecraft:sugar', 'farmersdelight:pie_crust']).heated()
+	event.recipes.create.mixing('farmersdelight:sweet_berry_cheesecake', ['6x minecraft:sweet_berries', Fluid.of('minecraft:milk', 2000), 'farmersdelight:pie_crust']).heated()
 	event.recipes.create.mixing('farmersdelight:wheat_dough', ['create:wheat_flour', Fluid.of('minecraft:water')])
-	event.recipes.create.mixing('4x farmersdelight:sweet_berry_cookie', ['minecraft:sweet_berries', 'farmersdelight:wheat_dough'])
-	event.recipes.create.mixing('4x farmersdelight:honey_cookie', [Fluid.of('create:honey', 250), 'farmersdelight:wheat_dough'])
+	event.recipes.create.mixing('4x farmersdelight:sweet_berry_cookie', ['minecraft:sweet_berries', 'farmersdelight:wheat_dough']).heated()
+	event.recipes.create.mixing('4x farmersdelight:honey_cookie', [Fluid.of('create:honey', 250), 'farmersdelight:wheat_dough']).heated()
 	event.recipes.create.mixing('farmersdelight:melon_juice', ['4x minecraft:melon_slice', 'minecraft:sugar', 'minecraft:glass_bottle'])
 	event.recipes.create.mixing('farmersdelight:melon_popsicle', ['4x minecraft:melon_slice', '2x minecraft:ice', 'minecraft:stick'])
 	event.recipes.create.mixing('farmersdelight:fruit_salad', ['minecraft:apple', '2x minecraft:melon_slice', '#minecraft:fox_food', 'farmersdelight:pumpkin_slice', 'minecraft:bowl'])
 	event.recipes.create.mixing('farmersdelight:mixed_salad', ['#forge:crops/cabbage', 'farmersdelight:tomato', 'minecraft:beetroot', 'minecraft:bowl'])
 	event.recipes.create.mixing('farmersdelight:nether_salad', ['minecraft:crimson_fungus', 'minecraft:warped_fungus', 'minecraft:bowl'])
 	event.recipes.create.mixing('farmersdelight:rice_roll_medley_block', ['3x farmersdelight:kelp_roll_slice', '3x farmersdelight:salmon_roll', '2x farmersdelight:cod_roll', 'minecraft:bowl'])
+	event.recipes.create.mixing('farmersdelight:pie_crust', ['3x create:wheat_flour', Fluid.of('minecraft:milk', 250), 'minecraft:egg'])
 
 	event.recipes.create.splashing('farmersdelight:wheat_dough', 'create:wheat_flour')
 
@@ -60,8 +72,10 @@ ServerEvents.recipes(event => {
 	compressingRecipe('farmersdelight:rice_bale', 'farmersdelight:rice_panicle')
 	compressingRecipe('farmersdelight:rice_bag', 'farmersdelight:rice')
 	compressingRecipe('farmersdelight:straw_bale', 'farmersdelight:straw')
+	compressingRecipe('minecraft:cake', 'farmersdelight:cake_slice')
 	compressingRecipe('farmersdelight:apple_pie', 'farmersdelight:apple_pie_slice', true)
 	compressingRecipe('farmersdelight:chocolate_pie', 'farmersdelight:chocolate_pie_slice', true)
+	compressingRecipe('farmersdelight:sweet_berry_cheesecake', 'farmersdelight:sweet_berry_cheesecake_slice', true)
 
 	function compressingRecipe(output, input, small) {
 		if(small) {
@@ -122,6 +136,24 @@ ServerEvents.recipes(event => {
 			})
 		}
 	}
+
+	event.custom({
+		type: "farmersdelight:cutting",
+		ingredients: [
+			{
+				"item": "minecraft:cake"
+			}
+		],
+		result: [
+			{
+				"count": 9,
+				"item": "farmersdelight:cake_slice"
+			}
+		],
+		tool: {
+			"tag": "forge:tools/knives"
+		}
+	})
 
 	event.shaped(
 		Item.of('farmersdelight:cutting_board'),

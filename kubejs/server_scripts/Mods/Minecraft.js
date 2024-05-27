@@ -34,6 +34,10 @@ ServerEvents.recipes(event => {
 	event.remove({id: 'minecraft:smithing_table'})
 	event.remove({id: 'minecraft:smoker'})
 	event.remove({id: 'minecraft:stonecutter'})
+	event.remove({id: /(minecraft|bucketlib|farmersdelight|create):(.*)cake(.*)/, output: 'minecraft:cake'})
+	event.remove({id: 'minecraft:pumpkin_pie'})
+	event.remove({id: /create:(smelting|smoking)(.*)bread/})
+	event.remove({id: 'minecraft:bread'})
 
 	event.campfireCooking('minecraft:coal', 'gtceu:raw_coal').cookingTime(300).xp(0.6)
 	event.campfireCooking('minecraft:brick', 'gtceu:compressed_clay').cookingTime(300).xp(0.3)
@@ -41,6 +45,8 @@ ServerEvents.recipes(event => {
 	event.campfireCooking('minecraft:smooth_stone', 'minecraft:stone').cookingTime(300).xp(0.1)
 	event.campfireCooking('minecraft:redstone', 'gtceu:raw_redstone').cookingTime(300).xp(0.9)
 
+	event.recipes.create.mixing('minecraft:cake', [Fluid.of('minecraft:milk', 3000), '2x minecraft:sugar', 'farmersdelight:pie_crust', 'minecraft:sweet_berries']).heated()
+	event.recipes.create.mixing('minecraft:pumpkin_pie', ['minecraft:sugar', 'farmersdelight:pie_crust', 'minecraft:pumpkin']).heated()
 
 	event.replaceInput('gtceu:shaped/piston_iron', 'gtceu:small_iron_gear', 'gtceu:small_bronze_gear')
 
