@@ -5,7 +5,7 @@ ServerEvents.recipes(event => {
         var input = `gtceu:${tier}_plate`
         event.recipes.gtceu.alloy_smelter(output)
             .duration(100)
-            .itemInputs(['#gbth:sandpaper_base', input])
+            .itemInputs(['#gbth:sandpaper_bases', input])
             .itemOutputs(output)
             .EUt(32)
     })

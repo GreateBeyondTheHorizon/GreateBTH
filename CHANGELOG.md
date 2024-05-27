@@ -1,48 +1,8 @@
 **Script/Config Changes**
-- Add quests for steam multiblocks
-- Fix steam machine quests
-- Remove charcoal recipe
-- Change bloomery recipes to use coal instead of charcoal
-- Add ceramic concrete bucket and firebricks recipe
-- Disable patrol spawns by default
-- Remove iron, copper and gold backpacks from certain loottables
-- Remove farmers delight knives from all lootttables
-- Add more valid inputs for bloomery recipes
-- Disable ad astra smelting/blasting recipes
-- Change chute, cart assembler, and mechanical drill recipe
-- Add stonecutting recipes for molds
-- Replace iron smelting/blasting recipes with wrought iron
-- Add upgrade recipes for HP steam boilers
-- Change barrel recipe
-- Remove redundant planks to slab recipes
-- Remove campfire oreberry recipes
-- Redo steel recipes to make wrought iron slower, and iron 2x faster.
-- Hide create zinc ore, block, copper nugget, and brass ingot, nugget and block
-- Hide ad astra iron ores
-- Fix broken electron tube, sturdy sheet, and brass ingot/plate replacements
-- Add sand paper for each GT tier
-- Fix some raw ores not having the correct stack size
-- Change wood ring recipe
-- Disable solar boilers
-- Add campfire recipe for Cooking For Blockheads book
-- Disable Cooking For Blockheads sink being an infinite source
-- Gregify Farmers Delight food recipes
-- Add lootbags for ULV quests and add them to respective quests
-- Replace Lychee with KubeJS Additions for create chromatic compound recipes
+- Add missing gregified farmers delight foods
+- Make farmers delight cooking pot and stoves use steel plates instead of iron ingots
+- Fix wrong recipe for bloomery
+- Fix missing recipe for brick mold
 
 **Mod Changes**
-- Add RightClickHarvest
-- Terralith_1.20.4_v2.4.11 -> Terralith_1.20_v2.5.1
-- resourcefullib-forge-1.20.1-2.1.24 -> resourcefullib-forge-1.20.1-2.1.25
-- Stargate Journey-1.20.1-0.6.25 Hotfix -> Stargate Journey-1.20.1-0.6.26
-- MouseTweaks-forge-mc1.20-2.25 -> MouseTweaks-forge-mc1.20.1-2.25.1
-- fancymenu_forge_3.2.0_MC_1.20.1 -> fancymenu_forge_3.2.3_MC_1.20.1
-- Jade-1.20.1-forge-11.8.0 -> Jade-1.20.1-forge-11.9.2
-- appliedenergistics2-forge-15.1.1 -> appliedenergistics2-forge-15.2.1
-- embeddium-0.3.18+mc1.20.1-all -> embeddium-0.3.19+mc1.20.1-all
-- PuzzlesLib-v8.1.18-1.20.1-Forge -> PuzzlesLib-v8.1.19-1.20.1-Forge
-- Steam_Rails-1.6.3+forge-mc1.20.1 -> Steam_Rails-1.6.4+forge-mc1.20.1
-- bucketlib-1.20.1-2.3.3.2 -> bucketlib-1.20.1-2.3.4.0
-- polylib-forge-2000.0.3-build.133 -> polylib-forge-2000.0.3-build.143
-- sophisticatedstorage-1.20.1-0.10.21.793 -> sophisticatedstorage-1.20.1-0.10.25.804
-- sophisticatedcore-1.20.1-0.6.21.609 -> sophisticatedcore-1.20.1-0.6.22.611
+- 
