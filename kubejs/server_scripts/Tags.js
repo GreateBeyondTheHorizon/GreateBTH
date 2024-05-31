@@ -12,7 +12,7 @@ ServerEvents.tags('item', event => {
 	event.add('gbth:tin_bloom_inputs', ['#forge:raw_materials/tin', '#forge:raw_materials/cassiterite', '#forge:raw_materials/cassiterite_sand'])
 	event.add('gbth:wrought_iron_bloom_inputs', ['#forge:raw_materials/iron', '#forge:raw_materials/pyrite', '#forge:raw_materials/magnetite', '#forge:raw_materials/hematite', '#forge:raw_materials/goethite', '#forge:raw_materials/yellow_limonite', '#forge:raw_materials/basaltic_mineral_sand', '#forge:raw_materials/granitic_mineral_sand'])
 	event.add('gbth:sandpaper_bases', ['create:sand_paper', 'create:red_sand_paper'])
-	event.add('gbth:stoves', ['farmersdelight:stove', 'nethersdelight:blackstone_stove'])
+	event.add('gbth:stoves', ['farmersdelight:stove', 'nethersdelight:blackstone_stove', '#forge:campfires'])
 
 	event.add('c:black_dyes', ['#forge:dyes/black'])
 	event.add('c:blue_dyes', ['#forge:dyes/blue'])

@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "cooking_with_gas"
+  ],
+  "tasks": {},
+    "rewards": {
+    "lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "UNCOMMON",
+          "Color": 13882323,
+          "Loot": "lootbags:kjs/1tfgxr2ua1fe8jjge9tstvzif",
+          "Name": "Lootbag (Tasty Foods)"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [],
+    "groups": {
+      "Staying Full": {
+        "position": [
+          59,
+          -136
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmersdelight:roast_chicken_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Roast Chicken"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

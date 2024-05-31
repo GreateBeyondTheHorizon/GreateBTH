@@ -2,6 +2,7 @@
 ServerEvents.recipes(event => {
 
 	event.remove({ id: 'greate:shaped/andesite_alloy' })
+	event.remove({ id: 'greate:shaped/andesite_alloy_millstone' })
 
 	global.Greate.Tiers.forEach(tier => {
 		// small cogwheel
@@ -27,4 +28,21 @@ ServerEvents.recipes(event => {
 		'gtceu:steel_plate',
 		Fluid.of('gtceu:rubber', 250)
 	])
+
+	event.shaped(
+		Item.of('greate:andesite_alloy_millstone'),
+		[
+			'DCD',
+			'SAS',
+			'PFP'
+		],
+		{
+			D: 'minecraft:diamond',
+			C: 'greate:andesite_alloy_cogwheel',
+			S: '#minecraft:wooden_slabs',
+			A: 'gtceu:ulv_machine_casing',
+			P: 'minecraft:piston',
+			F: 'greate:andesite_alloy_shaft'
+		}
+	)
 })

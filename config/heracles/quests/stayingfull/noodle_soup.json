@@ -1,0 +1,62 @@
+{
+  "dependencies": [
+    "cooking_with_gas"
+  ],
+  "tasks": {
+    "soup": {
+      "type": "heracles:item",
+      "item": "farmersdelight:noodle_soup",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+    "rewards": {
+    "lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "UNCOMMON",
+          "Color": 13882323,
+          "Loot": "lootbags:kjs/1tfgxr2ua1fe8jjge9tstvzif",
+          "Name": "Lootbag (Tasty Foods)"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Staying Full": {
+        "position": [
+          59,
+          15
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmersdelight:noodle_soup",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "noodle_soup"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

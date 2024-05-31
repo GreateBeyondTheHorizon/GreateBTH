@@ -1,0 +1,62 @@
+{
+  "dependencies": [
+    "the_andesite_age"
+  ],
+  "tasks": {
+    "saw": {
+      "type": "heracles:item",
+      "item": "greate:andesite_alloy_mechanical_saw",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 13882323,
+          "Loot": "lootbags:kjs/3ui6gksr7gxl82e5t9pkch2ls",
+          "Name": "Lootbag (ULV Age)"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The /d/Mechanical Saw/d/ will allow you to cut wood in a 1:6 ratio of logs to planks. it will also unlock certain /d/Cutter/d/ recipces."
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings": {
+        "position": [
+          50,
+          -196
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "greate:andesite_alloy_mechanical_saw",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Andesite Alloy Saw"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

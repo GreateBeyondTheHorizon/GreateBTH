@@ -1,8 +1,31 @@
 **Script/Config Changes**
-- Add missing gregified farmers delight foods
+- Add missing gregified farmers delight & nethers delight foods
 - Make farmers delight cooking pot and stoves use steel plates instead of iron ingots
 - Fix wrong recipe for bloomery
 - Fix missing recipe for brick mold
+- Show loottables in JEI
+- Change andesite alloy recipe to use wrought iron nuggets instead of bronze nuggets
+- Make wood plate crafting recipe cheaper
+- Make treated wood plate crafting recipe require hammer
+- Remove macerators in favor of millstones/crushing wheels
+- Remove GT kinetic mixers
+- Update basin recipe
+- Update cauldron recipe
+- Change rock crushing recipes to be longer
+- Change obsidian rock crushing recipe to consume redstone
+- Add rock crushing recipes for cobbled deepslate, tuff and smooth basalt
+- Allow andesite to be made at ULV instead of MV in the rock crusher
+- Remove mushroom soup, rabbit stew, and beetroot soup crafting recipe
+- Stack all soups/stews/juices/etc to 64
+- Make stoves stake wrought iron plates instead of steel
 
 **Mod Changes**
-- 
+- Add EMI Loot
+- SimpleBackups-1.20.1-3.1.4 -> SimpleBackups-1.20.1-3.1.6
+- Stargate Journey-1.20.1-0.6.26 -> Stargate Journey-1.20.1-0.6.26 Hotfix
+- colorfulhearts-forge-1.20.1-4.0.4 -> colorfulhearts-forge-1.20.1-4.1.6
+- cc-tweaked-1.20.1-forge-1.110.3 -> cc-tweaked-1.20.1-forge-1.111.0
+- create_connected-0.7.4-mc1.20.1-all -> create_connected-0.8.2-mc1.20.1-all
+- PuzzlesLib-v8.1.19-1.20.1-Forge -> PuzzlesLib-v8.1.20-1.20.1-Forge
+- entityculling-forge-1.6.2-mc1.20.1 -> entityculling-forge-1.6.5-mc1.20.1
+- curios-forge-5.9.0+1.20.1 -> curios-forge-5.9.1+1.20.1

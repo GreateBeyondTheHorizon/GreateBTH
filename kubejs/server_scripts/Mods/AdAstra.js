@@ -6,6 +6,7 @@ ServerEvents.recipes( event => {
 	event.remove({ id: /ad_astra:(smelting|blasting)(.*)iron_ingot_from_(smelting|blasting)_(.*)_iron_ore/})
 	event.remove({ type: 'ad_astra:compressing' })
 	event.remove({ type: 'ad_astra:alloying' })
+	event.remove({type: 'create:cutting', output: /ad_astra:(.*)_planks/})
 
 	//stainless steel
 	event.shaped(

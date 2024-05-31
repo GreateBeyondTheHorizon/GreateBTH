@@ -5,13 +5,6 @@
   "tasks": {
     "1AD2CFD30C66D801": {
       "title": "I understand",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "type": "heracles:check"
     }
   },
@@ -23,7 +16,7 @@
         "nbt": {
           "Type": "COMMON",
           "Color": 13882323,
-          "Loot": "lootbags:kjs/66ldxioecfcrske6m3a446300",
+          "Loot": "lootbags:kjs/3ui6gksr7gxl82e5t9pkch2ls",
           "Name": "Lootbag (ULV Age)"
         }
       },
@@ -36,18 +29,20 @@
     },
     "description": [
       "Create now has tiers that mirror GregTech tiers. This means:",
-      
-      "- Stress tiers use the same values as voltage tiers. LV: 32 volts. LS: 32 stress units.",
-      
-      "- Shafts have an SU limit and SU consumption, similar to GregTech wires. Shafts made of different materials have different SU limits and SU consumption.",
-      
-      "- Recipes in Create machines have minimum SU requirements based on tier."
+      "",
+      "/d/\"Stress Tiers\"/d/ use the same values as GregTech /d/Voltage Tiers/d/. LV: 32 volts. LS: 32 stress units.",
+      "",
+      "Shafts have an SU limit and SU consumption, similar to GregTech wires. Shafts made of different materials have different SU limits and SU consumption.",
+      "",
+      "Other Tiered Blocks now have an SU limit, meaning once the amount of /d/stress generated/d/ on a line is /c/exceeded/c/, machines will stop until rectified. (Similar to how overcapacity works)",
+      "",
+      "Recipes in Create machines have /d/minimum SU requirements/d/ based on tier, which can be viewed in JEI."
     ],
     "groups": {
       "ULV/ULS - Humble Beginnings": {
         "position": [
           80,
-          -304
+          -288
         ]
       }
     },

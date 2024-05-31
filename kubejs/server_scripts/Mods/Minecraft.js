@@ -38,6 +38,9 @@ ServerEvents.recipes(event => {
 	event.remove({id: 'minecraft:pumpkin_pie'})
 	event.remove({id: /create:(smelting|smoking)(.*)bread/})
 	event.remove({id: 'minecraft:bread'})
+	event.remove({id: 'minecraft:mushroom_stew'})
+	event.remove({id: 'minecraft:beetroot_soup'})
+	event.remove({id: /minecraft:rabbit_stew_from(.*)/})
 
 	event.campfireCooking('minecraft:coal', 'gtceu:raw_coal').cookingTime(300).xp(0.6)
 	event.campfireCooking('minecraft:brick', 'gtceu:compressed_clay').cookingTime(300).xp(0.3)
@@ -49,6 +52,7 @@ ServerEvents.recipes(event => {
 	event.recipes.create.mixing('minecraft:pumpkin_pie', ['minecraft:sugar', 'farmersdelight:pie_crust', 'minecraft:pumpkin']).heated()
 
 	event.replaceInput('gtceu:shaped/piston_iron', 'gtceu:small_iron_gear', 'gtceu:small_bronze_gear')
+	event.replaceInput('gtceu:shaped/cauldron', 'gtceu:iron_plate', 'gtceu:wrought_iron_plate')
 
 	//Temp
 	event.remove({type: 'minecraft:smelting', output: 'gtceu:wrought_iron_nugget'})
@@ -442,13 +446,5 @@ ServerEvents.recipes(event => {
 			C: 'gtceu:paper_dust',
 			W: Item.of('ceramicbucket:ceramic_bucket', '{Fluid:{Amount:1000,FluidName:"minecraft:water"}}').strongNBT()
 		}
-	)
-
-	event.shapeless(
-		Item.of('minecraft:slime_ball'),
-		[
-			'farmersdelight:wheat_dough',
-			'#forge:dyes/lime'
-		]
 	)
 })

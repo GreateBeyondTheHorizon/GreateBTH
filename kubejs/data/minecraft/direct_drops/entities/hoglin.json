@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "bonus_rolls": 0,
+            "rolls": 1,
+            "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "killer_player",
+                  "predicate": {
+                    "equipment": {
+                      "mainhand": {
+                        "tag": "nethersdelight:tools/machetes"
+                      }
+                    }
+                  }
+                }
+              ],
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "nethersdelight:hoglin_hide"
+                }
+            ]
+        }
+    ]
+}

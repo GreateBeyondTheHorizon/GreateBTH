@@ -42,10 +42,8 @@ ServerEvents.recipes(event => {
 
 	event.campfireCooking('minecraft:bread', 'farmersdelight:wheat_dough')
 
-	event.replaceInput({id: 'farmersdelight:stove'}, 'minecraft:iron_ingot', 'gtceu:steel_plate')
-	event.replaceInput({id: 'nethersdelight:blackstone_stove'}, 'minecraft:nether_brick', 'gtceu:steel_plate')
+	event.replaceInput({id: 'farmersdelight:stove'}, 'minecraft:iron_ingot', 'gtceu:wrought_iron_plate')
 	event.replaceInput({id: 'farmersdelight:cooking_pot'}, 'minecraft:iron_ingot', 'gtceu:steel_plate')
-
 
 	event.recipes.create.mixing('farmersdelight:apple_pie', ['3x minecraft:wheat', '3x minecraft:apple', '2x minecraft:sugar', 'farmersdelight:pie_crust']).heated()
 	event.recipes.create.mixing('farmersdelight:chocolate_pie', ['3x minecraft:cocoa_beans', Fluid.of("minecraft:milk", 3000), '2x minecraft:sugar', 'farmersdelight:pie_crust']).heated()

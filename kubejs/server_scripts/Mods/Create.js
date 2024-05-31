@@ -10,9 +10,9 @@ ServerEvents.recipes(event => {
 	event.remove({id: 'create:crafting/kinetics/steam_engine'})
 	event.remove({id: 'create:crafting/kinetics/water_wheel' })
 	event.remove({id: 'create:crafting/kinetics/windmill_bearing'})
-
-
-	event.replaceInput({id: 'create:crafting/kinetics/empty_blaze_burner'}, 'gtceu:iron_plate', 'gtceu:steel_plate')
+	event.remove({id: /create:mixing(.*)andesite_alloy(.*)/})
+	event.remove({id: 'create:crafting/kinetics/basin'})
+	event.remove({id: 'create:crafting/kinetics/empty_blaze_burner'})
 
 	//#region mixing
 	event.recipes.createMixing('minecraft:turtle_helmet', [
@@ -30,9 +30,14 @@ ServerEvents.recipes(event => {
 		Item.of('gtceu:sulfur_dust', 1)
 	]).heated()
 
+	event.recipes.createMixing('create:andesite_alloy', [
+		'gtceu:wrought_iron_nugget',
+		'minecraft:andesite'
+	])
+
 
 	//#region SU gen
-	//water wheel small
+
 	event.shaped(	
 		Item.of('create:water_wheel', 1),
 		[
@@ -48,7 +53,7 @@ ServerEvents.recipes(event => {
 			E:'#forge:tools/files',
 		}
 	)
-	//water wheel large
+
 	event.shaped(	
 		Item.of('create:large_water_wheel', 1),
 		[
@@ -65,9 +70,6 @@ ServerEvents.recipes(event => {
 		}
 	)
 
-
-	
-	//windmill bearing
 	event.shaped(	
 		Item.of('create:windmill_bearing', 1),
 		[
@@ -84,9 +86,8 @@ ServerEvents.recipes(event => {
 			F:'gtceu:steel_spring',
 		}
 	)
-	//steam engine
-	event.recipes.createMechanicalCrafting(
-		Item.of('create:steam_engine', 1),
+
+	event.recipes.createMechanicalCrafting(Item.of('create:steam_engine', 1),
 		[ 
 			' C ',
 			' F ',
@@ -104,8 +105,6 @@ ServerEvents.recipes(event => {
 			F: 'gtceu:gold_plate',
 		}
 )
-	// #endregion
-	// potato cannon
 	event.recipes.createMechanicalCrafting(
 		Item.of('create:potato_cannon', 1),
 		[ 
@@ -120,7 +119,6 @@ ServerEvents.recipes(event => {
 		}
 	)
 	
-	// Copper Diving Helmet
 	event.shaped(
 		Item.of('create:copper_diving_helmet', 1),
 		[
@@ -135,9 +133,8 @@ ServerEvents.recipes(event => {
 			D: 'gtceu:rubber_plate',
 		}
 	)
-	// Copper Backtank
-	event.shaped(
-		Item.of('create:copper_backtank', 1),
+
+	event.shaped(Item.of('create:copper_backtank', 1),
 		[
 			'DCD',
 			'ABA',
@@ -150,9 +147,8 @@ ServerEvents.recipes(event => {
 			D: 'gtceu:rubber_plate',
 		}
 	)
-	// Copper Diving Boots
-	event.shaped(
-		Item.of('create:copper_diving_boots', 1),
+
+	event.shaped(Item.of('create:copper_diving_boots', 1),
 		[
 			'D D',
 			'A A',
@@ -164,9 +160,7 @@ ServerEvents.recipes(event => {
 		}
 	)
 
-	// Netherite Diving Helmet
-	event.shaped(
-		Item.of('create:netherite_diving_helmet', 1),
+	event.shaped(Item.of('create:netherite_diving_helmet', 1),
 		[
 			'AAA',
 			'ABA',
@@ -179,9 +173,8 @@ ServerEvents.recipes(event => {
 			D: 'gtceu:styrene_butadiene_rubber_plate',
 		}
 	)
-	// Netherite Backtank
-	event.shaped(
-		Item.of('create:netherite_backtank', 1),
+
+	event.shaped(Item.of('create:netherite_backtank', 1),
 		[
 			'DCD',
 			'ABA',
@@ -194,9 +187,8 @@ ServerEvents.recipes(event => {
 			D: 'gtceu:styrene_butadiene_rubber_plate',
 		}
 	)
-	// Netherite Diving Boots
-	event.shaped(
-		Item.of('create:netherite_diving_boots', 1),
+
+	event.shaped(Item.of('create:netherite_diving_boots', 1),
 		[
 			'DBD',
 			'A A',
@@ -209,32 +201,29 @@ ServerEvents.recipes(event => {
 		}
 	)
 
-	event.shaped(
-		Item.of('create:andesite_alloy'),
+	event.shaped(Item.of('create:andesite_alloy'),
 		[
 			'AN',
 			'NA'
 		],
 		{
 			A: 'minecraft:andesite',
-			N: 'gtceu:bronze_nugget'
+			N: 'gtceu:wrought_iron_nugget'
 		}
 	)
 
-	event.shaped(
-		Item.of('create:andesite_alloy'),
+	event.shaped(Item.of('create:andesite_alloy'),
 		[
 			'NA',
 			'AN'
 		],
 		{
 			A: 'minecraft:andesite',
-			N: 'gtceu:bronze_nugget'
+			N: 'gtceu:wrought_iron_nugget'
 		}
 	)
 
-	event.shaped(
-		Item.of('create:hand_crank'),
+	event.shaped(Item.of('create:hand_crank'),
 		[
 			'TTT',
 			'  A'
@@ -245,8 +234,7 @@ ServerEvents.recipes(event => {
 		}
 	)
 
-	event.shaped(
-		Item.of('create:chute'),
+	event.shaped(Item.of('create:chute'),
 		[
 			'PGP',
 			'PCP',
@@ -261,8 +249,7 @@ ServerEvents.recipes(event => {
 		}
 	)
 
-	event.shaped(
-		Item.of('create:cart_assembler'),
+	event.shaped(Item.of('create:cart_assembler'),
 		[
 			'SRS',
 			'LCL',
@@ -275,8 +262,7 @@ ServerEvents.recipes(event => {
 		}
 	)
 
-	event.shaped(
-		Item.of('create:mechanical_drill'),
+	event.shaped(Item.of('create:mechanical_drill'),
 		[
 			' A ',
 			'ASA',
@@ -286,6 +272,31 @@ ServerEvents.recipes(event => {
 			A: 'create:andesite_alloy',
 			S: 'gtceu:steel_plate',
 			C: 'create:andesite_casing',
+		}
+	)
+
+	event.shaped(Item.of('create:basin'),
+		[
+			'AHA',
+			'AAA'
+		],
+		{
+			A: 'gtceu:andesite_alloy_plate',
+			H: '#forge:tools/hammers',
+		}
+	)
+
+	event.shaped(Item.of('create:empty_blaze_burner'),
+		[
+			' P ',
+			'PBP',
+			'SPW'
+		],
+		{
+			P: 'gtceu:steel_plate',
+			B: 'minecraft:netherrack',
+			S: '#forge:tools/screwdrivers',
+			W: '#forge:tools/wrenches'
 		}
 	)
 })

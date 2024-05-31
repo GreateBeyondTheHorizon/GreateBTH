@@ -9,4 +9,17 @@ ServerEvents.recipes(event => {
             .itemOutputs(output)
             .EUt(32)
     })
+
+    event.recipes.gtceu.alloy_smelter('andesite_alloy_ingot')
+        .duration(200)
+        .itemInputs('create:andesite_alloy')
+        .notConsumable('gtceu:ingot_casting_mold')
+        .itemOutputs('gtceu:andesite_alloy_ingot')
+        .EUt(7)
+
+    event.recipes.gtceu.alloy_smelter('andesite_alloy')
+        .duration(200)
+        .itemInputs(['gtceu:wrought_iron_nugget', 'minecraft:andesite'])
+        .itemOutputs('create:andesite_alloy')
+        .EUt(7)
 })
