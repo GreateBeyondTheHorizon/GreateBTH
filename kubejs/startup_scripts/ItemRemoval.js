@@ -189,5 +189,7 @@ removeNamespaceItems('ae2', [
 
 removeNamespaceItems('gtceu', [
 	'lp_steam_solar_boiler',
-	'hp_steam_solar_boiler'
+	'hp_steam_solar_boiler',
+	/(.*)macerator/,
+	/(.*)kinetic_mixer/
 ])

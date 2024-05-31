@@ -1,0 +1,96 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "rack": {
+      "type": "heracles:item",
+      "item": "cookingforblockheads:tool_rack",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "fridge": {
+      "type": "heracles:item",
+      "item": "cookingforblockheads:fridge",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "stove": {
+      "type": "heracles:item",
+      "item": "#cookingforblockheads:ovens",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "ing_rack": {
+      "type": "heracles:item",
+      "item": "cookingforblockheads:spice_rack",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "milk": {
+      "type": "heracles:item",
+      "item": "cookingforblockheads:cow_jar",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "kitchen": {
+      "type": "heracles:item",
+      "item": "cookingforblockheads:cooking_table",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "toaster": {
+      "type": "heracles:item",
+      "item": "cookingforblockheads:toaster",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+    "rewards": {
+    "lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "UNCOMMON",
+          "Color": 13882323,
+          "Loot": "lootbags:kjs/1tfgxr2ua1fe8jjge9tstvzif",
+          "Name": "Lootbag (Tasty Foods)"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Provides and easy way to make certain foods."
+    ],
+    "groups": {
+      "Staying Full": {
+        "position": [
+          -87,
+          -97
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "cookingforblockheads:cooking_table",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "A Fully Fleshed Kitchen"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

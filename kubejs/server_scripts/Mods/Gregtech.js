@@ -64,12 +64,11 @@ ServerEvents.recipes(event => {
 	event.replaceInput('gtceu:shaped/pump_hatch', 'gtceu:iron_screw', 'gtceu:wrought_iron_screw')
 	event.replaceInput('gtceu:shaped/pump_hatch', 'gtceu:iron_ring', 'gtceu:wrought_iron_ring')
 	event.replaceInput('gtceu:shaped/steam_extractor_bronze', 'gtceu:bronze_machine_casing', 'gtceu:bronze_brick_casing')
-	event.replaceInput('gtceu:shaped/steam_macerator_bronze', 'gtceu:bronze_machine_casing', 'gtceu:bronze_brick_casing')
 	event.replaceInput('gtceu:shaped/steam_compressor_bronze', 'gtceu:bronze_machine_casing', 'gtceu:bronze_brick_casing')
 	event.replaceInput('gtceu:shaped/steam_hammer_bronze', 'gtceu:bronze_machine_casing', 'gtceu:bronze_brick_casing')
 	event.replaceInput('gtceu:shaped/steam_rock_breaker_bronze', 'gtceu:bronze_machine_casing', 'gtceu:bronze_brick_casing')
 	event.replaceInput('gtceu:shaped/steam_oven', 'gtceu:lp_steam_furnace', 'gtceu:hp_steam_furnace')
-	event.replaceInput('gtceu:shaped/steam_grinder', 'gtceu:lp_steam_macerator', 'gtceu:hp_steam_macerator')
+	event.replaceInput('gtceu:shaped/casing_ulv', 'gtceu:wrought_iron_plate', 'gtceu:iron_plate')
 
 	event.replaceOutput(/gtceu:(smelting|blasting)(.*)_to_ingot/, 'minecraft:iron_ingot', 'gtceu:wrought_iron_ingot')
 
@@ -136,17 +135,19 @@ ServerEvents.recipes(event => {
 			'A'
 		],
 		{
-			A:'#minecraft:logs',
+			A:'#minecraft:planks',
 			H: '#forge:tools/hammers'
 		}
 	)
 	event.shaped(
 		Item.of('gtceu:treated_wood_plate'),
 		[
+			'H',
 			'A',
-			'A',
+			'A'
 		],
 		{
+			H: '#forge:tools/hammers',
 			A:'gtceu:treated_wood_planks'
 		}
 	)

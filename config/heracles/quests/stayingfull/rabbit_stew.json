@@ -1,0 +1,62 @@
+{
+  "dependencies": [
+    "cooking_with_gas"
+  ],
+  "tasks": {
+    "rabbit_stew": {
+      "type": "heracles:item",
+      "item": "minecraft:rabbit_stew",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+    "rewards": {
+    "lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "UNCOMMON",
+          "Color": 13882323,
+          "Loot": "lootbags:kjs/1tfgxr2ua1fe8jjge9tstvzif",
+          "Name": "Lootbag (Tasty Foods)"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Staying Full": {
+        "position": [
+          -35,
+          -178
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:rabbit_stew",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Rabbit Stew"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

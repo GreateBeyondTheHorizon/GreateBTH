@@ -1,0 +1,70 @@
+{
+  "dependencies": [
+    "the_andesite_age"
+  ],
+  "tasks": {
+    "goggles": {
+      "type": "heracles:item",
+      "item": "create:goggles",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "wrench": {
+      "type": "heracles:item",
+      "item": "create:wrench",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 13882323,
+          "Loot": "lootbags:kjs/3ui6gksr7gxl82e5t9pkch2ls",
+          "Name": "Lootbag (ULV Age)"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The /d/Googles/d/ will allow you to see certain information, such as /d/Stress Impact/d/ & /d/Stress Capacity/d/.",
+      "",
+      "The /d/Wrench/d/ will allow you to instantly pick up certain blocks, rotate blocks, and other block manipulations."
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings": {
+        "position": [
+          46,
+          -256
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:wrench",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Tools of the Trade"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

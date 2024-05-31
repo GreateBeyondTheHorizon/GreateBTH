@@ -18,17 +18,22 @@ var extraRecipesToRemove = [
     'aquaculture:large_boiler/wooden_fillet_knife',
     'create:splashing/crushed_raw_gold',
     'create:splashing/crushed_raw_copper',
-    'create:splashing/crushed_raw_iron'
+    'create:splashing/crushed_raw_iron',
+    /gtceu:(macerator|arc_furnace)(.*)solar_boiler/,
+    /gtceu:(macerator|arc_furnace)(.*)macerator/
 ]
 
 var recpiesToReplace = [
-    { input: Item.of('kubejs:removed_item_placeholder', '{Removed:"ad_astra:steel_rod"}').weakNBT(), replacement: '#forge:rods/steel' },
-    { input: Item.of('kubejs:removed_item_placeholder', '{Removed:"ad_astra:iron_rod"}').weakNBT(), replacement: '#forge:rods/iron' },
-    { input: Item.of('kubejs:removed_item_placeholder', '{Removed:"create:iron_sheet"}').weakNBT(), replacement: '#forge:plates/iron' },
-    { input: Item.of('kubejs:removed_item_placeholder', '{Removed:"create:electron_tube"}').weakNBT(), replacement: '#gtceu:circuits/ulv' },
-    { input: Item.of('kubejs:removed_item_placeholder', '{Removed:"create:sturdy_sheet"}').weakNBT(), replacement: '#forge:plates/obsidian' },
-    { input: Item.of('kubejs:removed_item_placeholder', '{Removed:"create:brass_sheet"}').weakNBT(), replacement: '#forge:plates/brass' },
-    { input: Item.of('kubejs:removed_item_placeholder', '{Removed:"create:brass_ingot"}').weakNBT(), replacement: '#forge:plates/brass' }
+    {removedItem: "ad_astra:steel_rod", replacement: '#forge:rods/steel'},
+    {removedItem: "ad_astra:iron_rod", replacement: '#forge:rods/iron'},
+    {removedItem: "create:iron_sheet", replacement: '#forge:plates/iron'},
+    {removedItem: "create:electron_tube", replacement: '#gtceu:circuits/ulv'},
+    {removedItem: "create:sturdy_sheet", replacement: '#forge:plates/obsidian'},
+    {removedItem: "create:brass_sheet", replacement: '#forge:plates/brass'},
+    {removedItem: "create:brass_ingot", replacement: '#forge:plates/brass'},
+    {removedItem: "gtceu:lp_steam_macerator", replacement: 'greate:andesite_alloy_millstone'},
+    {removedItem: "create:dough", replacement: 'farmersdelight:wheat_dough'},
+    {removedItem: "gtceu:iv_macerator", replacement: 'greate:tungsten_steel_millstone'}
 ]
 
 //priority: 1
@@ -64,6 +69,7 @@ ServerEvents.recipes(event => {
     })
 
     recpiesToReplace.forEach(recipe => {
-        event.replaceInput(recipe.input, recipe.input, recipe.replacement)
+        var item = Item.of('kubejs:removed_item_placeholder', `{Removed:"${recipe.removedItem}"}`).weakNBT()
+        event.replaceInput(item, item, recipe.replacement)
     })
 })

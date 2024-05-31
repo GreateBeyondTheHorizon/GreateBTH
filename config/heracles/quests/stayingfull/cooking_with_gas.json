@@ -1,0 +1,68 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "pot": {
+      "type": "heracles:item",
+      "item": "farmersdelight:cooking_pot",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "stove": {
+      "type": "heracles:item",
+      "item": "#gbth:stoves",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+    "rewards": {
+    "lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "UNCOMMON",
+          "Color": 13882323,
+          "Loot": "lootbags:kjs/1tfgxr2ua1fe8jjge9tstvzif",
+          "Name": "Lootbag (Tasty Foods)"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Some foods require the use of the /d/Cooking Pot/d/, which needs to be placed above a heat source.",
+      "",
+      "Can be placed above /d/Fire/d/ or /d/Lava/d/, in addition to the stove blocks."
+    ],
+    "groups": {
+      "Staying Full": {
+        "position": [
+          32,
+          -97
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmersdelight:cooking_pot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Cooking With Gas"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

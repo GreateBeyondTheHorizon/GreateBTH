@@ -89,7 +89,7 @@
 	#.
 	#multiplier used for calculating exhaustion from speed when a crank is turned.
 	#Range: 0.0 ~ 1.0
-	crankHungerMultiplier = 0.009999999776482582
+	crankHungerMultiplier = 0.00099999776482582
 	#.
 	#Amount of sail-type blocks required for a windmill to assemble successfully.
 	#Range: > 0
@@ -295,7 +295,7 @@
 			#Configure how much stress a source can accommodate for.
 			[kinetics.stressValues.v2.capacity]
 				copper_valve_handle = 1.0
-				hand_crank = 1.0
+				hand_crank = 0.25
 				steam_engine = 256.0
 				creative_motor = 2097152.0
 				large_water_wheel = 8.0

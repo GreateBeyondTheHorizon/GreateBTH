@@ -1,0 +1,62 @@
+{
+  "dependencies": [
+    "bronze_brick_casing"
+  ],
+  "tasks": {
+    "rock_crusher": {
+      "type": "heracles:item",
+      "item": "gtceu:lp_steam_rock_crusher",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 13882323,
+          "Loot": "lootbags:kjs/3ui6gksr7gxl82e5t9pkch2ls",
+          "Name": "Lootbag (ULV Age)"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Used to make certain types of /d/Rocks/d/ such as /d/Stone/d/, /d/Andesite/d/, /d/Obsidian/d/ and more. Check /d/JEI/d/ for a full list."
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings": {
+        "position": [
+          -192,
+          -112
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:lp_steam_rock_crusher",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Rock Crusher"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

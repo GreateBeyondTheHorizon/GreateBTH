@@ -24,7 +24,7 @@
         "nbt": {
           "Type": "COMMON",
           "Color": 13882323,
-          "Loot": "lootbags:kjs/66ldxioecfcrske6m3a446300",
+          "Loot": "lootbags:kjs/3ui6gksr7gxl82e5t9pkch2ls",
           "Name": "Lootbag (ULV Age)"
         }
       },
@@ -38,7 +38,7 @@
     "description": [
       "Andesite alloy and casings will be your best friend until you are able to produce steel. they can support up to 8su, or one waterwheel. If any create block confuses you, just hover over them and hold the ponder key.",
       "",
-      "Check the /d/Stress and You: A Guide/d/ section for more information on the stress system."
+      "Check the /d/Stress and You: A Guide/d/ section, as well as /d/Pondering/d/ certain items for more information on the stress system."
     ],
     "groups": {
       "ULV/ULS - Humble Beginnings": {

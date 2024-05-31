@@ -1,26 +1,25 @@
 {
   "dependencies": [
-    "bronze_brick_casing"
+    "ulv_mixer"
   ],
   "tasks": {
-    "536181BB0DB13E4D": {
+    "fruit_salad": {
       "type": "heracles:item",
-      "item": "gtceu:lp_steam_macerator",
-      "nbt": {},
+      "item": "minecraft:air",
       "amount": 1,
       "collection": "AUTOMATIC"
     }
   },
-  "rewards": {
+    "rewards": {
     "lootbag": {
       "item": {
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
-          "Type": "COMMON",
+          "Type": "UNCOMMON",
           "Color": 13882323,
-          "Loot": "lootbags:kjs/66ldxioecfcrske6m3a446300",
-          "Name": "Lootbag (ULV Age)"
+          "Loot": "lootbags:kjs/1tfgxr2ua1fe8jjge9tstvzif",
+          "Name": "Lootbag (Tasty Foods)"
         }
       },
       "type": "heracles:item"
@@ -31,26 +30,26 @@
       "text": ""
     },
     "description": [
-      "A crusher powered by steam."
+      ""
     ],
     "groups": {
-      "ULV/ULS - Humble Beginnings": {
+      "Staying Full": {
         "position": [
-          -192,
-          -112
+          -260,
+          -70
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "gtceu:lp_steam_macerator",
+        "id": "farmersdelight:fruit_salad",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Crusher V1"
+      "translate": "Fruit Salad"
     }
   },
   "settings": {

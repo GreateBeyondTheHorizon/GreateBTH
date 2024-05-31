@@ -4,7 +4,7 @@ ServerEvents.recipes(event => {
 		name: 'Lootbag (Dirt Age)',
 		rarity: 'COMMON',
 		output: {
-			table: 'gbth:dirt_age'
+			table: 'gbth:chests/dirt_age'
 		}
 	})
 
@@ -13,7 +13,7 @@ ServerEvents.recipes(event => {
 		name: 'Lootbag (Common Food)',
 		rarity: 'COMMON',
 		output: {
-			table: 'gbth:common_food'
+			table: 'gbth:chests/common_food'
 		}
 	})
 
@@ -22,7 +22,16 @@ ServerEvents.recipes(event => {
 		name: 'Lootbag (ULV Age)',
 		rarity: 'COMMON',
 		output: {
-			table: 'gbth:ulv_age'
+			table: 'gbth:chests/ulv_age'
+		}
+	})
+
+	event.custom({
+		type: 'lootbags:loot',
+		name: 'Lootbag (Tasty Foods)',
+		rarity: 'UNCOMMON',
+		output: {
+			table: 'gbth:chests/tasty_foods'
 		}
 	})
 })

@@ -18,7 +18,7 @@
         "nbt": {
           "Type": "COMMON",
           "Color": 13882323,
-          "Loot": "lootbags:kjs/66ldxioecfcrske6m3a446300",
+          "Loot": "lootbags:kjs/3ui6gksr7gxl82e5t9pkch2ls",
           "Name": "Lootbag (ULV Age)"
         }
       },
@@ -31,13 +31,12 @@
     },
     "description": [
       "Magmati will later add a proper description when this is finalised. He will deffinately not  forget to write this.",
-      
       "&&oLooks like he forgot to write this&&r - lonevox"
     ],
     "groups": {
       "ULV/ULS - Humble Beginnings": {
         "position": [
-          128,
+          112,
           -256
         ]
       }

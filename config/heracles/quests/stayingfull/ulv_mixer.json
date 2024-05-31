@@ -1,0 +1,66 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "mixer": {
+      "type": "heracles:item",
+      "item": "greate:andesite_alloy_mechanical_mixer",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "basin": {
+      "type": "heracles:item",
+      "item": "create:basin",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+    "rewards": {
+    "lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "UNCOMMON",
+          "Color": 13882323,
+          "Loot": "lootbags:kjs/1tfgxr2ua1fe8jjge9tstvzif",
+          "Name": "Lootbag (Tasty Foods)"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Some foods require the use of the /d/Mixer/d/ to create."
+    ],
+    "groups": {
+      "Staying Full": {
+        "position": [
+          -197,
+          -97
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "greate:andesite_alloy_mechanical_mixer",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Mixing Foods"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}
