@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "lv_motor"
+  ],
+  "tasks": {
+    "pump": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_electric_pump",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "LV/LS - The Grind Starts Here": {
+        "position": [
+          -68,
+          -125
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:lv_electric_pump",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Microcrafting Hell Begins, 2"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "lv_pump",
+    "the_first_of_many"
+  ],
+  "tasks": {
+    "scrubber": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_air_scrubber",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "GT machines produce /d/Pollution/d/, which if not handled, can cause bad effects to the world and players around it."
+    ],
+    "groups": {
+      "LV/LS - The Grind Starts Here": {
+        "position": [
+          -69,
+          -168
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:lv_air_scrubber",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Scrubbing The Air"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

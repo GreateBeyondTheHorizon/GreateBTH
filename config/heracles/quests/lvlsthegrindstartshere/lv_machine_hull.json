@@ -1,0 +1,40 @@
+{
+  "dependencies": [
+    "casing"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [],
+    "groups": {
+      "LV/LS - The Grind Starts Here": {
+        "position": [
+          194,
+          -271
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:lv_machine_hull",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "The Basis For GT Machines"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

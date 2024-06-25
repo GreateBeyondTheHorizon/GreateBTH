@@ -6,7 +6,7 @@
     "2F28652D1DC6C843": {
       "type": "heracles:item",
       "item": "greate:rubber_belt_connector",
-      "amount": 8,
+      "amount": 1,
       "collection": "AUTOMATIC"
     }
   },
@@ -30,13 +30,15 @@
       "text": ""
     },
     "description": [
-      "Logistic principles incarnate."
+      "Logistic principles incarnate.",
+      "",
+      "Can connect to /d/Andesite Alloy/d/ and /d/Steel/d/ shafts."
     ],
     "groups": {
       "ULV/ULS - Humble Beginnings": {
         "position": [
-          48,
-          -48
+          81,
+          -78
         ]
       }
     },

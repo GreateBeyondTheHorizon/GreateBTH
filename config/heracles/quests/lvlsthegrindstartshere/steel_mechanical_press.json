@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "casing",
+    "the_first_of_many"
+  ],
+  "tasks": {
+    "steel_press": {
+      "type": "heracles:item",
+      "item": "greate:steel_mechanical_press",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Allows for cheaper recipes for /d/plates/d/, /d/foils/d/, and more."
+    ],
+    "groups": {
+      "LV/LS - The Grind Starts Here": {
+        "position": [
+          111,
+          -273
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "greate:steel_mechanical_press",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Pressing Everything"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

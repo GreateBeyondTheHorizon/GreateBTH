@@ -31,6 +31,10 @@ ServerEvents.tags('item', event => {
 	event.add('c:white_dyes', ['#forge:dyes/white'])
 	event.add('c:yellow_dyes', ['#forge:dyes/yellow'])
 
+	event.add('curios:head', ['gtceu:face_mask'])
+
+	event.add('curios:arms', ['gtceu:rubber_gloves'])
+
 	event.remove('create:sandpaper', ['create:sand_paper', 'create:red_sand_paper'])
 	
 	event.remove('minecraft:planks', 'gtceu:treated_wood_planks')

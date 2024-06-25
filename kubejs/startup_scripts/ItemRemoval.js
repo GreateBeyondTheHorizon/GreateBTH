@@ -100,6 +100,7 @@ removeNamespaceItems('sophisticatedbackpacks', [
 	'xp_pump_upgrade',
 	'smelting_upgrade',
 	'blasting_upgrade',
+	/(.*)copper(.*)/
 ])
 
 // Sophisticated Storage
@@ -131,6 +132,7 @@ removeNamespaceItems('sophisticatedstorage', [
 	'stack_upgrade_tier_4',
 	'stonecutter_upgrade',
 	'xp_pump_upgrade',
+	/(.*)copper(.*)/
 ])
 
 // Ad Astra
@@ -191,5 +193,15 @@ removeNamespaceItems('gtceu', [
 	'lp_steam_solar_boiler',
 	'hp_steam_solar_boiler',
 	/(.*)macerator/,
-	/(.*)kinetic_mixer/
+	/(.*)kinetic_mixer/,
+	/(.*)bender/,
+	/(.*)mixer/,
+	'lv_cutter',
+	'mv_cutter',
+	'hv_cutter',
+	'ev_cutter',
+	'iv_cutter',
+	'luv_cutter',
+	'zpm_cutter',
+	'uv_cutter'
 ])

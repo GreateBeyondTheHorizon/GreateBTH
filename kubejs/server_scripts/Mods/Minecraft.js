@@ -24,7 +24,7 @@ ServerEvents.recipes(event => {
 	event.remove({id: 'minecraft:ender_chest'})
 	event.remove({id: 'minecraft:furnace'})
 	event.remove({id: 'minecraft:grindstone'})
-	event.remove({id: /minecraft:iron_ingot_from_(.*)_iron(.*)/})
+	//event.remove({id: /minecraft:iron_ingot_from_(.*)_iron(.*)/})
 	event.remove({id: 'minecraft:lectern'})
 	event.remove({id: 'minecraft:loom'})
 	event.remove({id: 'minecraft:mud_bricks'})
@@ -53,6 +53,8 @@ ServerEvents.recipes(event => {
 
 	event.replaceInput('gtceu:shaped/piston_iron', 'gtceu:small_iron_gear', 'gtceu:small_bronze_gear')
 	event.replaceInput('gtceu:shaped/cauldron', 'gtceu:iron_plate', 'gtceu:wrought_iron_plate')
+
+	event.replaceOutput('/minecraft:(.*)from_(smelting|blasting)(.*)/', 'minecraft:iron_ingot', 'gtceu:wrought_iron_ingot')
 
 	//Temp
 	event.remove({type: 'minecraft:smelting', output: 'gtceu:wrought_iron_nugget'})

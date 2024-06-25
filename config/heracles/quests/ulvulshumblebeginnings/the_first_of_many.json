@@ -1,27 +1,18 @@
 {
   "dependencies": [
-    "vacuum_tubes",
-    "red_alloy_wires",
-    "tin_bucket",
-    "resistor",
+    "pokey_pokey",
+    "steel_plate",
     "resin_printed_circuit_board",
-    "controlling_liquids",
-    "pokey_pokey"
+    "vacuum_tubes",
+    "resistor",
+    "red_alloy_wires"
   ],
   "tasks": {
     "183450116A86B09D": {
       "type": "heracles:item",
       "item": "gtceu:basic_electronic_circuit",
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {

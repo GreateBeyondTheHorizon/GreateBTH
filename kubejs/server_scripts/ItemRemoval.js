@@ -20,20 +20,34 @@ var extraRecipesToRemove = [
     'create:splashing/crushed_raw_copper',
     'create:splashing/crushed_raw_iron',
     /gtceu:(macerator|arc_furnace)(.*)solar_boiler/,
-    /gtceu:(macerator|arc_furnace)(.*)macerator/
+    /gtceu:(macerator|arc_furnace)(.*)macerator/,
+    /gtceu:(macerator|arc_furnace)(.*)bender/,
+    /gtceu:(macerator|arc_furnace)(.*)mixer/,
+    /gtceu:(macerator|arc_furnace)(.*)lv_cutter/,
+	/gtceu:(macerator|arc_furnace)(.*)mv_cutter/,
+	/gtceu:(macerator|arc_furnace)(.*)hv_cutter/,
+	/gtceu:(macerator|arc_furnace)(.*)ev_cutter/,
+	/gtceu:(macerator|arc_furnace)(.*)iv_cutter/,
+	/gtceu:(macerator|arc_furnace)(.*)luv_cutter/,
+	/gtceu:(macerator|arc_furnace)(.*)zpm_cutter/,
+	/gtceu:(macerator|arc_furnace)(.*)uv_cutter/
 ]
 
 var recpiesToReplace = [
     {removedItem: "ad_astra:steel_rod", replacement: '#forge:rods/steel'},
     {removedItem: "ad_astra:iron_rod", replacement: '#forge:rods/iron'},
+    {removedItem: "create:copper_sheet", replacement: '#forge:plates/copper'},
     {removedItem: "create:iron_sheet", replacement: '#forge:plates/iron'},
     {removedItem: "create:electron_tube", replacement: '#gtceu:circuits/ulv'},
     {removedItem: "create:sturdy_sheet", replacement: '#forge:plates/obsidian'},
     {removedItem: "create:brass_sheet", replacement: '#forge:plates/brass'},
     {removedItem: "create:brass_ingot", replacement: '#forge:plates/brass'},
-    {removedItem: "gtceu:lp_steam_macerator", replacement: 'greate:andesite_alloy_millstone'},
+    {removedItem: "gtceu:hp_steam_macerator", replacement: 'greate:andesite_alloy_millstone'},
     {removedItem: "create:dough", replacement: 'farmersdelight:wheat_dough'},
-    {removedItem: "gtceu:iv_macerator", replacement: 'greate:tungsten_steel_millstone'}
+    {removedItem: "gtceu:iv_macerator", replacement: 'greate:tungsten_steel_millstone'},
+    {removedItem: "gtceu:iv_bender", replacement: 'greate:tungsten_steel_mechanical_press'},
+    {removedItem: "gtceu:iv_mixer", replacement: 'greate:tungsten_steel_mechanical_mixer'},
+    {removedItem: "gtceu:iv_cutter", replacement: 'greate:tungsten_steel_mechanical_saw'}
 ]
 
 //priority: 1

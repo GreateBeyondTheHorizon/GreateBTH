@@ -3,11 +3,11 @@ filename = "constructionwand-1.20.1-2.11.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/bV2crgLh/versions/XCgKj8gL/constructionwand-1.20.1-2.11.jar"
 hash-format = "sha1"
 hash = "80bd5223cd8984dc1038cb9f2d1cb6b97f31998a"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "bV2crgLh"
-version = "XCgKj8gL"
+[update.curseforge]
+file-id = 4684054
+project-id = 399558

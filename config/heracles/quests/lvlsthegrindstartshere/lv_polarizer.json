@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "lv_machine_hull"
+  ],
+  "tasks": {
+    "polarizer": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_polarizer",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "LV/LS - The Grind Starts Here": {
+        "position": [
+          234,
+          -272
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:lv_polarizer",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Cheaper Electromagnetic Rods"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

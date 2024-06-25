@@ -1,0 +1,93 @@
+{
+  "dependencies": [
+    "steel_ingot"
+  ],
+  "tasks": {
+    "controller": {
+      "type": "heracles:item",
+      "item": "gtceu:steam_oven",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "firebox_casing": {
+      "type": "heracles:item",
+      "item": "gtceu:bronze_firebox_casing",
+      "amount": 8,
+      "collection": "AUTOMATIC"
+    },
+    "output_bus": {
+      "type": "heracles:item",
+      "item": "gtceu:steam_output_bus",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "input_hatch": {
+      "type": "heracles:item",
+      "item": "gtceu:steam_input_hatch",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "input_bus": {
+      "type": "heracles:item",
+      "item": "gtceu:steam_input_bus",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "machine_casing": {
+      "type": "heracles:item",
+      "item": "gtceu:steam_machine_casing",
+      "amount": 8,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 13882323,
+          "Loot": "lootbags:kjs/3ui6gksr7gxl82e5t9pkch2ls",
+          "Name": "Lootbag (ULV Age)"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "A multiblock furnace, using steam."
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings": {
+        "position": [
+          -226,
+          -38
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:steam_oven",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "title": {
+      "translate": "Steam Oven"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

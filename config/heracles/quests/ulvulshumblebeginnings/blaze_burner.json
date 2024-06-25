@@ -36,7 +36,7 @@
       "ULV/ULS - Humble Beginnings": {
         "position": [
           80,
-          -186
+          -135
         ]
       }
     },
@@ -53,10 +53,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

@@ -4,10 +4,16 @@ hash-format = "sha256"
 file = "config/cookingforblockheads-common.toml"
 
 [[files]]
+file = "config/curios-common.toml"
+
+[[files]]
 file = "config/emi.css"
 
 [[files]]
 file = "config/fancymenu/animations/ebf_5ed795df72a44a03/animation.properties"
+
+[[files]]
+file = "config/fancymenu/assets/ebf.fma"
 
 [[files]]
 file = "config/fancymenu/config.txt"
@@ -145,22 +151,70 @@ file = "config/heracles/quests/introduction/the_start_of_something_new.json"
 file = "config/heracles/quests/introduction/wood.json"
 
 [[files]]
-file = "config/heracles/quests/multiblocks/no_not_that_coke.json"
+file = "config/heracles/quests/lvlsthegrindstartshere/aluminium.json"
 
 [[files]]
-file = "config/heracles/quests/multiblocks/primitive_blast_furnace.json"
+file = "config/heracles/quests/lvlsthegrindstartshere/casing.json"
 
 [[files]]
-file = "config/heracles/quests/multiblocks/steam_grinder.json"
+file = "config/heracles/quests/lvlsthegrindstartshere/cupronickel_coil.json"
 
 [[files]]
-file = "config/heracles/quests/multiblocks/steam_oven.json"
+file = "config/heracles/quests/lvlsthegrindstartshere/ebf.json"
 
 [[files]]
-file = "config/heracles/quests/powergeneration/large_water_wheel.json"
+file = "config/heracles/quests/lvlsthegrindstartshere/large_water_wheel.json"
 
 [[files]]
-file = "config/heracles/quests/powergeneration/water_wheel.json"
+file = "config/heracles/quests/lvlsthegrindstartshere/lubricant.json"
+
+[[files]]
+file = "config/heracles/quests/lvlsthegrindstartshere/lv_air_scrubber.json"
+
+[[files]]
+file = "config/heracles/quests/lvlsthegrindstartshere/lv_assembler.json"
+
+[[files]]
+file = "config/heracles/quests/lvlsthegrindstartshere/lv_conveyor.json"
+
+[[files]]
+file = "config/heracles/quests/lvlsthegrindstartshere/lv_energy_hatch.json"
+
+[[files]]
+file = "config/heracles/quests/lvlsthegrindstartshere/lv_lathe.json"
+
+[[files]]
+file = "config/heracles/quests/lvlsthegrindstartshere/lv_machine_hull.json"
+
+[[files]]
+file = "config/heracles/quests/lvlsthegrindstartshere/lv_motor.json"
+
+[[files]]
+file = "config/heracles/quests/lvlsthegrindstartshere/lv_piston.json"
+
+[[files]]
+file = "config/heracles/quests/lvlsthegrindstartshere/lv_polarizer.json"
+
+[[files]]
+file = "config/heracles/quests/lvlsthegrindstartshere/lv_pump.json"
+
+[[files]]
+file = "config/heracles/quests/lvlsthegrindstartshere/lv_robot_arm.json"
+
+[[files]]
+file = "config/heracles/quests/lvlsthegrindstartshere/lv_saw.json"
+
+[[files]]
+file = "config/heracles/quests/lvlsthegrindstartshere/lv_steam_turbine.json"
+
+[[files]]
+file = "config/heracles/quests/lvlsthegrindstartshere/lv_wiremill.json"
+
+[[files]]
+file = "config/heracles/quests/lvlsthegrindstartshere/muffler_hatch.json"
+
+[[files]]
+file = "config/heracles/quests/lvlsthegrindstartshere/steel_mechanical_press.json"
 
 [[files]]
 file = "config/heracles/quests/stayingfull/apple_pie.json"
@@ -313,9 +367,6 @@ file = "config/heracles/quests/stayingfull/vegetable_noodles.json"
 file = "config/heracles/quests/stayingfull/vegetable_soup.json"
 
 [[files]]
-file = "config/heracles/quests/stressandyouaguide/getting_started_with_stress.json"
-
-[[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/a_hell_of_an_adventure.json"
 
 [[files]]
@@ -338,9 +389,6 @@ file = "config/heracles/quests/ulvulshumblebeginnings/controlling_liquids.json"
 
 [[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/copper_wires.json"
-
-[[files]]
-file = "config/heracles/quests/ulvulshumblebeginnings/dough.json"
 
 [[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/edible_belts.json"
@@ -388,6 +436,9 @@ file = "config/heracles/quests/ulvulshumblebeginnings/millstone.json"
 file = "config/heracles/quests/ulvulshumblebeginnings/mixer.json"
 
 [[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/no_not_that_coke.json"
+
+[[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/paper.json"
 
 [[files]]
@@ -395,6 +446,9 @@ file = "config/heracles/quests/ulvulshumblebeginnings/pokey_pokey.json"
 
 [[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/polished_rose_quartz.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/primitive_blast_furnace.json"
 
 [[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/primitive_tank.json"
@@ -427,6 +481,9 @@ file = "config/heracles/quests/ulvulshumblebeginnings/rock_crusher.json"
 file = "config/heracles/quests/ulvulshumblebeginnings/rubber_bucket.json"
 
 [[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/rubber_ingot.json"
+
+[[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/see_you_plater.json"
 
 [[files]]
@@ -445,13 +502,22 @@ file = "config/heracles/quests/ulvulshumblebeginnings/steam_forge_hammer.json"
 file = "config/heracles/quests/ulvulshumblebeginnings/steam_furnace.json"
 
 [[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/steam_grinder.json"
+
+[[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/steam_miner.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/steam_oven.json"
 
 [[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/steam_solid_boiler.json"
 
 [[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/steel_ingot.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/steel_plate.json"
 
 [[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/the_andesite_age.json"
@@ -469,19 +535,25 @@ file = "config/heracles/quests/ulvulshumblebeginnings/the_fun_begins_now.json"
 file = "config/heracles/quests/ulvulshumblebeginnings/this_is_a_bucket.json"
 
 [[files]]
-file = "config/heracles/quests/ulvulshumblebeginnings/tin_bucket.json"
-
-[[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/tools_of_the_trade.json"
 
 [[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/ulv_crushing_wheel.json"
+
+[[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/ulv_mechanical_press.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/ulv_mechanical_pump.json"
 
 [[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/ulv_saw.json"
 
 [[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/vacuum_tubes.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/water_wheel.json"
 
 [[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/whisky_business.json"
@@ -523,13 +595,7 @@ file = "kubejs/assets/emi/recipe/filters/hide.json"
 file = "kubejs/assets/emi_loot/lang/en_us.json"
 
 [[files]]
-file = "kubejs/assets/gbth/textures/quest_book_screenshots/stress_and_you_a_guide/overcapacity.png"
-
-[[files]]
-file = "kubejs/assets/gbth/textures/quest_book_screenshots/stress_and_you_a_guide/overstressed.png"
-
-[[files]]
-file = "kubejs/assets/gbth/textures/quest_book_screenshots/stress_and_you_a_guide/tooltip.png"
+file = "kubejs/assets/gbth/lang/en_us.json"
 
 [[files]]
 file = "kubejs/assets/gtceu/lang/en_us.json"
@@ -748,6 +814,9 @@ file = "kubejs/client_scripts/Tooltips.js"
 file = "kubejs/client_scripts/debug.js"
 
 [[files]]
+file = "kubejs/client_scripts/jsconfig.json"
+
+[[files]]
 file = "kubejs/config/client.properties"
 
 [[files]]
@@ -760,7 +829,13 @@ file = "kubejs/config/defaultoptions.txt"
 file = "kubejs/config/packicon.png"
 
 [[files]]
+file = "kubejs/config/probe-settings.json"
+
+[[files]]
 file = "kubejs/config/probejs.json"
+
+[[files]]
+file = "kubejs/data/gbth/curios/slots/arms.json"
 
 [[files]]
 file = "kubejs/data/minecraft/direct_drops/entities/hoglin.json"
@@ -880,9 +955,6 @@ file = "kubejs/data/sgjourney/tags/worldgen/biome/has_structure/stargate/pedesta
 file = "kubejs/data/sgjourney/tags/worldgen/biome/has_structure/terra_stargate_biomes.json"
 
 [[files]]
-file = "kubejs/jsconfig.json"
-
-[[files]]
 file = "kubejs/server_scripts/BlockEvents.js"
 
 [[files]]
@@ -940,10 +1012,16 @@ file = "kubejs/server_scripts/Mods/FarmersDelight.js"
 file = "kubejs/server_scripts/Mods/Greate.js"
 
 [[files]]
+file = "kubejs/server_scripts/Mods/Greate/Mixer.js"
+
+[[files]]
+file = "kubejs/server_scripts/Mods/Greate/Press.js"
+
+[[files]]
 file = "kubejs/server_scripts/Mods/Greg/AlloySmelter.js"
 
 [[files]]
-file = "kubejs/server_scripts/Mods/Greg/Bender.js"
+file = "kubejs/server_scripts/Mods/Greg/Assembler.js"
 
 [[files]]
 file = "kubejs/server_scripts/Mods/Greg/Bloomery.js"
@@ -1018,10 +1096,16 @@ file = "kubejs/server_scripts/Mods/SophisticatedBackpacks.js"
 file = "kubejs/server_scripts/Mods/SophisticatedStorage.js"
 
 [[files]]
+file = "kubejs/server_scripts/Mods/Terralith.js"
+
+[[files]]
 file = "kubejs/server_scripts/Mods/TomsSimpleStorage.js"
 
 [[files]]
 file = "kubejs/server_scripts/Tags.js"
+
+[[files]]
+file = "kubejs/server_scripts/jsconfig.json"
 
 [[files]]
 file = "kubejs/startup_scripts/BlockGeneration.js"
@@ -1054,15 +1138,14 @@ file = "kubejs/startup_scripts/Ores.js"
 file = "kubejs/startup_scripts/Util.js"
 
 [[files]]
+file = "kubejs/startup_scripts/jsconfig.json"
+
+[[files]]
 file = "mods/ad-astra.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/advancedperipherals.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/ae2.pw.toml"
+file = "mods/advanced-peripherals.pw.toml"
 metafile = true
 
 [[files]]
@@ -1071,6 +1154,10 @@ metafile = true
 
 [[files]]
 file = "mods/appleskin.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/applied-energistics-2.pw.toml"
 metafile = true
 
 [[files]]
@@ -1086,7 +1173,7 @@ file = "mods/argonauts.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/athena-ctm.pw.toml"
+file = "mods/athena.pw.toml"
 metafile = true
 
 [[files]]
@@ -1094,7 +1181,7 @@ file = "mods/attributefix.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/auudio.pw.toml"
+file = "mods/auudio-forge.pw.toml"
 metafile = true
 
 [[files]]
@@ -1194,7 +1281,7 @@ file = "mods/curios.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/elevatormod.pw.toml"
+file = "mods/cut-through.pw.toml"
 metafile = true
 
 [[files]]
@@ -1226,7 +1313,7 @@ file = "mods/fastsuite.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/ferrite-core.pw.toml"
+file = "mods/ferritecore.pw.toml"
 metafile = true
 
 [[files]]
@@ -1257,7 +1344,7 @@ file = "mods/inventory-profiles-next.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/jade-addons-forge.pw.toml"
+file = "mods/jade-addons.pw.toml"
 metafile = true
 
 [[files]]
@@ -1309,10 +1396,6 @@ file = "mods/libipn.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/load-my-resources.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/lootjs.pw.toml"
 metafile = true
 
@@ -1342,6 +1425,10 @@ metafile = true
 
 [[files]]
 file = "mods/oculus.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/openblocks-elevator.pw.toml"
 metafile = true
 
 [[files]]
@@ -1445,7 +1532,7 @@ file = "mods/xtones-reworked.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/yeetus-experimentus.pw.toml"
+file = "mods/yeetusexperimentus.pw.toml"
 metafile = true
 
 [[files]]
@@ -1465,9 +1552,9 @@ file = "resourcepacks/computercreate.pw.toml"
 metafile = true
 
 [[files]]
-file = "resourcepacks/gregtech-refreshed.pw.toml"
+file = "resourcepacks/create-simple-storage.pw.toml"
 metafile = true
 
 [[files]]
-file = "resourcepacks/toms-create-storage.pw.toml"
+file = "resourcepacks/gregtech-refreshed.pw.toml"
 metafile = true

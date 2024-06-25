@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "ES2015",
+        "lib": [
+            "ES5",
+            "ES2015"
+        ],
+        "rootDir": "../client_scripts",
+        "typeRoots": [
+            "../../.probe/client/probe-types"
+        ],
+        "baseUrl": "../../.probe/client/probe-types",
+        "skipLibCheck": true
+    },
+    "include": [
+        "../client_scripts/**/*"
+    ]
+}

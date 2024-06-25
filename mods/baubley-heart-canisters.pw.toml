@@ -1,13 +1,13 @@
 name = "Baubley Heart Canisters"
-filename = "baubley-heart-canisters-1.20.1-1.0.3.jar"
+filename = "baubley-heart-canisters-1.20.1-1.0.5.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/fPdy2fCM/versions/mlJu40bw/baubley-heart-canisters-1.20.1-1.0.3.jar"
 hash-format = "sha1"
-hash = "0de2dbc93f6a6dda630db671410e3c51cc963484"
+hash = "43c18dd492cf5c37520d58cdc36c2e74d976c77e"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "fPdy2fCM"
-version = "mlJu40bw"
+[update.curseforge]
+file-id = 4786762
+project-id = 282947

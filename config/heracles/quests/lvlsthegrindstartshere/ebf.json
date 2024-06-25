@@ -1,0 +1,93 @@
+{
+  "dependencies": [
+    "cupronickel_coil",
+    "lv_energy_hatch",
+    "muffler_hatch"
+  ],
+  "tasks": {
+    "coil": {
+      "type": "heracles:item",
+      "item": "gtceu:cupronickel_coil_block",
+      "amount": 16,
+      "collection": "AUTOMATIC"
+    },
+    "casing": {
+      "type": "heracles:item",
+      "item": "gtceu:heatproof_machine_casing",
+      "amount": 10,
+      "collection": "AUTOMATIC"
+    },
+    "controller": {
+      "type": "heracles:item",
+      "item": "gtceu:electric_blast_furnace",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "energy_hatch": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_energy_input_hatch",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "output_bus": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_output_bus",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "input_bus": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_input_bus",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "maintainance_hatch": {
+      "type": "heracles:item",
+      "item": "gtceu:maintenance_hatch",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "muffler_hatch": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_muffler_hatch",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The next big step in progression, allowing the smelting of /d/Aluminium/d/."
+    ],
+    "groups": {
+      "LV/LS - The Grind Starts Here": {
+        "position": [
+          -100,
+          -207
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:electric_blast_furnace",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "title": {
+      "translate": "Cooking, Electronically!"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

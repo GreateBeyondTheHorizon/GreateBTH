@@ -67,7 +67,20 @@ ServerEvents.recipes(event => {
 				}
 			)
 		}
-    }    
+    }
+	
+	event.shaped('sophisticatedstorage:basic_tier_upgrade',
+		[
+			'PPP',
+			'GTG',
+			'PPP'
+		],
+		{
+			P: 'gtceu:wood_plate',
+			G: 'gtceu:wood_gear',
+			T: 'minecraft:redstone_torch'
+		}
+	)
 
     const woodType = [
         'oak',

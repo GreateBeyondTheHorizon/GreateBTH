@@ -6,16 +6,8 @@
     "106BF1877C826D19": {
       "type": "heracles:item",
       "item": "create:deployer",
-      "amount": 3,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "amount": 1,
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {
@@ -38,7 +30,9 @@
       "text": ""
     },
     "description": [
-      "The deployer, where to start. It's essentially a hands-off right clicking machine, it can place blocks and are the main machines involved with sequenced assembly."
+      "The deployer, where to start. It's essentially a hands-off right clicking machine, it can place blocks and are the main machines involved with sequenced assembly.",
+      "",
+      "To power this, you'll have to use /d/Gear Ratios/d/ to slow down the deployer, until you can unlock better stress generation methods."
     ],
     "groups": {
       "ULV/ULS - Humble Beginnings": {

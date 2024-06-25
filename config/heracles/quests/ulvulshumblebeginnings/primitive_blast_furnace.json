@@ -1,0 +1,70 @@
+{
+  "dependencies": [
+    "steam_compressor",
+    "pyrolysis"
+  ],
+  "tasks": {
+    "09FA2B8FB442681B": {
+      "type": "heracles:item",
+      "item": "gtceu:primitive_blast_furnace",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "05BA055C293215C2": {
+      "type": "heracles:item",
+      "item": "gtceu:firebricks",
+      "amount": 32,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 13882323,
+          "Loot": "lootbags:kjs/3ui6gksr7gxl82e5t9pkch2ls",
+          "Name": "Lootbag (ULV Age)"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The /d/Primitive Blast Furnace/d/ produces /d/Steel/d/ very slowly. Just make more than one! Remeber that GregTech multiblocks can share walls, which makes a second blast furnace less painful to make than the first. "
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings": {
+        "position": [
+          -48,
+          -167
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:primitive_blast_furnace",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "title": {
+      "translate": "Primitive Blast Furnace"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

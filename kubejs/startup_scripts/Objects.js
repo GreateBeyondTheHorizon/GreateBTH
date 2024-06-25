@@ -12,7 +12,7 @@ global.Quality = {
 //// Mods ////
 
 global.Greate = {
-	Tiers: [
+	MachineTiers: [
 		'andesite_alloy',
 		'steel',
 		'aluminium',
@@ -23,6 +23,13 @@ global.Greate = {
 		'naquadah_alloy',
 		'darmstadtium',
 		'neutronium'
+	],
+	BeltTiers: [
+		'rubber',
+		'silicone_rubber',
+		'polyethylene',
+		'polytetrafluoroethylene',
+		'polybenzimidazole'
 	]
 }
 
