@@ -67,15 +67,10 @@
     },
     "description": [
       "These tools will be your best friends until you can get some machines to do the heavy lifting for you. Most of these tools have many uses in crafting. They use durability when used, so get familiar with these recipes! In the future you'll be able to make longer lasting tools by using stronger materials like wrought iron and steel.",
-      
       "/d/Wrench/d/: Breaks machine blocks.",
-      
       "/d/Hammer/d/: Muffles machines. Can craft ingots into plates.",
-      
-      "/d/File/d/: Used for certain crafitng components.", 
-      
+      "/d/File/d/: Used for certain crafting components.",
       "/d/Saw/d/: Can craft logs into planks with a 1:4 ratio.",
-      
       "/d/Screwdriver/d/: Configures machines."
     ],
     "groups": {
@@ -99,10 +94,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

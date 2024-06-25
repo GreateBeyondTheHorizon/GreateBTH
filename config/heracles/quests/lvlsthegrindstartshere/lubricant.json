@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "lv_pump",
+    "lv_assembler"
+  ],
+  "tasks": {
+    "lubricant": {
+      "type": "heracles:item",
+      "item": "gtceu:fluid_cell",
+      "nbt": {
+        "Fluid": {
+          "FluidName": "gtceu:lubricant",
+          "Amount": 1000
+        }
+      },
+      "amount": 2,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "/d/Lubricant/d/ can be gotten in 2 ways:",
+      "",
+      "/d/Brewery/d/: 1 Bucket of /d/Creosote/d/ & /d/Talc/d/ = 1 Bucket of /d/Lubricant/d/",
+      "",
+      "/d/Distillery/d/: 24mB of /d/Creosote/d/ = 12mB of /d/Lubricant/d/"
+    ],
+    "groups": {
+      "LV/LS - The Grind Starts Here": {
+        "position": [
+          -35,
+          -168
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:lubricant_bucket",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Lubricant"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

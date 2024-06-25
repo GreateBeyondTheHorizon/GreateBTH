@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "steel_ingot",
+    "pokey_pokey"
+  ],
+  "tasks": {
+    "motor": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_electric_motor",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "LV/LS - The Grind Starts Here": {
+        "position": [
+          -35,
+          -73
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:lv_electric_motor",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "title": {
+      "translate": "Microcrafting Hell Begins, 1"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

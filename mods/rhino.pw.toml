@@ -3,11 +3,11 @@ filename = "rhino-forge-2001.2.2-build.18.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/sk9knFPE/versions/w5HiejeN/rhino-forge-2001.2.2-build.18.jar"
 hash-format = "sha1"
 hash = "0a631b4e8235a777d08bd53d4f49dba388205cad"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "sk9knFPE"
-version = "w5HiejeN"
+[update.curseforge]
+file-id = 4944325
+project-id = 416294

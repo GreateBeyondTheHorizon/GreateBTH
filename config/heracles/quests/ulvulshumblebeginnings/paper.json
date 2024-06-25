@@ -1,5 +1,7 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "clay_bucket"
+  ],
   "tasks": {
     "5E3A4FA09174C7E8": {
       "type": "heracles:item",
@@ -34,8 +36,8 @@
     "groups": {
       "ULV/ULS - Humble Beginnings": {
         "position": [
-          16,
-          16
+          -27,
+          17
         ]
       }
     },

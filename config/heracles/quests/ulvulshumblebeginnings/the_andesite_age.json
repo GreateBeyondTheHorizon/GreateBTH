@@ -38,7 +38,7 @@
     "description": [
       "Andesite alloy and casings will be your best friend until you are able to produce steel. they can support up to 8su, or one waterwheel. If any create block confuses you, just hover over them and hold the ponder key.",
       "",
-      "Check the /d/Stress and You: A Guide/d/ section, as well as /d/Pondering/d/ certain items for more information on the stress system."
+      "Check the /d/Pondering/d/ screen (Hold /d/W/d/ on certain items) for more information on the stress system."
     ],
     "groups": {
       "ULV/ULS - Humble Beginnings": {
@@ -55,16 +55,17 @@
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "title": {
       "translate": "The Andesite Age"
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

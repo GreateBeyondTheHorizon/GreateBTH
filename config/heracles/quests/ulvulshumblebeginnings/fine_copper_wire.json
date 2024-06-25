@@ -1,21 +1,13 @@
 {
   "dependencies": [
-    "gregtech_tools_and_you"
+    "steam_forge_hammer"
   ],
   "tasks": {
     "Fine Copper Wire": {
       "type": "heracles:item",
       "item": "gtceu:fine_copper_wire",
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {
@@ -43,8 +35,8 @@
     "groups": {
       "ULV/ULS - Humble Beginnings": {
         "position": [
-          -16,
-          16
+          0,
+          -16
         ]
       }
     },
@@ -62,7 +54,7 @@
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

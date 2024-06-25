@@ -1,6 +1,7 @@
 {
   "dependencies": [
-    "pump_it_up"
+    "pump_it_up",
+    "bronze_brick_casing"
   ],
   "tasks": {
     "boiler": {
@@ -35,8 +36,8 @@
     "groups": {
       "ULV/ULS - Humble Beginnings": {
         "position": [
-          -56,
-          -148
+          -75,
+          -142
         ]
       }
     },
@@ -53,10 +54,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

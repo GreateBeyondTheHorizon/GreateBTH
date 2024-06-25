@@ -3,11 +3,11 @@ filename = "prometheus-forge-1.20.1-1.2.5.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/iYcNKH7W/versions/uBbjID8A/prometheus-forge-1.20.1-1.2.5.jar"
 hash-format = "sha1"
 hash = "21eaa382cea74c4a48defc354a1dae4ab7e1f11c"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "iYcNKH7W"
-version = "uBbjID8A"
+[update.curseforge]
+file-id = 5220299
+project-id = 845834

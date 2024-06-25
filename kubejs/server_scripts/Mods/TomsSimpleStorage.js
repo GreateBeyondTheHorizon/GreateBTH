@@ -2,6 +2,11 @@ ServerEvents.recipes(event => {
 
 	event.remove('toms_storage:crafting_terminal')
 	event.remove({id: "toms_storage:wireless_terminal"})
+	event.remove({id: 'toms_storage:inventory_cable'})
+	event.remove({id: 'toms_storage:inventory_cable_connector'})
+	event.remove({id: 'toms_storage:item_filter'})
+	event.remove({id: 'toms_storage:poly_item_filter'})
+	event.remove({id: 'toms_storage:tag_item_filter'})
 
 	//Storage Connector
 	event.recipes.createMechanicalCrafting(

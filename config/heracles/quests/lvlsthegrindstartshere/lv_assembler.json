@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "lv_conveyor",
+    "lv_robot_arm"
+  ],
+  "tasks": {
+    "assembler": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_assembler",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "LV/LS - The Grind Starts Here": {
+        "position": [
+          52,
+          -207
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:lv_assembler",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Assemblers Unite!"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

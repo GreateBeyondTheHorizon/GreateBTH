@@ -11,10 +11,6 @@ JEIEvents.addItems(event => {
 	event.add('gtceu:concrete_bucket')
 })
 
-JEIEvents.information(event => {
-	event.addItem('nethersdelight:hoglin_hide', Text.of('Drops from Hoglins killed with a machete'))
-})
-
 JEIAddedEvents.registerCategories(event => {
 	event.custom('kubejs:create_info', c => {
 		c.title('Item Dropping')

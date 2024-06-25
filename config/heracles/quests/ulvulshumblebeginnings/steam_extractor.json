@@ -3,21 +3,9 @@
     "bronze_brick_casing"
   ],
   "tasks": {
-    "35995E201BBE557D": {
+    "extractor": {
       "type": "heracles:item",
-      "item": "#gbth:steam_extractors",
-      "nbt": {
-        "items": [
-          {
-            "Count": 1,
-            "id": "gtceu:lp_steam_extractor"
-          },
-          {
-            "Count": 1,
-            "id": "gtceu:hp_steam_extractor"
-          }
-        ]
-      },
+      "item": "gtceu:lp_steam_extractor",
       "amount": 1,
       "collection": "AUTOMATIC"
     }

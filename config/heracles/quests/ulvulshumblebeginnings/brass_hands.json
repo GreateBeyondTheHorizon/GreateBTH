@@ -6,16 +6,8 @@
     "5FF6C1A67FA755F2": {
       "type": "heracles:item",
       "item": "create:brass_hand",
-      "amount": 3,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "amount": 1,
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {

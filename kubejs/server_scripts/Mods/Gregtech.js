@@ -12,6 +12,8 @@ ServerEvents.recipes(event => {
 	event.remove({id: 'gtceu:smelting/sticky_resin_from_slime'})
 	event.remove({id: /gtceu:primitive_blast_furnace(.*)/})
 	event.remove({output: /gtceu:(.*)_mold/})
+	event.remove({id: 'gtceu:shaped/steam_boiler_coal_steel'})
+	event.remove({id: 'gtceu:shaped/energy_hatch_lv'})
 
 	const tiers = ['lv', 'mv', 'hv' /*'ev', 'iv', 'luv', 'zpm', 'uv' */]
 	const components = [
@@ -67,7 +69,6 @@ ServerEvents.recipes(event => {
 	event.replaceInput('gtceu:shaped/steam_compressor_bronze', 'gtceu:bronze_machine_casing', 'gtceu:bronze_brick_casing')
 	event.replaceInput('gtceu:shaped/steam_hammer_bronze', 'gtceu:bronze_machine_casing', 'gtceu:bronze_brick_casing')
 	event.replaceInput('gtceu:shaped/steam_rock_breaker_bronze', 'gtceu:bronze_machine_casing', 'gtceu:bronze_brick_casing')
-	event.replaceInput('gtceu:shaped/steam_oven', 'gtceu:lp_steam_furnace', 'gtceu:hp_steam_furnace')
 	event.replaceInput('gtceu:shaped/casing_ulv', 'gtceu:wrought_iron_plate', 'gtceu:iron_plate')
 
 	event.replaceOutput(/gtceu:(smelting|blasting)(.*)_to_ingot/, 'minecraft:iron_ingot', 'gtceu:wrought_iron_ingot')
@@ -412,6 +413,42 @@ ServerEvents.recipes(event => {
 			H: '#forge:tools/hammers',
 			F: '#forge:tools/files',
 			P: 'gtceu:steel_plate'
+		}
+	)
+
+	event.shapeless('gtceu:wrought_iron_plate',
+		[
+			'2x gtceu:wrought_iron_ingot',
+			'kubejs:stone_hammer'
+		]
+	)
+
+	event.shaped(
+		Item.of('gtceu:hp_steam_solid_boiler'),
+		[
+			'SSS',
+			'SWS',
+			'BCS'
+		],
+		{
+			S: 'gtceu:steel_plate',
+			W: '#forge:tools/wrenches',
+			B: 'minecraft:bricks',
+			C: 'gtceu:steel_brick_casing'
+		}
+	)
+
+	event.shaped(
+		Item.of('gtceu:lv_energy_input_hatch'),
+		[
+			'LCL',
+			'TMT'
+		],
+		{
+			L: Item.of('gtceu:fluid_cell', '{Fluid:{Amount:1000,FluidName:"gtceu:lubricant"}}').strongNBT(),
+			C: 'gtceu:lv_voltage_coil',
+			T: 'gtceu:tin_single_cable',
+			M: 'gtceu:lv_machine_hull'
 		}
 	)
 	

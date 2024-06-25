@@ -1,0 +1,62 @@
+{
+  "dependencies": [
+    "steam_forge_hammer"
+  ],
+  "tasks": {
+    "plate": {
+      "type": "heracles:item",
+      "item": "gtceu:steel_plate",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 13882323,
+          "Loot": "lootbags:kjs/3ui6gksr7gxl82e5t9pkch2ls",
+          "Name": "Lootbag (ULV Age)"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings": {
+        "position": [
+          -48,
+          56
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:steel_plate",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Steel Plate"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -3,11 +3,11 @@ filename = "argonauts-forge-1.20.1-1.0.10.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/bb2EpKpx/versions/r0eKAc5z/argonauts-forge-1.20.1-1.0.10.jar"
 hash-format = "sha1"
 hash = "897c1f82873d8297c11e452737b1d32c690a00de"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "bb2EpKpx"
-version = "r0eKAc5z"
+[update.curseforge]
+file-id = 5263580
+project-id = 845833

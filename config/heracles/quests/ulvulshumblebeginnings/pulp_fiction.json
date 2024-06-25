@@ -7,15 +7,7 @@
       "type": "heracles:item",
       "item": "gtceu:raw_rubber_dust",
       "amount": 32,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {
@@ -43,7 +35,7 @@
     "groups": {
       "ULV/ULS - Humble Beginnings": {
         "position": [
-          -16,
+          19,
           -48
         ]
       }

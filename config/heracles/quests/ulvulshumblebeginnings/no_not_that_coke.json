@@ -1,0 +1,69 @@
+{
+  "dependencies": [
+    "gregtech_tools_and_you"
+  ],
+  "tasks": {
+    "4709AEDDB10EDB09": {
+      "type": "heracles:item",
+      "item": "gtceu:coke_oven_bricks",
+      "amount": 25,
+      "collection": "AUTOMATIC"
+    },
+    "6EDE5219978B1D4A": {
+      "type": "heracles:item",
+      "item": "gtceu:coke_oven",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 13882323,
+          "Loot": "lootbags:kjs/3ui6gksr7gxl82e5t9pkch2ls",
+          "Name": "Lootbag (ULV Age)"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The coke oven Pyrolises fuel into better ones, as well as produces creosote oil, which is honestly a somewhat ok fuel later on and allows you to make treated wood."
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings": {
+        "position": [
+          -80,
+          -208
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:coke_oven",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "title": {
+      "translate": "No, not that Coke. Not that Coke either!"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

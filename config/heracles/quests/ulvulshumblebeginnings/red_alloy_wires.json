@@ -5,17 +5,9 @@
   "tasks": {
     "7D021FE5D107A3C3": {
       "type": "heracles:item",
-      "item": "gtceu:red_alloy_single_wire",
+      "item": "gtceu:red_alloy_single_cable",
       "amount": 2,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {
@@ -50,14 +42,14 @@
     },
     "icon": {
       "item": {
-        "id": "gtceu:red_alloy_single_wire",
+        "id": "gtceu:red_alloy_single_cable",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Red Alloy Wires"
+      "translate": "Red Alloy Cables"
     }
   },
   "settings": {

@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "lv_piston",
+    "lv_motor"
+  ],
+  "tasks": {
+    "lathe": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_lathe",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Allows making /d/rods/d/ in a /d/1:1/d/ ratio."
+    ],
+    "groups": {
+      "LV/LS - The Grind Starts Here": {
+        "position": [
+          52,
+          -44
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:lv_lathe",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Cheaper Rods"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

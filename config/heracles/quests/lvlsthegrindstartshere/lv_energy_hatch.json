@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "lv_assembler",
+    "lubricant"
+  ],
+  "tasks": {
+    "energy_hatch": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_energy_input_hatch",
+      "amount": 2,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Used to power and/or overclock the EBF."
+    ],
+    "groups": {
+      "LV/LS - The Grind Starts Here": {
+        "position": [
+          -35,
+          -207
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:lv_energy_input_hatch",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "LV Energy Hatch"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,13 +1,13 @@
 name = "GregTech: Refreshed"
 filename = "GregTech Refreshed v0.7 [Modern].zip"
-side = "client"
+side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/ZemCyvLM/versions/3p8J0LqP/GregTech%20Refreshed%20v0.7%20%5BModern%5D.zip"
 hash-format = "sha1"
 hash = "740845c0090574840ef45729372ca202c0ea2ffc"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "ZemCyvLM"
-version = "3p8J0LqP"
+[update.curseforge]
+file-id = 5127018
+project-id = 959646

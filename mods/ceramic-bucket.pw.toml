@@ -3,11 +3,11 @@ filename = "ceramicbucket-1.20.1-4.1.0.0.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/M9G5zpf1/versions/eLl35whr/ceramicbucket-1.20.1-4.1.0.0.jar"
 hash-format = "sha1"
-hash = "f2e2172399db2f944e9701adadb6ad0f5286ece0"
+hash = "5911cf8b6288689a95fdaef142513b0e23f55a5f"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "M9G5zpf1"
-version = "eLl35whr"
+[update.curseforge]
+file-id = 4690918
+project-id = 363799

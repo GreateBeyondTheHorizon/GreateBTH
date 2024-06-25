@@ -7,29 +7,13 @@
       "type": "heracles:item",
       "item": "gtceu:resin_printed_circuit_board",
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     },
     "2418DFCEDA4EAB20": {
       "type": "heracles:item",
       "item": "gtceu:resin_circuit_board",
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {
@@ -57,8 +41,8 @@
     "groups": {
       "ULV/ULS - Humble Beginnings": {
         "position": [
-          48,
-          64
+          44,
+          56
         ]
       }
     },

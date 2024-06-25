@@ -3,11 +3,11 @@ filename = "OreBerries-Replanted-1.20.1-0.5.2.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/no8wHvOG/versions/Fdl65PdK/OreBerries-Replanted-1.20.1-0.5.2.jar"
 hash-format = "sha1"
-hash = "1fd6ba5f33e5bb900e04964a572ae92b6b13c7c5"
+hash = "44a8bfb1ded0d4eb2b68a6f0723bd5ce71f8c5d2"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "no8wHvOG"
-version = "Fdl65PdK"
+[update.curseforge]
+file-id = 5138729
+project-id = 454062

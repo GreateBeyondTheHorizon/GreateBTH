@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "ebf"
+  ],
+  "tasks": {
+    "aluminum": {
+      "type": "heracles:item",
+      "item": "gtceu:aluminium_ingot",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "LV/LS - The Grind Starts Here": {
+        "position": [
+          -100,
+          -245
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:aluminium_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Aluminium"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

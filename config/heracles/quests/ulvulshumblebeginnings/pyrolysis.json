@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "gregtech_tools_and_you"
+    "no_not_that_coke"
   ],
   "tasks": {
     "14DABD0A5524E40B": {
@@ -36,15 +36,13 @@
       "text": ""
     },
     "description": [
-      "Time for another multiblock. Currently, you may only be able to afford one, but in the not-so-near future you'll need to scale this up.",
-      "",
-      "Check the /d/Multiblocks/d/ section or /d/EMI/d/ to see structure requirements for the /d/Coke Oven/d/."
+      "Time for another multiblock. Currently, you may only be able to afford one, but in the not-so-near future you'll need to scale this up."
     ],
     "groups": {
       "ULV/ULS - Humble Beginnings": {
         "position": [
           -112,
-          -224
+          -208
         ]
       }
     },
@@ -61,10 +59,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

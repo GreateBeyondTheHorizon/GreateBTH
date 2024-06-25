@@ -3,11 +3,11 @@ filename = "lootbags-2.0.0-forge.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/eE4G2ag6/versions/qyzaNilB/lootbags-2.0.0-forge.jar"
 hash-format = "sha1"
 hash = "257ec4772a989e236423cc3cbb21f3833d7408fe"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "eE4G2ag6"
-version = "qyzaNilB"
+[update.curseforge]
+file-id = 4588370
+project-id = 687082

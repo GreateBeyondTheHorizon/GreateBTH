@@ -1,61 +1,30 @@
 ServerEvents.recipes(event => {
-	event.remove({id: 'create:pressing/sugar_cane'})
-	event.remove({id: 'create:crafting/kinetics/cart_assembler' })
-	event.remove({id: 'create:crafting/kinetics/chute'})
-	event.remove({id: 'create:crafting/kinetics/hand_crank' })
+	event.remove({id: 'create:crafting/kinetics/cart_assembler'})
 	event.remove({id: 'create:crafting/kinetics/hand_crank'})
-	event.remove({id: 'create:crafting/kinetics/hand_crank'})
-	event.remove({id: 'create:crafting/kinetics/large_water_wheel' })
+	event.remove({id: 'create:crafting/kinetics/large_water_wheel'})
 	event.remove({id: 'create:crafting/kinetics/mechanical_drill'})
 	event.remove({id: 'create:crafting/kinetics/steam_engine'})
-	event.remove({id: 'create:crafting/kinetics/water_wheel' })
+	event.remove({id: 'create:crafting/kinetics/water_wheel'})
 	event.remove({id: 'create:crafting/kinetics/windmill_bearing'})
-	event.remove({id: /create:mixing(.*)andesite_alloy(.*)/})
-	event.remove({id: 'create:crafting/kinetics/basin'})
 	event.remove({id: 'create:crafting/kinetics/empty_blaze_burner'})
-
-	//#region mixing
-	event.recipes.createMixing('minecraft:turtle_helmet', [
-		'kubejs:unf_turtle_helmet',
-		Fluid.of('create:potion', 576, {Bottle:'REGULAR', Potion:'minecraft:water_breathing'})
-	]).heated()
-
-	event.recipes.createMixing('create:rose_quartz', [
-		'4x minecraft:redstone',
-		'minecraft:quartz'
-	])
-
-	event.recipes.createMixing(Fluid.of('gtceu:rubber', 500), [
-		Item.of('gtceu:raw_rubber_dust', 8),
-		Item.of('gtceu:sulfur_dust', 1)
-	]).heated()
-
-	event.recipes.createMixing('create:andesite_alloy', [
-		'gtceu:wrought_iron_nugget',
-		'minecraft:andesite'
-	])
-
+	event.remove({id: 'create:crafting/kinetics/fluid_pipe'})
+	event.remove({id: 'create:crafting/kinetics/fluid_pipe_vertical'})
+	event.remove({id: 'create:shaped/andesite_alloy'})
 
 	//#region SU gen
 
-	event.shaped(	
-		Item.of('create:water_wheel', 1),
+	event.shaped(Item.of('create:hand_crank'),
 		[
-			'DCE',
-			'CAC',
-			'BCB'
+			'TTT',
+			'  A'
 		],
 		{
-			A:'create:andesite_casing',
-			B:'gtceu:bronze_screw',
-			C:'gtceu:wood_plate',
-			D:'#forge:tools/screwdrivers',
-			E:'#forge:tools/files',
+			A: 'greate:andesite_alloy_plate',
+			T: 'gtceu:treated_wood_planks'
 		}
 	)
 
-	event.shaped(	
-		Item.of('create:large_water_wheel', 1),
+	event.shaped('create:water_wheel',
 		[
 			'DCE',
 			'CAC',
@@ -64,14 +33,28 @@ ServerEvents.recipes(event => {
 		{
 			A:'create:andesite_casing',
 			B:'gtceu:steel_screw',
-			C:'gtceu:treated_wood_plate',
+			C:'gtceu:steel_plate',
 			D:'#forge:tools/screwdrivers',
 			E:'#forge:tools/files',
 		}
 	)
 
-	event.shaped(	
-		Item.of('create:windmill_bearing', 1),
+	event.shaped('create:large_water_wheel',
+		[
+			'DCE',
+			'CAC',
+			'BCB'
+		],
+		{
+			A:'create:andesite_casing',
+			B:'gtceu:steel_screw',
+			C:'gtceu:double_steel_plate',
+			D:'#forge:tools/screwdrivers',
+			E:'#forge:tools/files',
+		}
+	)
+
+	event.shaped('create:windmill_bearing',
 		[
 			'BDB',
 			'CAC',
@@ -97,11 +80,11 @@ ServerEvents.recipes(event => {
 			'DDD',
 		],
 		{
-			A: 'gtceu:lv_electric_piston',
+			A: 'gtceu:hv_electric_piston',
 			B: 'gtceu:bronze_gear',
-			C: 'greate:steel_shaft',
+			C: 'greate:stainless_steel_shaft',
 			D: 'gtceu:bronze_plate',
-			E: 'gtceu:steel_gearbox',
+			E: 'gtceu:stainless_steel_gearbox',
 			F: 'gtceu:gold_plate',
 		}
 )
@@ -208,7 +191,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 			A: 'minecraft:andesite',
-			N: 'gtceu:wrought_iron_nugget'
+			N: 'gtceu:wrought_iron_plate'
 		}
 	)
 
@@ -219,33 +202,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 			A: 'minecraft:andesite',
-			N: 'gtceu:wrought_iron_nugget'
-		}
-	)
-
-	event.shaped(Item.of('create:hand_crank'),
-		[
-			'TTT',
-			'  A'
-		],
-		{
-			A: 'create:andesite_alloy',
-			T: 'gtceu:treated_wood_planks'
-		}
-	)
-
-	event.shaped(Item.of('create:chute'),
-		[
-			'PGP',
-			'PCP',
-			'WPH',
-		],
-		{
-			P: 'gtceu:iron_plate',
-			G: 'gtceu:small_iron_gear',
-			C: '#forge:chests/wooden',
-			W: '#forge:tools/wrenches',
-			H: '#forge:tools/hammers'
+			N: 'gtceu:wrought_iron_plate'
 		}
 	)
 
@@ -275,18 +232,7 @@ ServerEvents.recipes(event => {
 		}
 	)
 
-	event.shaped(Item.of('create:basin'),
-		[
-			'AHA',
-			'AAA'
-		],
-		{
-			A: 'gtceu:andesite_alloy_plate',
-			H: '#forge:tools/hammers',
-		}
-	)
-
-	event.shaped(Item.of('create:empty_blaze_burner'),
+	event.shaped('create:empty_blaze_burner',
 		[
 			' P ',
 			'PBP',
@@ -297,6 +243,18 @@ ServerEvents.recipes(event => {
 			B: 'minecraft:netherrack',
 			S: '#forge:tools/screwdrivers',
 			W: '#forge:tools/wrenches'
+		}
+	)
+
+	event.shaped('4x create:fluid_pipe',
+		[
+			'W H',
+			'PPP'
+		],
+		{
+			W: '#forge:tools/wrenches',
+			H: '#forge:tools/hammers',
+			P: 'gtceu:copper_plate'
 		}
 	)
 })

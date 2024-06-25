@@ -1,0 +1,40 @@
+{
+  "dependencies": [
+    "lv_motor"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [],
+    "groups": {
+      "LV/LS - The Grind Starts Here": {
+        "position": [
+          -100,
+          -73
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:lv_muffler_hatch",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Muffler Hatch"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

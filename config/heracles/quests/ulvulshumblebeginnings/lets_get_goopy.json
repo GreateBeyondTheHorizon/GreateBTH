@@ -1,21 +1,11 @@
 {
-  "dependencies": [
-    "dough"
-  ],
+  "dependencies": [],
   "tasks": {
     "0B17999C579A39AD": {
       "type": "heracles:item",
       "item": "gtceu:sticky_resin",
       "amount": 32,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {
@@ -43,8 +33,8 @@
     "groups": {
       "ULV/ULS - Humble Beginnings": {
         "position": [
-          48,
-          16
+          26,
+          17
         ]
       }
     },

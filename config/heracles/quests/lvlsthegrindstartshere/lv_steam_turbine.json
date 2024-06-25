@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "lv_motor"
+  ],
+  "tasks": {
+    "steam_turbine": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_steam_turbine",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "One of the first ways to generate power, using /d/Steam/d/."
+    ],
+    "groups": {
+      "LV/LS - The Grind Starts Here": {
+        "position": [
+          -100,
+          -35
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:lv_steam_turbine",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "LV Steam Turbine"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

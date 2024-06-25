@@ -1,35 +1,19 @@
 {
   "dependencies": [
-    "generating_stress"
+    "ulv_mechanical_pump"
   ],
   "tasks": {
-    "0ECF3A419C9882EF": {
+    "spout": {
       "type": "heracles:item",
       "item": "create:spout",
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     },
-    "0888DECFE1B14CF3": {
+    "pump": {
       "type": "heracles:item",
-      "item": "greate:andesite_mechanical_pump",
+      "item": "greate:andesite_alloy_mechanical_pump",
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {
@@ -52,16 +36,13 @@
       "text": ""
     },
     "description": [
-      "<task task=\"0ECF3A419C9882EF\" quest=\"7DC207EFCB7D0A8E\"/>",
-      "<task task=\"0888DECFE1B14CF3\" quest=\"7DC207EFCB7D0A8E\"/>",
-      "<hr/>",
-      "This is used to pour liquid onto things. Really useful. By the way, you cant input stuff into the spout using a container directly."
+      "This is used to pour liquid onto things. Really useful. By the way, you __cannot__ input stuff into the spout using a container directly. Instead, you must use a /d/Mechanical Pump/d/."
     ],
     "groups": {
       "ULV/ULS - Humble Beginnings": {
         "position": [
-          80,
-          80
+          81,
+          56
         ]
       }
     },
@@ -79,7 +60,7 @@
   },
   "settings": {
     "unlockNotification": false,
-    "showDependencyArrow": false,
+    "showDependencyArrow": true,
     "repeatable": false,
     "individual_progress": false,
     "hidden": "LOCKED"

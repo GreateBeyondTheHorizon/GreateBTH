@@ -3,11 +3,11 @@ filename = "Chipped-forge-1.20.1-3.0.6.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/BAscRYKm/versions/gfGw4ln2/Chipped-forge-1.20.1-3.0.6.jar"
 hash-format = "sha1"
 hash = "977756a36171b80ba1767b59ffa74b90f074d74d"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "BAscRYKm"
-version = "gfGw4ln2"
+[update.curseforge]
+file-id = 5270039
+project-id = 456956
