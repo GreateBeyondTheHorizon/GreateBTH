@@ -10,9 +10,6 @@ file = "config/curios-common.toml"
 file = "config/emi.css"
 
 [[files]]
-file = "config/fancymenu/animations/ebf_5ed795df72a44a03/animation.properties"
-
-[[files]]
 file = "config/fancymenu/assets/ebf.fma"
 
 [[files]]
@@ -118,6 +115,9 @@ file = "config/heracles/quests/introduction/crafting_table.json"
 file = "config/heracles/quests/introduction/empty_form.json"
 
 [[files]]
+file = "config/heracles/quests/introduction/finding_ores.json"
+
+[[files]]
 file = "config/heracles/quests/introduction/firestarter.json"
 
 [[files]]
@@ -131,9 +131,6 @@ file = "config/heracles/quests/introduction/forms.json"
 
 [[files]]
 file = "config/heracles/quests/introduction/ing_rack.json"
-
-[[files]]
-file = "config/heracles/quests/introduction/mud_brick.json"
 
 [[files]]
 file = "config/heracles/quests/introduction/mud_bricks.json"
@@ -565,6 +562,9 @@ file = "config/heracles/quests/ulvulshumblebeginnings/whole_new_create.json"
 file = "config/heracles/tutorial.html"
 
 [[files]]
+file = "config/oreberriesreplanted-common.toml"
+
+[[files]]
 file = "config/rightclickharvest.toml"
 
 [[files]]
@@ -587,6 +587,9 @@ file = "defaultconfigs/toms_storage-server.toml"
 
 [[files]]
 file = "kubejs/README.txt"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/bloomery.json"
 
 [[files]]
 file = "kubejs/assets/emi/recipe/filters/hide.json"
@@ -1009,6 +1012,9 @@ file = "kubejs/server_scripts/Mods/EnderStorage.js"
 file = "kubejs/server_scripts/Mods/FarmersDelight.js"
 
 [[files]]
+file = "kubejs/server_scripts/Mods/GBTHCore.js"
+
+[[files]]
 file = "kubejs/server_scripts/Mods/Greate.js"
 
 [[files]]
@@ -1340,7 +1346,7 @@ file = "mods/heracles.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/inventory-profiles-next.pw.toml"
+file = "mods/inventory-sorter.pw.toml"
 metafile = true
 
 [[files]]

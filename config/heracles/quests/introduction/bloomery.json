@@ -1,7 +1,7 @@
 {
   "dependencies": [
     "mud_bricks",
-    "campfire"
+    "finding_ores"
   ],
   "tasks": {
     "mud_bricks": {
@@ -45,13 +45,15 @@
     "description": [
       "To smelt your newly aquired /d/Raw Metals/d/, you'll need a /d/Bloomery/d/.",
       "",
-      "The /d/Bloomery/d/ will produce /d/Blooms/d/, which will need to be hammered into either /d/Nuggets/d/ or /d/Ingots/d/."
+      "The /d/Bloomery/d/ will produce /d/Blooms/d/, which will need to be hammered into either /d/Nuggets/d/ or /d/Ingots/d/.",
+      "",
+      "To craft one, __crouch and right-click__ on a /d/Campfire/d/ with a /d/Mud Brick/d/ block."
     ],
     "groups": {
       "Introduction": {
         "position": [
           6,
-          131
+          156
         ]
       }
     },
@@ -68,10 +70,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

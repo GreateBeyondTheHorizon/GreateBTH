@@ -9,6 +9,12 @@
       "amount": 1,
       "collection": "AUTOMATIC"
     },
+    "stick": {
+      "type": "heracles:item",
+      "item": "minecraft:stick",
+      "amount": 4,
+      "collection": "AUTOMATIC"
+    },
     "axe_head": {
       "type": "heracles:item",
       "item": "kubejs:flint_axe_head",
@@ -25,6 +31,12 @@
       "type": "heracles:item",
       "item": "kubejs:flint_sword_head",
       "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "rope": {
+      "type": "heracles:item",
+      "item": "farmersdelight:rope",
+      "amount": 4,
       "collection": "AUTOMATIC"
     }
   },
@@ -73,10 +85,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

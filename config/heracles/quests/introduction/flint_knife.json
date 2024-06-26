@@ -41,7 +41,9 @@
       "text": ""
     },
     "description": [
-      "First things first, it's good to get your bearings. As you probably figured out by now, you cannot collect logs using your fists. That requires a tool now. Sorry!"
+      "First things first, it's good to get your bearings. As you probably figured out by now, you cannot collect logs using your fists. That requires a tool now. Sorry!",
+      "",
+      "Psst: If you’re coming from 1.7, you can get /d/sticks/d/ by breaking /d/leaves/d/ now!"
     ],
     "groups": {
       "Introduction": {
@@ -79,10 +81,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

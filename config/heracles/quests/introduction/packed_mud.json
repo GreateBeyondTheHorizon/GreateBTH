@@ -32,9 +32,7 @@
     "description": [
       "In order to craft the /d/Bloomery/d/, you'll need some /d/Mud/d/.",
       "",
-      "You can either Craft it, or if you're lucky, find some in a /d/Mangrove Swamp/d/.",
-      "",
-      "If you /d/Craft/d/ it, you'll need /d/22 Mud/d/ if using the /d/Wheat/d/ recipe, or /d/44 Mud/d/ if using the /d/Straw/d/ recipe."
+      "You can either craft it, or if you're lucky, find some in a /d/Mangrove Swamp/d/."
     ],
     "groups": {
       "Introduction": {
@@ -57,10 +55,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

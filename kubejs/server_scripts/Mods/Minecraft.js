@@ -24,12 +24,10 @@ ServerEvents.recipes(event => {
 	event.remove({id: 'minecraft:ender_chest'})
 	event.remove({id: 'minecraft:furnace'})
 	event.remove({id: 'minecraft:grindstone'})
-	//event.remove({id: /minecraft:iron_ingot_from_(.*)_iron(.*)/})
 	event.remove({id: 'minecraft:lectern'})
 	event.remove({id: 'minecraft:loom'})
 	event.remove({id: 'minecraft:mud_bricks'})
 	event.remove({id: 'minecraft:netherite_ingot'})
-	event.remove({id: 'minecraft:packed_mud'})
 	event.remove({id: /minecraft:raw_(.*)_block/})
 	event.remove({id: 'minecraft:smithing_table'})
 	event.remove({id: 'minecraft:smoker'})
@@ -41,6 +39,7 @@ ServerEvents.recipes(event => {
 	event.remove({id: 'minecraft:mushroom_stew'})
 	event.remove({id: 'minecraft:beetroot_soup'})
 	event.remove({id: /minecraft:rabbit_stew_from(.*)/})
+	event.remove({id: 'minecraft:campfire'})
 
 	event.campfireCooking('minecraft:coal', 'gtceu:raw_coal').cookingTime(300).xp(0.6)
 	event.campfireCooking('minecraft:brick', 'gtceu:compressed_clay').cookingTime(300).xp(0.3)
@@ -354,19 +353,6 @@ ServerEvents.recipes(event => {
 		}
 	})
 
-	event.shaped(
-		Item.of('minecraft:campfire'),
-			[
-				'CS',
-				'L ',
-			],
-			{
-				C:'farmersdelight:canvas',
-				S:'minecraft:string',
-				L:'#minecraft:logs'
-			}
-	)
-
 	event.shapeless(
 		Item.of('minecraft:clay'),
 			[
@@ -385,6 +371,14 @@ ServerEvents.recipes(event => {
 	)
 
 	event.shapeless(
+		Item.of('minecraft:mud', 3),
+			[
+				Item.of('minecraft:water_bucket'),
+				'3x minecraft:dirt'
+			]
+	)
+
+	/* event.shapeless(
 		Item.of('minecraft:packed_mud', 2),
 		[
 			'2x farmersdelight:straw',
@@ -398,7 +392,7 @@ ServerEvents.recipes(event => {
 			'2x minecraft:wheat',
 			'minecraft:mud'
 		]
-	)
+	) */
 
 	event.shaped(
 		Item.of('minecraft:mud_bricks'),

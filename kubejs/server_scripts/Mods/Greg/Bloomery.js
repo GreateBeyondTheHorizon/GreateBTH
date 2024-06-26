@@ -1,18 +1,5 @@
 ServerEvents.recipes(event => {
 
-    event.shaped(
-        Item.of('gbthcore:bloomery'),
-        [
-            'MO',
-            'MC'
-        ],
-        {
-            M: 'minecraft:mud_bricks',
-            O: 'minecraft:coal',
-            C: 'minecraft:campfire'
-        }
-    )
-
     bloomeryRecipe('kubejs:copper_bloom', 600, 'kubejs:copper_bloom', ['#gbth:copper_bloom_inputs', 'minecraft:coal'])
     bloomeryRecipe('kubejs:tin_bloom', 600, 'kubejs:tin_bloom', ['#gbth:tin_bloom_inputs', 'minecraft:coal'])
     bloomeryRecipe('kubejs:wrought_iron_bloom', 600, 'kubejs:wrought_iron_bloom', ['#gbth:wrought_iron_bloom_inputs', 'minecraft:coal'])

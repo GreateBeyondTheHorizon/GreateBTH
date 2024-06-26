@@ -39,6 +39,7 @@ ServerEvents.recipes(event => {
 	event.remove({id: 'farmersdelight:honey_glazed_ham_block'})
 	event.remove({output: 'farmersdelight:pie_crust'})
 	event.remove({output: 'farmersdelight:cake_slice'})
+	event.remove({id: 'farmersdelight:rope'})
 
 	event.campfireCooking('minecraft:bread', 'farmersdelight:wheat_dough')
 
@@ -153,8 +154,7 @@ ServerEvents.recipes(event => {
 		}
 	})
 
-	event.shaped(
-		Item.of('farmersdelight:cutting_board'),
+	event.shaped('farmersdelight:cutting_board',
 		[
 			'SP',
 			'SP'
@@ -162,6 +162,16 @@ ServerEvents.recipes(event => {
 		{
 			S: '#forge:rods/wood',
 			P: '#minecraft:planks'
+		}
+	)
+
+	event.shaped('farmersdelight:rope',
+		[
+			'S',
+			'S'
+		],
+		{
+			S: 'farmersdelight:straw'
 		}
 	)
 })

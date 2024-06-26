@@ -87,3 +87,9 @@ ServerEvents.recipes(event => {
         event.replaceInput(item, item, recipe.replacement)
     })
 })
+
+LootJS.modifiers(event => {
+    for(const item of global.ItemsToRemove) {
+        event.addLootTableModifier(/(.*)/).removeLoot(item)
+    }
+})

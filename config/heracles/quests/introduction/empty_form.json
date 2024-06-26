@@ -30,7 +30,7 @@
       "text": ""
     },
     "description": [
-      ""
+      "The basis for the other 3 forms."
     ],
     "groups": {
       "Introduction": {
@@ -53,10 +53,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }
