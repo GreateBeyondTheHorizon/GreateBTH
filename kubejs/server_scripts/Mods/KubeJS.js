@@ -67,8 +67,7 @@ ServerEvents.recipes(event => {
 
 	event.shaped('kubejs:block_wooden_form',
 			[
-				'A',
-				'B',
+				'BA'
 			],
 			{
 				A:'gtceu:empty_wooden_form',
@@ -85,7 +84,8 @@ ServerEvents.recipes(event => {
 
 	event.shaped('kubejs:nugget_wooden_form',
 		[
-			'FK'
+			'K',
+			'F'
 		],
 		{
 			F: 'gtceu:empty_wooden_form',

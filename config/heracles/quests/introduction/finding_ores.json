@@ -1,12 +1,12 @@
 {
   "dependencies": [
-    "packed_mud"
+    "forms"
   ],
   "tasks": {
-    "mud_brick": {
+    "raw_iron": {
       "type": "heracles:item",
-      "item": "kubejs:mud_brick",
-      "amount": 88,
+      "item": "#gbth:wrought_iron_bloom_inputs",
+      "amount": 1,
       "collection": "AUTOMATIC"
     }
   },
@@ -30,33 +30,38 @@
       "text": ""
     },
     "description": [
-      "You can turn /d/Packed Mud/d/ into /d/Mud Bricks/d/ using the /d/Brick Form/d/."
+      "/d/Gregtech/d/ changes ore generation from vanilla. Instead of spawning ores in tiny clumps, Gregtech instead spawns massive veins of different ores, depending on the type. These can be found by searching for surface rocks above ground, which will show what ore vien is underneath. Also, only 1 ore vein will spawn in a valid chunk.",
+      "",
+      "You can view where an ore spawns by pressing /d/'R'/d/ on any raw ore.",
+      "",
+      "/c/Note/c/: In this pack, ore veins are placed 6 chunks apart."
     ],
     "groups": {
       "Introduction": {
         "position": [
-          85,
-          99
+          6,
+          127
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "kubejs:mud_brick",
+        "id": "minecraft:raw_iron",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Mud Brick"
+      "translate": "Finding Ores"
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

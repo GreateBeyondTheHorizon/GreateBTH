@@ -6,7 +6,7 @@
   "tasks": {
     "campfire": {
       "type": "heracles:item",
-      "item": "minecraft:campfire",
+      "item": "gbthcore:unlit_campfire",
       "amount": 1,
       "collection": "AUTOMATIC"
     }
@@ -45,21 +45,22 @@
     },
     "icon": {
       "item": {
-        "id": "minecraft:campfire",
+        "id": "gbthcore:unlit_campfire",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Campfire"
+      "translate": "Unlit Campfire"
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

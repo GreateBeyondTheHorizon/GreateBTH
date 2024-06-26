@@ -30,7 +30,11 @@
       "text": ""
     },
     "description": [
-      ""
+      "Each form has a specific purpose:",
+      "",
+      "/d/Nugget Form/d/: For making Nuggets",
+      "/d/Ingot Form/d/: For making Ingots",
+      "/d/Block Form/d/: For making Clay Blocks"
     ],
     "groups": {
       "Introduction": {
@@ -50,10 +54,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

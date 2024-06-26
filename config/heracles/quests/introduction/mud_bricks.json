@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "mud_brick"
+    "packed_mud"
   ],
   "tasks": {
     "mud_bricks": {
@@ -30,13 +30,13 @@
       "text": ""
     },
     "description": [
-      "Finally, turn the /d/Mud Brick/d/ into /d/Mud Bricks/d/."
+      "Use your newly created /d/Packed Mud/d/ to create /d/Mud Bricks/d/, which will be used in the /d/Bloomery/d/."
     ],
     "groups": {
       "Introduction": {
         "position": [
           85,
-          131
+          156
         ]
       }
     },
@@ -53,10 +53,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

@@ -39,3 +39,7 @@ ServerEvents.tags('item', event => {
 	
 	event.remove('minecraft:planks', 'gtceu:treated_wood_planks')
 })
+
+ServerEvents.tags('worldgen/biome', event => {
+	event.remove('terralith:has_structure/spire', ['minecraft:frozen_river'])
+})

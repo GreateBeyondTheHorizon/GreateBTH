@@ -30,13 +30,15 @@
       "text": ""
     },
     "description": [
-      "Once you get your first /d/Blooms/d/ from the /d/Bloomery/d/, you can shape them into /d/Nuggets/d/ or /d/Ingots/d/ by using a /d/Nugget/d/ or /d/Ingot Form/d/ with the /d/Bloom/d/ and a /d/Stone Hammer/d/."
+      "Once you get your first /d/Blooms/d/ from the /d/Bloomery/d/, you can shape them into /d/Nuggets/d/ or /d/Ingots/d/ by using a /d/Nugget/d/ or /d/Ingot Form/d/ with the /d/Bloom/d/ and a /d/Stone Hammer/d/.",
+      "",
+      "Wrought Iron will be needed for andesite alloy."
     ],
     "groups": {
       "Introduction": {
         "position": [
           6,
-          163
+          188
         ]
       }
     },
@@ -50,10 +52,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

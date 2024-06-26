@@ -1,12 +1,7 @@
-BlockEvents.placed('minecraft:campfire', (event) => {
-    event.block.set('minecraft:campfire', {lit:'false'})
-});
-
 BlockEvents.rightClicked(event => {
 	if(event.block.id === 'minecraft:campfire' && event.item.id === 'kubejs:fire_starter') {
 		if (event.block.properties.get('lit') !== true) {
 			var mainHandItem = event.player.getMainHandItem().getDamageValue()
-
 			if(mainHandItem < event.item.maxDamage) {
 				mainHandItem = mainHandItem + 1 
 				event.player.getMainHandItem().setDamageValue(mainHandItem)

@@ -1,0 +1,6 @@
+{
+    "type": "emi:world_interaction",
+    "left": "item:minecraft:campfire",
+    "right": "item:minecraft:mud_bricks",
+    "output": "item:gbthcore:bloomery"
+}

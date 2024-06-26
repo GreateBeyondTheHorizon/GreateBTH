@@ -1,52 +1,20 @@
 **Script/Config Changes**
-- Hide sophisticated storage/backpacks copper tier blocks/upgrades/items
-- Fix extractor quest
-- Change rubber recipe
-- Change create water wheel recipes
-- Make raw iron able to be smelted into wrought iron again
-- Gate steam engine to HV
-- Add recipe for basic electronic circuit pre-LV
-- Remove more default toms simple storage recipes
-- Fix typo in quest
-- Remove benders, mixers & cutters in place of mechanical presses, mixers & saws
-- Remove stress and you a guide group and use ponder in the future
-- Remove multiblocks quest group and instead place them in respective tier groups
-- Make steam multiblocks use steel instead of bronze
-- Add curios slots for early game GT face mask and rubber gloves
-- Disable GT hazards for now, may re-enable later
-- Fix various circuit board and circuit recipes
-- Hide various create tabs in that greate replaces in EMI
+- Replace inventoryprofiles with simpleinventorysorter
+- Add hint on getting sticks by breaking leaves
+- Made oreberries growth 5x slower
+- Remove all removed items from loottables
+- Made rope recipe give 1 instead of 4 
+- Fix multiple backpacks spawning in loot chests
+- Add quest describing how to find ores
+- Change campfire recipe to use straw instead of canvas
+- Remove vanilla campfire recipe
+- Add recipe for mud using a regular water bucket
+- Fix typo in Getting Muddy quest
+- Remove Mud Brick quest and condense it into Mud Bricks quest
+- Change recipe for bloomery
+- Fix old animation still trying to load
+- Remove spire structure from generating
+- Add water bucket and lava bucket back to EMI
+- Replace campfire with unlit campfire by default
 
 **Mod Changes**
-- emi_loot-0.6.5+1.20.1+forge -> emi_loot-0.6.6+fix3+1.20.1+forge
-- cookingforblockheads-forge-1.20.1-16.0.4 -> cookingforblockheads-forge-1.20.1-16.0.6
-- journeymap-1.20.1-5.9.21-forge -> journeymap-1.20.1-5.10.0-forge
-- Stargate Journey-1.20.1-0.6.26 Hotfix -> Stargate Journey-1.20.1-0.6.27
-- createdieselgenerators-1.20.1-1.2h -> createdieselgenerators-1.20.1-1.2i
-- appliedenergistics2-forge-15.2.1 -> appliedenergistics2-forge-15.2.4
-- lootjs-forge-1.20.1-2.11.0 -> lootjs-forge-1.20.1-2.12.0
-- AdvancedPeripherals-1.20.1-0.7.38r -> AdvancedPeripherals-1.20.1-0.7.40r
-- balm-forge-1.20.1-7.2.2 -> balm-forge-1.20.1-7.3.6-all
-- kotlinforforge-4.10.0-all -> kotlinforforge-4.11.0-all
-- Heracles-forge-1.20.1-1.1.12 -> Heracles-forge-1.20.1-1.1.13
-- embeddium-0.3.19+mc1.20.1-all -> embeddium-0.3.21+mc1.20.1
-- modernfix-forge-5.17.0+mc1.20.1 -> modernfix-forge-5.18.1+mc1.20.1
-- jei-1.20.1-forge-15.3.0.4 -> jei-1.20.1-forge-15.3.0.8
-- craftingtweaks-forge-1.20.1-18.2.3 -> craftingtweaks-forge-1.20.1-18.2.4
-- Jade-1.20.1-forge-11.9.2 -> Jade-1.20.1-forge-11.9.3
-- Placebo-1.20.1-8.6.1 -> Placebo-1.20.1-8.6.2
-- gtceu-1.20.1-1.2.3.a -> gtceu-1.20.1-1.3.0-a
-- greate-0.0.21 -> greate-0.0.22
-- guardvillagers-1.20.1-1.6.5 -> guardvillagers-1.20.1-1.6.6
-- entityculling-forge-1.6.5-mc1.20.1 -> entityculling-forge-1.6.6-mc1.20.1
-- kubejsadditions-forge-4.3.0 -> kubejsadditions-forge-4.3.2
-- probejs-6.0.0-forge -> probejs-7.0.0-forge
-- colorfulhearts-forge-1.20.1-4.1.6 -> colorfulhearts-forge-1.20.1-4.2.11
-- emi-1.1.6+1.20.1+forge -> emi-1.1.7+1.20.1+forge
-- toms_storage-1.20-1.6.6 -> toms_storage-1.20-1.6.7
-- kubejs-forge-2001.6.5-build.7 -> kubejs-forge-2001.6.5-build.14
-- FramedBlocks-9.2.2 -> FramedBlocks-9.3.0
-- BetterAdvancements-1.20.1-0.3.2.162 -> BetterAdvancements-NeoForge-1.20.1-0.4.2.10
-- baubley-heart-canisters-1.20.1-1.0.3 -> baubley-heart-canisters-1.20.1-1.0.5
-- productivebees-1.20.1-12.5.1 -> productivebees-1.20.1-12.5.3
-- bucketlib-1.20.1-2.3.4.0 -> bucketlib-1.20.1-2.3.4.1

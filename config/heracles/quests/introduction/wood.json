@@ -16,7 +16,7 @@
       "text": ""
     },
     "description": [
-      ""
+      "Like any other modpack, now is the time for some deforestation!"
     ],
     "groups": {
       "Introduction": {
@@ -36,10 +36,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

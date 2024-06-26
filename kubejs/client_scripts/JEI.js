@@ -6,6 +6,8 @@ JEIEvents.hideItems(event => {
 
 JEIEvents.addItems(event => {
 	event.add('minecraft:bucket')
+	event.add('minecraft:water_bucket')
+	event.add('minecraft:lava_bucket')
 	event.add('ceramicbucket:unfired_clay_bucket')
 	event.add('ceramicbucket:ceramic_bucket')
 	event.add('gtceu:concrete_bucket')
