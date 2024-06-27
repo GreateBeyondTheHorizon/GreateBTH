@@ -16,6 +16,9 @@
 !/config/emilootconfig_v1.json
 !/config/farmersdelight-common.toml
 !/config/oreberriesreplanted-common.toml
+!/config/AdvancedPeripherals
+/config/AdvancedPeripherals/*
+!/config/AdvancedPeripherals/world.toml
 !/defaultconfigs
 !/kubejs
 !/fancymenu_resources
