@@ -1111,6 +1111,9 @@ file = "kubejs/server_scripts/Mods/TomsSimpleStorage.js"
 file = "kubejs/server_scripts/Tags.js"
 
 [[files]]
+file = "kubejs/server_scripts/VillagerTrades.js"
+
+[[files]]
 file = "kubejs/server_scripts/jsconfig.json"
 
 [[files]]
@@ -1411,6 +1414,10 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/morejs.pw.toml"
 metafile = true
 
 [[files]]

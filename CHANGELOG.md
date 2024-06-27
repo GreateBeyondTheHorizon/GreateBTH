@@ -18,5 +18,6 @@
 - Replace campfire with unlit campfire by default
 - Fix dirt and gravel vein generation
 - Fix button positioning in main menu at small resolutions
+- Remove Advanced Peripherals computer scientist villager trades
 
 **Mod Changes**
