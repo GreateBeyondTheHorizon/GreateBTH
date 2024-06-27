@@ -2,11 +2,21 @@
 console.info('Ores Modified')
 
 WorldgenEvents.remove(event => {
-	event.removeOres(props => {
-		props.worldgenLayer = 'underground_ores'
-		props.blocks = [/minecraft:(.*)/, /create:(.*)/, /byg:(.*)/, /sgjourney:(.*)/]
-	})
-})
+    const minecraftOreVeins = [
+        'minecraft:coal_ore',
+        'minecraft:iron_ore',
+        'minecraft:gold_ore',
+        'minecraft:redstone_ore',
+        'minecraft:lapis_ore',
+        'minecraft:diamond_ore',
+        'minecraft:emerald_ore']
+ 
+ 
+    event.removeOres(props => {
+        props.worldgenLayer = 'underground_ores'
+        props.blocks = [/create:(.*)/, /byg:(.*)/, /sgjourney:(.*)/].concat(minecraftOreVeins)
+    })
+ })
 
 GTCEuStartupEvents.registry('gtceu:world_gen_layer', e => {
     e.create('moon')
