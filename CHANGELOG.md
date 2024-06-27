@@ -16,5 +16,6 @@
 - Remove spire structure from generating
 - Add water bucket and lava bucket back to EMI
 - Replace campfire with unlit campfire by default
+- Fix dirt and gravel vein generation
 
 **Mod Changes**
