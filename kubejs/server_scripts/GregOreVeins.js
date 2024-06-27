@@ -2,9 +2,6 @@ GTCEuServerEvents.oreVeins(event => {
 	event.removeAll()
 
 	const passiveLayers = {
-		
-		
-		
 		moon: pattern => {
 			pattern
 				.layer(l => {
@@ -14,7 +11,6 @@ GTCEuServerEvents.oreVeins(event => {
 						.size(2, 3)
 				})
 		},
-
 		basalt: pattern => {
 			pattern
 				.layer(l => {
@@ -181,7 +177,8 @@ GTCEuServerEvents.oreVeins(event => {
 			)
 		})
 	}
-	//Moon
+
+	// Moon veins
 	addVein('bauxite_vein_moon', 'moon', 25, 40, 10, 80, GTMaterials.Bauxite, 'above', passiveLayers.moon, pattern => {
 		pattern
 			.layer(l => l.weight(2).mat(GTMaterials.Bauxite).size(1, 4))
