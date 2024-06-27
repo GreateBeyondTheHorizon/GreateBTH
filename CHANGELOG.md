@@ -17,5 +17,6 @@
 - Add water bucket and lava bucket back to EMI
 - Replace campfire with unlit campfire by default
 - Fix dirt and gravel vein generation
+- Fix button positioning in main menu at small resolutions
 
 **Mod Changes**
