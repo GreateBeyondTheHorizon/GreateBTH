@@ -2,12 +2,11 @@ ServerEvents.recipes(event => {
     event.shaped(
 		Item.of('gbthcore:unlit_campfire'),
 			[
-				'CS',
-				'L ',
+				'SS',
+				'LL',
 			],
 			{
-				C:'farmersdelight:straw',
-				S:'minecraft:string',
+				S:'farmersdelight:straw',
 				L:'#minecraft:logs'
 			}
 	)
