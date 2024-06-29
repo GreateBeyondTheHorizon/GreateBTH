@@ -222,7 +222,7 @@ ServerEvents.recipes(event => {
 		Item.of('gtceu:flint_sword', '{DisallowContainerItem:0b,GT.Behaviours:{},GT.Tool:{AttackDamage:4.0f,AttackSpeed:-2.4f,Damage:0,MaxDamage:63},HideFlags:2,Enchantments:[{id:"minecraft:fire_aspect", "lvl": 2}]}'),
 			[
 				'AC',
-				' B',
+				'B ',
 			],
 			{
 				A:'farmersdelight:rope',
