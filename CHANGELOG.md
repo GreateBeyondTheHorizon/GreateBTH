@@ -19,6 +19,7 @@
 - Fix dirt and gravel vein generation
 - Fix button positioning in main menu at small resolutions
 - Remove Advanced Peripherals computer scientist villager trades
+- Make flint sword recipe the same shape as other flint tools
 
 **Mod Changes**
 - Add MoreJS
