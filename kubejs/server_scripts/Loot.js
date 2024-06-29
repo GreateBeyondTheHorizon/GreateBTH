@@ -1,14 +1,11 @@
 LootJS.modifiers(event => {
-	function addStrawCuttingLoot(blockID, chance) {
-		event.addBlockLootModifier(blockID)
+	global.StrawCutting.forEach(element => {
+		event.addBlockLootModifier(element.blockID)
 			.matchMainHand("#forge:tools/knives")
 			.playerAction(p => p.damageHeldItem())
-			.randomChance(chance)
+			.randomChance(element.chance)
 			.addLoot('farmersdelight:straw')
-	}
-
-	addStrawCuttingLoot('minecraft:grass', 0.33)
-	addStrawCuttingLoot('minecraft:tall_grass', 0.5)
+	})
 
 	event.addBlockLootModifier('minecraft:campfire').removeLoot('minecraft:charcoal').addLoot("2x minecraft:stick")
 	
