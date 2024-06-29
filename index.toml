@@ -1306,6 +1306,14 @@ file = "mods/emi.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/emiffect.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/emitrades.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/entityculling.pw.toml"
 metafile = true
 
