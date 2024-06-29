@@ -21,5 +21,6 @@
 - Remove Advanced Peripherals computer scientist villager trades
 
 **Mod Changes**
+- Add MoreJS
 - Add EMI Trades
 - Add EMIffect
