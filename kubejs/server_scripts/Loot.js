@@ -7,8 +7,8 @@ LootJS.modifiers(event => {
 			.addLoot('farmersdelight:straw')
 	}
 
-	addStrawCuttingLoot('minecraft:grass', 0.33)
-	addStrawCuttingLoot('minecraft:tall_grass', 0.5)
+	addStrawCuttingLoot('minecraft:grass', 0.5)
+	addStrawCuttingLoot('minecraft:tall_grass', 1)
 
 	event.addBlockLootModifier('minecraft:campfire').removeLoot('minecraft:charcoal').addLoot("2x minecraft:stick")
 	
