@@ -443,4 +443,16 @@ ServerEvents.recipes(event => {
 			W: Item.of('ceramicbucket:ceramic_bucket', '{Fluid:{Amount:1000,FluidName:"minecraft:water"}}').strongNBT()
 		}
 	)
+
+	event.shaped(
+		Item.of('minecraft:campfire'),
+			[
+				'SS',
+				'LL',
+			],
+			{
+				S:'farmersdelight:straw',
+				L:'#minecraft:logs'
+			}
+	)
 })

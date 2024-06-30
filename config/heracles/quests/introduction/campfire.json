@@ -6,7 +6,7 @@
   "tasks": {
     "campfire": {
       "type": "heracles:item",
-      "item": "gbthcore:unlit_campfire",
+      "item": "minecraft:campfire",
       "amount": 1,
       "collection": "AUTOMATIC"
     }
@@ -39,13 +39,13 @@
       "Introduction": {
         "position": [
           6,
-          39
+          38
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "gbthcore:unlit_campfire",
+        "id": "minecraft:campfire",
         "count": 1
       },
       "type": "heracles:item"

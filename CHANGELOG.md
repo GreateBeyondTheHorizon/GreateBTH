@@ -20,6 +20,7 @@
 - Fix button positioning in main menu at small resolutions
 - Remove Advanced Peripherals computer scientist villager trades
 - Make flint sword recipe the same shape as other flint tools
+- Change campfire back to vanilla
 
 **Mod Changes**
 - Add MoreJS
