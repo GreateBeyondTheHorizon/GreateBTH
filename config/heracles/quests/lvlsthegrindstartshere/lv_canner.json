@@ -1,11 +1,12 @@
 {
   "dependencies": [
-    "steel_ingot"
+    "lv_pump",
+    "the_first_of_many"
   ],
   "tasks": {
-    "casing": {
+    "canner": {
       "type": "heracles:item",
-      "item": "gtceu:lv_machine_casing",
+      "item": "gtceu:lv_canner",
       "amount": 1,
       "collection": "AUTOMATIC"
     }
@@ -21,21 +22,21 @@
     "groups": {
       "LV/LS - The Grind Starts Here": {
         "position": [
-          152,
-          -272
+          0,
+          -222
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "gtceu:lv_machine_casing",
+        "id": "gtceu:lv_canner",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "The Basis for Greate Machines"
+      "translate": "lv_canner"
     }
   },
   "settings": {

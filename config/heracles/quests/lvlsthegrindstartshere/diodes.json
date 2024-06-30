@@ -1,12 +1,13 @@
 {
   "dependencies": [
+    "mixer",
     "lv_assembler"
   ],
   "tasks": {
-    "coil": {
+    "diode": {
       "type": "heracles:item",
-      "item": "gtceu:cupronickel_coil_block",
-      "amount": 16,
+      "item": "gtceu:diode",
+      "amount": 1,
       "collection": "AUTOMATIC"
     }
   },
@@ -16,26 +17,26 @@
       "text": ""
     },
     "description": [
-      ""
+      "Used in the production of your first /d/MV/d/ circuit."
     ],
     "groups": {
       "LV/LS - The Grind Starts Here": {
         "position": [
-          -85,
-          -262
+          -81,
+          -187
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "gtceu:cupronickel_coil_block",
+        "id": "gtceu:diode",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Cupronickel Coils"
+      "translate": "Diodes"
     }
   },
   "settings": {

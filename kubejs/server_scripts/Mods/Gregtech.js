@@ -6,7 +6,6 @@ ServerEvents.recipes(event => {
 	event.remove({id: 'gtceu:shaped/wood_wall'})
 	event.remove({id: 'gtceu:shaped/wood_multiblock_tank'})
 	event.remove({id: 'gtceu:shaped/wood_tank_valve'})
-	event.remove({id: 'gtceu:shaped/vacuum_tube'})
 	event.remove({id: 'gtceu:shapeless/compressed_clay'})
 	event.remove({id: 'gtceu:shapeless/rubber_wood_planks'})
 	event.remove({id: 'gtceu:smelting/sticky_resin_from_slime'})
@@ -32,12 +31,6 @@ ServerEvents.recipes(event => {
 			event.remove({ output: `gtceu:${tier}_${component}` })
 		})
 	})
-	//lv
-	event.remove({output: '#gtceu:circuits/lv'})
-	//mv
-	event.remove({output: '#gtceu:circuits/mv'})
-	//hv
-	event.remove({output: '#gtceu:circuits/hv'})
 
 	//#region replacement
 	//Recipe ids that should have a campfire in place of a furnace in its recipe

@@ -1,6 +1,5 @@
 {
   "dependencies": [
-    "pokey_pokey",
     "steel_plate",
     "resin_printed_circuit_board",
     "vacuum_tubes",
@@ -58,10 +57,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

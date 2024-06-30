@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "lv_machine_hull"
+    "steel_ingot"
   ],
   "tasks": {
     "polarizer": {
@@ -21,8 +21,8 @@
     "groups": {
       "LV/LS - The Grind Starts Here": {
         "position": [
-          234,
-          -272
+          -2,
+          -42
         ]
       }
     },

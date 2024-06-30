@@ -1,32 +1,44 @@
 {
   "dependencies": [
-    "casing"
+    "lv_emitter",
+    "lv_sensor",
+    "the_first_of_many",
+    "lv_batteries"
   ],
-  "tasks": {},
+  "tasks": {
+    "prospector": {
+      "type": "heracles:item",
+      "item": "gtceu:prospector.lv",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
   "rewards": {},
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "Used to scan for /d/Ores/d/ in a /d/3/d/ chunk radius. The LV tier prospector /c/cannot/c/ locate fluid or bedrock veins."
+    ],
     "groups": {
       "LV/LS - The Grind Starts Here": {
         "position": [
-          194,
-          -271
+          84,
+          -221
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "gtceu:lv_machine_hull",
+        "id": "gtceu:prospector.lv",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "The Basis For GT Machines"
+      "translate": "Prospecting"
     }
   },
   "settings": {
