@@ -145,9 +145,6 @@ file = "config/heracles/quests/introduction/packed_mud.json"
 file = "config/heracles/quests/introduction/sleeping_bag.json"
 
 [[files]]
-file = "config/heracles/quests/introduction/straw.json"
-
-[[files]]
 file = "config/heracles/quests/introduction/the_start_of_something_new.json"
 
 [[files]]
@@ -155,6 +152,21 @@ file = "config/heracles/quests/introduction/wood.json"
 
 [[files]]
 file = "config/heracles/quests/lvlsthegrindstartshere/aluminium.json"
+
+[[files]]
+file = "config/heracles/quests/lvlsthegrindstartshere/arc_furnace.json"
+
+[[files]]
+file = "config/heracles/quests/lvlsthegrindstartshere/basic_centrifuge.json"
+
+[[files]]
+file = "config/heracles/quests/lvlsthegrindstartshere/basic_electrolyzer.json"
+
+[[files]]
+file = "config/heracles/quests/lvlsthegrindstartshere/cheaper_iron.json"
+
+[[files]]
+file = "config/heracles/quests/lvlsthegrindstartshere/circuit_assembler.json"
 
 [[files]]
 file = "config/heracles/quests/lvlsthegrindstartshere/cupronickel_coil.json"
@@ -166,10 +178,16 @@ file = "config/heracles/quests/lvlsthegrindstartshere/diodes.json"
 file = "config/heracles/quests/lvlsthegrindstartshere/ebf.json"
 
 [[files]]
-file = "config/heracles/quests/lvlsthegrindstartshere/large_water_wheel.json"
+file = "config/heracles/quests/lvlsthegrindstartshere/first_mv_circuit.json"
 
 [[files]]
-file = "config/heracles/quests/lvlsthegrindstartshere/lubricant.json"
+file = "config/heracles/quests/lvlsthegrindstartshere/good_circuit_board.json"
+
+[[files]]
+file = "config/heracles/quests/lvlsthegrindstartshere/iron_iii_chloride.json"
+
+[[files]]
+file = "config/heracles/quests/lvlsthegrindstartshere/large_water_wheel.json"
 
 [[files]]
 file = "config/heracles/quests/lvlsthegrindstartshere/lv_air_scrubber.json"
@@ -185,6 +203,9 @@ file = "config/heracles/quests/lvlsthegrindstartshere/lv_batteries.json"
 
 [[files]]
 file = "config/heracles/quests/lvlsthegrindstartshere/lv_canner.json"
+
+[[files]]
+file = "config/heracles/quests/lvlsthegrindstartshere/lv_chemical_rector.json"
 
 [[files]]
 file = "config/heracles/quests/lvlsthegrindstartshere/lv_conveyor.json"
@@ -233,6 +254,12 @@ file = "config/heracles/quests/lvlsthegrindstartshere/lv_wiremill.json"
 
 [[files]]
 file = "config/heracles/quests/lvlsthegrindstartshere/muffler_hatch.json"
+
+[[files]]
+file = "config/heracles/quests/lvlsthegrindstartshere/oxygen.json"
+
+[[files]]
+file = "config/heracles/quests/lvlsthegrindstartshere/sodium_persulfate.json"
 
 [[files]]
 file = "config/heracles/quests/lvlsthegrindstartshere/steel_mechanical_press.json"
@@ -1010,6 +1037,9 @@ file = "kubejs/server_scripts/Mods/Greate/Press.js"
 
 [[files]]
 file = "kubejs/server_scripts/Mods/Greg/AlloySmelter.js"
+
+[[files]]
+file = "kubejs/server_scripts/Mods/Greg/ArcFurnace.js"
 
 [[files]]
 file = "kubejs/server_scripts/Mods/Greg/Assembler.js"
