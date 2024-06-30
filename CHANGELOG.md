@@ -23,6 +23,8 @@
 - Change campfire back to vanilla
 - Change circuit recipes back to default GT
 - Remove Farmers Delight lead recipe
+- Fix Bloomery not forming
+- Remove Level 3 trades from AE2 Fluix Researcher
 
 **Mod Changes**
 - Downgrade ProbeJS to 6.0.1
