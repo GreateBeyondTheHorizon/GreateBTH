@@ -71,7 +71,8 @@
       "/d/Hammer/d/: Muffles machines. Can craft ingots into plates.",
       "/d/File/d/: Used for certain crafting components.",
       "/d/Saw/d/: Can craft logs into planks with a 1:4 ratio.",
-      "/d/Screwdriver/d/: Configures machines."
+      "/d/Screwdriver/d/: Configures machines.",
+      "/d/Soft Mallet/d/: Starts/Stops machines."
     ],
     "groups": {
       "ULV/ULS - Humble Beginnings": {

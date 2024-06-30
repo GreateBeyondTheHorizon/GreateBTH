@@ -1,12 +1,12 @@
 {
   "dependencies": [
-    "lv_assembler"
+    "the_first_of_many"
   ],
   "tasks": {
-    "coil": {
+    "emitter": {
       "type": "heracles:item",
-      "item": "gtceu:cupronickel_coil_block",
-      "amount": 16,
+      "item": "gtceu:lv_emitter",
+      "amount": 1,
       "collection": "AUTOMATIC"
     }
   },
@@ -21,21 +21,21 @@
     "groups": {
       "LV/LS - The Grind Starts Here": {
         "position": [
-          -85,
-          -262
+          71,
+          -188
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "gtceu:cupronickel_coil_block",
+        "id": "gtceu:lv_emitter",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Cupronickel Coils"
+      "translate": "LV Emitter"
     }
   },
   "settings": {

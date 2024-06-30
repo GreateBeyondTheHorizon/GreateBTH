@@ -21,8 +21,11 @@
 - Remove Advanced Peripherals computer scientist villager trades
 - Make flint sword recipe the same shape as other flint tools
 - Change campfire back to vanilla
+- Change circuit recipes back to default GT
+- Remove Farmers Delight lead recipe
 
 **Mod Changes**
+- Downgrade ProbeJS to 6.0.1
 - Add MoreJS
 - Add EMI Trades
 - Add EMIffect

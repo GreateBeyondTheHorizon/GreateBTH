@@ -1,12 +1,13 @@
 {
   "dependencies": [
-    "lv_assembler"
+    "lv_canner",
+    "lv_alloy_smelter"
   ],
   "tasks": {
-    "coil": {
+    "battery": {
       "type": "heracles:item",
-      "item": "gtceu:cupronickel_coil_block",
-      "amount": 16,
+      "item": "#gtceu:batteries/lv",
+      "amount": 1,
       "collection": "AUTOMATIC"
     }
   },
@@ -16,26 +17,23 @@
       "text": ""
     },
     "description": [
-      ""
+      "Used for making various items that require power, and can also be used in battery buffers."
     ],
     "groups": {
       "LV/LS - The Grind Starts Here": {
         "position": [
-          -85,
-          -262
+          38,
+          -221
         ]
       }
     },
     "icon": {
-      "item": {
-        "id": "gtceu:cupronickel_coil_block",
-        "count": 1
-      },
+      "item": "#gtceu:batteries/lv",
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Cupronickel Coils"
+      "translate": "Portable EU Storage"
     }
   },
   "settings": {

@@ -40,6 +40,7 @@ ServerEvents.recipes(event => {
 	event.remove({output: 'farmersdelight:pie_crust'})
 	event.remove({output: 'farmersdelight:cake_slice'})
 	event.remove({id: 'farmersdelight:rope'})
+	event.remove({id: 'farmersdelight:lead_from_straw'})
 
 	event.campfireCooking('minecraft:bread', 'farmersdelight:wheat_dough')
 

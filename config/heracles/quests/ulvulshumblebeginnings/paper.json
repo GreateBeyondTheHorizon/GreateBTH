@@ -1,5 +1,6 @@
 {
   "dependencies": [
+    "crafting_table",
     "clay_bucket"
   ],
   "tasks": {
@@ -54,10 +55,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": false,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }
