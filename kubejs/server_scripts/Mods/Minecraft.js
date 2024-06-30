@@ -378,6 +378,13 @@ ServerEvents.recipes(event => {
 			]
 	)
 
+	event.shapeless(
+		Item.of('minecraft:flint'),
+			[
+				'3x minecraft:gravel'
+			]
+	)
+
 	/* event.shapeless(
 		Item.of('minecraft:packed_mud', 2),
 		[
