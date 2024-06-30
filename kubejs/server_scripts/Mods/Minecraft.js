@@ -324,7 +324,7 @@ ServerEvents.recipes(event => {
 				}
 			],
 			tool: {
-				"tag": "forge:tools/axes"
+				"tag": "minecraft:axes"
 			}
 		})
 	})
@@ -349,7 +349,7 @@ ServerEvents.recipes(event => {
 			}
 		],
 		tool: {
-			"tag": "forge:tools/axes"
+			"tag": "minecraft:axes"
 		}
 	})
 

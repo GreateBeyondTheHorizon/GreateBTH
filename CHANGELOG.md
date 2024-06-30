@@ -25,6 +25,8 @@
 - Remove Farmers Delight lead recipe
 - Fix Bloomery not forming
 - Remove Level 3 trades from AE2 Fluix Researcher
+- Fix Bloomery Quest
+- Fix GT axes not being able to be used for plank cutting
 
 **Mod Changes**
 - Downgrade ProbeJS to 6.0.1
