@@ -1,13 +1,9 @@
 {
-  "dependencies": [
-    "primitive_crafting",
-    "campfire",
-    "forms"
-  ],
+  "dependencies": [],
   "tasks": {
-    "clay_bucket": {
+    "cutting_board": {
       "type": "heracles:item",
-      "item": "ceramicbucket:ceramic_bucket",
+      "item": "farmersdelight:cutting_board",
       "amount": 1,
       "collection": "AUTOMATIC"
     }
@@ -32,30 +28,26 @@
       "text": ""
     },
     "description": [
-      "Since you are not able to smelt metals yet, something more primitive is needed. Luckly this /d/Ceramic Bucket/d/ will suffice!",
-      "",
-      "You can smelt the /d/Unfired Ceramic Bucket/d/ on the /d/Campfire/d/ to turn it into a useable /d/Bucket/d/.",
-      "",
-      "/c/WARNING/c/: May break under extreme temperatures."
+      "The /d/Cutting Board/d/ allows you to do basic crafts involving an input item and a tool. Without a crafting table, this will have to do. You'll need one to make an /d/Unfired Clay Bucket/d/."
     ],
     "groups": {
       "Introduction": {
         "position": [
-          51,
+          84,
           72
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "ceramicbucket:ceramic_bucket",
+        "id": "farmersdelight:cutting_board",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Moving Fluids"
+      "translate": "Primitive Crafting"
     }
   },
   "settings": {
