@@ -1,11 +1,11 @@
 {
   "dependencies": [
-    "lv_motor"
+    "steel_ingot"
   ],
   "tasks": {
-    "pump": {
+    "hull": {
       "type": "heracles:item",
-      "item": "gtceu:lv_electric_pump",
+      "item": "gtceu:lv_machine_hull",
       "amount": 1,
       "collection": "AUTOMATIC"
     }
@@ -21,21 +21,21 @@
     "groups": {
       "LV/LS - The Grind Starts Here": {
         "position": [
-          65,
-          -73
+          -35,
+          9
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "gtceu:lv_electric_pump",
+        "id": "gtceu:lv_machine_hull",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Microcrafting Hell Begins, 2"
+      "translate": "LV Machine Hull"
     }
   },
   "settings": {

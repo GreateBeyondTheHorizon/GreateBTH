@@ -1,5 +1,7 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "wood"
+  ],
   "tasks": {
     "cutting_board": {
       "type": "heracles:item",
@@ -33,7 +35,7 @@
     "groups": {
       "Introduction": {
         "position": [
-          70,
+          0,
           105
         ]
       }

@@ -1,5 +1,7 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "Straw"
+  ],
   "tasks": {
     "spice_rack": {
       "type": "heracles:item",

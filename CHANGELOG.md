@@ -4,6 +4,9 @@
 - Remove unneeded circuit textures
 - Fix old bloomery structure 
 - Remove campfire from bloomery quest
+- Change curios arm slot to hand slot
+- Fix some quests locations and depdendencies
+- Swap steel recipe in EBF
 
 **Mod Changes**
 - appliedenergistics2-forge-15.2.4 -> appliedenergistics2-forge-15.2.8
