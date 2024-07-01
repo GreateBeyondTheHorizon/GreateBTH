@@ -1,49 +1,9 @@
 **Script/Config Changes**
-- Replace inventoryprofiles with simpleinventorysorter
-- Add hint on getting sticks by breaking leaves
-- Made oreberries growth 5x slower
-- Remove all removed items from loottables
-- Made rope recipe give 1 instead of 4 
-- Fix multiple backpacks spawning in loot chests
-- Add quest describing how to find ores
-- Change campfire recipe to use straw instead of canvas
-- Remove vanilla campfire recipe
-- Add recipe for mud using a regular water bucket
-- Fix typo in Getting Muddy quest
-- Remove Mud Brick quest and condense it into Mud Bricks quest
-- Change recipe for bloomery
-- Fix old animation still trying to load
-- Remove spire structure from generating
-- Add water bucket and lava bucket back to EMI
-- Replace campfire with unlit campfire by default
-- Fix dirt and gravel vein generation
-- Fix button positioning in main menu at small resolutions
-- Remove Advanced Peripherals computer scientist villager trades
-- Make flint sword recipe the same shape as other flint tools
-- Change campfire back to vanilla
-- Change circuit recipes back to default GT
-- Remove Farmers Delight lead recipe
-- Fix Bloomery not forming
-- Remove Level 3 trades from AE2 Fluix Researcher
-- Fix Bloomery Quest
-- Fix GT axes not being able to be used for plank cutting
-- Make raw coal & raw coal block burnable fuels
-- Change bloomery recipes to use raw coal
-- Disable beds until one is crafted
-- Add early game sleeping option (sleeping bags)
-- Add alternative recipe for mud
-- Add recipe for cutting mud bricks into slabs
-- Change bloomery structure
-- Remove lootbags from various ULV quests
-- Hide Ad Astra oxygen in EMI
-- Hide blasting and smoking categories in EMI
-- Fix flint knife recipe
-- Disable crafting recipe for phenolic boards
+- More Textures
+- Allow all coals to be used in the bloomery
+- Remove unneeded circuit textures
 
 **Mod Changes**
-- Downgrade ProbeJS to 6.0.1
-- Add MoreJS
-- Add EMI Trades
-- Add EMIffect
-- Add SleepingBags
-- Add Lychee
+- appliedenergistics2-forge-15.2.4 -> appliedenergistics2-forge-15.2.8
+- botarium-forge-1.20.1-2.3.3 -> botarium-forge-1.20.1-2.3.4
+- PuzzlesLib-v8.1.20-1.20.1-Forge -> PuzzlesLib-v8.1.21-1.20.1-Forge
