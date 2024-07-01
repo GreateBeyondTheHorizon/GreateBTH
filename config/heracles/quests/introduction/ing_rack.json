@@ -1,7 +1,5 @@
 {
-  "dependencies": [
-    "straw"
-  ],
+  "dependencies": [],
   "tasks": {
     "spice_rack": {
       "type": "heracles:item",
@@ -37,8 +35,8 @@
     "groups": {
       "Introduction": {
         "position": [
-          85,
-          10
+          70,
+          35
         ]
       }
     },
@@ -55,10 +53,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }
