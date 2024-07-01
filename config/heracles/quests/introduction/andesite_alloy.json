@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "blooms"
+    "bloomery_products"
   ],
   "tasks": {
     "andesite_alloy": {
