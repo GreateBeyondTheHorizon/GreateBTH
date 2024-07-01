@@ -36,7 +36,7 @@ ServerEvents.tags('item', event => {
 
 	event.add('curios:head', ['gtceu:face_mask'])
 
-	event.add('curios:arms', ['gtceu:rubber_gloves'])
+	event.add('curios:hands', ['gtceu:rubber_gloves'])
 
 	event.remove('create:sandpaper', ['create:sand_paper', 'create:red_sand_paper'])
 	

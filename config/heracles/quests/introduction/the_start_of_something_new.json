@@ -17,7 +17,7 @@
     "groups": {
       "Introduction": {
         "position": [
-          6,
+          0,
           -32
         ]
       }
@@ -35,10 +35,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

@@ -36,7 +36,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "lv_canner"
+      "translate": "LV Canner"
     }
   },
   "settings": {

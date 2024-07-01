@@ -1,8 +1,7 @@
 {
   "dependencies": [
     "lv_conveyor",
-    "the_first_of_many",
-    "lv_motor"
+    "the_first_of_many"
   ],
   "tasks": {
     "cutter": {
@@ -23,8 +22,8 @@
     "groups": {
       "LV/LS - The Grind Starts Here": {
         "position": [
-          -65,
-          -108
+          -7,
+          -199
         ]
       }
     },

@@ -1,5 +1,6 @@
 {
   "dependencies": [
+    "lv_machine_hull",
     "the_first_of_many"
   ],
   "tasks": {
@@ -23,8 +24,8 @@
     "groups": {
       "LV/LS - The Grind Starts Here": {
         "position": [
-          -4,
-          34
+          -8,
+          37
         ]
       }
     },

@@ -1,6 +1,7 @@
 {
   "dependencies": [
-    "bloomery"
+    "bloomery",
+    "crafting_table"
   ],
   "tasks": {
     "431A2112ED3305B8": {
