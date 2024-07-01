@@ -7,88 +7,35 @@
       "type": "heracles:item",
       "item": "minecraft:redstone",
       "amount": 8,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     },
     "0034C88F9C227326": {
       "type": "heracles:item",
       "item": "create:rose_quartz",
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     },
     "3D12BF8F2C59D052": {
       "type": "heracles:item",
       "item": "minecraft:quartz",
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     },
     "2E14AE6CA11471FF": {
       "type": "heracles:item",
       "item": "#create:sandpaper",
       "amount": 1,
       "collection": "AUTOMATIC",
-      "title": "Any #create:sandpaper",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "title": "Any #create:sandpaper"
     },
     "3C55135313E355D8": {
       "type": "heracles:item",
       "item": "create:polished_rose_quartz",
       "amount": 4,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     }
   },
-  "rewards": {
-    "lootbag": {
-      "item": {
-        "id": "lootbags:loot_bag",
-        "count": 1,
-        "nbt": {
-          "Type": "COMMON",
-          "Color": 13882323,
-          "Loot": "lootbags:kjs/3ui6gksr7gxl82e5t9pkch2ls",
-          "Name": "Lootbag (ULV Age)"
-        }
-      },
-      "type": "heracles:item"
-    }
-  },
+  "rewards": {},
   "display": {
     "subtitle": {
       "text": ""
@@ -117,10 +64,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

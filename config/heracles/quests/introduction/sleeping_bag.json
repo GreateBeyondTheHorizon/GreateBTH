@@ -1,11 +1,11 @@
 {
   "dependencies": [
-    "pyrolysis"
+    "the_start_of_something_new"
   ],
   "tasks": {
-    "hand_crank": {
+    "bag": {
       "type": "heracles:item",
-      "item": "create:hand_crank",
+      "item": "#gbth:sleeping_bags",
       "amount": 1,
       "collection": "AUTOMATIC"
     }
@@ -16,28 +16,25 @@
       "text": ""
     },
     "description": [
-      "Provides rotational force to /d/Create/Greate/d/ machines. ",
+      "You may have noticed beds are /c/disabled/c/ until you are able to craft one. However, there is an alternative. ",
       "",
-      "This only provides /d/8su/d/, at the cost of your hunger slowly depleting."
+      "The /d/Sleeping Bag/d/ allows you to skip the night, but it /c/does not/c/ set your spawnpoint."
     ],
     "groups": {
-      "ULV/ULS - Humble Beginnings": {
+      "Introduction": {
         "position": [
-          -176,
-          -208
+          -27,
+          10
         ]
       }
     },
     "icon": {
-      "item": {
-        "id": "create:hand_crank",
-        "count": 1
-      },
+      "item": "#gbth:sleeping_bags",
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Hand Crank"
+      "translate": "Getting Some Sleep"
     }
   },
   "settings": {

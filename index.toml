@@ -142,6 +142,12 @@ file = "config/heracles/quests/introduction/mud_bricks.json"
 file = "config/heracles/quests/introduction/packed_mud.json"
 
 [[files]]
+file = "config/heracles/quests/introduction/sleeping_bag.json"
+
+[[files]]
+file = "config/heracles/quests/introduction/straw.json"
+
+[[files]]
 file = "config/heracles/quests/introduction/the_start_of_something_new.json"
 
 [[files]]
@@ -817,6 +823,9 @@ file = "kubejs/config/probejs.json"
 file = "kubejs/data/gbth/curios/slots/arms.json"
 
 [[files]]
+file = "kubejs/data/gbth/recipes/mud.json"
+
+[[files]]
 file = "kubejs/data/minecraft/direct_drops/entities/hoglin.json"
 
 [[files]]
@@ -1064,6 +1073,9 @@ file = "kubejs/server_scripts/Mods/SequencedAssembly/LV.js"
 
 [[files]]
 file = "kubejs/server_scripts/Mods/SequencedAssembly/MV.js"
+
+[[files]]
+file = "kubejs/server_scripts/Mods/SleepingBags.js"
 
 [[files]]
 file = "kubejs/server_scripts/Mods/SophisticatedBackpacks.js"
@@ -1381,6 +1393,10 @@ file = "mods/lootjs.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/lychee.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/melody.pw.toml"
 metafile = true
 
@@ -1478,6 +1494,10 @@ metafile = true
 
 [[files]]
 file = "mods/simple-backups.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/sleeping-bags.pw.toml"
 metafile = true
 
 [[files]]

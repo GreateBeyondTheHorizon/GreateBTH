@@ -7,55 +7,22 @@
       "type": "heracles:item",
       "item": "gtceu:glass_tube",
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     },
     "38627AE4494BDDF1": {
       "type": "heracles:item",
       "item": "gtceu:ball_casting_mold",
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     }
   },
-  "rewards": {
-    "lootbag": {
-      "item": {
-        "id": "lootbags:loot_bag",
-        "count": 1,
-        "nbt": {
-          "Type": "COMMON",
-          "Color": 13882323,
-          "Loot": "lootbags:kjs/3ui6gksr7gxl82e5t9pkch2ls",
-          "Name": "Lootbag (ULV Age)"
-        }
-      },
-      "type": "heracles:item"
-    }
-  },
+  "rewards": {},
   "display": {
     "subtitle": {
       "text": ""
     },
     "description": [
-      "<task task=\"7CF1981E9B88A306\" quest=\"32D671F65C901C11\"/>",
-      "<task task=\"38627AE4494BDDF1\" quest=\"32D671F65C901C11\"/>",
-      "<hr/>",
-      "Hehe, Glass &&oballs"
+      "Hehe, Glass --balls--"
     ],
     "groups": {
       "ULV/ULS - Humble Beginnings": {
@@ -78,10 +45,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

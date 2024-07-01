@@ -137,24 +137,6 @@ ServerEvents.recipes(event => {
 		}
 	}
 
-	event.custom({
-		type: "farmersdelight:cutting",
-		ingredients: [
-			{
-				"item": "minecraft:cake"
-			}
-		],
-		result: [
-			{
-				"count": 9,
-				"item": "farmersdelight:cake_slice"
-			}
-		],
-		tool: {
-			"tag": "forge:tools/knives"
-		}
-	})
-
 	event.shaped('farmersdelight:cutting_board',
 		[
 			'SP',
@@ -175,4 +157,40 @@ ServerEvents.recipes(event => {
 			S: 'farmersdelight:straw'
 		}
 	)
+
+	//#region cutting board
+	event.custom({
+		type: "farmersdelight:cutting",
+		ingredients: [
+			{
+				"item": "minecraft:cake"
+			}
+		],
+		result: [
+			{
+				"count": 9,
+				"item": "farmersdelight:cake_slice"
+			}
+		],
+		tool: {
+			"tag": "forge:tools/knives"
+		}
+	})
+
+	event.custom({
+		type: "farmersdelight:cutting",
+		ingredients: [
+			{
+				"item": "minecraft:mud_bricks"
+			}
+		],
+		result: [
+			{
+				"item": "minecraft:mud_brick_slab"
+			}
+		],
+		tool: {
+			"tag": "minecraft:axes"
+		}
+	})
 })

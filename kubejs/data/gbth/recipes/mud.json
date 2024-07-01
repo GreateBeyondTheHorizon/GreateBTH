@@ -1,0 +1,19 @@
+{
+    "type": "lychee:item_inside",
+    "item_in": {
+        "item": "minecraft:dirt"
+    },
+    "block_in": {
+        "blocks": ["minecraft:water"],
+        "state": {
+            "level": 0
+        }
+    },
+    "time": 0.5,
+    "post": [
+        {
+            "type": "drop_item",
+            "item": "minecraft:mud"
+        }
+    ]
+}

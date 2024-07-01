@@ -13,6 +13,8 @@ ServerEvents.recipes(event => {
 	event.remove({output: /gtceu:(.*)_mold/})
 	event.remove({id: 'gtceu:shaped/steam_boiler_coal_steel'})
 	event.remove({id: 'gtceu:shaped/energy_hatch_lv'})
+	event.remove({id: 'gtceu:shaped/vacuum_tube'})
+	event.remove({id: 'gtceu:mixer/mud'})
 
 	const tiers = ['lv', 'mv', 'hv' /*'ev', 'iv', 'luv', 'zpm', 'uv' */]
 	const components = [

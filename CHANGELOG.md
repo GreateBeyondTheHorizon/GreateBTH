@@ -27,9 +27,19 @@
 - Remove Level 3 trades from AE2 Fluix Researcher
 - Fix Bloomery Quest
 - Fix GT axes not being able to be used for plank cutting
+- Make raw coal & raw coal block burnable fuels
+- Change bloomery recipes to use raw coal
+- Disable beds until one is crafted
+- Add early game sleeping option (sleeping bags)
+- Add alternative recipe for mud
+- Add recipe for cutting mud bricks into slabs
+- Change bloomery structure
+- Remove lootbags from various ULV quests
 
 **Mod Changes**
 - Downgrade ProbeJS to 6.0.1
 - Add MoreJS
 - Add EMI Trades
 - Add EMIffect
+- Add SleepingBags
+- Add Lychee
