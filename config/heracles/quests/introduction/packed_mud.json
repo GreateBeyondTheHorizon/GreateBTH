@@ -6,7 +6,7 @@
     "packed_mud": {
       "type": "heracles:item",
       "item": "minecraft:packed_mud",
-      "amount": 88,
+      "amount": 64,
       "collection": "AUTOMATIC"
     }
   },
