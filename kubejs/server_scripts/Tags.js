@@ -1,4 +1,6 @@
 ServerEvents.tags('item', event => {
+	event.add('minecraft:coals', ['gtceu:raw_coal', 'gtceu:coal_dust'])
+
 	event.add('forge:lenses', 'kubejs:certus_quartz_lens')
 	event.add('forge:lenses/certus', 'kubejs:certus_quartz_lens')
 	event.add('forge:armors', /ad_astra:jet(.*)/)

@@ -1,9 +1,9 @@
 ServerEvents.recipes(event => {
 
-    bloomeryRecipe('kubejs:copper_bloom', 600, 'kubejs:copper_bloom', ['#gbth:copper_bloom_inputs', 'gtceu:raw_coal'])
-    bloomeryRecipe('kubejs:tin_bloom', 600, 'kubejs:tin_bloom', ['#gbth:tin_bloom_inputs', 'gtceu:raw_coal'])
-    bloomeryRecipe('kubejs:wrought_iron_bloom', 600, 'kubejs:wrought_iron_bloom', ['#gbth:wrought_iron_bloom_inputs', 'gtceu:raw_coal'])
-    bloomeryRecipe('kubejs:bronze_bloom', 900, '4x kubejs:bronze_bloom', ['3x minecraft:copper_ingot', 'gtceu:tin_ingot', '2x gtceu:raw_coal'])
+    bloomeryRecipe('kubejs:copper_bloom', 600, 'kubejs:copper_bloom', ['#gbth:copper_bloom_inputs', '#minecraft:coals'])
+    bloomeryRecipe('kubejs:tin_bloom', 600, 'kubejs:tin_bloom', ['#gbth:tin_bloom_inputs', '#minecraft:coals'])
+    bloomeryRecipe('kubejs:wrought_iron_bloom', 600, 'kubejs:wrought_iron_bloom', ['#gbth:wrought_iron_bloom_inputs', '#minecraft:coals'])
+    bloomeryRecipe('kubejs:bronze_bloom', 900, '4x kubejs:bronze_bloom', ['3x minecraft:copper_ingot', 'gtceu:tin_ingot', '2x #minecraft:coals'])
 
     function bloomeryRecipe(id, duration, output, input) {
         event.recipes.gbthcore.bloomery(id)
