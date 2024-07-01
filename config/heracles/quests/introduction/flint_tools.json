@@ -3,27 +3,9 @@
     "flint_knife"
   ],
   "tasks": {
-    "shovel_head": {
-      "type": "heracles:item",
-      "item": "kubejs:flint_shovel_head",
-      "amount": 1,
-      "collection": "AUTOMATIC"
-    },
-    "stick": {
-      "type": "heracles:item",
-      "item": "minecraft:stick",
-      "amount": 4,
-      "collection": "AUTOMATIC"
-    },
     "axe_head": {
       "type": "heracles:item",
       "item": "kubejs:flint_axe_head",
-      "amount": 1,
-      "collection": "AUTOMATIC"
-    },
-    "pickaxe_head": {
-      "type": "heracles:item",
-      "item": "kubejs:flint_pickaxe_head",
       "amount": 1,
       "collection": "AUTOMATIC"
     },
@@ -37,6 +19,24 @@
       "type": "heracles:item",
       "item": "farmersdelight:rope",
       "amount": 4,
+      "collection": "AUTOMATIC"
+    },
+    "shovel_head": {
+      "type": "heracles:item",
+      "item": "kubejs:flint_shovel_head",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "stick": {
+      "type": "heracles:item",
+      "item": "minecraft:stick",
+      "amount": 4,
+      "collection": "AUTOMATIC"
+    },
+    "pickaxe_head": {
+      "type": "heracles:item",
+      "item": "kubejs:flint_pickaxe_head",
+      "amount": 1,
       "collection": "AUTOMATIC"
     }
   },

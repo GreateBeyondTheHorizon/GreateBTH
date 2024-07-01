@@ -10,21 +10,7 @@
       "collection": "AUTOMATIC"
     }
   },
-  "rewards": {
-    "lootbag": {
-      "item": {
-        "id": "lootbags:loot_bag",
-        "count": 1,
-        "nbt": {
-          "Type": "COMMON",
-          "Color": 13882323,
-          "Loot": "lootbags:kjs/3ui6gksr7gxl82e5t9pkch2ls",
-          "Name": "Lootbag (ULV Age)"
-        }
-      },
-      "type": "heracles:item"
-    }
-  },
+  "rewards": {},
   "display": {
     "subtitle": {
       "text": ""
@@ -53,10 +39,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

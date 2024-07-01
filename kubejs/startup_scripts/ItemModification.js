@@ -85,4 +85,12 @@ ItemEvents.modification(event => {
 			food.saturation(24)
 		}
 	})
+
+	event.modify('gtceu:raw_coal', item => {
+		item.burnTime = 1600
+	})
+
+	event.modify('gtceu:raw_coal_block', item => {
+		item.burnTime = 14400
+	})
 })
