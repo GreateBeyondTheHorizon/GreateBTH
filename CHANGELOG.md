@@ -2,6 +2,8 @@
 - More Textures
 - Allow all coals to be used in the bloomery
 - Remove unneeded circuit textures
+- Fix old bloomery structure 
+- Remove campfire from bloomery quest
 
 **Mod Changes**
 - appliedenergistics2-forge-15.2.4 -> appliedenergistics2-forge-15.2.8
