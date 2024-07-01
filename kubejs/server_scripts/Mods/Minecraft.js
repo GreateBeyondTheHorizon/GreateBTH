@@ -41,7 +41,6 @@ ServerEvents.recipes(event => {
 	event.remove({id: /minecraft:rabbit_stew_from(.*)/})
 	event.remove({id: 'minecraft:campfire'})
 
-	event.campfireCooking('minecraft:coal', 'gtceu:raw_coal').cookingTime(300).xp(0.6)
 	event.campfireCooking('minecraft:brick', 'gtceu:compressed_clay').cookingTime(300).xp(0.3)
 	event.campfireCooking('minecraft:stone', 'minecraft:cobblestone').cookingTime(300).xp(0.1)
 	event.campfireCooking('minecraft:smooth_stone', 'minecraft:stone').cookingTime(300).xp(0.1)

@@ -30,7 +30,7 @@
       "text": ""
     },
     "description": [
-      ""
+      "3x more efficient than the current solution!"
     ],
     "groups": {
       "ULV/ULS - Humble Beginnings": {
@@ -50,10 +50,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

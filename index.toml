@@ -100,7 +100,7 @@ file = "config/heracles/quests/introduction/andesite_alloy.json"
 file = "config/heracles/quests/introduction/bloomery.json"
 
 [[files]]
-file = "config/heracles/quests/introduction/blooms.json"
+file = "config/heracles/quests/introduction/bloomery_products.json"
 
 [[files]]
 file = "config/heracles/quests/introduction/campfire.json"
@@ -137,6 +137,9 @@ file = "config/heracles/quests/introduction/mud_bricks.json"
 
 [[files]]
 file = "config/heracles/quests/introduction/packed_mud.json"
+
+[[files]]
+file = "config/heracles/quests/introduction/sleeping_bag.json"
 
 [[files]]
 file = "config/heracles/quests/introduction/straw.json"
@@ -817,6 +820,9 @@ file = "kubejs/config/probejs.json"
 file = "kubejs/data/gbth/curios/slots/arms.json"
 
 [[files]]
+file = "kubejs/data/gbth/recipes/mud.json"
+
+[[files]]
 file = "kubejs/data/minecraft/direct_drops/entities/hoglin.json"
 
 [[files]]
@@ -1009,9 +1015,6 @@ file = "kubejs/server_scripts/Mods/Greg/Assembler.js"
 file = "kubejs/server_scripts/Mods/Greg/Bloomery.js"
 
 [[files]]
-file = "kubejs/server_scripts/Mods/Greg/CircuitAssembler.js"
-
-[[files]]
 file = "kubejs/server_scripts/Mods/Greg/Cutter.js"
 
 [[files]]
@@ -1067,6 +1070,9 @@ file = "kubejs/server_scripts/Mods/SequencedAssembly/LV.js"
 
 [[files]]
 file = "kubejs/server_scripts/Mods/SequencedAssembly/MV.js"
+
+[[files]]
+file = "kubejs/server_scripts/Mods/SleepingBags.js"
 
 [[files]]
 file = "kubejs/server_scripts/Mods/SophisticatedBackpacks.js"
@@ -1384,6 +1390,10 @@ file = "mods/lootjs.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/lychee.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/melody.pw.toml"
 metafile = true
 
@@ -1481,6 +1491,10 @@ metafile = true
 
 [[files]]
 file = "mods/simple-backups.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/sleeping-bags.pw.toml"
 metafile = true
 
 [[files]]
