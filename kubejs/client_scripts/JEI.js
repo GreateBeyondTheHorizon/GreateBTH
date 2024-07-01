@@ -4,6 +4,10 @@ JEIEvents.hideItems(event => {
 	event.hide(/(.*)_bucket/)
 })
 
+JEIEvents.hideFluids(event => {
+	event.hide('ad_astra:oxygen')
+})
+
 JEIEvents.addItems(event => {
 	event.add('minecraft:bucket')
 	event.add('minecraft:water_bucket')

@@ -1,12 +1,11 @@
 {
   "dependencies": [
-    "lv_pump",
     "the_first_of_many"
   ],
   "tasks": {
-    "canner": {
+    "arc_furnace": {
       "type": "heracles:item",
-      "item": "gtceu:lv_canner",
+      "item": "gtceu:lv_arc_furnace",
       "amount": 1,
       "collection": "AUTOMATIC"
     }
@@ -17,26 +16,28 @@
       "text": ""
     },
     "description": [
-      ""
+      "Allows cheaper recipes for various components. ",
+      "",
+      "All recipes require some amount of /d/Oxygen/d/, so make sure to set up a source soon!"
     ],
     "groups": {
       "LV/LS - The Grind Starts Here": {
         "position": [
-          65,
-          -206
+          -4,
+          34
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "gtceu:lv_canner",
+        "id": "gtceu:lv_arc_furnace",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "lv_canner"
+      "translate": "Arc Furnace"
     }
   },
   "settings": {

@@ -1,12 +1,11 @@
 {
   "dependencies": [
-    "lv_pump",
-    "the_first_of_many"
+    "lv_chemical_rector"
   ],
   "tasks": {
-    "canner": {
+    "circuit": {
       "type": "heracles:item",
-      "item": "gtceu:lv_canner",
+      "item": "gtceu:phenolic_printed_circuit_board",
       "amount": 1,
       "collection": "AUTOMATIC"
     }
@@ -17,26 +16,26 @@
       "text": ""
     },
     "description": [
-      ""
+      "Can be gotten by combining either /d/Iron III Chloride/d/ or /d/Sodium Persulfate/d/ with /d/Silver Foil/d/ and /d/Phenolic Circuit Boards/d/ in a /d/Chemical Reactor/d/."
     ],
     "groups": {
       "LV/LS - The Grind Starts Here": {
         "position": [
-          65,
-          -206
+          -251,
+          -157
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "gtceu:lv_canner",
+        "id": "gtceu:phenolic_printed_circuit_board",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "lv_canner"
+      "translate": "Phenolic Printed Circuit Board"
     }
   },
   "settings": {

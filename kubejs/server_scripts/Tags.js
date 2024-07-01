@@ -44,3 +44,7 @@ ServerEvents.tags('item', event => {
 ServerEvents.tags('worldgen/biome', event => {
 	event.remove('terralith:has_structure/spire', ['minecraft:frozen_river'])
 })
+
+ServerEvents.tags('fluid', event => {
+	event.remove('forge:oxygen', ['ad_astra:oxygen'])
+})

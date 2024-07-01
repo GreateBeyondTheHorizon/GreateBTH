@@ -35,6 +35,12 @@
         },
         {
             "category": "create:sawing"
+        },
+        {
+            "category": "minecraft:blasting"
+        },
+        {
+            "category": "minecraft:smoking"
         }
     ]
 }

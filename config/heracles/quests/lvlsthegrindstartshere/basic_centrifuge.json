@@ -1,12 +1,12 @@
 {
   "dependencies": [
-    "lv_pump",
-    "the_first_of_many"
+    "the_first_of_many",
+    "lv_motor"
   ],
   "tasks": {
-    "canner": {
+    "centrifuge": {
       "type": "heracles:item",
-      "item": "gtceu:lv_canner",
+      "item": "gtceu:lv_centrifuge",
       "amount": 1,
       "collection": "AUTOMATIC"
     }
@@ -17,26 +17,26 @@
       "text": ""
     },
     "description": [
-      ""
+      "An alternative way to break down materials into their various components."
     ],
     "groups": {
       "LV/LS - The Grind Starts Here": {
         "position": [
-          65,
-          -206
+          -3,
+          -21
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "gtceu:lv_canner",
+        "id": "gtceu:lv_centrifuge",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "lv_canner"
+      "translate": "Basic Centrifuge"
     }
   },
   "settings": {

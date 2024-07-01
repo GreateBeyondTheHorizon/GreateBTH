@@ -1,12 +1,12 @@
 {
   "dependencies": [
-    "lv_pump",
-    "the_first_of_many"
+    "good_circuit_board",
+    "diodes"
   ],
   "tasks": {
-    "canner": {
+    "circuit": {
       "type": "heracles:item",
-      "item": "gtceu:lv_canner",
+      "item": "gtceu:good_electronic_circuit",
       "amount": 1,
       "collection": "AUTOMATIC"
     }
@@ -22,21 +22,21 @@
     "groups": {
       "LV/LS - The Grind Starts Here": {
         "position": [
-          65,
-          -206
+          -198,
+          -223
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "gtceu:lv_canner",
+        "id": "gtceu:good_electronic_circuit",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "lv_canner"
+      "translate": "Your First MV Circuit"
     }
   },
   "settings": {
