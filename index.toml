@@ -808,6 +808,9 @@ file = "kubejs/assets/kubejs/textures/item/mud_brick.png"
 file = "kubejs/assets/kubejs/textures/item/netherite_plate_show.png"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/nugget_wooden_form.png"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/plate.png"
 
 [[files]]
