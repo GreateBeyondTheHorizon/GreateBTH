@@ -94,6 +94,9 @@ file = "config/gtceu.yaml"
 file = "config/heracles/groups.txt"
 
 [[files]]
+file = "config/heracles/quests/introduction/Straw.json"
+
+[[files]]
 file = "config/heracles/quests/introduction/andesite_alloy.json"
 
 [[files]]
@@ -110,6 +113,9 @@ file = "config/heracles/quests/introduction/clay_bucket.json"
 
 [[files]]
 file = "config/heracles/quests/introduction/crafting_table.json"
+
+[[files]]
+file = "config/heracles/quests/introduction/cutting_board.json"
 
 [[files]]
 file = "config/heracles/quests/introduction/empty_form.json"
@@ -139,10 +145,10 @@ file = "config/heracles/quests/introduction/mud_bricks.json"
 file = "config/heracles/quests/introduction/packed_mud.json"
 
 [[files]]
-file = "config/heracles/quests/introduction/sleeping_bag.json"
+file = "config/heracles/quests/introduction/primitive_crafting.json"
 
 [[files]]
-file = "config/heracles/quests/introduction/straw.json"
+file = "config/heracles/quests/introduction/sleeping_bag.json"
 
 [[files]]
 file = "config/heracles/quests/introduction/the_start_of_something_new.json"

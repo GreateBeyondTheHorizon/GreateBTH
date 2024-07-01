@@ -9,12 +9,6 @@
       "amount": 20,
       "collection": "AUTOMATIC"
     },
-    "campfire": {
-      "type": "heracles:item",
-      "item": "minecraft:campfire",
-      "amount": 1,
-      "collection": "AUTOMATIC"
-    },
     "bloomery": {
       "block": "gbthcore:bloomery",
       "state": {},
