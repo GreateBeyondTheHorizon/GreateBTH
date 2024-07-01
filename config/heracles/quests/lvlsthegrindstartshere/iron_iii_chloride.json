@@ -1,12 +1,11 @@
 {
   "dependencies": [
-    "lv_pump",
-    "the_first_of_many"
+    "lv_chemical_rector"
   ],
   "tasks": {
-    "canner": {
+    "iron_iii_chloride": {
       "type": "heracles:item",
-      "item": "gtceu:lv_canner",
+      "item": "gtceu:iron_iii_chloride_bucket",
       "amount": 1,
       "collection": "AUTOMATIC"
     }
@@ -22,21 +21,21 @@
     "groups": {
       "LV/LS - The Grind Starts Here": {
         "position": [
-          65,
-          -206
+          -232,
+          -46
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "gtceu:lv_canner",
+        "id": "gtceu:iron_iii_chloride_bucket",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "lv_canner"
+      "translate": "Iron III Chloride"
     }
   },
   "settings": {

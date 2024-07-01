@@ -2,6 +2,7 @@
   "dependencies": [
     "cupronickel_coil",
     "lv_energy_hatch",
+    "the_first_of_many",
     "muffler_hatch"
   ],
   "tasks": {
@@ -65,8 +66,8 @@
     "groups": {
       "LV/LS - The Grind Starts Here": {
         "position": [
-          -100,
-          -301
+          -192,
+          -140
         ]
       }
     },

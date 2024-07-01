@@ -1,7 +1,6 @@
 {
   "dependencies": [
-    "lv_assembler",
-    "lubricant"
+    "lv_assembler"
   ],
   "tasks": {
     "energy_hatch": {
@@ -17,13 +16,19 @@
       "text": ""
     },
     "description": [
-      "Used to power and/or overclock the EBF."
+      "Used to power and/or overclock the EBF.",
+      "",
+      "/d/Lubricant/d/ can be gotten in 2 ways:",
+      "",
+      "/d/Brewery/d/: 1 Bucket of /d/Creosote/d/ & /d/Talc/d/ = 1 Bucket of /d/Lubricant/d/",
+      "",
+      "/d/Distillery/d/: 24mB of /d/Creosote/d/ = 12mB of /d/Lubricant/d/"
     ],
     "groups": {
       "LV/LS - The Grind Starts Here": {
         "position": [
-          -65,
-          -301
+          -145,
+          -172
         ]
       }
     },

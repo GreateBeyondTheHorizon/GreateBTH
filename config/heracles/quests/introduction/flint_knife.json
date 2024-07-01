@@ -3,16 +3,22 @@
     "the_start_of_something_new"
   ],
   "tasks": {
-    "flint_knife": {
+    "knife": {
       "type": "heracles:item",
       "item": "gtceu:flint_knife",
       "nbt": {
         "DisallowContainerItem": 0,
         "GT.Behaviours": {},
         "HideFlags": 2,
+        "Enchantments": [
+          {
+            "lvl": 2,
+            "id": "minecraft:fire_aspect"
+          }
+        ],
         "GT.Tool": {
           "AttackDamage": 1,
-          "MaxDamage": 50,
+          "MaxDamage": 63,
           "Damage": 0,
           "AttackSpeed": 3
         }

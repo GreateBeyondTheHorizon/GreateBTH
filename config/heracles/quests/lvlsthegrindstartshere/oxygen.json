@@ -1,12 +1,11 @@
 {
   "dependencies": [
-    "lv_pump",
     "the_first_of_many"
   ],
   "tasks": {
-    "canner": {
+    "oxygen": {
       "type": "heracles:item",
-      "item": "gtceu:lv_canner",
+      "item": "gtceu:oxygen_bucket",
       "amount": 1,
       "collection": "AUTOMATIC"
     }
@@ -17,26 +16,26 @@
       "text": ""
     },
     "description": [
-      ""
+      "You will need TONS of this in the future, consider batch crafting a buch!"
     ],
     "groups": {
       "LV/LS - The Grind Starts Here": {
         "position": [
-          65,
-          -206
+          37,
+          -9
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "gtceu:lv_canner",
+        "id": "gtceu:oxygen_bucket",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "lv_canner"
+      "translate": "Getting Oxygen"
     }
   },
   "settings": {

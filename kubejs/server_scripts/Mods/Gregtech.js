@@ -15,6 +15,8 @@ ServerEvents.recipes(event => {
 	event.remove({id: 'gtceu:shaped/energy_hatch_lv'})
 	event.remove({id: 'gtceu:shaped/vacuum_tube'})
 	event.remove({id: 'gtceu:mixer/mud'})
+	event.remove({id: 'gtceu:shaped/knife_flint'})
+	event.remove({id: 'gtceu:shaped/good_circuit_board'})
 
 	const tiers = ['lv', 'mv', 'hv' /*'ev', 'iv', 'luv', 'zpm', 'uv' */]
 	const components = [
@@ -162,7 +164,7 @@ ServerEvents.recipes(event => {
 	)
 
 	event.shaped(
-		Item.of('gtceu:flint_knife', '{DisallowContainerItem:0,GT.Behaviours:{},GT.Tool:{AttackDamage:1.0f,AttackSpeed:3.0f,Damage:0,MaxDamage:50},HideFlags:2,Enchantments:[{id:"minecraft:fire_aspect", "lvl": 2}]}'),
+		Item.of('gtceu:flint_knife', '{DisallowContainerItem:0b,GT.Behaviours:{},GT.Tool:{AttackDamage:1.0f,AttackSpeed:3.0f,Damage:0,MaxDamage:63},HideFlags:2}').enchant('minecraft:fire_aspect', 2),
 			[
 				' A',
 				'B ',

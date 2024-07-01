@@ -1,12 +1,14 @@
 {
   "dependencies": [
-    "lv_pump",
-    "the_first_of_many"
+    "lv_emitter",
+    "first_mv_circuit",
+    "lv_conveyor",
+    "lv_robot_arm"
   ],
   "tasks": {
-    "canner": {
+    "circuit_assembler": {
       "type": "heracles:item",
-      "item": "gtceu:lv_canner",
+      "item": "gtceu:lv_circuit_assembler",
       "amount": 1,
       "collection": "AUTOMATIC"
     }
@@ -17,26 +19,26 @@
       "text": ""
     },
     "description": [
-      ""
+      "Used in the creation of cheaper circuits."
     ],
     "groups": {
       "LV/LS - The Grind Starts Here": {
         "position": [
-          65,
-          -206
+          -33,
+          -223
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "gtceu:lv_canner",
+        "id": "gtceu:lv_circuit_assembler",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "lv_canner"
+      "translate": "Circuit Assembler"
     }
   },
   "settings": {

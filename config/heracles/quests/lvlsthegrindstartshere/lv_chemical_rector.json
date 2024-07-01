@@ -1,19 +1,13 @@
 {
   "dependencies": [
-    "lv_pump",
-    "lv_assembler"
+    "the_first_of_many",
+    "lv_motor"
   ],
   "tasks": {
-    "lubricant": {
+    "chem_reactor": {
       "type": "heracles:item",
-      "item": "gtceu:fluid_cell",
-      "nbt": {
-        "Fluid": {
-          "FluidName": "gtceu:lubricant",
-          "Amount": 1000
-        }
-      },
-      "amount": 2,
+      "item": "gtceu:lv_chemical_reactor",
+      "amount": 1,
       "collection": "AUTOMATIC"
     }
   },
@@ -23,30 +17,26 @@
       "text": ""
     },
     "description": [
-      "/d/Lubricant/d/ can be gotten in 2 ways:",
-      "",
-      "/d/Brewery/d/: 1 Bucket of /d/Creosote/d/ & /d/Talc/d/ = 1 Bucket of /d/Lubricant/d/",
-      "",
-      "/d/Distillery/d/: 24mB of /d/Creosote/d/ = 12mB of /d/Lubricant/d/"
+      "Gregtech adds a multitude of chemicals, so get ready to sit in front of this machine and react chemicals together!"
     ],
     "groups": {
       "LV/LS - The Grind Starts Here": {
         "position": [
-          -35,
-          -262
+          -251,
+          -73
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "gtceu:lubricant_bucket",
+        "id": "gtceu:lv_chemical_reactor",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Lubricant"
+      "translate": "The Chemistry Begins"
     }
   },
   "settings": {

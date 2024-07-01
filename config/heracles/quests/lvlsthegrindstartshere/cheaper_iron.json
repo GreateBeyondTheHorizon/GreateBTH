@@ -1,12 +1,12 @@
 {
   "dependencies": [
-    "lv_pump",
-    "the_first_of_many"
+    "arc_furnace",
+    "oxygen"
   ],
   "tasks": {
-    "canner": {
+    "iron_ingot": {
       "type": "heracles:item",
-      "item": "gtceu:lv_canner",
+      "item": "minecraft:iron_ingot",
       "amount": 1,
       "collection": "AUTOMATIC"
     }
@@ -17,26 +17,26 @@
       "text": ""
     },
     "description": [
-      ""
+      "The Arc Furnace provides a cheaper and faster way to make /d/Iron Ingots/d/, at the cost of some /d/Wrought Iron/d/, /d/Oxygen/d/, and some /d/EU/d/."
     ],
     "groups": {
       "LV/LS - The Grind Starts Here": {
         "position": [
-          65,
-          -206
+          37,
+          34
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "gtceu:lv_canner",
+        "id": "minecraft:iron_ingot",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "lv_canner"
+      "translate": "Cheaper Iron"
     }
   },
   "settings": {

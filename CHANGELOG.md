@@ -35,6 +35,10 @@
 - Add recipe for cutting mud bricks into slabs
 - Change bloomery structure
 - Remove lootbags from various ULV quests
+- Hide Ad Astra oxygen in EMI
+- Hide blasting and smoking categories in EMI
+- Fix flint knife recipe
+- Disable crafting recipe for phenolic boards
 
 **Mod Changes**
 - Downgrade ProbeJS to 6.0.1
