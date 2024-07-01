@@ -193,4 +193,21 @@ ServerEvents.recipes(event => {
 			"tag": "minecraft:axes"
 		}
 	})
+
+	event.custom({
+		type: "farmersdelight:cutting",
+		ingredients: [
+			{
+				"item": "minecraft:clay"
+			}
+		],
+		result: [
+			{
+				"item": "ceramicbucket:unfired_clay_bucket"
+			}
+		],
+		tool: {
+			"tag": "forge:tools/knives"
+		}
+	})
 })
