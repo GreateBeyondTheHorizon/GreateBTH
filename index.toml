@@ -94,13 +94,16 @@ file = "config/gtceu.yaml"
 file = "config/heracles/groups.txt"
 
 [[files]]
+file = "config/heracles/quests/introduction/Straw.json"
+
+[[files]]
 file = "config/heracles/quests/introduction/andesite_alloy.json"
 
 [[files]]
 file = "config/heracles/quests/introduction/bloomery.json"
 
 [[files]]
-file = "config/heracles/quests/introduction/blooms.json"
+file = "config/heracles/quests/introduction/bloomery_products.json"
 
 [[files]]
 file = "config/heracles/quests/introduction/campfire.json"
@@ -137,9 +140,6 @@ file = "config/heracles/quests/introduction/mud_bricks.json"
 
 [[files]]
 file = "config/heracles/quests/introduction/packed_mud.json"
-
-[[files]]
-file = "config/heracles/quests/introduction/straw.json"
 
 [[files]]
 file = "config/heracles/quests/introduction/the_start_of_something_new.json"
@@ -1007,9 +1007,6 @@ file = "kubejs/server_scripts/Mods/Greg/Assembler.js"
 
 [[files]]
 file = "kubejs/server_scripts/Mods/Greg/Bloomery.js"
-
-[[files]]
-file = "kubejs/server_scripts/Mods/Greg/CircuitAssembler.js"
 
 [[files]]
 file = "kubejs/server_scripts/Mods/Greg/Cutter.js"
