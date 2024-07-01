@@ -1,7 +1,5 @@
 {
-  "dependencies": [
-    "forms"
-  ],
+  "dependencies": [],
   "tasks": {
     "raw_iron": {
       "type": "heracles:item",
@@ -39,8 +37,8 @@
     "groups": {
       "Introduction": {
         "position": [
-          6,
-          127
+          -35,
+          210
         ]
       }
     },

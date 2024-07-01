@@ -1,7 +1,5 @@
 {
-  "dependencies": [
-    "straw"
-  ],
+  "dependencies": [],
   "tasks": {
     "firestarter": {
       "type": "heracles:item",
@@ -42,8 +40,8 @@
     "groups": {
       "Introduction": {
         "position": [
-          50,
-          39
+          35,
+          70
         ]
       }
     },
@@ -63,10 +61,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

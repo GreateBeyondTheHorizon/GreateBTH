@@ -1,11 +1,9 @@
 {
-  "dependencies": [
-    "wood"
-  ],
+  "dependencies": [],
   "tasks": {
-    "empty_form": {
+    "cutting_board": {
       "type": "heracles:item",
-      "item": "gtceu:empty_wooden_form",
+      "item": "farmersdelight:cutting_board",
       "amount": 1,
       "collection": "AUTOMATIC"
     }
@@ -30,26 +28,26 @@
       "text": ""
     },
     "description": [
-      "The basis for the other 3 forms."
+      "The /d/Cutting Board/d/ allows you to do basic crafts involving an input item and a tool. Without a crafting table, this will have to do. You'll need one to make an /d/Unfired Clay Bucket/d/."
     ],
     "groups": {
       "Introduction": {
         "position": [
-          -35,
-          140
+          70,
+          105
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "gtceu:empty_wooden_form",
+        "id": "farmersdelight:cutting_board",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Please Sign This Form"
+      "translate": "Primitive Crafting"
     }
   },
   "settings": {

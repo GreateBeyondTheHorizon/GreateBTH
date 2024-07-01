@@ -1,6 +1,7 @@
 {
   "dependencies": [
-    "bloomery"
+    "bloomery",
+    "finding_ores"
   ],
   "tasks": {
     "bloom": {
@@ -37,8 +38,8 @@
     "groups": {
       "Introduction": {
         "position": [
-          6,
-          188
+          0,
+          210
         ]
       }
     },
