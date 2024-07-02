@@ -136,9 +136,6 @@ file = "config/heracles/quests/introduction/forms.json"
 file = "config/heracles/quests/introduction/ing_rack.json"
 
 [[files]]
-file = "config/heracles/quests/introduction/mud_bricks.json"
-
-[[files]]
 file = "config/heracles/quests/introduction/packed_mud.json"
 
 [[files]]
@@ -686,6 +683,15 @@ file = "kubejs/assets/gbth/lang/en_us.json"
 
 [[files]]
 file = "kubejs/assets/gtceu/lang/en_us.json"
+
+[[files]]
+file = "kubejs/assets/gtceu/textures/item/knife.png"
+
+[[files]]
+file = "kubejs/assets/gtceu/textures/item/knife_base.png"
+
+[[files]]
+file = "kubejs/assets/gtceu/textures/item/knife_overlay.png"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/16k_me_storage_base.png"
