@@ -1,12 +1,18 @@
 {
   "dependencies": [
-    "mud_bricks"
+    "packed_mud"
   ],
   "tasks": {
     "mud_bricks": {
       "type": "heracles:item",
       "item": "minecraft:mud_bricks",
-      "amount": 20,
+      "amount": 13,
+      "collection": "AUTOMATIC"
+    },
+    "mud_brick_slabs": {
+      "type": "heracles:item",
+      "item": "minecraft:mud_brick_slab",
+      "amount": 4,
       "collection": "AUTOMATIC"
     },
     "bloomery": {
@@ -20,6 +26,12 @@
         "type": "heracles:item"
       },
       "type": "heracles:block_interaction"
+    },
+    "campfire": {
+      "type": "heracles:item",
+      "item": "minecraft:campfire",
+      "amount": 1,
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {
