@@ -643,18 +643,6 @@ file = "defaultconfigs/sophisticatedbackpacks-server.toml"
 file = "defaultconfigs/toms_storage-server.toml"
 
 [[files]]
-file = "fancymenu_resources/audio/menu1.ogg"
-
-[[files]]
-file = "fancymenu_resources/audio/menu2.ogg"
-
-[[files]]
-file = "fancymenu_resources/audio/menu3.ogg"
-
-[[files]]
-file = "fancymenu_resources/audio/menu4.ogg"
-
-[[files]]
 file = "fancymenu_resources/images/bar_clicked.png"
 
 [[files]]
