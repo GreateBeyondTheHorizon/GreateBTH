@@ -1,41 +1,74 @@
 {
   "dependencies": [
-    "flint_knife"
+    "Straw"
   ],
   "tasks": {
-    "axe_head": {
+    "flint_shovel": {
       "type": "heracles:item",
-      "item": "kubejs:flint_axe_head",
+      "item": "gtceu:flint_shovel",
+      "nbt": {
+        "DisallowContainerItem": 0,
+        "GT.Behaviours": {},
+        "HideFlags": 2,
+        "GT.Tool": {
+          "MaxDamage": 63,
+          "Damage": 0
+        }
+      },
       "amount": 1,
       "collection": "AUTOMATIC"
     },
-    "sword_head": {
+    "flint_pickaxe": {
       "type": "heracles:item",
-      "item": "kubejs:flint_sword_head",
+      "item": "gtceu:flint_pickaxe",
+      "nbt": {
+        "DisallowContainerItem": 0,
+        "GT.Behaviours": {},
+        "HideFlags": 2,
+        "GT.Tool": {
+          "MaxDamage": 63,
+          "Damage": 0
+        }
+      },
       "amount": 1,
       "collection": "AUTOMATIC"
     },
-    "rope": {
+    "flint_axe": {
       "type": "heracles:item",
-      "item": "farmersdelight:rope",
-      "amount": 4,
-      "collection": "AUTOMATIC"
-    },
-    "shovel_head": {
-      "type": "heracles:item",
-      "item": "kubejs:flint_shovel_head",
+      "item": "gtceu:flint_axe",
+      "nbt": {
+        "DisallowContainerItem": 0,
+        "GT.Behaviours": {
+          "DisableShields": 1,
+          "TreeFelling": 1
+        },
+        "HideFlags": 2,
+        "GT.Tool": {
+          "MaxDamage": 63,
+          "Damage": 0
+        }
+      },
       "amount": 1,
       "collection": "AUTOMATIC"
     },
-    "stick": {
+    "flint_sword": {
       "type": "heracles:item",
-      "item": "minecraft:stick",
-      "amount": 4,
-      "collection": "AUTOMATIC"
-    },
-    "pickaxe_head": {
-      "type": "heracles:item",
-      "item": "kubejs:flint_pickaxe_head",
+      "item": "gtceu:flint_sword",
+      "nbt": {
+        "DisallowContainerItem": 0,
+        "GT.Behaviours": {},
+        "HideFlags": 2,
+        "Enchantments": [
+          {
+            "lvl": 2,
+            "id": "minecraft:fire_aspect"
+          }
+        ],
+        "GT.Tool": {
+          "MaxDamage": 63,
+          "Damage": 0
+        }
+      },
       "amount": 1,
       "collection": "AUTOMATIC"
     }
@@ -60,22 +93,32 @@
       "text": ""
     },
     "description": [
-      "Before crafting your /d/Flint Tools/d/, you need to craft certain /d/Tool Heads/d/.",
-      "",
-      "Now that you have your /d/Flint Knife/d/, you can shape /d/Flint/d/ into different /d/Tool Heads/d/, and eventually /d/Flint Tools/d/."
+      "Now that you have your /d/Flint Knife/d/, you can shape /d/Flint/d/ into different /d/Tool Heads/d/. Combine with a /d/Stick/d/ and some /d/Rope/d/ made from the /d/Straw/d/ you've gathered, and you'll have your first basic toolset."
     ],
     "groups": {
       "Introduction": {
         "position": [
           -35,
-          70
+          35
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "kubejs:flint_axe_head",
-        "count": 1
+        "id": "gtceu:flint_axe",
+        "count": 1,
+        "nbt": {
+          "DisallowContainerItem": 0,
+          "GT.Behaviours": {
+            "DisableShields": 1,
+            "TreeFelling": 1
+          },
+          "HideFlags": 2,
+          "GT.Tool": {
+            "MaxDamage": 63,
+            "Damage": 0
+          }
+        }
       },
       "type": "heracles:item"
     },
