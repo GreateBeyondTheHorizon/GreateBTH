@@ -14,6 +14,7 @@
 - Move bucket quest to correct location
 - Allow raw coal and raw coal blocks to be used in the coke oven
 - Adjust iron from wrought iron block arc furnace recipe
+- Remove un-needed lv scanner quest
 
 **Mod Changes**
 - appliedenergistics2-forge-15.2.4 -> appliedenergistics2-forge-15.2.8
