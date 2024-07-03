@@ -22,8 +22,8 @@ ServerEvents.recipes(event => {
 
 	event.recipes.createSequencedAssembly(['gtceu:mv_electric_piston'], 'gtceu:mv_electric_motor',
 		[
-			event.recipes.createDeploying(incMvPiston,[incMvPiston, 'gtceu:copper_single_cable']),
 			event.recipes.createDeploying(incMvPiston,[incMvPiston, 'gtceu:small_aluminium_gear']),
+			event.recipes.createDeploying(incMvPiston,[incMvPiston, 'gtceu:copper_single_cable']),
 			event.recipes.createDeploying(incMvPiston,[incMvPiston, 'gtceu:aluminium_rod']),
 			event.recipes.createDeploying(incMvPiston,[incMvPiston, 'gtceu:aluminium_plate']),
 		]

@@ -1,0 +1,57 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "filter": {
+      "type": "heracles:item",
+      "item": "create:attribute_filter",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "chute": {
+      "type": "heracles:item",
+      "item": "create:smart_chute",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Annoyed that hoppers pull out inputs from your depots? Use a filtered /d/Smart Chute/d/ instead!",
+      "",
+      "Be sure to add an /d/Attribute Filter/d/ to the smart chute, as you are able to filter by item tag to only allow the chute to pull items that contain that tag.",
+      "",
+      "(ex. /d/#forge:plates/d/ will allow any plate with that tag to be extracted, and keep anything else on the depot.)"
+    ],
+    "groups": {
+      "LV/LS - The Grind Starts Here": {
+        "position": [
+          251,
+          -320
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:smart_chute",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Filtering the Outputs"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}
