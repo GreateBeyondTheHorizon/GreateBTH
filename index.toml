@@ -1392,6 +1392,10 @@ file = "mods/ceramic-bucket.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/chat-heads.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/chipped.pw.toml"
 metafile = true
 
