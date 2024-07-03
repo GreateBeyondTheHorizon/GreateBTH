@@ -10,6 +10,10 @@
 - Swap small gear and cable in piston sequenced assembly recipes
 - Add quest for extractor & fluid solidifier
 - Add quest for multiblock steam boiler & steel tank
+- Change create goggles and wrench recipes to be unlocked earlier
+- Move bucket quest to correct location
+- Allow raw coal and raw coal blocks to be used in the coke oven
+- Adjust iron from wrought iron block arc furnace recipe
 
 **Mod Changes**
 - appliedenergistics2-forge-15.2.4 -> appliedenergistics2-forge-15.2.8

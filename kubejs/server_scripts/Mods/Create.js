@@ -11,6 +11,10 @@ ServerEvents.recipes(event => {
 	event.remove({id: 'create:crafting/kinetics/fluid_pipe_vertical'})
 	event.remove({id: 'create:shaped/andesite_alloy'})
 
+	event.replaceInput({id: 'create:shaped/wrench'}, 'gtceu:gold_plate', 'gtceu:wrought_iron_plate')
+	event.replaceInput({id: 'create:crafting/kinetics/goggles'}, 'gtceu:gold_plate', 'gtceu:wrought_iron_plate')
+	event.replaceInput({id: 'create:crafting/kinetics/goggles'}, 'minecraft:glass', 'minecraft:leather')
+
 	//#region SU gen
 
 	event.shaped(Item.of('create:hand_crank'),
