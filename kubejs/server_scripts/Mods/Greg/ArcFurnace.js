@@ -11,7 +11,7 @@ ServerEvents.recipes(event => {
         .EUt(30)
 
     event.recipes.gtceu.arc_furnace('arc_wrought_iron_block')
-        .duration(504)
+        .duration(560)
         .itemInputs('gtceu:wrought_iron_block')
         .inputFluids(Fluid.of('gtceu:oxygen', 56))
         .itemOutputs('9x minecraft:iron_ingot')

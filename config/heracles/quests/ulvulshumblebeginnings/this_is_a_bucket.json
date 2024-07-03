@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "gregtech_tools_and_you"
+    "iron_ingot"
   ],
   "tasks": {
     "774D2C75246AF40C": {
@@ -37,8 +37,8 @@
     "groups": {
       "ULV/ULS - Humble Beginnings": {
         "position": [
-          -48,
-          -256
+          -20,
+          -78
         ]
       }
     },
@@ -55,10 +55,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }
