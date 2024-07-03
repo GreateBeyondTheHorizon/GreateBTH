@@ -1,13 +1,17 @@
 {
   "dependencies": [
-    "lv_machine_hull",
-    "the_first_of_many",
-    "lv_motor"
+    "lv_machine_hull"
   ],
   "tasks": {
-    "machine": {
+    "soldifier": {
       "type": "heracles:item",
-      "item": "#gbth:oxygen_machines",
+      "item": "gtceu:lv_fluid_solidifier",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "extractor": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_extractor",
       "amount": 1,
       "collection": "AUTOMATIC"
     }
@@ -18,28 +22,28 @@
       "text": ""
     },
     "description": [
-      "You will need TONS of this in the future, consider batch crafting a buch!",
+      "Allows for cheaper rotors, bolts, screws, gears and small gears.",
       "",
-      "You can get some by either /d/Centrifuging/d/ or /d/Electrolyzing/d/ certain materials."
+      "You'll also need a /d/Casting Mold/d/ of the specific component you want to solidify, so make sure to make the correct one!"
     ],
     "groups": {
       "LV/LS - The Grind Starts Here": {
         "position": [
-          -8,
+          -62,
           9
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "gtceu:oxygen_bucket",
+        "id": "gtceu:lv_extractor",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Getting Oxygen"
+      "translate": "Extracting and Solidifying"
     }
   },
   "settings": {

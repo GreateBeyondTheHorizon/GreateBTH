@@ -7,6 +7,9 @@
 - Change curios arm slot to hand slot
 - Fix some quests locations and depdendencies
 - Swap steel recipe in EBF
+- Swap small gear and cable in piston sequenced assembly recipes
+- Add quest for extractor & fluid solidifier
+- Add quest for multiblock steam boiler & steel tank
 
 **Mod Changes**
 - appliedenergistics2-forge-15.2.4 -> appliedenergistics2-forge-15.2.8
