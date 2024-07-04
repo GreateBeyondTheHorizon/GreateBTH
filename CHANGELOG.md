@@ -16,6 +16,7 @@
 - Adjust iron from wrought iron block arc furnace recipe
 - Remove un-needed lv scanner quest
 - Move mixer recipe
+- Nerf backpacks
 
 **Mod Changes**
 - Add ChatHeads

@@ -178,6 +178,9 @@ file = "config/heracles/quests/lvlsthegrindstartshere/filtered_output.json"
 file = "config/heracles/quests/lvlsthegrindstartshere/first_mv_circuit.json"
 
 [[files]]
+file = "config/heracles/quests/lvlsthegrindstartshere/generating_more_steam.json"
+
+[[files]]
 file = "config/heracles/quests/lvlsthegrindstartshere/good_circuit_board.json"
 
 [[files]]
@@ -244,9 +247,6 @@ file = "config/heracles/quests/lvlsthegrindstartshere/lv_robot_arm.json"
 file = "config/heracles/quests/lvlsthegrindstartshere/lv_saw.json"
 
 [[files]]
-file = "config/heracles/quests/lvlsthegrindstartshere/lv_scanner.json"
-
-[[files]]
 file = "config/heracles/quests/lvlsthegrindstartshere/lv_sensor.json"
 
 [[files]]
@@ -260,6 +260,9 @@ file = "config/heracles/quests/lvlsthegrindstartshere/muffler_hatch.json"
 
 [[files]]
 file = "config/heracles/quests/lvlsthegrindstartshere/oxygen.json"
+
+[[files]]
+file = "config/heracles/quests/lvlsthegrindstartshere/pocket_storage_mk1.json"
 
 [[files]]
 file = "config/heracles/quests/lvlsthegrindstartshere/sodium_persulfate.json"
