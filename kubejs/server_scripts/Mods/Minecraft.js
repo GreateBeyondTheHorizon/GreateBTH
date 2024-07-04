@@ -42,8 +42,6 @@ ServerEvents.recipes(event => {
 	event.remove({id: 'minecraft:campfire'})
 
 	event.campfireCooking('minecraft:brick', 'gtceu:compressed_clay').cookingTime(300).xp(0.3)
-	event.campfireCooking('minecraft:stone', 'minecraft:cobblestone').cookingTime(300).xp(0.1)
-	event.campfireCooking('minecraft:smooth_stone', 'minecraft:stone').cookingTime(300).xp(0.1)
 	event.campfireCooking('minecraft:redstone', 'gtceu:raw_redstone').cookingTime(300).xp(0.9)
 
 	event.recipes.create.mixing('minecraft:cake', [Fluid.of('minecraft:milk', 3000), '2x minecraft:sugar', 'farmersdelight:pie_crust', 'minecraft:sweet_berries']).heated()
