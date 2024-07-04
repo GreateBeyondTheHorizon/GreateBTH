@@ -157,12 +157,6 @@ file = "config/heracles/quests/lvlsthegrindstartshere/aluminium.json"
 file = "config/heracles/quests/lvlsthegrindstartshere/arc_furnace.json"
 
 [[files]]
-file = "config/heracles/quests/lvlsthegrindstartshere/basic_centrifuge.json"
-
-[[files]]
-file = "config/heracles/quests/lvlsthegrindstartshere/basic_electrolyzer.json"
-
-[[files]]
 file = "config/heracles/quests/lvlsthegrindstartshere/cheaper_iron.json"
 
 [[files]]
@@ -176,6 +170,9 @@ file = "config/heracles/quests/lvlsthegrindstartshere/diodes.json"
 
 [[files]]
 file = "config/heracles/quests/lvlsthegrindstartshere/ebf.json"
+
+[[files]]
+file = "config/heracles/quests/lvlsthegrindstartshere/filtered_output.json"
 
 [[files]]
 file = "config/heracles/quests/lvlsthegrindstartshere/first_mv_circuit.json"
@@ -215,6 +212,9 @@ file = "config/heracles/quests/lvlsthegrindstartshere/lv_emitter.json"
 
 [[files]]
 file = "config/heracles/quests/lvlsthegrindstartshere/lv_energy_hatch.json"
+
+[[files]]
+file = "config/heracles/quests/lvlsthegrindstartshere/lv_extractor.json"
 
 [[files]]
 file = "config/heracles/quests/lvlsthegrindstartshere/lv_lathe.json"
@@ -266,6 +266,9 @@ file = "config/heracles/quests/lvlsthegrindstartshere/sodium_persulfate.json"
 
 [[files]]
 file = "config/heracles/quests/lvlsthegrindstartshere/steel_mechanical_press.json"
+
+[[files]]
+file = "config/heracles/quests/lvlsthegrindstartshere/storing_steam.json"
 
 [[files]]
 file = "config/heracles/quests/stayingfull/apple_pie.json"
@@ -685,13 +688,13 @@ file = "kubejs/assets/gbth/lang/en_us.json"
 file = "kubejs/assets/gtceu/lang/en_us.json"
 
 [[files]]
-file = "kubejs/assets/gtceu/textures/item/knife.png"
+file = "kubejs/assets/gtceu/textures/item/tools/knife.png"
 
 [[files]]
-file = "kubejs/assets/gtceu/textures/item/knife_base.png"
+file = "kubejs/assets/gtceu/textures/item/tools/knife_base.png"
 
 [[files]]
-file = "kubejs/assets/gtceu/textures/item/knife_overlay.png"
+file = "kubejs/assets/gtceu/textures/item/tools/knife_overlay.png"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/16k_me_storage_base.png"
@@ -1198,7 +1201,13 @@ file = "kubejs/server_scripts/Mods/Greg/ArcFurnace.js"
 file = "kubejs/server_scripts/Mods/Greg/Assembler.js"
 
 [[files]]
+file = "kubejs/server_scripts/Mods/Greg/Bender.js"
+
+[[files]]
 file = "kubejs/server_scripts/Mods/Greg/Bloomery.js"
+
+[[files]]
+file = "kubejs/server_scripts/Mods/Greg/CokeOven.js"
 
 [[files]]
 file = "kubejs/server_scripts/Mods/Greg/Cutter.js"
@@ -1214,6 +1223,9 @@ file = "kubejs/server_scripts/Mods/Greg/ForgeHammer.js"
 
 [[files]]
 file = "kubejs/server_scripts/Mods/Greg/GregUtil.js"
+
+[[files]]
+file = "kubejs/server_scripts/Mods/Greg/Mixer.js"
 
 [[files]]
 file = "kubejs/server_scripts/Mods/Greg/PrimitiveBlastFurnace.js"
@@ -1235,6 +1247,9 @@ file = "kubejs/server_scripts/Mods/NethersDelight.js"
 
 [[files]]
 file = "kubejs/server_scripts/Mods/OreberriesReplanted.js"
+
+[[files]]
+file = "kubejs/server_scripts/Mods/PocketStorage.js"
 
 [[files]]
 file = "kubejs/server_scripts/Mods/ProductiveBees/BeeFood.js"
@@ -1635,6 +1650,10 @@ file = "mods/placebo.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/pocket-storage.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/polylib.pw.toml"
 metafile = true
 
@@ -1707,6 +1726,14 @@ file = "mods/spice-of-life-carrot-edition.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/supermartijn642s-config-lib.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/supermartijn642s-core-lib.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/terralith.pw.toml"
 metafile = true
 
@@ -1716,6 +1743,10 @@ metafile = true
 
 [[files]]
 file = "mods/toms-storage.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/trash-cans.pw.toml"
 metafile = true
 
 [[files]]
