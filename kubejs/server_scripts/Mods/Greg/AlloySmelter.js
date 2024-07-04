@@ -16,4 +16,12 @@ ServerEvents.recipes(event => {
         .notConsumable('gtceu:ingot_casting_mold')
         .itemOutputs('gtceu:andesite_alloy_ingot')
         .EUt(7)
+    
+    event.remove({id: 'gtceu:alloy_smelter/glass'})
+    event.recipes.gtceu.alloy_smelter('glass')
+        .duration(240)
+        .itemInputs('gtceu:glass_dust')
+        .notConsumable('gtceu:block_casting_mold')
+        .itemOutputs('minecraft:glass')
+        .EUt(7)
 })
