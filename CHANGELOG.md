@@ -15,8 +15,13 @@
 - Allow raw coal and raw coal blocks to be used in the coke oven
 - Adjust iron from wrought iron block arc furnace recipe
 - Remove un-needed lv scanner quest
+- Move mixer recipe
 
 **Mod Changes**
+- Add ChatHeads
+- Add PocketStorage
+- Add TrashCans
+
 - appliedenergistics2-forge-15.2.4 -> appliedenergistics2-forge-15.2.8
 - botarium-forge-1.20.1-2.3.3 -> botarium-forge-1.20.1-2.3.4
 - PuzzlesLib-v8.1.20-1.20.1-Forge -> PuzzlesLib-v8.1.21-1.20.1-Forge

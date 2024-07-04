@@ -1,0 +1,52 @@
+{
+  "dependencies": [
+    "steel_ingot",
+    "the_first_of_many"
+  ],
+  "tasks": {
+    "storage": {
+      "type": "heracles:item",
+      "item": "pocketstorage:psu_1",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Want a simple solution to clean up that excess cobble/deepslate? Well look no further! ",
+      "",
+      "This allows automatic pickup of 8 different items and stores 255 of that item (at the first tier). After that, it will void any excess it picks up."
+    ],
+    "groups": {
+      "LV/LS - The Grind Starts Here": {
+        "position": [
+          58,
+          -21
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "pocketstorage:psu_1",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Cleaning Up The Mess"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}
