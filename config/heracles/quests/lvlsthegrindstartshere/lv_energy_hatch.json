@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "lv_assembler"
+    "assemblers_unite"
   ],
   "tasks": {
     "energy_hatch": {

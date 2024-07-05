@@ -1,6 +1,7 @@
 {
   "dependencies": [
-    "packed_mud"
+    "getting_muddy",
+    "more_forms_to_sign"
   ],
   "tasks": {
     "mud_bricks": {

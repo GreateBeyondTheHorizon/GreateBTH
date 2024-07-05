@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "good_circuit_board",
+    "phenolic_printed_circuit_board",
     "diodes"
   ],
   "tasks": {

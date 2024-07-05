@@ -1,8 +1,7 @@
 {
   "dependencies": [
-    "primitive_crafting",
-    "campfire",
-    "forms"
+    "setting_up_camp",
+    "primitive_crafting"
   ],
   "tasks": {
     "clay_bucket": {

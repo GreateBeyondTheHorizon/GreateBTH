@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "Straw"
+    "straw"
   ],
   "tasks": {
     "spice_rack": {

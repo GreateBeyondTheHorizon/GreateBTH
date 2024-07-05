@@ -2,8 +2,7 @@
   "dependencies": [
     "lv_emitter",
     "lv_sensor",
-    "the_first_of_many",
-    "lv_batteries"
+    "portable_eu_storage"
   ],
   "tasks": {
     "prospector": {
@@ -24,8 +23,8 @@
     "groups": {
       "LV/LS - The Grind Starts Here": {
         "position": [
-          17,
-          -274
+          23,
+          -275
         ]
       }
     },

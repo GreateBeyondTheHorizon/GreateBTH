@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "lv_motor"
+    "microcrafting_hell_begins_1"
   ],
   "tasks": {
     "conveyor": {
@@ -22,7 +22,7 @@
       "LV/LS - The Grind Starts Here": {
         "position": [
           -35,
-          -157
+          -151
         ]
       }
     },

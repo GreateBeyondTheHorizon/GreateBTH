@@ -1,7 +1,7 @@
 {
   "dependencies": [
     "lv_machine_hull",
-    "lv_motor"
+    "microcrafting_hell_begins_1"
   ],
   "tasks": {
     "wiremill": {

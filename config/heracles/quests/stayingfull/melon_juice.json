@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "ulv_mixer"
+    "mixing_foods"
   ],
   "tasks": {
     "juice": {
@@ -10,7 +10,7 @@
       "collection": "AUTOMATIC"
     }
   },
-    "rewards": {
+  "rewards": {
     "lootbag": {
       "item": {
         "id": "lootbags:loot_bag",
@@ -53,10 +53,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

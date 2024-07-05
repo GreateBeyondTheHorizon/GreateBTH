@@ -1,5 +1,7 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "setting_up_camp"
+  ],
   "tasks": {
     "firestarter": {
       "type": "heracles:item",

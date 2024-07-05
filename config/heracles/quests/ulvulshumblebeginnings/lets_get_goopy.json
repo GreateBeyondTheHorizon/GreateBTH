@@ -1,7 +1,5 @@
 {
-  "dependencies": [
-    "crafting_table"
-  ],
+  "dependencies": [],
   "tasks": {
     "0B17999C579A39AD": {
       "type": "heracles:item",

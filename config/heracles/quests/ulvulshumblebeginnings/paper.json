@@ -1,8 +1,5 @@
 {
-  "dependencies": [
-    "crafting_table",
-    "clay_bucket"
-  ],
+  "dependencies": [],
   "tasks": {
     "5E3A4FA09174C7E8": {
       "type": "heracles:item",

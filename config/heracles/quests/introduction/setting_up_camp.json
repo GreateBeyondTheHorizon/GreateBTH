@@ -1,7 +1,6 @@
 {
   "dependencies": [
-    "firestarter",
-    "wood"
+    "collecting_wood"
   ],
   "tasks": {
     "campfire": {

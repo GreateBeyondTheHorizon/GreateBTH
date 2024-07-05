@@ -1,17 +1,11 @@
 {
   "dependencies": [
-    "ulv_mechanical_pump"
+    "pumpin"
   ],
   "tasks": {
     "spout": {
       "type": "heracles:item",
       "item": "create:spout",
-      "amount": 1,
-      "collection": "AUTOMATIC"
-    },
-    "pump": {
-      "type": "heracles:item",
-      "item": "greate:andesite_alloy_mechanical_pump",
       "amount": 1,
       "collection": "AUTOMATIC"
     }
@@ -28,7 +22,7 @@
       "ULV/ULS - Humble Beginnings": {
         "position": [
           81,
-          56
+          17
         ]
       }
     },

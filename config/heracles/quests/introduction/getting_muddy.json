@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "clay_bucket"
+    "moving_fluids"
   ],
   "tasks": {
     "packed_mud": {

@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "flint_tools"
+    "toolcrafting"
   ],
   "tasks": {
     "logs": {
