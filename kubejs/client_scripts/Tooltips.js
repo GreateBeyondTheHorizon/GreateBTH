@@ -9,5 +9,11 @@ ItemEvents.tooltip(event => {
 		}
 	)
 
+	for (const item of global.ItemsToRemove) {
+        global.Util.forEachItemExpanded(item, itemId => {
+            event.add(itemId, Text.red('DISABLED.').append(Text.gray(' If you have found this, report it as a bug.')))
+        })
+    }
+
 	event.add(['minecraft:furnace', 'minecraft:blast_furnace', 'minecraft:smoker'], Text.yellow('No functionality.').append(Text.gray(' Used for crafting or decoration only.')))
 })
