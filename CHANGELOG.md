@@ -17,7 +17,7 @@
 - Remove un-needed lv scanner quest
 - Move mixer recipe
 - Nerf backpacks
-- Hide furnace, blast furnace, and smoker in EMI
+- Add tooltips for furnace, blast furnace, and smoker saying that they are for crafting or decoration only
 
 **Mod Changes**
 - Add ChatHeads
