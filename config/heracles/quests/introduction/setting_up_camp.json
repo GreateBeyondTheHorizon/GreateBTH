@@ -52,7 +52,7 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Unlit Campfire"
+      "translate": "Setting Up Camp"
     }
   },
   "settings": {
