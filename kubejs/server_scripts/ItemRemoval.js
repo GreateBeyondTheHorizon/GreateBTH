@@ -34,7 +34,7 @@ var extraRecipesToRemove = [
 	/gtceu:(macerator|arc_furnace)(.*)uv_cutter/
 ]
 
-var recpiesToReplace = [
+var recipesToReplace = [
     {removedItem: "ad_astra:steel_rod", replacement: '#forge:rods/steel'},
     {removedItem: "ad_astra:iron_rod", replacement: '#forge:rods/iron'},
     {removedItem: "create:copper_sheet", replacement: '#forge:plates/copper'},
@@ -48,9 +48,7 @@ var recpiesToReplace = [
     {removedItem: "gtceu:iv_macerator", replacement: 'greate:tungsten_steel_millstone'},
     {removedItem: "gtceu:iv_bender", replacement: 'greate:tungsten_steel_mechanical_press'},
     {removedItem: "gtceu:iv_mixer", replacement: 'greate:tungsten_steel_mechanical_mixer'},
-    {removedItem: "gtceu:iv_cutter", replacement: 'greate:tungsten_steel_mechanical_saw'},
-    {removedItem: "minecraft:blast_furnace", replacement: "gtceu:high_pressure_steam_furnace"},
-    {removedItem: "minecraft:furnace", replacement: "minecraft:campfire"}
+    {removedItem: "gtceu:iv_cutter", replacement: 'greate:tungsten_steel_mechanical_saw'}
 ]
 
 ServerEvents.tags('item', event => {
@@ -84,7 +82,7 @@ ServerEvents.recipes(event => {
         event.remove({id: recipe})
     })
 
-    recpiesToReplace.forEach(recipe => {
+    recipesToReplace.forEach(recipe => {
         var item = Item.of('kubejs:removed_item_placeholder', `{Removed:"${recipe.removedItem}"}`).weakNBT()
         event.replaceInput(item, item, recipe.replacement)
     })

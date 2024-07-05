@@ -205,9 +205,3 @@ removeNamespaceItems('gtceu', [
 	'zpm_cutter',
 	'uv_cutter'
 ])
-
-removeNamespaceItems('minecraft', [
-	'furnace',
-	'blast_furnace',
-	'smoker'
-])
