@@ -1,7 +1,6 @@
 {
   "dependencies": [
-    "lv_conveyor",
-    "the_first_of_many"
+    "microcrafting_hell_begins_5"
   ],
   "tasks": {
     "cutter": {
@@ -22,8 +21,8 @@
     "groups": {
       "LV/LS - The Grind Starts Here": {
         "position": [
-          -7,
-          -199
+          -59,
+          -120
         ]
       }
     },

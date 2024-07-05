@@ -1,26 +1,11 @@
 {
   "dependencies": [
-    "Straw"
+    "straw"
   ],
   "tasks": {
     "flint_shovel": {
       "type": "heracles:item",
       "item": "gtceu:flint_shovel",
-      "nbt": {
-        "DisallowContainerItem": 0,
-        "GT.Behaviours": {},
-        "HideFlags": 2,
-        "GT.Tool": {
-          "MaxDamage": 63,
-          "Damage": 0
-        }
-      },
-      "amount": 1,
-      "collection": "AUTOMATIC"
-    },
-    "flint_pickaxe": {
-      "type": "heracles:item",
-      "item": "gtceu:flint_pickaxe",
       "nbt": {
         "DisallowContainerItem": 0,
         "GT.Behaviours": {},
@@ -64,6 +49,21 @@
             "id": "minecraft:fire_aspect"
           }
         ],
+        "GT.Tool": {
+          "MaxDamage": 63,
+          "Damage": 0
+        }
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "flint_pickaxe": {
+      "type": "heracles:item",
+      "item": "gtceu:flint_pickaxe",
+      "nbt": {
+        "DisallowContainerItem": 0,
+        "GT.Behaviours": {},
+        "HideFlags": 2,
         "GT.Tool": {
           "MaxDamage": 63,
           "Damage": 0

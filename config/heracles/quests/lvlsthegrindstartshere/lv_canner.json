@@ -1,7 +1,6 @@
 {
   "dependencies": [
-    "lv_pump",
-    "the_first_of_many"
+    "microcrafting_hell_begins_3"
   ],
   "tasks": {
     "canner": {
@@ -22,8 +21,8 @@
     "groups": {
       "LV/LS - The Grind Starts Here": {
         "position": [
-          65,
-          -206
+          74,
+          -200
         ]
       }
     },

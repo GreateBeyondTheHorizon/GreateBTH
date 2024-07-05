@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "mixer"
+    "mix_it_up"
   ],
   "tasks": {
     "blaze_burner": {

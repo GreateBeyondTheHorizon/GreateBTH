@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "wood"
+    "collecting_wood"
   ],
   "tasks": {
     "empty_form": {

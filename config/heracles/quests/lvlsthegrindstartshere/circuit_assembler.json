@@ -1,9 +1,9 @@
 {
   "dependencies": [
     "lv_emitter",
-    "first_mv_circuit",
-    "lv_conveyor",
-    "lv_robot_arm"
+    "your_first_mv_circuit",
+    "microcrafting_hell_begins_5",
+    "microcrafting_hell_begins_4"
   ],
   "tasks": {
     "circuit_assembler": {
@@ -25,7 +25,7 @@
       "LV/LS - The Grind Starts Here": {
         "position": [
           -35,
-          -223
+          -225
         ]
       }
     },

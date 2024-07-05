@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "ebf"
+    "cooking_electronically"
   ],
   "tasks": {
     "aluminum": {

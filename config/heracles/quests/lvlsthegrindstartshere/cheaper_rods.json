@@ -1,7 +1,7 @@
 {
   "dependencies": [
-    "lv_piston",
-    "lv_motor"
+    "microcrafting_hell_begins_3",
+    "microcrafting_hell_begins_1"
   ],
   "tasks": {
     "lathe": {
@@ -22,8 +22,8 @@
     "groups": {
       "LV/LS - The Grind Starts Here": {
         "position": [
-          41,
-          -99
+          23,
+          -102
         ]
       }
     },

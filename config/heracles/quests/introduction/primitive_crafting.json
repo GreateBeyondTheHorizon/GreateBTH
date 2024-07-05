@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "wood"
+    "collecting_wood"
   ],
   "tasks": {
     "cutting_board": {

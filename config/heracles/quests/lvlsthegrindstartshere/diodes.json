@@ -1,7 +1,6 @@
 {
   "dependencies": [
-    "mixer",
-    "lv_assembler"
+    "assemblers_unite"
   ],
   "tasks": {
     "diode": {
