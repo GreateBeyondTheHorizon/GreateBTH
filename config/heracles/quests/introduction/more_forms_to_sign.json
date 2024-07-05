@@ -1,11 +1,23 @@
 {
   "dependencies": [
-    "empty_form"
+    "please_sign_this_form"
   ],
   "tasks": {
-    "form": {
+    "gtceu:brick_wooden_form": {
       "type": "heracles:item",
-      "item": "#gbth:forms",
+      "item": "gtceu:brick_wooden_form",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "block_wooden_form": {
+      "type": "heracles:item",
+      "item": "kubejs:block_wooden_form",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "nugget_wooden_form": {
+      "type": "heracles:item",
+      "item": "kubejs:nugget_wooden_form",
       "amount": 1,
       "collection": "AUTOMATIC"
     }
