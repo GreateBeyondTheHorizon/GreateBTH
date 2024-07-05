@@ -676,6 +676,9 @@ file = "kubejs/assets/ad_astra/textures/entity/rocket/tier_3_rocket.png"
 file = "kubejs/assets/ad_astra/textures/entity/rocket/tier_4_rocket.png"
 
 [[files]]
+file = "kubejs/assets/emi/category/properties/smelting.json"
+
+[[files]]
 file = "kubejs/assets/emi/recipe/additions/bloomery.json"
 
 [[files]]
