@@ -15,5 +15,5 @@ ItemEvents.tooltip(event => {
         })
     }
 
-	event.add(['minecraft:furnace', 'minecraft:blast_furnace', 'minecraft:smoker'], Text.yellow('No functionality.').append(Text.gray(' Used for crafting or decoration only.')))
+	event.add(['minecraft:furnace', 'minecraft:blast_furnace', 'minecraft:smoker'], [["", Text.yellow('No functionality.'), Text.gray(' Used for crafting or decoration only.')]])
 })
