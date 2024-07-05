@@ -1,3 +1,4 @@
+//priority: 1
 var extraRecipesToRemove = [
     'aquaculture:iron_nugget_from_smelting',
     'farmersdelight:iron_nugget_from_smelting_knife',
@@ -50,7 +51,6 @@ var recpiesToReplace = [
     {removedItem: "gtceu:iv_cutter", replacement: 'greate:tungsten_steel_mechanical_saw'}
 ]
 
-//priority: 1
 ServerEvents.tags('item', event => {
     for (const item of global.ItemsToRemove) {
         event.removeAllTagsFrom(item)
