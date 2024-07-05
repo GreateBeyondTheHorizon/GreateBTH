@@ -186,7 +186,8 @@ removeNamespaceItems('aquaculture', [
 ])
 
 removeNamespaceItems('ae2', [
-	'vibration_chamber'
+	'vibration_chamber',
+	'ender_dust'
 ])
 
 removeNamespaceItems('gtceu', [
