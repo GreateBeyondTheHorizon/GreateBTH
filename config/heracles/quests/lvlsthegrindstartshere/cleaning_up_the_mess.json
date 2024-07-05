@@ -6,7 +6,7 @@
   "tasks": {
     "storage": {
       "type": "heracles:item",
-      "item": "pocketstorage:psu_1",
+      "item": "dankstorage:dank_1",
       "amount": 1,
       "collection": "AUTOMATIC"
     }
@@ -19,7 +19,13 @@
     "description": [
       "Want a simple solution to clean up that excess cobble/deepslate? Well look no further! ",
       "",
-      "This allows automatic pickup of 8 different items and stores 255 of that item (at the first tier). After that, it will void any excess it picks up."
+      "This allows automatic pickup and voiding of /d/9/d/ different items and stores /d/256/d/ of that item (at the first tier).",
+      "",
+      "<text>The <light_purple>Pickup Mode</light_purple> can be changed either by <underline>opening the GUI</underline> or pressing '<light_purple><keybind>key.dankstorage.pickup_mode</keybind></light_purple>'.</text>",
+      "",
+      "<text>You can also change from <light_purple>Bag Mode</light_purple> to <light_purple>Construction Mode</light_purple>, by pressing '<light_purple><keybind>key.dankstorage.construction</keybind></light_purple>' which will allow you to place blocks from the bag.</text>",
+      "",
+      "To change what block is selected, __crouch and scroll__ when you have the bag selected and in /d/Construction Mode/d/."
     ],
     "groups": {
       "LV/LS - The Grind Starts Here": {
@@ -31,7 +37,7 @@
     },
     "icon": {
       "item": {
-        "id": "pocketstorage:psu_1",
+        "id": "dankstorage:dank_1",
         "count": 1
       },
       "type": "heracles:item"

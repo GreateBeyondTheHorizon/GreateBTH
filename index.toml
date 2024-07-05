@@ -1180,6 +1180,9 @@ file = "kubejs/server_scripts/Mods/CookingForBlockheads.js"
 file = "kubejs/server_scripts/Mods/Create.js"
 
 [[files]]
+file = "kubejs/server_scripts/Mods/DankStorage.js"
+
+[[files]]
 file = "kubejs/server_scripts/Mods/EnderStorage.js"
 
 [[files]]
@@ -1250,9 +1253,6 @@ file = "kubejs/server_scripts/Mods/NethersDelight.js"
 
 [[files]]
 file = "kubejs/server_scripts/Mods/OreberriesReplanted.js"
-
-[[files]]
-file = "kubejs/server_scripts/Mods/PocketStorage.js"
 
 [[files]]
 file = "kubejs/server_scripts/Mods/ProductiveBees/BeeFood.js"
@@ -1478,6 +1478,10 @@ file = "mods/cut-through.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/dank-storage.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/embeddium.pw.toml"
 metafile = true
 
@@ -1650,10 +1654,6 @@ metafile = true
 
 [[files]]
 file = "mods/placebo.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/pocket-storage.pw.toml"
 metafile = true
 
 [[files]]

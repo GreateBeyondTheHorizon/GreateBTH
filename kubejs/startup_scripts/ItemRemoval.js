@@ -206,3 +206,13 @@ removeNamespaceItems('gtceu', [
 	'zpm_cutter',
 	'uv_cutter'
 ])
+
+removeNamespaceItems('dankstorage', [
+	'red_print',
+	'1_to_2',
+	'2_to_3',
+	'3_to_4',
+	'4_to_5',
+	'5_to_6',
+	'6_to_7'
+])

@@ -21,7 +21,7 @@
 
 **Mod Changes**
 - Add ChatHeads
-- Add PocketStorage
+- Add DankStorage
 - Add TrashCans
 
 - appliedenergistics2-forge-15.2.4 -> appliedenergistics2-forge-15.2.8
