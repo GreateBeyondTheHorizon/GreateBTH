@@ -442,6 +442,9 @@ file = "config/heracles/quests/ulvulshumblebeginnings/controlling_liquids.json"
 file = "config/heracles/quests/ulvulshumblebeginnings/copper_wires.json"
 
 [[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/create_tools_and_you.json"
+
+[[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/crusher_v1.json"
 
 [[files]]
@@ -602,9 +605,6 @@ file = "config/heracles/quests/ulvulshumblebeginnings/the_fun_begins_now.json"
 
 [[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/this_is_a_bucket.json"
-
-[[files]]
-file = "config/heracles/quests/ulvulshumblebeginnings/tools_of_the_trade.json"
 
 [[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/vacuum_tubes.json"

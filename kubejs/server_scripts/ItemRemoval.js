@@ -48,7 +48,8 @@ var recipesToReplace = [
     {removedItem: "gtceu:iv_macerator", replacement: 'greate:tungsten_steel_millstone'},
     {removedItem: "gtceu:iv_bender", replacement: 'greate:tungsten_steel_mechanical_press'},
     {removedItem: "gtceu:iv_mixer", replacement: 'greate:tungsten_steel_mechanical_mixer'},
-    {removedItem: "gtceu:iv_cutter", replacement: 'greate:tungsten_steel_mechanical_saw'}
+    {removedItem: "gtceu:iv_cutter", replacement: 'greate:tungsten_steel_mechanical_saw'},
+    {removedItem: "ae2:ender_dust", replacement: 'gtceu:ender_pearl_dust'}
 ]
 
 ServerEvents.tags('item', event => {
