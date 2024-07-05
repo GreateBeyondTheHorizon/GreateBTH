@@ -1,7 +1,9 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "cooking_with_gas"
+  ],
   "tasks": {},
-    "rewards": {
+  "rewards": {
     "lootbag": {
       "item": {
         "id": "lootbags:loot_bag",
@@ -20,32 +22,35 @@
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      ""
+    ],
     "groups": {
       "Staying Full": {
         "position": [
-          -23,
+          -25,
           -70
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "minecraft:map",
+        "id": "farmersdelight:bacon_and_eggs",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "bacon_and_eggs"
+      "translate": "Bacon And Eggs"
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

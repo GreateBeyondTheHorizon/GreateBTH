@@ -3,7 +3,7 @@
     "cooking_with_gas"
   ],
   "tasks": {},
-    "rewards": {
+  "rewards": {
     "lootbag": {
       "item": {
         "id": "lootbags:loot_bag",
@@ -44,10 +44,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }
