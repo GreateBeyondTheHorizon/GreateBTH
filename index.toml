@@ -1138,9 +1138,6 @@ file = "kubejs/jsconfig.json"
 file = "kubejs/server_scripts/BlockEvents.js"
 
 [[files]]
-file = "kubejs/server_scripts/CategoryRemoval.js"
-
-[[files]]
 file = "kubejs/server_scripts/Gamerules.js"
 
 [[files]]
@@ -1169,9 +1166,6 @@ file = "kubejs/server_scripts/Mods/AdAstra.js"
 
 [[files]]
 file = "kubejs/server_scripts/Mods/CeramicBucket.js"
-
-[[files]]
-file = "kubejs/server_scripts/Mods/Chipped.js"
 
 [[files]]
 file = "kubejs/server_scripts/Mods/ComputerCraft.js"

@@ -57,5 +57,4 @@ global['handleLookup'] = (jeiHelpers, builder, recipe, focuses) => {
 
 global['render'] = (jeiHelpers, recipe, recipeSlotsView, guiGraphics, mouseX, mouseY) => {
 	AllGuiTextures.JEI_DOWN_ARROW.render(guiGraphics, 40, 15)
-	//guiGraphics.draw(guiGraphics.)
 }

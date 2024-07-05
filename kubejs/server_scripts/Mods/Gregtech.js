@@ -37,24 +37,6 @@ ServerEvents.recipes(event => {
 	})
 
 	//#region replacement
-	//Recipe ids that should have a campfire in place of a furnace in its recipe
-	const furnaceRecipesToReplace = [
-		'gtceu:shaped/steam_furnace_bronze',
-		'gtceu:shaped/steam_alloy_smelter_bronze',
-		'gtceu:shaped/furnace_minecart',
-		'cookingforblockheads:oven',
-		'productivebees:honey_generator',
-		'gtceu:shaped/steam_boiler_coal_bronze',
-		'gtceu:shaped/steam_boiler_coal_steel',
-		'gtceu:shaped/electric_blast_furnace',
-		'gtceu:shaped/multi_furnace',
-		'gtceu:assembler/furnace_minecart'
-	]
-
-	furnaceRecipesToReplace.forEach(recipeID => {
-		event.replaceInput({id: recipeID}, 'minecraft:furnace', 'minecraft:campfire')
-	})
-
 	event.replaceInput('gtceu:shaped/coke_oven', 'gtceu:iron_plate', 'gtceu:wrought_iron_plate')
 	event.replaceInput('gtceu:shaped/primitive_pump', 'gtceu:iron_ring', 'gtceu:wrought_iron_ring')
 	event.replaceInput('gtceu:shaped/primitive_pump', 'gtceu:iron_screw', 'gtceu:wrought_iron_screw')

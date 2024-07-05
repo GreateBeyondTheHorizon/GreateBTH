@@ -17,6 +17,7 @@
 - Remove un-needed lv scanner quest
 - Move mixer recipe
 - Nerf backpacks
+- Hide furnace, blast furnace, and smoker in EMI
 
 **Mod Changes**
 - Add ChatHeads
