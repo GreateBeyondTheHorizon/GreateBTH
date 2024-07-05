@@ -94,9 +94,6 @@ file = "config/gtceu.yaml"
 file = "config/heracles/groups.txt"
 
 [[files]]
-file = "config/heracles/quests/introduction/Straw.json"
-
-[[files]]
 file = "config/heracles/quests/introduction/andesite_alloy.json"
 
 [[files]]
@@ -106,49 +103,52 @@ file = "config/heracles/quests/introduction/bloomery.json"
 file = "config/heracles/quests/introduction/bloomery_products.json"
 
 [[files]]
-file = "config/heracles/quests/introduction/campfire.json"
+file = "config/heracles/quests/introduction/collecting_wood.json"
 
 [[files]]
-file = "config/heracles/quests/introduction/clay_bucket.json"
-
-[[files]]
-file = "config/heracles/quests/introduction/crafting_table.json"
-
-[[files]]
-file = "config/heracles/quests/introduction/empty_form.json"
+file = "config/heracles/quests/introduction/finally_a_proper_crafting_table.json"
 
 [[files]]
 file = "config/heracles/quests/introduction/finding_ores.json"
 
 [[files]]
-file = "config/heracles/quests/introduction/firestarter.json"
-
-[[files]]
 file = "config/heracles/quests/introduction/flint_knife.json"
 
 [[files]]
-file = "config/heracles/quests/introduction/flint_tools.json"
+file = "config/heracles/quests/introduction/getting_muddy.json"
 
 [[files]]
-file = "config/heracles/quests/introduction/forms.json"
+file = "config/heracles/quests/introduction/getting_some_sleep.json"
 
 [[files]]
-file = "config/heracles/quests/introduction/ing_rack.json"
+file = "config/heracles/quests/introduction/more_forms_to_sign.json"
 
 [[files]]
-file = "config/heracles/quests/introduction/packed_mud.json"
+file = "config/heracles/quests/introduction/moving_fluids.json"
+
+[[files]]
+file = "config/heracles/quests/introduction/please_sign_this_form.json"
 
 [[files]]
 file = "config/heracles/quests/introduction/primitive_crafting.json"
 
 [[files]]
-file = "config/heracles/quests/introduction/sleeping_bag.json"
+file = "config/heracles/quests/introduction/setting_up_camp.json"
+
+[[files]]
+file = "config/heracles/quests/introduction/spice_it_up.json"
+
+[[files]]
+file = "config/heracles/quests/introduction/straw.json"
 
 [[files]]
 file = "config/heracles/quests/introduction/the_start_of_something_new.json"
 
 [[files]]
-file = "config/heracles/quests/introduction/wood.json"
+file = "config/heracles/quests/introduction/toolcrafting.json"
+
+[[files]]
+file = "config/heracles/quests/introduction/we_didnt_start_the_fire.json"
 
 [[files]]
 file = "config/heracles/quests/lvlsthegrindstartshere/aluminium.json"
@@ -157,31 +157,49 @@ file = "config/heracles/quests/lvlsthegrindstartshere/aluminium.json"
 file = "config/heracles/quests/lvlsthegrindstartshere/arc_furnace.json"
 
 [[files]]
+file = "config/heracles/quests/lvlsthegrindstartshere/assemblers_unite.json"
+
+[[files]]
+file = "config/heracles/quests/lvlsthegrindstartshere/cheaper_electromagnetic_rods.json"
+
+[[files]]
 file = "config/heracles/quests/lvlsthegrindstartshere/cheaper_iron.json"
+
+[[files]]
+file = "config/heracles/quests/lvlsthegrindstartshere/cheaper_rods.json"
+
+[[files]]
+file = "config/heracles/quests/lvlsthegrindstartshere/cheaper_wires.json"
 
 [[files]]
 file = "config/heracles/quests/lvlsthegrindstartshere/circuit_assembler.json"
 
 [[files]]
-file = "config/heracles/quests/lvlsthegrindstartshere/cupronickel_coil.json"
+file = "config/heracles/quests/lvlsthegrindstartshere/cleaning_up_the_mess.json"
+
+[[files]]
+file = "config/heracles/quests/lvlsthegrindstartshere/cooking_electronically.json"
+
+[[files]]
+file = "config/heracles/quests/lvlsthegrindstartshere/cupronickel_coils.json"
+
+[[files]]
+file = "config/heracles/quests/lvlsthegrindstartshere/cutting_everything.json"
 
 [[files]]
 file = "config/heracles/quests/lvlsthegrindstartshere/diodes.json"
 
 [[files]]
-file = "config/heracles/quests/lvlsthegrindstartshere/ebf.json"
+file = "config/heracles/quests/lvlsthegrindstartshere/extracting_and_solidifying.json"
 
 [[files]]
-file = "config/heracles/quests/lvlsthegrindstartshere/filtered_output.json"
-
-[[files]]
-file = "config/heracles/quests/lvlsthegrindstartshere/first_mv_circuit.json"
+file = "config/heracles/quests/lvlsthegrindstartshere/filtering_the_outputs.json"
 
 [[files]]
 file = "config/heracles/quests/lvlsthegrindstartshere/generating_more_steam.json"
 
 [[files]]
-file = "config/heracles/quests/lvlsthegrindstartshere/good_circuit_board.json"
+file = "config/heracles/quests/lvlsthegrindstartshere/getting_oxygen.json"
 
 [[files]]
 file = "config/heracles/quests/lvlsthegrindstartshere/iron_iii_chloride.json"
@@ -190,25 +208,10 @@ file = "config/heracles/quests/lvlsthegrindstartshere/iron_iii_chloride.json"
 file = "config/heracles/quests/lvlsthegrindstartshere/large_water_wheel.json"
 
 [[files]]
-file = "config/heracles/quests/lvlsthegrindstartshere/lv_air_scrubber.json"
-
-[[files]]
 file = "config/heracles/quests/lvlsthegrindstartshere/lv_alloy_smelter.json"
 
 [[files]]
-file = "config/heracles/quests/lvlsthegrindstartshere/lv_assembler.json"
-
-[[files]]
-file = "config/heracles/quests/lvlsthegrindstartshere/lv_batteries.json"
-
-[[files]]
 file = "config/heracles/quests/lvlsthegrindstartshere/lv_canner.json"
-
-[[files]]
-file = "config/heracles/quests/lvlsthegrindstartshere/lv_chemical_rector.json"
-
-[[files]]
-file = "config/heracles/quests/lvlsthegrindstartshere/lv_conveyor.json"
 
 [[files]]
 file = "config/heracles/quests/lvlsthegrindstartshere/lv_emitter.json"
@@ -217,34 +220,7 @@ file = "config/heracles/quests/lvlsthegrindstartshere/lv_emitter.json"
 file = "config/heracles/quests/lvlsthegrindstartshere/lv_energy_hatch.json"
 
 [[files]]
-file = "config/heracles/quests/lvlsthegrindstartshere/lv_extractor.json"
-
-[[files]]
-file = "config/heracles/quests/lvlsthegrindstartshere/lv_lathe.json"
-
-[[files]]
 file = "config/heracles/quests/lvlsthegrindstartshere/lv_machine_hull.json"
-
-[[files]]
-file = "config/heracles/quests/lvlsthegrindstartshere/lv_motor.json"
-
-[[files]]
-file = "config/heracles/quests/lvlsthegrindstartshere/lv_piston.json"
-
-[[files]]
-file = "config/heracles/quests/lvlsthegrindstartshere/lv_polarizer.json"
-
-[[files]]
-file = "config/heracles/quests/lvlsthegrindstartshere/lv_prospector.json"
-
-[[files]]
-file = "config/heracles/quests/lvlsthegrindstartshere/lv_pump.json"
-
-[[files]]
-file = "config/heracles/quests/lvlsthegrindstartshere/lv_robot_arm.json"
-
-[[files]]
-file = "config/heracles/quests/lvlsthegrindstartshere/lv_saw.json"
 
 [[files]]
 file = "config/heracles/quests/lvlsthegrindstartshere/lv_sensor.json"
@@ -253,25 +229,52 @@ file = "config/heracles/quests/lvlsthegrindstartshere/lv_sensor.json"
 file = "config/heracles/quests/lvlsthegrindstartshere/lv_steam_turbine.json"
 
 [[files]]
-file = "config/heracles/quests/lvlsthegrindstartshere/lv_wiremill.json"
+file = "config/heracles/quests/lvlsthegrindstartshere/microcrafting_hell_begins_1.json"
+
+[[files]]
+file = "config/heracles/quests/lvlsthegrindstartshere/microcrafting_hell_begins_2.json"
+
+[[files]]
+file = "config/heracles/quests/lvlsthegrindstartshere/microcrafting_hell_begins_3.json"
+
+[[files]]
+file = "config/heracles/quests/lvlsthegrindstartshere/microcrafting_hell_begins_4.json"
+
+[[files]]
+file = "config/heracles/quests/lvlsthegrindstartshere/microcrafting_hell_begins_5.json"
 
 [[files]]
 file = "config/heracles/quests/lvlsthegrindstartshere/muffler_hatch.json"
 
 [[files]]
-file = "config/heracles/quests/lvlsthegrindstartshere/oxygen.json"
+file = "config/heracles/quests/lvlsthegrindstartshere/phenolic_printed_circuit_board.json"
 
 [[files]]
-file = "config/heracles/quests/lvlsthegrindstartshere/pocket_storage_mk1.json"
+file = "config/heracles/quests/lvlsthegrindstartshere/portable_eu_storage.json"
+
+[[files]]
+file = "config/heracles/quests/lvlsthegrindstartshere/pressing_everything.json"
+
+[[files]]
+file = "config/heracles/quests/lvlsthegrindstartshere/prospecting.json"
+
+[[files]]
+file = "config/heracles/quests/lvlsthegrindstartshere/scrubbing_the_air.json"
 
 [[files]]
 file = "config/heracles/quests/lvlsthegrindstartshere/sodium_persulfate.json"
 
 [[files]]
-file = "config/heracles/quests/lvlsthegrindstartshere/steel_mechanical_press.json"
+file = "config/heracles/quests/lvlsthegrindstartshere/storing_steam.json"
 
 [[files]]
-file = "config/heracles/quests/lvlsthegrindstartshere/storing_steam.json"
+file = "config/heracles/quests/lvlsthegrindstartshere/the_chemistry_begins.json"
+
+[[files]]
+file = "config/heracles/quests/lvlsthegrindstartshere/your_first_mv_circuit.json"
+
+[[files]]
+file = "config/heracles/quests/stayingfull/a_fully_fleshed_kitchen.json"
 
 [[files]]
 file = "config/heracles/quests/stayingfull/apple_pie.json"
@@ -337,9 +340,6 @@ file = "config/heracles/quests/stayingfull/honey_glazed_ham.json"
 file = "config/heracles/quests/stayingfull/kelp_roll.json"
 
 [[files]]
-file = "config/heracles/quests/stayingfull/kitchen.json"
-
-[[files]]
 file = "config/heracles/quests/stayingfull/melon_juice.json"
 
 [[files]]
@@ -347,6 +347,9 @@ file = "config/heracles/quests/stayingfull/melon_popsicle.json"
 
 [[files]]
 file = "config/heracles/quests/stayingfull/mixed_salad.json"
+
+[[files]]
+file = "config/heracles/quests/stayingfull/mixing_foods.json"
 
 [[files]]
 file = "config/heracles/quests/stayingfull/mushroom_rice.json"
@@ -367,7 +370,7 @@ file = "config/heracles/quests/stayingfull/pasta_with_meatballs.json"
 file = "config/heracles/quests/stayingfull/pasta_with_mutton_chops.json"
 
 [[files]]
-file = "config/heracles/quests/stayingfull/pie_base.json"
+file = "config/heracles/quests/stayingfull/pie_crust.json"
 
 [[files]]
 file = "config/heracles/quests/stayingfull/pumpkin_pie.json"
@@ -415,9 +418,6 @@ file = "config/heracles/quests/stayingfull/sweet_berry_cheesecake.json"
 file = "config/heracles/quests/stayingfull/sweet_berry_cookie.json"
 
 [[files]]
-file = "config/heracles/quests/stayingfull/ulv_mixer.json"
-
-[[files]]
 file = "config/heracles/quests/stayingfull/vegetable_noodles.json"
 
 [[files]]
@@ -427,10 +427,7 @@ file = "config/heracles/quests/stayingfull/vegetable_soup.json"
 file = "config/heracles/quests/ulvulshumblebeginnings/a_hell_of_an_adventure.json"
 
 [[files]]
-file = "config/heracles/quests/ulvulshumblebeginnings/bed.json"
-
-[[files]]
-file = "config/heracles/quests/ulvulshumblebeginnings/blaze_burner.json"
+file = "config/heracles/quests/ulvulshumblebeginnings/andesite_alloy_saw.json"
 
 [[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/brass_hands.json"
@@ -439,19 +436,25 @@ file = "config/heracles/quests/ulvulshumblebeginnings/brass_hands.json"
 file = "config/heracles/quests/ulvulshumblebeginnings/bronze_brick_casing.json"
 
 [[files]]
-file = "config/heracles/quests/ulvulshumblebeginnings/chest.json"
-
-[[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/controlling_liquids.json"
 
 [[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/copper_wires.json"
 
 [[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/crusher_v1.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/crusher_v2.json"
+
+[[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/edible_belts.json"
 
 [[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/encased_fan.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/finally_some_iron.json"
 
 [[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/fine_copper_wire.json"
@@ -466,13 +469,13 @@ file = "config/heracles/quests/ulvulshumblebeginnings/gregtech_tools_and_you.jso
 file = "config/heracles/quests/ulvulshumblebeginnings/hand_crank.json"
 
 [[files]]
-file = "config/heracles/quests/ulvulshumblebeginnings/hp_liquid_boiler.json"
+file = "config/heracles/quests/ulvulshumblebeginnings/heating_the_mixer.json"
 
 [[files]]
-file = "config/heracles/quests/ulvulshumblebeginnings/hp_solid_boiler.json"
+file = "config/heracles/quests/ulvulshumblebeginnings/hp_liquid_steam_boiler.json"
 
 [[files]]
-file = "config/heracles/quests/ulvulshumblebeginnings/iron_ingot.json"
+file = "config/heracles/quests/ulvulshumblebeginnings/hp_solid_steam_boiler.json"
 
 [[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/its_moldin_time.json"
@@ -487,13 +490,13 @@ file = "config/heracles/quests/ulvulshumblebeginnings/liquid_steam_boiler.json"
 file = "config/heracles/quests/ulvulshumblebeginnings/mechanical_crafting.json"
 
 [[files]]
-file = "config/heracles/quests/ulvulshumblebeginnings/millstone.json"
-
-[[files]]
-file = "config/heracles/quests/ulvulshumblebeginnings/mixer.json"
+file = "config/heracles/quests/ulvulshumblebeginnings/mix_it_up.json"
 
 [[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/no_not_that_coke.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/on_the_floor_no_more.json"
 
 [[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/paper.json"
@@ -505,16 +508,19 @@ file = "config/heracles/quests/ulvulshumblebeginnings/pokey_pokey.json"
 file = "config/heracles/quests/ulvulshumblebeginnings/polished_rose_quartz.json"
 
 [[files]]
-file = "config/heracles/quests/ulvulshumblebeginnings/primitive_blast_furnace.json"
+file = "config/heracles/quests/ulvulshumblebeginnings/pressing_matters.json"
 
 [[files]]
-file = "config/heracles/quests/ulvulshumblebeginnings/primitive_tank.json"
+file = "config/heracles/quests/ulvulshumblebeginnings/primitive_blast_furnace.json"
 
 [[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/pulp_fiction.json"
 
 [[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/pump_it_up.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/pumpin.json"
 
 [[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/pyrolysis.json"
@@ -577,6 +583,12 @@ file = "config/heracles/quests/ulvulshumblebeginnings/steel_ingot.json"
 file = "config/heracles/quests/ulvulshumblebeginnings/steel_plate.json"
 
 [[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/store_those_items.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/storing_fluids.json"
+
+[[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/the_andesite_age.json"
 
 [[files]]
@@ -593,18 +605,6 @@ file = "config/heracles/quests/ulvulshumblebeginnings/this_is_a_bucket.json"
 
 [[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/tools_of_the_trade.json"
-
-[[files]]
-file = "config/heracles/quests/ulvulshumblebeginnings/ulv_crushing_wheel.json"
-
-[[files]]
-file = "config/heracles/quests/ulvulshumblebeginnings/ulv_mechanical_press.json"
-
-[[files]]
-file = "config/heracles/quests/ulvulshumblebeginnings/ulv_mechanical_pump.json"
-
-[[files]]
-file = "config/heracles/quests/ulvulshumblebeginnings/ulv_saw.json"
 
 [[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/vacuum_tubes.json"
@@ -1133,6 +1133,9 @@ file = "kubejs/jsconfig.json"
 
 [[files]]
 file = "kubejs/server_scripts/BlockEvents.js"
+
+[[files]]
+file = "kubejs/server_scripts/CategoryRemoval.js"
 
 [[files]]
 file = "kubejs/server_scripts/Gamerules.js"
