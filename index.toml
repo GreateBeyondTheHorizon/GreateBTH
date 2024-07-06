@@ -202,9 +202,6 @@ file = "config/heracles/quests/lvlsthegrindstartshere/generating_more_steam.json
 file = "config/heracles/quests/lvlsthegrindstartshere/getting_oxygen.json"
 
 [[files]]
-file = "config/heracles/quests/lvlsthegrindstartshere/iron_iii_chloride.json"
-
-[[files]]
 file = "config/heracles/quests/lvlsthegrindstartshere/large_water_wheel.json"
 
 [[files]]
@@ -260,9 +257,6 @@ file = "config/heracles/quests/lvlsthegrindstartshere/prospecting.json"
 
 [[files]]
 file = "config/heracles/quests/lvlsthegrindstartshere/scrubbing_the_air.json"
-
-[[files]]
-file = "config/heracles/quests/lvlsthegrindstartshere/sodium_persulfate.json"
 
 [[files]]
 file = "config/heracles/quests/lvlsthegrindstartshere/storing_steam.json"

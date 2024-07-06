@@ -1,6 +1,7 @@
 {
   "dependencies": [
-    "microcrafting_hell_begins_2"
+    "microcrafting_hell_begins_2",
+    "cutting_everything"
   ],
   "tasks": {
     "scrubber": {
@@ -21,8 +22,8 @@
     "groups": {
       "LV/LS - The Grind Starts Here": {
         "position": [
-          58,
-          -74
+          59,
+          -101
         ]
       }
     },

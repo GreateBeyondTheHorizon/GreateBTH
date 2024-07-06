@@ -1,7 +1,8 @@
 {
   "dependencies": [
+    "lv_machine_hull",
     "the_first_of_many",
-    "lv_motor"
+    "microcrafting_hell_begins_1"
   ],
   "tasks": {
     "chem_reactor": {
@@ -22,8 +23,8 @@
     "groups": {
       "LV/LS - The Grind Starts Here": {
         "position": [
-          -187,
-          -73
+          -248,
+          9
         ]
       }
     },

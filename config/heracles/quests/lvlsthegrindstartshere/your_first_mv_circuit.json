@@ -1,7 +1,8 @@
 {
   "dependencies": [
     "phenolic_printed_circuit_board",
-    "diodes"
+    "diodes",
+    "the_first_of_many"
   ],
   "tasks": {
     "circuit": {
@@ -22,8 +23,8 @@
     "groups": {
       "LV/LS - The Grind Starts Here": {
         "position": [
-          -90,
-          -223
+          -154,
+          -225
         ]
       }
     },
