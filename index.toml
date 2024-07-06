@@ -991,6 +991,9 @@ file = "kubejs/assets/kubejs/textures/item/unf_turtle_helmet.png"
 file = "kubejs/assets/kubejs/textures/item/wrought_iron_bloom.png"
 
 [[files]]
+file = "kubejs/assets/minecraft/textures/item/campfire.png"
+
+[[files]]
 file = "kubejs/client_scripts/JEI.js"
 
 [[files]]
