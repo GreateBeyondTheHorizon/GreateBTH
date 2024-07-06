@@ -1,0 +1,13 @@
+name = "Aether Addon: Emissivity"
+filename = "aether_emissivity-1.20.1-1.0.0-neoforge.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/sKHHynnb/versions/qkuExxCI/aether_emissivity-1.20.1-1.0.0-neoforge.jar"
+hash-format = "sha1"
+hash = "91cb398714e3e601f493906dd09bf3baf1ca7aa3"
+
+[update]
+[update.modrinth]
+mod-id = "sKHHynnb"
+version = "qkuExxCI"

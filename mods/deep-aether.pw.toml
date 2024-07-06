@@ -1,0 +1,13 @@
+name = "Deep Aether"
+filename = "deep_aether-1.20.1-1.0.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/gcHIih5B/versions/QLVpIfON/deep_aether-1.20.1-1.0.4.jar"
+hash-format = "sha1"
+hash = "cfb0a2bbbb1c0c1f240acf4de7eb282ad2574b4f"
+
+[update]
+[update.modrinth]
+mod-id = "gcHIih5B"
+version = "QLVpIfON"
