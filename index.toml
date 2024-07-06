@@ -1682,11 +1682,11 @@ file = "mods/mouse-tweaks.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/natures-compass.pw.toml"
+file = "mods/my-nethers-delight.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/nethers-delight.pw.toml"
+file = "mods/natures-compass.pw.toml"
 metafile = true
 
 [[files]]

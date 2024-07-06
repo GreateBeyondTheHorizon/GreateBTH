@@ -34,6 +34,7 @@
 - Add Aether mod with some addon mods (Deep Aether, Advanced Extinguishing, Emissivity)
 - Add ImmediatelyFast
 - Add Ksyxis
+- Replaced Nether's Delight with My Nether's Delight
 
 - appliedenergistics2-forge-15.2.4 -> appliedenergistics2-forge-15.2.8
 - botarium-forge-1.20.1-2.3.3 -> botarium-forge-1.20.1-2.3.4
