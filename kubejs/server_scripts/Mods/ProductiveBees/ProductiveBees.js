@@ -17,6 +17,8 @@ var beesMissingCombs = ['chromium', 'aluminium', 'stainless_steel', 'tungsten_st
 
 
 ServerEvents.recipes(event => {
+
+	event.remove({id: 'productivebees:create/obsidian_dust_to_obsidian'})
 	
 	hives.forEach((element) => event.remove({output: element}));
 	
