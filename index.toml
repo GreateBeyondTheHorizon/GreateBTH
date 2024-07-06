@@ -1482,6 +1482,10 @@ file = "mods/dank-storage.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/dynamic-fps.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/embeddium.pw.toml"
 metafile = true
 
@@ -1511,6 +1515,10 @@ metafile = true
 
 [[files]]
 file = "mods/farmers-delight.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/fast-ip-ping.pw.toml"
 metafile = true
 
 [[files]]
