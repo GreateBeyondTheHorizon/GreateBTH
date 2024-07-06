@@ -1594,6 +1594,10 @@ file = "mods/ichunutil.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/immediatelyfast.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/inventory-sorter.pw.toml"
 metafile = true
 
@@ -1627,6 +1631,10 @@ metafile = true
 
 [[files]]
 file = "mods/kotlin-for-forge.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/ksyxis.pw.toml"
 metafile = true
 
 [[files]]
