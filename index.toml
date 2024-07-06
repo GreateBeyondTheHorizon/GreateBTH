@@ -1338,6 +1338,22 @@ file = "mods/advanced-peripherals.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/aeroblender.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/aether-emissivity.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/aether-enhanced-extinguishing.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/aether.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/ai-improvements.pw.toml"
 metafile = true
 
@@ -1486,6 +1502,10 @@ file = "mods/dank-storage.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/deep-aether.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/dynamic-fps.pw.toml"
 metafile = true
 
@@ -1535,6 +1555,10 @@ metafile = true
 
 [[files]]
 file = "mods/gbthcore-1.0.0.jar"
+
+[[files]]
+file = "mods/geckolib.pw.toml"
+metafile = true
 
 [[files]]
 file = "mods/greate.pw.toml"
