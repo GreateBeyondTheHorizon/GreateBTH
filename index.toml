@@ -1,6 +1,9 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/aether-client.toml"
+
+[[files]]
 file = "config/cookingforblockheads-common.toml"
 
 [[files]]
