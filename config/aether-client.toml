@@ -67,7 +67,7 @@
 
 [Miscellaneous]
 	#Disables the Cumulus menu selection screen button on launch
-	"Disable Cumulus button" = true
+	"Disable Cumulus button" = false
 	#Enables a direct join button for the official server
 	"Enables server button" = false
 
