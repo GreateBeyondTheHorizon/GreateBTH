@@ -18,6 +18,10 @@
 - Move mixer recipe
 - Nerf backpacks
 - Add tooltips for furnace, blast furnace, and smoker saying that they are for crafting or decoration only
+- Add obsidian to obsidian dust milling recipe
+- Remove obsidan dust to obsidian crafting recipe
+- Remove obsidian washing recipe
+- Decrease rock breaker recipe tier for obsidian
 
 **Mod Changes**
 - Add ChatHeads
@@ -32,3 +36,8 @@
 - botarium-forge-1.20.1-2.3.3 -> botarium-forge-1.20.1-2.3.4
 - PuzzlesLib-v8.1.20-1.20.1-Forge -> PuzzlesLib-v8.1.21-1.20.1-Forge
 - gtceu-1.20.1-1.3.0-a -> gtceu-1.20.1-1.3.1
+- greate-0.0.22 -> greate-0.0.23
+- Jade-1.20.1-forge-11.9.3 -> Jade-1.20.1-forge-11.9.4
+- embeddium-0.3.21+mc1.20.1 -> embeddium-0.3.24+mc1.20.1
+- colorfulhearts-forge-1.20.1-4.2.11 -> colorfulhearts-forge-1.20.1-4.3.13
+- emi-1.1.7+1.20.1+forge -> emi-1.1.10+1.20.1+forge

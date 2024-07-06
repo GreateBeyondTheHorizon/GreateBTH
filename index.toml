@@ -1192,6 +1192,9 @@ file = "kubejs/server_scripts/Mods/FarmersDelight.js"
 file = "kubejs/server_scripts/Mods/Greate.js"
 
 [[files]]
+file = "kubejs/server_scripts/Mods/Greate/Milling.js"
+
+[[files]]
 file = "kubejs/server_scripts/Mods/Greate/Mixer.js"
 
 [[files]]
@@ -1214,6 +1217,9 @@ file = "kubejs/server_scripts/Mods/Greg/Bloomery.js"
 
 [[files]]
 file = "kubejs/server_scripts/Mods/Greg/CokeOven.js"
+
+[[files]]
+file = "kubejs/server_scripts/Mods/Greg/Create.js"
 
 [[files]]
 file = "kubejs/server_scripts/Mods/Greg/Cutter.js"

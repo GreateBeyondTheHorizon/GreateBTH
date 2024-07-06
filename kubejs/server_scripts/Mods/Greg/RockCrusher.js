@@ -59,7 +59,7 @@ ServerEvents.recipes(event => {
         .duration(100)
         .itemInputs('minecraft:redstone')
         .itemOutputs('minecraft:obsidian')
-        .EUt(240)
+        .EUt(30)
         
     event.recipes.gtceu.rock_breaker('deepslate')
         .duration(100)
