@@ -17,6 +17,7 @@
 !/config/farmersdelight-common.toml
 !/config/oreberriesreplanted-common.toml
 !/config/aether-client.toml
+!/config/aether-common.toml
 !/config/AdvancedPeripherals
 /config/AdvancedPeripherals/*
 !/config/AdvancedPeripherals/world.toml
