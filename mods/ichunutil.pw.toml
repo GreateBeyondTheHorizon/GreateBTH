@@ -1,0 +1,13 @@
+name = "iChunUtil"
+filename = "iChunUtil-1.20.1-Forge-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/W6ROj0Hl/versions/LIbLo7dH/iChunUtil-1.20.1-Forge-1.0.0.jar"
+hash-format = "sha1"
+hash = "6daa9055a3cf9e06eb9d49acccb179cccddec03f"
+
+[update]
+[update.modrinth]
+mod-id = "W6ROj0Hl"
+version = "LIbLo7dH"

@@ -13,6 +13,9 @@ file = "config/cookingforblockheads-common.toml"
 file = "config/curios-common.toml"
 
 [[files]]
+file = "config/ding.toml"
+
+[[files]]
 file = "config/emi.css"
 
 [[files]]
@@ -1512,6 +1515,10 @@ file = "mods/deep-aether.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/ding.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/dynamic-fps.pw.toml"
 metafile = true
 
@@ -1580,6 +1587,10 @@ metafile = true
 
 [[files]]
 file = "mods/heracles.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/ichunutil.pw.toml"
 metafile = true
 
 [[files]]
