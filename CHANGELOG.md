@@ -25,6 +25,8 @@
 - Add TrashCans
 - Add Dynamic FPS
 - Add Fast IP Ping
+- Add Create: Copycats+
+- Removed Framed Blocks in favour of copycats
 
 - appliedenergistics2-forge-15.2.4 -> appliedenergistics2-forge-15.2.8
 - botarium-forge-1.20.1-2.3.3 -> botarium-forge-1.20.1-2.3.4
