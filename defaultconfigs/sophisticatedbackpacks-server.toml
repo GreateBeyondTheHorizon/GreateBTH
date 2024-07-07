@@ -2,7 +2,7 @@
 #Server Settings
 [server]
 	#List of items that are not allowed to be put in backpacks - e.g. "minecraft:shulker_box"
-	disallowedItems = []
+	disallowedItems = ['dankstorage:dank_1', 'dankstorage:dank_2', 'dankstorage:dank_3', 'dankstorage:dank_4', 'dankstorage:dank_5', 'dankstorage:dank_6', 'dankstorage:dank_7']
 	#Determines if container items (those that override canFitInsideContainerItems to false) are able to fit in backpacks
 	containerItemsDisallowed = false
 	#List of blocks that inventory interaction upgrades can't interact with - e.g. "minecraft:shulker_box"
