@@ -16,7 +16,7 @@
       "text": ""
     },
     "description": [
-      "This is used to pour liquid onto things. Really useful. By the way, you __cannot__ input stuff into the spout using a container directly. Instead, you must use a /d/Mechanical Pump/d/."
+      "This is used to pour liquid onto things. Really useful. By the way, you /c/cannot/c/ input stuff into the spout using a container directly. Instead, you must use a /d/Mechanical Pump/d/, or a gregtech /d/Electric Pump/d/."
     ],
     "groups": {
       "ULV/ULS - Humble Beginnings": {

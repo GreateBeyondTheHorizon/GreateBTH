@@ -24,6 +24,7 @@
 - Decrease rock breaker recipe tier for obsidian
 - Fix NethersDelight errors
 - Gregify wooden doors, slabs, buttons, pressure plates, fence gates, and fences by default
+- Allow coating wires using the Create spout
 
 **Mod Changes**
 - Add ChatHeads
