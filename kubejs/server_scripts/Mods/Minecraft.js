@@ -12,7 +12,6 @@ ServerEvents.recipes(event => {
 	// })
 
 	event.remove({id: 'minecraft:bamboo_mosaic_slab'})
-	event.remove({id: 'minecraft:bamboo_planks'})
 	event.remove({id: 'minecraft:barrel'})
 	event.remove({id: 'minecraft:bone_meal_from_bone_block'})
 	event.remove({id: 'minecraft:bone_meal'})
@@ -63,48 +62,6 @@ ServerEvents.recipes(event => {
 		'minecraft:netherite_scrap',
 		Fluid.of('gtceu:hssg', 576)
 	]).superheated()
-
-	// Chest boats
-	event.remove({ output: '#minecraft:chest_boats' })
-	Ingredient.of("#minecraft:boats").itemIds.forEach(boat => {
-		if (boat.endsWith('chest_boat') || boat.endsWith('chest_raft')) {
-			var boatWithoutChest = boat.replace('_chest', '')
-			event.shaped(
-				Item.of(boat, 1),
-				[
-					' C ',
-					'BDB',
-					' A '
-				],
-				{
-					A: boatWithoutChest,
-					B: 'gtceu:iron_screw',
-					C: '#forge:tools/screwdrivers',
-					D: 'minecraft:chest',
-				}
-			)
-		}
-	})
-
-	// Bamboo planks
-	event.shaped('minecraft:bamboo_planks',
-		[
-			'L'
-		],
-		{
-			L: 'minecraft:bamboo_block',
-		}
-	)
-	event.shaped('2x minecraft:bamboo_planks',
-		[
-			'S',
-			'L'
-		],
-		{
-			S: '#forge:tools/saws',
-			L: 'minecraft:bamboo_block',
-		}
-	)
 
 	// Chest
 	event.shaped(

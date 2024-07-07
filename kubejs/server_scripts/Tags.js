@@ -43,6 +43,8 @@ ServerEvents.tags('item', event => {
 
 	event.add('curios:hands', ['gtceu:rubber_gloves'])
 
+	event.add('minecraft:fence_gates', ['mynethersdelight:powdery_fence_gate'])
+
 	event.remove('create:sandpaper', ['create:sand_paper', 'create:red_sand_paper'])
 	
 	event.remove('minecraft:planks', 'gtceu:treated_wood_planks')
