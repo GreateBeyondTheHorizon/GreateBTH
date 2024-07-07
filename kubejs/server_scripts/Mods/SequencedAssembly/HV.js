@@ -29,8 +29,8 @@ ServerEvents.recipes(event => {
 
  	event.recipes.createSequencedAssembly(['gtceu:hv_robot_arm'], 'gtceu:hv_electric_piston',
 	[
- 		event.recipes.createDeploying(lncHvRobotArm,[lncHvRobotArm, '#gtceu:circuits/hv']),
  		event.recipes.createDeploying(lncHvRobotArm,[lncHvRobotArm, 'gtceu:hv_electric_motor']),
+ 		event.recipes.createDeploying(lncHvRobotArm,[lncHvRobotArm, '#gtceu:circuits/hv']),
  		event.recipes.createDeploying(lncHvRobotArm,[lncHvRobotArm, 'gtceu:gold_single_cable']),
  		event.recipes.createDeploying(lncHvRobotArm,[lncHvRobotArm, 'gtceu:stainless_steel_rod']),
  	]).transitionalItem(lncHvRobotArm).loops(2)
