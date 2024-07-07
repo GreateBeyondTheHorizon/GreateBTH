@@ -28,6 +28,7 @@
 - Fix broken slab recipe
 - Disallow dank storage items to be placed in backpacks
 - Disable Aether recipes for barrels and chests
+- Fix sequenced assembly recipe conflict
 
 **Mod Changes**
 - Add ChatHeads

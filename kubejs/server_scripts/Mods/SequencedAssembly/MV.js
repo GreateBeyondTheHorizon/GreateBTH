@@ -31,8 +31,8 @@ ServerEvents.recipes(event => {
 
 	event.recipes.createSequencedAssembly(['gtceu:mv_robot_arm'], 'gtceu:mv_electric_piston',
 		[
-			event.recipes.createDeploying(lncMvRobotArm,[lncMvRobotArm, '#gtceu:circuits/mv']),
 			event.recipes.createDeploying(lncMvRobotArm,[lncMvRobotArm, 'gtceu:mv_electric_motor']),
+			event.recipes.createDeploying(lncMvRobotArm,[lncMvRobotArm, '#gtceu:circuits/mv']),
 			event.recipes.createDeploying(lncMvRobotArm,[lncMvRobotArm, 'gtceu:copper_single_cable']),
 			event.recipes.createDeploying(lncMvRobotArm,[lncMvRobotArm, 'gtceu:aluminium_rod']),
 		]
