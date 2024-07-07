@@ -1021,9 +1021,6 @@ file = "kubejs/config/probejs.json"
 file = "kubejs/data/gbth/recipes/mud.json"
 
 [[files]]
-file = "kubejs/data/minecraft/direct_drops/entities/hoglin.json"
-
-[[files]]
 file = "kubejs/data/productivebees/productivebees/gtceu/EV/neodymium.json"
 
 [[files]]
@@ -1261,7 +1258,7 @@ file = "kubejs/server_scripts/Mods/KubeJS.js"
 file = "kubejs/server_scripts/Mods/Minecraft.js"
 
 [[files]]
-file = "kubejs/server_scripts/Mods/NethersDelight.js"
+file = "kubejs/server_scripts/Mods/MyNethersDelight.js"
 
 [[files]]
 file = "kubejs/server_scripts/Mods/OreberriesReplanted.js"
@@ -1289,6 +1286,9 @@ file = "kubejs/server_scripts/Mods/SequencedAssembly/LV.js"
 
 [[files]]
 file = "kubejs/server_scripts/Mods/SequencedAssembly/MV.js"
+
+[[files]]
+file = "kubejs/server_scripts/Mods/SequencedAssembly/MyNethersDelight.js"
 
 [[files]]
 file = "kubejs/server_scripts/Mods/SleepingBags.js"

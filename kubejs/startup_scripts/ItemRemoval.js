@@ -168,13 +168,6 @@ removeNamespaceItems('oreberriesreplanted', [
 	'copper_nugget'
 ])
 
-//Nethers Delight
-removeNamespaceItems('nethersdelight', [
-	'blackstone_furnace',
-	'blackstone_blast_furnace',
-	'nether_brick_smoker'
-])
-
 //Aquaculture
 removeNamespaceItems('aquaculture', [
 	'wooden_fillet_knife', 
