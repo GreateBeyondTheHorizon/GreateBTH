@@ -48,6 +48,8 @@ ServerEvents.tags('item', event => {
 	event.remove('create:sandpaper', ['create:sand_paper', 'create:red_sand_paper'])
 	
 	event.remove('minecraft:planks', 'gtceu:treated_wood_planks')
+
+	event.remove('minecraft:wooden_slabs', 'createdieselgenerators:chip_wood_slab')
 })
 
 ServerEvents.tags('worldgen/biome', event => {
