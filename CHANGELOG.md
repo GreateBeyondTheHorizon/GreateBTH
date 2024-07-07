@@ -26,6 +26,7 @@
 - Gregify wooden doors, slabs, buttons, pressure plates, fence gates, and fences by default
 - Allow coating wires using the Create spout
 - Fix broken slab recipe
+- Disallow dank storage items to be placed in backpacks
 
 **Mod Changes**
 - Add ChatHeads
