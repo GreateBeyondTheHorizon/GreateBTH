@@ -1150,6 +1150,9 @@ file = "kubejs/server_scripts/GregMultiRecipe.js"
 file = "kubejs/server_scripts/GregOreVeins.js"
 
 [[files]]
+file = "kubejs/server_scripts/Gregification.js"
+
+[[files]]
 file = "kubejs/server_scripts/ItemEvents.js"
 
 [[files]]

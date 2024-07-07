@@ -8,8 +8,10 @@ ServerEvents.recipes(event => {
     event.remove({id: 'mynethersdelight:crafting/ghast_salad'})
     event.remove({id: 'mynethersdelight:ghasta_with_cream'})
     event.remove({id: 'mynethersdelight:crafting/spicy_skewer'})
+    event.remove({id: 'mynethersdelight:powdery_mosaic_slab'})
 
     event.replaceInput({id: 'mynethersdelight:nether_bricks_stove'}, 'minecraft:nether_brick', 'gtceu:wrought_iron_plate')
+    event.replaceOutput({id: 'mynethersdelight:powdery_plank'}, 'mynethersdelight:powdery_plank', '2x mynethersdelight:powdery_plank')
 
     cookingPotRecipe('mynethersdelight:raw_stuffed_hoglin', [Item.of('minecraft:warped_roots'), Item.of('minecraft:crimson_fungus'), Item.of('minecraft:crimson_roots'), Item.of('mynethersdelight:hoglin_hide'), Item.of('farmersdelight:ham'), Item.of('farmersdelight:nether_salad')], null)
     cookingPotRecipe('mynethersdelight:bleeding_tartar', [Item.of('#forge:eggs'), Item.of('mynethersdelight:minced_strider'), Item.of('mynethersdelight:minced_strider')], 'minecraft:bowl')
@@ -38,4 +40,14 @@ ServerEvents.recipes(event => {
 			})
 		}
 	}
+
+  event.shaped('2x mynethersdelight:powdery_mosaic_slab',
+		[
+			'LS'
+		],
+		{
+      S: 'mynethersdelight:powdery_mosaic',
+      L: '#forge:tools/saws'
+		}
+	)
 })

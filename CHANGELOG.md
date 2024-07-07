@@ -22,6 +22,8 @@
 - Remove obsidan dust to obsidian crafting recipe
 - Remove obsidian washing recipe
 - Decrease rock breaker recipe tier for obsidian
+- Fix NethersDelight errors
+- Gregify wooden doors, slabs, buttons, pressure plates, fence gates, and fences by default
 
 **Mod Changes**
 - Add ChatHeads
@@ -35,7 +37,6 @@
 - Add ImmediatelyFast
 - Add Ksyxis
 - Replaced Nether's Delight with My Nether's Delight
-- Fix NethersDelight errors
 
 - appliedenergistics2-forge-15.2.4 -> appliedenergistics2-forge-15.2.8
 - botarium-forge-1.20.1-2.3.3 -> botarium-forge-1.20.1-2.3.4
