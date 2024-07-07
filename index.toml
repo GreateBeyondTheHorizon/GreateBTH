@@ -1171,6 +1171,9 @@ file = "kubejs/server_scripts/Mods/AE2.js"
 file = "kubejs/server_scripts/Mods/AdAstra.js"
 
 [[files]]
+file = "kubejs/server_scripts/Mods/Aether.js"
+
+[[files]]
 file = "kubejs/server_scripts/Mods/CeramicBucket.js"
 
 [[files]]
