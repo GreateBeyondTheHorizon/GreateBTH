@@ -27,6 +27,7 @@
 - Allow coating wires using the Create spout
 - Fix broken slab recipe
 - Disallow dank storage items to be placed in backpacks
+- Disable Aether recipes for barrels and chests
 
 **Mod Changes**
 - Add ChatHeads
