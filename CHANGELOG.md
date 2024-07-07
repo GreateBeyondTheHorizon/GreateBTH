@@ -25,6 +25,7 @@
 - Fix NethersDelight errors
 - Gregify wooden doors, slabs, buttons, pressure plates, fence gates, and fences by default
 - Allow coating wires using the Create spout
+- Fix broken slab recipe
 
 **Mod Changes**
 - Add ChatHeads
