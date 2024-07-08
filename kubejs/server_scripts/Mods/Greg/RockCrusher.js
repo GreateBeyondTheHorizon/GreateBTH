@@ -1,5 +1,5 @@
 ServerEvents.recipes(event => {
-    event.remove({id: /gtceu:rock_breaker(.*)/})
+    event.remove({type: 'gtceu:rock_breaker'})
 
     event.recipes.gtceu.rock_breaker('basalt')
         .duration(100)
@@ -83,5 +83,47 @@ ServerEvents.recipes(event => {
         .duration(100)
         .notConsumable('minecraft:smooth_basalt')
         .itemOutputs('minecraft:smooth_basalt')
+        .EUt(7)
+
+    event.recipes.gtceu.rock_breaker('asurine')
+        .duration(100)
+        .notConsumable('create:asurine')
+        .itemOutputs('create:asurine')
+        .EUt(7)
+        
+    event.recipes.gtceu.rock_breaker('crimsite')
+        .duration(100)
+        .notConsumable('create:crimsite')
+        .itemOutputs('create:crimsite')
+        .EUt(7)
+
+    event.recipes.gtceu.rock_breaker('limestone')
+        .duration(100)
+        .notConsumable('create:limestone')
+        .itemOutputs('create:limestone')
+        .EUt(7)
+
+    event.recipes.gtceu.rock_breaker('ochrum')
+        .duration(100)
+        .notConsumable('create:ochrum')
+        .itemOutputs('create:ochrum')
+        .EUt(7)
+
+    event.recipes.gtceu.rock_breaker('scoria')
+        .duration(100)
+        .notConsumable('create:scoria')
+        .itemOutputs('create:scoria')
+        .EUt(7)
+
+    event.recipes.gtceu.rock_breaker('scorchia')
+        .duration(100)
+        .notConsumable('create:scorchia')
+        .itemOutputs('create:scorchia')
+        .EUt(7)
+
+    event.recipes.gtceu.rock_breaker('veridium')
+        .duration(100)
+        .notConsumable('create:veridium')
+        .itemOutputs('create:veridium')
         .EUt(7)
 })
