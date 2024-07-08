@@ -1,8 +1,7 @@
 {
   "dependencies": [
     "lv_machine_hull",
-    "the_first_of_many",
-    "lv_motor"
+    "the_first_of_many"
   ],
   "tasks": {
     "machine": {

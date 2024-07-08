@@ -163,6 +163,9 @@ file = "config/heracles/quests/introduction/we_didnt_start_the_fire.json"
 file = "config/heracles/quests/lvlsthegrindstartshere/aluminium.json"
 
 [[files]]
+file = "config/heracles/quests/lvlsthegrindstartshere/annealed_copper.json"
+
+[[files]]
 file = "config/heracles/quests/lvlsthegrindstartshere/arc_furnace.json"
 
 [[files]]
@@ -269,6 +272,9 @@ file = "config/heracles/quests/lvlsthegrindstartshere/scrubbing_the_air.json"
 
 [[files]]
 file = "config/heracles/quests/lvlsthegrindstartshere/storing_steam.json"
+
+[[files]]
+file = "config/heracles/quests/lvlsthegrindstartshere/super_glue.json"
 
 [[files]]
 file = "config/heracles/quests/lvlsthegrindstartshere/the_chemistry_begins.json"
@@ -1226,6 +1232,9 @@ file = "kubejs/server_scripts/Mods/Greg/Bender.js"
 
 [[files]]
 file = "kubejs/server_scripts/Mods/Greg/Bloomery.js"
+
+[[files]]
+file = "kubejs/server_scripts/Mods/Greg/Canner.js"
 
 [[files]]
 file = "kubejs/server_scripts/Mods/Greg/Centrifuge.js"

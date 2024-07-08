@@ -1,5 +1,6 @@
 ServerEvents.recipes(event => {
     event.remove({id: 'create/splashing/magma_block'})
+    event.remove({id: 'create:crafting/kinetics/super_glue'})
 
     //TODO: move to greate
     event.forEachRecipe({type: 'gtceu:assembler', id: /gtceu:assembler(.*)cover(.*)wire(.*)/}, c => {
