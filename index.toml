@@ -1228,6 +1228,9 @@ file = "kubejs/server_scripts/Mods/Greg/Bender.js"
 file = "kubejs/server_scripts/Mods/Greg/Bloomery.js"
 
 [[files]]
+file = "kubejs/server_scripts/Mods/Greg/Centrifuge.js"
+
+[[files]]
 file = "kubejs/server_scripts/Mods/Greg/CokeOven.js"
 
 [[files]]
@@ -1238,6 +1241,9 @@ file = "kubejs/server_scripts/Mods/Greg/Cutter.js"
 
 [[files]]
 file = "kubejs/server_scripts/Mods/Greg/ElectricBlastFurnace.js"
+
+[[files]]
+file = "kubejs/server_scripts/Mods/Greg/Electrolyzer.js"
 
 [[files]]
 file = "kubejs/server_scripts/Mods/Greg/Extruder.js"

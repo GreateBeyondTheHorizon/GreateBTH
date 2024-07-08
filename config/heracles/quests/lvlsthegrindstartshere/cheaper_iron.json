@@ -7,7 +7,7 @@
     "iron_ingot": {
       "type": "heracles:item",
       "item": "minecraft:iron_ingot",
-      "amount": 1,
+      "amount": 64,
       "collection": "AUTOMATIC"
     }
   },

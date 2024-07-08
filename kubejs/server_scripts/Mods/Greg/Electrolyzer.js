@@ -1,0 +1,13 @@
+ServerEvents.recipes(event => {
+    event.replaceOutput({type: 'gtceu:electrolyzer', input: 'gtceu:andradite_dust'}, 'gtceu:iron_dust', 'gtceu:wrought_iron_dust')
+    event.replaceOutput({type: 'gtceu:electrolyzer', input: 'gtceu:chromite_dust'}, 'gtceu:iron_dust', 'gtceu:wrought_iron_dust')
+    event.replaceOutput({type: 'gtceu:electrolyzer', input: 'gtceu:bornite_dust'}, 'gtceu:iron_dust', 'gtceu:wrought_iron_dust')
+    event.replaceOutput({type: 'gtceu:electrolyzer', input: 'gtceu:pyrite_dust'}, 'gtceu:iron_dust', 'gtceu:wrought_iron_dust')
+    event.replaceOutput({type: 'gtceu:electrolyzer', input: 'gtceu:almandine_dust'}, 'gtceu:iron_dust', 'gtceu:wrought_iron_dust')
+    event.replaceOutput({type: 'gtceu:electrolyzer', input: 'gtceu:amethyst_dust'}, 'gtceu:iron_dust', 'gtceu:wrought_iron_dust')
+    event.replaceOutput({type: 'gtceu:electrolyzer', input: 'gtceu:magnetite_dust'}, 'gtceu:iron_dust', 'gtceu:wrought_iron_dust')
+    event.replaceOutput({type: 'gtceu:electrolyzer', input: 'gtceu:chalcopyrite_dust'}, 'gtceu:iron_dust', 'gtceu:wrought_iron_dust')
+    event.replaceOutput({type: 'gtceu:electrolyzer', input: 'gtceu:tetrahedrite_dust'}, 'gtceu:iron_dust', 'gtceu:wrought_iron_dust')
+    event.replaceOutput({type: 'gtceu:electrolyzer', input: 'gtceu:olivine_dust'}, 'gtceu:iron_dust', 'gtceu:wrought_iron_dust')
+    event.replaceOutput({type: 'gtceu:electrolyzer', input: 'gtceu:hematite_dust'}, 'gtceu:iron_dust', 'gtceu:wrought_iron_dust')
+})
