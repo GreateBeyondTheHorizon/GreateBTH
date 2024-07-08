@@ -2,6 +2,7 @@
 - Disable terralith alt recipes
 - Add missing recipes for various wood-related things in the cutter & assembler
 - Downgrade EMI to fix categories being improperly hidden
+- Change various centrifuging/electrolyzing recipes to output wrought iron dust instead of regular iron dust
 
 **Mod Changes**
 - Terralith_1.20_v2.5.1 -> Terralith_1.20.x_v2.5.4  
