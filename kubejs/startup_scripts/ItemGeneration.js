@@ -115,4 +115,6 @@ StartupEvents.registry('item', event => {
 	event.create('tin_bloom').displayName('Tin Bloom')
 	event.create('bronze_bloom').displayName('Bronze Bloom')
 	event.create('wrought_iron_bloom').displayName('Wrought Iron Bloom')
+
+	event.create('empty_glue_tube').displayName('Empty Glue Tube')
 })

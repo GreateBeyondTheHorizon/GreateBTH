@@ -116,4 +116,15 @@ ServerEvents.recipes(event => {
 			I: 'minecraft:netherite_ingot',
 		}
 	)
+
+	event.shaped('kubejs:empty_glue_tube',
+		[
+			'RN',
+			'RR'
+		],
+		{
+			R: 'gtceu:rubber_plate',
+			N: 'minecraft:iron_nugget'
+		}
+	)
 })

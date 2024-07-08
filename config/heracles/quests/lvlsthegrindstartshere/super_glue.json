@@ -1,11 +1,14 @@
 {
   "dependencies": [
-    "assemblers_unite"
+    "lv_canner"
   ],
   "tasks": {
-    "cell": {
+    "glue": {
       "type": "heracles:item",
-      "item": "gtceu:steel_fluid_cell",
+      "item": "create:super_glue",
+      "nbt": {
+        "Damage": 0
+      },
       "amount": 1,
       "collection": "AUTOMATIC"
     }
@@ -16,26 +19,29 @@
       "text": ""
     },
     "description": [
-      "Allows you to move fluids between machines."
+      "Used for gluing blocks together, in order to make a /d/Contraption/d/."
     ],
     "groups": {
       "LV/LS - The Grind Starts Here": {
         "position": [
-          -123,
-          -125
+          -20,
+          -194
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "gtceu:steel_fluid_cell",
-        "count": 1
+        "id": "create:super_glue",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Transfering Fluids"
+      "translate": "Super Glue"
     }
   },
   "settings": {

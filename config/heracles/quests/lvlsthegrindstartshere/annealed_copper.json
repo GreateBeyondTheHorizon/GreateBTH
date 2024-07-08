@@ -1,11 +1,12 @@
 {
   "dependencies": [
-    "assemblers_unite"
+    "getting_oxygen",
+    "arc_furnace"
   ],
   "tasks": {
-    "cell": {
+    "copper": {
       "type": "heracles:item",
-      "item": "gtceu:steel_fluid_cell",
+      "item": "gtceu:annealed_copper_ingot",
       "amount": 1,
       "collection": "AUTOMATIC"
     }
@@ -16,26 +17,26 @@
       "text": ""
     },
     "description": [
-      "Allows you to move fluids between machines."
+      "Useful for making various components more efficiently."
     ],
     "groups": {
       "LV/LS - The Grind Starts Here": {
         "position": [
-          -123,
-          -125
+          22,
+          37
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "gtceu:steel_fluid_cell",
+        "id": "gtceu:annealed_copper_ingot",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Transfering Fluids"
+      "translate": "Annealed Copper"
     }
   },
   "settings": {
