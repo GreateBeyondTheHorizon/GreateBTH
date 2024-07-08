@@ -1,13 +1,13 @@
-name = "Geckolib"
+name = "GeckoLib"
 filename = "geckolib-forge-1.20.1-4.4.7.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/8BmcQJ2H/versions/rF4Es4hd/geckolib-forge-1.20.1-4.4.7.jar"
 hash-format = "sha1"
-hash = "1e247d41675f16461fb93e37743be05d1d350a25"
+hash = "45c64abcf016587528f5f6bc22b37f02e24e5442"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "8BmcQJ2H"
-version = "rF4Es4hd"
+[update.curseforge]
+file-id = 5460309
+project-id = 388172

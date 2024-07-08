@@ -1,6 +1,7 @@
 name = "Chat Heads"
 filename = "chat_heads-0.12.6-forge-1.20.jar"
 side = "both"
+pin = true
 
 [download]
 hash-format = "sha1"

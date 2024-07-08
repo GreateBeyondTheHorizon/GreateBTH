@@ -1,56 +1,9 @@
 **Script/Config Changes**
-- More Textures
-- Allow all coals to be used in the bloomery
-- Remove unneeded circuit textures
-- Fix old bloomery structure 
-- Remove campfire from bloomery quest
-- Change curios arm slot to hand slot
-- Fix some quests locations and depdendencies
-- Swap steel recipe in EBF
-- Swap small gear and cable in piston sequenced assembly recipes
-- Add quest for extractor & fluid solidifier
-- Add quest for multiblock steam boiler & steel tank
-- Change create goggles and wrench recipes to be unlocked earlier
-- Move bucket quest to correct location
-- Allow raw coal and raw coal blocks to be used in the coke oven
-- Adjust iron from wrought iron block arc furnace recipe
-- Remove un-needed lv scanner quest
-- Move mixer recipe
-- Nerf backpacks
-- Add tooltips for furnace, blast furnace, and smoker saying that they are for crafting or decoration only
-- Add obsidian to obsidian dust milling recipe
-- Remove obsidan dust to obsidian crafting recipe
-- Remove obsidian washing recipe
-- Decrease rock breaker recipe tier for obsidian
-- Fix NethersDelight errors
-- Gregify wooden doors, slabs, buttons, pressure plates, fence gates, and fences by default
-- Allow coating wires using the Create spout
-- Fix broken slab recipe
-- Disallow dank storage items to be placed in backpacks
-- Disable Aether recipes for barrels and chests
-- Fix sequenced assembly recipe conflict
-- Nerf vacuum tube assembler recipes
-- Add quest for fluid cell
+- Disable terralith alt recipes
+- Add missing recipes for various wood-related things in the cutter & assembler
+- Downgrade EMI to fix categories being improperly hidden
 
 **Mod Changes**
-- Add ChatHeads
-- Add DankStorage
-- Add TrashCans
-- Add Dynamic FPS
-- Add Fast IP Ping
-- Add Create: Copycats+
-- Removed Framed Blocks in favour of copycats
-- Add Aether mod with some addon mods (Deep Aether, Advanced Extinguishing, Emissivity)
-- Add ImmediatelyFast
-- Add Ksyxis
-- Replaced Nether's Delight with My Nether's Delight
-
-- appliedenergistics2-forge-15.2.4 -> appliedenergistics2-forge-15.2.8
-- botarium-forge-1.20.1-2.3.3 -> botarium-forge-1.20.1-2.3.4
-- PuzzlesLib-v8.1.20-1.20.1-Forge -> PuzzlesLib-v8.1.21-1.20.1-Forge
-- gtceu-1.20.1-1.3.0-a -> gtceu-1.20.1-1.3.1
-- greate-0.0.22 -> greate-0.0.23
-- Jade-1.20.1-forge-11.9.3 -> Jade-1.20.1-forge-11.9.4
-- embeddium-0.3.21+mc1.20.1 -> embeddium-0.3.24+mc1.20.1
-- colorfulhearts-forge-1.20.1-4.2.11 -> colorfulhearts-forge-1.20.1-4.3.13
-- emi-1.1.7+1.20.1+forge -> emi-1.1.10+1.20.1+forge
+- Terralith_1.20_v2.5.1 -> Terralith_1.20.x_v2.5.4  
+- jmi-forge-1.20.1-0.14-47 -> jmi-forge-1.20.1-0.14-48 
+- modernfix-forge-5.18.1+mc1.20.1 -> modernfix-forge-5.18.6+mc1.20.1

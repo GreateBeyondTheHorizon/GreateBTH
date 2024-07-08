@@ -1,3 +1,3 @@
 ServerEvents.recipes(event => {
-    event.remove({id: 'terralith:piston_alt'})
+    event.remove({mod: 'terralith'})
 })

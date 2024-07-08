@@ -1,10 +1,9 @@
 ServerEvents.recipes(event => {
-    event.remove({ output: '#minecraft:chest_boats' })
+    event.remove({output: '#minecraft:chest_boats'})
 	Ingredient.of("#minecraft:boats").itemIds.forEach(boat => {
 		if (boat.endsWith('chest_boat') || boat.endsWith('chest_raft')) {
 			var boatWithoutChest = boat.replace('_chest', '')
-			event.shaped(
-				Item.of(boat, 1),
+			event.shaped(Item.of(boat),
 				[
 					' C ',
 					'BDB',
@@ -20,7 +19,7 @@ ServerEvents.recipes(event => {
 		}
 	})
 
-    event.remove({output: '#minecraft:wooden_doors'})
+    event.remove({not: {mod: 'chipped'}, output: '#minecraft:wooden_doors'})
     Ingredient.of('#minecraft:wooden_doors').itemIds.forEach(door => {
         var plank = door.replace('door', 'planks')
 		var trapdoor = door.replace('door', 'trapdoor')
@@ -39,6 +38,57 @@ ServerEvents.recipes(event => {
 				A: '#forge:tools/saws'
 			}
         )
+
+		event.recipes.gtceu.assembler(door)
+			.duration(400)
+			.itemInputs([trapdoor, Item.of(plank, 4)])
+			.itemOutputs(door)
+			.inputFluids(Fluid.of('gtceu:iron', 16))
+			.EUt(4)
+    })
+
+	event.remove([
+		{type: 'minecraft:crafting_shaped', output: '#minecraft:planks'},
+		{type: 'minecraft:crafting_shapeless', output: '#minecraft:planks'},
+		{type: 'gtceu:cutter', output: '#minecraft:planks'}
+	])
+    Ingredient.of('#minecraft:planks').itemIds.forEach(planks => {
+		if(!planks.startsWith('chipped')) {
+        	var log = '#' + planks.replace('planks', 'logs')
+        	event.shapeless(Item.of(planks, 2), [log])
+
+			event.shaped(Item.of(planks, 4),
+            	[
+            	    'L',
+					'S'
+            	],
+            	{
+            	    L: '#forge:tools/saws',
+            	    S: log
+            	}
+        	)
+
+			event.recipes.gtceu.cutter(log.substring(1) + '_water')
+				.duration(400)
+				.itemInputs(log)
+				.itemOutputs([Item.of(planks, 6), Item.of('gtceu:wood_dust', 2)])
+				.inputFluids(Fluid.of('minecraft:water', 4))
+				.EUt(7)
+
+			event.recipes.gtceu.cutter(log.substring(1) + '_distilled_water')
+				.duration(300)
+				.itemInputs(log)
+				.itemOutputs([Item.of(planks, 6), Item.of('gtceu:wood_dust', 2)])
+				.inputFluids(Fluid.of('gtceu:distilled_water', 3))
+				.EUt(7)
+
+			event.recipes.gtceu.cutter(log.substring(1) + '_lubricant')
+				.duration(200)
+				.itemInputs(log)
+				.itemOutputs([Item.of(planks, 6), Item.of('gtceu:wood_dust', 2)])
+				.inputFluids(Fluid.of('gtceu:lubricant', 1))
+				.EUt(7)
+		}
     })
 
 	event.remove({output: '#minecraft:wooden_slabs'})
@@ -53,6 +103,44 @@ ServerEvents.recipes(event => {
                 S: plank
             }
         )
+
+		event.recipes.gtceu.cutter(plank + '_water')
+			.duration(400)
+			.itemInputs(plank)
+			.itemOutputs([Item.of(slab, 2)])
+			.inputFluids(Fluid.of('minecraft:water', 4))
+			.EUt(7)
+
+		event.recipes.gtceu.cutter(plank + '_distilled_water')
+			.duration(300)
+			.itemInputs(plank)
+			.itemOutputs([Item.of(slab, 2)])
+			.inputFluids(Fluid.of('gtceu:distilled_water', 3))
+			.EUt(7)
+
+		event.recipes.gtceu.cutter(plank + '_lubricant')
+			.duration(200)
+			.itemInputs(plank)
+			.itemOutputs([Item.of(slab, 2)])
+			.inputFluids(Fluid.of('gtceu:lubricant', 1))
+			.EUt(7)
+
+		event.custom({
+			type: "farmersdelight:cutting",
+			ingredients: [
+				{
+					"item": plank
+				}
+			],
+			result: [
+				{
+					"item": slab
+				}
+			],
+			tool: {
+				"tag": "minecraft:axes"
+			}
+		})
     })
 
 	event.remove({output: '#minecraft:wooden_buttons'})
@@ -67,6 +155,27 @@ ServerEvents.recipes(event => {
 		  		L: '#forge:tools/saws'
 			}
         )
+
+		event.recipes.gtceu.cutter(button + '_water')
+			.duration(50)
+			.itemInputs(pressure_plate)
+			.itemOutputs([Item.of(button, 12)])
+			.inputFluids(Fluid.of('minecraft:water', 4))
+			.EUt(7)
+
+		event.recipes.gtceu.cutter(button + '_distilled_water')
+			.duration(37)
+			.itemInputs(pressure_plate)
+			.itemOutputs([Item.of(button, 12)])
+			.inputFluids(Fluid.of('gtceu:distilled_water', 3))
+			.EUt(7)
+
+		event.recipes.gtceu.cutter(button + '_lubricant')
+			.duration(25)
+			.itemInputs(pressure_plate)
+			.itemOutputs([Item.of(button, 12)])
+			.inputFluids(Fluid.of('gtceu:lubricant', 1))
+			.EUt(7)
     })
 
 	event.remove({output: '#minecraft:wooden_pressure_plates'})
@@ -86,6 +195,12 @@ ServerEvents.recipes(event => {
 		  		C: '#forge:tools/screwdrivers'
 			}
         )
+
+		event.recipes.gtceu.assembler(pressurePlate)
+			.duration(100)
+			.itemInputs(['gtceu:iron_spring', Item.of(slab, 2)])
+			.itemOutputs(Item.of(pressurePlate, 2))
+			.EUt(7)
     })
 
 	event.remove({output: '#minecraft:fence_gates'})
@@ -140,5 +255,12 @@ ServerEvents.recipes(event => {
 				S: '#forge:rods/wooden'
 			}
         )
+
+		event.recipes.gtceu.assembler(fence)
+			.duration(100)
+			.circuit(1)
+			.itemInputs([plank])
+			.itemOutputs(fence)
+			.EUt(4)
     })
 })
