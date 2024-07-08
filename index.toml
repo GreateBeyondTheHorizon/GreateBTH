@@ -274,6 +274,9 @@ file = "config/heracles/quests/lvlsthegrindstartshere/storing_steam.json"
 file = "config/heracles/quests/lvlsthegrindstartshere/the_chemistry_begins.json"
 
 [[files]]
+file = "config/heracles/quests/lvlsthegrindstartshere/transfering_fluids.json"
+
+[[files]]
 file = "config/heracles/quests/lvlsthegrindstartshere/your_first_mv_circuit.json"
 
 [[files]]

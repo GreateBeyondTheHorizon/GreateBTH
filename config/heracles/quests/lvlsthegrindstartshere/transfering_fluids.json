@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "assemblers_unite"
+  ],
+  "tasks": {
+    "cell": {
+      "type": "heracles:item",
+      "item": "gtceu:steel_fluid_cell",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Allows you to move fluids between machines."
+    ],
+    "groups": {
+      "LV/LS - The Grind Starts Here": {
+        "position": [
+          -123,
+          -130
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:steel_fluid_cell",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Transfering Fluids"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

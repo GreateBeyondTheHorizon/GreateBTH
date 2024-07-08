@@ -29,6 +29,8 @@
 - Disallow dank storage items to be placed in backpacks
 - Disable Aether recipes for barrels and chests
 - Fix sequenced assembly recipe conflict
+- Nerf vacuum tube assembler recipes
+- Add quest for fluid cell
 
 **Mod Changes**
 - Add ChatHeads
