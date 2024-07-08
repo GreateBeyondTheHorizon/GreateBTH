@@ -1,13 +1,13 @@
-name = "Ding"
+name = "Ding (Forge)"
 filename = "Ding-1.20.1-Forge-1.5.0.jar"
-side = "client"
+side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/UEtTD3gP/versions/nRsfFBuc/Ding-1.20.1-Forge-1.5.0.jar"
 hash-format = "sha1"
 hash = "15272a231088077e566f383f51eb408d12c23308"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "UEtTD3gP"
-version = "nRsfFBuc"
+[update.curseforge]
+file-id = 5477586
+project-id = 231275

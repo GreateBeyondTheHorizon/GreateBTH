@@ -247,39 +247,6 @@ ServerEvents.recipes(event => {
 		}
 	})
 
-	let woodMaterials = [
-		'oak',
-		'spruce',
-		'birch',
-		'jungle',
-		'acacia',
-		'dark_oak',
-		'mangrove',
-		'cherry',
-		'bamboo',
-		'crimson',
-		'warped',
-	]
-
-	woodMaterials.forEach(wood => {
-		event.custom({
-			type: "farmersdelight:cutting",
-			ingredients: [
-				{
-					"item": "minecraft:" + wood + '_planks'
-				}
-			],
-			result: [
-				{
-					"item": "minecraft:" + wood + "_slab"
-				}
-			],
-			tool: {
-				"tag": "minecraft:axes"
-			}
-		})
-	})
-
 	event.shapeless(
 		Item.of('minecraft:bamboo_mosaic_slab', 2),
 		[

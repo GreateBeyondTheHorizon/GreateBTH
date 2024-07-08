@@ -3,11 +3,11 @@ filename = "aether_enhanced_extinguishing-1.20.1-1.0.0-neoforge.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/FDrEl7QY/versions/fhAMvUrG/aether_enhanced_extinguishing-1.20.1-1.0.0-neoforge.jar"
 hash-format = "sha1"
-hash = "349c297e760ac9ee81bc5dcd0941e6e88063888c"
+hash = "b66f1f7eba4be5c83511894afead73f1933cc3af"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "FDrEl7QY"
-version = "fhAMvUrG"
+[update.curseforge]
+file-id = 4755648
+project-id = 884860

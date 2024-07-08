@@ -7,7 +7,6 @@ ServerEvents.recipes(event => {
 	event.remove({id: 'gtceu:shaped/wood_multiblock_tank'})
 	event.remove({id: 'gtceu:shaped/wood_tank_valve'})
 	event.remove({id: 'gtceu:shapeless/compressed_clay'})
-	event.remove({id: 'gtceu:shapeless/rubber_wood_planks'})
 	event.remove({id: 'gtceu:smelting/sticky_resin_from_slime'})
 	event.remove({id: /gtceu:primitive_blast_furnace(.*)/})
 	event.remove({output: /gtceu:(.*)_mold/})
@@ -254,21 +253,6 @@ ServerEvents.recipes(event => {
 			P: '#minecraft:planks',
 			B: Item.of('ceramicbucket:ceramic_bucket','{Fluid:{Amount:1000,FluidName:"gtceu:creosote"}}').strongNBT()
 		}
-	)
-
-	event.shapeless(
-		Item.of('gtceu:rubber_planks', 2),
-		[
-			'gtceu:rubber_log'
-		]
-	)
-
-	event.shapeless(
-		Item.of('gtceu:rubber_planks', 4),
-		[
-			'gtceu:rubber_log',
-			'#forge:tools/saws'
-		]
 	)
 
 	event.shaped(
