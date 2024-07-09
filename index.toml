@@ -1872,3 +1872,7 @@ metafile = true
 [[files]]
 file = "resourcepacks/gregtech-refreshed.pw.toml"
 metafile = true
+
+[[files]]
+file = "resourcepacks/toms-create-storage.pw.toml"
+metafile = true
