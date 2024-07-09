@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "steam_forge_hammer"
+    "gregtech_tools_and_you"
   ],
   "tasks": {
     "Fine Copper Wire": {
@@ -35,8 +35,8 @@
     "groups": {
       "ULV/ULS - Humble Beginnings": {
         "position": [
-          0,
-          -16
+          -16,
+          13
         ]
       }
     },
@@ -53,7 +53,7 @@
     }
   },
   "settings": {
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
     "autoClaimRewards": false,
     "individual_progress": false,

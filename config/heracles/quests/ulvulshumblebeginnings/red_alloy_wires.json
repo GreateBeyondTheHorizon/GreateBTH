@@ -1,6 +1,7 @@
 {
   "dependencies": [
-    "red_alloy_ingot"
+    "red_alloy_ingot",
+    "controlling_liquids"
   ],
   "tasks": {
     "7D021FE5D107A3C3": {

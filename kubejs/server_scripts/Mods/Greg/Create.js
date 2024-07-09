@@ -8,6 +8,7 @@ ServerEvents.recipes(event => {
         var fluids = c.json.get('inputs').getAsJsonObject().get('fluid').getAsJsonArray().get(0).getAsJsonObject().get('content').getAsJsonObject()
         var output = c.json.get('outputs').getAsJsonObject().get('item').getAsJsonArray().get(0).getAsJsonObject().get('content').getAsJsonObject().get('ingredient').getAsJsonObject().get('item')
         if(items.size() == 1) {
+            event.remove({output: output})
             var item = items.get(0).getAsJsonObject().get('content').getAsJsonObject().get('ingredient').getAsJsonObject().get('item')
             var fluid = fluids.get('value').getAsJsonArray().get(0).getAsJsonObject().get('tag').getAsString()
             event.recipes.create.filling(output, [Fluid.of(fluid.replace('forge', 'gtceu'), fluids.get('amount')), item])
