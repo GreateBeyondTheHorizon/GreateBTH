@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "steam_forge_hammer"
+    "gregtech_tools_and_you"
   ],
   "tasks": {
     "plate": {
@@ -35,8 +35,8 @@
     "groups": {
       "ULV/ULS - Humble Beginnings": {
         "position": [
-          -48,
-          56
+          -22,
+          89
         ]
       }
     },
@@ -53,10 +53,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
-    "showDependencyArrow": true,
+    "showDependencyArrow": false,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

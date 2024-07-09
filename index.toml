@@ -556,9 +556,6 @@ file = "config/heracles/quests/ulvulshumblebeginnings/resistor.json"
 file = "config/heracles/quests/ulvulshumblebeginnings/rock_crusher.json"
 
 [[files]]
-file = "config/heracles/quests/ulvulshumblebeginnings/rubber_bucket.json"
-
-[[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/rubber_ingot.json"
 
 [[files]]
