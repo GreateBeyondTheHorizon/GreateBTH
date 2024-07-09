@@ -1,4 +1,4 @@
 version:3465
-key_key.corpse.death_history:key.keyboard.`
+key_key.corpse.death_history:key.keyboard.y
 resourcePacks:["vanilla","mod_resources","file/GregTech Refreshed v0.7 [Modern].zip","file/ComputerCreate.zip","file/Create+Simple+Storage+2.1.zip","file/GBTHOverrides"]
 incompatibleResourcePacks:["file/Create+Simple+Storage+2.1.zip"]
