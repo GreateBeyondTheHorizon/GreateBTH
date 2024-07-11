@@ -59,6 +59,7 @@ removeNamespaceItems('create', [
 	'brass_ingot',
 	'brass_nugget',
 	'brass_block',
+	'wheat_flour',
 	'dough'
 ])
 
