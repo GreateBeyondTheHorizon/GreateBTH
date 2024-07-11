@@ -11,18 +11,17 @@
     }
   },
   "rewards": {
-    "lootbag": {
-      "item": {
-        "id": "lootbags:loot_bag",
-        "count": 1,
-        "nbt": {
-          "Type": "COMMON",
-          "Color": 13882323,
-          "Loot": "lootbags:kjs/b045vtieklvgv2fvdtm88qeks",
-          "Name": "Lootbag (Common Food)"
-        }
+    "complete_early_game_stage": {
+      "title": "Complete early game stage",
+      "icon": {
+        "item": {
+          "id": "minecraft:crafting_table",
+          "count": 1
+        },
+        "type": "heracles:item"
       },
-      "type": "heracles:item"
+      "command": "kubejs stages add @s early_game_completed",
+      "type": "heracles:command"
     }
   },
   "display": {
@@ -55,7 +54,7 @@
   "settings": {
     "showDependencyArrow": true,
     "repeatable": false,
-    "autoClaimRewards": false,
+    "autoClaimRewards": true,
     "individual_progress": false,
     "hidden": "LOCKED",
     "unlockNotification": false
