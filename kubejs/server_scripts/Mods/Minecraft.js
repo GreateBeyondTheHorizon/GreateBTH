@@ -380,4 +380,22 @@ ServerEvents.recipes(event => {
 				L:'#minecraft:logs'
 			}
 	)
+
+	// Remove torch recipes in favor of the #minecraft:coals torch recipes
+	event.remove({id: 'minecraft:torch'})
+	event.remove({id: 'gtceu:shaped/torch_coal_dust'})
+	event.remove({id: 'gtceu:shaped/torch_charcoal_dust'})
+	event.remove({id: 'gtceu:assembler/torch_coal_dust'})
+	event.remove({id: 'gtceu:assembler/torch_charcoal_dust'})
+	event.shaped(
+		Item.of('4x minecraft:torch'),
+		[
+			'C',
+			'S'
+		],
+		{
+			C: '#minecraft:coals',
+			S: 'minecraft:stick'
+		}
+	)
 })
