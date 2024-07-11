@@ -50,7 +50,7 @@ ServerEvents.recipes(event => {
 	event.recipes.create.mixing('farmersdelight:apple_pie', ['3x minecraft:wheat', '3x minecraft:apple', '2x minecraft:sugar', 'farmersdelight:pie_crust']).heated()
 	event.recipes.create.mixing('farmersdelight:chocolate_pie', ['3x minecraft:cocoa_beans', Fluid.of("minecraft:milk", 3000), '2x minecraft:sugar', 'farmersdelight:pie_crust']).heated()
 	event.recipes.create.mixing('farmersdelight:sweet_berry_cheesecake', ['6x minecraft:sweet_berries', Fluid.of('minecraft:milk', 2000), 'farmersdelight:pie_crust']).heated()
-	event.recipes.create.mixing('farmersdelight:wheat_dough', ['create:wheat_flour', Fluid.of('minecraft:water')])
+	event.recipes.create.mixing('farmersdelight:wheat_dough', ['gtceu:wheat_dust', Fluid.of('minecraft:water')])
 	event.recipes.create.mixing('4x farmersdelight:sweet_berry_cookie', ['minecraft:sweet_berries', 'farmersdelight:wheat_dough']).heated()
 	event.recipes.create.mixing('4x farmersdelight:honey_cookie', [Fluid.of('create:honey', 250), 'farmersdelight:wheat_dough']).heated()
 	event.recipes.create.mixing('farmersdelight:melon_juice', ['4x minecraft:melon_slice', 'minecraft:sugar', 'minecraft:glass_bottle'])
@@ -59,9 +59,9 @@ ServerEvents.recipes(event => {
 	event.recipes.create.mixing('farmersdelight:mixed_salad', ['#forge:crops/cabbage', 'farmersdelight:tomato', 'minecraft:beetroot', 'minecraft:bowl'])
 	event.recipes.create.mixing('farmersdelight:nether_salad', ['minecraft:crimson_fungus', 'minecraft:warped_fungus', 'minecraft:bowl'])
 	event.recipes.create.mixing('farmersdelight:rice_roll_medley_block', ['3x farmersdelight:kelp_roll_slice', '3x farmersdelight:salmon_roll', '2x farmersdelight:cod_roll', 'minecraft:bowl'])
-	event.recipes.create.mixing('farmersdelight:pie_crust', ['3x create:wheat_flour', Fluid.of('minecraft:milk', 250), 'minecraft:egg'])
+	event.recipes.create.mixing('farmersdelight:pie_crust', ['3x gtceu:wheat_dust', Fluid.of('minecraft:milk', 250), 'minecraft:egg'])
 
-	event.recipes.create.splashing('farmersdelight:wheat_dough', 'create:wheat_flour')
+	event.recipes.create.splashing('farmersdelight:wheat_dough', 'gtceu:wheat_dust')
 
 	compressingRecipe('farmersdelight:carrot_crate', 'minecraft:carrot')
 	compressingRecipe('farmersdelight:potato_crate', 'minecraft:potato')
