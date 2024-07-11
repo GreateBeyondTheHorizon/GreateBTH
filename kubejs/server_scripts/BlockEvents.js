@@ -11,10 +11,10 @@ BlockEvents.rightClicked(event => {
 			event.block.set('minecraft:campfire', { lit: 'true' })
 		}
 	} else if (event.block.id === 'minecraft:crafting_table' && !event.getPlayer().stages.has('early_game_completed')) {
-		event.getPlayer().displayClientMessage(Component.literal("You have not unlocked the ability to use this yet!").red(), true)
+		event.getPlayer().displayClientMessage(Component.literal("Complete the Introduction quest chapter to be able to use this!").red(), true)
 		event.cancel()
 	} else if (event.block.tags.contains(new ResourceLocation('beds')) && !event.getPlayer().stages.has('crafted_bed')) {
-		event.getPlayer().displayClientMessage(Component.literal("You have not unlocked the ability to use this yet!").red(), true)
+		event.getPlayer().displayClientMessage(Component.literal("Craft a bed to be able to use this!").red(), true)
 		event.cancel()
 	}
 })
