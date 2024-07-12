@@ -5,7 +5,7 @@
   "tasks": {
     "andesite_alloy": {
       "type": "heracles:item",
-      "item": "create:andesite_alloy",
+      "item": "gtceu:andesite_alloy_ingot",
       "amount": 2,
       "collection": "AUTOMATIC"
     }
@@ -42,7 +42,7 @@
     },
     "icon": {
       "item": {
-        "id": "create:andesite_alloy",
+        "id": "gtceu:andesite_alloy_ingot",
         "count": 1
       },
       "type": "heracles:item"

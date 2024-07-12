@@ -1,10 +1,11 @@
 ServerEvents.recipes(event => {
 
     // Blooms
-    bloomeryRecipe('kubejs:copper_bloom', 600, 'kubejs:copper_bloom', ['#gbth:copper_bloom_inputs', '#minecraft:coals'])
-    bloomeryRecipe('kubejs:tin_bloom', 600, 'kubejs:tin_bloom', ['#gbth:tin_bloom_inputs', '#minecraft:coals'])
-    bloomeryRecipe('kubejs:wrought_iron_bloom', 600, 'kubejs:wrought_iron_bloom', ['#gbth:wrought_iron_bloom_inputs', '#minecraft:coals'])
-    bloomeryRecipe('kubejs:bronze_bloom', 900, '4x kubejs:bronze_bloom', ['3x minecraft:copper_ingot', 'gtceu:tin_ingot', '2x #minecraft:coals'])
+    bloomeryRecipe('gtceu:copper_bloom', 600, 'gtceu:copper_bloom', ['#gbth:copper_bloom_inputs', '#minecraft:coals'])
+    bloomeryRecipe('gtceu:tin_bloom', 600, 'gtceu:tin_bloom', ['#gbth:tin_bloom_inputs', '#minecraft:coals'])
+    bloomeryRecipe('gtceu:wrought_iron_bloom', 600, 'gtceu:wrought_iron_bloom', ['#gbth:wrought_iron_bloom_inputs', '#minecraft:coals'])
+    bloomeryRecipe('gtceu:bronze_bloom', 900, '4x gtceu:bronze_bloom', ['3x minecraft:copper_ingot', 'gtceu:tin_ingot', '2x #minecraft:coals'])
+    bloomeryRecipe('gtceu:andesite_alloy_bloom', 900, 'gtceu:andesite_alloy_bloom', ['2x gtceu:wrought_iron_ingot', 'minecraft:andesite', '2x #minecraft:coals'])
 
     // Other bloomery recipes
     bloomeryRecipe('kubejs:stone', 300, 'minecraft:stone', ['minecraft:cobblestone', '#minecraft:coals'])
@@ -17,14 +18,16 @@ ServerEvents.recipes(event => {
             .itemOutputs(output)
     }
 
-    metalworkingRecipe('minecraft:copper_ingot', 'kubejs:copper_bloom', 'gtceu:brick_wooden_form')
-    metalworkingRecipe('9x gtceu:copper_nugget', 'kubejs:copper_bloom', 'kubejs:nugget_wooden_form')
-    metalworkingRecipe('gtceu:tin_ingot', 'kubejs:tin_bloom', 'gtceu:brick_wooden_form')
-    metalworkingRecipe('9x gtceu:tin_nugget', 'kubejs:tin_bloom', 'kubejs:nugget_wooden_form')
-    metalworkingRecipe('gtceu:bronze_ingot', 'kubejs:bronze_bloom', 'gtceu:brick_wooden_form')
-    metalworkingRecipe('9x gtceu:bronze_nugget', 'kubejs:bronze_bloom', 'kubejs:nugget_wooden_form')
-    metalworkingRecipe('gtceu:wrought_iron_ingot', 'kubejs:wrought_iron_bloom', 'gtceu:brick_wooden_form')
-    metalworkingRecipe('9x gtceu:wrought_iron_nugget', 'kubejs:wrought_iron_bloom', 'kubejs:nugget_wooden_form')
+    metalworkingRecipe('minecraft:copper_ingot', 'gtceu:copper_bloom', 'gtceu:brick_wooden_form')
+    metalworkingRecipe('9x gtceu:copper_nugget', 'gtceu:copper_bloom', 'kubejs:nugget_wooden_form')
+    metalworkingRecipe('gtceu:tin_ingot', 'gtceu:tin_bloom', 'gtceu:brick_wooden_form')
+    metalworkingRecipe('9x gtceu:tin_nugget', 'gtceu:tin_bloom', 'kubejs:nugget_wooden_form')
+    metalworkingRecipe('gtceu:bronze_ingot', 'gtceu:bronze_bloom', 'gtceu:brick_wooden_form')
+    metalworkingRecipe('9x gtceu:bronze_nugget', 'gtceu:bronze_bloom', 'kubejs:nugget_wooden_form')
+    metalworkingRecipe('gtceu:wrought_iron_ingot', 'gtceu:wrought_iron_bloom', 'gtceu:brick_wooden_form')
+    metalworkingRecipe('9x gtceu:wrought_iron_nugget', 'gtceu:wrought_iron_bloom', 'kubejs:nugget_wooden_form')
+    metalworkingRecipe('gtceu:andesite_alloy_ingot', 'gtceu:andesite_alloy_bloom', 'gtceu:brick_wooden_form')
+    metalworkingRecipe('9x gtceu:andesite_alloy_nugget', 'gtceu:andesite_alloy_bloom', 'kubejs:nugget_wooden_form')
 
     function metalworkingRecipe(output, input, form) {
         event.shapeless(

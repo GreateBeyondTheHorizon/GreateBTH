@@ -115,7 +115,7 @@ ServerEvents.chestLootTables(event => {
 			p.addItem('gtceu:wrought_iron_ingot', 3, [1, 8])
 			p.addItem('minecraft:iron_ingot', 2, [1, 4])
 			p.addItem('gtceu:rubber_ingot', 3, [1, 8])
-			p.addItem('create:andesite_alloy', 2, [1, 4])
+			p.addItem('gtceu:andesite_alloy_ingot', 2, [1, 4])
 			p.addItem('create:andesite_casing', 2, [1, 2])
 			p.addItem('greate:andesite_alloy_shaft', 2, [1, 4])
 			p.addItem('greate:andesite_alloy_cogwheel', 2, [1, 4])

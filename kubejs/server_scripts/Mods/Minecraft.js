@@ -337,7 +337,7 @@ ServerEvents.recipes(event => {
 			'LL'
 		],
 		{
-			A: 'create:andesite_alloy',
+			A: 'gtceu:andesite_alloy_ingot',
 			L: '#minecraft:logs'
 		}
 	)

@@ -49,7 +49,8 @@ var recipesToReplace = [
     {removedItem: "gtceu:iv_bender", replacement: 'greate:tungsten_steel_mechanical_press'},
     {removedItem: "gtceu:iv_mixer", replacement: 'greate:tungsten_steel_mechanical_mixer'},
     {removedItem: "gtceu:iv_cutter", replacement: 'greate:tungsten_steel_mechanical_saw'},
-    {removedItem: "ae2:ender_dust", replacement: 'gtceu:ender_pearl_dust'}
+    {removedItem: "ae2:ender_dust", replacement: 'gtceu:ender_pearl_dust'},
+    {removedItem: "create:andesite_alloy", replacement: 'gtceu:andesite_alloy_ingot'}
 ]
 
 ServerEvents.tags('item', event => {

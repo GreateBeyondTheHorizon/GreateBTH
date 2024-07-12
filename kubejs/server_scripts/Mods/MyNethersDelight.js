@@ -1,5 +1,5 @@
 ServerEvents.recipes(event => {
-    event.remove({id: 'mynethersdelight:chilidog_alt'})
+    event.remove({id: 'farmersrespite:chilidog_alt'})
     event.remove({id: 'mynethersdelight:crafting/raw_stuffed_hoglin'})
     event.remove({id: 'mynethersdelight:crafting/bleeding_tartar'})
     event.remove({id: 'mynethersdelight:crafting/striderloaf'})

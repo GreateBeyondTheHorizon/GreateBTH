@@ -11,7 +11,7 @@
     },
     "0BCE402AC980D544": {
       "type": "heracles:item",
-      "item": "create:andesite_alloy",
+      "item": "gtceu:andesite_alloy_ingot",
       "amount": 8,
       "collection": "AUTOMATIC"
     }
