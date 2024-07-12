@@ -10,7 +10,7 @@ ServerEvents.recipes(event => {
 		],
 		{
 			A:'minecraft:stick',
-			B:'create:andesite_alloy'
+			B:'gtceu:andesite_alloy_ingot'
 		}
 	)
 

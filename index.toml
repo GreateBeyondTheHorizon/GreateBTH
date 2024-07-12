@@ -208,9 +208,6 @@ file = "config/heracles/quests/lvlsthegrindstartshere/extracting_and_solidifying
 file = "config/heracles/quests/lvlsthegrindstartshere/filtering_the_outputs.json"
 
 [[files]]
-file = "config/heracles/quests/lvlsthegrindstartshere/generating_more_steam.json"
-
-[[files]]
 file = "config/heracles/quests/lvlsthegrindstartshere/getting_oxygen.json"
 
 [[files]]
@@ -1240,9 +1237,6 @@ file = "kubejs/server_scripts/Mods/Greg/Centrifuge.js"
 file = "kubejs/server_scripts/Mods/Greg/CokeOven.js"
 
 [[files]]
-file = "kubejs/server_scripts/Mods/Greg/Create.js"
-
-[[files]]
 file = "kubejs/server_scripts/Mods/Greg/Cutter.js"
 
 [[files]]
@@ -1361,6 +1355,12 @@ file = "kubejs/startup_scripts/Ores.js"
 
 [[files]]
 file = "kubejs/startup_scripts/Util.js"
+
+[[files]]
+file = "mods/Mantle-1.20.1-1.10-UNOFFICIAL.DEV.db940e7.jar.disabled"
+
+[[files]]
+file = "mods/TinkersConstruct-1.20.1-3.8.3-UNOFFICIAL.DEV.ed337cc6d.jar.disabled"
 
 [[files]]
 file = "mods/ad-astra.pw.toml"

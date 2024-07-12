@@ -60,7 +60,9 @@ removeNamespaceItems('create', [
 	'brass_nugget',
 	'brass_block',
 	'wheat_flour',
-	'dough'
+	'dough',
+	'andesite_alloy',
+	'andesite_alloy_block'
 ])
 
 // Construction Wand

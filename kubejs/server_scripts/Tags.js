@@ -9,7 +9,7 @@ ServerEvents.tags('item', event => {
 	event.add('kubejs:fireproof_wood', ['minecraft:warped_stem', 'minecraft:stripped_warped_stem', 'minecraft:stripped_warped_hyphae', 'minecraft:warped_hyphae', 'minecraft:crimson_stem', 'minecraft:stripped_crimson_stem', 'minecraft:stripped_crimson_hyphae', 'minecraft:crimson_hyphae'])
 
 	event.add('gbth:forms', ['kubejs:block_wooden_form', 'kubejs:nugget_wooden_form', 'gtceu:brick_wooden_form'])
-	event.add('gbth:blooms', ['kubejs:copper_bloom', 'kubejs:tin_bloom','kubejs:bronze_bloom', 'kubejs:wrought_iron_bloom'])
+	event.add('gbth:blooms', ['gtceu:copper_bloom', 'gtceu:tin_bloom','gtceu:bronze_bloom', 'gtceu:wrought_iron_bloom', 'gtceu:andesite_alloy_bloom'])
 	event.add('gbth:copper_bloom_inputs', ['#forge:raw_materials/copper', '#forge:raw_materials/chalcopyrite', '#forge:raw_materials/tetrahedrite', '#forge:raw_materials/bornite', '#forge:raw_materials/chalcocite', '#forge:raw_materials/malachite'])
 	event.add('gbth:tin_bloom_inputs', ['#forge:raw_materials/tin', '#forge:raw_materials/cassiterite', '#forge:raw_materials/cassiterite_sand'])
 	event.add('gbth:wrought_iron_bloom_inputs', ['#forge:raw_materials/iron', '#forge:raw_materials/pyrite', '#forge:raw_materials/magnetite', '#forge:raw_materials/hematite', '#forge:raw_materials/goethite', '#forge:raw_materials/yellow_limonite', '#forge:raw_materials/basaltic_mineral_sand', '#forge:raw_materials/granitic_mineral_sand'])
@@ -20,7 +20,7 @@ ServerEvents.tags('item', event => {
 	event.add('gbth:input_buses', ['gtceu:ulv_input_bus', 'gtceu:lv_input_bus', 'gtceu:mv_input_bus', 'gtceu:hv_input_bus', 'gtceu:ev_input_bus', 'gtceu:iv_input_bus', 'gtceu:luv_input_bus', 'gtceu:zpm_input_bus', 'gtceu:uv_input_bus', 'gtceu:uhv_input_bus'])
 	event.add('gbth:output_buses', ['gtceu:ulv_output_bus', 'gtceu:lv_output_bus', 'gtceu:mv_output_bus', 'gtceu:hv_output_bus', 'gtceu:ev_output_bus', 'gtceu:iv_output_bus', 'gtceu:luv_output_bus', 'gtceu:zpm_output_bus', 'gtceu:uv_output_bus', 'gtceu:uhv_output_bus'])
 	event.add('gbth:input_hatches', ['gtceu:ulv_input_hatch', 'gtceu:lv_input_hatch', 'gtceu:mv_input_hatch', 'gtceu:hv_input_hatch', 'gtceu:ev_input_hatch', 'gtceu:iv_input_hatch', 'gtceu:luv_input_hatch', 'gtceu:zpm_input_hatch', 'gtceu:uv_input_hatch', 'gtceu:uhv_input_hatch'])
-	event.add('gbth:output_hatches', ['gtceu:ulv_output_hatch', 'gtceu:lv_output_hatch', 'gtceu:mv_output_hatch', 'gtceu:hv_output_hatch', 'gtceu:ev_output_hatch', 'gtceu:iv_output_hatch', 'gtceu:luv_output_hatch', 'gtceu:zpm_output_hatch', 'gtceu:uv_output_hatch', 'gtceu:uhv_output_hatch']) 
+	event.add('gbth:output_hatches', ['gtceu:ulv_output_hatch', 'gtceu:lv_output_hatch', 'gtceu:mv_output_hatch', 'gtceu:hv_output_hatch', 'gtceu:ev_output_hatch', 'gtceu:iv_output_hatch', 'gtceu:luv_output_hatch', 'gtceu:zpm_output_hatch', 'gtceu:uv_output_hatch', 'gtceu:uhv_output_hatch'])
 
 	event.add('c:black_dyes', ['#forge:dyes/black'])
 	event.add('c:blue_dyes', ['#forge:dyes/blue'])
@@ -50,7 +50,7 @@ ServerEvents.tags('item', event => {
 	event.add('minecraft:fence_gates', ['mynethersdelight:powdery_fence_gate', 'aether:skyroot_fence_gate'])
 
 	event.remove('create:sandpaper', ['create:sand_paper', 'create:red_sand_paper'])
-	
+
 	event.remove('minecraft:planks', 'gtceu:treated_wood_planks')
 
 	event.remove('minecraft:wooden_slabs', 'createdieselgenerators:chip_wood_slab')

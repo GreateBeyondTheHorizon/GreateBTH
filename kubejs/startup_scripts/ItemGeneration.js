@@ -1,6 +1,6 @@
 StartupEvents.registry('item', event => {
 	event.create('drinkable_liquid_concrete').useAnimation("drink").displayName('Bucket of Drinkable Liquid Concrete')
-	
+
 	// LV components
 	event.create('inc_lv_motor', 'create:sequenced_assembly').displayName('Incomplete LV Motor')
 	event.create('inc_lv_piston', 'create:sequenced_assembly').displayName('Incomplete LV Piston')
@@ -39,7 +39,7 @@ StartupEvents.registry('item', event => {
 	event.create('naquadah_alloy_sand_paper', 'create:sandpaper').maxDamage(131072).displayName('Naquadah Alloy Sand Paper')
 	event.create('darmstadtium_sand_paper', 'create:sandpaper').maxDamage(524288).displayName('Darmstadtium Sand Paper')
 	event.create('neutronium_sand_paper', 'create:sandpaper').maxDamage(2097152).displayName('Neutronium Sand Paper')
-	
+
 	// AE2
 	for (const cellSize of global.AE2.CellSizes) {
 		event.create(cellSize + '_me_storage_base')
@@ -50,27 +50,27 @@ StartupEvents.registry('item', event => {
 				.tooltip(global.Util.qualityTooltip(quality))
 		}
 	}
-	
+
 	event.create('incomplete_storage_cell', 'create:sequenced_assembly').displayName('Incomplete Storage Cell')
 	event.create('incomplete_storage_component', 'create:sequenced_assembly').displayName('Incomplete Storage Component')
-	
+
 	// Ad Astra
 
 	// Stainless Steel
 	event.create('stainless_steel_engine')
 	event.create('stainless_steel_fin')
 	event.create('stainless_steel_cone')
-	
+
 	// Tungsten Steel
 	event.create('tungsten_steel_engine')
 	event.create('tungsten_steel_fin')
 	event.create('tungsten_steel_cone')
-	
+
 	// HSS-E
 	event.create('hsse_engine')
 	event.create('hsse_fin')
 	event.create('hsse_cone')
-	
+
 	// Trinium
 	event.create('trinium_engine')
 	event.create('trinium_fin')
@@ -103,18 +103,12 @@ StartupEvents.registry('item', event => {
 	event.create('mud_brick').displayName('Mud Brick')
 
 	event.create('stone_hammer').maxDamage(64).unstackable().displayName('Stone Hammer')
-	
+
 	event.create('flint_pickaxe_head').displayName('Flint Pickaxe Head')
 	event.create('flint_axe_head').displayName('Flint Axe Head')
 	event.create('flint_shovel_head').displayName('Flint Shovel Head')
 	event.create('flint_sword_head').displayName('Flint Sword Head')
 	event.create('flint_hoe_head').displayName('Flint Hoe Head')
-
-	//Bloomery Materials
-	event.create('copper_bloom').displayName('Copper Bloom')
-	event.create('tin_bloom').displayName('Tin Bloom')
-	event.create('bronze_bloom').displayName('Bronze Bloom')
-	event.create('wrought_iron_bloom').displayName('Wrought Iron Bloom')
 
 	event.create('empty_glue_tube').displayName('Empty Glue Tube')
 })

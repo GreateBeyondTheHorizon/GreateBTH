@@ -11,6 +11,8 @@ ServerEvents.recipes(event => {
 	event.remove({id: 'create:crafting/kinetics/fluid_pipe_vertical'})
 	event.remove({id: 'create:crafting/kinetics/goggles'})
 	event.remove({id: 'create:shaped/andesite_alloy' })
+	event.remove({id: 'create/splashing/magma_block'})
+    event.remove({id: 'create:crafting/kinetics/super_glue'})
 
 	event.replaceInput({id: 'create:shaped/wrench'}, 'gtceu:gold_plate', 'gtceu:wrought_iron_plate')
 	event.replaceInput({id: 'create:crafting/kinetics/goggles'}, 'gtceu:gold_plate', 'gtceu:wrought_iron_plate')
@@ -188,28 +190,6 @@ ServerEvents.recipes(event => {
 		}
 	)
 
-	event.shaped(Item.of('create:andesite_alloy'),
-		[
-			'AN',
-			'NA'
-		],
-		{
-			A: 'minecraft:andesite',
-			N: 'gtceu:wrought_iron_plate'
-		}
-	)
-
-	event.shaped(Item.of('create:andesite_alloy'),
-		[
-			'NA',
-			'AN'
-		],
-		{
-			A: 'minecraft:andesite',
-			N: 'gtceu:wrought_iron_plate'
-		}
-	)
-
 	event.shaped(Item.of('create:cart_assembler'),
 		[
 			'SRS',
@@ -230,7 +210,7 @@ ServerEvents.recipes(event => {
 			' C '
 		],
 		{
-			A: 'create:andesite_alloy',
+			A: 'gtceu:andesite_alloy_ingot',
 			S: 'gtceu:steel_plate',
 			C: 'create:andesite_casing',
 		}
