@@ -1,23 +1,15 @@
 {
   "dependencies": [
     "polished_rose_quartz",
-    "glass_tube",
-    "copper_wires"
+    "copper_wires",
+    "glass_tube"
   ],
   "tasks": {
     "2F61603627D4479A": {
       "type": "heracles:item",
       "item": "gtceu:vacuum_tube",
       "amount": 2,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {
@@ -45,8 +37,8 @@
     "groups": {
       "ULV/ULS - Humble Beginnings": {
         "position": [
-          -144,
-          128
+          33,
+          118
         ]
       }
     },
@@ -63,10 +55,11 @@
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

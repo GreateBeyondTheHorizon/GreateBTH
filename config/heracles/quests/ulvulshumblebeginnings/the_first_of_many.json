@@ -1,6 +1,5 @@
 {
   "dependencies": [
-    "steel_plate",
     "resin_printed_circuit_board",
     "vacuum_tubes",
     "resistor",
@@ -39,8 +38,8 @@
     "groups": {
       "ULV/ULS - Humble Beginnings": {
         "position": [
-          0,
-          128
+          -45,
+          118
         ]
       }
     },
