@@ -45,6 +45,9 @@ ServerEvents.tags('item', event => {
 	event.add('minecraft:planks', ['aether:skyroot_planks', 'deep_aether:roseroot_planks', 'deep_aether:yagroot_planks', 'deep_aether:cruderoot_planks', 'deep_aether:conberry_planks', 'deep_aether:sunroot_planks'])
 	event.add('minecraft:fence_gates', ['mynethersdelight:powdery_fence_gate', 'aether:skyroot_fence_gate'])
 
+	event.add('chipped:glass', ['aether:quicksoil_glass'])
+	event.add('chipped:glass_pane', ['aether:quicksoil_glass_pane'])
+
 	event.add('dankstorage:blacklisted_storage', ['#forge:ores', '#forge:raw_materials'])
 
 	event.remove('create:sandpaper', ['create:sand_paper', 'create:red_sand_paper'])

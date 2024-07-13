@@ -20,6 +20,7 @@ ServerEvents.recipes(event => {
     event.remove({id: /aether:(iron|golden|zanite)_pendant/})
     event.remove({id: /(aether|deep_aether):(zanite|skyjade|gravitite)_(helmet|chestplate|leggings|boots)/})
     event.remove({id: /(aether|deep_aether):(zanite|skyjade|gravitite)_(sword|pickaxe|axe|shovel|hoe)/})
+    event.remove({id: 'aether:quicksoil_glass_enchanting'})
 
     event.shaped('aether:skyroot_bed',
 		[

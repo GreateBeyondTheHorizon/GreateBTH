@@ -10,6 +10,7 @@
 - Change how some items are generated
 - Remove misc textures that are no longer needed
 - Disable ore proc machine for now
+- Change quicksoil glass to be obtainable after getting regular glass
 
 **Mod Changes**
 - Added BetterF3
