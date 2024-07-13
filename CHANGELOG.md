@@ -4,6 +4,7 @@
 - Update ULS machine recipes
 - Remove create andesite alloy in place of gt andesite alloy
 - Prevent raw ores from being placed in dankstorages
+- Disable aether skyroot alternative recipes
 
 **Mod Changes**
 - Added BetterF3
