@@ -1,7 +1,7 @@
 {
   "dependencies": [
-    "steam_compressor",
-    "pyrolysis"
+    "pyrolysis",
+    "finally_some_iron"
   ],
   "tasks": {
     "09FA2B8FB442681B": {
