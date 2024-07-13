@@ -1,6 +1,6 @@
 {
   "dependencies": [
-    "bronze_brick_casing"
+    "primitive_blast_furnace"
   ],
   "tasks": {
     "524F54D566419CAF": {
@@ -35,8 +35,8 @@
     "groups": {
       "ULV/ULS - Humble Beginnings": {
         "position": [
-          -176,
-          -48
+          -17,
+          -141
         ]
       }
     },
