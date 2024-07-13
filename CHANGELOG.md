@@ -3,6 +3,7 @@
 - Change cable recipes in Greate instead of Kube
 - Update ULS machine recipes
 - Remove create andesite alloy in place of gt andesite alloy
+- Prevent raw ores from being placed in dankstorages
 
 **Mod Changes**
 - appliedenergistics2-forge-15.2.8 -> appliedenergistics2-forge-15.2.9
