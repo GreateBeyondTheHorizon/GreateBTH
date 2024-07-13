@@ -1433,6 +1433,10 @@ file = "mods/better-advancements.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/betterf3.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/botarium.pw.toml"
 metafile = true
 
@@ -1582,6 +1586,10 @@ metafile = true
 
 [[files]]
 file = "mods/ferritecore.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/findme.pw.toml"
 metafile = true
 
 [[files]]
@@ -1777,6 +1785,10 @@ metafile = true
 
 [[files]]
 file = "mods/sgjourney.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/shulkerboxtooltip.pw.toml"
 metafile = true
 
 [[files]]
