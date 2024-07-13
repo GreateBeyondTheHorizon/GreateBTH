@@ -216,7 +216,7 @@ ServerEvents.recipes(event => {
 				.laser_engraver('kubejs:engrave_' + quality + '_' + cellSize + '_me_storage_wafer')
 				.duration(durationMultiplier * 200)
 				.itemInputs('gtceu:' + material + '_wafer')
-				.notConsumable('#forge:lenses/certus')
+				.notConsumable('#forge:lenses/certus_quartz')
 				.itemOutputs(engravingOutput)
 				.circuit(i)
 				.EUt(1920)

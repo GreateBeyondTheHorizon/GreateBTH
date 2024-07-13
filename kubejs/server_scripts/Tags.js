@@ -1,8 +1,6 @@
 ServerEvents.tags('item', event => {
 	event.add('minecraft:coals', ['gtceu:raw_coal', 'gtceu:coal_dust', 'gtceu:charcoal_dust'])
 
-	event.add('forge:lenses', 'kubejs:certus_quartz_lens')
-	event.add('forge:lenses/certus', 'kubejs:certus_quartz_lens')
 	event.add('forge:armors', /ad_astra:jet(.*)/)
 	event.add('forge:armors', /ad_astra:(.*)space(.*)/)
 
@@ -40,13 +38,11 @@ ServerEvents.tags('item', event => {
 	event.add('c:yellow_dyes', ['#forge:dyes/yellow'])
 
 	event.add('curios:head', ['gtceu:face_mask'])
-
 	event.add('curios:hands', ['gtceu:rubber_gloves'])
 
 	event.add('gtceu:rubber_logs', ['gtceu:rubber_log', 'gtceu:stripped_rubber_log', 'gtceu:rubber_wood', 'gtceu:stripped_rubber_wood'])
 
 	event.add('minecraft:planks', ['aether:skyroot_planks', 'deep_aether:roseroot_planks', 'deep_aether:yagroot_planks', 'deep_aether:cruderoot_planks', 'deep_aether:conberry_planks', 'deep_aether:sunroot_planks'])
-
 	event.add('minecraft:fence_gates', ['mynethersdelight:powdery_fence_gate', 'aether:skyroot_fence_gate'])
 
 	event.add('dankstorage:blacklisted_storage', ['#forge:ores', '#forge:raw_materials'])
@@ -54,7 +50,6 @@ ServerEvents.tags('item', event => {
 	event.remove('create:sandpaper', ['create:sand_paper', 'create:red_sand_paper'])
 
 	event.remove('minecraft:planks', 'gtceu:treated_wood_planks')
-
 	event.remove('minecraft:wooden_slabs', 'createdieselgenerators:chip_wood_slab')
 })
 
