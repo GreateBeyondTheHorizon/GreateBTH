@@ -727,15 +727,6 @@ file = "kubejs/assets/kubejs/textures/item/advanced_honey_treat.png"
 file = "kubejs/assets/kubejs/textures/item/block_wooden_form.png"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/item/bronze_bloom.png"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/certus_quartz_lens.png"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/copper_bloom.png"
-
-[[files]]
 file = "kubejs/assets/kubejs/textures/item/double_diamond_plate.png"
 
 [[files]]
@@ -871,9 +862,6 @@ file = "kubejs/assets/kubejs/textures/item/incomplete_storage_component.png"
 file = "kubejs/assets/kubejs/textures/item/infinity_me_storage_wafer.png"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/item/inter_nano_processor.png"
-
-[[files]]
 file = "kubejs/assets/kubejs/textures/item/low_quality_16k_me_storage_wafer.png"
 
 [[files]]
@@ -916,9 +904,6 @@ file = "kubejs/assets/kubejs/textures/item/netherite_plate_show.png"
 file = "kubejs/assets/kubejs/textures/item/nugget_wooden_form.png"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/item/obsidian_screw.png"
-
-[[files]]
 file = "kubejs/assets/kubejs/textures/item/plate.png"
 
 [[files]]
@@ -944,9 +929,6 @@ file = "kubejs/assets/kubejs/textures/item/stainless_steel_fin.png"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/stone_hammer.png"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/tin_bloom.png"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/titanium_bee_food.png"
@@ -986,9 +968,6 @@ file = "kubejs/assets/kubejs/textures/item/ultra_low_quality_64k_me_storage_wafe
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/unf_turtle_helmet.png"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/wrought_iron_bloom.png"
 
 [[files]]
 file = "kubejs/assets/minecraft/textures/item/campfire.png"
@@ -1190,9 +1169,6 @@ file = "kubejs/server_scripts/Mods/Create.js"
 
 [[files]]
 file = "kubejs/server_scripts/Mods/DankStorage.js"
-
-[[files]]
-file = "kubejs/server_scripts/Mods/DeepAether.js"
 
 [[files]]
 file = "kubejs/server_scripts/Mods/EnderStorage.js"

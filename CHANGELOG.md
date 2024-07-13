@@ -5,6 +5,11 @@
 - Remove create andesite alloy in place of gt andesite alloy
 - Prevent raw ores from being placed in dankstorages
 - Disable aether skyroot alternative recipes
+- Add GT aether materials
+- Gregify aether recipes for armor, tools, and wearables
+- Change how some items are generated
+- Remove misc textures that are no longer needed
+- Disable ore proc machine for now
 
 **Mod Changes**
 - Added BetterF3

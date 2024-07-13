@@ -77,19 +77,15 @@ StartupEvents.registry('item', event => {
 	event.create('trinium_cone')
 
 	// misc
-
 	event.create('unf_turtle_helmet').displayName('Turtle Helmet Shell')
 	event.create('netherite_plate').displayName('Netherite Plate')
 	event.create('double_obsidian_plate').displayName('Double Obsidian Plate')
 	event.create('double_diamond_plate').displayName('Double Diamond Plate')
-	event.create('obsidian_screw').displayName('Obsidian Screw')
-	event.create('certus_quartz_lens').displayName('Certus Quartz Lens')
 	event.create('infinity_me_storage_wafer').displayName('Infinity ME Storage Component')
 	event.create('ruthenium_trinium_americium_neutronate_plate').displayName('Ruthenium Trinium Americium Neutronate Plate')
 
 	//compass
 	event.create('empty_compass').displayName('Empty Compass')
-
 
 	//befood
 	event.create('advanced_honey_treat').displayName('Advanced Honey Treat')

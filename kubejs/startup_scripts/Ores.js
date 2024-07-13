@@ -27,7 +27,7 @@ GTCEuStartupEvents.registry('gtceu:world_gen_layer', e => {
 
 GTCEuStartupEvents.registry('gtceu:tag_prefix', e => {
     let stoneTypes = [
-        'ad_astra:moon_stone', 'ad_astra:mars_stone', 'ad_astra:venus_stone', 'ad_astra:mercury_stone', 'ad_astra:glacio_stone'
+        'ad_astra:moon_stone', 'ad_astra:mars_stone', 'ad_astra:venus_stone', 'ad_astra:mercury_stone', 'ad_astra:glacio_stone', 'aether:holystone'
     ]
 
     stoneTypes.forEach(type => {
