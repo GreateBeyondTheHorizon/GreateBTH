@@ -1357,12 +1357,6 @@ file = "kubejs/startup_scripts/Ores.js"
 file = "kubejs/startup_scripts/Util.js"
 
 [[files]]
-file = "mods/Mantle-1.20.1-1.10-UNOFFICIAL.DEV.db940e7.jar.disabled"
-
-[[files]]
-file = "mods/TinkersConstruct-1.20.1-3.8.3-UNOFFICIAL.DEV.ed337cc6d.jar.disabled"
-
-[[files]]
 file = "mods/ad-astra.pw.toml"
 metafile = true
 

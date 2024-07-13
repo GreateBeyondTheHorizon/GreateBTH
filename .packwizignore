@@ -4,6 +4,7 @@
 !/mods
 /mods/.index
 /mods/*.jar
+/mods/*.disabled
 !/mods/gbthcore-1.0.0.jar
 
 # configs
