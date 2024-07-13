@@ -589,9 +589,6 @@ file = "config/heracles/quests/ulvulshumblebeginnings/steam_solid_boiler.json"
 file = "config/heracles/quests/ulvulshumblebeginnings/steel_ingot.json"
 
 [[files]]
-file = "config/heracles/quests/ulvulshumblebeginnings/steel_plate.json"
-
-[[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/store_those_items.json"
 
 [[files]]
@@ -1193,6 +1190,9 @@ file = "kubejs/server_scripts/Mods/Create.js"
 
 [[files]]
 file = "kubejs/server_scripts/Mods/DankStorage.js"
+
+[[files]]
+file = "kubejs/server_scripts/Mods/DeepAether.js"
 
 [[files]]
 file = "kubejs/server_scripts/Mods/EnderStorage.js"
