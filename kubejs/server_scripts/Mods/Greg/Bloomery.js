@@ -5,7 +5,7 @@ ServerEvents.recipes(event => {
     bloomeryRecipe('gtceu:tin_bloom', 600, 'gtceu:tin_bloom', ['#gbth:tin_bloom_inputs', '#minecraft:coals'])
     bloomeryRecipe('gtceu:wrought_iron_bloom', 600, 'gtceu:wrought_iron_bloom', ['#gbth:wrought_iron_bloom_inputs', '#minecraft:coals'])
     bloomeryRecipe('gtceu:bronze_bloom', 900, '4x gtceu:bronze_bloom', ['3x minecraft:copper_ingot', 'gtceu:tin_ingot', '2x #minecraft:coals'])
-    bloomeryRecipe('gtceu:andesite_alloy_bloom', 900, 'gtceu:andesite_alloy_bloom', ['2x gtceu:wrought_iron_ingot', 'minecraft:andesite', '2x #minecraft:coals'])
+    bloomeryRecipe('gtceu:andesite_alloy_bloom', 900, 'gtceu:andesite_alloy_bloom', ['gtceu:wrought_iron_ingot', 'minecraft:andesite', '2x #minecraft:coals'])
 
     // Other bloomery recipes
     bloomeryRecipe('kubejs:stone', 300, 'minecraft:stone', ['minecraft:cobblestone', '#minecraft:coals'])
