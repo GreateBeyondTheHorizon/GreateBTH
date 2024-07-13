@@ -49,7 +49,7 @@ ServerEvents.tags('item', event => {
 
 	event.add('minecraft:fence_gates', ['mynethersdelight:powdery_fence_gate', 'aether:skyroot_fence_gate'])
 
-	event.add('dankstorage:blacklisted_storage', ['#forge:raw_materials'])
+	event.add('dankstorage:blacklisted_storage', ['#forge:ores', '#forge:raw_materials'])
 
 	event.remove('create:sandpaper', ['create:sand_paper', 'create:red_sand_paper'])
 
