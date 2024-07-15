@@ -595,6 +595,9 @@ file = "config/heracles/quests/ulvulshumblebeginnings/store_those_items.json"
 file = "config/heracles/quests/ulvulshumblebeginnings/storing_fluids.json"
 
 [[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/the_adventure_continues.json"
+
+[[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/the_andesite_age.json"
 
 [[files]]
@@ -1202,6 +1205,9 @@ file = "kubejs/server_scripts/Mods/Greg/Bender.js"
 
 [[files]]
 file = "kubejs/server_scripts/Mods/Greg/Bloomery.js"
+
+[[files]]
+file = "kubejs/server_scripts/Mods/Greg/Brewery.js"
 
 [[files]]
 file = "kubejs/server_scripts/Mods/Greg/Canner.js"

@@ -11,6 +11,11 @@
 - Remove misc textures that are no longer needed
 - Disable ore proc machine for now
 - Change quicksoil glass to be obtainable after getting regular glass
+- Change ore generation in the aether to be the main source for nickel and lubricant products
+- Remove nickel and lubricant related veins from generating in the overworld
+- Add additional veins in the aether for copper, tin and iron
+- Fix empty tag errors
+- Disable redstone lubricant brewery recipes
 
 **Mod Changes**
 - Added BetterF3
@@ -19,3 +24,6 @@
 - appliedenergistics2-forge-15.2.8 -> appliedenergistics2-forge-15.2.9
 - embeddium-0.3.24+mc1.20.1 -> embeddium-0.3.25+mc1.20.1 
 - greate-0.0.23 -> greate-0.0.24
+- chat_heads-0.12.6-forge-1.20 -> chat_heads-0.12.8-forge-1.20
+- MyNethersDelight-1.20.1-0.1.7 -> MyNethersDelight-1.20.1-0.1.7.4
+- jei-1.20.1-forge-15.3.0.8 -> jei-1.20.1-forge-15.8.0.9

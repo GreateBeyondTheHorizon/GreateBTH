@@ -11,7 +11,15 @@
     "material.gtceu.zanite": "Zanite",
     "material.gtceu.skyjade": "Skyjade",
     "material.gtceu.gravitite": "Gravitite",
-    
+    "material.gtceu.ambrosium": "Ambrosium",
+
+    "gtceu.jei.ore_vein.lubricant_vein_aether": "Talc Vein",
+    "gtceu.jei.ore_vein.nickel_vein_aether": "Nickel Vein",
+    "gtceu.jei.ore_vein.aether_minerals_vein": "Aether Minerals Vein",
+    "gtceu.jei.ore_vein.iron_vein_aether": "Goethite Vein",
+    "gtceu.jei.ore_vein.tin_vein_aether": "Cassiterite Vein",
+    "gtceu.jei.ore_vein.copper_vein_aether": "Chalcopyrite Vein",
+    "gtceu.jei.ore_vein.bauxite_vein_moon": "Bauxite Vein",
 
     "entity.productivebees.aluminium_bee": "Aluminium Bee",
     "entity.productivebees.stainless_steel_bee": "Stainless Steel Bee",

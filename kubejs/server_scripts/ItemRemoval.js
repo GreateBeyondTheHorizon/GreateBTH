@@ -50,7 +50,10 @@ var recipesToReplace = [
     {removedItem: "gtceu:iv_mixer", replacement: 'greate:tungsten_steel_mechanical_mixer'},
     {removedItem: "gtceu:iv_cutter", replacement: 'greate:tungsten_steel_mechanical_saw'},
     {removedItem: "ae2:ender_dust", replacement: 'gtceu:ender_pearl_dust'},
-    {removedItem: "create:andesite_alloy", replacement: 'gtceu:andesite_alloy_ingot'}
+    {removedItem: "create:andesite_alloy", replacement: 'gtceu:andesite_alloy_ingot'},
+    {removedItem: "aether:ambrosium_shard", replacement: 'gtceu:ambrosium_gem'},
+    {removedItem: "aether:zanite_gemstone", replacement: 'gtceu:zanite_gem'},
+    {removedItem: "deep_aether:skyjade", replacement: 'gtceu:skyjade_gem'}
 ]
 
 ServerEvents.tags('item', event => {

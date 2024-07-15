@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "a_hell_of_an_adventure"
+  ],
+  "tasks": {
+    "aether": {
+      "icon": {
+        "item": {
+          "id": "minecraft:glowstone",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "from": "minecraft:overworld",
+      "to": "aether:the_aether",
+      "type": "heracles:changed_dimension"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Now that you have unlocked /d/The Nether/d/, you have also unlocked /d/The Aether/d/, which contains some exclusive ore veins, like /d/Nickel/d/ and /d/Talc/d/.",
+      "",
+      "To travel to /d/The Aether/d/, you'll need to make a portal frame out of /d/Glowstone/d/, and use a Water Bucket to light it."
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings": {
+        "position": [
+          63,
+          -49
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:glowstone",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "The Adventure Continues"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

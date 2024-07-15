@@ -77,7 +77,6 @@ ItemEvents.modification(event => {
 		item.craftingRemainder = Item.of('kubejs:stone_hammer').item
 	})
 
-
 	event.modify('kubejs:drinkable_liquid_concrete', item => {
 		item.foodProperties = food => {
 			food.alwaysEdible(true)
@@ -92,5 +91,9 @@ ItemEvents.modification(event => {
 
 	event.modify('gtceu:raw_coal_block', item => {
 		item.burnTime = 14400
+	})
+
+	event.modify('aether:ambrosium_block', item => {
+		item.burnTime = 0
 	})
 })

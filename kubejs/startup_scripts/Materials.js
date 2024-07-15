@@ -12,22 +12,29 @@ GTCEuStartupEvents.registry("gtceu:material", (event) => {
 
   event.create('zanite')
     .gem(2)
-    .ore(2, 3)
+    .ore()
     .color(0x8e51e9)
     .iconSet(GTMaterialIconSet.GEM_VERTICAL)
     .flags(GTMaterialFlags.GENERATE_PLATE)
 
   event.create('skyjade')
     .gem(3)
-    .ore(2, 3)
+    .ore()
     .color(0x99cc5e)
     .iconSet(GTMaterialIconSet.GEM_HORIZONTAL)
     .flags(GTMaterialFlags.GENERATE_PLATE)
 
   event.create('gravitite')
     .gem(3)
-    .ore(2, 3)
+    .ore()
     .color(0xba5eb3)
     .iconSet(GTMaterialIconSet.GEM_VERTICAL)
     .flags(GTMaterialFlags.GENERATE_PLATE)
+
+  event.create('ambrosium')
+    .gem(1)
+    .ore()
+    .color(0xfefb64)
+    .iconSet(GTMaterialIconSet.GEM_VERTICAL)
+    .burnTime(19200)
 });

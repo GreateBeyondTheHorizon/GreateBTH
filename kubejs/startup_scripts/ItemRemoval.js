@@ -212,3 +212,16 @@ removeNamespaceItems('dankstorage', [
 	'5_to_6',
 	'6_to_7'
 ])
+
+removeNamespaceItems('aether', [
+	'zanite_block', 
+	'zanite_gemstone', 
+	'enchanted_gravitite', 
+	'ambrosium_block', 
+	'ambrosium_shard'
+])
+
+removeNamespaceItems('deep_aether', [
+	'skyjade', 
+	'skyjade_block'
+])
