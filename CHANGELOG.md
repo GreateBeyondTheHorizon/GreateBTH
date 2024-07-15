@@ -16,6 +16,7 @@
 - Add additional veins in the aether for copper, tin and iron
 - Fix empty tag errors
 - Disable redstone lubricant brewery recipes
+- Add missing logs to modification list
 
 **Mod Changes**
 - Added BetterF3
