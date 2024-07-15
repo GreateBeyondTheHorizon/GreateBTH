@@ -1,3 +1,6 @@
+var $BuiltInRegistries = Java.loadClass('net.minecraft.core.registries.BuiltInRegistries')
+var $GTUtil = Java.loadClass('com.gregtechceu.gtceu.utils.GTUtil')
+
 // priority: 0
 ServerEvents.recipes(event => {
 	// #region removal
@@ -16,6 +19,16 @@ ServerEvents.recipes(event => {
 	event.remove({id: 'gtceu:mixer/mud'})
 	event.remove({id: 'gtceu:shaped/knife_flint'})
 	event.remove({id: 'gtceu:shaped/good_circuit_board'})
+	/* event.remove({type: 'gtceu:large_boiler'})
+
+		$BuiltInRegistries.ITEM.forEach(item => {
+		var burnTime = $GTUtil.getItemBurnTime(item)
+		if(burnTime > 0) {
+			event.recipes.gtceu.steam_boiler($BuiltInRegistries.ITEM.getKey(item))
+				.itemInputs(item)
+				.duration(burnTime * 4 * 20)
+		}
+	}) */
 
 	const tiers = ['lv', 'mv', 'hv' /*'ev', 'iv', 'luv', 'zpm', 'uv' */]
 	const components = [

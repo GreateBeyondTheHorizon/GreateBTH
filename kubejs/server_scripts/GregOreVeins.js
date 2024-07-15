@@ -1,7 +1,18 @@
+const UtilsJS = Java.loadClass('dev.latvian.mods.kubejs.util.UtilsJS')
+
 GTCEuServerEvents.oreVeins(event => {
 	event.removeAll()
 
 	const passiveLayers = {
+		aether: pattern => {
+			pattern
+				.layer(l => {
+					l
+						.weight(1)
+						.state(() => UtilsJS.parseBlockState('aether:holystone[double_drops=true]'))
+						.size(2, 3)
+				})
+		},
 		moon: pattern => {
 			pattern
 				.layer(l => {
@@ -142,27 +153,6 @@ GTCEuServerEvents.oreVeins(event => {
 			vein.density(1.0)
 			vein.discardChanceOnAirExposure(0)
 			vein.layer(worldGenLayer)
-			switch (worldGenLayer) {
-				case GTWorldGenLayers.STONE:
-				case GTWorldGenLayers.DEEPSLATE:
-					vein.dimensions('minecraft:overworld')
-					vein.biomes('#minecraft:is_overworld')
-					break
-				case GTWorldGenLayers.NETHERRACK:
-					vein.dimensions('minecraft:the_nether')
-					vein.biomes('#minecraft:is_nether')
-					break
-				case GTWorldGenLayers.ENDSTONE:
-					vein.dimensions('minecraft:the_end')
-					vein.biomes('#minecraft:is_end')
-					break
-				case 'moon':
-					vein.dimensions('ad_astra:moon')
-					vein.biomes('ad_astra:lunar_wastelands')
-					break
-				default:
-					console.error("Unknown layer type: '" + worldGenLayer + "'")
-			}
 			vein.heightRangeUniform(minHeightRange, maxHeightRange)
 			vein.layeredVeinGenerator(generator =>
 				generator.buildLayerPattern(pattern => {
@@ -312,6 +302,7 @@ GTCEuServerEvents.oreVeins(event => {
 		pattern
 			.layer(l => l.weight(4).mat(GTMaterials.Tin).size(1, 2))
 			.layer(l => l.weight(2).mat(GTMaterials.Cassiterite).size(1, 1))
+			.layer(l => l.weight(2).mat(GTMaterials.CassiteriteSand).size(1, 1))
 	})
 	addVein('coal_vein', GTWorldGenLayers.STONE, 30, 80, 10, 140, GTMaterials.Coal, 'surface', passiveLayers.calcite, pattern => {
 		pattern
@@ -352,13 +343,6 @@ GTCEuServerEvents.oreVeins(event => {
 			.layer(l => l.weight(2).mat(GTMaterials.Hematite).size(1, 1))
 			.layer(l => l.weight(1).mat(GTMaterials.Malachite).size(1, 1))
 	})
-	addVein('lubricant_vein', GTWorldGenLayers.STONE, 20, 40, 0, 50, GTMaterials.Talc, 'surface', passiveLayers.calcite, pattern => {
-		pattern
-			.layer(l => l.weight(3).mat(GTMaterials.Soapstone).size(2, 3))
-			.layer(l => l.weight(2).mat(GTMaterials.Talc).size(1, 1))
-			.layer(l => l.weight(2).mat(GTMaterials.GlauconiteSand).size(1, 1))
-			.layer(l => l.weight(1).mat(GTMaterials.Pentlandite).size(1, 1))
-	})
 	addVein('magnetite_vein_ow', GTWorldGenLayers.STONE, 25, 80, 10, 60, GTMaterials.Magnetite, 'surface', passiveLayers.tuff, pattern => {
 		pattern
 			.layer(l => l.weight(3).mat(GTMaterials.Magnetite).size(2, 3))
@@ -372,13 +356,6 @@ GTCEuServerEvents.oreVeins(event => {
 			.layer(l => l.weight(2).mat(GTMaterials.GraniticMineralSand).size(1, 1))
 			.layer(l => l.weight(2).mat(GTMaterials.FullersEarth).size(1, 1))
 			.layer(l => l.weight(1).mat(GTMaterials.Gypsum).size(1, 1))
-	})
-	addVein('nickel_vein', GTWorldGenLayers.STONE, 25, 40, -10, 60, GTMaterials.Nickel, 'surface', passiveLayers.tuff, pattern => {
-		pattern
-			.layer(l => l.weight(3).mat(GTMaterials.Garnierite).size(2, 3))
-			.layer(l => l.weight(2).mat(GTMaterials.Nickel).size(1, 1))
-			.layer(l => l.weight(2).mat(GTMaterials.Cobaltite).size(1, 1))
-			.layer(l => l.weight(1).mat(GTMaterials.Pentlandite).size(1, 1))
 	})
 	addVein('salts_vein', GTWorldGenLayers.STONE, 25, 50, 30, 70, GTMaterials.Salt, 'surface', passiveLayers.calcite, pattern => {
 		pattern
@@ -446,5 +423,53 @@ GTCEuServerEvents.oreVeins(event => {
 			.layer(l => l.weight(2).mat(GTMaterials.Pyrope).size(1, 1))
 			.layer(l => l.weight(1).mat(GTMaterials.Sapphire).size(1, 1))
 			.layer(l => l.weight(1).mat(GTMaterials.GreenSapphire).size(1, 1))
+	})
+
+	//Aether
+	addVein('aether_minerals_vein', 'aether', 10, 40, 20, 80, 'zanite', 'surface', passiveLayers.aether, pattern => {
+		pattern
+			.layer(l => l.weight(2).mat('ambrosium').size(1, 3))
+			.layer(l => l.weight(2).mat('zanite').size(1, 3))
+			.layer(l => l.weight(2).mat('skyjade').size(1, 3))
+			.layer(l => l.weight(1).mat('gravitite').size(1, 2))
+	})
+
+	addVein('nickel_vein_aether', 'aether', 20, 40, 20, 80, 'nickel', 'surface', passiveLayers.aether, pattern => {
+		pattern
+			.layer(l => l.weight(3).mat(GTMaterials.Garnierite).size(2, 3))
+			.layer(l => l.weight(2).mat(GTMaterials.Nickel).size(1, 1))
+			.layer(l => l.weight(2).mat(GTMaterials.Cobaltite).size(1, 1))
+			.layer(l => l.weight(1).mat(GTMaterials.Pentlandite).size(1, 1))
+	})
+
+	addVein('lubricant_vein_aether', 'aether', 20, 40, 20, 90, 'talc', 'surface', passiveLayers.aether, pattern => {
+		pattern
+			.layer(l => l.weight(3).mat(GTMaterials.Soapstone).size(2, 3))
+			.layer(l => l.weight(2).mat(GTMaterials.Talc).size(1, 1))
+			.layer(l => l.weight(2).mat(GTMaterials.GlauconiteSand).size(1, 1))
+			.layer(l => l.weight(1).mat(GTMaterials.Pentlandite).size(1, 1))
+	})
+
+	addVein('iron_vein_aether', 'aether', 20, 60, 20, 90, 'goethite', 'surface', passiveLayers.aether, pattern => {
+		pattern
+			.layer(l => l.weight(5).mat(GTMaterials.Goethite).size(1, 2))
+			.layer(l => l.weight(2).mat(GTMaterials.YellowLimonite).size(1, 1))
+			.layer(l => l.weight(2).mat(GTMaterials.Hematite).size(1, 1))
+			.layer(l => l.weight(1).mat(GTMaterials.Malachite).size(1, 1))
+	})
+
+	addVein('copper_vein_aether', 'aether', 20, 60, 20, 90, 'chalcopyrite', 'surface', passiveLayers.aether, pattern => {
+		pattern
+			.layer(l => l.weight(5).mat(GTMaterials.Chalcopyrite).size(2, 2))
+			.layer(l => l.weight(2).mat(GTMaterials.Zeolite).size(1, 2))
+			.layer(l => l.weight(2).mat(GTMaterials.Cassiterite).size(1, 2))
+			.layer(l => l.weight(1).mat(GTMaterials.Realgar).size(1, 2))
+	})
+
+	addVein('tin_vein_aether', 'aether', 20, 60, 20, 90, 'cassiterite', 'surface', passiveLayers.aether, pattern => {
+		pattern
+			.layer(l => l.weight(4).mat(GTMaterials.Tin).size(1, 2))
+			.layer(l => l.weight(2).mat(GTMaterials.Cassiterite).size(1, 1))
+			.layer(l => l.weight(2).mat(GTMaterials.CassiteriteSand).size(1, 1))
 	})
 })

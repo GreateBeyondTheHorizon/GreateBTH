@@ -1,4 +1,5 @@
 // priority: 0
+const UtilsJS = Java.loadClass('dev.latvian.mods.kubejs.util.UtilsJS')
 console.info('Ores Modified')
 
 WorldgenEvents.remove(event => {
@@ -14,7 +15,7 @@ WorldgenEvents.remove(event => {
  
     event.removeOres(props => {
         props.worldgenLayer = 'underground_ores'
-        props.blocks = [/create:(.*)/, /byg:(.*)/, /sgjourney:(.*)/].concat(minecraftOreVeins)
+        props.blocks = [/create:(.*)/, /byg:(.*)/, /sgjourney:(.*)/, /aether:(.*)/].concat(minecraftOreVeins)
     })
  })
 
@@ -22,12 +23,16 @@ GTCEuStartupEvents.registry('gtceu:world_gen_layer', e => {
     e.create('moon')
         .targets('ad_astra:moon_stone')
         .dimensions('ad_astra:moon')
+
+    e.create('aether')
+        .targets('aether:holystone')
+        .dimensions('aether:the_aether')
 })
 
 
 GTCEuStartupEvents.registry('gtceu:tag_prefix', e => {
     let stoneTypes = [
-        'ad_astra:moon_stone', 'ad_astra:mars_stone', 'ad_astra:venus_stone', 'ad_astra:mercury_stone', 'ad_astra:glacio_stone', 'aether:holystone'
+        'ad_astra:moon_stone', 'ad_astra:mars_stone', 'ad_astra:venus_stone', 'ad_astra:mercury_stone', 'ad_astra:glacio_stone'
     ]
 
     stoneTypes.forEach(type => {
@@ -39,4 +44,12 @@ GTCEuStartupEvents.registry('gtceu:tag_prefix', e => {
             .miningToolTag("mineable/pickaxe")
             .generationCondition(ItemGenerationCondition.hasOreProperty)
     })
+
+    e.create('holystone', 'ore')
+            .baseModelLocation('aether:block/holystone')
+            .stateSupplier(() => UtilsJS.parseBlockState('aether:holystone[double_drops=true]'))
+            .unificationEnabled(true)
+            .materialIconType(GTMaterialIconType.ore)
+            .miningToolTag("mineable/pickaxe")
+            .generationCondition(ItemGenerationCondition.hasOreProperty)
 })

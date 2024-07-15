@@ -1,6 +1,4 @@
 ServerEvents.tags('item', event => {
-	event.add('minecraft:coals', ['gtceu:raw_coal', 'gtceu:coal_dust', 'gtceu:charcoal_dust'])
-
 	event.add('forge:armors', /ad_astra:jet(.*)/)
 	event.add('forge:armors', /ad_astra:(.*)space(.*)/)
 
@@ -42,17 +40,34 @@ ServerEvents.tags('item', event => {
 
 	event.add('gtceu:rubber_logs', ['gtceu:rubber_log', 'gtceu:stripped_rubber_log', 'gtceu:rubber_wood', 'gtceu:stripped_rubber_wood'])
 
+	event.add('minecraft:coals', ['gtceu:raw_coal', 'gtceu:coal_dust', 'gtceu:charcoal_dust'])
 	event.add('minecraft:planks', ['aether:skyroot_planks', 'deep_aether:roseroot_planks', 'deep_aether:yagroot_planks', 'deep_aether:cruderoot_planks', 'deep_aether:conberry_planks', 'deep_aether:sunroot_planks'])
 	event.add('minecraft:fence_gates', ['mynethersdelight:powdery_fence_gate', 'aether:skyroot_fence_gate'])
+	event.add('minecraft:bamboo_logs', ['minecraft:bamboo_block', 'minecraft:stripped_bamboo_block'])
+	event.add('minecraft:crimson_logs', ['minecraft:crimson_stem', 'minecraft:crimson_hyphae', 'minecraft:stripped_crimson_stem', 'minecraft:stripped_crimson_hyphae'])
+	event.add('minecraft:warped_logs', ['minecraft:warped_stem', 'minecraft:warped_hyphae', 'minecraft:stripped_warped_stem', 'minecraft:stripped_warped_hyphae'])
 
 	event.add('chipped:glass', ['aether:quicksoil_glass'])
 	event.add('chipped:glass_pane', ['aether:quicksoil_glass_pane'])
 
 	event.add('dankstorage:blacklisted_storage', ['#forge:ores', '#forge:raw_materials'])
 
+	event.add('aether:book_of_lore_materials', ['gtceu:ambrosium_gem'])
+	event.add('aether:gems/zanite', ['#forge:gems/zanite'])
+	event.add('aether:processed/gravitite', ['#forge:storage_blocks/gravitite'])
+	event.add('aether:zanite_repairing', ['#forge:gems/zanite'])
+	event.add('aether:gravitite_repairing', ['#forge:gems/gravitite'])
+	event.add('aether:obsidian_repairing', ['minecraft:obsidian'])
+	event.add('deep_aether:skyjade_repairing', ['#forge:gems/skyjade'])
+
+	event.add('mynethersdelight:powdery_logs', ['mynethersdelight:powdery_block', 'mynethersdelight:stripped_powdery_block'])
+
+	event.add('ad_astra:aeronos_logs', ['ad_astra:aeronos_cap', 'ad_astra:aeronos_stem'])
+	event.add('ad_astra:strophar_logs', ['ad_astra:strophar_cap', 'ad_astra:strophar_stem'])
+
 	event.remove('create:sandpaper', ['create:sand_paper', 'create:red_sand_paper'])
 
-	event.remove('minecraft:planks', 'gtceu:treated_wood_planks')
+	event.remove('minecraft:planks', ['gtceu:treated_wood_planks', 'createdieselgenerators:chip_wood_block'])
 	event.remove('minecraft:wooden_slabs', 'createdieselgenerators:chip_wood_slab')
 })
 
