@@ -24,6 +24,7 @@
 - Added Shulker Box Tooltip
 - Removed Terralith
 - Added William Wythers' Expanded Ecosphere
+- Added Canary
 - appliedenergistics2-forge-15.2.8 -> appliedenergistics2-forge-15.2.9
 - embeddium-0.3.24+mc1.20.1 -> embeddium-0.3.25+mc1.20.1 
 - greate-0.0.23 -> greate-0.0.24
