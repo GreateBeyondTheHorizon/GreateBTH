@@ -1,7 +1,8 @@
 {
   "dependencies": [
     "setting_up_camp",
-    "primitive_crafting"
+    "primitive_crafting",
+    "more_forms_to_sign"
   ],
   "tasks": {
     "clay_bucket": {
@@ -17,10 +18,10 @@
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
-          "Type": "COMMON",
-          "Color": 13882323,
           "Loot": "lootbags:kjs/1nahon2xq5tpy6fivtu10isy8",
-          "Name": "Lootbag (Dirt Age)"
+          "Name": "Lootbag (Dirt Age)",
+          "Color": 13882323,
+          "Type": "COMMON"
         }
       },
       "type": "heracles:item"
