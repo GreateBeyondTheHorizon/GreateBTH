@@ -17,6 +17,9 @@
 - Fix empty tag errors
 - Disable redstone lubricant brewery recipes
 - Add missing logs to modification list
+- Add blooms for redstone & iron
+- Update ambrosium enchanting recipe to use correct ambrosium
+- Update aether altar to use correct ambrosium
 
 **Mod Changes**
 - Added BetterF3
@@ -25,6 +28,7 @@
 - Removed Terralith
 - Added William Wythers' Expanded Ecosphere
 - Added Canary
+- Added More Overlays Updated
 - appliedenergistics2-forge-15.2.8 -> appliedenergistics2-forge-15.2.9
 - embeddium-0.3.24+mc1.20.1 -> embeddium-0.3.25+mc1.20.1 
 - greate-0.0.23 -> greate-0.0.24

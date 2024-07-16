@@ -3,11 +3,11 @@ filename = "findme-3.2.1-forge.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/rEuzehyH/versions/BYWcTIfc/findme-3.2.1-forge.jar"
 hash-format = "sha1"
 hash = "c5f81bfb1ac556bf0eb197aecd0f1fe3b5469ce0"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "rEuzehyH"
-version = "BYWcTIfc"
+[update.curseforge]
+file-id = 5074609
+project-id = 291936
