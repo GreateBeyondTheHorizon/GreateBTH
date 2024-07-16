@@ -71,10 +71,6 @@ ServerEvents.tags('item', event => {
 	event.remove('minecraft:wooden_slabs', 'createdieselgenerators:chip_wood_slab')
 })
 
-ServerEvents.tags('worldgen/biome', event => {
-	event.remove('terralith:has_structure/spire', ['minecraft:frozen_river'])
-})
-
 ServerEvents.tags('fluid', event => {
 	event.remove('forge:oxygen', ['ad_astra:oxygen'])
 })

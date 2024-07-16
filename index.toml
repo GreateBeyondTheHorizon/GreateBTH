@@ -1297,9 +1297,6 @@ file = "kubejs/server_scripts/Mods/SophisticatedBackpacks.js"
 file = "kubejs/server_scripts/Mods/SophisticatedStorage.js"
 
 [[files]]
-file = "kubejs/server_scripts/Mods/Terralith.js"
-
-[[files]]
 file = "kubejs/server_scripts/Mods/TomsSimpleStorage.js"
 
 [[files]]
@@ -1503,6 +1500,10 @@ file = "mods/create.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/cristel-lib.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/curios.pw.toml"
 metafile = true
 
@@ -1548,6 +1549,10 @@ metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/expanded-ecosphere.pw.toml"
 metafile = true
 
 [[files]]
@@ -1807,10 +1812,6 @@ metafile = true
 
 [[files]]
 file = "mods/terrablender.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/terralith.pw.toml"
 metafile = true
 
 [[files]]
