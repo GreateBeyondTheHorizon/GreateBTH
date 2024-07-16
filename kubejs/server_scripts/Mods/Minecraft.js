@@ -36,6 +36,7 @@ ServerEvents.recipes(event => {
 	event.remove({id: 'minecraft:beetroot_soup'})
 	event.remove({id: /minecraft:rabbit_stew_from(.*)/})
 	event.remove({id: 'minecraft:campfire'})
+	event.remove({id: 'aether:holystone_stonecutter'})
 
 	event.campfireCooking('minecraft:brick', 'gtceu:compressed_clay').cookingTime(300).xp(0.3)
 
@@ -396,4 +397,14 @@ ServerEvents.recipes(event => {
 			S: 'minecraft:stick'
 		}
 	)
+
+	// Remove slime block shaped crafting, as slime blocks should be made in a compressor
+	event.remove({id: 'minecraft:slime_block'})
+	event.remove({id: 'aether:swet_slime_block'})
+
+	// Replace slime balls in recipes with #forge:slimeballs to allow for using aether slime balls (Swet Balls)
+	event.remove({id: 'aether:swet_sticky_piston'})
+	event.remove({id: 'aether:swet_slime_block'})
+	event.remove({id: 'aether:swet_lead'})
+	event.replaceInput({ input: 'minecraft:slime_ball' }, 'minecraft:slime_ball', '#forge:slimeballs')
 })
