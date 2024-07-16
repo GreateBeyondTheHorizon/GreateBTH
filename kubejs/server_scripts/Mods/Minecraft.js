@@ -38,7 +38,6 @@ ServerEvents.recipes(event => {
 	event.remove({id: 'minecraft:campfire'})
 
 	event.campfireCooking('minecraft:brick', 'gtceu:compressed_clay').cookingTime(300).xp(0.3)
-	event.campfireCooking('minecraft:redstone', 'gtceu:raw_redstone').cookingTime(300).xp(0.9)
 
 	event.recipes.create.mixing('minecraft:cake', [Fluid.of('minecraft:milk', 3000), '2x minecraft:sugar', 'farmersdelight:pie_crust', 'minecraft:sweet_berries']).heated()
 	event.recipes.create.mixing('minecraft:pumpkin_pie', ['minecraft:sugar', 'farmersdelight:pie_crust', 'minecraft:pumpkin']).heated()
@@ -51,7 +50,6 @@ ServerEvents.recipes(event => {
 	//Temp
 	event.remove({type: 'minecraft:smelting', output: 'gtceu:wrought_iron_nugget'})
 	event.smelting('minecraft:iron_nugget', 'gtceu:wrought_iron_nugget')
-	event.campfireCooking('minecraft:iron_nugget', 'gtceu:wrought_iron_nugget').cookingTime(300)
 	
 
 	// Netherite ingot

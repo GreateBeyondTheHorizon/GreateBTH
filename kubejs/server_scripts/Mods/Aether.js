@@ -21,6 +21,7 @@ ServerEvents.recipes(event => {
     event.remove({id: /(aether|deep_aether):(zanite|skyjade|gravitite)_(helmet|chestplate|leggings|boots)/})
     event.remove({id: /(aether|deep_aether):(zanite|skyjade|gravitite)_(sword|pickaxe|axe|shovel|hoe)/})
     event.remove({id: 'aether:quicksoil_glass_enchanting'})
+    event.remove({id: 'aether:ambrosium_enchant_aether_grass_to_enchanted_aether_grass'})
 
     event.replaceInput({id: 'deep_aether:stratus_smithing_template_from_gravitite'}, 'gtceu:gravitite_block', 'gtceu:gravitite_gem')
 

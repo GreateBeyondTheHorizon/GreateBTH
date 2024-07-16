@@ -82,6 +82,10 @@ ItemEvents.modification(event => {
 		item.burnTime = 14400
 	})
 
+	event.modify('aether:ambrosium_shard', item => {
+		item.burnTime = 0
+	})
+
 	event.modify('aether:ambrosium_block', item => {
 		item.burnTime = 0
 	})

@@ -9,6 +9,8 @@ GTCEuStartupEvents.registry("gtceu:material", (event) => {
 
   GTMaterials.get("andesite_alloy").addFlags(GTMaterialFlags.DISABLE_DECOMPOSITION)
   GTMaterials.get("andesite_alloy").setProperty(GBTHCorePropertyKeys.BLOOM, new $BloomProperty())
+  GTMaterials.Iron.setProperty(GBTHCorePropertyKeys.BLOOM, new $BloomProperty())
+  GTMaterials.Redstone.setProperty(GBTHCorePropertyKeys.BLOOM, new $BloomProperty())
 
   event.create('zanite')
     .gem(2)
@@ -36,5 +38,5 @@ GTCEuStartupEvents.registry("gtceu:material", (event) => {
     .ore()
     .color(0xfefb64)
     .iconSet(GTMaterialIconSet.GEM_VERTICAL)
-    .burnTime(19200)
+    .burnTime(1600)
 });

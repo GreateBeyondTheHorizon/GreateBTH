@@ -1,0 +1,13 @@
+{
+    "type": "lychee:block_interacting",
+    "item_in": {
+        "item": "gtceu:ambrosium_gem"
+    },
+    "block_in": "aether:aether_grass_block",
+    "post": [
+        {
+            "type": "place",
+            "block": "aether:enchanted_aether_grass_block"
+        }
+    ]
+}

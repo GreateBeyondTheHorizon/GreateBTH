@@ -31,10 +31,19 @@ file = "config/fancymenu/custom_gui_screens.txt"
 file = "config/fancymenu/customizablemenus.txt"
 
 [[files]]
+file = "config/fancymenu/customization/connect_screen_layout.txt"
+
+[[files]]
 file = "config/fancymenu/customization/loading1.txt"
 
 [[files]]
 file = "config/fancymenu/customization/menu1.txt"
+
+[[files]]
+file = "config/fancymenu/customization/progress_screen_layout.txt"
+
+[[files]]
+file = "config/fancymenu/customization/receiving_level_screen_layout.txt"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -1000,6 +1009,9 @@ file = "kubejs/config/packicon.png"
 file = "kubejs/config/probejs.json"
 
 [[files]]
+file = "kubejs/data/gbth/recipes/enchanted_grass.json"
+
+[[files]]
 file = "kubejs/data/gbth/recipes/mud.json"
 
 [[files]]
@@ -1691,6 +1703,10 @@ file = "mods/modernfix.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/more-overlays-updated.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/morejs.pw.toml"
 metafile = true
 
@@ -1864,8 +1880,4 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/gregtech-refreshed.pw.toml"
-metafile = true
-
-[[files]]
-file = "resourcepacks/toms-create-storage.pw.toml"
 metafile = true
