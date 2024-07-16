@@ -1,6 +1,6 @@
 name = "William Wythers' Expanded Ecosphere"
 filename = "expanded_ecosphere-3.2.4-forge.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/O1XGs7ps/versions/jhyrH2s8/expanded_ecosphere-3.2.4-forge.jar"
