@@ -1,6 +1,6 @@
 name = "Cristel Lib"
 filename = "cristellib-1.1.5-forge.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/cl223EMc/versions/amI1oyGG/cristellib-1.1.5-forge.jar"
