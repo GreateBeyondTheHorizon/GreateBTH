@@ -4,17 +4,6 @@ console.info('Items Modified')
 ItemEvents.modification(event => {
 	event.modify(
 		[
-			/minecraft:raw_(.*)/,
-			/gtceu:raw_(.*)/,
-			/ad_astra:raw_(.*)/,
-			/gtceu:(.*)_ore/,
-		],
-		item => {
-			item.maxStackSize = 32
-		}
-	)
-	event.modify(
-		[
 			/minecraft:raw_(.*)_block/,
 			/gtceu:raw_(.*)_block/,
 			/ad_astra:raw_(.*)_block/,
