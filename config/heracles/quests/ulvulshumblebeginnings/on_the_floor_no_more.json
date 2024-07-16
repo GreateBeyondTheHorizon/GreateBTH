@@ -10,7 +10,13 @@
       "collection": "AUTOMATIC"
     }
   },
-  "rewards": {},
+  "rewards": {
+    "crafted_bed": {
+      "title": "Unlock ability to use beds",
+      "command": "kubejs stages add @s crafted_bed",
+      "type": "heracles:command"
+    }
+  },
   "display": {
     "subtitle": {
       "text": ""
@@ -40,7 +46,7 @@
   "settings": {
     "showDependencyArrow": true,
     "repeatable": false,
-    "autoClaimRewards": false,
+    "autoClaimRewards": true,
     "individual_progress": false,
     "hidden": "LOCKED",
     "unlockNotification": false
