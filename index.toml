@@ -703,6 +703,9 @@ file = "kubejs/assets/emi/recipe/filters/hide.json"
 file = "kubejs/assets/emi_loot/lang/en_us.json"
 
 [[files]]
+file = "kubejs/assets/forge/models/tag/item/slimeballs.json"
+
+[[files]]
 file = "kubejs/assets/gbth/lang/en_us.json"
 
 [[files]]
@@ -938,9 +941,6 @@ file = "kubejs/assets/kubejs/textures/item/stainless_steel_engine.png"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/stainless_steel_fin.png"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/stone_hammer.png"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/titanium_bee_food.png"

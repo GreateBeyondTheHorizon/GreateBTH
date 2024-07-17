@@ -35,22 +35,10 @@ ServerEvents.recipes(event => {
 
     function metalworkingRecipe(output, input, form) {
         if (form != undefined) {
-            event.shapeless(
-                Item.of(output),
-                [
-                    form,
-                    ['kubejs:stone_hammer', '#forge:tools/hammers'],
-                    input
-                ]
-            ).keepIngredient(form).damageIngredient('kubejs:stone_hammer')
+            event.shapeless(Item.of(output), [form, '#forge:tools/hammers', input])
+                .keepIngredient(form)
         } else {
-            event.shapeless(
-                Item.of(output),
-                [
-                    ['kubejs:stone_hammer', '#forge:tools/hammers'],
-                    input
-                ]
-            ).damageIngredient('kubejs:stone_hammer')
+            event.shapeless(Item.of(output), ['#forge:tools/hammers', input])
         }
     }
 })

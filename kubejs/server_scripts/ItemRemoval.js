@@ -70,6 +70,20 @@ ServerEvents.tags('block', event => {
 })
 
 ServerEvents.recipes(event => {
+    // Remove the recipes for removed tags, and either remove them in inputs or replace them with Removed Tag Placeholders
+	for (const tagData of global.TagsToRemove) {
+        event.remove({ output: tagData.tag })
+        if (tagData.removeInputRecipes === true) {
+            event.remove({ input: tagData.tag })
+        } else {
+            event.replaceInput(
+                { input: tagData.tag },
+                tagData.tag,
+                Item.of('kubejs:removed_tag_placeholder', '{Removed: "' + tagData.tag + '"}').strongNBT()
+            )
+        }
+    }
+
     // Remove the recipes for removed items, and replace them in inputs as Removed Item Placeholders
 	for (const item of global.ItemsToRemove) {
         event.remove({ output: item })
@@ -84,7 +98,7 @@ ServerEvents.recipes(event => {
     }
 
     extraRecipesToRemove.forEach(recipe => {
-        event.remove({id: recipe})
+        event.remove({ id: recipe })
     })
 
     recipesToReplace.forEach(recipe => {

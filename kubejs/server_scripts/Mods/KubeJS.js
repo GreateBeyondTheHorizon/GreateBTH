@@ -93,18 +93,6 @@ ServerEvents.recipes(event => {
 		}
 	)
 
-	event.shaped('kubejs:stone_hammer',
-		[
-			'RC',
-			'S '
-		],
-		{
-			R: 'farmersdelight:rope',
-			C: '#forge:cobblestone',
-			S: '#forge:rods/wooden'
-		}
-	)
-
 	event.shaped('kubejs:netherite_plate',
 		[
 			'H',

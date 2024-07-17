@@ -1,4 +1,14 @@
 StartupEvents.registry('item', event => {
+	// Create removed tag placeholder
+	event
+		.create('removed_tag_placeholder')
+		.displayName('Removed Tag Placeholder')
+		.tooltip(
+			Text.gray(
+				"The original tag was removed in 'startup_scripts/ItemRemoval.js'. Consider removing this recipe or replacing this placeholder with something else."
+			)
+		)
+		.texture('minecraft:item/barrier')
 	// Create removed item placeholder
 	event
 		.create('removed_item_placeholder')
@@ -11,9 +21,21 @@ StartupEvents.registry('item', event => {
 		.texture('minecraft:item/barrier')
 })
 
+global.TagsToRemove = []
 global.ItemsToRemove = []
 
 //// Removal API ////
+
+function removeTag(tag, removeInputRecipes, removeItems) {
+	let fullTag = '#' + tag
+	global.TagsToRemove.push({
+		tag: fullTag,
+		removeInputRecipes: removeInputRecipes
+	})
+	if (removeItems === true) {
+		global.ItemsToRemove.push(fullTag)
+	}
+}
 
 function removeItem(item) {
 	global.ItemsToRemove.push(item)
@@ -42,6 +64,11 @@ function removeNamespaceItems(namespace, items) {
 //////////                REMOVALS                  //////////
 //////////                                          //////////
 //////////////////////////////////////////////////////////////
+
+// Remove tags and items generated as a byproduct of adding the GT stone hammer
+removeTag('forge:storage_blocks/stone', true, true)
+removeTag('forge:ingots/stone', true, true)
+removeTag('forge:nuggets/stone', true, true)
 
 // Create
 removeNamespaceItems('create', [

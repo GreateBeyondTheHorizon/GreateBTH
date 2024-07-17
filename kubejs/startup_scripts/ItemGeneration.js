@@ -98,8 +98,6 @@ StartupEvents.registry('item', event => {
 
 	event.create('mud_brick').displayName('Mud Brick')
 
-	event.create('stone_hammer').maxDamage(64).unstackable().displayName('Stone Hammer')
-
 	event.create('flint_pickaxe_head').displayName('Flint Pickaxe Head')
 	event.create('flint_axe_head').displayName('Flint Axe Head')
 	event.create('flint_shovel_head').displayName('Flint Shovel Head')
