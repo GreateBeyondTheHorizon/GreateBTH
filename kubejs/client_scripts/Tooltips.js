@@ -1,5 +1,14 @@
 ItemEvents.tooltip(event => {
 	event.addAdvanced(
+		'kubejs:removed_tag_placeholder',
+		(item, advanced, text) => {
+			let removedTag = item.nbt?.Removed
+			if (removedTag != undefined) {
+				text.add(Text.darkGray('Removed: ').append(Text.lightPurple(removedTag)))
+			}
+		}
+	)
+	event.addAdvanced(
 		'kubejs:removed_item_placeholder',
 		(item, advanced, text) => {
 			let removedItem = item.nbt?.Removed

@@ -392,13 +392,6 @@ ServerEvents.recipes(event => {
 		}
 	)
 
-	event.shapeless('gtceu:wrought_iron_plate',
-		[
-			'2x gtceu:wrought_iron_ingot',
-			'kubejs:stone_hammer'
-		]
-	)
-
 	event.shaped(
 		Item.of('gtceu:hp_steam_solid_boiler'),
 		[
@@ -425,6 +418,18 @@ ServerEvents.recipes(event => {
 			C: 'gtceu:lv_voltage_coil',
 			T: 'gtceu:tin_single_cable',
 			M: 'gtceu:lv_machine_hull'
+		}
+	)
+
+	event.shaped('gtceu:stone_hammer',
+		[
+			'RC',
+			'S '
+		],
+		{
+			R: 'farmersdelight:rope',
+			C: '#forge:cobblestone',
+			S: '#forge:rods/wooden'
 		}
 	)
 	

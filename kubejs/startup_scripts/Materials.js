@@ -1,3 +1,4 @@
+//priority: 1
 const $BloomProperty = Java.loadClass("com.gbth.gbthcore.gtceu.material.BloomProperty");
 
 GTCEuStartupEvents.registry("gtceu:material", (event) => {
@@ -11,6 +12,11 @@ GTCEuStartupEvents.registry("gtceu:material", (event) => {
   GTMaterials.get("andesite_alloy").setProperty(GBTHCorePropertyKeys.BLOOM, new $BloomProperty())
   GTMaterials.Iron.setProperty(GBTHCorePropertyKeys.BLOOM, new $BloomProperty())
   GTMaterials.Redstone.setProperty(GBTHCorePropertyKeys.BLOOM, new $BloomProperty())
+
+  // Add stone hammer for hammering blooms
+  GTMaterials.Stone.setProperty(PropertyKey.TOOL, ToolProperty.Builder.of(0, 1, 64, 1)
+      .addTypes(GTToolType.HARD_HAMMER)
+      .build())
 
   event.create('zanite')
     .gem(2)
