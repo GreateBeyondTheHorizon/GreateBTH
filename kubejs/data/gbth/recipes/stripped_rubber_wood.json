@@ -1,0 +1,16 @@
+{
+    "type": "lychee:block_interacting",
+    "item_in": {
+        "tag": "minecraft:axes"
+    },
+    "block_in": "gtceu:rubber_wood",
+    "post": [
+        {
+            "type": "place",
+            "block": "gtceu:stripped_rubber_wood"
+        },
+        {
+            "type": "damage_item"
+        }
+    ]
+}
