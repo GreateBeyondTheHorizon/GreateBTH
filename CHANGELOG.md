@@ -24,6 +24,7 @@
 - Add GT stripped rubber log related recipes
 - Add aether & deep aether logs to stripped log/stripped wood tags
 - Fix broken copycat recipes
+- Allow more modded wood-type blocks to be macerated in to wood dust
 
 **Mod Changes**
 - Added BetterF3
@@ -33,6 +34,7 @@
 - Added William Wythers' Expanded Ecosphere
 - Added Canary
 - Added More Overlays Updated
+- Downgrade EMI to show greate tabs
 - appliedenergistics2-forge-15.2.8 -> appliedenergistics2-forge-15.2.9
 - embeddium-0.3.24+mc1.20.1 -> embeddium-0.3.25+mc1.20.1 
 - greate-0.0.23 -> greate-0.0.24
