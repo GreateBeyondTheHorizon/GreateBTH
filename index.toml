@@ -1015,6 +1015,12 @@ file = "kubejs/data/gbth/recipes/enchanted_grass.json"
 file = "kubejs/data/gbth/recipes/mud.json"
 
 [[files]]
+file = "kubejs/data/gbth/recipes/stripped_rubber_log.json"
+
+[[files]]
+file = "kubejs/data/gbth/recipes/stripped_rubber_wood.json"
+
+[[files]]
 file = "kubejs/data/productivebees/productivebees/gtceu/EV/neodymium.json"
 
 [[files]]

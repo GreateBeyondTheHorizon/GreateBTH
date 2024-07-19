@@ -5,4 +5,7 @@ ServerEvents.recipes(event => {
 		'gtceu:wrought_iron_plate',
 		Fluid.of('gtceu:rubber', 864)
 	])
+
+	event.recipes.greate.cutting('gtceu:stripped_rubber_log', ['gtceu:rubber_log'])
+	event.recipes.greate.cutting('gtceu:stripped_rubber_wood', ['gtceu:rubber_wood'])
 })

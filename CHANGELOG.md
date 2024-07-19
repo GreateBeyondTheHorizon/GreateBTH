@@ -20,6 +20,9 @@
 - Add blooms for redstone & iron
 - Update ambrosium enchanting recipe to use correct ambrosium
 - Update aether altar to use correct ambrosium
+- Allow GT rubber log to be stripped
+- Add GT stripped rubber log related recipes
+- Add aether & deep aether logs to stripped log/stripped wood tags
 
 **Mod Changes**
 - Added BetterF3
@@ -35,3 +38,5 @@
 - chat_heads-0.12.6-forge-1.20 -> chat_heads-0.12.8-forge-1.20
 - MyNethersDelight-1.20.1-0.1.7 -> MyNethersDelight-1.20.1-0.1.7.4
 - jei-1.20.1-forge-15.3.0.8 -> jei-1.20.1-forge-15.8.0.9
+- copycats-1.3.8+mc.1.20.1-forge -> copycats-2.0.1+mc.1.20.1-forge
+- journeymap-1.20.1-5.10.0-forge -> journeymap-1.20.1-5.10.1-forge

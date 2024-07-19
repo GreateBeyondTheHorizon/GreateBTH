@@ -210,4 +210,44 @@ ServerEvents.recipes(event => {
 			"tag": "forge:tools/knives"
 		}
 	})
+
+	event.custom({
+		type: "farmersdelight:cutting",
+		ingredients: [
+			{
+				"item": "gtceu:rubber_log"
+			}
+		],
+		result: [
+			{
+				"item": "gtceu:stripped_rubber_log"
+			},
+			{
+				"item": "farmersdelight:tree_bark"
+			}
+		],
+		tool: {
+			"tag": "minecraft:axes"
+		}
+	})
+
+	event.custom({
+		type: "farmersdelight:cutting",
+		ingredients: [
+			{
+				"item": "gtceu:rubber_wood"
+			}
+		],
+		result: [
+			{
+				"item": "gtceu:stripped_rubber_wood"
+			},
+			{
+				"item": "farmersdelight:tree_bark"
+			}
+		],
+		tool: {
+			"tag": "minecraft:axes"
+		}
+	})
 })
