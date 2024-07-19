@@ -23,6 +23,7 @@
 - Allow GT rubber log to be stripped
 - Add GT stripped rubber log related recipes
 - Add aether & deep aether logs to stripped log/stripped wood tags
+- Fix broken copycat recipes
 
 **Mod Changes**
 - Added BetterF3

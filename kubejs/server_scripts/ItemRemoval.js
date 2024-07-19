@@ -37,23 +37,29 @@ var extraRecipesToRemove = [
 var recipesToReplace = [
     {removedItem: "ad_astra:steel_rod", replacement: '#forge:rods/steel'},
     {removedItem: "ad_astra:iron_rod", replacement: '#forge:rods/iron'},
+
+    {removedItem: "ae2:ender_dust", replacement: 'gtceu:ender_pearl_dust'},
+
+    {removedItem: "aether:ambrosium_shard", replacement: 'gtceu:ambrosium_gem'},
+    {removedItem: "aether:zanite_gemstone", replacement: 'gtceu:zanite_gem'},
+
+    {removedItem: "deep_aether:skyjade", replacement: 'gtceu:skyjade_gem'},
+
     {removedItem: "create:copper_sheet", replacement: '#forge:plates/copper'},
     {removedItem: "create:iron_sheet", replacement: '#forge:plates/iron'},
     {removedItem: "create:electron_tube", replacement: '#gtceu:circuits/ulv'},
     {removedItem: "create:sturdy_sheet", replacement: '#forge:plates/obsidian'},
     {removedItem: "create:brass_sheet", replacement: '#forge:plates/brass'},
     {removedItem: "create:brass_ingot", replacement: '#forge:plates/brass'},
-    {removedItem: "gtceu:hp_steam_macerator", replacement: 'greate:andesite_alloy_millstone'},
+    {removedItem: "create:zinc_ingot", replacement: '#forge:plates/zinc'},
     {removedItem: "create:dough", replacement: 'farmersdelight:wheat_dough'},
+    {removedItem: "create:andesite_alloy", replacement: 'gtceu:andesite_alloy_ingot'},
+
+    {removedItem: "gtceu:hp_steam_macerator", replacement: 'greate:andesite_alloy_millstone'},
     {removedItem: "gtceu:iv_macerator", replacement: 'greate:tungsten_steel_millstone'},
     {removedItem: "gtceu:iv_bender", replacement: 'greate:tungsten_steel_mechanical_press'},
     {removedItem: "gtceu:iv_mixer", replacement: 'greate:tungsten_steel_mechanical_mixer'},
-    {removedItem: "gtceu:iv_cutter", replacement: 'greate:tungsten_steel_mechanical_saw'},
-    {removedItem: "ae2:ender_dust", replacement: 'gtceu:ender_pearl_dust'},
-    {removedItem: "create:andesite_alloy", replacement: 'gtceu:andesite_alloy_ingot'},
-    {removedItem: "aether:ambrosium_shard", replacement: 'gtceu:ambrosium_gem'},
-    {removedItem: "aether:zanite_gemstone", replacement: 'gtceu:zanite_gem'},
-    {removedItem: "deep_aether:skyjade", replacement: 'gtceu:skyjade_gem'}
+    {removedItem: "gtceu:iv_cutter", replacement: 'greate:tungsten_steel_mechanical_saw'}   
 ]
 
 ServerEvents.tags('item', event => {
