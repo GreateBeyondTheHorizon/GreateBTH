@@ -16,10 +16,10 @@
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
-          "Type": "COMMON",
-          "Color": 13882323,
           "Loot": "lootbags:kjs/1nahon2xq5tpy6fivtu10isy8",
-          "Name": "Lootbag (Dirt Age)"
+          "Name": "Lootbag (Dirt Age)",
+          "Color": 13882323,
+          "Type": "COMMON"
         }
       },
       "type": "heracles:item"
@@ -32,7 +32,7 @@
     "description": [
       "In order to craft the /d/Bloomery/d/, you'll need some /d/Mud/d/.",
       "",
-      "You can either craft it, or if you're lucky, find some in a /d/Mangrove Swamp/d/."
+      "You can get /d/Mud/d/ by picking up some /d/Water/d/ with your new /d/Ceramic Bucket/d/ and placing it on some /d/Dirt/d/. You'll need a lot of water, so rivers and oceans are the best for this as water elsewhere isn't infinite. Alternatively, you could get lucky and find a biome with lots of mud blocks."
     ],
     "groups": {
       "Introduction": {
