@@ -278,23 +278,6 @@ ServerEvents.recipes(event => {
 			]
 	).keepIngredient('kubejs:block_wooden_form')
 
-
-	event.shapeless(
-		Item.of('minecraft:mud', 3),
-			[
-				Item.of('ceramicbucket:ceramic_bucket', '{Fluid:{Amount:1000,FluidName:"minecraft:water"}}').strongNBT(),
-				'3x minecraft:dirt'
-			]
-	)
-
-	event.shapeless(
-		Item.of('minecraft:mud', 3),
-			[
-				Item.of('minecraft:water_bucket'),
-				'3x minecraft:dirt'
-			]
-	)
-
 	event.shapeless(
 		Item.of('minecraft:flint'),
 			[

@@ -1,0 +1,6 @@
+{
+    "type": "emi:world_interaction",
+    "left": "item:minecraft:dirt",
+    "right": "item:ceramicbucket:ceramic_bucket{Fluid:{Amount:1000,FluidName:\"minecraft:water\"}}",
+    "output": "item:minecraft:mud"
+}
