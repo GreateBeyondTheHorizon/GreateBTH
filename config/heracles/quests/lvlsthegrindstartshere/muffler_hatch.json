@@ -2,13 +2,22 @@
   "dependencies": [
     "microcrafting_hell_begins_1"
   ],
-  "tasks": {},
+  "tasks": {
+    "muffler_hatch": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_muffler_hatch",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
   "rewards": {},
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      ""
+    ],
     "groups": {
       "LV/LS - The Grind Starts Here": {
         "position": [
