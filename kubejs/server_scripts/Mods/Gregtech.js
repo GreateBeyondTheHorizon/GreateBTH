@@ -14,7 +14,6 @@ ServerEvents.recipes(event => {
 	event.remove({id: /gtceu:primitive_blast_furnace(.*)/})
 	event.remove({output: /gtceu:(.*)_mold/})
 	event.remove({id: 'gtceu:shaped/steam_boiler_coal_steel'})
-	event.remove({id: 'gtceu:shaped/energy_hatch_lv'})
 	event.remove({id: 'gtceu:shaped/vacuum_tube'})
 	event.remove({id: 'gtceu:mixer/mud'})
 	event.remove({id: 'gtceu:shaped/knife_flint'})
@@ -46,6 +45,15 @@ ServerEvents.recipes(event => {
 		components.forEach(component => {
 			event.remove({ output: `gtceu:${tier}_${component}` })
 		})
+	})
+
+	Ingredient.of(/(gtceu|minecraft):raw(.*)_block/).itemIds.forEach(block => {
+		event.recipes.gtceu.alloy_smelter(block)
+			.itemInputs(block)
+			.itemOutputs(`9x ${block.substring(0, block.length - 6)}`)
+			.notConsumable('gtceu:ingot_casting_mold')
+			.duration(300)
+			.EUt(7)
 	})
 
 	//#region replacement
@@ -404,20 +412,6 @@ ServerEvents.recipes(event => {
 			W: '#forge:tools/wrenches',
 			B: 'minecraft:bricks',
 			C: 'gtceu:steel_brick_casing'
-		}
-	)
-
-	event.shaped(
-		Item.of('gtceu:lv_energy_input_hatch'),
-		[
-			'LCL',
-			'TMT'
-		],
-		{
-			L: Item.of('gtceu:fluid_cell', '{Fluid:{Amount:1000,FluidName:"gtceu:lubricant"}}').strongNBT(),
-			C: 'gtceu:lv_voltage_coil',
-			T: 'gtceu:tin_single_cable',
-			M: 'gtceu:lv_machine_hull'
 		}
 	)
 

@@ -25,6 +25,9 @@
 - Add aether & deep aether logs to stripped log/stripped wood tags
 - Fix broken copycat recipes
 - Allow more modded wood-type blocks to be macerated in to wood dust
+- Change lv and mv energy hatches to be assembler only (void bug with filled cells)
+- Gate some more AE2 things to HV
+- Allow raw ore blocks to be de-compressed
 
 **Mod Changes**
 - Added BetterF3

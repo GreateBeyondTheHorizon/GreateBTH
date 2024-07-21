@@ -1,13 +1,23 @@
 ServerEvents.recipes(event => {
-	event.remove({ output: 'ae2:logic_processor' })
-	event.remove({ output: 'ae2:calculation_processor' })
-	event.remove({ output: 'ae2:engineering_processor' })
-	event.remove({ id: 'ae2:charger/charged_certus_quartz_crystal' })
+	event.remove({id:'ae2:inscriber/logic_processor'})
+	event.remove({id:'ae2:inscriber/calculation_processor'})
+	event.remove({id:'ae2:inscriber/engineering_processor'})
+	event.remove({id:'ae2:charger/charged_certus_quartz_crystal'})
+	event.remove({id:'ae2:network/blocks/energy_energy_acceptor'})
+	event.remove({id:'ae2:network/blocks/controller'})
+	event.remove({id:'ae2:network/blocks/storage_chest'})
+	event.remove({id:'ae2:network/crafting/patterns_blank'})
+	event.remove({id: /ae2:tools(.*)(certus|nether)_quartz_(sword|pickaxe|axe|spade|hoe)/})
 	
-	// Energy acceptor
-	event.remove({ output: 'ae2:energy_acceptor'})
-	event.shaped(
-		Item.of('ae2:energy_acceptor'),
+	event.replaceInput({id:'ae2:network/blocks/inscribers'}, 'minecraft:copper_ingot', '#gtceu:circuits/hv')
+	event.replaceInput({id:'ae2:network/blocks/inscribers'}, 'minecraft:iron_ingot', 'gtceu:stainless_steel_plate')
+	event.replaceInput({id:'ae2:network/blocks/storage_drive'}, 'minecraft:iron_ingot', 'gtceu:stainless_steel_plate')
+	event.replaceInput({id:'ae2:network/blocks/crystal_processing_charger'}, 'minecraft:iron_ingot', 'gtceu:stainless_steel_plate')
+	event.replaceInput({id:'ae2:network/blocks/crystal_processing_charger'}, 'minecraft:copper_ingot', 'gtceu:copper_plate')
+	event.replaceInput({id:'ae2:tools/certus_quartz_wrench'}, '#forge:gems/certus_quartz', 'gtceu:certus_quartz_plate')
+	event.replaceInput({id:'ae2:tools/nether_quartz_wrench'}, 'minecraft:quartz', 'gtceu:nether_quartz_plate')	
+	
+	event.shaped('ae2:energy_acceptor',
 		[
 			'CCC',
 			'ADA',
@@ -21,10 +31,7 @@ ServerEvents.recipes(event => {
 		}
 	)
 	
-	// Controller
-	event.remove({ output: 'ae2:controller' })
-	event.shaped(
-		Item.of('ae2:controller'),
+	event.shaped('ae2:controller',
 		[
 			'CCC',
 			'ADA',
@@ -38,10 +45,7 @@ ServerEvents.recipes(event => {
 		}
 	)
 
-	// Chest
-	event.remove({ output: 'ae2:chest' })
-	event.shaped(
-		Item.of('ae2:chest'),
+	event.shaped('ae2:chest',
 		[
 			'EDE',
 			'AFA',
@@ -57,121 +61,7 @@ ServerEvents.recipes(event => {
 		}
 	)
 
-	// Storage cells
-	event.remove({ output: /ae2:(.*)_storage_cell_(.*)/ })
-	for (const cellSize of global.AE2.CellSizes) {
-		let transitionalItem = 'kubejs:incomplete_storage_cell'
-		// Item
-		event.recipes
-			.createSequencedAssembly(
-				['ae2:item_storage_cell_' + cellSize],
-				'gtceu:polyethylene_plate',
-				[
-					event.recipes.createDeploying(transitionalItem, [
-						transitionalItem,
-						'gtceu:copper_single_cable',
-					]),
-					event.recipes.createDeploying(transitionalItem, [
-						transitionalItem,
-						'ae2:cell_component_' + cellSize,
-					]),
-					event.recipes.createDeploying(transitionalItem, [
-						transitionalItem,
-						'ae2:quartz_glass',
-					]),
-					event.recipes.createDeploying(transitionalItem, [
-						transitionalItem,
-						'gtceu:polyethylene_plate',
-					]),
-					event.recipes.createDeploying(transitionalItem, [
-						transitionalItem,
-						'gtceu:steel_screw',
-					]),
-					event.recipes.createDeploying(transitionalItem, [
-						transitionalItem,
-						'gtceu:steel_screw',
-					]),
-				]
-			)
-			.transitionalItem(transitionalItem)
-			.loops(1)
-		// Fluid
-		event.recipes
-			.createSequencedAssembly(
-				['ae2:fluid_storage_cell_' + cellSize],
-				'gtceu:annealed_copper_plate',
-				[
-					event.recipes.createDeploying(transitionalItem, [
-						transitionalItem,
-						'gtceu:copper_single_cable',
-					]),
-					event.recipes.createDeploying(transitionalItem, [
-						transitionalItem,
-						'ae2:cell_component_' + cellSize,
-					]),
-					event.recipes.createDeploying(transitionalItem, [
-						transitionalItem,
-						'ae2:quartz_glass',
-					]),
-					event.recipes.createDeploying(transitionalItem, [
-						transitionalItem,
-						'gtceu:annealed_copper_plate',
-					]),
-					event.recipes.createDeploying(transitionalItem, [
-						transitionalItem,
-						'gtceu:steel_screw',
-					]),
-					event.recipes.createDeploying(transitionalItem, [
-						transitionalItem,
-						'gtceu:steel_screw',
-					]),
-				]
-			)
-			.transitionalItem(transitionalItem)
-			.loops(1)
-	}
-	for (const spatialCellSize of global.AE2.SpatialCellSizes) {
-		let transitionalItem = 'kubejs:incomplete_storage_cell'
-		// Spatial
-		event.recipes
-			.createSequencedAssembly(
-				['ae2:spatial_storage_cell_' + spatialCellSize],
-				'gtceu:ender_pearl_plate',
-				[
-					event.recipes.createDeploying(transitionalItem, [
-						transitionalItem,
-						'gtceu:copper_single_cable',
-					]),
-					event.recipes.createDeploying(transitionalItem, [
-						transitionalItem,
-						'ae2:spatial_cell_component_' + spatialCellSize,
-					]),
-					event.recipes.createDeploying(transitionalItem, [
-						transitionalItem,
-						'ae2:quartz_glass',
-					]),
-					event.recipes.createDeploying(transitionalItem, [
-						transitionalItem,
-						'gtceu:ender_pearl_plate',
-					]),
-					event.recipes.createDeploying(transitionalItem, [
-						transitionalItem,
-						'gtceu:steel_screw',
-					]),
-					event.recipes.createDeploying(transitionalItem, [
-						transitionalItem,
-						'gtceu:steel_screw',
-					]),
-				]
-			)
-			.transitionalItem(transitionalItem)
-			.loops(1)
-	}
-
-	// Blank pattern
-	event.remove({ output: 'ae2:blank_pattern' })
-	event.shaped(
-		Item.of('ae2:blank_pattern'),
+	event.shaped('ae2:blank_pattern',
 		[
 			'AEA',
 			'BCB',
@@ -186,9 +76,7 @@ ServerEvents.recipes(event => {
 		}
 	)
 
-	// Cell workbench
-	event.shaped(
-		Item.of('ae2:cell_workbench'),
+	event.shaped('ae2:cell_workbench',
 		[
 			'BCB',
 			'BAB',
@@ -200,6 +88,84 @@ ServerEvents.recipes(event => {
 			C:'ae2:calculation_processor'
 		}
 	)
+
+	toolRecipes('certus', 'gtceu:certus_quartz_gem')
+	toolRecipes('nether', 'minecraft:quartz')
+
+	function toolRecipes(material, quartz) {
+	event.shaped(`ae2:${material}_quartz_sword`,
+		[
+		  ' P ',
+		  'HPF',
+		  ' S '
+		],
+		{
+		  P: `gtceu:${material}_quartz_plate`,
+		  H: '#forge:tools/hammers',
+		  F: '#forge:tools/files',
+		  S: '#forge:rods/wooden'
+		}
+	  )
+  
+	  event.shaped(`ae2:${material}_quartz_pickaxe`,
+		[
+		  'PII',
+		  'HSF',
+		  ' S '
+		],
+		{
+		  P: `gtceu:${material}_quartz_plate`,
+		  I: quartz,
+		  F: '#forge:tools/files',
+		  H: '#forge:tools/hammers',
+		  S: '#forge:rods/wooden'
+		}
+	  )
+  
+	  event.shaped(`ae2:${material}_quartz_axe`,
+		[
+		  'PIF',
+		  'PS ',
+		  'HS '
+		],
+		{
+		  P: `gtceu:${material}_quartz_plate`,
+		  H: '#forge:tools/hammers',
+		  I: quartz,
+		  F: '#forge:tools/files',
+		  S: '#forge:rods/wooden'
+		}
+	  )
+  
+	  event.shaped(`ae2:${material}_quartz_shovel`,
+		[
+		  'HPF',
+		  ' S ',
+		  ' S '
+		],
+		{
+		  P: `gtceu:${material}_quartz_plate`,
+		  F: '#forge:tools/files',
+		  H: '#forge:tools/hammers',
+		  S: '#forge:rods/wooden'
+		}
+	  )
+  
+	  event.shaped(`ae2:${material}_quartz_hoe`,
+		[
+		  'PIF',
+		  'HS ',
+		  ' S '
+		],
+		{
+		  P: `gtceu:${material}_quartz_plate`,
+		  H: '#forge:tools/hammers',
+		  F: '#forge:tools/files',
+		  I: quartz,
+		  S: '#forge:rods/wooden'
+		}
+	  )
+	}
 	
 	// Storage wafers
 	const storageBaseQualityOutput = {}
