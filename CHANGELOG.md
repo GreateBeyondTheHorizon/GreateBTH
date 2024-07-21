@@ -28,6 +28,7 @@
 - Change lv and mv energy hatches to be assembler only (void bug with filled cells)
 - Gate some more AE2 things to HV
 - Allow raw ore blocks to be de-compressed
+- Fix hard to read tooltip on storage wafers
 
 **Mod Changes**
 - Added BetterF3
