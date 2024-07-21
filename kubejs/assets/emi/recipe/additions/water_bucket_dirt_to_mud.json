@@ -1,0 +1,6 @@
+{
+    "type": "emi:world_interaction",
+    "left": "item:minecraft:dirt",
+    "right": "item:minecraft:water_bucket",
+    "output": "item:minecraft:mud"
+}
