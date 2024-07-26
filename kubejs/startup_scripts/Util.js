@@ -16,7 +16,7 @@ global.Util = {
 	},
 
 	tierColor: function (tier) {
-		return GTValues.VNF[tier]
+		return GTValues.VC[tier]
 	},
 
 	qualityTooltip: function (quality) {

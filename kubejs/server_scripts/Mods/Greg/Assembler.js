@@ -1,5 +1,8 @@
 ServerEvents.recipes(event => {
+	event.remove({id: 'gtceu:shaped/energy_hatch_lv'})
     event.remove({id: 'gtceu:assembler/energy_hatch_lv'})
+    event.remove({id: 'gtceu:shaped/energy_hatch_mv'})
+    event.remove({id: 'gtceu:assembler/energy_hatch_mv'})
     event.remove({id: 'gtceu:assembler/vacuum_tube_plain'})
     event.remove({id: 'gtceu:assembler/vacuum_tube_red_alloy'})
     event.remove({id: 'gtceu:assembler/vacuum_tube_red_alloy_annealed'})
@@ -10,6 +13,13 @@ ServerEvents.recipes(event => {
         .inputFluids(Fluid.of('gtceu:lubricant', 2000))
         .itemOutputs('gtceu:lv_energy_input_hatch')
         .EUt(30)
+
+    event.recipes.gtceu.assembler('mv_energy_hatch')
+        .duration(200)
+        .itemInputs(['gtceu:mv_machine_hull', '2x gtceu:copper_single_cable', 'gtceu:mv_voltage_coil', 'gtceu:ulpic_chip'])
+        .inputFluids(Fluid.of('gtceu:lubricant', 2000))
+        .itemOutputs('gtceu:mv_energy_input_hatch')
+        .EUt(120)
 
     event.recipes.gtceu.assembler('vacuum_tube_red_alloy')
         .duration(40)

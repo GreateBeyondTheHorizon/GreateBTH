@@ -697,6 +697,12 @@ file = "kubejs/assets/emi/category/properties/smelting.json"
 file = "kubejs/assets/emi/recipe/additions/bloomery.json"
 
 [[files]]
+file = "kubejs/assets/emi/recipe/additions/ceramic_water_bucket_dirt_to_mud.json"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/water_bucket_dirt_to_mud.json"
+
+[[files]]
 file = "kubejs/assets/emi/recipe/filters/hide.json"
 
 [[files]]
@@ -985,6 +991,9 @@ file = "kubejs/assets/kubejs/textures/item/unf_turtle_helmet.png"
 file = "kubejs/assets/minecraft/textures/item/campfire.png"
 
 [[files]]
+file = "kubejs/client_scripts/BlockEvents.js"
+
+[[files]]
 file = "kubejs/client_scripts/JEI.js"
 
 [[files]]
@@ -1010,9 +1019,6 @@ file = "kubejs/config/probejs.json"
 
 [[files]]
 file = "kubejs/data/gbth/recipes/enchanted_grass.json"
-
-[[files]]
-file = "kubejs/data/gbth/recipes/mud.json"
 
 [[files]]
 file = "kubejs/data/gbth/recipes/stripped_rubber_log.json"
@@ -1288,7 +1294,7 @@ file = "kubejs/server_scripts/Mods/ProductiveBees/HoneyCombProcessing.js"
 file = "kubejs/server_scripts/Mods/ProductiveBees/ProductiveBees.js"
 
 [[files]]
-file = "kubejs/server_scripts/Mods/SequencedAssembly/AE2sequence.js"
+file = "kubejs/server_scripts/Mods/SequencedAssembly/AE2.js"
 
 [[files]]
 file = "kubejs/server_scripts/Mods/SequencedAssembly/FarmersDelight.js"
