@@ -210,7 +210,8 @@ removeNamespaceItems('aquaculture', [
 
 removeNamespaceItems('ae2', [
 	'vibration_chamber',
-	'ender_dust'
+	'ender_dust',
+	'certus_quartz_crystal'
 ])
 
 removeNamespaceItems('gtceu', [

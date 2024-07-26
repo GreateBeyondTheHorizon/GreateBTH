@@ -25,7 +25,7 @@ ServerEvents.recipes(event => {
 	event.remove({id: 'minecraft:loom'})
 	event.remove({id: 'minecraft:mud_bricks'})
 	event.remove({id: 'minecraft:netherite_ingot'})
-	event.remove({id: /minecraft:raw_(.*)_block/})
+	event.remove({id: /minecraft:raw_(.*)/})
 	event.remove({id: 'minecraft:smithing_table'})
 	event.remove({id: 'minecraft:stonecutter'})
 	event.remove({id: /(minecraft|bucketlib|farmersdelight|create):(.*)cake(.*)/, output: 'minecraft:cake'})
