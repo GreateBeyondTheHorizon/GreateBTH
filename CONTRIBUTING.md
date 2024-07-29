@@ -7,9 +7,9 @@
 
 There are a few repositories that are part of GBTH. The one that you currently are in is the modpack itself, which mainly contains mods / resource packs (defined with [Packwiz](https://packwiz.infra.link/) TOML files), config files for those mods, [KubeJS](https://wiki.latvian.dev/books/kubejs) scripts, [Heracles](https://modrinth.com/mod/heracles) quests, and [FancyMenu](https://docs.fancymenu.net/) screens.
 
-Greate is a mod that is being developed alongside the modpack. It is published on Modrinth [here](https://modrinth.com/mod/greate). It introduces tiered Create machines that match the GregTech tiers. Greate is designed to be used in any modpack, wheras in GBTH you may find that recipes for Greate machines have been changed, or that the config is different from the default config.
+[Greate](https://github.com/GreateBeyondTheHorizon/Greate) is a mod that is being developed alongside the modpack. It is published on Modrinth [here](https://modrinth.com/mod/greate). It introduces tiered Create machines that match the GregTech tiers. Greate is designed to be used in any modpack, wheras in GBTH you may find that recipes for Greate machines have been changed, or that the config is different from the default config.
 
-GBTHCore is a mod specifically made for this modpack. In general, it contains anything that can't be added or changed via KubeJS. Like Greate, GBTHCore is a GT Addon, meaning we can add new GT material properties (e.g. Blooms!) among many other things.
+[GBTHCore](https://github.com/GreateBeyondTheHorizon/GBTHCore) is a mod specifically made for this modpack. In general, it contains anything that can't be added or changed via KubeJS. Like Greate, GBTHCore is a GT Addon, meaning we can add new GT material properties (e.g. Blooms!) among many other things.
 
 Now that you're more familiar with the projects, check out the next section for how to contribute!
 
