@@ -29,6 +29,7 @@
 - Gate some more AE2 things to HV
 - Allow raw ore blocks to be de-compressed
 - Fix hard to read tooltip on storage wafers
+- Fix missing fluid conditions for rock breaker recipes
 
 **Mod Changes**
 - Added BetterF3

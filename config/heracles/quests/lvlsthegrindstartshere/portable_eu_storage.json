@@ -1,7 +1,6 @@
 {
   "dependencies": [
-    "lv_canner",
-    "lv_alloy_smelter"
+    "lv_canner"
   ],
   "tasks": {
     "battery": {
