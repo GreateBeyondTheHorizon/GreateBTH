@@ -181,6 +181,9 @@ file = "config/heracles/quests/lvlsthegrindstartshere/arc_furnace.json"
 file = "config/heracles/quests/lvlsthegrindstartshere/assemblers_unite.json"
 
 [[files]]
+file = "config/heracles/quests/lvlsthegrindstartshere/battery_storage.json"
+
+[[files]]
 file = "config/heracles/quests/lvlsthegrindstartshere/cheaper_electromagnetic_rods.json"
 
 [[files]]
@@ -221,9 +224,6 @@ file = "config/heracles/quests/lvlsthegrindstartshere/getting_oxygen.json"
 
 [[files]]
 file = "config/heracles/quests/lvlsthegrindstartshere/large_water_wheel.json"
-
-[[files]]
-file = "config/heracles/quests/lvlsthegrindstartshere/lv_alloy_smelter.json"
 
 [[files]]
 file = "config/heracles/quests/lvlsthegrindstartshere/lv_canner.json"

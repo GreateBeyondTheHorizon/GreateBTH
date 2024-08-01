@@ -1,11 +1,11 @@
 {
   "dependencies": [
-    "the_first_of_many"
+    "portable_eu_storage"
   ],
   "tasks": {
-    "alloy_smelter": {
+    "battery": {
       "type": "heracles:item",
-      "item": "gtceu:lv_alloy_smelter",
+      "item": "gtceu:lv_battery_buffer_4x",
       "amount": 1,
       "collection": "AUTOMATIC"
     }
@@ -28,14 +28,14 @@
     },
     "icon": {
       "item": {
-        "id": "gtceu:lv_alloy_smelter",
+        "id": "gtceu:lv_battery_buffer_4x",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "LV Alloy Smelter"
+      "translate": "Battery Storage"
     }
   },
   "settings": {
