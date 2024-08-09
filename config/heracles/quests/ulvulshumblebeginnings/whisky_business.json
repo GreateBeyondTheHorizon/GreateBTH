@@ -5,7 +5,7 @@
   "tasks": {
     "whisk": {
       "type": "heracles:item",
-      "item": "create:whisk",
+      "item": "gtceu:andesite_alloy_whisk",
       "amount": 1,
       "collection": "AUTOMATIC"
     }
@@ -28,7 +28,7 @@
     },
     "icon": {
       "item": {
-        "id": "create:whisk",
+        "id": "gtceu:andesite_alloy_whisk",
         "count": 1
       },
       "type": "heracles:item"

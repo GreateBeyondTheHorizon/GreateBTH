@@ -7,7 +7,7 @@
   "tasks": {
     "prospector": {
       "type": "heracles:item",
-      "item": "gtceu:prospector.lv",
+      "item": "gbthcore:prospector_lv",
       "amount": 1,
       "collection": "AUTOMATIC"
     }
@@ -30,7 +30,7 @@
     },
     "icon": {
       "item": {
-        "id": "gtceu:prospector.lv",
+        "id": "gbthcore:prospector_lv",
         "count": 1
       },
       "type": "heracles:item"
