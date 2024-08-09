@@ -23,6 +23,7 @@
 !/config/aether-client.toml
 !/config/aether-common.toml
 !/config/ding.toml
+!/config/moreoverlays.toml
 !/config/AdvancedPeripherals
 /config/AdvancedPeripherals/*
 !/config/AdvancedPeripherals/world.toml
