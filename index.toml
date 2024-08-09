@@ -637,6 +637,9 @@ file = "config/heracles/quests/ulvulshumblebeginnings/whole_new_create.json"
 file = "config/heracles/tutorial.html"
 
 [[files]]
+file = "config/moreoverlays.toml"
+
+[[files]]
 file = "config/oreberriesreplanted-common.toml"
 
 [[files]]

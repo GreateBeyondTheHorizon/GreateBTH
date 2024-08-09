@@ -1,6 +1,7 @@
 **Script/Config Changes**
 - Replace prospectors with bigger ones
 - Hide furnace workstation
+- Disable moreoverlays double click jei searching (emi already does this)
 
 **Mod Changes**
 - resourcefullib-forge-1.20.1-2.1.25 -> resourcefullib-forge-1.20.1-2.1.28
