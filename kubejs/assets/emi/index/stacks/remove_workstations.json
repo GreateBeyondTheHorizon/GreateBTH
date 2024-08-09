@@ -1,0 +1,11 @@
+{
+    "removed":
+    [
+        "item:minecraft:furnace"
+    ],
+    "filters":
+    [
+        "minecraft:furnace"
+    ],
+    "disable": true
+}

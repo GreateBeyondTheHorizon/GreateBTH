@@ -39,6 +39,7 @@ var recipesToReplace = [
     {removedItem: "ad_astra:iron_rod", replacement: '#forge:rods/iron'},
 
     {removedItem: "ae2:ender_dust", replacement: 'gtceu:ender_pearl_dust'},
+    {removedItem: "ae2:certus_quartz_crystal", replacement: 'gtceu:certus_quartz_gem'},
 
     {removedItem: "aether:ambrosium_shard", replacement: 'gtceu:ambrosium_gem'},
     {removedItem: "aether:zanite_gemstone", replacement: 'gtceu:zanite_gem'},
@@ -54,6 +55,7 @@ var recipesToReplace = [
     {removedItem: "create:zinc_ingot", replacement: '#forge:plates/zinc'},
     {removedItem: "create:dough", replacement: 'farmersdelight:wheat_dough'},
     {removedItem: "create:andesite_alloy", replacement: 'gtceu:andesite_alloy_ingot'},
+    {removedItem: "create:propeller", replacement: 'gtceu:andesite_alloy_rotor'},
 
     {removedItem: "gtceu:hp_steam_macerator", replacement: 'greate:andesite_alloy_millstone'},
     {removedItem: "gtceu:iv_macerator", replacement: 'greate:tungsten_steel_millstone'},

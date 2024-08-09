@@ -1,50 +1,16 @@
 **Script/Config Changes**
-- Generate Blooms in GBTHCore instead of Kube
-- Change cable recipes in Greate instead of Kube
-- Update ULS machine recipes
-- Remove create andesite alloy in place of gt andesite alloy
-- Prevent raw ores from being placed in dankstorages
-- Disable aether skyroot alternative recipes
-- Add GT aether materials
-- Gregify aether recipes for armor, tools, and wearables
-- Change how some items are generated
-- Remove misc textures that are no longer needed
-- Disable ore proc machine for now
-- Change quicksoil glass to be obtainable after getting regular glass
-- Change ore generation in the aether to be the main source for nickel and lubricant products
-- Remove nickel and lubricant related veins from generating in the overworld
-- Add additional veins in the aether for copper, tin and iron
-- Fix empty tag errors
-- Disable redstone lubricant brewery recipes
-- Add missing logs to modification list
-- Add blooms for redstone & iron
-- Update ambrosium enchanting recipe to use correct ambrosium
-- Update aether altar to use correct ambrosium
-- Allow GT rubber log to be stripped
-- Add GT stripped rubber log related recipes
-- Add aether & deep aether logs to stripped log/stripped wood tags
-- Fix broken copycat recipes
-- Allow more modded wood-type blocks to be macerated in to wood dust
-- Change lv and mv energy hatches to be assembler only (void bug with filled cells)
-- Gate some more AE2 things to HV
-- Allow raw ore blocks to be de-compressed
-- Fix hard to read tooltip on storage wafers
-- Fix missing fluid conditions for rock breaker recipes
+- Replace prospectors with bigger ones
+- Hide furnace workstation
 
 **Mod Changes**
-- Added BetterF3
-- Added FindMe
-- Added Shulker Box Tooltip
-- Removed Terralith
-- Added William Wythers' Expanded Ecosphere
-- Added Canary
-- Added More Overlays Updated
-- Downgrade EMI to show greate tabs
-- appliedenergistics2-forge-15.2.8 -> appliedenergistics2-forge-15.2.9
-- embeddium-0.3.24+mc1.20.1 -> embeddium-0.3.25+mc1.20.1 
-- greate-0.0.23 -> greate-0.0.24
-- chat_heads-0.12.6-forge-1.20 -> chat_heads-0.12.8-forge-1.20
-- MyNethersDelight-1.20.1-0.1.7 -> MyNethersDelight-1.20.1-0.1.7.4
-- jei-1.20.1-forge-15.3.0.8 -> jei-1.20.1-forge-15.8.0.9
-- copycats-1.3.8+mc.1.20.1-forge -> copycats-2.0.1+mc.1.20.1-forge
-- journeymap-1.20.1-5.10.0-forge -> journeymap-1.20.1-5.10.1-forge
+- resourcefullib-forge-1.20.1-2.1.25 -> resourcefullib-forge-1.20.1-2.1.28
+- Aquaculture-1.20.1-2.5.1 -> Aquaculture-1.20.1-2.5.2
+- cc-tweaked-1.20.1-forge-1.111.0 -> cc-tweaked-1.20.1-forge-1.112.0
+- modernfix-forge-5.18.6+mc1.20.1 -> modernfix-forge-5.19.0+mc1.20.1
+- productivebees-1.20.1-12.5.3 -> productivebees-1.20.1-12.6.0
+- toms_storage-1.20-1.6.7 -> toms_storage-1.20-1.6.8
+- xtonesreworked-1.0.1-F_1.20.1-47.2.0 -> xtonesreworked-1.0.3-F_1.20.1-47.2.0
+- dankstorage-forge-1.20.1-8 -> dankstorage-forge-1.20.1-10
+- dynamic-fps-3.6.0+minecraft-1.20.0-forge -> dynamic-fps-3.6.3+minecraft-1.20.0-forge
+- emi-1.1.6+1.20.1+forge -> emi-1.1.11+1.20.1+forge
+- JadeAddons-1.20.1-forge-5.2.2 -> JadeAddons-1.20.1-Forge-5.3.0

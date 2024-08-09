@@ -1,5 +1,5 @@
 //priority: 1
-const $BloomProperty = Java.loadClass("com.gbth.gbthcore.gtceu.material.BloomProperty");
+const $BloomProperty = Java.loadClass("com.gbth.gbthcore.integration.gtceu.material.BloomProperty");
 
 GTCEuStartupEvents.registry("gtceu:material", (event) => {
   GTMaterials.Polyethylene.addFlags(GTMaterialFlags.GENERATE_ROTOR)
