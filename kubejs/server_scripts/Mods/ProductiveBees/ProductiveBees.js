@@ -1,44 +1,28 @@
-
-var hives = ['productivebees:advanced_bamboo_beehive', 'productivebees:advanced_cherry_beehive', 
-'productivebees:advanced_birch_beehive', 'productivebees:advanced_acacia_beehive', 
-'productivebees:advanced_warped_beehive', 'productivebees:advanced_jungle_beehive', 
-'productivebees:advanced_dark_oak_beehive', 'productivebees:advanced_mangrove_beehive', 
-'productivebees:advanced_snake_block_beehive', 'productivebees:advanced_crimson_beehive',
-'productivebees:advanced_oak_beehive', 'productivebees:advanced_spruce_beehive']
-
-var stripedWood = ['minecraft:stripped_bamboo_block', 'minecraft:stripped_cherry_log', 
-'minecraft:stripped_birch_wood', 'minecraft:stripped_acacia_log',
-'minecraft:stripped_warped_stem', 'minecraft:stripped_jungle_log', 
-'minecraft:stripped_dark_oak_log', 'minecraft:stripped_mangrove_log',
-'minecraft:prismarine_bricks', 'minecraft:stripped_crimson_stem',
-'minecraft:stripped_oak_log', 'minecraft:stripped_spruce_log']
-
 var beesMissingCombs = ['chromium', 'aluminium', 'stainless_steel', 'tungsten_steel', 'naquadah', 'naquadah_alloy', 'rhodium_plated_palladium', 'neutronium']
 
-
 ServerEvents.recipes(event => {
-
+	event.remove({type: 'productivebees:bottler'})
 	event.remove({id: 'productivebees:create/obsidian_dust_to_obsidian'})
 	
-	hives.forEach((element) => event.remove({output: element}));
-	
-	for(let i = 0; i < hives.length; i++){
-		event.shaped(
-			Item.of(hives[i], 1),
+	Ingredient.of("#productivebees:advanced_beehives").itemIds.forEach(hive => {
+		if(hive.indexOf('canvas') != -1) return;
+		
+		var strippedWood = hive.replace('productivebees', 'chipped').replace('advanced', 'stripped').replace('beehive', 'log')
+		event.shaped(hive,
 			[ 
 				'AAA',
 				'EBE',
 				'DCD'				
 			],
 			{
-				A:stripedWood[i],
+				A:`#${strippedWood}`,
 				B:'#gtceu:circuits/lv',
 				C:'gtceu:aluminium_plate',
 				D:'gtceu:bronze_plate',
 				E:'gtceu:potin_gear',      
 			}
 		)
-	}
+	})
 
 	//Missing Comb Production
 	beesMissingCombs.forEach(material => {
