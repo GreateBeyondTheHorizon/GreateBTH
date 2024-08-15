@@ -1,13 +1,13 @@
 name = "ImmediatelyFast"
-filename = "ImmediatelyFast-Forge-1.2.19+1.20.4.jar"
+filename = "ImmediatelyFast-Forge-1.2.20+1.20.4.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "9cea4cc41a3fab8f1f9b8b159a312d70b08b916d"
+hash = "2d1db3fda15a62b9775630da99eef2616bcd20e9"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5608717
+file-id = 5616496
 project-id = 686911
