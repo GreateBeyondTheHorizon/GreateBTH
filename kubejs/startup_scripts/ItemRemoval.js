@@ -255,3 +255,8 @@ removeNamespaceItems('deep_aether', [
 	'skyjade', 
 	'skyjade_block'
 ])
+
+removeNamespaceItems('productivebees', [
+	'bottler', 
+	'milk_bottle'
+])

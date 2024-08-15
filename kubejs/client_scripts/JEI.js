@@ -6,6 +6,8 @@ JEIEvents.hideItems(event => {
 
 JEIEvents.hideFluids(event => {
 	event.hide('ad_astra:oxygen')
+	event.hide('productivebees:honey')
+	event.hide('productivebees:flowing_honey')
 })
 
 JEIEvents.addItems(event => {

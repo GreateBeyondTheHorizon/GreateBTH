@@ -1201,6 +1201,9 @@ file = "kubejs/server_scripts/Mods/CookingForBlockheads.js"
 file = "kubejs/server_scripts/Mods/Create.js"
 
 [[files]]
+file = "kubejs/server_scripts/Mods/Create/Spout.js"
+
+[[files]]
 file = "kubejs/server_scripts/Mods/DankStorage.js"
 
 [[files]]

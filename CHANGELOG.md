@@ -3,6 +3,9 @@
 - Hide furnace workstation
 - Disable moreoverlays double click jei searching (emi already does this)
 - Fix missing lang entry for blooms
+- Fix NBT issue on toolcrafting quest
+- Disable productivebees bottler
+- Add recipes for xp bottle and honeytreat using the spout
 
 **Mod Changes**
 - resourcefullib-forge-1.20.1-2.1.25 -> resourcefullib-forge-1.20.1-2.1.28

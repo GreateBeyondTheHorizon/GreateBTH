@@ -18,24 +18,6 @@
       "amount": 1,
       "collection": "AUTOMATIC"
     },
-    "flint_axe": {
-      "type": "heracles:item",
-      "item": "gtceu:flint_axe",
-      "nbt": {
-        "DisallowContainerItem": 0,
-        "GT.Behaviours": {
-          "DisableShields": 1,
-          "TreeFelling": 1
-        },
-        "HideFlags": 2,
-        "GT.Tool": {
-          "MaxDamage": 63,
-          "Damage": 0
-        }
-      },
-      "amount": 1,
-      "collection": "AUTOMATIC"
-    },
     "flint_sword": {
       "type": "heracles:item",
       "item": "gtceu:flint_sword",
@@ -69,6 +51,13 @@
           "Damage": 0
         }
       },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "axe": {
+      "type": "heracles:item",
+      "item": "gtceu:flint_axe",
+      "nbt": {},
       "amount": 1,
       "collection": "AUTOMATIC"
     }

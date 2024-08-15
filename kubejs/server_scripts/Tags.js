@@ -27,6 +27,11 @@ ServerEvents.tags('item', event => {
 	event.add('c:white_dyes', ['#forge:dyes/white'])
 	event.add('c:yellow_dyes', ['#forge:dyes/yellow'])
 
+
+	event.add('chipped:stripped_bamboo_log', ['minecraft:stripped_bamboo_block'])
+	event.add('chipped:stripped_crimson_log', ['#chipped:stripped_crimson_stem'])
+	event.add('chipped:stripped_snake_block_log', ['minecraft:prismarine'])
+	event.add('chipped:stripped_warped_log', ['#chipped:stripped_warped_stem'])
 	event.add('chipped:glass', ['aether:quicksoil_glass'])
 	event.add('chipped:glass_pane', ['aether:quicksoil_glass_pane'])
 
@@ -82,5 +87,9 @@ ServerEvents.tags('block', event => {
 })
 
 ServerEvents.tags('fluid', event => {
+	event.add('c:hidden_from_recipe_viewers', ['productivebees:honey', 'productivebees:flowing_honey'])
+
 	event.remove('forge:oxygen', ['ad_astra:oxygen'])
+	event.remove('forge:honey', ['productivebees:honey'])
+	event.remove('forge:honey', ['productivebees:flowing_honey'])
 })

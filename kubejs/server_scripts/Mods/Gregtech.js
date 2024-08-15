@@ -1,5 +1,5 @@
-var $BuiltInRegistries = Java.loadClass('net.minecraft.core.registries.BuiltInRegistries')
-var $GTUtil = Java.loadClass('com.gregtechceu.gtceu.utils.GTUtil')
+//var $BuiltInRegistries = Java.loadClass('net.minecraft.core.registries.BuiltInRegistries')
+//var $GTUtil = Java.loadClass('com.gregtechceu.gtceu.utils.GTUtil')
 
 // priority: 0
 ServerEvents.recipes(event => {
