@@ -1,9 +1,9 @@
 ServerEvents.recipes(event => {
-    event.remove({output: '#minecraft:chest_boats'})
+    event.remove({output: '#minecraft:boats'})
 	Ingredient.of("#minecraft:boats").itemIds.forEach(boat => {
 		if (boat.endsWith('chest_boat') || boat.endsWith('chest_raft')) {
 			var boatWithoutChest = boat.replace('_chest', '')
-			event.shaped(Item.of(boat),
+			event.shaped(boat,
 				[
 					' C ',
 					'BDB',
@@ -14,6 +14,22 @@ ServerEvents.recipes(event => {
 					B: 'gtceu:iron_screw',
 					C: '#forge:tools/screwdrivers',
 					D: 'minecraft:chest',
+				}
+			)
+		} else {
+			var plank = boat.replace('_boat', '_planks')
+			var slab = boat.replace('_boat', '_slab')
+			event.shaped(boat,
+				[
+					'POP',
+					'PKP',
+					'SSS'
+				],
+				{
+					P: plank,
+					O: '#minecraft:shovels',
+					K: '#forge:tools/knives',
+					S: slab
 				}
 			)
 		}

@@ -11,7 +11,6 @@ ServerEvents.recipes(event => {
 	event.remove({id: 'gtceu:shaped/wood_tank_valve'})
 	event.remove({id: 'gtceu:shapeless/compressed_clay'})
 	event.remove({id: 'gtceu:smelting/sticky_resin_from_slime'})
-	event.remove({id: /gtceu:primitive_blast_furnace(.*)/})
 	event.remove({output: /gtceu:(.*)_mold/})
 	event.remove({id: 'gtceu:shaped/steam_boiler_coal_steel'})
 	event.remove({id: 'gtceu:shaped/vacuum_tube'})
@@ -45,15 +44,6 @@ ServerEvents.recipes(event => {
 		components.forEach(component => {
 			event.remove({ output: `gtceu:${tier}_${component}` })
 		})
-	})
-
-	Ingredient.of(/(gtceu|minecraft):raw(.*)_block/).itemIds.forEach(block => {
-		event.recipes.gtceu.alloy_smelter(block)
-			.itemInputs(block)
-			.itemOutputs(`9x ${block.substring(0, block.length - 6)}`)
-			.notConsumable('gtceu:ingot_casting_mold')
-			.duration(300)
-			.EUt(7)
 	})
 
 	//#region replacement

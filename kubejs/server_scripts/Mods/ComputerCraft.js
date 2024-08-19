@@ -140,25 +140,7 @@ ServerEvents.recipes( event => {
 		.duration(200)
 		.EUt(120)
 		.circuit(1)
-	// Move dye_colors into a common script if it is needed by anything else
-	const dye_colors = [
-		'white',
-		'orange',
-		'magenta',
-		'light_blue',
-		'yellow',
-		'lime',
-		'pink',
-		'gray',
-		'light_gray',
-		'cyan',
-		'purple',
-		'blue',
-		'brown',
-		'green',
-		'red',
-		'black',
-	]
+
 	const disk_dye_hex_codes = [
 		1118481,
 		13388876,
@@ -182,7 +164,7 @@ ServerEvents.recipes( event => {
 		event.remove({ id: 'computercraft:disk_' + disk_number })
 		event.shapeless(Item.of('computercraft:disk', { 'Color': disk_dye_hex_codes[15 - i] }), [
 			'computercraft:disk',
-			'#forge:dyes/' + dye_colors[i]
+			'#forge:dyes/' + global.Minecraft.Dyes[i]
 		]).modifyResult((grid, result) => {
 			let disk = grid.find('computercraft:disk')
 			return disk.copy().nbt.merge({ 'Color': disk_dye_hex_codes[15 - i] })

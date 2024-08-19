@@ -1,5 +1,6 @@
 ServerEvents.recipes(event => {
 	event.remove({id: 'farmersdelight:book_from_canvas'})
+	event.remove({id: 'farmersdelight:scaffolding_from_canvas'})
 	event.remove({id: 'farmersdelight:cutting_board'})
 	event.remove({id: 'farmersdelight:paper_from_tree_bark'})
 	event.remove({type: 'minecraft:crafting_shaped', id: /farmersdelight:(.*)crate(.*)/})
@@ -41,6 +42,7 @@ ServerEvents.recipes(event => {
 	event.remove({output: 'farmersdelight:cake_slice'})
 	event.remove({id: 'farmersdelight:rope'})
 	event.remove({id: 'farmersdelight:lead_from_straw'})
+	event.remove({id: /farmersdelight:(.*)_hanging_canvas_sign/})
 
 	event.campfireCooking('minecraft:bread', 'farmersdelight:wheat_dough')
 

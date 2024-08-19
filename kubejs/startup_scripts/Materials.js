@@ -7,6 +7,7 @@ GTCEuStartupEvents.registry("gtceu:material", (event) => {
   GTMaterials.WroughtIron.addFlags(GTMaterialFlags.GENERATE_ROTOR)
   GTMaterials.Obsidian.addFlags(GTMaterialFlags.GENERATE_BOLT_SCREW)
   GTMaterials.CertusQuartz.addFlags(GTMaterialFlags.GENERATE_LENS)
+  GTMaterials.Copper.addFlags(GTMaterialFlags.GENERATE_RING)
 
   GTMaterials.get("andesite_alloy").addFlags(GTMaterialFlags.DISABLE_DECOMPOSITION)
   GTMaterials.get("andesite_alloy").setProperty(GBTHCorePropertyKeys.BLOOM, new $BloomProperty())

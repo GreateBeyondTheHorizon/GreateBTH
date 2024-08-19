@@ -3,6 +3,8 @@ var beesMissingCombs = ['chromium', 'aluminium', 'stainless_steel', 'tungsten_st
 ServerEvents.recipes(event => {
 	event.remove({type: 'productivebees:bottler'})
 	event.remove({id: 'productivebees:create/obsidian_dust_to_obsidian'})
+	event.remove({id: 'productivebees:candle'})
+	event.remove({id: 'productivebees:milk_bucket'})
 	
 	Ingredient.of("#productivebees:advanced_beehives").itemIds.forEach(hive => {
 		if(hive.indexOf('canvas') != -1) return;
