@@ -1,4 +1,6 @@
 ServerEvents.recipes(event => {
+	event.remove({id: /gtceu:primitive_blast_furnace(.*)/})
+    
     primitiveBlastFurnaceRecipe('kubejs:steel_from_coke_block', 337.5, ['gtceu:steel_block', 'gtceu:ash_dust'], false, ['minecraft:iron_block', 'gtceu:coke_block'])
     primitiveBlastFurnaceRecipe('kubejs:steel_from_coke_dust', 37.5, 'gtceu:steel_ingot', true, ['minecraft:iron_ingot', 'gtceu:coke_dust'])
     primitiveBlastFurnaceRecipe('kubejs:steel_from_coke_dust_wrought', 75, 'gtceu:steel_ingot', true, ['gtceu:wrought_iron_ingot', 'gtceu:coke_dust'])

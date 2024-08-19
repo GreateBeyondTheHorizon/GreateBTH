@@ -12,22 +12,15 @@ ServerEvents.recipes(event => {
 	// })
 
 	event.remove({id: 'minecraft:bamboo_mosaic_slab'})
-	event.remove({id: 'minecraft:barrel'})
 	event.remove({id: 'minecraft:bone_meal_from_bone_block'})
 	event.remove({id: 'minecraft:bone_meal'})
-	event.remove({id: 'minecraft:cartography_table'})
 	event.remove({id: 'minecraft:chest'})
 	event.remove({id: 'gtceu:shaped/compass'})
-	event.remove({id: 'minecraft:composter'})
+	event.remove({id: 'gtceu:shaped/barrel'})
 	event.remove({id: 'minecraft:ender_chest'})
-	event.remove({id: 'minecraft:grindstone'})
-	event.remove({id: 'minecraft:lectern'})
-	event.remove({id: 'minecraft:loom'})
 	event.remove({id: 'minecraft:mud_bricks'})
 	event.remove({id: 'minecraft:netherite_ingot'})
 	event.remove({id: /minecraft:raw_(.*)/})
-	event.remove({id: 'minecraft:smithing_table'})
-	event.remove({id: 'minecraft:stonecutter'})
 	event.remove({id: /(minecraft|bucketlib|farmersdelight|create):(.*)cake(.*)/, output: 'minecraft:cake'})
 	event.remove({id: 'minecraft:pumpkin_pie'})
 	event.remove({id: /create:(smelting|smoking)(.*)bread/})
@@ -37,6 +30,8 @@ ServerEvents.recipes(event => {
 	event.remove({id: /minecraft:rabbit_stew_from(.*)/})
 	event.remove({id: 'minecraft:campfire'})
 	event.remove({id: 'aether:holystone_stonecutter'})
+	event.remove({id: /minecraft:dye(.*)wool/})
+	event.remove({id: /minecraft:dye(.*)carpet/})
 
 	event.campfireCooking('minecraft:brick', 'gtceu:compressed_clay').cookingTime(300).xp(0.3)
 
@@ -93,115 +88,6 @@ ServerEvents.recipes(event => {
 
 	//// Crafting stations ////
 
-	// Stonecutter
-	event.shaped('minecraft:stonecutter',
-		[
-			'D W',
-			'GBG',
-			'LSL'
-		],
-		{
-			D: '#forge:tools/screwdrivers',
-			W: '#forge:tools/wrenches',
-			G: '#forge:small_gears/iron',
-			B: 'gtceu:iron_buzz_saw_blade',
-			L: '#minecraft:logs',
-			S: 'minecraft:smooth_stone',
-		}
-	)
-
-	// Smithing table
-	event.shaped('minecraft:smithing_table',
-		[
-			'PPP',
-			'SFS',
-			'RHR'
-		],
-		{
-			H: '#forge:tools/hammers',
-			P: '#forge:plates/steel',
-			S: '#forge:screws/steel',
-			R: '#forge:rods/steel',
-			F: 'gtceu:wood_frame',
-		}
-	)
-
-	// Loom
-	event.shaped('minecraft:loom',
-		[
-			'WRR',
-			'GGR',
-			'PPP'
-		],
-		{
-			W: '#forge:tools/saws',
-			R: '#forge:rods/long/wood',
-			G: '#forge:gears/wood',
-			P: '#forge:plates/treated_wood',
-		}
-	)
-
-	// Composter
-	event.shaped('minecraft:composter',
-		[
-			'PWP',
-			'P P',
-			'PPP'
-		],
-		{
-			W: '#forge:tools/saws',
-			P: '#forge:plates/treated_wood',
-		}
-	)
-
-	// Lecturn
-	event.shaped('minecraft:lectern',
-		[
-			'PPP',
-			'SBS',
-			'WOH'
-		],
-		{
-			W: '#forge:tools/saws',
-			H: '#forge:tools/hammers',
-			P: '#forge:plates/wood',
-			S: '#forge:screws/iron',
-			B: '#chipped:bookshelf',
-			O: '#chipped:red_wool',
-		}
-	)
-
-	// Cartography table
-	event.shaped('minecraft:cartography_table',
-		[
-			'GRR',
-			'PLP',
-			'W N'
-		],
-		{
-			W: '#forge:tools/saws',
-			N: '#forge:tools/wrenches',
-			G: 'ad_astra:earth_globe',
-			R: '#forge:plates/paper',
-			P: '#forge:plates/wood',
-			L: '#minecraft:logs',
-		}
-	)
-
-	// Grindstone
-	event.shaped('minecraft:grindstone',
-		[
-			'RSR',
-			'TST',
-			'L L'
-		],
-		{
-			R: '#forge:screws/iron',
-			S: '#chipped:smooth_stone',
-			T: '#forge:rods/wood',
-			L: '#minecraft:wooden_slabs',
-		}
-	)
 
 	// Compass
 	let emptyCompass = 'kubejs:empty_compass'

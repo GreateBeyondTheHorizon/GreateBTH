@@ -694,6 +694,9 @@ file = "kubejs/assets/ad_astra/textures/entity/rocket/tier_3_rocket.png"
 file = "kubejs/assets/ad_astra/textures/entity/rocket/tier_4_rocket.png"
 
 [[files]]
+file = "kubejs/assets/ae2/lang/en_us.json"
+
+[[files]]
 file = "kubejs/assets/emi/category/properties/smelting.json"
 
 [[files]]
@@ -997,6 +1000,9 @@ file = "kubejs/assets/kubejs/textures/item/unf_turtle_helmet.png"
 file = "kubejs/assets/minecraft/textures/item/campfire.png"
 
 [[files]]
+file = "kubejs/assets/productivebees/lang/en_us.json"
+
+[[files]]
 file = "kubejs/client_scripts/BlockEvents.js"
 
 [[files]]
@@ -1249,6 +1255,9 @@ file = "kubejs/server_scripts/Mods/Greg/Canner.js"
 file = "kubejs/server_scripts/Mods/Greg/Centrifuge.js"
 
 [[files]]
+file = "kubejs/server_scripts/Mods/Greg/ChemicalBath.js"
+
+[[files]]
 file = "kubejs/server_scripts/Mods/Greg/CokeOven.js"
 
 [[files]]
@@ -1294,13 +1303,13 @@ file = "kubejs/server_scripts/Mods/MyNethersDelight.js"
 file = "kubejs/server_scripts/Mods/OreberriesReplanted.js"
 
 [[files]]
+file = "kubejs/server_scripts/Mods/ProductiveBees.js"
+
+[[files]]
 file = "kubejs/server_scripts/Mods/ProductiveBees/BeeFood.js"
 
 [[files]]
 file = "kubejs/server_scripts/Mods/ProductiveBees/HoneyCombProcessing.js"
-
-[[files]]
-file = "kubejs/server_scripts/Mods/ProductiveBees/ProductiveBees.js"
 
 [[files]]
 file = "kubejs/server_scripts/Mods/SequencedAssembly/AE2.js"

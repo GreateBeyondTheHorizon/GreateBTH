@@ -9,6 +9,7 @@ ServerEvents.recipes(event => {
     event.remove({id: 'mynethersdelight:ghasta_with_cream'})
     event.remove({id: 'mynethersdelight:crafting/spicy_skewer'})
     event.remove({id: 'mynethersdelight:powdery_mosaic_slab'})
+    event.remove({id: 'mynethersdelight:scaffolding_alt'})
 
     event.replaceInput({id: 'mynethersdelight:nether_bricks_stove'}, 'minecraft:nether_brick', 'gtceu:wrought_iron_plate')
     event.replaceOutput({id: 'mynethersdelight:powdery_plank'}, 'mynethersdelight:powdery_plank', '2x mynethersdelight:powdery_plank')

@@ -22,6 +22,13 @@ MoreJSEvents.villagerTrades(event => {
 		professions: ['ae2:fluix_researcher']
 	})
 
+	event.removeTrades({
+		firstItem: Ingredient.all,
+		secondItem: Ingredient.all,
+		outputItem: 'ae2:certus_quartz_crystal',
+		professions: ['ae2:fluix_researcher']
+	})
+
 	// Glowstone
 	event.removeTrades({
 		firstItem: Ingredient.all,

@@ -71,14 +71,15 @@ ServerEvents.tags('item', event => {
 	event.add('minecraft:bamboo_logs', ['minecraft:bamboo_block', 'minecraft:stripped_bamboo_block'])
 	event.add('minecraft:crimson_logs', ['minecraft:crimson_stem', 'minecraft:crimson_hyphae', 'minecraft:stripped_crimson_stem', 'minecraft:stripped_crimson_hyphae'])
 	event.add('minecraft:warped_logs', ['minecraft:warped_stem', 'minecraft:warped_hyphae', 'minecraft:stripped_warped_stem', 'minecraft:stripped_warped_hyphae'])
-	
+	event.add('minecraft:boats', ['deep_aether:roseroot_boat', 'deep_aether:yagroot_boat', 'deep_aether:cruderoot_boat', 'deep_aether:conberry_boat', 'deep_aether:sunroot_boat', 'deep_aether:roseroot_chest_boat', 'deep_aether:yagroot_chest_boat', 'deep_aether:cruderoot_chest_boat', 'deep_aether:conberry_chest_boat', 'deep_aether:sunroot_chest_boat'])
+
 	event.add('mynethersdelight:powdery_logs', ['mynethersdelight:powdery_block', 'mynethersdelight:stripped_powdery_block'])
 
 	
 	//#region remove item tag
 	event.remove('create:sandpaper', ['create:sand_paper', 'create:red_sand_paper'])
 
-	event.remove('minecraft:planks', ['gtceu:treated_wood_planks', 'createdieselgenerators:chip_wood_block'])
+	event.remove('minecraft:planks', ['gtceu:treated_wood_planks', 'gtceu:treated_wood_plate', 'gtceu:wood_plate', 'createdieselgenerators:chip_wood_block'])
 	event.remove('minecraft:wooden_slabs', 'createdieselgenerators:chip_wood_slab')
 })
 
