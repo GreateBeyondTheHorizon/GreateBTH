@@ -61,7 +61,7 @@ ServerEvents.recipes(event => {
 	 	{
 	 		A:'minecraft:stick',
 	 		B:'gtceu:nether_star_plate',
-	 		C:'kubejs:netherite_plate',
+	 		C:'gtceu:netherite_plate',
 	 		D:'gtceu:diamond_gear'
 	 	}
 	)

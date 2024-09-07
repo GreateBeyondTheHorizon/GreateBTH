@@ -1,39 +1,35 @@
 **Script/Config Changes**
-- Replace prospectors with bigger ones
-- Hide furnace workstation
-- Disable moreoverlays double click jei searching (emi already does this)
-- Fix missing lang entry for blooms
-- Fix NBT issue on toolcrafting quest
-- Disable productivebees bottler
-- Add recipes for xp bottle and honeytreat using the spout
-- Greg related recipe updates
-- Add chemical bath recipe for dye-ing candles
-- Disable dye-ing wool in the crafting grid
-- Add dye-ing recipe for farmers delight hanging signs
-- Gregify all boat/chest boats
-- Localize villager names in EMI
-- Disable certus quartz trade recipe
+- Add material for netherite
+- Modify scripts for Greate changes
+- Add recipe for aether obsidian armor
+- Add recipes for decoloring candles & canvas signs
 
 **Mod Changes**
-- resourcefullib-forge-1.20.1-2.1.25 -> resourcefullib-forge-1.20.1-2.1.28
-- Aquaculture-1.20.1-2.5.1 -> Aquaculture-1.20.1-2.5.2
-- cc-tweaked-1.20.1-forge-1.111.0 -> cc-tweaked-1.20.1-forge-1.112.0
-- productivebees-1.20.1-12.5.3 -> productivebees-1.20.1-12.6.0
-- toms_storage-1.20-1.6.7 -> toms_storage-1.20-1.6.8
-- xtonesreworked-1.0.1-F_1.20.1-47.2.0 -> xtonesreworked-1.0.3-F_1.20.1-47.2.0
-- dankstorage-forge-1.20.1-8 -> dankstorage-forge-1.20.1-13
-- dynamic-fps-3.6.0+minecraft-1.20.0-forge -> dynamic-fps-3.6.3+minecraft-1.20.0-forge
-- emi-1.1.6+1.20.1+forge -> emi-1.1.12+1.20.1+forge
-- JadeAddons-1.20.1-forge-5.2.2 -> JadeAddons-1.20.1-Forge-5.3.0
-- guardvillagers-1.20.1-1.6.6.jar -> guardvillagers-1.20.1-1.6.7.jar
-- embeddium-0.3.28+mc1.20.1.jar -> embeddium-0.3.30+mc1.20.1.jar
-- ImmediatelyFast-Forge-1.2.19+1.20.4.jar -> ImmediatelyFast-Forge-1.2.20+1.20.4.jar
-- balm-forge-1.20.1-7.3.6-all.jar -> balm-forge-1.20.1-7.3.7-all.jar
-- craftingtweaks-forge-1.20.1-18.2.4.jar -> craftingtweaks-forge-1.20.1-18.2.5.jar
-- colorfulhearts-forge-1.20.1-4.3.13.jar -> colorfulhearts-forge-1.20.1-4.3.15.jar
-- chat_heads-0.12.10-forge-1.20.jar -> chat_heads-0.12.13-forge-1.20.jar
-- modernfix-forge-5.18.6+mc1.20.1.jar -> modernfix-forge-5.19.1+mc1.20.1.jar
-- jei-1.20.1-forge-15.4.0.9.jar -> jei-1.20.1-forge-15.12.3.54.jar
-- appliedenergistics2-forge-15.2.11.jar -> appliedenergistics2-forge-15.2.13.jar
-- gtceu-1.20.1-1.3.1.jar -> gtceu-1.20.1-1.4.0.jar
-- Jade-1.20.1-forge-11.9.4.jar -> Jade-1.20.1-forge-11.10.1.jar
+- greate-0.0.25 -> greate-0.0.26
+- geckolib-forge-1.20.1-4.4.7 -> geckolib-forge-1.20.1-4.4.9
+- Steam_Rails-1.6.4+forge-mc1.20.1 -> Steam_Rails-1.6.5+forge-mc1.20.1
+- bucketlib-1.20.1-2.3.4.1 -> bucketlib-1.20.1-2.3.4.3
+- modernfix-forge-5.19.1+mc1.20.1 -> modernfix-forge-5.19.4+mc1.20.1
+- journeymap-1.20.1-5.10.1-forge -> journeymap-1.20.1-5.10.2-forge
+- embeddium-0.3.30+mc1.20.1 -> embeddium-0.3.31+mc1.20.1
+- PuzzlesLib-v8.1.21-1.20.1-Forge -> PuzzlesLib-v8.1.22-1.20.1-Forge
+- JadeAddons-1.20.1-Forge-5.3.0 -> JadeAddons-1.20.1-Forge-5.3.1
+- jei-1.20.1-forge-15.12.3.54 -> jei-1.20.1-forge-15.17.0.76
+- SimpleBackups-1.20.1-3.1.6 -> SimpleBackups-1.20.1-3.1.8
+- entityculling-forge-1.6.6-mc1.20.1 -> entityculling-forge-1.7.0-mc1.20.1
+- Jade-1.20.1-forge-11.10.1 -> Jade-1.20.1-forge-11.11.1
+- corpse-forge-1.20.1-1.0.12 -> corpse-forge-1.20.1-1.0.14
+- fast-ip-ping-mc1.20.4-forge-v1.0.3 -> fast-ip-ping-v1.0.4-mc1.20.4-forge
+- cc-tweaked-1.20.1-forge-1.112.0 -> cc-tweaked-1.20.1-forge-1.113.0
+- resourcefullib-forge-1.20.1-2.1.28 -> resourcefullib-forge-1.20.1-2.1.29
+- rhino-forge-2001.2.2-build.18 -> rhino-forge-2001.2.3-build.6
+- MyNethersDelight-1.20.1-0.1.7.5 -> MyNethersDelight-1.20.1-0.1.7.5
+- supermartijn642corelib-1.1.17-forge-mc1.20.1 -> supermartijn642corelib-1.1.17a-forge-mc1.20.1
+- create-1.20.1-0.5.1.f -> create-1.20.1-0.5.1.h
+- curios-forge-5.9.1+1.20.1 -> curios-forge-5.10.0+1.20.1
+- balm-forge-1.20.1-7.3.7-all -> balm-forge-1.20.1-7.3.9-all
+- sophisticatedstorage-1.20.1-0.10.25.804 -> sophisticatedstorage-1.20.1-0.10.26.817
+- sophisticatedbackpacks-1.20.1-3.20.5.1044 -> sophisticatedbackpacks-1.20.1-3.20.6.1064
+- ImmediatelyFast-Forge-1.2.20+1.20.4 -> ImmediatelyFast-Forge-1.2.21+1.20.4
+- sophisticatedcore-1.20.1-0.6.22.611 -> sophisticatedcore-1.20.1-0.6.25.632
+- Stargate Journey-1.20.1-0.6.27.jar -> Stargate Journey-1.20.1-0.6.28 Hotfix.jar

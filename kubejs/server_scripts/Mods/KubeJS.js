@@ -93,18 +93,6 @@ ServerEvents.recipes(event => {
 		}
 	)
 
-	event.shaped('kubejs:netherite_plate',
-		[
-			'H',
-			'I',
-			'I'
-		],
-		{
-			H: '#forge:tools/hammers',
-			I: 'minecraft:netherite_ingot',
-		}
-	)
-
 	event.shaped('kubejs:empty_glue_tube',
 		[
 			'RN',

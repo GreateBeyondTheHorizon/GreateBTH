@@ -757,12 +757,6 @@ file = "kubejs/assets/kubejs/textures/item/advanced_honey_treat.png"
 file = "kubejs/assets/kubejs/textures/item/block_wooden_form.png"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/item/double_diamond_plate.png"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/double_obsidian_plate.png"
-
-[[files]]
 file = "kubejs/assets/kubejs/textures/item/drinkable_liquid_concrete.png"
 
 [[files]]
@@ -925,12 +919,6 @@ file = "kubejs/assets/kubejs/textures/item/medium_quality_64k_me_storage_wafer.p
 file = "kubejs/assets/kubejs/textures/item/mud_brick.png"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/item/netherite_plate.png"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/netherite_plate_show.png"
-
-[[files]]
 file = "kubejs/assets/kubejs/textures/item/nugget_wooden_form.png"
 
 [[files]]
@@ -944,9 +932,6 @@ file = "kubejs/assets/kubejs/textures/item/plate_2.png"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/plate_3.png"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/ruthenium_trinium_americium_neutronate_plate.png"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/stainless_steel_cone.png"
@@ -1228,9 +1213,6 @@ file = "kubejs/server_scripts/Mods/Greate/Milling.js"
 file = "kubejs/server_scripts/Mods/Greate/Mixer.js"
 
 [[files]]
-file = "kubejs/server_scripts/Mods/Greate/Press.js"
-
-[[files]]
 file = "kubejs/server_scripts/Mods/Greg/AlloySmelter.js"
 
 [[files]]
@@ -1261,19 +1243,10 @@ file = "kubejs/server_scripts/Mods/Greg/ChemicalBath.js"
 file = "kubejs/server_scripts/Mods/Greg/CokeOven.js"
 
 [[files]]
-file = "kubejs/server_scripts/Mods/Greg/Cutter.js"
-
-[[files]]
 file = "kubejs/server_scripts/Mods/Greg/ElectricBlastFurnace.js"
 
 [[files]]
 file = "kubejs/server_scripts/Mods/Greg/Electrolyzer.js"
-
-[[files]]
-file = "kubejs/server_scripts/Mods/Greg/Extruder.js"
-
-[[files]]
-file = "kubejs/server_scripts/Mods/Greg/ForgeHammer.js"
 
 [[files]]
 file = "kubejs/server_scripts/Mods/Greg/GregUtil.js"

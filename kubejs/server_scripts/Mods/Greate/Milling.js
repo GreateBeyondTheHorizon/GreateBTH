@@ -5,8 +5,6 @@ ServerEvents.recipes(event => {
     event.remove({type: 'gtceu:macerator', id: '/gtceu:(.*)macerate(.*)fence_gate/'})
     event.remove({type: 'gtceu:macerator', id: '/gtceu:(.*)macerate(.*)door/'})
 
-    event.recipes.greate.milling('gtceu:obsidian_dust', ['minecraft:obsidian']).recipeTier(1)
-
     event.recipes.gtceu.macerator('kubejs:macerate_planks')
         .duration(100)
         .itemInputs('#minecraft:planks')
