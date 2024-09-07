@@ -78,12 +78,8 @@ StartupEvents.registry('item', event => {
 
 	// misc
 	event.create('unf_turtle_helmet').displayName('Turtle Helmet Shell')
-	event.create('netherite_plate').displayName('Netherite Plate')
-	event.create('double_obsidian_plate').displayName('Double Obsidian Plate')
-	event.create('double_diamond_plate').displayName('Double Diamond Plate')
 	event.create('infinity_me_storage_wafer').displayName('Infinity ME Storage Component')
-	event.create('ruthenium_trinium_americium_neutronate_plate').displayName('Ruthenium Trinium Americium Neutronate Plate')
-
+	
 	//compass
 	event.create('empty_compass').displayName('Empty Compass')
 

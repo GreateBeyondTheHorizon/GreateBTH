@@ -107,8 +107,9 @@ ServerEvents.recipes(event => {
   armorAndToolRecipe('aether', 'zanite')
   armorAndToolRecipe('deep_aether', 'skyjade')
   armorAndToolRecipe('aether', 'gravitite')
+  armorRecipe('aether', 'obsidian')
 
-  function armorAndToolRecipe(mod, material) {
+  function armorRecipe(mod, material) {
     event.shaped(`${mod}:${material}_helmet`,
       [
         'PPP',
@@ -154,6 +155,10 @@ ServerEvents.recipes(event => {
         H: '#forge:tools/hammers'
       }
     )
+  }
+
+  function armorAndToolRecipe(mod, material) {
+    armorRecipe(mod, material)
 
 
     event.shaped(`${mod}:${material}_sword`,

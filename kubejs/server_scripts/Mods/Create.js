@@ -1,18 +1,23 @@
 ServerEvents.recipes(event => {
 	event.remove({id: 'create:crafting/kinetics/cart_assembler'})
 	event.remove({id: 'create:crafting/kinetics/hand_crank'})
-	event.remove({id: 'create:crafting/kinetics/large_water_wheel'})
 	event.remove({id: 'create:crafting/kinetics/mechanical_drill'})
 	event.remove({id: 'create:crafting/kinetics/steam_engine'})
-	event.remove({id: 'create:crafting/kinetics/water_wheel'})
-	event.remove({id: 'create:crafting/kinetics/windmill_bearing'})
+	event.remove({id: 'create:shaped/water_wheel'})
+	event.remove({id: 'create:shaped/large_water_wheel'})
+	event.remove({id: 'create:shaped/windmill_bearing'})
 	event.remove({id: 'create:crafting/kinetics/empty_blaze_burner'})
 	event.remove({id: 'create:crafting/kinetics/fluid_pipe'})
 	event.remove({id: 'create:crafting/kinetics/fluid_pipe_vertical'})
 	event.remove({id: 'create:crafting/kinetics/goggles'})
-	event.remove({id: 'create:shaped/andesite_alloy' })
-	event.remove({id: 'create/splashing/magma_block'})
     event.remove({id: 'create:crafting/kinetics/super_glue'})
+    event.remove({id: 'create:shaped/copper_diving_helmet'})
+    event.remove({id: 'create:shaped/copper_backtank'})
+    event.remove({id: 'create:shaped/copper_diving_boots'})
+    event.remove({id: 'create:crafting/appliances/netherite_diving_helmet_from_netherite'})
+    event.remove({id: 'create:crafting/appliances/netherite_diving_helmet'})
+    event.remove({id: 'create:crafting/appliances/netherite_diving_boots_from_netherite'})
+    event.remove({id: 'create:crafting/appliances/netherite_diving_boots'})
 
 	event.replaceInput({id: 'create:shaped/wrench'}, 'gtceu:gold_plate', 'gtceu:wrought_iron_plate')
 	event.replaceInput({id: 'create:crafting/kinetics/goggles'}, 'gtceu:gold_plate', 'gtceu:wrought_iron_plate')
@@ -94,8 +99,7 @@ ServerEvents.recipes(event => {
 			F: 'gtceu:gold_plate',
 		}
 )
-	event.recipes.createMechanicalCrafting(
-		Item.of('create:potato_cannon', 1),
+	event.recipes.createMechanicalCrafting(Item.of('create:potato_cannon', 1),
 		[ 
 			'ABCCC',
 			'DD   '
@@ -108,8 +112,7 @@ ServerEvents.recipes(event => {
 		}
 	)
 	
-	event.shaped(
-		Item.of('create:copper_diving_helmet', 1),
+	event.shaped(Item.of('create:copper_diving_helmet', 1),
 		[
 			'AAA',
 			'ABA',

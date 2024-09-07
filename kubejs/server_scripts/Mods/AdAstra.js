@@ -493,7 +493,7 @@ ServerEvents.recipes( event => {
 		{
 			A: 'gtceu:tungsten_carbide_plate',
 			B: 'gtceu:tungsten_steel_plate',
-			C: 'kubejs:netherite_plate',
+			C: 'gtceu:netherite_plate',
 			D: 'ad_astra:space_helmet'
 		}
 	)
@@ -524,7 +524,7 @@ ServerEvents.recipes( event => {
 		{
 			A: 'gtceu:tungsten_carbide_plate',
 			B: 'gtceu:tungsten_steel_plate',
- 			C: 'kubejs:netherite_plate',
+ 			C: 'gtceu:netherite_plate',
  			D: 'ad_astra:space_suit'
 		}
 	)
@@ -556,7 +556,7 @@ ServerEvents.recipes( event => {
 		{
 			A: 'gtceu:tungsten_carbide_plate',
  			B: 'gtceu:tungsten_steel_plate',
- 			C: 'kubejs:netherite_plate',
+ 			C: 'gtceu:netherite_plate',
  			D: 'ad_astra:space_pants'
 		}
 	)
@@ -585,7 +585,7 @@ ServerEvents.recipes( event => {
 		{
 			A: 'gtceu:tungsten_carbide_plate',
  			B: 'gtceu:tungsten_steel_plate',
- 			C: 'kubejs:netherite_plate',
+ 			C: 'gtceu:netherite_plate',
  			D: 'ad_astra:space_boots'
 		}
 	)
