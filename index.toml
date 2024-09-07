@@ -988,6 +988,12 @@ file = "kubejs/assets/minecraft/textures/item/campfire.png"
 file = "kubejs/assets/productivebees/lang/en_us.json"
 
 [[files]]
+file = "kubejs/assets/sophisticatedbackpacks/lang/en_us.json"
+
+[[files]]
+file = "kubejs/assets/sophisticatedstorage/lang/en_us.json"
+
+[[files]]
 file = "kubejs/client_scripts/BlockEvents.js"
 
 [[files]]
