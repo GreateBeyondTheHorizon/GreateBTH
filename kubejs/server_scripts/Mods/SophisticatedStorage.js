@@ -348,4 +348,29 @@ ServerEvents.recipes(event => {
 		}
  	)
 	SophisticatedStorage.makeAdvanced('hopper_upgrade')
+
+	const chipped_tables = [
+		'botanist_workbench',
+		'glassblower',
+		'carpenters_table',
+		'loom_table',
+		'mason_table',
+		'alchemy_bench',
+		'tinkering_table'
+	]
+	chipped_tables.forEach(table => {
+		event.shaped(
+			Item.of('sophisticatedstorage:chipped/'+table+'_upgrade', 1),
+			[
+				'AJA',
+				'RBR'
+			],
+			{
+				A:'#forge:screws/iron',
+				B:'sophisticatedstorage:upgrade_base',
+				J:'chipped:'+table,
+				R:'#gtceu:circuits/ulv'
+			}
+		)
+	})
 })

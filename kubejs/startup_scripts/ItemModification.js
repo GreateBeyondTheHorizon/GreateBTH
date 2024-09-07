@@ -4,12 +4,6 @@ console.info('Items Modified')
 ItemEvents.modification(event => {
 	event.modify(
 		[
-			/minecraft:raw_(.*)_block/,
-			/gtceu:raw_(.*)_block/,
-			/ad_astra:raw_(.*)_block/,
-			/gtceu:(.*)_crushed_ore/,
-			/gtceu:(.*)_refined_ore/,
-			/gtceu:(.*)_purified_ore/,
 			'farmersdelight:apple_cider',
 			'farmersdelight:bacon_and_eggs',
 			'farmersdelight:baked_cod_stew',
@@ -48,7 +42,6 @@ ItemEvents.modification(event => {
 			'minecraft:beetroot_soup',
 			'minecraft:mushroom_stew',
 			'minecraft:rabbit_stew'
-
 		],
 		item => {
 			item.maxStackSize = 64

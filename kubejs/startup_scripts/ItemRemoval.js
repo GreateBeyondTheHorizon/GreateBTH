@@ -114,57 +114,49 @@ removeNamespaceItems('toms_storage', [
 
 // Sophisticated Backpacks
 removeNamespaceItems('sophisticatedbackpacks', [
+	'advanced_pump_upgrade',
+	'anvil_upgrade',
+	'battery_upgrade',
+	'blasting_upgrade',
+	'crafting_upgrade',
+	'everlasting_upgrade',
 	'inception_upgrade',
 	'pump_upgrade',
-	'stack_upgrade_tier_3',
-	'stack_upgrade_tier_1',
-	'stack_upgrade_tier_4',
-	'stack_upgrade_tier_2',
-	'everlasting_upgrade',
-	'auto_blasting_upgrade',
-	'auto_smoking_upgrade',
-	'auto_smelting_upgrade',
-	'crafting_upgrade',
+	'smelting_upgrade',
 	'smoking_upgrade',
 	'tank_upgrade',
-	'battery_upgrade',
-	'advanced_pump_upgrade',
 	'xp_pump_upgrade',
-	'smelting_upgrade',
-	'blasting_upgrade',
-	/(.*)copper(.*)/
+	/(.*)copper(.*)/, 
+	/auto_(.*)_upgrade'/,
+	/stack_upgrade_(.*)/
 ])
 
 // Sophisticated Storage
 removeNamespaceItems('sophisticatedstorage', [
 	'advanced_feeding_upgrade',
 	'advanced_magnet_upgrade',
-	'auto_blasting_upgrade',
 	'auto_smelting_upgrade',
 	'auto_smoking_upgrade',
+	'basic_to_diamond_tier_upgrade',
+	'basic_to_gold_tier_upgrade',
+	'basic_to_netherite_tier_upgrade',
 	'blasting_upgrade',
-	'chipped/alchemy_bench_upgrade',
-	'chipped/botanist_workbench_upgrade',
-	'chipped/carpenters_table_upgrade',
-	'chipped/glassblower_upgrade',
-	'chipped/loom_table_upgrade',
-	'chipped/mason_table_upgrade',
-	'chipped/tinkering_table_upgrade',
 	'compression_upgrade',
 	'crafting_upgrade',
 	'feeding_upgrade',
+	'gold_to_netherite_tier_upgrade',
+	'iron_to_diamond_tier_upgrade',
+	'iron_to_netherite_tier_upgrade',
 	'jukebox_upgrade',
 	'magnet_upgrade',
-	'pump_upgrade',
 	'smelting_upgrade',
 	'smoking_upgrade',
-	'stack_upgrade_tier_1',
-	'stack_upgrade_tier_2',
-	'stack_upgrade_tier_3',
-	'stack_upgrade_tier_4',
 	'stonecutter_upgrade',
 	'xp_pump_upgrade',
-	/(.*)copper(.*)/
+	/(.*)copper(.*)/,
+	/(.*)pump_upgrade/,
+	/auto_(.*)_upgrade/,
+	/stack_upgrade_(.*)/
 ])
 
 // Ad Astra

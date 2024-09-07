@@ -3,6 +3,8 @@
 - Modify scripts for Greate changes
 - Add recipe for aether obsidian armor
 - Add recipes for decoloring candles & canvas signs
+- Hide sophisticated storage/backpack upgrades
+- Change sophisticated storage upgrades & backpacks to reflect recipe changes
 
 **Mod Changes**
 - greate-0.0.25 -> greate-0.0.26
