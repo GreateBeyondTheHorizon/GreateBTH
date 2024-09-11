@@ -1,11 +1,10 @@
 {
-    "block.gtceu.ore_proc": "Ore Processing",
+    "block.gtceu.hv_rocket_component_assembler": "§6Advanced Rocket Component Assembler II",
+    "block.gtceu.ev_rocket_component_assembler": "§5Advanced Rocket Component Assembler III",
+    "block.gtceu.iv_rocket_component_assembler": "§9Elite Rocket Component Assembler",
 
-    "tagprefix.moon_stone": "Moon %s Ore",
-    "tagprefix.mars_stone": "Mars %s Ore",
-    "tagprefix.mercury_stone": "Mercury %s Ore",
-    "tagprefix.venus_stone": "Venus %s Ore",
-    "tagprefix.glacio_stone": "Glacio %s Ore",
+    "gtceu.rocket_component_assembler": "Rocket Component Assembler",
+
     "tagprefix.holystone": "Holystone %s Ore",
 
     "material.gtceu.zanite": "Zanite",
@@ -20,7 +19,32 @@
     "gtceu.jei.ore_vein.iron_vein_aether": "Goethite Vein",
     "gtceu.jei.ore_vein.tin_vein_aether": "Cassiterite Vein",
     "gtceu.jei.ore_vein.copper_vein_aether": "Chalcopyrite Vein",
-    "gtceu.jei.ore_vein.bauxite_vein_moon": "Bauxite Vein",
+
+    "gtceu.jei.ore_vein.scheelite_vein_end": "Sheelite Vein",
+    "gtceu.jei.ore_vein.sheldonite_vein_end": "Sheldonite Vein",
+
+    "gtceu.jei.ore_vein.sulfur_vein_nether": "Sulfur Vein",
+    "gtceu.jei.ore_vein.saltpeter_vein_nether": "Saltpeter Vein",
+    "gtceu.jei.ore_vein.banded_iron_vein_nether": "Banded Iron Vein",
+    "gtceu.jei.ore_vein.certus_quartz_vein_nether": "Certus Quartz Vein",
+    "gtceu.jei.ore_vein.molybdenum_vein_nether": "Molybdenum Vein",
+    "gtceu.jei.ore_vein.topaz_vein_nether": "Topaz Vein",
+    "gtceu.jei.ore_vein.nether_quartz_vein_nether": "Nether Quartz Vein",
+    "gtceu.jei.ore_vein.tetrahedrite_vein_nether": "Tetrahedrite Vein",
+    "gtceu.jei.ore_vein.mica_vein_nether": "Mica Vein",
+    "gtceu.jei.ore_vein.manganese_vein_nether": "Manganese Vein",
+    "gtceu.jei.ore_vein.mozanite_vein_nether": "Mozanite Vein",
+    "gtceu.jei.ore_vein.beryllium_vein_nether": "Beryllium Vein",
+
+    "gtceu.jei.ore_vein.bauxite_vein_planets": "Bauxite Vein",
+    "gtceu.jei.ore_vein.sapphire_vein_planets": "Sapphire Vein",
+    "gtceu.jei.ore_vein.redstone_vein_planets": "Redstone Vein",
+    "gtceu.jei.ore_vein.magnetite_vein_planets": "Magnetite Vein",
+    "gtceu.jei.ore_vein.olivine_vein_planets": "Olivine Vein",
+    "gtceu.jei.ore_vein.sheldonite_vein_planets": "Sheldonite Vein",
+    "gtceu.jei.ore_vein.scheelite_vein_planets": "Scheelite Vein",
+    "gtceu.jei.ore_vein.pitchblende_vein_planets": "Pitchblende Vein",
+    "gtceu.jei.ore_vein.mica_vein_planets": "Mica Vein",
 
     "entity.productivebees.aluminium_bee": "Aluminium Bee",
     "entity.productivebees.stainless_steel_bee": "Stainless Steel Bee",

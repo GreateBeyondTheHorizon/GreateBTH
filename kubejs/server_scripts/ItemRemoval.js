@@ -37,6 +37,7 @@ var extraRecipesToRemove = [
 var recipesToReplace = [
     {removedItem: "ad_astra:steel_rod", replacement: '#forge:rods/steel'},
     {removedItem: "ad_astra:iron_rod", replacement: '#forge:rods/iron'},
+	{removedItem: 'ad_astra:desh_engine', replacement: 'kubejs:tungsten_steel_engine'},
 
     {removedItem: "ae2:ender_dust", replacement: 'gtceu:ender_pearl_dust'},
     {removedItem: "ae2:certus_quartz_crystal", replacement: 'gtceu:certus_quartz_gem'},

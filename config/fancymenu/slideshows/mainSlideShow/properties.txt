@@ -8,4 +8,5 @@ slideshow-meta {
    y = 0
    duration = 10.0
    fadespeed = 2.0
+   randomize = true
 }
