@@ -58,23 +58,23 @@ StartupEvents.registry('item', event => {
 
 	// Stainless Steel
 	event.create('stainless_steel_engine')
-	event.create('stainless_steel_fin')
-	event.create('stainless_steel_cone')
+	event.create('stainless_steel_fin').displayName('Stainless Steel Rocket Fin')
+	event.create('stainless_steel_cone').displayName('Stainless Steel Rocket Nose Cone')
 
 	// Tungsten Steel
-	event.create('tungsten_steel_engine')
-	event.create('tungsten_steel_fin')
-	event.create('tungsten_steel_cone')
+	event.create('tungsten_steel_engine').displayName('Tungstensteel Engine')
+	event.create('tungsten_steel_fin').displayName('Tungstensteel Rocket Fin')
+	event.create('tungsten_steel_cone').displayName('Tungstensteel Rocket Nose Cone')
 
 	// HSS-E
-	event.create('hsse_engine')
-	event.create('hsse_fin')
-	event.create('hsse_cone')
+	event.create('hsse_engine').displayName('HSS-E Engine')
+	event.create('hsse_fin').displayName('HSS-E Rocket Fin')
+	event.create('hsse_cone').displayName('HSS-E Rocket Nose Cone')
 
 	// Trinium
 	event.create('trinium_engine')
-	event.create('trinium_fin')
-	event.create('trinium_cone')
+	event.create('trinium_fin').displayName('Trinium Rocket Fin')
+	event.create('trinium_cone').displayName('Trinium Rocket Nose Cone')
 
 	// misc
 	event.create('unf_turtle_helmet').displayName('Turtle Helmet Shell')

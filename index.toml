@@ -1156,9 +1156,6 @@ file = "kubejs/server_scripts/Gamerules.js"
 file = "kubejs/server_scripts/GregMultiRecipe.js"
 
 [[files]]
-file = "kubejs/server_scripts/GregOreVeins.js"
-
-[[files]]
 file = "kubejs/server_scripts/Gregification.js"
 
 [[files]]
@@ -1318,7 +1315,31 @@ file = "kubejs/server_scripts/Mods/SophisticatedBackpacks.js"
 file = "kubejs/server_scripts/Mods/SophisticatedStorage.js"
 
 [[files]]
+file = "kubejs/server_scripts/Mods/SteamAdditions.js"
+
+[[files]]
 file = "kubejs/server_scripts/Mods/TomsSimpleStorage.js"
+
+[[files]]
+file = "kubejs/server_scripts/OreGeneration/AetherLayerOres.js"
+
+[[files]]
+file = "kubejs/server_scripts/OreGeneration/EndLayerOres.js"
+
+[[files]]
+file = "kubejs/server_scripts/OreGeneration/NetherLayerOres.js"
+
+[[files]]
+file = "kubejs/server_scripts/OreGeneration/Overworld/DeepslateLayerOres.js"
+
+[[files]]
+file = "kubejs/server_scripts/OreGeneration/Overworld/StoneLayerOres.js"
+
+[[files]]
+file = "kubejs/server_scripts/OreGeneration/PlanetLayerOres.js"
+
+[[files]]
+file = "kubejs/server_scripts/OreGeneration/VeinSetup.js"
 
 [[files]]
 file = "kubejs/server_scripts/Tags.js"
@@ -1331,6 +1352,12 @@ file = "kubejs/startup_scripts/BlockGeneration.js"
 
 [[files]]
 file = "kubejs/startup_scripts/BlockModification.js"
+
+[[files]]
+file = "kubejs/startup_scripts/CustomGTMachines.js"
+
+[[files]]
+file = "kubejs/startup_scripts/CustomGTRecipeTypes.js"
 
 [[files]]
 file = "kubejs/startup_scripts/ItemGeneration.js"
@@ -1616,7 +1643,15 @@ file = "mods/greate.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/gregtech-steam-additions.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/gregtechceu-modern.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/gt.pw.toml"
 metafile = true
 
 [[files]]

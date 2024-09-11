@@ -5,33 +5,41 @@
 - Add recipes for decoloring candles & canvas signs
 - Hide sophisticated storage/backpack upgrades
 - Change sophisticated storage upgrades & backpacks to reflect recipe changes
+- Add GT--
+- Add Gregtech Steam Additions
+- Change steam alloy smelter & steam centrifuge to be unlocked at MV
+- Change rocket recipes to use GT-- items
+- Refactor Ore Generation
+- Randomize mainmenu slideshow
 
 **Mod Changes**
-- greate-0.0.25 -> greate-0.0.26
-- geckolib-forge-1.20.1-4.4.7 -> geckolib-forge-1.20.1-4.4.9
-- Steam_Rails-1.6.4+forge-mc1.20.1 -> Steam_Rails-1.6.5+forge-mc1.20.1
+- balm-forge-1.20.1-7.3.7-all -> balm-forge-1.20.1-7.3.9-all
 - bucketlib-1.20.1-2.3.4.1 -> bucketlib-1.20.1-2.3.4.3
-- modernfix-forge-5.19.1+mc1.20.1 -> modernfix-forge-5.19.4+mc1.20.1
-- journeymap-1.20.1-5.10.1-forge -> journeymap-1.20.1-5.10.2-forge
-- embeddium-0.3.30+mc1.20.1 -> embeddium-0.3.31+mc1.20.1
-- PuzzlesLib-v8.1.21-1.20.1-Forge -> PuzzlesLib-v8.1.22-1.20.1-Forge
-- JadeAddons-1.20.1-Forge-5.3.0 -> JadeAddons-1.20.1-Forge-5.3.1
-- jei-1.20.1-forge-15.12.3.54 -> jei-1.20.1-forge-15.17.0.76
-- SimpleBackups-1.20.1-3.1.6 -> SimpleBackups-1.20.1-3.1.8
-- entityculling-forge-1.6.6-mc1.20.1 -> entityculling-forge-1.7.0-mc1.20.1
-- Jade-1.20.1-forge-11.10.1 -> Jade-1.20.1-forge-11.11.1
-- corpse-forge-1.20.1-1.0.12 -> corpse-forge-1.20.1-1.0.14
-- fast-ip-ping-mc1.20.4-forge-v1.0.3 -> fast-ip-ping-v1.0.4-mc1.20.4-forge
 - cc-tweaked-1.20.1-forge-1.112.0 -> cc-tweaked-1.20.1-forge-1.113.0
-- resourcefullib-forge-1.20.1-2.1.28 -> resourcefullib-forge-1.20.1-2.1.29
-- rhino-forge-2001.2.2-build.18 -> rhino-forge-2001.2.3-build.6
-- MyNethersDelight-1.20.1-0.1.7.5 -> MyNethersDelight-1.20.1-0.1.7.5
-- supermartijn642corelib-1.1.17-forge-mc1.20.1 -> supermartijn642corelib-1.1.17a-forge-mc1.20.1
+- corpse-forge-1.20.1-1.0.12 -> corpse-forge-1.20.1-1.0.14
 - create-1.20.1-0.5.1.f -> create-1.20.1-0.5.1.h
 - curios-forge-5.9.1+1.20.1 -> curios-forge-5.10.0+1.20.1
-- balm-forge-1.20.1-7.3.7-all -> balm-forge-1.20.1-7.3.9-all
-- sophisticatedstorage-1.20.1-0.10.25.804 -> sophisticatedstorage-1.20.1-0.10.26.817
-- sophisticatedbackpacks-1.20.1-3.20.5.1044 -> sophisticatedbackpacks-1.20.1-3.20.6.1064
+- dynamic-fps-3.6.3+minecraft-1.20.0-forge -> dynamic-fps-3.7.1+minecraft-1.20.0-forge
+- embeddium-0.3.30+mc1.20.1 -> embeddium-0.3.31+mc1.20.1
+- emi-1.1.12+1.20.1+forge -> emi-1.1.13+1.20.1+forge
+- entityculling-forge-1.6.6-mc1.20.1 -> entityculling-forge-1.7.0-mc1.20.1
+- fast-ip-ping-mc1.20.4-forge-v1.0.3 -> fast-ip-ping-v1.0.4-mc1.20.4-forge
+- geckolib-forge-1.20.1-4.4.7 -> geckolib-forge-1.20.1-4.4.9
+- greate-0.0.25 -> greate-0.0.26
 - ImmediatelyFast-Forge-1.2.20+1.20.4 -> ImmediatelyFast-Forge-1.2.21+1.20.4
+- Jade-1.20.1-forge-11.10.1 -> Jade-1.20.1-forge-11.11.1
+- JadeAddons-1.20.1-Forge-5.3.0 -> JadeAddons-1.20.1-Forge-5.3.1
+- jei-1.20.1-forge-15.12.3.54 -> jei-1.20.1-forge-15.18.0.79
+- journeymap-1.20.1-5.10.1-forge -> journeymap-1.20.1-5.10.2-forge
+- modernfix-forge-5.19.1+mc1.20.1 -> modernfix-forge-5.19.4+mc1.20.1
+- MyNethersDelight-1.20.1-0.1.7.5 -> MyNethersDelight-1.20.1-0.1.7.5
+- PuzzlesLib-v8.1.21-1.20.1-Forge -> PuzzlesLib-v8.1.23-1.20.1-Forge
+- resourcefullib-forge-1.20.1-2.1.28 -> resourcefullib-forge-1.20.1-2.1.29
+- rhino-forge-2001.2.2-build.18 -> rhino-forge-2001.2.3-build.6
+- SimpleBackups-1.20.1-3.1.6 -> SimpleBackups-1.20.1-3.1.8
+- sophisticatedbackpacks-1.20.1-3.20.5.1044 -> sophisticatedbackpacks-1.20.1-3.20.6.1064
 - sophisticatedcore-1.20.1-0.6.22.611 -> sophisticatedcore-1.20.1-0.6.25.632
-- Stargate Journey-1.20.1-0.6.27.jar -> Stargate Journey-1.20.1-0.6.28 Hotfix.jar
+- sophisticatedstorage-1.20.1-0.10.25.804 -> sophisticatedstorage-1.20.1-0.10.26.817
+- Stargate Journey-1.20.1-0.6.27 -> Stargate Journey-1.20.1-0.6.29
+- Steam_Rails-1.6.4+forge-mc1.20.1 -> Steam_Rails-1.6.5+forge-mc1.20.1
+- supermartijn642corelib-1.1.17-forge-mc1.20.1 -> supermartijn642corelib-1.1.17a-forge-mc1.20.1

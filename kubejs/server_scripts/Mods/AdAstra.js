@@ -1,175 +1,137 @@
-ServerEvents.recipes( event => {
-
-	event.remove({ output:'ad_astra:rocket_fin' })
-	event.remove({ output:/ad_astra:(.*)engine/ })
-	event.remove({ output:'ad_astra:rocket_nose_cone' })
-	event.remove({ id: /ad_astra:(smelting|blasting)(.*)iron_ingot_from_(smelting|blasting)_(.*)_iron_ore/})
-	event.remove({ type: 'ad_astra:compressing' })
-	event.remove({ type: 'ad_astra:alloying' })
+ServerEvents.recipes(event => {
+	event.remove({id: /ad_astra:(smelting|blasting)(.*)iron_ingot_from_(smelting|blasting)_(.*)_iron_ore/})
+	event.remove({type: 'ad_astra:compressing'})
+	event.remove({type: 'ad_astra:alloying'})
 	event.remove({type: 'create:cutting', output: /ad_astra:(.*)_planks/})
+	event.remove({type: 'ad_astra:nasa_workbench'})
 
-	//stainless steel
-	event.shaped(
-	Item.of('kubejs:stainless_steel_engine', 1),
-		[
-			'AAA',
-			' B ',
-			'DCD'
-		],
-		{
-			A:'gtceu:double_stainless_steel_plate',
-			B:'gtceu:stainless_steel_frame',
-			C:'gtceu:stainless_steel_rotor',
-			D:'#gtceu:circuits/hv'
-		}
-	)
-	event.shaped(	
-		Item.of('kubejs:stainless_steel_fin', 1),
-		[
-			' A ',
-			'AAA',
-			'A A'
-		],
-		{
-			A:'gtceu:double_stainless_steel_plate'
-		}
-	)
-	event.shaped(
-		Item.of('kubejs:stainless_steel_cone', 1),
-		[
-			'   ',
-			' A ',
-			'AAA'
-		],
-		{
-			A:'gtceu:double_stainless_steel_plate',
-		}
-	)
-	
-	//tungsten steel/carbide
-	event.shaped(
-		Item.of('kubejs:tungsten_steel_engine', 1),
-		[
-			'AAA',
-			' B ',
-			'DCD'
-		],
-		{
-			A:'gtceu:double_tungsten_steel_plate',
-			B:'gtceu:tungsten_steel_frame',
-			C:'gtceu:tungsten_steel_rotor',
-			D:'#gtceu:circuits/ev'
-		}
-	)
-	event.shaped(
-		Item.of('kubejs:tungsten_steel_fin', 1),
-		[
-			' A ',
-			'AAA',
-			'A A'
-		],
-		{
-			A:'gtceu:double_tungsten_steel_plate'
-		}
-	)
-	event.shaped(
-		Item.of('kubejs:tungsten_steel_cone', 1),
-		[
-			'   ',
-			' A ',
-			'AAA'
-		],
-		{
-			A:'gtceu:double_tungsten_carbide_plate'
-		}
-	)
-	
-	// HSS-E
-	event.shaped(
-		Item.of('kubejs:hsse_engine', 1),
-		[
-			'AAA',
-			' B ',
-			'DCD'
-		],
-		{
-			A:'gtceu:double_hsse_plate',
-			B:'gtceu:hsse_frame',
-			C:'kubejs:hsse_rotor',
-			D:'#gtceu:circuits/iv'
-		}
-	)
-	event.shaped(
-		Item.of('kubejs:hsse_fin', 1),
-		[
-			' A ',
-			'AAA',
-			'A A'
-		],
-		{
-			A:'gtceu:double_hsse_plate'
-		}
-	)
-	event.shaped(
-		Item.of('kubejs:hsse_cone'),
-		[
-			'   ',
-			' A ',
-			'AAA'
-		],
-		{
-			A:'gtceu:double_hsse_plate'
-		}
-	)
-	
-	// Trinium
-	event.shaped(
-		Item.of('kubejs:trinium_engine', 1),
-		[
-			'AAA',
-			' B ',
-			'DCD'
-		],
-		{
-			A:'gtceu:double_trinium_plate',
-			B:'kubejs:trinium_frame',
-			C:'kubejs:trinium_rotor',
-			D:'#gtceu:circuits/luv'
-		}
-	)
-	event.shaped(
-		Item.of('kubejs:trinium_fin'),
-		[
-			' A ',
-			'AAA',
-			'A A'
-		],
-		{
-			A:'gtceu:double_trinium_plate'
-		}
-	)
-	event.shaped(
-		Item.of('kubejs:trinium_cone'),
-		[
-			'   ',
-			' A ',
-			'AAA'
-		],
-		{
-			A:'gtceu:double_trinium_plate'
-		}
-	)
 
-	event.replaceInput({ input: 'ad_astra:steel_rod' }, 'ad_astra:steel_rod', 'gtceu:steel_rod')
-	event.replaceInput({ input: 'ad_astra:steel_plate' }, 'ad_astra:steel_plate', 'gtceu:steel_plate')
-	event.replaceInput({ input: 'ad_astra:steel_ingot' }, 'ad_astra:steel_ingot', 'gtceu:steel_ingot')
-	event.replaceInput({ input: 'ad_astra:iron_rod' }, 'ad_astra:iron_rod', 'gtceu:iron_rod')
-	event.replaceInput({ input: 'ad_astra:iron_plate' }, 'ad_astra:iron_plate', 'gtceu:iron_plate')
+	event.recipes.gtceu.rocket_component_assembler('stainless_steel_engine')
+		.itemInputs('4x gtnn:heavy_plate_t1', 'gtceu:stainless_steel_frame', '2x gtceu:double_stainless_steel_plate', 'gtnn:t1_chip', 'gtceu:activity_detector_cover')
+		.inputFluids(Fluid.of('gtceu:polyethylene', 2304))
+		.itemOutputs('kubejs:stainless_steel_engine')
+		.circuit(1)
+		.duration(1200)
+		.EUt(480)
+
+	event.recipes.gtceu.rocket_component_assembler('stainless_steel_fin')
+		.itemInputs('4x gtceu:double_stainless_steel_plate', '2x gtnn:heavy_plate_t1')
+		.inputFluids(Fluid.of('gtceu:polyethylene', 576))
+		.itemOutputs('kubejs:stainless_steel_fin')
+		.circuit(2)
+		.duration(600)
+		.EUt(480)
+
+	event.recipes.gtceu.rocket_component_assembler('stainless_steel_cone')
+		.itemInputs('2x gtceu:double_stainless_steel_plate', '2x gtnn:heavy_plate_t1', 'minecraft:lightning_rod', '2x gtceu:stainless_steel_screw')
+		.inputFluids(Fluid.of('gtceu:polyethylene', 576))
+		.itemOutputs('kubejs:stainless_steel_cone')
+		.circuit(3)
+		.duration(300)
+		.EUt(480)
+
+
+	event.recipes.gtceu.rocket_component_assembler('tungsten_steel_engine')
+		.itemInputs('4x gtnn:heavy_plate_t2', '2x gtceu:double_tungsten_steel_plate', 'gtnn:t2_chip', 'kubejs:stainless_steel_engine')
+		.inputFluids(Fluid.of('gtceu:polyethylene', 2304))
+		.itemOutputs('kubejs:tungsten_steel_engine')
+		.circuit(1)
+		.duration(2400)
+		.EUt(1920)
+
+	event.recipes.gtceu.rocket_component_assembler('tungsten_steel_fin')
+		.itemInputs('4x gtceu:double_tungsten_steel_plate', '2x gtnn:heavy_plate_t2', 'kubejs:stainless_steel_fin')
+		.inputFluids(Fluid.of('gtceu:polyethylene', 576))
+		.itemOutputs('kubejs:tungsten_steel_fin')
+		.circuit(2)
+		.duration(1200)
+		.EUt(1920)
+
+	event.recipes.gtceu.rocket_component_assembler('tungsten_steel_cone')
+		.itemInputs('2x gtceu:double_tungsten_steel_plate', '2x gtnn:heavy_plate_t2', 'kubejs:stainless_steel_cone', '2x gtceu:tungsten_steel_screw')
+		.inputFluids(Fluid.of('gtceu:polyethylene', 576))
+		.itemOutputs('kubejs:tungsten_steel_cone')
+		.circuit(3)
+		.duration(600)
+		.EUt(1920)
+
+	event.recipes.gtceu.rocket_component_assembler('hsse_engine')
+		.itemInputs('4x gtnn:heavy_plate_t3', '2x gtceu:double_hsse_plate', 'gtnn:t3_chip', 'kubejs:stainless_steel_engine')
+		.inputFluids(Fluid.of('gtceu:polytetrafluoroethylene', 2304))
+		.itemOutputs('kubejs:hsse_engine')
+		.circuit(1)
+		.duration(4800)
+		.EUt(7680)
+
+	event.recipes.gtceu.rocket_component_assembler('hsse_fin')
+		.itemInputs('4x gtceu:double_hsse_plate', '2x gtnn:heavy_plate_t3', 'kubejs:tungsten_steel_fin')
+		.inputFluids(Fluid.of('gtceu:polytetrafluoroethylene', 576))
+		.itemOutputs('kubejs:hsse_fin')
+		.circuit(2)
+		.duration(2400)
+		.EUt(7680)
+
+	event.recipes.gtceu.rocket_component_assembler('hsse_cone')
+		.itemInputs('2x gtceu:double_hsse_plate', '2x gtnn:heavy_plate_t3', 'kubejs:tungsten_steel_cone', '2x gtceu:hsse_screw')
+		.inputFluids(Fluid.of('gtceu:polytetrafluoroethylene', 576))
+		.itemOutputs('kubejs:hsse_cone')
+		.circuit(3)
+		.duration(1200)
+		.EUt(7680)
+
+	
+	event.recipes.gtceu.assembly_line('trinium_engine')
+		.itemInputs('32x gtceu:double_trinium_plate', '16x gtnn:heavy_plate_t4', 'kubejs:hsse_engine', 'gtnn:t4_chip')
+		.inputFluids([Fluid.of('gtceu:platinum', 4032), Fluid.of('gtceu:iridium', 2016), Fluid.of('gtceu:palladium', 1008), Fluid.of('gtceu:osmium', 504)])
+		.itemOutputs('kubejs:trinium_engine')
+		.duration(1200)
+		.EUt(30720)
+	
+	event.recipes.gtceu.assembly_line('trinium_fin')
+		.itemInputs('8x gtceu:double_trinium_plate', '4x gtnn:heavy_plate_t4', 'kubejs:hsse_fin')
+		.inputFluids([Fluid.of('gtceu:platinum', 1008), Fluid.of('gtceu:iridium', 504), Fluid.of('gtceu:palladium', 252), Fluid.of('gtceu:osmium', 126)])
+		.itemOutputs('kubejs:trinium_fin')
+		.duration(600)
+		.EUt(30720)
+
+	event.recipes.gtceu.assembly_line('trinium_cone')
+		.itemInputs('4x gtceu:double_trinium_plate', '4x gtnn:heavy_plate_t4', 'kubejs:hsse_cone', '2x gtceu:trinium_screw')
+		.inputFluids([Fluid.of('gtceu:platinum', 1008), Fluid.of('gtceu:iridium', 504), Fluid.of('gtceu:palladium', 252), Fluid.of('gtceu:osmium', 126)])
+		.itemOutputs('kubejs:trinium_cone')
+		.duration(300)
+		.EUt(30720)
+
+	event.recipes.gtceu.arc_furnace('recycle_t1_rocket')
+		.itemInputs('ad_astra:tier_1_rocket')
+		.inputFluids(Fluid.of('gtceu:oxygen', 14400))
+		.itemOutputs('11x gtnn:heavy_plate_t1', '10x gtceu:double_stainless_steel_plate')
+		.duration(1200)
+		.EUt(120)
+
+	event.recipes.gtceu.arc_furnace('recycle_t2_rocket')
+		.itemInputs('ad_astra:tier_2_rocket')
+		.inputFluids(Fluid.of('gtceu:oxygen', 14400))
+		.itemOutputs('7x gtnn:heavy_plate_t1', '11x gtnn:heavy_plate_t2', '10x gtceu:double_stainless_steel_plate', '10x gtceu:double_tungsten_steel_plate')
+		.duration(2400)
+		.EUt(120)
+
+	event.recipes.gtceu.arc_furnace('recycle_t3_rocket')
+		.itemInputs('ad_astra:tier_3_rocket')
+		.inputFluids(Fluid.of('gtceu:oxygen', 14400))
+		.itemOutputs('5x gtnn:heavy_plate_t2', '11x gtnn:heavy_plate_t3', '9x gtceu:double_tungsten_steel_plate', '10x gtceu:double_hsse_plate')
+		.duration(4800)
+		.EUt(120)
+
+	event.recipes.gtceu.arc_furnace('recycle_t4_rocket')
+		.itemInputs('ad_astra:tier_4_rocket')
+		.inputFluids(Fluid.of('gtceu:oxygen', 14400))
+		.itemOutputs('7x gtnn:heavy_plate_t3', '22x gtnn:heavy_plate_t4', '10x gtceu:double_hsse_plate', '34x gtceu:double_trinium_plate')
+		.duration(9600)
+		.EUt(120)
 
 	//// Rockets ////
 	
 	// Tier 1 Rocket
-	event.remove({ id: 'ad_astra:nasa_workbench/tier_1_rocket_from_nasa_workbench' })
 	event.custom({
 		type: 'ad_astra:nasa_workbench',
 		ingredients: [
@@ -177,31 +139,31 @@ ServerEvents.recipes( event => {
 				item: 'kubejs:stainless_steel_cone'
 			},
 			{
-				item: 'gtceu:stainless_steel_block'
+				item: 'gtnn:heavy_plate_t1'
 			},
 			{
-				item: 'gtceu:stainless_steel_block'
+				item: 'gtnn:heavy_plate_t1'
 			},
 			{
-				item: 'gtceu:stainless_steel_block'
+				item: 'gtnn:heavy_plate_t1'
 			},
 			{
-				item: 'gtceu:stainless_steel_block'
+				item: 'gtnn:heavy_plate_t1'
 			},
 			{
-				item: 'gtceu:stainless_steel_block'
+				item: 'gtnn:heavy_plate_t1'
 			},
 			{
-				item: 'gtceu:stainless_steel_block'
+				item: 'gtnn:heavy_plate_t1'
 			},
 			{
 				item: 'kubejs:stainless_steel_fin'
 			},
 			{
-				item: 'gtceu:hv_super_tank'
+				item: 'gtnn:heavy_plate_t1'
 			},
 			{
-				item: 'gtceu:hv_super_tank'
+				item: 'gtnn:heavy_plate_t1'
 			},
 			{
 				item: 'kubejs:stainless_steel_fin'
@@ -219,7 +181,6 @@ ServerEvents.recipes( event => {
 		result: 'ad_astra:tier_1_rocket'
 	})
 	// Tier 2 Rocket
-	event.remove({ id: 'ad_astra:nasa_workbench/tier_2_rocket_from_nasa_workbench' })
 	event.custom({
 		type: 'ad_astra:nasa_workbench',
 		ingredients: [
@@ -227,31 +188,31 @@ ServerEvents.recipes( event => {
 				item: 'kubejs:tungsten_steel_cone'
 			},
 			{
-				item: 'gtceu:tungsten_carbide_block'
+				item: 'gtnn:heavy_plate_t2'
 			},
 			{
-				item: 'gtceu:tungsten_carbide_block'
+				item: 'gtnn:heavy_plate_t2'
 			},
 			{
-				item: 'gtceu:tungsten_carbide_block'
+				item: 'gtnn:heavy_plate_t2'
 			},
 			{
-				item: 'gtceu:tungsten_carbide_block'
+				item: 'gtnn:heavy_plate_t2'
 			},
 			{
-				item: 'gtceu:tungsten_carbide_block'
+				item: 'gtnn:heavy_plate_t2'
 			},
 			{
-				item: 'gtceu:tungsten_carbide_block'
+				item: 'gtnn:heavy_plate_t2'
 			},
 			{
 				item: 'kubejs:tungsten_steel_fin'
 			},
 			{
-				item: 'gtceu:ev_super_tank'
+				item: 'gtnn:heavy_plate_t2'
 			},
 			{
-				item: 'gtceu:ev_super_tank'
+				item: 'gtnn:heavy_plate_t2'
 			},
 			{
 				item: 'kubejs:tungsten_steel_fin'
@@ -269,7 +230,6 @@ ServerEvents.recipes( event => {
 		result: 'ad_astra:tier_2_rocket'
 	})
 	// Tier 3 Rocket
-	event.remove({ id: 'ad_astra:nasa_workbench/tier_3_rocket_from_nasa_workbench' })
 	event.custom({
 		type: 'ad_astra:nasa_workbench',
 		ingredients: [
@@ -277,31 +237,31 @@ ServerEvents.recipes( event => {
 				item: 'kubejs:hsse_cone'
 			},
 			{
-				item: 'gtceu:hsse_block'
+				item: 'gtnn:heavy_plate_t3'
 			},
 			{
-				item: 'gtceu:hsse_block'
+				item: 'gtnn:heavy_plate_t3'
 			},
 			{
-				item: 'gtceu:hsse_block'
+				item: 'gtnn:heavy_plate_t3'
 			},
 			{
-				item: 'gtceu:hsse_block'
+				item: 'gtnn:heavy_plate_t3'
 			},
 			{
-				item: 'gtceu:hsse_block'
+				item: 'gtnn:heavy_plate_t3'
 			},
 			{
-				item: 'gtceu:hsse_block'
+				item: 'gtnn:heavy_plate_t3'
 			},
 			{
 				item: 'kubejs:hsse_fin'
 			},
 			{
-				item: 'gtceu:iv_quantum_tank'
+				item: 'gtnn:heavy_plate_t3'
 			},
 			{
-				item: 'gtceu:iv_quantum_tank'
+				item: 'gtnn:heavy_plate_t3'
 			},
 			{
 				item: 'kubejs:hsse_fin'
@@ -319,7 +279,6 @@ ServerEvents.recipes( event => {
 		result: 'ad_astra:tier_3_rocket'
 	})
 	// Tier 4 Rocket
-	event.remove({ id: 'ad_astra:nasa_workbench/tier_4_rocket_from_nasa_workbench' })
 	event.custom({
 		type: 'ad_astra:nasa_workbench',
 		ingredients: [
@@ -327,31 +286,31 @@ ServerEvents.recipes( event => {
 				item: 'kubejs:trinium_cone'
 			},
 			{
-				item: 'gtceu:trinium_block'
+				item: 'gtnn:heavy_plate_t4'
 			},
 			{
-				item: 'gtceu:trinium_block'
+				item: 'gtnn:heavy_plate_t4'
 			},
 			{
-				item: 'gtceu:trinium_block'
+				item: 'gtnn:heavy_plate_t4'
 			},
 			{
-				item: 'gtceu:trinium_block'
+				item: 'gtnn:heavy_plate_t4'
 			},
 			{
-				item: 'gtceu:trinium_block'
+				item: 'gtnn:heavy_plate_t4'
 			},
 			{
-				item: 'gtceu:trinium_block'
+				item: 'gtnn:heavy_plate_t4'
 			},
 			{
 				item: 'kubejs:trinium_fin'
 			},
 			{
-				item: 'gtceu:luv_quantum_tank'
+				item: 'gtnn:heavy_plate_t4'
 			},
 			{
-				item: 'gtceu:luv_quantum_tank'
+				item: 'gtnn:heavy_plate_t4'
 			},
 			{
 				item: 'kubejs:trinium_fin'
@@ -368,237 +327,4 @@ ServerEvents.recipes( event => {
 		],
 		result: 'ad_astra:tier_4_rocket'
 	})
-
-	//// Armor ////
-
-	// Jet Suit Helmet
-	event.shaped(
-		Item.of('ad_astra:jet_suit_helmet', 1),
-		[
-			'AAA', 
-			'ABA', 
-		],
-		{
-			A: 'gtceu:double_hsss_plate',
-			B: 'ad_astra:netherite_space_helmet'
-		}
-	)
-	// Jet Suit
-	event.shaped(
-		Item.of('ad_astra:jet_suit', 1),
-		[
-			'ABA', 
-			'ACA',
-			'ADA'  
-		],
-		{
-			A: 'gtceu:double_hsss_plate',
-			B: 'ad_astra:netherite_space_suit',
-			C: 'gtceu:iv_vanadium_battery',
-			D: 'gtceu:iv_quantum_tank'
-		}
-	)
-	// Jet Suit Pants
-	event.shaped(
-		Item.of('ad_astra:jet_suit_pants', 1),
-		[
-			'AAA', 
-			'ABA',
-			'A A'  
-		],
-		{
-			A: 'gtceu:double_hsss_plate',
-			B: 'ad_astra:netherite_space_pants'
-		}
-	)
-	// Jet Suit Boots
-	event.shaped(
-		Item.of('ad_astra:jet_suit_boots', 1),
-		[
-			'ABA', 
-			'A A',
-			'   '  
-		],
-		{
-			A: 'gtceu:double_hsss_plate',
-			B: 'ad_astra:netherite_space_boots'
-		}
-	)
-
-	// Space Helmet
-	event.shaped(
-		Item.of('ad_astra:space_helmet', 1),
-			[ 
-				'AAA',
-				'ABA',
-				'ACA'
-			],
-			{
-				A: 'minecraft:white_wool',
-				B: 'gtceu:tempered_glass',
-				C: 'minecraft:iron_helmet'
-			}
-	)
-	// Space Suit
-	event.shaped(
-		Item.of('ad_astra:space_suit', 1),
-		[ 
-			'ABA',
-			'ACA',
-			'AAA'
-		],
-		{
-			A: 'minecraft:white_wool',
-			B: 'minecraft:iron_chestplate',
-			C: 'gtceu:steel_drum'
-		}
-	)
-	// Space Pants
-	event.shaped(
-		Item.of('ad_astra:space_pants', 1),
-		[ 
-			'AAA',
-			'ABA',
-			'A A'
-		],
-		{
-			A: 'minecraft:white_wool',
-			B: 'minecraft:iron_leggings'
-		}
-	)
-	// Space Boots
-	event.shaped(
-		Item.of('ad_astra:space_boots', 1),
-		[ 
-			'ABA',
-			'A A',
-			'   '
-		],
-		{
-			A: 'minecraft:white_wool',
-			B: 'minecraft:iron_boots'
-		}
-	)
-
-	// Netherite Space Helmet
-	event.recipes.createMechanicalCrafting(
-		Item.of('ad_astra:netherite_space_helmet', 1),
-		[
-			'AAAAAAA',
-			'ABBBBBA',
-			'ABCCCBA',
-			'AB C BA',
-			'AB D BA'
-		],
-		{
-			A: 'gtceu:tungsten_carbide_plate',
-			B: 'gtceu:tungsten_steel_plate',
-			C: 'gtceu:netherite_plate',
-			D: 'ad_astra:space_helmet'
-		}
-	)
-	event.shaped(
-		Item.of('ad_astra:netherite_space_helmet', 1),
-		[
-			'AAA',
-			'ABA',
-			'ACA'
-		],
-		{
-			A: 'gtceu:double_tungsten_carbide_plate',
-			B: 'gtceu:laminated_glass',
-			C: 'minecraft:netherite_helmet'
-		}
-	)
-	// Netherite Space Suit
- 	event.recipes.createMechanicalCrafting(
-		Item.of('ad_astra:netherite_space_suit', 1),
-		[
-			'ABBBDBBBA',
-			'ABBCCCBBA',
-			'  ABCBA  ',
- 			'  ABCBA  ',
- 			'  ABBBA  ',
- 			'  AAAAA  '
-		],
-		{
-			A: 'gtceu:tungsten_carbide_plate',
-			B: 'gtceu:tungsten_steel_plate',
- 			C: 'gtceu:netherite_plate',
- 			D: 'ad_astra:space_suit'
-		}
-	)
-	event.shaped(
-		Item.of('ad_astra:netherite_space_suit', 1),
-		[
-			'ABA',
-			'ACA',
-			'AAA'
-		],
-		{
-			A: 'gtceu:double_tungsten_carbide_plate',
-			B: 'minecraft:netherite_chestplate',
-			C: 'gtceu:tungsten_steel_drum'
-		}
-	)
-	// Netherite Space Pants
- 	event.recipes.createMechanicalCrafting(
-		Item.of('ad_astra:netherite_space_pants', 1),
-		[
- 			'AAAAAA',
- 			'ABBBBA',
-			'ABCCBA',
-			'AB DBA',
-			'AB  BA',
- 			'AB  BA',
- 			'AB  BA'
-		],
-		{
-			A: 'gtceu:tungsten_carbide_plate',
- 			B: 'gtceu:tungsten_steel_plate',
- 			C: 'gtceu:netherite_plate',
- 			D: 'ad_astra:space_pants'
-		}
-	)
-	event.shaped(
-		Item.of('ad_astra:netherite_space_pants', 1),
-		[
-			'AAA',
-			'ABA',
-			'A A'
-		],
-		{
-			A: 'gtceu:double_tungsten_carbide_plate',
-			B: 'minecraft:netherite_leggings'
-		}
-	)
-	// Netherite Space Boots
- 	event.recipes.createMechanicalCrafting(
-		Item.of('ad_astra:netherite_space_boots'),
-		[
- 			' ABA ABA ',
-			' ABA ABA ',
-			' ABA ABA ',
-			' ABA ABA ',
- 			'CAA D AAC'
-		],
-		{
-			A: 'gtceu:tungsten_carbide_plate',
- 			B: 'gtceu:tungsten_steel_plate',
- 			C: 'gtceu:netherite_plate',
- 			D: 'ad_astra:space_boots'
-		}
-	)
-	event.shaped(
-		Item.of('ad_astra:netherite_space_boots', 1),
-		[
-			'ABA',
-			'A A',
-			'   '
-		],
-		{
-			A: 'gtceu:double_tungsten_carbide_plate',
-			B: 'minecraft:netherite_boots'
-		}
-	)
 })

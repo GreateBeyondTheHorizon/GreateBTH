@@ -175,7 +175,12 @@ removeNamespaceItems('ad_astra', [
 	'moon_iron_ore',
 	'mars_iron_ore',
 	'mercury_iron_ore',
-	'glacio_iron_ore'
+	'glacio_iron_ore',
+	'rocket_fin',
+	/(.*)engine(.*)/,
+	'rocket_nose_cone',
+	'desh_tank', 
+	'calorite_tank'
 ])
 
 //Farmers Delight
