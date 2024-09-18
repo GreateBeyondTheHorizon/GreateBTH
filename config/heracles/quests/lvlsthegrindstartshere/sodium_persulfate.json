@@ -1,0 +1,67 @@
+{
+  "dependencies": [
+    "sodium_bisulfate"
+  ],
+  "tasks": {
+    "sodium_persulfate": {
+      "block": "gtceu:lv_electrolyzer",
+      "state": {},
+      "nbt": {
+        "exportFluids": {
+          "storages": [
+            {
+              "p": {
+                "FluidName": "gtceu:sodium_persulfate"
+              }
+            }
+          ]
+        }
+      },
+      "type": "heracles:block_interaction"
+    },
+    "electrolyzer": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_electrolyzer",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "/d/Electrolyze/d/ your /d/Sodium Bisulfate/d/ to get /d/Sodium Persulfate/d/.",
+      "",
+      "To complete this quest, interact with an /d/LV Electrolyzer/d/ with /d/Sodium Persulfate/d/ in the output."
+    ],
+    "groups": {
+      "LV/LS - The Grind Starts Here": {
+        "position": [
+          -268,
+          97
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:sodium_persulfate_bucket",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Sodium Persulfate"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

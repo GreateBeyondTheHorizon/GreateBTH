@@ -1,0 +1,77 @@
+{
+  "dependencies": [
+    "lv_centrifuge"
+  ],
+  "tasks": {
+    "casing": {
+      "type": "heracles:item",
+      "item": "gtceu:steel_firebox_casing",
+      "amount": 9,
+      "collection": "AUTOMATIC"
+    },
+    "controller": {
+      "type": "heracles:item",
+      "item": "gbthcore:steam_centrifuge",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "output_bus": {
+      "type": "heracles:item",
+      "item": "gtceu:steam_output_bus",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "input_bus": {
+      "type": "heracles:item",
+      "item": "gtceu:steam_input_bus",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "casing_solid": {
+      "type": "heracles:item",
+      "item": "gtceu:steel_machine_casing",
+      "amount": 13,
+      "collection": "AUTOMATIC"
+    },
+    "steam_input": {
+      "type": "heracles:item",
+      "item": "gtceu:steam_input_hatch",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [],
+    "groups": {
+      "LV/LS - The Grind Starts Here": {
+        "position": [
+          65,
+          -65
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gbthcore:steam_centrifuge",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Multiblock Steam Centrifuge"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

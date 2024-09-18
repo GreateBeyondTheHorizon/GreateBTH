@@ -19,13 +19,15 @@
     "description": [
       "Allows cheaper recipes for various components. ",
       "",
-      "All recipes require some amount of /d/Oxygen/d/, so make sure to set up a source soon!"
+      "All recipes require some amount of /d/Oxygen/d/, so make sure to set up a source soon!",
+      "",
+      "You can get some by either /d/Centrifuging/d/ or /d/Electrolyzing/d/ certain materials."
     ],
     "groups": {
       "LV/LS - The Grind Starts Here": {
         "position": [
           -8,
-          37
+          9
         ]
       }
     },

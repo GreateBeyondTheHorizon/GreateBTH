@@ -1,0 +1,41 @@
+{
+  "dependencies": [
+    "the_first_of_many",
+    "microcrafting_hell_begins_1"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [],
+    "groups": {
+      "LV/LS - The Grind Starts Here": {
+        "position": [
+          30,
+          -65
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:lv_centrifuge",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Centrifuging Materials"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

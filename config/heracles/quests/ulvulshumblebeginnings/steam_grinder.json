@@ -40,10 +40,10 @@
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
-          "Type": "COMMON",
-          "Color": 13882323,
           "Loot": "lootbags:kjs/3ui6gksr7gxl82e5t9pkch2ls",
-          "Name": "Lootbag (ULV Age)"
+          "Name": "Lootbag (ULV Age)",
+          "Color": 13882323,
+          "Type": "COMMON"
         }
       },
       "type": "heracles:item"
@@ -59,8 +59,8 @@
     "groups": {
       "ULV/ULS - Humble Beginnings": {
         "position": [
-          47,
-          -116
+          89,
+          -147
         ]
       }
     },

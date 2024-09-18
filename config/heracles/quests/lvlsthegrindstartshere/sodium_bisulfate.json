@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "sulfuric_acid"
+  ],
+  "tasks": {
+    "sodium_bisulfate": {
+      "type": "heracles:item",
+      "item": "gtceu:sodium_bisulfate_dust",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Combine /d/Sulfuric Acid/d/ and /d/Salt/d/ in a /d/Chemical Reactor/d/."
+    ],
+    "groups": {
+      "LV/LS - The Grind Starts Here": {
+        "position": [
+          -268,
+          62
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:sodium_bisulfate_dust",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Sodium Bisulfate"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

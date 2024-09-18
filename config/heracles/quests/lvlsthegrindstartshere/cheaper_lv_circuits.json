@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "circuit_assembler"
+  ],
+  "tasks": {
+    "lv_circuit": {
+      "type": "heracles:item",
+      "item": "gtceu:basic_electronic_circuit",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Now that you have your /d/Circuit Assembler/d/, you can make cheaper /d/LV circuits/d/!"
+    ],
+    "groups": {
+      "LV/LS - The Grind Starts Here": {
+        "position": [
+          65,
+          -225
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:basic_electronic_circuit",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Cheaper LV Circuits"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

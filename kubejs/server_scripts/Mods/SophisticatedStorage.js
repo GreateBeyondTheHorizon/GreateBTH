@@ -1,54 +1,36 @@
 ServerEvents.recipes(event => {
 	event.remove({mod: 'sophisticatedstorage'})
 
+	const woodType = [
+        'oak',
+        'spruce',
+        'birch',
+        'jungle',
+        'acacia',
+        'dark_oak',
+        'mangrove',
+        'crimson',
+        'warped',
+		'bamboo',
+		'cherry'
+    ]
+
     var SophisticatedStorage = {
-        storageTierUpgrade: function (tier, pattern, keys) {
+        storageTierUpgrade: function (wood, tier, pattern, keys) {
             // Chest
-            event.custom({
-                type: 'sophisticatedstorage:storage_tier_upgrade',
-                result: { item: 'sophisticatedstorage:'+tier[1]+'chest' },
-                pattern: pattern,
-                key: this.toKeyList(keys, 'sophisticatedstorage:'+tier[0]+'chest')
-            })
+			keys = Object.assign({A: Item.of(`sophisticatedstorage:${tier[0]}chest`, `{woodType:\"${wood}\"}`).strongNBT()}, keys)
+			event.shaped(Item.of(`sophisticatedstorage:${tier[1]}chest`, `{woodType:\"${wood}\"}`), pattern, keys)
+			delete keys.A
             // Barrel
-            event.custom({
-                type: 'sophisticatedstorage:storage_tier_upgrade',
-                result: { item: 'sophisticatedstorage:'+tier[1]+'barrel' },
-                pattern: pattern,
-                key: this.toKeyList(keys, 'sophisticatedstorage:'+tier[0]+'barrel')
-            })
+			keys = Object.assign({A: Item.of(`sophisticatedstorage:${tier[0]}barrel`, `{woodType:\"${wood}\"}`).strongNBT()}, keys)
+			event.shaped(Item.of(`sophisticatedstorage:${tier[1]}barrel`, `{woodType:\"${wood}\"}`), pattern, keys)
+			delete keys.A
             // Limited Barrel
             for (let i = 1; i <= 4; i++) {
-                event.custom({
-                    type: 'sophisticatedstorage:storage_tier_upgrade',
-                    result: { item: 'sophisticatedstorage:limited_'+tier[1]+'barrel_'+i },
-                    pattern: pattern,
-                    key: this.toKeyList(keys, 'sophisticatedstorage:limited_'+tier[0]+'barrel_'+i)
-                })
+				keys = Object.assign({A: Item.of(`sophisticatedstorage:limited_${tier[0]}barrel_${i}`, `{woodType:\"${wood}\"}`).strongNBT()}, keys)
+                event.shaped(Item.of(`sophisticatedstorage:limited_${tier[1]}barrel_${i}`, `{woodType:\"${wood}\"}`), pattern, keys)
+				delete keys.A
             }
-            // Upgrade
-            event.custom({
-                type: 'sophisticatedstorage:storage_tier_upgrade',
-                result: { item: 'sophisticatedstorage:'+this.basicIf(tier[0])+'to_'+tier[1]+'tier_upgrade' },
-                pattern: pattern,
-                key: this.toKeyList(keys, '#forge:plates/wood')
-            })
-        },
-
-        toKeyList: function(data, tier) {
-            const transformed = {};
-            transformed.A = Ingredient.of(tier).toJson()
-            for (const key in data) {
-              transformed[key] = Ingredient.of(data[key]).toJson()
-            }
-            return transformed;
-        },
-
-        basicIf: function(tier) {
-            if (tier == '') {
-                return 'basic_'
-            }
-            return tier
         },
 
         // Makes Advanced Upgrade Recipes
@@ -82,26 +64,13 @@ ServerEvents.recipes(event => {
 		}
 	)
 
-    const woodType = [
-        'oak',
-        'spruce',
-        'birch',
-        'jungle',
-        'acacia',
-        'dark_oak',
-        'mangrove',
-        'crimson',
-        'warped'
-    ]
-
     // Basic Type
-    event.shapeless(Item.of('sophisticatedstorage:chest', '{woodType:"oak"}'), ['#forge:chests/wooden', '#gtceu:circuits/ulv'])
-    event.shapeless(Item.of('sophisticatedstorage:barrel', '{woodType:"spruce"}'), ['#forge:barrels/wooden', '#gtceu:circuits/ulv'])
     woodType.forEach(wood => {
+		event.shapeless(Item.of('sophisticatedstorage:chest', `{woodType:\"${wood}\"}`), ['#forge:chests/wooden', '#gtceu:circuits/ulv'])
 
         // Chest
 	    event.shaped(
-	    	Item.of('sophisticatedstorage:chest', '{woodType:"'+wood+'"}'),
+	    	Item.of('sophisticatedstorage:chest', `{woodType:\"${wood}\"}`),
 	    	[
 	    		'PPP',
 	    		'RER',
@@ -115,7 +84,7 @@ ServerEvents.recipes(event => {
 	    )
         // Barrel
 	    event.shaped(
-	    	Item.of('sophisticatedstorage:barrel', '{woodType:"'+wood+'"}'),
+	    	Item.of('sophisticatedstorage:barrel', `{woodType:\"${wood}\"}`),
 	    	[
 	    		'PPP',
 	    		'RER',
@@ -129,7 +98,7 @@ ServerEvents.recipes(event => {
 	    )
         // Limited Barrel
 	    event.shaped(
-	    	Item.of('sophisticatedstorage:limited_barrel_1', '{woodType:"'+wood+'"}'),
+	    	Item.of('sophisticatedstorage:limited_barrel_1', `{woodType:\"${wood}\"}`),
 	    	[
 	    		'PSP',
 	    		'RER',
@@ -143,7 +112,7 @@ ServerEvents.recipes(event => {
 	    	}
 	    )
 	    event.shaped(
-	    	Item.of('sophisticatedstorage:limited_barrel_2', '{woodType:"'+wood+'"}'),
+	    	Item.of('sophisticatedstorage:limited_barrel_2', `{woodType:\"${wood}\"}`),
 	    	[
 	    		'PSP',
 	    		'RER',
@@ -157,7 +126,7 @@ ServerEvents.recipes(event => {
 	    	}
 	    )
 	    event.shaped(
-	    	Item.of('sophisticatedstorage:limited_barrel_3', '{woodType:"'+wood+'"}'),
+	    	Item.of('sophisticatedstorage:limited_barrel_3', `{woodType:\"${wood}\"}`),
 	    	[
 	    		'PSP',
 	    		'RER',
@@ -171,7 +140,7 @@ ServerEvents.recipes(event => {
 	    	}
 	    )
 	    event.shaped(
-	    	Item.of('sophisticatedstorage:limited_barrel_4', '{woodType:"'+wood+'"}'),
+	    	Item.of('sophisticatedstorage:limited_barrel_4', `{woodType:\"${wood}\"}`),
 	    	[
 	    		'SPS',
 	    		'RER',
@@ -184,63 +153,143 @@ ServerEvents.recipes(event => {
                 S: '#forge:plates/wood'
 	    	}
 	    )
-    })
-    
-    // Iron Tier
-	SophisticatedStorage.storageTierUpgrade(
-		['','iron_'],
+
+		//Steel Tier
+		SophisticatedStorage.storageTierUpgrade(wood, ['','iron_'],
+			[
+				'PPP',
+				'GAG',
+				'PPP'
+			],
+			{
+				P: '#forge:plates/steel',
+				G: '#forge:small_gears/steel'
+			}
+		)
+
+		//Aluminium Tier
+		SophisticatedStorage.storageTierUpgrade(wood, ['iron_','gold_'],
+			[
+				'PPP',
+				'GAG',
+				'PPP'
+			],
+			{
+				P: '#forge:plates/aluminium',
+				G: '#forge:small_gears/aluminium'
+			}
+		)
+
+		//Stainless Steel Tier
+		SophisticatedStorage.storageTierUpgrade(wood, ['gold_','diamond_'],
+			[
+				'DPD',
+				'GAG',
+				'DPD'
+			],
+			{
+				P: 'gtceu:double_stainless_steel_plate',
+				D: 'gtceu:diamond_plate',
+				G: '#forge:small_gears/stainless_steel'
+			}
+		)
+
+		//Titanium Tier
+		SophisticatedStorage.storageTierUpgrade(wood, ['diamond_','netherite_'],
+			[
+				'DPD',
+				'GAG',
+				'DPD'
+			],
+			{
+				P: 'gtceu:double_titanium_plate',
+				D: 'gtceu:netherite_plate',
+				G: '#forge:small_gears/titanium'
+			}
+		)
+	}) 
+	
+
+	event.shaped('sophisticatedstorage:basic_to_iron_tier_upgrade',
 		[
-			'PPP',
-			'GAG',
-			'PPP'
+			'SSS',
+			'GPG',
+			'SSS'
 		],
 		{
-			// A is always the upgraded item
-			P: '#forge:plates/steel',
-			G: '#forge:gears/steel'
+			S: 'gtceu:steel_plate',
+			G: 'gtceu:small_steel_gear',
+			P: 'gtceu:wood_plate'
 		}
 	)
+
+	event.recipes.gtceu.assembler('basic_to_iron_tier_upgrade')
+        .duration(100)
+        .itemInputs(['6x gtceu:steel_plate', '2x gtceu:small_steel_gear', 'gtceu:wood_plate'])
+        .itemOutputs('sophisticatedstorage:basic_to_iron_tier_upgrade')
+        .EUt(30)
+
     // Gold Tier
-	SophisticatedStorage.storageTierUpgrade(
-		['iron_','gold_'],
+	event.shaped('sophisticatedstorage:iron_to_gold_tier_upgrade',
 		[
-			'PPP',
-			'GAG',
-			'PPP'
+			'SSS',
+			'GPG',
+			'SSS'
 		],
 		{
-			P: '#forge:plates/aluminium',
-			G: '#forge:gears/aluminium'
+			S: 'gtceu:aluminium_plate',
+			G: 'gtceu:small_aluminium_gear',
+			P: 'gtceu:steel_plate'
 		}
 	)
+
+	event.recipes.gtceu.assembler('iron_to_gold_tier_upgrade')
+		.duration(100)
+		.itemInputs(['6x gtceu:aluminium_plate', '2x gtceu:small_aluminium_gear', 'gtceu:steel_plate'])
+		.itemOutputs('sophisticatedstorage:iron_to_gold_tier_upgrade')
+		.EUt(30)
+
     // Diamond Tier
-	SophisticatedStorage.storageTierUpgrade(
-		['gold_','diamond_'],
+	event.shaped('sophisticatedstorage:gold_to_diamond_tier_upgrade',
 		[
-			'SPS',
-			'GAG',
-			'SPS'
+			'SDS',
+			'GPG',
+			'SDS'
 		],
 		{
-			P: '#forge:double_plates/stainless_steel',
-            S: '#forge:plates/diamond',
-			G: '#forge:gears/stainless_steel'
+			S: 'gtceu:diamond_plate',
+			G: 'gtceu:small_stainless_steel_gear',
+			P: 'gtceu:aluminium_plate',
+			D: 'gtceu:double_stainless_steel_plate'
 		}
 	)
+
+	event.recipes.gtceu.assembler('gold_to_diamond_tier_upgrade')
+		.duration(100)
+		.itemInputs(['4x gtceu:diamond_plate', '2x gtceu:small_stainless_steel_gear', '2x gtceu:double_stainless_steel_plate', 'gtceu:aluminium_plate'])
+		.itemOutputs('sophisticatedstorage:gold_to_diamond_tier_upgrade')
+		.EUt(30)
+
     // Netherite Tier
-	SophisticatedStorage.storageTierUpgrade(
-		['diamond_','netherite_'],
+	event.shaped('sophisticatedstorage:diamond_to_netherite_tier_upgrade',
 		[
-			'PSP',
-			'GAG',
-			'PSP'
+			'SDS',
+			'GPG',
+			'SDS'
 		],
 		{
-			P: '#forge:double_plates/titanium',
-            S: '#forge:ingots/netherite',
-			G: '#forge:gears/titanium'
+			S: 'gtceu:double_titanium_plate',
+			G: 'gtceu:small_titanium_gear',
+			P: 'gtceu:stainless_steel_plate',
+			D: 'gtceu:netherite_plate'
 		}
 	)
+
+	event.recipes.gtceu.assembler('diamond_to_netherite_tier_upgrade')
+		.duration(100)
+		.itemInputs(['4x gtceu:double_titanium_plate', '2x gtceu:small_titanium_gear', 'gtceu:double_stainless_steel_plate', '2x gtceu:netherite_plate'])
+		.itemOutputs('sophisticatedstorage:diamond_to_netherite_tier_upgrade')
+		.EUt(30)
 
 
     // -- UPGRADES --

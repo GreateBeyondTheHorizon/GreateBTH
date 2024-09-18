@@ -1,6 +1,5 @@
 {
   "dependencies": [
-    "getting_oxygen",
     "arc_furnace"
   ],
   "tasks": {
