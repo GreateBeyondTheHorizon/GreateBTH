@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "hydrochloric_acid"
+  ],
+  "tasks": {
+    "chem_reactor": {
+      "block": "gtceu:lv_chemical_reactor",
+      "state": {},
+      "nbt": {
+        "exportFluids": {
+          "storages": [
+            {
+              "p": {
+                "FluidName": "gtceu:iron_iii_chloride"
+              }
+            }
+          ]
+        }
+      },
+      "type": "heracles:block_interaction"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Combine /d/Hydrochloric Acid/d/ and /d/Iron Dust/d/ on /d/Circuit #1/d/ in a /d/Chemical Reactor/d/.",
+      "",
+      "To complete this quest, interact with a /d/LV Chemical Reactor/d/ that has /d/Iron III Chloride/d/ in it's output."
+    ],
+    "groups": {
+      "LV/LS - The Grind Starts Here": {
+        "position": [
+          -228,
+          97
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:iron_iii_chloride_bucket",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Iron III Chloride"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

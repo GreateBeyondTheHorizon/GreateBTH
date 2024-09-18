@@ -1,6 +1,5 @@
 {
   "dependencies": [
-    "getting_oxygen",
     "arc_furnace"
   ],
   "tasks": {
@@ -22,7 +21,7 @@
     "groups": {
       "LV/LS - The Grind Starts Here": {
         "position": [
-          21,
+          -8,
           37
         ]
       }

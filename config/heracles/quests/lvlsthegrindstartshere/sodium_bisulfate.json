@@ -1,12 +1,11 @@
 {
   "dependencies": [
-    "lv_machine_hull",
-    "the_first_of_many"
+    "sulfuric_acid"
   ],
   "tasks": {
-    "machine": {
+    "sodium_bisulfate": {
       "type": "heracles:item",
-      "item": "#gbth:oxygen_machines",
+      "item": "gtceu:sodium_bisulfate_dust",
       "amount": 1,
       "collection": "AUTOMATIC"
     }
@@ -17,28 +16,26 @@
       "text": ""
     },
     "description": [
-      "You will need TONS of this in the future, consider batch crafting a buch!",
-      "",
-      "You can get some by either /d/Centrifuging/d/ or /d/Electrolyzing/d/ certain materials."
+      "Combine /d/Sulfuric Acid/d/ and /d/Salt/d/ in a /d/Chemical Reactor/d/."
     ],
     "groups": {
       "LV/LS - The Grind Starts Here": {
         "position": [
-          -8,
-          9
+          -268,
+          62
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "gtceu:oxygen_bucket",
+        "id": "gtceu:sodium_bisulfate_dust",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Getting Oxygen"
+      "translate": "Sodium Bisulfate"
     }
   },
   "settings": {

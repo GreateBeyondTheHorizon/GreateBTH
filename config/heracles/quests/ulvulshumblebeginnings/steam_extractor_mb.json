@@ -3,15 +3,15 @@
     "steel_ingot"
   ],
   "tasks": {
-    "input_bus": {
+    "casing": {
       "type": "heracles:item",
-      "item": "gtceu:steam_input_bus",
-      "amount": 1,
+      "item": "gtceu:steel_firebox_casing",
+      "amount": 9,
       "collection": "AUTOMATIC"
     },
     "controller": {
       "type": "heracles:item",
-      "item": "gtceu:steam_grinder",
+      "item": "gbthcore:steam_extractor",
       "amount": 1,
       "collection": "AUTOMATIC"
     },
@@ -21,59 +21,51 @@
       "amount": 1,
       "collection": "AUTOMATIC"
     },
-    "input_hatch": {
+    "input_bus": {
+      "type": "heracles:item",
+      "item": "gtceu:steam_input_bus",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "casing_solid": {
+      "type": "heracles:item",
+      "item": "gtceu:steel_machine_casing",
+      "amount": 13,
+      "collection": "AUTOMATIC"
+    },
+    "steam_input": {
       "type": "heracles:item",
       "item": "gtceu:steam_input_hatch",
       "amount": 1,
       "collection": "AUTOMATIC"
-    },
-    "machine_casing": {
-      "type": "heracles:item",
-      "item": "gtceu:steam_machine_casing",
-      "amount": 22,
-      "collection": "AUTOMATIC"
     }
   },
-  "rewards": {
-    "lootbag": {
-      "item": {
-        "id": "lootbags:loot_bag",
-        "count": 1,
-        "nbt": {
-          "Loot": "lootbags:kjs/3ui6gksr7gxl82e5t9pkch2ls",
-          "Name": "Lootbag (ULV Age)",
-          "Color": 13882323,
-          "Type": "COMMON"
-        }
-      },
-      "type": "heracles:item"
-    }
-  },
+  "rewards": {},
   "display": {
     "subtitle": {
       "text": ""
     },
     "description": [
-      "A multiblock macerator, using steam."
+      "For all your Extracting needs!"
     ],
     "groups": {
       "ULV/ULS - Humble Beginnings": {
         "position": [
           89,
-          -147
+          -120
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "gtceu:steam_grinder",
+        "id": "gbthcore:steam_extractor",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
     "title": {
-      "translate": "Steam Grinder"
+      "translate": "Multiblock Steam Extractor"
     }
   },
   "settings": {

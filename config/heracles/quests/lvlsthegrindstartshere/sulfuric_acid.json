@@ -1,0 +1,68 @@
+{
+  "dependencies": [
+    "the_chemistry_begins"
+  ],
+  "tasks": {
+    "chem_reactor": {
+      "block": "gtceu:lv_chemical_reactor",
+      "state": {},
+      "nbt": {
+        "exportFluids": {
+          "storages": [
+            {
+              "p": {
+                "FluidName": "gtceu:sulfuric_acid"
+              }
+            }
+          ]
+        }
+      },
+      "type": "heracles:block_interaction"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "To make /d/Sulfuric Acid/d/, you'll need a source of /d/Oxygen/d/, /d/Water/d/ & /d/Sulfur/d/.",
+      "",
+      "",
+      "/d/Oxygen/d/ can be gotten through a variety of /d/Centrifuging/d/ and /d/Electrolysis/d/ recipes.",
+      "",
+      "/d/Sulfur/d/ can be found in the Nether.",
+      "",
+      "/d/Water/d/: go look outside.",
+      "",
+      "To complete this quest, look at an /d/LV Chemical Reactor/d/ with /d/Sulfuric Acid/d/ in it's output."
+    ],
+    "groups": {
+      "LV/LS - The Grind Starts Here": {
+        "position": [
+          -248,
+          36
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:sulfuric_acid_bucket",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Sulfuric Acid"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

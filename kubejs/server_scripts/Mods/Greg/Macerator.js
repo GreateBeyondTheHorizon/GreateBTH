@@ -34,4 +34,10 @@ ServerEvents.recipes(event => {
         .itemInputs('#minecraft:wooden_doors')
         .itemOutputs(['2x gtceu:wood_dust', 'gtceu:tiny_iron_dust'])
         .EUt(2)
+
+    event.recipes.gtceu.macerator('rice')
+        .duration(100)
+        .itemInputs('farmersdelight:rice_panicle')
+        .itemOutputs(['farmersdelight:rice', 'farmersdelight:straw'])
+        .EUt(2)
 })

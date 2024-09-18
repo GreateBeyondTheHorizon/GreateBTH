@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "sulfuric_acid"
+  ],
+  "tasks": {
+    "hydrochloric_acid": {
+      "block": "gtceu:lv_chemical_reactor",
+      "state": {},
+      "nbt": {
+        "exportFluids": {
+          "storages": [
+            {
+              "p": {
+                "FluidName": "gtceu:hydrochloric_acid"
+              }
+            }
+          ]
+        }
+      },
+      "type": "heracles:block_interaction"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Combine /d/Sulfuric Acid/d/ and /d/Salt/d/ in a /d/Chemical Reactor/d/.",
+      "",
+      "To complete this quest, interact with a /d/LV Chemical Reactor/d/ that has /d/Hydrochloric Acid/d/ in it's output."
+    ],
+    "groups": {
+      "LV/LS - The Grind Starts Here": {
+        "position": [
+          -228,
+          62
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:hydrochloric_acid_bucket",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Hydrochloric Acid"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,41 +1,33 @@
 {
   "dependencies": [
+    "the_first_of_many",
     "microcrafting_hell_begins_1"
   ],
-  "tasks": {
-    "pump": {
-      "type": "heracles:item",
-      "item": "gtceu:lv_electric_pump",
-      "amount": 1,
-      "collection": "AUTOMATIC"
-    }
-  },
+  "tasks": {},
   "rewards": {},
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [
-      ""
-    ],
+    "description": [],
     "groups": {
       "LV/LS - The Grind Starts Here": {
         "position": [
           30,
-          -101
+          -65
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "gtceu:lv_electric_pump",
+        "id": "gtceu:lv_centrifuge",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Microcrafting Hell Begins, 2"
+      "translate": "Centrifuging Materials"
     }
   },
   "settings": {

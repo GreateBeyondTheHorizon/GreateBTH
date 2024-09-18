@@ -9,10 +9,22 @@
       "amount": 1,
       "collection": "AUTOMATIC"
     },
+    "casing": {
+      "type": "heracles:item",
+      "item": "gtceu:steel_firebox_casing",
+      "amount": 9,
+      "collection": "AUTOMATIC"
+    },
     "controller": {
       "type": "heracles:item",
-      "item": "gtceu:steam_grinder",
+      "item": "gbthcore:steam_alloy_smelter",
       "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "casing_solid": {
+      "type": "heracles:item",
+      "item": "gtceu:steel_machine_casing",
+      "amount": 13,
       "collection": "AUTOMATIC"
     },
     "output_bus": {
@@ -21,59 +33,39 @@
       "amount": 1,
       "collection": "AUTOMATIC"
     },
-    "input_hatch": {
+    "steam_input": {
       "type": "heracles:item",
       "item": "gtceu:steam_input_hatch",
       "amount": 1,
       "collection": "AUTOMATIC"
-    },
-    "machine_casing": {
-      "type": "heracles:item",
-      "item": "gtceu:steam_machine_casing",
-      "amount": 22,
-      "collection": "AUTOMATIC"
     }
   },
-  "rewards": {
-    "lootbag": {
-      "item": {
-        "id": "lootbags:loot_bag",
-        "count": 1,
-        "nbt": {
-          "Loot": "lootbags:kjs/3ui6gksr7gxl82e5t9pkch2ls",
-          "Name": "Lootbag (ULV Age)",
-          "Color": 13882323,
-          "Type": "COMMON"
-        }
-      },
-      "type": "heracles:item"
-    }
-  },
+  "rewards": {},
   "display": {
     "subtitle": {
       "text": ""
     },
     "description": [
-      "A multiblock macerator, using steam."
+      "For all of your Alloying needs!"
     ],
     "groups": {
       "ULV/ULS - Humble Beginnings": {
         "position": [
-          89,
-          -147
+          60,
+          -109
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "gtceu:steam_grinder",
+        "id": "gbthcore:steam_alloy_smelter",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
     "title": {
-      "translate": "Steam Grinder"
+      "translate": "Multiblock Steam Alloy Smelter"
     }
   },
   "settings": {

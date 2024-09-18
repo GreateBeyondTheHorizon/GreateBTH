@@ -1,11 +1,11 @@
 {
   "dependencies": [
-    "microcrafting_hell_begins_1"
+    "circuit_assembler"
   ],
   "tasks": {
-    "pump": {
+    "lv_circuit": {
       "type": "heracles:item",
-      "item": "gtceu:lv_electric_pump",
+      "item": "gtceu:basic_electronic_circuit",
       "amount": 1,
       "collection": "AUTOMATIC"
     }
@@ -16,26 +16,26 @@
       "text": ""
     },
     "description": [
-      ""
+      "Now that you have your /d/Circuit Assembler/d/, you can make cheaper /d/LV circuits/d/!"
     ],
     "groups": {
       "LV/LS - The Grind Starts Here": {
         "position": [
-          30,
-          -101
+          65,
+          -225
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "gtceu:lv_electric_pump",
+        "id": "gtceu:basic_electronic_circuit",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Microcrafting Hell Begins, 2"
+      "translate": "Cheaper LV Circuits"
     }
   },
   "settings": {
