@@ -1675,9 +1675,6 @@ file = "mods/gt.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/gtceu-1.20.1-1.4.1+patch.2.jar.d"
-
-[[files]]
 file = "mods/guard-villagers.pw.toml"
 metafile = true
 
