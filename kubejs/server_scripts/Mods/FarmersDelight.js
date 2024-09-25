@@ -42,6 +42,7 @@ ServerEvents.recipes(event => {
 	event.remove({output: 'farmersdelight:cake_slice'})
 	event.remove({id: 'farmersdelight:rope'})
 	event.remove({id: 'farmersdelight:lead_from_straw'})
+	event.remove({id: /farmersdelight:(.*)_canvas_sign/})
 	event.remove({id: /farmersdelight:(.*)_hanging_canvas_sign/})
 
 	event.campfireCooking('minecraft:bread', 'farmersdelight:wheat_dough')

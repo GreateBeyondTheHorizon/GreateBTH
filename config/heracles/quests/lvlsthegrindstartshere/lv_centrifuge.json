@@ -3,13 +3,22 @@
     "the_first_of_many",
     "microcrafting_hell_begins_1"
   ],
-  "tasks": {},
+  "tasks": {
+    "centrifuge": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_centrifuge",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
   "rewards": {},
   "display": {
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      "Used to get various items/fluids."
+    ],
     "groups": {
       "LV/LS - The Grind Starts Here": {
         "position": [

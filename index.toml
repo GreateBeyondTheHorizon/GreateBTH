@@ -19,6 +19,9 @@ file = "config/ding.toml"
 file = "config/emi.css"
 
 [[files]]
+file = "config/emi_loot_config.toml"
+
+[[files]]
 file = "config/fancymenu/assets/ebf.fma"
 
 [[files]]
@@ -190,6 +193,9 @@ file = "config/heracles/quests/lvlsthegrindstartshere/cheaper_electromagnetic_ro
 file = "config/heracles/quests/lvlsthegrindstartshere/cheaper_iron.json"
 
 [[files]]
+file = "config/heracles/quests/lvlsthegrindstartshere/cheaper_lv_circuits.json"
+
+[[files]]
 file = "config/heracles/quests/lvlsthegrindstartshere/cheaper_rods.json"
 
 [[files]]
@@ -220,13 +226,19 @@ file = "config/heracles/quests/lvlsthegrindstartshere/extracting_and_solidifying
 file = "config/heracles/quests/lvlsthegrindstartshere/filtering_the_outputs.json"
 
 [[files]]
-file = "config/heracles/quests/lvlsthegrindstartshere/getting_oxygen.json"
+file = "config/heracles/quests/lvlsthegrindstartshere/hydrochloric_acid.json"
+
+[[files]]
+file = "config/heracles/quests/lvlsthegrindstartshere/iron_iii_chloride.json"
 
 [[files]]
 file = "config/heracles/quests/lvlsthegrindstartshere/large_water_wheel.json"
 
 [[files]]
 file = "config/heracles/quests/lvlsthegrindstartshere/lv_canner.json"
+
+[[files]]
+file = "config/heracles/quests/lvlsthegrindstartshere/lv_centrifuge.json"
 
 [[files]]
 file = "config/heracles/quests/lvlsthegrindstartshere/lv_emitter.json"
@@ -277,7 +289,19 @@ file = "config/heracles/quests/lvlsthegrindstartshere/prospecting.json"
 file = "config/heracles/quests/lvlsthegrindstartshere/scrubbing_the_air.json"
 
 [[files]]
+file = "config/heracles/quests/lvlsthegrindstartshere/sodium_bisulfate.json"
+
+[[files]]
+file = "config/heracles/quests/lvlsthegrindstartshere/sodium_persulfate.json"
+
+[[files]]
+file = "config/heracles/quests/lvlsthegrindstartshere/steam_centrifuge_mb.json"
+
+[[files]]
 file = "config/heracles/quests/lvlsthegrindstartshere/storing_steam.json"
+
+[[files]]
+file = "config/heracles/quests/lvlsthegrindstartshere/sulfuric_acid.json"
 
 [[files]]
 file = "config/heracles/quests/lvlsthegrindstartshere/super_glue.json"
@@ -571,10 +595,16 @@ file = "config/heracles/quests/ulvulshumblebeginnings/see_you_plater.json"
 file = "config/heracles/quests/ulvulshumblebeginnings/steam_alloy_smelter.json"
 
 [[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/steam_alloy_smelter_mb.json"
+
+[[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/steam_compressor.json"
 
 [[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/steam_extractor.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/steam_extractor_mb.json"
 
 [[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/steam_forge_hammer.json"
@@ -1210,9 +1240,6 @@ file = "kubejs/server_scripts/Mods/FarmersDelight.js"
 file = "kubejs/server_scripts/Mods/Greate.js"
 
 [[files]]
-file = "kubejs/server_scripts/Mods/Greate/Milling.js"
-
-[[files]]
 file = "kubejs/server_scripts/Mods/Greate/Mixer.js"
 
 [[files]]
@@ -1253,6 +1280,9 @@ file = "kubejs/server_scripts/Mods/Greg/Electrolyzer.js"
 
 [[files]]
 file = "kubejs/server_scripts/Mods/Greg/GregUtil.js"
+
+[[files]]
+file = "kubejs/server_scripts/Mods/Greg/Macerator.js"
 
 [[files]]
 file = "kubejs/server_scripts/Mods/Greg/Mixer.js"
@@ -1315,9 +1345,6 @@ file = "kubejs/server_scripts/Mods/SophisticatedBackpacks.js"
 file = "kubejs/server_scripts/Mods/SophisticatedStorage.js"
 
 [[files]]
-file = "kubejs/server_scripts/Mods/SteamAdditions.js"
-
-[[files]]
 file = "kubejs/server_scripts/Mods/TomsSimpleStorage.js"
 
 [[files]]
@@ -1370,9 +1397,6 @@ file = "kubejs/startup_scripts/ItemRemoval.js"
 
 [[files]]
 file = "kubejs/startup_scripts/Materials.js"
-
-[[files]]
-file = "kubejs/startup_scripts/MultiBlock.js"
 
 [[files]]
 file = "kubejs/startup_scripts/Objects.js"
@@ -1643,16 +1667,15 @@ file = "mods/greate.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/gregtech-steam-additions.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/gregtechceu-modern.pw.toml"
 metafile = true
 
 [[files]]
 file = "mods/gt.pw.toml"
 metafile = true
+
+[[files]]
+file = "mods/gtceu-1.20.1-1.4.1+patch.2.jar.d"
 
 [[files]]
 file = "mods/guard-villagers.pw.toml"
