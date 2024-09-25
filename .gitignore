@@ -36,9 +36,8 @@
 # mods
 !/mods
 /mods/.index
-/mods/*.jar
+/mods/*.jar*
 /mods/*.disabled
-/mods/*.d
 !/mods/gbthcore*
 
 # md
