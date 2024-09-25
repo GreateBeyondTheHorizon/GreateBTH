@@ -2,6 +2,7 @@ const AllGuiTextures = Java.loadClass('com.simibubi.create.foundation.gui.AllGui
 
 JEIEvents.hideItems(event => {
 	event.hide(/(.*)_bucket/)
+	event.hide(/sophisticatedstorage:(.*)shulker_box/)
 })
 
 JEIEvents.hideFluids(event => {
