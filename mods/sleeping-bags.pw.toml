@@ -1,13 +1,13 @@
 name = "Sleeping Bags"
-filename = "sleeping-bags-forge-1.20.1-1.0.8.jar"
+filename = "sleeping-bags-forge-1.20.1-1.0.9.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "b4ce09acceda0ffd5b7fe6d6f6d4afb37a7b6c37"
+hash = "073bd182a26ddf875e9ab51dfc0726868aa65b04"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5274095
+file-id = 5794068
 project-id = 384485

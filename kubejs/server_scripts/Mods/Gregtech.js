@@ -416,26 +416,6 @@ ServerEvents.recipes(event => {
 			S: '#forge:rods/wooden'
 		}
 	)
-
-	event.shaped('3x gtceu:rubber_wood',
-		[
-			'WW',
-			'WW'
-		],
-		{
-			W: 'gtceu:rubber_log'
-		}
-	)
-
-	event.shaped('3x gtceu:stripped_rubber_wood',
-		[
-			'WW',
-			'WW'
-		],
-		{
-			W: 'gtceu:stripped_rubber_log'
-		}
-	)
 	
 	// Material parts
 	// Wood
