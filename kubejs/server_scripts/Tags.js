@@ -44,8 +44,8 @@ ServerEvents.tags('item', event => {
 
 	event.add('forge:armors', /ad_astra:jet(.*)/)
 	event.add('forge:armors', /ad_astra:(.*)space(.*)/)
-	event.add('forge:stripped_logs', ['gtceu:stripped_rubber_log', 'aether:stripped_skyroot_log', 'deep_aether:stripped_roseroot_log', 'deep_aether:stripped_yagroot_log', 'deep_aether:stripped_cruderoot_log', 'deep_aether:stripped_conberry_log', 'deep_aether:stripped_sunroot_log'])
-	event.add('forge:stripped_wood', ['gtceu:stripped_rubber_wood', 'aether:stripped_skyroot_wood', 'deep_aether:stripped_roseroot_wood', 'deep_aether:stripped_yagroot_wood', 'deep_aether:stripped_cruderoot_wood', 'deep_aether:stripped_conberry_wood', 'deep_aether:stripped_sunroot_wood'])
+	event.add('forge:stripped_logs', ['aether:stripped_skyroot_log', 'deep_aether:stripped_roseroot_log', 'deep_aether:stripped_yagroot_log', 'deep_aether:stripped_cruderoot_log', 'deep_aether:stripped_conberry_log', 'deep_aether:stripped_sunroot_log'])
+	event.add('forge:stripped_wood', ['aether:stripped_skyroot_wood', 'deep_aether:stripped_roseroot_wood', 'deep_aether:stripped_yagroot_wood', 'deep_aether:stripped_cruderoot_wood', 'deep_aether:stripped_conberry_wood', 'deep_aether:stripped_sunroot_wood'])
 
 	event.add('gbth:forms', ['kubejs:block_wooden_form', 'kubejs:nugget_wooden_form', 'gtceu:brick_wooden_form'])
 	event.add('gbth:blooms', ['gtceu:copper_bloom', 'gtceu:tin_bloom','gtceu:bronze_bloom', 'gtceu:wrought_iron_bloom', 'gtceu:andesite_alloy_bloom'])
@@ -59,8 +59,6 @@ ServerEvents.tags('item', event => {
 	event.add('gbth:output_buses', ['gtceu:ulv_output_bus', 'gtceu:lv_output_bus', 'gtceu:mv_output_bus', 'gtceu:hv_output_bus', 'gtceu:ev_output_bus', 'gtceu:iv_output_bus', 'gtceu:luv_output_bus', 'gtceu:zpm_output_bus', 'gtceu:uv_output_bus', 'gtceu:uhv_output_bus'])
 	event.add('gbth:input_hatches', ['gtceu:ulv_input_hatch', 'gtceu:lv_input_hatch', 'gtceu:mv_input_hatch', 'gtceu:hv_input_hatch', 'gtceu:ev_input_hatch', 'gtceu:iv_input_hatch', 'gtceu:luv_input_hatch', 'gtceu:zpm_input_hatch', 'gtceu:uv_input_hatch', 'gtceu:uhv_input_hatch'])
 	event.add('gbth:output_hatches', ['gtceu:ulv_output_hatch', 'gtceu:lv_output_hatch', 'gtceu:mv_output_hatch', 'gtceu:hv_output_hatch', 'gtceu:ev_output_hatch', 'gtceu:iv_output_hatch', 'gtceu:luv_output_hatch', 'gtceu:zpm_output_hatch', 'gtceu:uv_output_hatch', 'gtceu:uhv_output_hatch'])
-
-	event.add('gtceu:rubber_logs', ['gtceu:rubber_log', 'gtceu:stripped_rubber_log', 'gtceu:rubber_wood', 'gtceu:stripped_rubber_wood'])
 
 	event.add('kubejs:fireproof_wood', ['minecraft:warped_stem', 'minecraft:stripped_warped_stem', 'minecraft:stripped_warped_hyphae', 'minecraft:warped_hyphae', 'minecraft:crimson_stem', 'minecraft:stripped_crimson_stem', 'minecraft:stripped_crimson_hyphae', 'minecraft:crimson_hyphae'])
 
@@ -78,12 +76,8 @@ ServerEvents.tags('item', event => {
 	//#region remove item tag
 	event.remove('create:sandpaper', ['create:sand_paper', 'create:red_sand_paper'])
 
-	event.remove('minecraft:planks', ['gtceu:treated_wood_planks', 'gtceu:treated_wood_plate', 'gtceu:wood_plate', 'createdieselgenerators:chip_wood_block'])
+	event.remove('minecraft:planks', ['gtceu:treated_wood_plate', 'gtceu:wood_plate', 'createdieselgenerators:chip_wood_block'])
 	event.remove('minecraft:wooden_slabs', 'createdieselgenerators:chip_wood_slab')
-})
-
-ServerEvents.tags('block', event => {
-	event.add('minecraft:logs', ['gtceu:stripped_rubber_log', 'gtceu:stripped_rubber_wood', 'gtceu:rubber_wood'])
 })
 
 ServerEvents.tags('fluid', event => {

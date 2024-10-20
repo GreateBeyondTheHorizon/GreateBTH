@@ -1,0 +1,8 @@
+{
+    "aliases": [
+        {
+            "stacks": "item:create:powdered_obsidian",
+            "text": "alias.emi.obsidian.dust"
+        }
+    ]
+}

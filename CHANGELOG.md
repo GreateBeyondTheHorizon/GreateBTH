@@ -1,27 +1,28 @@
 **Script/Config Changes**
-- Make sophisticated storage chest upgrades slightly cheaper
-- Add assembler recipes for sophisticated storage chest upgrades
-- Add missing recipes for cherry & bamboo sophisticated storage chests
-- Add recipes for upgrading chests/barrels/limited barrels
-- Add steam multiblocks for alloy smelter, centrifuge & extractor
-- Add missing rice macerating recipe
+- GT related recipe updates
 
 **Mod Changes**
-- emi_loot-0.6.6+fix3+1.20.1+forge -> emi_loot-0.7.3+1.20.1+forge
-- chat_heads-0.12.13-forge-1.20 -> chat_heads-0.13.2-forge-1.20
-- cc-tweaked-1.20.1-forge-1.113.0 -> cc-tweaked-1.20.1-forge-1.113.1
-- jei-1.20.1-forge-15.18.0.79 -> jei-1.20.1-forge-15.19.5.99
-- Stargate Journey-1.20.1-0.6.29 -> Stargate Journey-1.20.1-0.6.31
-- gtnn-1.1.0b -> gtnn-1.1.2
-- gtceu-1.20.1-1.4.0 -> gtceu-1.20.1-1.4.4
-- greate-0.0.26 -> greate-0.0.27
-- sophisticatedcore-1.20.1-0.6.25.632 -> sophisticatedcore-1.20.1-0.6.28.691
-- dynamic-fps-3.7.1+minecraft-1.20.0-forge -> dynamic-fps-3.7.3+minecraft-1.20.0-forge
-- create_connected-0.8.2-mc1.20.1-all -> create_connected-0.9.1-mc1.20.1-all
-- fast-ip-ping-v1.0.4-mc1.20.4-forge -> fast-ip-ping-v1.0.5-mc1.20.4-forge
-- sophisticatedstorage-1.20.1-0.10.26.817 -> sophisticatedstorage-1.20.1-0.10.33.861
-- colorfulhearts-forge-1.20.1-4.3.15 -> colorfulhearts-forge-1.20.1-4.3.16
-- cloth-config-11.1.118-forge -> cloth-config-11.1.136-forge
-- sophisticatedbackpacks-1.20.1-3.20.6.1064 -> sophisticatedbackpacks-1.20.1-3.20.8.1100
-- cookingforblockheads-forge-1.20.1-16.0.6 -> cookingforblockheads-forge-1.20.1-16.0.9
-- copycats-2.1.2+mc.1.20.1-forge -> copycats-2.1.4+mc.1.20.1-forge
+- emi-1.1.13+1.20.1+forge -> emi-1.1.16+1.20.1+forge
+- jei-1.20.1-forge-15.19.5.99 -> jei-1.20.1-forge-15.20.0.104
+- aether-1.20.1-1.4.2-neoforge -> aether-1.20.1-1.5.0-neoforge
+- PuzzlesLib-v8.1.23-1.20.1-Forge -> PuzzlesLib-v8.1.24-1.20.1-Forge
+- Steam_Rails-1.6.5+forge-mc1.20.1 -> Steam_Rails-1.6.6+forge-mc1.20.1
+- sophisticatedbackpacks-1.20.1-3.20.8.1100 -> sophisticatedbackpacks-1.20.1-3.20.11.1115
+- sleeping-bags-forge-1.20.1-1.0.8 -> sleeping-bags-forge-1.20.1-1.0.9
+- sophisticatedstorage-1.20.1-0.10.33.861 -> sophisticatedstorage-1.20.1-0.10.45.912
+- bucketlib-1.20.1-2.3.4.3 -> bucketlib-1.20.1-2.3.5.1
+- kubejsadditions-forge-4.3.2 -> kubejsadditions-forge-4.3.3
+- sophisticatedcore-1.20.1-0.6.28.691 -> sophisticatedcore-1.20.1-0.6.34.718
+- Chipped-forge-1.20.1-3.0.6 -> chipped-forge-1.20.1-3.0.7
+- emi_loot-0.7.3+1.20.1+forge -> emi_loot-0.7.4+1.20.1+forge
+- gtnn-1.1.2 -> gtnn-1.1.4
+- fancymenu_forge_3.2.3_MC_1.20.1 -> fancymenu_forge_3.3.2_MC_1.20.1
+- chat_heads-0.13.2-forge-1.20 -> chat_heads-0.13.3-forge-1.20
+- journeymap-1.20.1-5.10.2-forge -> journeymap-1.20.1-5.10.3-forge
+- create_connected-0.9.1-mc1.20.1-all -> create_connected-0.9.2-mc1.20.1-all
+- gtceu-1.20.1-1.4.4 -> gtceu-1.20.1-1.4.6
+- corpse-forge-1.20.1-1.0.14 -> corpse-forge-1.20.1-1.0.17
+- Jade-1.20.1-forge-11.11.1 -> Jade-1.20.1-Forge-11.12.1
+- create-1.20.1-0.5.1.h -> create-1.20.1-0.5.1.i
+- Stargate Journey-1.20.1-0.6.31 -> Stargate Journey-1.20.1-0.6.32
+- greate-0.0.27 -> greate-0.0.29

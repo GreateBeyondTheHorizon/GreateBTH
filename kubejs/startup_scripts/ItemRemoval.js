@@ -227,7 +227,9 @@ removeNamespaceItems('gtceu', [
 	'iv_cutter',
 	'luv_cutter',
 	'zpm_cutter',
-	'uv_cutter'
+	'uv_cutter',
+	'obsidian_dust',
+	'netherrack_dust'
 ])
 
 removeNamespaceItems('dankstorage', [

@@ -30,7 +30,6 @@ addVein('galena_vein', GTWorldGenLayers.STONE, 25, 40, -15, 45, GTMaterials.Gale
 
 addVein('garnet_tin_vein', GTWorldGenLayers.STONE, 25, 80, 30, 60, GTMaterials.GarnetSand, 'surface', pattern => {
     pattern
-        .layer(l => l.weight(2).state(() => Block.getBlock('minecraft:sand').defaultBlockState()).size(1, 1))
         .layer(l => l.weight(3).mat(GTMaterials.CassiteriteSand).size(2, 3))
         .layer(l => l.weight(2).mat(GTMaterials.GarnetSand).size(1, 1))
         .layer(l => l.weight(2).mat(GTMaterials.Asbestos).size(1, 1))
@@ -62,7 +61,6 @@ addVein('magnetite_vein_ow', GTWorldGenLayers.STONE, 25, 80, 10, 60, GTMaterials
 
 addVein('mineral_sand_vein', GTWorldGenLayers.STONE, 25, 80, 15, 60, GTMaterials.BasalticMineralSand, 'surface', pattern => {
     pattern
-        .layer(l => l.weight(2).state(() => Block.getBlock('minecraft:sand').defaultBlockState()).size(1, 1))
         .layer(l => l.weight(3).mat(GTMaterials.BasalticMineralSand).size(2, 3))
         .layer(l => l.weight(2).mat(GTMaterials.GraniticMineralSand).size(1, 1))
         .layer(l => l.weight(2).mat(GTMaterials.FullersEarth).size(1, 1))
