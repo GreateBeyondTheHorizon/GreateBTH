@@ -1416,6 +1416,10 @@ file = "mods/advanced-peripherals.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/ae2-crafting-tree.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/aeroblender.pw.toml"
 metafile = true
 
@@ -1433,6 +1437,10 @@ metafile = true
 
 [[files]]
 file = "mods/ai-improvements.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/antiblocksrechiseled.pw.toml"
 metafile = true
 
 [[files]]
@@ -1517,6 +1525,10 @@ metafile = true
 
 [[files]]
 file = "mods/chipped.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/chisel-chipped-integration.pw.toml"
 metafile = true
 
 [[files]]
@@ -1653,6 +1665,10 @@ metafile = true
 
 [[files]]
 file = "mods/findme.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/fusion-connected-textures.pw.toml"
 metafile = true
 
 [[files]]

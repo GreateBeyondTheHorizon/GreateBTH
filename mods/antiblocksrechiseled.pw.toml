@@ -1,0 +1,13 @@
+name = "AntiBlocksReChiseled"
+filename = "antiblocksrechiseled-0.4.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f8795d47fd4da393bc14f87f5ae86282d1a42c5a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5642039
+project-id = 715567
