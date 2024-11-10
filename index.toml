@@ -1512,6 +1512,10 @@ file = "mods/canary.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/cb-multipart.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/cc-tweaked.pw.toml"
 metafile = true
 
@@ -1537,6 +1541,10 @@ metafile = true
 
 [[files]]
 file = "mods/clumps.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/codechicken-lib-1-8.pw.toml"
 metafile = true
 
 [[files]]
@@ -1839,6 +1847,26 @@ file = "mods/productivebees.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/project-red-core.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/project-red-fabrication.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/project-red-illumination.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/project-red-integration.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/project-red-transmission.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/prometheus.pw.toml"
 metafile = true
 
@@ -1900,6 +1928,10 @@ metafile = true
 
 [[files]]
 file = "mods/spice-of-life-carrot-edition.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/super-factory-manager.pw.toml"
 metafile = true
 
 [[files]]

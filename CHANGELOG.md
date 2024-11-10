@@ -2,6 +2,8 @@
 
 
 **Mod Changes**
+- Add SFM & Project Red mods
+- forge-47.2.17 -> forge-47.3.0
 - kubejs-forge-2001.6.5-build.14 -> kubejs-forge-2001.6.5-build.16
 - jei-1.20.1-forge-15.20.0.104 -> jei-1.20.1-forge-15.20.0.105
 - chat_heads-0.13.3-forge-1.20 -> chat_heads-0.13.4-forge-1.20
