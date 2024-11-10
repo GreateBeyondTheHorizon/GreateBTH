@@ -27,6 +27,7 @@ ServerEvents.tags('item', event => {
 	event.add('c:white_dyes', ['#forge:dyes/white'])
 	event.add('c:yellow_dyes', ['#forge:dyes/yellow'])
 
+	event.add('c:hidden_from_recipe_viewers', ['ae2:facade', 'cb_microblock:microblock'])
 
 	event.add('chipped:stripped_bamboo_log', ['minecraft:stripped_bamboo_block'])
 	event.add('chipped:stripped_crimson_log', ['#chipped:stripped_crimson_stem'])

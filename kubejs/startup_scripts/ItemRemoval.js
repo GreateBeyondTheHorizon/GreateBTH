@@ -259,3 +259,13 @@ removeNamespaceItems('productivebees', [
 	'bottler', 
 	'milk_bottle'
 ])
+
+removeNamespaceItems('projectred_core', [
+	'red_iron_comp',
+	'red_ingot',
+	'electrotine_dust',
+	'electrotine_generator',
+	'ruby',
+	'sapphire',
+	'peridot'
+])
