@@ -19,3 +19,7 @@
 	#Sets the Aether Ruined Portals data pack to be added to new worlds automatically
 	"Add Ruined Portals automatically" = false
 
+[Modpack]
+	#Determines whether bosses should display a randomized name above their boss bar
+	"Randomize boss names" = true
+
