@@ -1,13 +1,13 @@
 name = "Greate"
-filename = "greate-0.0.30.jar"
+filename = "greate-0.0.31.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/8wDcQuht/versions/64i6iRir/greate-0.0.30.jar"
+url = "https://cdn.modrinth.com/data/8wDcQuht/versions/YCeKXP5l/greate-0.0.31.jar"
 hash-format = "sha1"
-hash = "8ca3c9bf98ebe24681642929d72a1f18860a253d"
+hash = "e2a12ce94bc6088760c79db071b1d4f6c166a139"
 
 [update]
 [update.modrinth]
 mod-id = "8wDcQuht"
-version = "64i6iRir"
+version = "YCeKXP5l"

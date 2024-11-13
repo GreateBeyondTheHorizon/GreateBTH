@@ -1648,6 +1648,10 @@ file = "mods/entityculling.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/ex-pattern-provider.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/expanded-ecosphere.pw.toml"
 metafile = true
 
@@ -1684,6 +1688,10 @@ file = "mods/gbthcore-1.0.0.jar"
 
 [[files]]
 file = "mods/geckolib.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/glodium.pw.toml"
 metafile = true
 
 [[files]]
