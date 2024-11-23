@@ -43,6 +43,6 @@ Now that you're more familiar with the projects, check out the next section for 
 
 ## 💬 Contact Us
 
-📬 If you have any questions, comments, or concerns, you can reach us on [our Discord](https://discord.gg/RNxSsTHF).
+📬 If you have any questions, comments, or concerns, you can reach us on [our Discord](https://discord.gg/FpwgKtavyG).
 
 💖 Thank you again for your interest in contributing. We appreciate your help in making _Greate: Beyond The Horizon_ the best it can be!
