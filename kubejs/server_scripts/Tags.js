@@ -84,6 +84,7 @@ ServerEvents.tags('item', event => {
 ServerEvents.tags('fluid', event => {
 	event.add('c:hidden_from_recipe_viewers', ['productivebees:honey', 'productivebees:flowing_honey'])
 
+	event.remove('forge:oil', ['ad_astra:oil'])
 	event.remove('forge:oxygen', ['ad_astra:oxygen'])
 	event.remove('forge:honey', ['productivebees:honey'])
 	event.remove('forge:honey', ['productivebees:flowing_honey'])
