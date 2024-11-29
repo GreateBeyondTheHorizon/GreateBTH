@@ -1,5 +1,6 @@
 **Script/Config Changes**
 - Hide ad astra oil
+- Add extreme sound muffler
 
 **Mod Changes**
 - xtonesreworked-1.0.3-F_1.20.1-47.2.0 -> xtonesreworked-1.0.4-F_1.20.1-47.2.0
