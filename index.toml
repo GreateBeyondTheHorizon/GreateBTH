@@ -1656,6 +1656,10 @@ file = "mods/expanded-ecosphere.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/extreme-sound-muffler.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/fancymenu.pw.toml"
 metafile = true
 
