@@ -3,6 +3,7 @@
 - Add extreme sound muffler
 - Add coal stone vein
 - Adjust veins in overworld to not conflict with stone/deepslate stone types
+- Fix bloomery products quest not accepting stone hammer
 
 **Mod Changes**
 - xtonesreworked-1.0.3-F_1.20.1-47.2.0 -> xtonesreworked-1.0.4-F_1.20.1-47.2.0
