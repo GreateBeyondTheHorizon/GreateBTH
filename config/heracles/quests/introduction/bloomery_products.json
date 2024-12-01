@@ -13,15 +13,7 @@
     "stone_hammer": {
       "type": "heracles:item",
       "item": "gtceu:stone_hammer",
-      "nbt": {
-        "DisallowContainerItem": 0,
-        "GT.Behaviours": {},
-        "HideFlags": 2,
-        "GT.Tool": {
-          "MaxDamage": 63,
-          "Damage": 0
-        }
-      },
+      "nbt": {},
       "amount": 1,
       "collection": "AUTOMATIC"
     }
