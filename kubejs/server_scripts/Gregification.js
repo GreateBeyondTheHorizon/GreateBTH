@@ -1,4 +1,5 @@
 ServerEvents.recipes(event => {
+	//#region recipe gregification
     event.remove({output: '#minecraft:boats'})
 	Ingredient.of("#minecraft:boats").itemIds.forEach(boat => {
 		if (boat.endsWith('chest_boat') || boat.endsWith('chest_raft')) {
@@ -279,4 +280,31 @@ ServerEvents.recipes(event => {
 			.itemOutputs(fence)
 			.EUt(4)
     })
+
+	//#region wrought iron / iron shenanigans
+
+	event.replaceInput('gtceu:shaped/piston_iron', 'gtceu:small_iron_gear', 'gtceu:small_bronze_gear')
+	event.replaceInput('gtceu:shaped/cauldron', 'gtceu:iron_plate', 'gtceu:wrought_iron_plate')
+
+	event.replaceOutput(/gtceu:(smelting|blasting)(.*)_to_ingot/, 'minecraft:iron_ingot', 'gtceu:wrought_iron_ingot')
+	event.replaceOutput('/minecraft:(.*)from_(smelting|blasting)(.*)/', 'minecraft:iron_ingot', 'gtceu:wrought_iron_ingot')
+
+	event.remove({type: 'minecraft:smelting', output: 'gtceu:wrought_iron_nugget'})
+	event.smelting('minecraft:iron_nugget', 'gtceu:wrought_iron_nugget')
+
+	//temp: have to remove recycling due to them not updating outputs when a recipe is changed
+	function replaceInput(output, input, replacement) {
+		event.replaceInput({output: output}, input, replacement)
+		event.remove({type: 'gtceu:arc_furnace', type: 'gtceu:macerator', output: output})
+	}
+
+	replaceInput('gtceu:shaped/coke_oven', 'gtceu:iron_plate', 'gtceu:wrought_iron_plate')
+	replaceInput('gtceu:shaped/primitive_pump', 'gtceu:iron_ring', 'gtceu:wrought_iron_ring')
+	replaceInput('gtceu:shaped/primitive_pump', 'gtceu:iron_screw', 'gtceu:wrought_iron_screw')
+	replaceInput('gtceu:shaped/primitive_pump', 'gtceu:iron_rotor', 'gtceu:wrought_iron_rotor')
+	replaceInput('gtceu:shaped/pump_deck', 'gtceu:iron_screw', 'gtceu:wrought_iron_screw')
+	replaceInput('gtceu:shaped/pump_hatch', 'gtceu:iron_screw', 'gtceu:wrought_iron_screw')
+	replaceInput('gtceu:shaped/pump_hatch', 'gtceu:iron_ring', 'gtceu:wrought_iron_ring')
+	replaceInput('gtceu:ulv_machine_casing', 'gtceu:wrought_iron_plate', 'gtceu:iron_plate')
+
 })
