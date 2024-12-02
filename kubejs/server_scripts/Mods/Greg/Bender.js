@@ -4,4 +4,5 @@ ServerEvents.recipes(event => {
         .itemOutputs('kubejs:unf_turtle_helmet')
 		.circuit(1)
         .EUt(30)
+        .duration(100)
 })
