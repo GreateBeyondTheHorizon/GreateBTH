@@ -47,21 +47,12 @@ ServerEvents.recipes(event => {
 	})
 
 	//#region replacement
-	event.replaceInput('gtceu:shaped/coke_oven', 'gtceu:iron_plate', 'gtceu:wrought_iron_plate')
-	event.replaceInput('gtceu:shaped/primitive_pump', 'gtceu:iron_ring', 'gtceu:wrought_iron_ring')
-	event.replaceInput('gtceu:shaped/primitive_pump', 'gtceu:iron_screw', 'gtceu:wrought_iron_screw')
-	event.replaceInput('gtceu:shaped/primitive_pump', 'gtceu:iron_rotor', 'gtceu:wrought_iron_rotor')
-	event.replaceInput('gtceu:shaped/pump_deck', 'gtceu:iron_screw', 'gtceu:wrought_iron_screw')
-	event.replaceInput('gtceu:shaped/pump_hatch', 'gtceu:iron_screw', 'gtceu:wrought_iron_screw')
-	event.replaceInput('gtceu:shaped/pump_hatch', 'gtceu:iron_ring', 'gtceu:wrought_iron_ring')
 	event.replaceInput('gtceu:shaped/steam_extractor_bronze', 'gtceu:bronze_machine_casing', 'gtceu:bronze_brick_casing')
 	event.replaceInput('gtceu:shaped/steam_compressor_bronze', 'gtceu:bronze_machine_casing', 'gtceu:bronze_brick_casing')
 	event.replaceInput('gtceu:shaped/steam_hammer_bronze', 'gtceu:bronze_machine_casing', 'gtceu:bronze_brick_casing')
 	event.replaceInput('gtceu:shaped/steam_rock_breaker_bronze', 'gtceu:bronze_machine_casing', 'gtceu:bronze_brick_casing')
-	event.replaceInput('gtceu:shaped/casing_ulv', 'gtceu:wrought_iron_plate', 'gtceu:iron_plate')
 
-	event.replaceOutput(/gtceu:(smelting|blasting)(.*)_to_ingot/, 'minecraft:iron_ingot', 'gtceu:wrought_iron_ingot')
-
+	
 	//#region campfire
 	event.campfireCooking('gtceu:coke_oven_brick', 'gtceu:compressed_coke_clay').cookingTime(300).xp(0.3)
 	event.campfireCooking('gtceu:firebrick', 'gtceu:compressed_fireclay').cookingTime(300).xp(0.1)

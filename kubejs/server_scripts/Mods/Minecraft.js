@@ -39,15 +39,6 @@ ServerEvents.recipes(event => {
 
 	event.recipes.create.mixing('minecraft:cake', [Fluid.of('minecraft:milk', 3000), '2x minecraft:sugar', 'farmersdelight:pie_crust', 'minecraft:sweet_berries']).heated()
 	event.recipes.create.mixing('minecraft:pumpkin_pie', ['minecraft:sugar', 'farmersdelight:pie_crust', 'minecraft:pumpkin']).heated()
-
-	event.replaceInput('gtceu:shaped/piston_iron', 'gtceu:small_iron_gear', 'gtceu:small_bronze_gear')
-	event.replaceInput('gtceu:shaped/cauldron', 'gtceu:iron_plate', 'gtceu:wrought_iron_plate')
-
-	event.replaceOutput('/minecraft:(.*)from_(smelting|blasting)(.*)/', 'minecraft:iron_ingot', 'gtceu:wrought_iron_ingot')
-
-	//Temp
-	event.remove({type: 'minecraft:smelting', output: 'gtceu:wrought_iron_nugget'})
-	event.smelting('minecraft:iron_nugget', 'gtceu:wrought_iron_nugget')
 	
 
 	// Netherite ingot
