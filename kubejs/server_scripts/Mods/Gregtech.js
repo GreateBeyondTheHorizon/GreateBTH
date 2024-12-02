@@ -339,6 +339,21 @@ ServerEvents.recipes(event => {
 	)
 
 	event.shaped(
+		Item.of('gtceu:lp_steam_solid_boiler'),
+		[
+			'BBB',
+			'BWB',
+			'RLR'
+		],
+		{
+			B: 'gtceu:bronze_plate',
+			W: '#forge:tools/wrenches',
+			R: 'minecraft:bricks',
+			L: 'gtceu:bronze_brick_casing'
+		}
+	)
+
+	event.shaped(
 		Item.of('gtceu:hp_steam_solid_boiler'),
 		[
 			'SSS',
@@ -386,7 +401,7 @@ ServerEvents.recipes(event => {
 		[
 			'SSS',
 			'SWS',
-			'BCS'
+			'BCB'
 		],
 		{
 			S: 'gtceu:steel_plate',
