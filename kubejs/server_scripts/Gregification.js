@@ -298,13 +298,13 @@ ServerEvents.recipes(event => {
 		event.remove({type: 'gtceu:arc_furnace', type: 'gtceu:macerator', output: output})
 	}
 
-	replaceInput('gtceu:shaped/coke_oven', 'gtceu:iron_plate', 'gtceu:wrought_iron_plate')
-	replaceInput('gtceu:shaped/primitive_pump', 'gtceu:iron_ring', 'gtceu:wrought_iron_ring')
-	replaceInput('gtceu:shaped/primitive_pump', 'gtceu:iron_screw', 'gtceu:wrought_iron_screw')
-	replaceInput('gtceu:shaped/primitive_pump', 'gtceu:iron_rotor', 'gtceu:wrought_iron_rotor')
-	replaceInput('gtceu:shaped/pump_deck', 'gtceu:iron_screw', 'gtceu:wrought_iron_screw')
-	replaceInput('gtceu:shaped/pump_hatch', 'gtceu:iron_screw', 'gtceu:wrought_iron_screw')
-	replaceInput('gtceu:shaped/pump_hatch', 'gtceu:iron_ring', 'gtceu:wrought_iron_ring')
+	replaceInput('gtceu:coke_oven', 'gtceu:iron_plate', 'gtceu:wrought_iron_plate')
+	replaceInput('gtceu:primitive_pump', 'gtceu:iron_ring', 'gtceu:wrought_iron_ring')
+	replaceInput('gtceu:primitive_pump', 'gtceu:iron_screw', 'gtceu:wrought_iron_screw')
+	replaceInput('gtceu:primitive_pump', 'gtceu:iron_rotor', 'gtceu:wrought_iron_rotor')
+	replaceInput('gtceu:pump_deck', 'gtceu:iron_screw', 'gtceu:wrought_iron_screw')
+	replaceInput('gtceu:pump_hatch', 'gtceu:iron_screw', 'gtceu:wrought_iron_screw')
+	replaceInput('gtceu:pump_hatch', 'gtceu:iron_ring', 'gtceu:wrought_iron_ring')
 	replaceInput('gtceu:ulv_machine_casing', 'gtceu:wrought_iron_plate', 'gtceu:iron_plate')
 
 })
