@@ -1,13 +1,13 @@
 name = "Resourceful Lootbags"
-filename = "lootbags-2.0.0-forge.jar"
+filename = "lootbags-2.0.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "257ec4772a989e236423cc3cbb21f3833d7408fe"
+hash = "277496ff2c2be772aa02e95c3ce96865a8c84833"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4588370
+file-id = 6061527
 project-id = 687082
