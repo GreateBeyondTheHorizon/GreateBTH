@@ -1,25 +1,40 @@
 **Script/Config Changes**
-- Hide ad astra oil
-- Add extreme sound muffler
-- Add coal stone vein
-- Adjust veins in overworld to not conflict with stone/deepslate stone types
-- Fix bloomery products quest not accepting stone hammer
-- Double the time it takes to make steel in a PBF
-- Fix certain recipe inconsistencies
+- Raise laser engraver item input slots to 3, to fix AE2 Component recipe warnings
+- Remove crafting table ae2 component recipes
 
 **Mod Changes**
-- xtonesreworked-1.0.3-F_1.20.1-47.2.0 -> xtonesreworked-1.0.4-F_1.20.1-47.2.0
-- sophisticatedstorage-1.20.1-0.10.49.951 -> sophisticatedstorage-1.20.1-0.10.50.955
-- cc-tweaked-1.20.1-forge-1.114.0 -> cc-tweaked-1.20.1-forge-1.113.1
-- sophisticatedcore-1.20.1-0.7.3.764 -> sophisticatedcore-1.20.1-0.7.10.795
-- sophisticatedbackpacks-1.20.1-3.20.13.1131 -> sophisticatedbackpacks-1.20.1-3.20.17.1150
-- ad_astra-forge-1.20.1-1.15.18 -> ad_astra-forge-1.20.1-1.15.19
-- baubley-heart-canisters-1.20.1-1.0.5 -> baubley-heart-canisters-1.20.1-1.1.0
-- gtnn-1.1.5a -> gtnn-1.1.5b
-- Aquaculture-1.20.1-2.5.2 -> Aquaculture-1.20.1-2.5.3
-- ae2ct-1.20.1-1.0.2-beta -> ae2ct-1.20.1-1.0.3
-- chat_heads-0.13.6-forge-1.20 -> chat_heads-0.13.7-forge-1.20
-- sophisticatedcore-1.20.1-0.7.10.795 -> sophisticatedcore-1.20.1-0.7.11.799
-- gtceu-1.20.1-1.5.3 -> gtceu-1.20.1-1.5.4
-- gtnn-1.1.5b -> gtnn-1.1.6
-- greate-0.0.32 -> greate-0.0.33
+- Add fzzy-config
+- gtceu-1.20.1-1.5.4 -> gtceu-1.20.1-1.6.2
+- ProjectRed-1.20.1-4.20.0-beta+5-core -> ProjectRed-1.20.1-4.20.0-core
+- corpse-forge-1.20.1-1.0.17 -> corpse-forge-1.20.1-1.0.19
+- modernfix-forge-5.19.5+mc1.20.1 -> modernfix-forge-5.20.0+mc1.20.1
+- inventorysorter-1.20.1-23.0.1 -> inventorysorter-1.20.1-23.0.8
+- ProjectRed-1.20.1-4.20.0-beta+5-integration -> ProjectRed-1.20.1-4.20.0-integration
+- entityculling-forge-1.7.1-mc1.20.1 -> entityculling-forge-1.7.2-mc1.20.1
+- geckolib-forge-1.20.1-4.4.9 -> geckolib-forge-1.20.1-4.7
+- appliedenergistics2-forge-15.2.13 -> appliedenergistics2-forge-15.3.2-beta
+- ae2ct-1.20.1-1.0.3 -> ae2ct-1.20.1-1.0.4
+- dankstorage-forge-1.20.1-13 -> dankstorage-forge-1.20.1-15
+- sophisticatedcore-1.20.1-0.7.11.799 -> sophisticatedcore-1.20.1-1.0.8.828
+- sophisticatedstorage-1.20.1-0.10.50.955 -> sophisticatedstorage-1.20.1-1.0.10.1007
+- curios-forge-5.11.0+1.20.1 -> curios-forge-5.11.1+1.20.1
+- oculus-mc1.20.1-1.7.0 -> oculus-mc1.20.1-1.8.0
+- BetterAdvancements-Forge-1.20.1-0.4.2.10 -> BetterAdvancements-Forge-1.20.1-0.4.2.25
+- dynamic-fps-3.7.6+minecraft-1.20.0-forge -> dynamic-fps-3.7.7+minecraft-1.20.0-forge
+- lootbags-2.0.0-forge -> lootbags-2.0.2
+- ExtendedAE-1.20-1.2.1-forge -> ExtendedAE-1.20-1.3.2-forge
+- create_connected-0.9.2-mc1.20.1-all -> create_connected-0.9.3-mc1.20.1-all
+- supermartijn642corelib-1.1.17a-forge-mc1.20.1 -> supermartijn642corelib-1.1.18-forge-mc1.20.1
+- balm-forge-1.20.1-7.3.9-all -> balm-forge-1.20.1-7.3.10-all
+- FarmersDelight-1.20.1-1.2.5 -> FarmersDelight-1.20.1-1.2.6
+- guardvillagers-1.20.1-1.6.7 -> guardvillagers-1.20.1-1.6.9
+- OpenBlocksTrophies-1.20.1-4.1.15 -> OpenBlocksTrophies-1.20.1-5.0.0
+- ProjectRed-1.20.1-4.20.0-beta+5-illumination -> ProjectRed-1.20.1-4.20.0-illumination
+- ProjectRed-1.20.1-4.20.0-beta+5-fabrication -> ProjectRed-1.20.1-4.20.0-fabrication
+- iChunUtil-1.20.1-Forge-1.0.0 -> iChunUtil-1.20.1-Forge-1.0.3
+- ProjectRed-1.20.1-4.20.0-beta+5-transmission -> ProjectRed-1.20.1-4.20.0-transmission
+- toms_storage-1.20-1.6.8 -> toms_storage-1.20-1.6.9
+- sophisticatedbackpacks-1.20.1-3.20.17.1150 -> sophisticatedbackpacks-1.20.1-3.21.2.1163
+- gtnn-1.1.6 -> gtnn-1.20.1-1.1.7
+- ImmediatelyFast-Forge-1.3.2+1.20.4 -> ImmediatelyFast-Forge-1.3.3+1.20.4
+- greate-0.0.33 -> greate-0.0.35

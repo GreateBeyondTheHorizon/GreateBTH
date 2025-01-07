@@ -7,7 +7,8 @@ ServerEvents.recipes(event => {
 	event.remove({id:'ae2:network/blocks/controller'})
 	event.remove({id:'ae2:network/blocks/storage_chest'})
 	event.remove({id:'ae2:network/crafting/patterns_blank'})
-	event.remove({id: /ae2:tools(.*)(certus|nether)_quartz_(sword|pickaxe|axe|spade|hoe)/})
+	event.remove({id: /ae2:tools\/(certus|nether)_quartz_(sword|pickaxe|axe|spade|hoe)/})
+	event.remove({id: /ae2:network\/cells\/item_storage_components_cell_(.*)_part/})
 	
 	event.replaceInput({id:'ae2:network/blocks/inscribers'}, 'minecraft:copper_ingot', '#gtceu:circuits/hv')
 	event.replaceInput({id:'ae2:network/blocks/inscribers'}, 'minecraft:iron_ingot', 'gtceu:stainless_steel_plate')
