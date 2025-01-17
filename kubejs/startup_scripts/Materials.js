@@ -8,6 +8,7 @@ GTCEuStartupEvents.registry("gtceu:material", (event) => {
   GTMaterials.Obsidian.addFlags(GTMaterialFlags.GENERATE_BOLT_SCREW)
   GTMaterials.CertusQuartz.addFlags(GTMaterialFlags.GENERATE_LENS)
   GTMaterials.RutheniumTriniumAmericiumNeutronate.addFlags(GTMaterialFlags.GENERATE_PLATE)
+  GTMaterials.Netherite.addFlags(GTMaterialFlags.GENERATE_PLATE)
 
   GTMaterials.get("andesite_alloy").addFlags(GTMaterialFlags.DISABLE_DECOMPOSITION)
   GTMaterials.get("andesite_alloy").setProperty(GBTHCorePropertyKeys.BLOOM, new $BloomProperty())
@@ -46,15 +47,10 @@ GTCEuStartupEvents.registry("gtceu:material", (event) => {
     .color(0xfefb64)
     .iconSet(GTMaterialIconSet.GEM_VERTICAL)
     .burnTime(1600)
-
-  event.create('netherite')
-    .ingot(4)
-    .color(0x7c6669)
-    .iconSet(GTMaterialIconSet.DULL)
-    .flags(GTMaterialFlags.GENERATE_PLATE)
-});
+})
 
 GTCEuStartupEvents.materialModification(event => {
-  TagPrefix.ingot["setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])"](GTMaterials.get('netherite'), () => Item.getItem('minecraft:netherite_ingot'))
-  TagPrefix.block["setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])"](GTMaterials.get('netherite'), () => Item.getItem('minecraft:netherite_block'))
+  TagPrefix.block["setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])"](GTMaterials.Stone, () => Item.getItem('minecraft:stone'))
+  TagPrefix.ingot["setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material)"](GTMaterials.Stone)
+  TagPrefix.nugget["setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material)"](GTMaterials.Stone)
 })
