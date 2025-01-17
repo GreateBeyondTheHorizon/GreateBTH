@@ -65,11 +65,6 @@ function removeNamespaceItems(namespace, items) {
 //////////                                          //////////
 //////////////////////////////////////////////////////////////
 
-// Remove tags and items generated as a byproduct of adding the GT stone hammer
-removeTag('forge:storage_blocks/stone', true, true)
-removeTag('forge:ingots/stone', true, true)
-removeTag('forge:nuggets/stone', true, true)
-
 // Create
 removeNamespaceItems('create', [
 	/(.*)_sheet/, // Remove all sheets in favor of GT plates
