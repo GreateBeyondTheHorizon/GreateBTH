@@ -67,8 +67,8 @@ function removeNamespaceItems(namespace, items) {
 
 // Create
 removeNamespaceItems('create', [
-	/(.*)_sheet/, // Remove all sheets in favor of GT plates
-	/crushed_raw_(.*)/,
+	/(.*)_sheet$/, // Remove all sheets in favor of GT plates
+	/crushed_raw_(.*)$/,
 	'electron_tube',
 	'zinc_ore',
 	'deepslate_zinc_ore',
@@ -95,7 +95,7 @@ removeNamespaceItems('constructionwand', ['core_angel', 'core_destruction'])
 
 // Stargate Journey
 // Completely disable for now
-removeItem(/sgjourney:(.*)/)
+removeItem(/^sgjourney:(.*)$/)
 
 // Tom's Simple Storage
 removeNamespaceItems('toms_storage', [
@@ -104,7 +104,7 @@ removeNamespaceItems('toms_storage', [
 	'ts.inventory_hopper_basic',
 	'ts.level_emitter',
 	'ts.storage_terminal',
-	'ts.adv_wireless_terminal',
+	'ts.adv_wireless_terminal'
 ])
 
 // Sophisticated Backpacks
@@ -184,7 +184,8 @@ removeNamespaceItems('farmersdelight', [
 	'iron_knife', 
 	'diamond_knife', 
 	'netherite_knife', 
-	'golden_knife'
+	'golden_knife',
+	'wheat_dough'
 ])
 
 //Oreberries
@@ -211,10 +212,9 @@ removeNamespaceItems('ae2', [
 removeNamespaceItems('gtceu', [
 	'lp_steam_solar_boiler',
 	'hp_steam_solar_boiler',
-	/(.*)macerator/,
-	/(.*)kinetic_mixer/,
-	/(.*)bender/,
-	/(.*)mixer/,
+	/.*macerator/,
+	/.*bender/,
+	/.*mixer/,
 	'lv_cutter',
 	'mv_cutter',
 	'hv_cutter',
@@ -224,7 +224,9 @@ removeNamespaceItems('gtceu', [
 	'zpm_cutter',
 	'uv_cutter',
 	'obsidian_dust',
-	'netherrack_dust'
+	'netherrack_dust',
+	/.*_mining_hammer/,
+	/.*_drill/
 ])
 
 removeNamespaceItems('dankstorage', [
@@ -263,4 +265,16 @@ removeNamespaceItems('projectred_core', [
 	'ruby',
 	'sapphire',
 	'peridot'
+])
+
+removeNamespaceItems('tconstruct', [
+	'foundry_controller',
+	'netherite_nugget',
+	'rose_gold_ingot',
+	'rose_gold_nugget',
+	'rose_gold_block'
+])
+
+removeNamespaceItems('cb_microblock', [
+	'stone_rod'
 ])

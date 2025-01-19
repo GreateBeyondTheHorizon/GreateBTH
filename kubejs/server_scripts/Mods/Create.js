@@ -20,6 +20,8 @@ ServerEvents.recipes(event => {
     event.remove({id: 'create:crafting/appliances/netherite_diving_boots'})
     event.remove({id: 'create:crafting/tree_fertilizer'})
     event.remove({id: /create(.*)botania(.*)/})
+    event.remove({id: /create:(smelting|blasting)\/zinc_ingot_from_raw_ore/})
+    event.remove({id: /create:(smelting|blasting)\/zinc_ingot_from_ore/})
 
 	event.replaceInput({id: 'create:shaped/wrench'}, 'gtceu:gold_plate', 'gtceu:wrought_iron_plate')
 	event.replaceInput({id: 'create:crafting/kinetics/goggles'}, 'gtceu:gold_plate', 'gtceu:wrought_iron_plate')
