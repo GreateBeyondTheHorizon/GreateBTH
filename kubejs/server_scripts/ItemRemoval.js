@@ -1,40 +1,5 @@
 //priority: 1
-var extraRecipesToRemove = [
-    'aquaculture:iron_nugget_from_smelting',
-    'farmersdelight:iron_nugget_from_smelting_knife',
-    'aquaculture:gold_nugget_from_smelting',
-    'farmersdelight:gold_nugget_from_smelting_knife',
-    'create:smelting/iron_ingot_from_crushed',
-    'create:smelting/copper_ingot_from_crushed',
-    'create:smelting/gold_ingot_from_crushed',
-    'aquaculture:neptunium_ingot_from_blasting',
-    'aquaculture:iron_nugget_from_blasting',
-    'farmersdelight:iron_nugget_from_blasting_knife',
-    'aquaculture:gold_nugget_from_blasting',
-    'farmersdelight:gold_nugget_from_blasting_knife',
-    'create:blasting/iron_ingot_from_crushed',
-    'create:blasting/copper_ingot_from_crushed',
-    'create:blasting/gold_ingot_from_crushed',
-    'gtceu:steam_boiler/aquaculture_wooden_fillet_knife',
-    'gtceu:large_boiler/aquaculture_wooden_fillet_knife',
-    'create:splashing/crushed_raw_gold',
-    'create:splashing/crushed_raw_copper',
-    'create:splashing/crushed_raw_iron',
-    /gtceu:(macerator|arc_furnace)(.*)solar_boiler/,
-    /gtceu:(macerator|arc_furnace)(.*)macerator/,
-    /gtceu:(macerator|arc_furnace)(.*)bender/,
-    /gtceu:(macerator|arc_furnace)(.*)mixer/,
-    /gtceu:(macerator|arc_furnace)(.*)lv_cutter/,
-	/gtceu:(macerator|arc_furnace)(.*)mv_cutter/,
-	/gtceu:(macerator|arc_furnace)(.*)hv_cutter/,
-	/gtceu:(macerator|arc_furnace)(.*)ev_cutter/,
-	/gtceu:(macerator|arc_furnace)(.*)iv_cutter/,
-	/gtceu:(macerator|arc_furnace)(.*)luv_cutter/,
-	/gtceu:(macerator|arc_furnace)(.*)zpm_cutter/,
-	/gtceu:(macerator|arc_furnace)(.*)uv_cutter/
-]
-
-var recipesToReplace = [
+var itemsToReplace = [
     {removedItem: "ad_astra:steel_rod", replacement: '#forge:rods/steel'},
     {removedItem: "ad_astra:iron_rod", replacement: '#forge:rods/iron'},
 	{removedItem: 'ad_astra:desh_engine', replacement: 'kubejs:tungsten_steel_engine'},
@@ -48,15 +13,22 @@ var recipesToReplace = [
     {removedItem: "deep_aether:skyjade", replacement: 'gtceu:skyjade_gem'},
 
     {removedItem: "create:copper_sheet", replacement: '#forge:plates/copper'},
-    {removedItem: "create:iron_sheet", replacement: '#forge:plates/iron'},
-    {removedItem: "create:electron_tube", replacement: '#gtceu:circuits/ulv'},
+    {removedItem: "create:golden_sheet", replacement: '#forge:plates/gold'},
     {removedItem: "create:sturdy_sheet", replacement: '#forge:plates/obsidian'},
     {removedItem: "create:brass_sheet", replacement: '#forge:plates/brass'},
     {removedItem: "create:brass_ingot", replacement: '#forge:plates/brass'},
     {removedItem: "create:zinc_ingot", replacement: '#forge:plates/zinc'},
-    {removedItem: "create:dough", replacement: 'farmersdelight:wheat_dough'},
+    {removedItem: "create:iron_sheet", replacement: '#forge:plates/iron'},
+    {removedItem: "create:electron_tube", replacement: '#gtceu:circuits/ulv'},
+    {removedItem: "create:crushed_raw_copper", replacement: 'gtceu:crushed_copper_ore'},
+    {removedItem: "create:crushed_raw_gold", replacement: 'gtceu:crushed_gold_ore'},
+    {removedItem: "create:crushed_raw_zinc", replacement: 'gtceu:crushed_sphalerite_ore'},
+    {removedItem: "create:crushed_raw_iron", replacement: 'gtceu:crushed_iron_ore'},
+    {removedItem: "create:dough", replacement: 'gtceu:dough'},
+    {removedItem: "create:wheat_flour", replacement: 'gtceu:wheat_dust'},
     {removedItem: "create:andesite_alloy", replacement: 'gtceu:andesite_alloy_ingot'},
     {removedItem: "create:propeller", replacement: 'gtceu:andesite_alloy_rotor'},
+    {removedItem: "create:shaft", replacement: 'greate:andesite_alloy_shaft'}, //TODO: move to greate
 
     {removedItem: "gtceu:hp_steam_macerator", replacement: 'greate:andesite_alloy_millstone'},
     {removedItem: "gtceu:iv_macerator", replacement: 'greate:tungsten_steel_millstone'},
@@ -93,9 +65,14 @@ ServerEvents.recipes(event => {
         }
     }
 
+    itemsToReplace.forEach(recipe => {
+        event.replaceInput({}, recipe.removedItem, recipe.replacement)
+        event.replaceOutput({}, recipe.removedItem, recipe.replacement)
+    })
+
     // Remove the recipes for removed items, and replace them in inputs as Removed Item Placeholders
 	for (const item of global.ItemsToRemove) {
-        event.remove({ output: item })
+        event.remove([{output: item}, {input: item}])
         // Expand tags and RegExps into individual items to more easily identify what was removed
         global.Util.forEachItemExpanded(item, itemId => {
             event.replaceInput(
@@ -103,17 +80,14 @@ ServerEvents.recipes(event => {
                 itemId,
                 Item.of('kubejs:removed_item_placeholder', '{Removed: "' + itemId + '"}').strongNBT()
             )
+
+            event.replaceOutput(
+                { output: itemId },
+                itemId,
+                Item.of('kubejs:removed_item_placeholder', '{Removed: "' + itemId + '"}').strongNBT()
+            )
         })
     }
-
-    extraRecipesToRemove.forEach(recipe => {
-        event.remove({ id: recipe })
-    })
-
-    recipesToReplace.forEach(recipe => {
-        var item = Item.of('kubejs:removed_item_placeholder', `{Removed:"${recipe.removedItem}"}`).weakNBT()
-        event.replaceInput(item, item, recipe.replacement)
-    })
 })
 
 LootJS.modifiers(event => {
