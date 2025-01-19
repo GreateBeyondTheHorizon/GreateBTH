@@ -22,6 +22,8 @@ ServerEvents.recipes(event => {
 	event.remove({id: 'gtceu:extruder/extrude_stone_ingot_to_block'})
 	event.remove({id: 'gtceu:alloy_smelter/alloy_smelt_stone_ingot_to_block'})
 	event.remove({id: 'gtceu:lathe/lathe_stone_to_rod'})
+	event.remove({id: 'create:shapeless/dough'})
+	event.remove({id: 'bucketlib:create/dough'})
 	/* event.remove({type: 'gtceu:large_boiler'})
 
 		$BuiltInRegistries.ITEM.forEach(item => {

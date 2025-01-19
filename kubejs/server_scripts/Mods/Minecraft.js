@@ -1,16 +1,5 @@
 //priority: 0
 ServerEvents.recipes(event => {
-	// TODO: Enable this if/when tinkers is added
-	// event.remove({
-	// 	output: [
-	// 		/(.*)a(.*):(.*)_hoe/,
-	// 		/(.*)a(.*):(.*)_shovel/,
-	// 		/(.*)a(.*):(.*)_pickaxe/,
-	// 		/(.*)a(.*):(.*)_sword/,
-	// 		/(.*)a(.*):(.*)_axe/,
-	// 	],
-	// })
-
 	event.remove({id: 'aether:holystone_stonecutter'})
 	event.remove({id: 'gtceu:shaped/barrel'})
 	event.remove({id: 'gtceu:shaped/compass'})
@@ -36,6 +25,7 @@ ServerEvents.recipes(event => {
 	event.remove({id: /create:(smelting|smoking)(.*)bread/})
 
 	event.campfireCooking('minecraft:brick', 'gtceu:compressed_clay').cookingTime(300).xp(0.3)
+	event.campfireCooking('minecraft:bread', 'gtceu:dough')
 
 	event.recipes.create.mixing('minecraft:cake', [Fluid.of('minecraft:milk', 3000), '2x minecraft:sugar', 'farmersdelight:pie_crust', 'minecraft:sweet_berries']).heated()
 	event.recipes.create.mixing('minecraft:pumpkin_pie', ['minecraft:sugar', 'farmersdelight:pie_crust', 'minecraft:pumpkin']).heated()
