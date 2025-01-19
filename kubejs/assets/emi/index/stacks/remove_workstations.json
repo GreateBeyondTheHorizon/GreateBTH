@@ -1,11 +1,14 @@
 {
     "removed":
     [
-        "item:minecraft:furnace"
+        "item:minecraft:furnace",
+        "item:sophisticatedbackpacks:crafting_upgrade",
+        "item:sophisticatedstorage:crafting_upgrade"
     ],
     "filters":
     [
-        "minecraft:furnace"
+        "minecraft:furnace",
+        "sophisticatedstorage:crafting_upgrade"
     ],
     "disable": true
 }
