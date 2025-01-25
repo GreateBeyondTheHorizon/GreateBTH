@@ -8,3 +8,4 @@
 
 **Mod Changes**
 - Add Aquaculture Delight, Ends Delight, Oceans Delight, Slice and Dice
+- Add Tinkers' Construct

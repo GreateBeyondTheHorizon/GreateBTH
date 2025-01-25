@@ -78,4 +78,8 @@ ItemEvents.modification(event => {
 	event.modify('aether:ambrosium_block', item => {
 		item.burnTime = 0
 	})
+
+	event.modify(/^(?!tconstruct)^(?!gtceu)(?=.*(axe|shovel|sword|hoe)$)/, item => {
+		item.maxDamage = 1
+	})
 })
