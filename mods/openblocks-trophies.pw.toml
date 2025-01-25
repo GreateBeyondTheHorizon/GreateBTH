@@ -1,13 +1,13 @@
 name = "OpenBlocks Trophies"
-filename = "OpenBlocksTrophies-1.20.1-5.0.0.jar"
+filename = "OpenBlocksTrophies-1.20.1-5.1.5.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "34c98c40a96fe415a9c937092a0b756fab81031d"
+hash = "d7690731ffa6343889c923fb91c7e8d40656bf51"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5955084
+file-id = 6111469
 project-id = 683319
