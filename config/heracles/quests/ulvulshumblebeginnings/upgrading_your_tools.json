@@ -1,41 +1,47 @@
 {
   "dependencies": [
-    "steel_ingot"
+    "your_second_tools"
   ],
   "tasks": {
-    "casing": {
-      "type": "heracles:item",
-      "item": "gtceu:steel_firebox_casing",
-      "amount": 9,
-      "collection": "AUTOMATIC"
-    },
     "controller": {
       "type": "heracles:item",
-      "item": "gbthcore:steam_alloy_smelter",
+      "item": "tconstruct:smeltery_controller",
       "amount": 1,
       "collection": "AUTOMATIC"
     },
-    "output_bus": {
+    "casting_table": {
       "type": "heracles:item",
-      "item": "gtceu:steam_output_bus",
+      "item": "tconstruct:seared_table",
       "amount": 1,
       "collection": "AUTOMATIC"
     },
-    "input_bus": {
+    "faucet": {
       "type": "heracles:item",
-      "item": "gtceu:steam_input_bus",
+      "item": "tconstruct:seared_faucet",
       "amount": 1,
       "collection": "AUTOMATIC"
     },
-    "casing_solid": {
+    "seared_tank": {
       "type": "heracles:item",
-      "item": "gtceu:steel_machine_casing",
-      "amount": 13,
+      "item": "#tconstruct:seared_tanks",
+      "amount": 1,
       "collection": "AUTOMATIC"
     },
-    "steam_input": {
+    "seared_brick": {
       "type": "heracles:item",
-      "item": "gtceu:steam_input_hatch",
+      "item": "#tconstruct:seared_blocks",
+      "amount": 18,
+      "collection": "AUTOMATIC"
+    },
+    "drain": {
+      "type": "heracles:item",
+      "item": "tconstruct:seared_drain",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "casting_basin": {
+      "type": "heracles:item",
+      "item": "tconstruct:seared_basin",
       "amount": 1,
       "collection": "AUTOMATIC"
     }
@@ -46,26 +52,26 @@
       "text": ""
     },
     "description": [
-      "For all of your Alloying needs!"
+      "The /d/Smeltery/d/ allows for the creation of better tool materials, like /d/Iron/d/ & /d/Bronze/d/."
     ],
     "groups": {
       "ULV/ULS - Humble Beginnings": {
         "position": [
-          89,
-          -93
+          -112,
+          -288
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "gbthcore:steam_alloy_smelter",
+        "id": "tconstruct:smeltery_controller",
         "count": 1
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Multiblock Steam Alloy Smelter"
+      "translate": "Upgrading Your Tools"
     }
   },
   "settings": {

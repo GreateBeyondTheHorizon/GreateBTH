@@ -1,0 +1,72 @@
+{
+  "dependencies": [
+    "the_fun_begins_now"
+  ],
+  "tasks": {
+    "part_station": {
+      "type": "heracles:item",
+      "item": "tconstruct:part_builder",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "tinker_station": {
+      "type": "heracles:item",
+      "item": "tconstruct:tinker_station",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "pattern": {
+      "item": {
+        "id": "tconstruct:pattern",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Now that you have the ability to use a /d/Crafting Table/d/, you can make your first /d/Tinker's Tools!/d/",
+      "",
+      "",
+      "__**Note:**__",
+      "",
+      "In this pack, various GT metals have been added as Tinker's materials, so have fun tool crafting! ",
+      "",
+      "Vanilla/modded tools (besides tinkers & GT tools) have been reduced to /c/one/c/ durability.",
+      "",
+      "GT Electric Drills have been /c/disabled/c/."
+    ],
+    "groups": {
+      "ULV/ULS - Humble Beginnings": {
+        "position": [
+          -80,
+          -288
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "tconstruct:tinker_station",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Your Second Tools"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

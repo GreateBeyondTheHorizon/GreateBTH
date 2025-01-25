@@ -6,6 +6,9 @@ ServerEvents.recipes(event => {
     event.remove({id: 'tconstruct:common/materials/netherite_nugget_from_ingot'})
     event.remove({id: 'tconstruct:common/materials/netherite_ingot_from_nuggets'})
     event.remove({type: 'tconstruct:casting_table', id: /productivebees:tconstruct\/.*$/})
+    event.remove({id: 'tconstruct:smeltery/casting/obsidian/chest'})
+
+	event.campfireCooking('tconstruct:seared_brick', 'tconstruct:grout')
 
     event.shaped('tconstruct:tinkers_anvil',
 		[
@@ -14,7 +17,7 @@ ServerEvents.recipes(event => {
 			'E E'
 		],
 		{
-			S: '#forge:storage_blocks/steel',
+			S: 'gtceu:steel_block',
 			E: '#tconstruct:seared_blocks',
 			T: 'tconstruct:tinker_station'
 		}
@@ -27,7 +30,7 @@ ServerEvents.recipes(event => {
 			'EEE'
 		],
 		{
-			S: '#forge:storage_blocks/steel',
+			S: 'gtceu:steel_block',
 			E: '#tconstruct:seared_blocks'
 		}
 	)
@@ -39,7 +42,7 @@ ServerEvents.recipes(event => {
 			'E E'
 		],
 		{
-			S: '#forge:storage_blocks/steel',
+			S: 'gtceu:steel_block',
 			E: '#tconstruct:foundry_bricks',
 			T: 'tconstruct:tinker_station'
 		}
@@ -52,7 +55,7 @@ ServerEvents.recipes(event => {
 			'EEE'
 		],
 		{
-			S: '#forge:storage_blocks/steel',
+			S: 'gtceu:steel_block',
 			E: '#tconstruct:foundry_bricks'
 		}
 	)

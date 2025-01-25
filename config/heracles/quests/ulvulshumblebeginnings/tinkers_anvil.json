@@ -1,11 +1,11 @@
 {
   "dependencies": [
-    "bronze_brick_casing"
+    "steel_ingot"
   ],
   "tasks": {
-    "rock_crusher": {
+    "anvil": {
       "type": "heracles:item",
-      "item": "gtceu:lp_steam_rock_crusher",
+      "item": "tconstruct:tinkers_anvil",
       "amount": 1,
       "collection": "AUTOMATIC"
     }
@@ -16,26 +16,26 @@
       "text": ""
     },
     "description": [
-      "Used to make certain types of /d/Rocks/d/ such as /d/Stone/d/, /d/Andesite/d/, /d/Obsidian/d/ and more. Check /d/JEI/d/ for a full list."
+      "Allows the creation of better Tinker's tools, like the /d/Hammer/d/ and /d/Excavator/d/."
     ],
     "groups": {
       "ULV/ULS - Humble Beginnings": {
         "position": [
-          -113,
-          -67
+          -19,
+          -177
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "gtceu:lp_steam_rock_crusher",
+        "id": "tconstruct:tinkers_anvil",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Rock Crusher"
+      "translate": "Expanding Your Toolcrafting"
     }
   },
   "settings": {
