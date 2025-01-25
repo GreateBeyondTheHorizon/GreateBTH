@@ -1,4 +1,7 @@
-ServerEvents.recipes(event => {
+//priority: -1
+const ChemicalHelper = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.ChemicalHelper')
+
+ServerEvents.recipes(event => {	
 	//#region recipe gregification
     event.remove({output: '#minecraft:boats'})
 	Ingredient.of("#minecraft:boats").itemIds.forEach(boat => {
@@ -111,6 +114,7 @@ ServerEvents.recipes(event => {
 	event.remove({output: '#minecraft:wooden_slabs'})
     Ingredient.of('#minecraft:wooden_slabs').itemIds.forEach(slab => {
         var plank = slab.replace('slab', 'planks')
+		if(plank.includes("_planks_planks")) plank = plank.substring(0, plank.length - 7)
         event.shaped(Item.of(slab, 2),
             [
                 'LS'
@@ -142,22 +146,7 @@ ServerEvents.recipes(event => {
 			.inputFluids(Fluid.of('gtceu:lubricant', 1))
 			.EUt(7)
 
-		event.custom({
-			type: "farmersdelight:cutting",
-			ingredients: [
-				{
-					"item": plank
-				}
-			],
-			result: [
-				{
-					"item": slab
-				}
-			],
-			tool: {
-				"tag": "minecraft:axes"
-			}
-		})
+		event.recipes.farmersdelight.cutting(plank, "#minecraft:axes", slab)
     })
 
 	event.remove({output: '#minecraft:wooden_buttons'})
@@ -282,29 +271,6 @@ ServerEvents.recipes(event => {
     })
 
 	//#region wrought iron / iron shenanigans
-
-	event.replaceInput('gtceu:shaped/piston_iron', 'gtceu:small_iron_gear', 'gtceu:small_bronze_gear')
-	event.replaceInput('gtceu:shaped/cauldron', 'gtceu:iron_plate', 'gtceu:wrought_iron_plate')
-
-	event.replaceOutput(/gtceu:(smelting|blasting)(.*)_to_ingot/, 'minecraft:iron_ingot', 'gtceu:wrought_iron_ingot')
-	event.replaceOutput('/minecraft:(.*)from_(smelting|blasting)(.*)/', 'minecraft:iron_ingot', 'gtceu:wrought_iron_ingot')
-
 	event.remove({type: 'minecraft:smelting', output: 'gtceu:wrought_iron_nugget'})
 	event.smelting('minecraft:iron_nugget', 'gtceu:wrought_iron_nugget')
-
-	//temp: have to remove recycling due to them not updating outputs when a recipe is changed
-	function replaceInput(output, input, replacement) {
-		event.replaceInput({output: output}, input, replacement)
-		event.remove({type: 'gtceu:arc_furnace', type: 'gtceu:macerator', output: output})
-	}
-
-	replaceInput('gtceu:coke_oven', 'gtceu:iron_plate', 'gtceu:wrought_iron_plate')
-	replaceInput('gtceu:primitive_pump', 'gtceu:iron_ring', 'gtceu:wrought_iron_ring')
-	replaceInput('gtceu:primitive_pump', 'gtceu:iron_screw', 'gtceu:wrought_iron_screw')
-	replaceInput('gtceu:primitive_pump', 'gtceu:iron_rotor', 'gtceu:wrought_iron_rotor')
-	replaceInput('gtceu:pump_deck', 'gtceu:iron_screw', 'gtceu:wrought_iron_screw')
-	replaceInput('gtceu:pump_hatch', 'gtceu:iron_screw', 'gtceu:wrought_iron_screw')
-	replaceInput('gtceu:pump_hatch', 'gtceu:iron_ring', 'gtceu:wrought_iron_ring')
-	replaceInput('gtceu:ulv_machine_casing', 'gtceu:wrought_iron_plate', 'gtceu:iron_plate')
-
 })

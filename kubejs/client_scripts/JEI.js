@@ -12,6 +12,7 @@ JEIEvents.addItems(event => {
 	event.add('ceramicbucket:unfired_clay_bucket')
 	event.add('ceramicbucket:ceramic_bucket')
 	event.add('gtceu:concrete_bucket')
+	event.add('tconstruct:tinkers_anvil')
 })
 
 JEIAddedEvents.registerCategories(event => {

@@ -1,9 +1,6 @@
 {
     "filters": [
         {
-            "category": "gtceu:create_mixer"
-        },
-        {
             "category": "minecraft:blasting"
         },
         {
@@ -11,6 +8,9 @@
         },
         {
             "category": "sgjourney:crystallizing"
+        },
+        {
+            "category": "tconstruct:foundry"
         }
     ]
 }
