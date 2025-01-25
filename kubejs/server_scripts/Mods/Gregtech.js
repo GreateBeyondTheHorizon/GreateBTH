@@ -1,6 +1,3 @@
-//var $BuiltInRegistries = Java.loadClass('net.minecraft.core.registries.BuiltInRegistries')
-//var $GTUtil = Java.loadClass('com.gregtechceu.gtceu.utils.GTUtil')
-
 // priority: 0
 ServerEvents.recipes(event => {
 	// #region removal
@@ -11,7 +8,7 @@ ServerEvents.recipes(event => {
 	event.remove({id: 'gtceu:shaped/wood_tank_valve'})
 	event.remove({id: 'gtceu:shapeless/compressed_clay'})
 	event.remove({id: 'gtceu:smelting/sticky_resin_from_slime'})
-	event.remove({output: /gtceu:(.*)_mold/})
+	event.remove({output: /gtceu:(.*)_mold$/})
 	event.remove({id: 'gtceu:shaped/steam_boiler_coal_steel'})
 	event.remove({id: 'gtceu:shaped/vacuum_tube'})
 	event.remove({id: 'gtceu:mixer/mud'})
@@ -22,18 +19,7 @@ ServerEvents.recipes(event => {
 	event.remove({id: 'gtceu:extruder/extrude_stone_ingot_to_block'})
 	event.remove({id: 'gtceu:alloy_smelter/alloy_smelt_stone_ingot_to_block'})
 	event.remove({id: 'gtceu:lathe/lathe_stone_to_rod'})
-	event.remove({id: 'create:shapeless/dough'})
 	event.remove({id: 'bucketlib:create/dough'})
-	/* event.remove({type: 'gtceu:large_boiler'})
-
-		$BuiltInRegistries.ITEM.forEach(item => {
-		var burnTime = $GTUtil.getItemBurnTime(item)
-		if(burnTime > 0) {
-			event.recipes.gtceu.steam_boiler($BuiltInRegistries.ITEM.getKey(item))
-				.itemInputs(item)
-				.duration(burnTime * 4 * 20)
-		}
-	}) */
 
 	const tiers = ['lv', 'mv', 'hv' /*'ev', 'iv', 'luv', 'zpm', 'uv' */]
 	const components = [

@@ -267,6 +267,11 @@ removeNamespaceItems('projectred_core', [
 	'peridot'
 ])
 
+removeNamespaceItems('cb_microblock', [
+	'stone_rod'
+])
+
+
 removeNamespaceItems('tconstruct', [
 	'foundry_controller',
 	'netherite_nugget',
@@ -275,6 +280,17 @@ removeNamespaceItems('tconstruct', [
 	'rose_gold_block'
 ])
 
-removeNamespaceItems('cb_microblock', [
-	'stone_rod'
+removeNamespaceItems('ends_delight', [
+	'dragon_tooth_knife',
+	'dragon_egg_shell_knife', 
+	'purpur_knife',
+	'end_stone_knife'
+])
+
+removeNamespaceItems('aquaculturedelight', [
+	'neptunium_knife'
+])
+
+removeNamespaceItems('mynethersdelight', [
+	'ghast_dough'
 ])
