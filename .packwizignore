@@ -5,7 +5,8 @@
 /mods/.index
 /mods/*.jar*
 /mods/*.disabled
-!/mods/gbthcore-1.0.0.jar
+!/mods/gbthcore*
+!/mods/gm_construct*
 
 # configs
 !/config

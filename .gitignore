@@ -42,6 +42,7 @@
 /mods/*.jar*
 /mods/*.disabled
 !/mods/gbthcore*
+!/mods/gm_construct*
 
 # md
 !README.md
