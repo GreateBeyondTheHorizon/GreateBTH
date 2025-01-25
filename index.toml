@@ -1432,6 +1432,10 @@ file = "mods/aether-enhanced-extinguishing.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/aether-villages.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/aether.pw.toml"
 metafile = true
 
@@ -1505,6 +1509,10 @@ metafile = true
 
 [[files]]
 file = "mods/bucketlib.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/cable-facades.pw.toml"
 metafile = true
 
 [[files]]
@@ -1593,6 +1601,10 @@ metafile = true
 
 [[files]]
 file = "mods/create-steam-n-rails.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/create-trading-floor.pw.toml"
 metafile = true
 
 [[files]]
@@ -1811,6 +1823,10 @@ file = "mods/lychee.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/mantle.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/melody.pw.toml"
 metafile = true
 
@@ -1980,6 +1996,10 @@ metafile = true
 
 [[files]]
 file = "mods/terrablender.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/tinkers-construct.pw.toml"
 metafile = true
 
 [[files]]

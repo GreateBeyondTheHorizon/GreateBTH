@@ -9,3 +9,36 @@
 **Mod Changes**
 - Add Aquaculture Delight, Ends Delight, Oceans Delight, Slice and Dice
 - Add Tinkers' Construct
+- Add Aether Villages
+- Add Cable Facades
+- Add Create Trading Floor
+- Add KubeJS Delight
+- bucketlib-1.20.1-2.3.5.1 -> bucketlib-1.20.1-2.3.5.2
+- kleeslabs-forge-1.20-15.0.0 -> kleeslabs-forge-1.20-15.0.4
+- ProjectRed-1.20.1-4.20.0-core -> ProjectRed-1.20.1-4.20.1-beta+4-core
+- toms_storage-1.20-1.6.9 -> toms_storage-1.20-1.7.0
+- ProjectRed-1.20.1-4.20.0-fabrication -> ProjectRed-1.20.1-4.20.1-beta+4-fabrication
+- sophisticatedcore-1.20.1-1.0.8.828 -> sophisticatedcore-1.20.1-1.1.5.841
+- balm-forge-1.20.1-7.3.10-all -> balm-forge-1.20.1-7.3.11-all
+- fusion-1.1.1-forge-mc1.20.1 -> fusion-1.2.3-forge-mc1.20.1
+- gtceu-1.20.1-1.6.2 -> gtceu-1.20.1-1.6.3
+- gtnn-1.20.1-1.1.7 -> gtnn-1.20.1-1.1.8
+- cookingforblockheads-forge-1.20.1-16.0.9 -> cookingforblockheads-forge-1.20.1-16.0.10
+- ProjectRed-1.20.1-4.20.0-transmission -> ProjectRed-1.20.1-4.20.1-beta+4-transmission
+- corpse-forge-1.20.1-1.0.19 -> corpse-forge-1.20.1-1.0.20
+- jei-1.20.1-forge-15.20.0.105 -> jei-1.20.1-forge-15.20.0.106
+- appliedenergistics2-forge-15.3.2-beta -> appliedenergistics2-forge-15.3.3
+- Stargate Journey-1.20.1-0.6.33 -> Stargate Journey-1.20.1-0.6.33 Hotfix
+- antiblocksrechiseled-0.4.4 -> antiblocksrechiseled-0.4.6
+- sophisticatedstorage-1.20.1-1.0.10.1007 -> sophisticatedstorage-1.20.1-1.2.8.1046
+- ExtendedAE-1.20-1.3.2-forge -> ExtendedAE-1.20-1.3.4-forge
+- fzzy_config-0.6.0+1.20.1+forge -> fzzy_config-0.6.2+1.20.1+forge
+- guardvillagers-1.20.1-1.6.9 -> guardvillagers-1.20.1-1.6.10
+- emi-1.1.18+1.20.1+forge -> emi-1.1.19+1.20.1+forge
+- chat_heads-0.13.7-forge-1.20 -> chat_heads-0.13.9-forge-1.20
+- Jade-1.20.1-Forge-11.12.2 -> Jade-1.20.1-Forge-11.12.3
+- ProjectRed-1.20.1-4.20.0-integration -> ProjectRed-1.20.1-4.20.1-beta+4-integration
+- OpenBlocksTrophies-1.20.1-5.0.0 -> OpenBlocksTrophies-1.20.1-5.1.5
+- ProjectRed-1.20.1-4.20.0-illumination -> ProjectRed-1.20.1-4.20.1-beta+4-illumination
+- sophisticatedbackpacks-1.20.1-3.21.2.1163 -> sophisticatedbackpacks-1.20.1-3.22.5.1179
+- greate-0.0.35 -> greate-0.0.36
