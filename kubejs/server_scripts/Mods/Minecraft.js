@@ -97,23 +97,7 @@ ServerEvents.recipes(event => {
 		]
 	).transitionalItem(emptyCompass).loops(1)
 
-	event.custom({
-		type: "farmersdelight:cutting",
-		ingredients: [
-			{
-				"item": "minecraft:hay_block"
-			}
-		],
-		result: [
-			{
-				"count": 9,
-				"item": "minecraft:wheat"
-			}
-		],
-		tool: {
-			"tag": "forge:tools/knives"
-		}
-	})
+	event.recipes.farmersdelight.cutting("minecraft:hay_block", "#forge:tools/knives", "9x minecraft:wheat")
 
 	event.shapeless(
 		Item.of('minecraft:bamboo_mosaic_slab', 2),
@@ -122,22 +106,8 @@ ServerEvents.recipes(event => {
 			'#forge:tools/saws'
 		]
 	)
-	event.custom({
-		type: "farmersdelight:cutting",
-		ingredients: [
-			{
-				"item": "minecraft:bamboo_mosaic"
-			}
-		],
-		result: [
-			{
-				"item": "minecraft:bamboo_mosaic_slab"
-			}
-		],
-		tool: {
-			"tag": "minecraft:axes"
-		}
-	})
+
+	event.recipes.farmersdelight.cutting("minecraft:bamboo_mosaic", "#minecraft:axes", "minecraft:bamboo_mosaic_slab")
 
 	event.shapeless(
 		Item.of('minecraft:clay'),
@@ -146,13 +116,6 @@ ServerEvents.recipes(event => {
 				'kubejs:block_wooden_form'
 			]
 	).keepIngredient('kubejs:block_wooden_form')
-
-	event.shapeless(
-		Item.of('minecraft:flint'),
-			[
-				'3x minecraft:gravel'
-			]
-	)
 
 	/* event.shapeless(
 		Item.of('minecraft:packed_mud', 2),

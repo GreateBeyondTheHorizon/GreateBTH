@@ -22,6 +22,7 @@ ServerEvents.recipes(event => {
     event.remove({id: /create(.*)botania(.*)/})
     event.remove({id: /create:(smelting|blasting)\/zinc_ingot_from_raw_ore/})
     event.remove({id: /create:(smelting|blasting)\/zinc_ingot_from_ore/})
+	event.remove({id: 'create:shapeless/dough'})
 
 	event.replaceInput({id: 'create:shaped/wrench'}, 'gtceu:gold_plate', 'gtceu:wrought_iron_plate')
 	event.replaceInput({id: 'create:crafting/kinetics/goggles'}, 'gtceu:gold_plate', 'gtceu:wrought_iron_plate')
