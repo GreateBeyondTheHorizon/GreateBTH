@@ -7,4 +7,4 @@
 - Replace FarmersDelight dough with GT dough
 
 **Mod Changes**
-- 
+- Add Aquaculture Delight, Ends Delight, Oceans Delight, Slice and Dice
