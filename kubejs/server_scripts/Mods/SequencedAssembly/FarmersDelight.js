@@ -1,4 +1,10 @@
 ServerEvents.recipes(event => {
+	event.remove({id: 'farmersdelight:egg_sandwich'})
+	event.remove({id: 'farmersdelight:chicken_sandwich'})
+	event.remove({id: 'farmersdelight:hamburger'})
+	event.remove({id: 'farmersdelight:bacon_sandwich'})
+	event.remove({id: 'farmersdelight:mutton_wrap'})
+    
     event.recipes.createSequencedAssembly(['farmersdelight:egg_sandwich'], 'minecraft:bread',
             [
                 event.recipes.createDeploying('minecraft:bread', [

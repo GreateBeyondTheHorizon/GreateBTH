@@ -1452,6 +1452,10 @@ file = "mods/applied-energistics-2.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/aquaculture-delight.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/aquaculture.pw.toml"
 metafile = true
 
@@ -1644,6 +1648,10 @@ file = "mods/emiffect-status-effects-emi-plugin.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/ends-delight.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/entityculling.pw.toml"
 metafile = true
 
@@ -1779,6 +1787,10 @@ file = "mods/kubejs-create.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/kubejs-delight.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/kubejs.pw.toml"
 metafile = true
 
@@ -1828,6 +1840,10 @@ metafile = true
 
 [[files]]
 file = "mods/no-chat-reports.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/oceans-delight.pw.toml"
 metafile = true
 
 [[files]]
@@ -1928,6 +1944,10 @@ metafile = true
 
 [[files]]
 file = "mods/sleeping-bags.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/slice-and-dice.pw.toml"
 metafile = true
 
 [[files]]
