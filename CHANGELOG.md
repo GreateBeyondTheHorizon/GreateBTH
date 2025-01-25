@@ -5,6 +5,8 @@
 - Fix fluids not hiding in EMI
 - Refactor how removed items are handled, to avoid removing recipes by accident
 - Replace FarmersDelight dough with GT dough
+- Remove food related quests and additions
+- Add quests for Tinkers
 
 **Mod Changes**
 - Add Aquaculture Delight, Ends Delight, Oceans Delight, Slice and Dice
