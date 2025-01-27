@@ -2003,6 +2003,10 @@ file = "mods/tinkers-construct.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/tinkers-levelling-addon.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/toast-control.pw.toml"
 metafile = true
 

@@ -1,11 +1,17 @@
 {
   "dependencies": [
-    "pyrolysis"
+    "your_second_tools"
   ],
   "tasks": {
-    "hand_crank": {
+    "fuel_source": {
       "type": "heracles:item",
-      "item": "create:hand_crank",
+      "item": "#tconstruct:seared_tanks",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "melter": {
+      "type": "heracles:item",
+      "item": "tconstruct:seared_melter",
       "amount": 1,
       "collection": "AUTOMATIC"
     }
@@ -16,28 +22,28 @@
       "text": ""
     },
     "description": [
-      "Provides rotational force to /d/Create/Greate/d/ machines. ",
+      "To create the /d/Smeltery Controller/d/, you'll first need to make the /d/Melter/d/. This is a tiny version of the smeltery, allowing 3 materials to be melted at once.",
       "",
-      "This only provides /d/8su/d/, at the cost of your hunger slowly depleting."
+      "Use the /d/Melter/d/ to melt /d/4/d/ ingots worth of /d/Copper/d/, then cast onto some /d/Seared Stone/d/."
     ],
     "groups": {
       "ULV/ULS - Humble Beginnings": {
         "position": [
-          -145,
-          -208
+          -112,
+          -288
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "create:hand_crank",
+        "id": "tconstruct:seared_melter",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Hand Crank"
+      "translate": "Melting Metals"
     }
   },
   "settings": {
