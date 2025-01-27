@@ -2,14 +2,7 @@
   "dependencies": [
     "bronze_brick_casing"
   ],
-  "tasks": {
-    "3A5170EDCF7B97CF": {
-      "type": "heracles:item",
-      "item": "gtceu:steam_miner",
-      "amount": 1,
-      "collection": "AUTOMATIC"
-    }
-  },
+  "tasks": {},
   "rewards": {},
   "display": {
     "subtitle": {
@@ -21,14 +14,14 @@
     "groups": {
       "ULV/ULS - Humble Beginnings": {
         "position": [
-          -176,
+          -145,
           -112
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "gtceu:steam_miner",
+        "id": "gtceu:lp_steam_miner",
         "count": 1
       },
       "type": "heracles:item"

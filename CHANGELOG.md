@@ -15,6 +15,7 @@
 - Add Cable Facades
 - Add Create Trading Floor
 - Add KubeJS Delight
+- Add Tinker's Leveling Addon
 - bucketlib-1.20.1-2.3.5.1 -> bucketlib-1.20.1-2.3.5.2
 - kleeslabs-forge-1.20-15.0.0 -> kleeslabs-forge-1.20-15.0.4
 - ProjectRed-1.20.1-4.20.0-core -> ProjectRed-1.20.1-4.20.1-beta+4-core
