@@ -7,6 +7,7 @@
 - Replace FarmersDelight dough with GT dough
 - Remove food related quests and additions
 - Add quests for Tinkers
+- Remove Colorful Hearts (Mantle does this)
 
 **Mod Changes**
 - Add Aquaculture Delight, Ends Delight, Oceans Delight, Slice and Dice

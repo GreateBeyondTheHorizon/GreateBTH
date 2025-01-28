@@ -316,156 +316,6 @@ file = "config/heracles/quests/lvlsthegrindstartshere/transfering_fluids.json"
 file = "config/heracles/quests/lvlsthegrindstartshere/your_first_mv_circuit.json"
 
 [[files]]
-file = "config/heracles/quests/stayingfull/a_fully_fleshed_kitchen.json"
-
-[[files]]
-file = "config/heracles/quests/stayingfull/apple_pie.json"
-
-[[files]]
-file = "config/heracles/quests/stayingfull/bacon_and_eggs.json"
-
-[[files]]
-file = "config/heracles/quests/stayingfull/baked_cod_stew.json"
-
-[[files]]
-file = "config/heracles/quests/stayingfull/barbecue_stick.json"
-
-[[files]]
-file = "config/heracles/quests/stayingfull/beef_stew.json"
-
-[[files]]
-file = "config/heracles/quests/stayingfull/beetroot_soup.json"
-
-[[files]]
-file = "config/heracles/quests/stayingfull/bone_broth.json"
-
-[[files]]
-file = "config/heracles/quests/stayingfull/cake.json"
-
-[[files]]
-file = "config/heracles/quests/stayingfull/chicken_soup.json"
-
-[[files]]
-file = "config/heracles/quests/stayingfull/chocolate_pie.json"
-
-[[files]]
-file = "config/heracles/quests/stayingfull/cod_roll.json"
-
-[[files]]
-file = "config/heracles/quests/stayingfull/cooking_with_gas.json"
-
-[[files]]
-file = "config/heracles/quests/stayingfull/dog_food.json"
-
-[[files]]
-file = "config/heracles/quests/stayingfull/fish_stew.json"
-
-[[files]]
-file = "config/heracles/quests/stayingfull/fried_rice.json"
-
-[[files]]
-file = "config/heracles/quests/stayingfull/fruit_salad.json"
-
-[[files]]
-file = "config/heracles/quests/stayingfull/glow_berry_custard.json"
-
-[[files]]
-file = "config/heracles/quests/stayingfull/grilled_salmon.json"
-
-[[files]]
-file = "config/heracles/quests/stayingfull/honey_cookie.json"
-
-[[files]]
-file = "config/heracles/quests/stayingfull/honey_glazed_ham.json"
-
-[[files]]
-file = "config/heracles/quests/stayingfull/kelp_roll.json"
-
-[[files]]
-file = "config/heracles/quests/stayingfull/melon_juice.json"
-
-[[files]]
-file = "config/heracles/quests/stayingfull/melon_popsicle.json"
-
-[[files]]
-file = "config/heracles/quests/stayingfull/mixed_salad.json"
-
-[[files]]
-file = "config/heracles/quests/stayingfull/mixing_foods.json"
-
-[[files]]
-file = "config/heracles/quests/stayingfull/mushroom_rice.json"
-
-[[files]]
-file = "config/heracles/quests/stayingfull/mushroom_stew.json"
-
-[[files]]
-file = "config/heracles/quests/stayingfull/nether_salad.json"
-
-[[files]]
-file = "config/heracles/quests/stayingfull/noodle_soup.json"
-
-[[files]]
-file = "config/heracles/quests/stayingfull/pasta_with_meatballs.json"
-
-[[files]]
-file = "config/heracles/quests/stayingfull/pasta_with_mutton_chops.json"
-
-[[files]]
-file = "config/heracles/quests/stayingfull/pie_crust.json"
-
-[[files]]
-file = "config/heracles/quests/stayingfull/pumpkin_pie.json"
-
-[[files]]
-file = "config/heracles/quests/stayingfull/pumpkin_soup.json"
-
-[[files]]
-file = "config/heracles/quests/stayingfull/rabbit_stew.json"
-
-[[files]]
-file = "config/heracles/quests/stayingfull/ratatouille.json"
-
-[[files]]
-file = "config/heracles/quests/stayingfull/rice_roll_medley.json"
-
-[[files]]
-file = "config/heracles/quests/stayingfull/roast_chicken.json"
-
-[[files]]
-file = "config/heracles/quests/stayingfull/roasted_mutton_chops.json"
-
-[[files]]
-file = "config/heracles/quests/stayingfull/salmon_roll.json"
-
-[[files]]
-file = "config/heracles/quests/stayingfull/shepherds_pie.json"
-
-[[files]]
-file = "config/heracles/quests/stayingfull/squid_ink_pasta.json"
-
-[[files]]
-file = "config/heracles/quests/stayingfull/steak_and_potatoes.json"
-
-[[files]]
-file = "config/heracles/quests/stayingfull/stuffed_potato.json"
-
-[[files]]
-file = "config/heracles/quests/stayingfull/stuffed_pumpkin.json"
-
-[[files]]
-file = "config/heracles/quests/stayingfull/sweet_berry_cheesecake.json"
-
-[[files]]
-file = "config/heracles/quests/stayingfull/sweet_berry_cookie.json"
-
-[[files]]
-file = "config/heracles/quests/stayingfull/vegetable_noodles.json"
-
-[[files]]
-file = "config/heracles/quests/stayingfull/vegetable_soup.json"
-
-[[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/a_hell_of_an_adventure.json"
 
 [[files]]
@@ -533,6 +383,9 @@ file = "config/heracles/quests/ulvulshumblebeginnings/liquid_steam_boiler.json"
 
 [[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/mechanical_crafting.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/melting_metals.json"
 
 [[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/mix_it_up.json"
@@ -652,6 +505,12 @@ file = "config/heracles/quests/ulvulshumblebeginnings/the_fun_begins_now.json"
 file = "config/heracles/quests/ulvulshumblebeginnings/this_is_a_bucket.json"
 
 [[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/tinkers_anvil.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/upgrading_your_tools.json"
+
+[[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/vacuum_tubes.json"
 
 [[files]]
@@ -664,7 +523,13 @@ file = "config/heracles/quests/ulvulshumblebeginnings/whisky_business.json"
 file = "config/heracles/quests/ulvulshumblebeginnings/whole_new_create.json"
 
 [[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/your_second_tools.json"
+
+[[files]]
 file = "config/heracles/tutorial.html"
+
+[[files]]
+file = "config/immediatelyfast.json"
 
 [[files]]
 file = "config/moreoverlays.toml"
@@ -674,6 +539,12 @@ file = "config/oreberriesreplanted-common.toml"
 
 [[files]]
 file = "config/rightclickharvest.toml"
+
+[[files]]
+file = "config/tconstruct-client.toml"
+
+[[files]]
+file = "config/tconstruct-common.toml"
 
 [[files]]
 file = "defaultconfigs/bucketlib-server.toml"
@@ -688,7 +559,13 @@ file = "defaultconfigs/create-server.toml"
 file = "defaultconfigs/greate-server.toml"
 
 [[files]]
+file = "defaultconfigs/mantle-server.toml"
+
+[[files]]
 file = "defaultconfigs/sophisticatedbackpacks-server.toml"
+
+[[files]]
+file = "defaultconfigs/tinkerslevellingaddon-server.toml"
 
 [[files]]
 file = "defaultconfigs/toms_storage-server.toml"
@@ -725,6 +602,12 @@ file = "kubejs/assets/ad_astra/textures/entity/rocket/tier_4_rocket.png"
 
 [[files]]
 file = "kubejs/assets/ae2/lang/en_us.json"
+
+[[files]]
+file = "kubejs/assets/emi/aliases/netherrack_dust.json"
+
+[[files]]
+file = "kubejs/assets/emi/aliases/obsidian_dust.json"
 
 [[files]]
 file = "kubejs/assets/emi/category/properties/smelting.json"
@@ -1054,10 +937,7 @@ file = "kubejs/config/probejs.json"
 file = "kubejs/data/gbth/recipes/enchanted_grass.json"
 
 [[files]]
-file = "kubejs/data/gbth/recipes/stripped_rubber_log.json"
-
-[[files]]
-file = "kubejs/data/gbth/recipes/stripped_rubber_wood.json"
+file = "kubejs/data/gtceu/recipes/arc_furnace/arc_stone.json"
 
 [[files]]
 file = "kubejs/data/productivebees/productivebees/gtceu/EV/neodymium.json"
@@ -1174,10 +1054,16 @@ file = "kubejs/data/sgjourney/tags/worldgen/biome/has_structure/stargate/pedesta
 file = "kubejs/data/sgjourney/tags/worldgen/biome/has_structure/terra_stargate_biomes.json"
 
 [[files]]
+file = "kubejs/data/tconstruct/recipes/tools/materials/composite/iron_wrought.json"
+
+[[files]]
 file = "kubejs/jsconfig.json"
 
 [[files]]
 file = "kubejs/server_scripts/BlockEvents.js"
+
+[[files]]
+file = "kubejs/server_scripts/Food.js"
 
 [[files]]
 file = "kubejs/server_scripts/Gamerules.js"
@@ -1321,6 +1207,9 @@ file = "kubejs/server_scripts/Mods/ProductiveBees/HoneyCombProcessing.js"
 file = "kubejs/server_scripts/Mods/SequencedAssembly/AE2.js"
 
 [[files]]
+file = "kubejs/server_scripts/Mods/SequencedAssembly/CreateConnected.js"
+
+[[files]]
 file = "kubejs/server_scripts/Mods/SequencedAssembly/FarmersDelight.js"
 
 [[files]]
@@ -1369,7 +1258,13 @@ file = "kubejs/server_scripts/OreGeneration/PlanetLayerOres.js"
 file = "kubejs/server_scripts/OreGeneration/VeinSetup.js"
 
 [[files]]
+file = "kubejs/server_scripts/RecipeRemovalAndReplacement.js"
+
+[[files]]
 file = "kubejs/server_scripts/Tags.js"
+
+[[files]]
+file = "kubejs/server_scripts/TinkersConstruct.js"
 
 [[files]]
 file = "kubejs/server_scripts/VillagerTrades.js"
@@ -1560,10 +1455,6 @@ file = "mods/codechicken-lib-1-8.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/colorful-hearts.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/construction-wand.pw.toml"
 metafile = true
 
@@ -1724,6 +1615,10 @@ metafile = true
 
 [[files]]
 file = "mods/greate.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/gregs-modern-construct.pw.toml"
 metafile = true
 
 [[files]]
