@@ -13,6 +13,7 @@
 - Remove original recipe for removed gt machines
 - Disable ad astra desh related things
 - Fix hammer/spade/mining hammer recipes/recycling recipes not being removed
+- Remove flint and brick
 
 **Mod Changes**
 - Add Aquaculture Delight, Ends Delight, Oceans Delight, Slice and Dice

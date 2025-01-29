@@ -276,7 +276,8 @@ removeNamespaceItems('tconstruct', [
 	'netherite_nugget',
 	'rose_gold_ingot',
 	'rose_gold_nugget',
-	'rose_gold_block'
+	'rose_gold_block',
+	'flint_and_brick'
 ])
 
 removeNamespaceItems('ends_delight', [
