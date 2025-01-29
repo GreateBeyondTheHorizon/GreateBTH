@@ -175,7 +175,12 @@ removeNamespaceItems('ad_astra', [
 	/(.*)engine(.*)/,
 	'rocket_nose_cone',
 	'desh_tank', 
-	'calorite_tank'
+	'calorite_tank',
+	'desh_plate',
+	'desh_nugget',
+	'desh_ingot',
+	'moon_desh_ore',
+	'deepslate_desh_ore'
 ])
 
 //Farmers Delight
