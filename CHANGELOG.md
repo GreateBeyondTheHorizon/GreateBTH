@@ -11,6 +11,7 @@
 - Add TCon logs to block modification
 - Disable GT spades
 - Remove original recipe for removed gt machines
+- Disable ad astra desh related things
 
 **Mod Changes**
 - Add Aquaculture Delight, Ends Delight, Oceans Delight, Slice and Dice
