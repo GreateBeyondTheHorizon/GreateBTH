@@ -10,6 +10,7 @@
 - Remove Colorful Hearts (Mantle does this)
 - Add TCon logs to block modification
 - Disable GT spades
+- Remove original recipe for removed gt machines
 
 **Mod Changes**
 - Add Aquaculture Delight, Ends Delight, Oceans Delight, Slice and Dice

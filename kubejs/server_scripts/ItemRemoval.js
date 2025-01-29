@@ -31,10 +31,10 @@ var itemsToReplace = [
     {removedItem: "create:shaft", replacement: 'greate:andesite_alloy_shaft'}, //TODO: move to greate
 
     {removedItem: "gtceu:hp_steam_macerator", replacement: 'greate:andesite_alloy_millstone'},
-    {removedItem: "gtceu:iv_macerator", replacement: 'greate:tungsten_steel_millstone'},
-    {removedItem: "gtceu:iv_bender", replacement: 'greate:tungsten_steel_mechanical_press'},
-    {removedItem: "gtceu:iv_mixer", replacement: 'greate:tungsten_steel_mechanical_mixer'},
-    {removedItem: "gtceu:iv_cutter", replacement: 'greate:tungsten_steel_mechanical_saw'}   
+    {removedItem: "gtceu:iv_macerator", replacement: 'greate:tungsten_steel_millstone', replaceOutput: false},
+    {removedItem: "gtceu:iv_bender", replacement: 'greate:tungsten_steel_mechanical_press', replaceOutput: false},
+    {removedItem: "gtceu:iv_mixer", replacement: 'greate:tungsten_steel_mechanical_mixer', replaceOutput: false},
+    {removedItem: "gtceu:iv_cutter", replacement: 'greate:tungsten_steel_mechanical_saw', replaceOutput: false},
 ]
 
 ServerEvents.tags('item', event => {
@@ -67,7 +67,10 @@ ServerEvents.recipes(event => {
 
     itemsToReplace.forEach(recipe => {
         event.replaceInput({}, recipe.removedItem, recipe.replacement)
-        event.replaceOutput({}, recipe.removedItem, recipe.replacement)
+        
+        if(recipe.replaceOutput || recipe.replaceOutput == null) {
+            event.replaceOutput({}, recipe.removedItem, recipe.replacement)
+        }
     })
 
     // Remove the recipes for removed items, and replace them in inputs as Removed Item Placeholders
