@@ -212,21 +212,15 @@ removeNamespaceItems('ae2', [
 removeNamespaceItems('gtceu', [
 	'lp_steam_solar_boiler',
 	'hp_steam_solar_boiler',
-	/.*macerator/,
-	/.*bender/,
-	/.*mixer/,
-	'lv_cutter',
-	'mv_cutter',
-	'hv_cutter',
-	'ev_cutter',
-	'iv_cutter',
-	'luv_cutter',
-	'zpm_cutter',
-	'uv_cutter',
+	/.*macerator$/,
+	/.*bender$/,
+	/.*mixer$/,
+	/.*[^large]_cutter$/,
 	'obsidian_dust',
 	'netherrack_dust',
-	/.*_mining_hammer/,
-	/.*_drill/
+	/.*_mining_hammer$/,
+	/.*_drill$/,
+	/.*_spade$/
 ])
 
 removeNamespaceItems('dankstorage', [
