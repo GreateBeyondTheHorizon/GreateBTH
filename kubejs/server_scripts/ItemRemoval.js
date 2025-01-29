@@ -75,20 +75,23 @@ ServerEvents.recipes(event => {
 
     // Remove the recipes for removed items, and replace them in inputs as Removed Item Placeholders
 	for (const item of global.ItemsToRemove) {
+        console.log(item)
         event.remove([{output: item}, {input: item}])
         // Expand tags and RegExps into individual items to more easily identify what was removed
         global.Util.forEachItemExpanded(item, itemId => {
+            var replacedItem = Item.of('kubejs:removed_item_placeholder', '{Removed: "' + itemId + '"}').strongNBT()
             event.replaceInput(
                 { input: itemId },
                 itemId,
-                Item.of('kubejs:removed_item_placeholder', '{Removed: "' + itemId + '"}').strongNBT()
+                replacedItem
             )
 
             event.replaceOutput(
                 { output: itemId },
                 itemId,
-                Item.of('kubejs:removed_item_placeholder', '{Removed: "' + itemId + '"}').strongNBT()
+                replacedItem
             )
+            event.remove([{input: replacedItem}, {output: replacedItem}])
         })
     }
 })

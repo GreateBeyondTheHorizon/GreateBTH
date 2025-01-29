@@ -12,6 +12,7 @@
 - Disable GT spades
 - Remove original recipe for removed gt machines
 - Disable ad astra desh related things
+- Fix hammer/spade/mining hammer recipes/recycling recipes not being removed
 
 **Mod Changes**
 - Add Aquaculture Delight, Ends Delight, Oceans Delight, Slice and Dice

@@ -14,7 +14,6 @@ ServerEvents.recipes(event => {
 	event.remove({id: 'gtceu:mixer/mud'})
 	event.remove({id: 'gtceu:shaped/knife_flint'})
 	event.remove({id: 'gtceu:shaped/good_circuit_board'})
-	event.remove({id: /gtceu:shaped.*_drill$/})
 	event.remove({id: 'gtceu:shaped/hammer_stone'})
 	event.remove({id: 'gtceu:extruder/extrude_stone_ingot_to_block'})
 	event.remove({id: 'gtceu:alloy_smelter/alloy_smelt_stone_ingot_to_block'})
