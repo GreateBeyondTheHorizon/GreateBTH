@@ -69,7 +69,23 @@ let logs = [
 	'minecraft:stripped_warped_hyphae',
 	'minecraft:stripped_warped_stem',
 	'minecraft:warped_hyphae',
-	'minecraft:warped_stem'
+	'minecraft:warped_stem',
+	'tconstruct:greenheart_log',
+	'tconstruct:stripped_greenheart_log',
+	'tconstruct:greenheart_wood',
+	'tconstruct:stripped_greenheart_wood',
+	'tconstruct:skyroot_log',
+	'tconstruct:stripped_skyroot_log',
+	'tconstruct:skyroot_wood',
+	'tconstruct:stripped_skyroot_wood',
+	'tconstruct:bloodshroom_log',
+	'tconstruct:stripped_bloodshroom_log',
+	'tconstruct:bloodshroom_wood',
+	'tconstruct:stripped_bloodshroom_wood',
+	'tconstruct:enderbark_log',
+	'tconstruct:stripped_enderbark_log',
+	'tconstruct:enderbark_wood',
+	'tconstruct:stripped_enderbark_wood'
 ]
 
 BlockEvents.modification(event => {
