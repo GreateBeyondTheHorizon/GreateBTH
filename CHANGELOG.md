@@ -17,39 +17,24 @@
 - Change recipe for seared melter and change quest to use seared heater
 
 **Mod Changes**
-- Add Aquaculture Delight, Ends Delight, Oceans Delight, Slice and Dice
-- Add Tinkers' Construct
-- Add Aether Villages
-- Add Cable Facades
-- Add Create Trading Floor
-- Add KubeJS Delight
-- Add Tinker's Leveling Addon
-- bucketlib-1.20.1-2.3.5.1 -> bucketlib-1.20.1-2.3.5.2
-- kleeslabs-forge-1.20-15.0.0 -> kleeslabs-forge-1.20-15.0.4
-- ProjectRed-1.20.1-4.20.0-core -> ProjectRed-1.20.1-4.20.1-beta+4-core
-- toms_storage-1.20-1.6.9 -> toms_storage-1.20-1.7.0
-- ProjectRed-1.20.1-4.20.0-fabrication -> ProjectRed-1.20.1-4.20.1-beta+4-fabrication
-- sophisticatedcore-1.20.1-1.0.8.828 -> sophisticatedcore-1.20.1-1.1.5.841
-- balm-forge-1.20.1-7.3.10-all -> balm-forge-1.20.1-7.3.11-all
-- fusion-1.1.1-forge-mc1.20.1 -> fusion-1.2.3-forge-mc1.20.1
-- gtceu-1.20.1-1.6.2 -> gtceu-1.20.1-1.6.3
-- gtnn-1.20.1-1.1.7 -> gtnn-1.20.1-1.1.8
-- cookingforblockheads-forge-1.20.1-16.0.9 -> cookingforblockheads-forge-1.20.1-16.0.10
-- ProjectRed-1.20.1-4.20.0-transmission -> ProjectRed-1.20.1-4.20.1-beta+4-transmission
-- corpse-forge-1.20.1-1.0.19 -> corpse-forge-1.20.1-1.0.20
-- jei-1.20.1-forge-15.20.0.105 -> jei-1.20.1-forge-15.20.0.106
-- appliedenergistics2-forge-15.3.2-beta -> appliedenergistics2-forge-15.3.3
-- Stargate Journey-1.20.1-0.6.33 -> Stargate Journey-1.20.1-0.6.33 Hotfix
-- antiblocksrechiseled-0.4.4 -> antiblocksrechiseled-0.4.6
-- sophisticatedstorage-1.20.1-1.0.10.1007 -> sophisticatedstorage-1.20.1-1.2.8.1046
-- ExtendedAE-1.20-1.3.2-forge -> ExtendedAE-1.20-1.3.4-forge
-- fzzy_config-0.6.0+1.20.1+forge -> fzzy_config-0.6.2+1.20.1+forge
-- guardvillagers-1.20.1-1.6.9 -> guardvillagers-1.20.1-1.6.10
-- emi-1.1.18+1.20.1+forge -> emi-1.1.19+1.20.1+forge
-- chat_heads-0.13.7-forge-1.20 -> chat_heads-0.13.9-forge-1.20
-- Jade-1.20.1-Forge-11.12.2 -> Jade-1.20.1-Forge-11.12.3
-- ProjectRed-1.20.1-4.20.0-integration -> ProjectRed-1.20.1-4.20.1-beta+4-integration
-- OpenBlocksTrophies-1.20.1-5.0.0 -> OpenBlocksTrophies-1.20.1-5.1.5
-- ProjectRed-1.20.1-4.20.0-illumination -> ProjectRed-1.20.1-4.20.1-beta+4-illumination
-- sophisticatedbackpacks-1.20.1-3.21.2.1163 -> sophisticatedbackpacks-1.20.1-3.22.5.1179
-- greate-0.0.35 -> greate-0.0.36
+- modernfix-forge-5.20.0+mc1.20.1 -> modernfix-forge-5.20.2+mc1.20.1
+- balm-forge-1.20.1-7.3.11-all -> balm-forge-1.20.1-7.3.14-all
+- emi_loot-0.7.4+1.20.1+forge -> emi_loot-0.7.5+1.20.1+fix1+forge
+- sophisticatedstorage-1.20.1-1.2.8.1046 -> sophisticatedstorage-1.20.1-1.3.5.1063
+- ImmediatelyFast-Forge-1.3.3+1.20.4 -> ImmediatelyFast-Forge-1.3.4+1.20.4
+- fancymenu_forge_3.3.2_MC_1.20.1 -> fancymenu_forge_3.4.0_MC_1.20.1
+- sophisticatedbackpacks-1.20.1-3.22.5.1179 -> sophisticatedbackpacks-1.20.1-3.23.4.1193
+- fzzy_config-0.6.2+1.20.1+forge -> fzzy_config-0.6.4+1.20.1+forge
+- Lychee-1.20.1-Forge-5.1.15 -> Lychee-1.20.1-Forge-5.1.16-all
+- cable_facades-1.20.1-Forge-1.2.1 -> cable_facades-1.20.1-Forge-1.2.3
+- create_connected-0.9.3-mc1.20.1-all -> create_connected-0.9.4-mc1.20.1-all
+- deep_aether-1.20.1-1.0.4 -> deep_aether-1.20.1-1.1.3
+- chat_heads-0.13.9-forge-1.20 -> chat_heads-0.13.13-forge-1.20
+- aether-1.20.1-1.5.1-neoforge -> aether-1.20.1-1.5.2-neoforge
+- gm_construct-1.0.0 -> gm_construct-1.0.1
+- copycats-2.1.4+mc.1.20.1-forge -> copycats-2.2.0+mc.1.20.1-forge
+- Ksyxis-1.3.2 -> Ksyxis-1.3.3
+- ExtendedAE-1.20-1.3.4-forge -> ExtendedAE-1.20-1.3.5-forge
+- sophisticatedcore-1.20.1-1.1.5.841 -> sophisticatedcore-1.20.1-1.2.7.860
+- FarmersDelight-1.20.1-1.2.6 -> FarmersDelight-1.20.1-1.2.7
+- greate-0.0.36 -> greate-0.0.38
