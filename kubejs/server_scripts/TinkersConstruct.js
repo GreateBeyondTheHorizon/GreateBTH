@@ -7,6 +7,7 @@ ServerEvents.recipes(event => {
     event.remove({id: 'tconstruct:common/materials/netherite_ingot_from_nuggets'})
     event.remove({type: 'tconstruct:casting_table', id: /productivebees:tconstruct\/.*$/})
     event.remove({id: 'tconstruct:smeltery/casting/obsidian/chest'})
+	event.remove({id: 'tconstruct:smeltery/seared/melter'})
 
 	event.campfireCooking('tconstruct:seared_brick', 'tconstruct:grout')
 
@@ -69,6 +70,17 @@ ServerEvents.recipes(event => {
 		{
 			P: 'minecraft:paper',
 			L: 'gtceu:wood_plate'
+		}
+	)
+
+	event.shaped('tconstruct:seared_melter',
+		[
+			'S S',
+			'LLL'
+		],
+		{
+			S: 'tconstruct:seared_brick',
+			L: 'tconstruct:seared_bricks_slab'
 		}
 	)
 })

@@ -14,6 +14,7 @@
 - Disable ad astra desh related things
 - Fix hammer/spade/mining hammer recipes/recycling recipes not being removed
 - Remove flint and brick
+- Change recipe for seared melter and change quest to use seared heater
 
 **Mod Changes**
 - Add Aquaculture Delight, Ends Delight, Oceans Delight, Slice and Dice

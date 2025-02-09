@@ -5,7 +5,7 @@
   "tasks": {
     "fuel_source": {
       "type": "heracles:item",
-      "item": "#tconstruct:seared_tanks",
+      "item": "tconstruct:seared_heater",
       "amount": 1,
       "collection": "AUTOMATIC"
     },
