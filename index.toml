@@ -1258,9 +1258,6 @@ file = "kubejs/server_scripts/OreGeneration/PlanetLayerOres.js"
 file = "kubejs/server_scripts/OreGeneration/VeinSetup.js"
 
 [[files]]
-file = "kubejs/server_scripts/RecipeRemovalAndReplacement.js"
-
-[[files]]
 file = "kubejs/server_scripts/Tags.js"
 
 [[files]]
