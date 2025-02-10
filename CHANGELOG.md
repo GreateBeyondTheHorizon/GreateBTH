@@ -15,6 +15,7 @@
 - Fix hammer/spade/mining hammer recipes/recycling recipes not being removed
 - Remove flint and brick
 - Change recipe for seared melter and change quest to use seared heater
+- Fix missing recipe for steam alloy smelter & furnace
 
 **Mod Changes**
 - modernfix-forge-5.20.0+mc1.20.1 -> modernfix-forge-5.20.2+mc1.20.1

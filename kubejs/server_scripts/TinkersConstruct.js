@@ -8,6 +8,7 @@ ServerEvents.recipes(event => {
     event.remove({type: 'tconstruct:casting_table', id: /productivebees:tconstruct\/.*$/})
     event.remove({id: 'tconstruct:smeltery/casting/obsidian/chest'})
 	event.remove({id: 'tconstruct:smeltery/seared/melter'})
+	event.remove({id: 'tconstruct:common/basalt_blast_furnace'})
 
 	event.campfireCooking('tconstruct:seared_brick', 'tconstruct:grout')
 

@@ -75,7 +75,6 @@ ServerEvents.recipes(event => {
 
     // Remove the recipes for removed items, and replace them in inputs as Removed Item Placeholders
 	for (const item of global.ItemsToRemove) {
-        console.log(item)
         event.remove([{output: item}, {input: item}])
         // Expand tags and RegExps into individual items to more easily identify what was removed
         global.Util.forEachItemExpanded(item, itemId => {
