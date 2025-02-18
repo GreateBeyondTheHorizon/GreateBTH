@@ -16,26 +16,21 @@
 - Remove flint and brick
 - Change recipe for seared melter and change quest to use seared heater
 - Fix missing recipe for steam alloy smelter & furnace
+- Disbale GT hazards until they are reworked
+- Enable fluid solidification recipes for tinkers material parts
 
 **Mod Changes**
-- modernfix-forge-5.20.0+mc1.20.1 -> modernfix-forge-5.20.2+mc1.20.1
-- balm-forge-1.20.1-7.3.11-all -> balm-forge-1.20.1-7.3.14-all
-- emi_loot-0.7.4+1.20.1+forge -> emi_loot-0.7.5+1.20.1+fix1+forge
-- sophisticatedstorage-1.20.1-1.2.8.1046 -> sophisticatedstorage-1.20.1-1.3.5.1063
-- ImmediatelyFast-Forge-1.3.3+1.20.4 -> ImmediatelyFast-Forge-1.3.4+1.20.4
-- fancymenu_forge_3.3.2_MC_1.20.1 -> fancymenu_forge_3.4.0_MC_1.20.1
-- sophisticatedbackpacks-1.20.1-3.22.5.1179 -> sophisticatedbackpacks-1.20.1-3.23.4.1193
-- fzzy_config-0.6.2+1.20.1+forge -> fzzy_config-0.6.4+1.20.1+forge
-- Lychee-1.20.1-Forge-5.1.15 -> Lychee-1.20.1-Forge-5.1.16-all
-- cable_facades-1.20.1-Forge-1.2.1 -> cable_facades-1.20.1-Forge-1.2.3
-- create_connected-0.9.3-mc1.20.1-all -> create_connected-0.9.4-mc1.20.1-all
-- deep_aether-1.20.1-1.0.4 -> deep_aether-1.20.1-1.1.3
-- chat_heads-0.13.9-forge-1.20 -> chat_heads-0.13.13-forge-1.20
-- aether-1.20.1-1.5.1-neoforge -> aether-1.20.1-1.5.2-neoforge
-- gm_construct-1.0.0 -> gm_construct-1.0.1
-- copycats-2.1.4+mc.1.20.1-forge -> copycats-2.2.0+mc.1.20.1-forge
-- Ksyxis-1.3.2 -> Ksyxis-1.3.3
-- ExtendedAE-1.20-1.3.4-forge -> ExtendedAE-1.20-1.3.5-forge
-- sophisticatedcore-1.20.1-1.1.5.841 -> sophisticatedcore-1.20.1-1.2.7.860
-- FarmersDelight-1.20.1-1.2.6 -> FarmersDelight-1.20.1-1.2.7
-- greate-0.0.36 -> greate-0.0.38
+- sophisticatedbackpacks-1.20.1-3.23.4.1193 -> sophisticatedbackpacks-1.20.1-3.23.5.1200
+- cookingforblockheads-forge-1.20.1-16.0.10 -> cookingforblockheads-forge-1.20.1-16.0.12
+- deep_aether-1.20.1-1.1.3 -> deep_aether-1.20.1-1.1.4
+- sophisticatedcore-1.20.1-1.2.7.860 -> sophisticatedcore-1.20.1-1.2.14.875
+- balm-forge-1.20.1-7.3.14-all -> balm-forge-1.20.1-7.3.17-all
+- rhino-forge-2001.2.3-build.6 -> rhino-forge-2001.2.3-build.10
+- Lychee-1.20.1-Forge-5.1.16-all -> Lychee-1.20.1-Forge-5.1.17-all
+- ends_delight-1.20.1-2.5 -> ends_delight-2.5.1+forge.1.20.1
+- emi-1.1.19+1.20.1+forge -> emi-1.1.20+1.20.1+forge
+- gm_construct-1.0.1 -> gm_construct-1.0.3
+- aquaculture_delight_1.0.0_forge_1.20.1 -> aquaculturedelight-1.1.0-forge-1.20.1
+- sophisticatedstorage-1.20.1-1.3.5.1063 -> sophisticatedstorage-1.20.1-1.3.8.1074
+- fancymenu_forge_3.4.0_MC_1.20.1 -> fancymenu_forge_3.4.4_MC_1.20.1
+- fusion-1.2.3-forge-mc1.20.1 -> fusion-1.2.4-forge-mc1.20.1
