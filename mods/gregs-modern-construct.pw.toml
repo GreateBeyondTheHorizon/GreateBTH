@@ -1,13 +1,13 @@
 name = "Greg's Modern Construct"
-filename = "gm_construct-1.0.1.jar"
+filename = "gm_construct-1.0.3.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "42d1570001563108136696de2d86520a1e2b253b"
+hash = "ffe6bbc0dd7e92167607769a39c447b61f1b24c8"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6146631
+file-id = 6201769
 project-id = 1178557
