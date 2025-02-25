@@ -1,13 +1,13 @@
 name = "Deep Aether"
-filename = "deep_aether-1.20.1-1.1.4.jar"
+filename = "deep_aether-1.20.1-1.1.5.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "4762368e37dc7d596a0442256e30404eb674cea1"
+hash = "0c6a6c0a99f71277a8629ca6a071c1a4a0fa8174"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6193780
+file-id = 6221130
 project-id = 852465

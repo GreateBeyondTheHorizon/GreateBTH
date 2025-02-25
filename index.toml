@@ -940,6 +940,9 @@ file = "kubejs/data/gbth/recipes/enchanted_grass.json"
 file = "kubejs/data/gtceu/recipes/arc_furnace/arc_stone.json"
 
 [[files]]
+file = "kubejs/data/minecraft/worldgen/noise_settings/overworld.json"
+
+[[files]]
 file = "kubejs/data/productivebees/productivebees/gtceu/EV/neodymium.json"
 
 [[files]]
@@ -1892,10 +1895,6 @@ metafile = true
 
 [[files]]
 file = "mods/tinkers-construct.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/tinkers-levelling-addon.pw.toml"
 metafile = true
 
 [[files]]
