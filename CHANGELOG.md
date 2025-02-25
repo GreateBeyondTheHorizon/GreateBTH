@@ -18,6 +18,8 @@
 - Fix missing recipe for steam alloy smelter & furnace
 - Disbale GT hazards until they are reworked
 - Enable fluid solidification recipes for tinkers material parts
+- Remove Tinkers Leveling Addon
+- Reduce the amount of flooded caves
 
 **Mod Changes**
 - sophisticatedbackpacks-1.20.1-3.23.4.1193 -> sophisticatedbackpacks-1.20.1-3.23.5.1200
@@ -34,3 +36,15 @@
 - sophisticatedstorage-1.20.1-1.3.5.1063 -> sophisticatedstorage-1.20.1-1.3.8.1074
 - fancymenu_forge_3.4.0_MC_1.20.1 -> fancymenu_forge_3.4.4_MC_1.20.1
 - fusion-1.2.3-forge-mc1.20.1 -> fusion-1.2.4-forge-mc1.20.1
+- dynamic-fps-3.7.7+minecraft-1.20.0-forge -> dynamic-fps-3.8.0+minecraft-1.20.0-forge
+- sophisticatedstorage-1.20.1-1.3.8.1074 -> sophisticatedstorage-1.20.1-1.3.9.1075
+- curios-forge-5.11.1+1.20.1 -> curios-forge-5.12.0+1.20.1
+- deep_aether-1.20.1-1.1.4 -> deep_aether-1.20.1-1.1.5
+- kleeslabs-forge-1.20-15.0.4 -> kleeslabs-forge-1.20.1-15.0.6
+- fancymenu_forge_3.4.4_MC_1.20.1 -> fancymenu_forge_3.4.6_MC_1.20.1
+- Super Factory Manager-1.20.1-4.19.0 -> Super Factory Manager (SFM)-MC1.20.1-4.20.0
+- sophisticatedbackpacks-1.20.1-3.23.5.1200 -> sophisticatedbackpacks-1.20.1-3.23.5.1205
+- resourcefulconfig-forge-1.20.1-2.1.2 -> resourcefulconfig-forge-1.20.1-2.1.3
+- sophisticatedcore-1.20.1-1.2.14.875 -> sophisticatedcore-1.20.1-1.2.20.894
+- bucketlib-1.20.1-2.3.5.2 -> bucketlib-1.20.1-2.3.5.3
+- balm-forge-1.20.1-7.3.17-all -> balm-forge-1.20.1-7.3.18-all

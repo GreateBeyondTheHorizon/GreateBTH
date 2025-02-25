@@ -1,13 +1,13 @@
 name = "KleeSlabs"
-filename = "kleeslabs-forge-1.20-15.0.4.jar"
+filename = "kleeslabs-forge-1.20.1-15.0.6.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "3e5d06107b6e5b8aac3d6116c79d943305fb1b83"
+hash = "e7d966ecf207ef4baa7602d09664b45f97211f27"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6119987
+file-id = 6226684
 project-id = 241895
