@@ -6,6 +6,7 @@
     "controller": {
       "type": "heracles:item",
       "item": "tconstruct:smeltery_controller",
+      "nbt": {},
       "amount": 1,
       "collection": "AUTOMATIC"
     },
@@ -36,6 +37,7 @@
     "drain": {
       "type": "heracles:item",
       "item": "tconstruct:seared_drain",
+      "nbt": {},
       "amount": 1,
       "collection": "AUTOMATIC"
     },

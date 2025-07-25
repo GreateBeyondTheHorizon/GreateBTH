@@ -1,9 +1,9 @@
 //priority: -1
 const ChemicalHelper = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.ChemicalHelper')
 
-ServerEvents.recipes(event => {	
+ServerEvents.recipes(event => {
 	//#region recipe gregification
-    event.remove({output: '#minecraft:boats'})
+  event.remove({output: '#minecraft:boats'})
 	Ingredient.of("#minecraft:boats").itemIds.forEach(boat => {
 		if (boat.endsWith('chest_boat') || boat.endsWith('chest_raft')) {
 			var boatWithoutChest = boat.replace('_chest', '')
@@ -80,34 +80,13 @@ ServerEvents.recipes(event => {
 			event.shaped(Item.of(planks, 4),
             	[
             	    'L',
-					'S'
+                  'S'
             	],
             	{
             	    L: '#forge:tools/saws',
             	    S: log
             	}
         	)
-
-			event.recipes.gtceu.cutter(log.substring(1) + '_water')
-				.duration(400)
-				.itemInputs(log)
-				.itemOutputs([Item.of(planks, 6), Item.of('gtceu:wood_dust', 2)])
-				.inputFluids(Fluid.of('minecraft:water', 4))
-				.EUt(7)
-
-			event.recipes.gtceu.cutter(log.substring(1) + '_distilled_water')
-				.duration(300)
-				.itemInputs(log)
-				.itemOutputs([Item.of(planks, 6), Item.of('gtceu:wood_dust', 2)])
-				.inputFluids(Fluid.of('gtceu:distilled_water', 3))
-				.EUt(7)
-
-			event.recipes.gtceu.cutter(log.substring(1) + '_lubricant')
-				.duration(200)
-				.itemInputs(log)
-				.itemOutputs([Item.of(planks, 6), Item.of('gtceu:wood_dust', 2)])
-				.inputFluids(Fluid.of('gtceu:lubricant', 1))
-				.EUt(7)
 		}
     })
 
@@ -115,15 +94,15 @@ ServerEvents.recipes(event => {
     Ingredient.of('#minecraft:wooden_slabs').itemIds.forEach(slab => {
         var plank = slab.replace('slab', 'planks')
 		if(plank.includes("_planks_planks")) plank = plank.substring(0, plank.length - 7)
-        event.shaped(Item.of(slab, 2),
-            [
-                'LS'
-            ],
-            {
-                L: '#forge:tools/saws',
-                S: plank
-            }
-        )
+    event.shaped(Item.of(slab, 2),
+        [
+            'LS'
+        ],
+        {
+            L: '#forge:tools/saws',
+            S: plank
+        }
+    )
 
 		event.recipes.gtceu.cutter(plank + '_water')
 			.duration(400)
@@ -149,17 +128,17 @@ ServerEvents.recipes(event => {
 		event.recipes.farmersdelight.cutting(plank, "#minecraft:axes", slab)
     })
 
-	event.remove({output: '#minecraft:wooden_buttons'})
+    event.remove({output: '#minecraft:wooden_buttons'})
     Ingredient.of('#minecraft:wooden_buttons').itemIds.forEach(button => {
         var pressure_plate = button.replace('button', 'pressure_plate')
         event.shaped(Item.of(button, 6),
-			[
-				'LS'
-			],
-			{
-		  		S: pressure_plate,
-		  		L: '#forge:tools/saws'
-			}
+        [
+          'LS'
+        ],
+        {
+          S: pressure_plate,
+          L: '#forge:tools/saws'
+        }
         )
 
 		event.recipes.gtceu.cutter(button + '_water')
@@ -259,16 +238,15 @@ ServerEvents.recipes(event => {
 			{
 		  		P: plank,
 				S: '#forge:rods/wooden'
-			}
-        )
+			})
 
-		event.recipes.gtceu.assembler(fence)
-			.duration(100)
-			.circuit(1)
-			.itemInputs([plank])
-			.itemOutputs(fence)
-			.EUt(4)
-    })
+	event.recipes.gtceu.assembler(fence)
+		.duration(100)
+		.circuit(1)
+		.itemInputs([plank])
+		.itemOutputs(fence)
+		.EUt(4)
+  })
 
 	//#region wrought iron / iron shenanigans
 	event.remove({type: 'minecraft:smelting', output: 'gtceu:wrought_iron_nugget'})

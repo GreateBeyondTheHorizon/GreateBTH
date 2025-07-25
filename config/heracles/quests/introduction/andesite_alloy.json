@@ -5,8 +5,8 @@
   "tasks": {
     "andesite_alloy": {
       "type": "heracles:item",
-      "item": "gtceu:andesite_alloy_ingot",
-      "amount": 2,
+      "item": "create:andesite_alloy",
+      "amount": 1,
       "collection": "AUTOMATIC"
     }
   },
@@ -16,10 +16,10 @@
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
-          "Type": "COMMON",
-          "Color": 13882323,
           "Loot": "lootbags:kjs/1nahon2xq5tpy6fivtu10isy8",
-          "Name": "Lootbag (Dirt Age)"
+          "Name": "Lootbag (Dirt Age)",
+          "Color": 13882323,
+          "Type": "COMMON"
         }
       },
       "type": "heracles:item"
@@ -42,7 +42,7 @@
     },
     "icon": {
       "item": {
-        "id": "gtceu:andesite_alloy_ingot",
+        "id": "create:andesite_alloy",
         "count": 1
       },
       "type": "heracles:item"

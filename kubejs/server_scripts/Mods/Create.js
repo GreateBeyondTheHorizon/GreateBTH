@@ -3,26 +3,27 @@ ServerEvents.recipes(event => {
 	event.remove({id: 'create:crafting/kinetics/hand_crank'})
 	event.remove({id: 'create:crafting/kinetics/mechanical_drill'})
 	event.remove({id: 'create:crafting/kinetics/steam_engine'})
-	event.remove({id: 'create:shaped/water_wheel'})
-	event.remove({id: 'create:shaped/large_water_wheel'})
-	event.remove({id: 'create:shaped/windmill_bearing'})
+	event.remove({id: 'greate:shaped/water_wheel'})
+	event.remove({id: 'greate:shaped/large_water_wheel'})
+	event.remove({id: 'greate:shaped/windmill_bearing'})
 	event.remove({id: 'create:crafting/kinetics/empty_blaze_burner'})
 	event.remove({id: 'create:crafting/kinetics/fluid_pipe'})
 	event.remove({id: 'create:crafting/kinetics/fluid_pipe_vertical'})
 	event.remove({id: 'create:crafting/kinetics/goggles'})
-    event.remove({id: 'create:crafting/kinetics/super_glue'})
-    event.remove({id: 'create:shaped/copper_diving_helmet'})
-    event.remove({id: 'create:shaped/copper_backtank'})
-    event.remove({id: 'create:shaped/copper_diving_boots'})
-    event.remove({id: 'create:crafting/appliances/netherite_diving_helmet_from_netherite'})
-    event.remove({id: 'create:crafting/appliances/netherite_diving_helmet'})
-    event.remove({id: 'create:crafting/appliances/netherite_diving_boots_from_netherite'})
-    event.remove({id: 'create:crafting/appliances/netherite_diving_boots'})
-    event.remove({id: 'create:crafting/tree_fertilizer'})
-    event.remove({id: /create(.*)botania(.*)/})
-    event.remove({id: /create:(smelting|blasting)\/zinc_ingot_from_raw_ore/})
-    event.remove({id: /create:(smelting|blasting)\/zinc_ingot_from_ore/})
-	event.remove({id: 'create:shapeless/dough'})
+  event.remove({id: 'create:crafting/kinetics/super_glue'})
+  event.remove({id: 'create:shaped/copper_diving_helmet'})
+  event.remove({id: 'create:shaped/copper_backtank'})
+  event.remove({id: 'create:shaped/copper_diving_boots'})
+  event.remove({id: 'create:crafting/appliances/netherite_diving_helmet_from_netherite'})
+  event.remove({id: 'create:crafting/appliances/netherite_diving_helmet'})
+  event.remove({id: 'create:crafting/appliances/netherite_diving_boots_from_netherite'})
+  event.remove({id: 'create:crafting/appliances/netherite_diving_boots'})
+  event.remove({id: 'create:crafting/tree_fertilizer'})
+  event.remove({id: /create:(smelting|blasting)\/zinc_ingot_from_raw_ore/})
+  event.remove({id: /create:(smelting|blasting)\/zinc_ingot_from_ore/})
+  event.remove({id: 'create:shapeless/dough'})
+  event.remove({id: 'create:crafting/materials/andesite_alloy_block'})
+  event.remove({id: 'create:crafting/materials/andesite_alloy_from_block'})
 
 	event.replaceInput({id: 'create:shaped/wrench'}, 'gtceu:gold_plate', 'gtceu:wrought_iron_plate')
 	event.replaceInput({id: 'create:crafting/kinetics/goggles'}, 'gtceu:gold_plate', 'gtceu:wrought_iron_plate')
@@ -87,7 +88,7 @@ ServerEvents.recipes(event => {
 	)
 
 	event.recipes.createMechanicalCrafting(Item.of('create:steam_engine', 1),
-		[ 
+		[
 			' C ',
 			' F ',
 			' C ',
@@ -105,7 +106,7 @@ ServerEvents.recipes(event => {
 		}
 )
 	event.recipes.createMechanicalCrafting(Item.of('create:potato_cannon', 1),
-		[ 
+		[
 			'ABCCC',
 			'DD   '
 		],
@@ -116,7 +117,7 @@ ServerEvents.recipes(event => {
 			D:'minecraft:copper_ingot',
 		}
 	)
-	
+
 	event.shaped(Item.of('create:copper_diving_helmet', 1),
 		[
 			'AAA',
@@ -218,7 +219,7 @@ ServerEvents.recipes(event => {
 			' C '
 		],
 		{
-			A: 'gtceu:andesite_alloy_ingot',
+			A: 'gtceu:andesite_alloy_plate',
 			S: 'gtceu:steel_plate',
 			C: 'create:andesite_casing',
 		}

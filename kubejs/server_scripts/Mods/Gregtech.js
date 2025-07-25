@@ -14,11 +14,11 @@ ServerEvents.recipes(event => {
 	event.remove({id: 'gtceu:mixer/mud'})
 	event.remove({id: 'gtceu:shaped/knife_flint'})
 	event.remove({id: 'gtceu:shaped/good_circuit_board'})
-	event.remove({id: 'gtceu:shaped/hammer_stone'})
 	event.remove({id: 'gtceu:extruder/extrude_stone_ingot_to_block'})
 	event.remove({id: 'gtceu:alloy_smelter/alloy_smelt_stone_ingot_to_block'})
 	event.remove({id: 'gtceu:lathe/lathe_stone_to_rod'})
 	event.remove({id: 'bucketlib:create/dough'})
+	event.remove({id: 'gtceu:shaped/gear_stone'})
 
 	const tiers = ['lv', 'mv', 'hv' /*'ev', 'iv', 'luv', 'zpm', 'uv' */]
 	const components = [
@@ -34,7 +34,7 @@ ServerEvents.recipes(event => {
 
 	tiers.forEach(tier => {
 		components.forEach(component => {
-			event.remove({ output: `gtceu:${tier}_${component}` })
+			event.remove({output: `gtceu:${tier}_${component}`})
 		})
 	})
 
@@ -44,7 +44,7 @@ ServerEvents.recipes(event => {
 	event.replaceInput('gtceu:shaped/steam_hammer_bronze', 'gtceu:bronze_machine_casing', 'gtceu:bronze_brick_casing')
 	event.replaceInput('gtceu:shaped/steam_rock_breaker_bronze', 'gtceu:bronze_machine_casing', 'gtceu:bronze_brick_casing')
 
-	
+
 	//#region campfire
 	event.campfireCooking('gtceu:coke_oven_brick', 'gtceu:compressed_coke_clay').cookingTime(300).xp(0.3)
 	event.campfireCooking('gtceu:firebrick', 'gtceu:compressed_fireclay').cookingTime(300).xp(0.1)
@@ -53,7 +53,6 @@ ServerEvents.recipes(event => {
 	//random mold crafting recipes decided to not work so...
 	event.stonecutting('gtceu:plate_casting_mold', 'gtceu:empty_mold')
 	event.stonecutting('gtceu:gear_casting_mold', 'gtceu:empty_mold')
-	event.stonecutting('gtceu:credit_casting_mold', 'gtceu:empty_mold')
 	event.stonecutting('gtceu:bottle_casting_mold', 'gtceu:empty_mold')
 	event.stonecutting('gtceu:ingot_casting_mold', 'gtceu:empty_mold')
 	event.stonecutting('gtceu:ball_casting_mold', 'gtceu:empty_mold')
@@ -81,7 +80,6 @@ ServerEvents.recipes(event => {
 	event.stonecutting('gtceu:bottle_extruder_mold', 'gtceu:empty_mold')
 	event.stonecutting('gtceu:foil_extruder_mold', 'gtceu:empty_mold')
 	event.stonecutting('gtceu:small_gear_extruder_mold', 'gtceu:empty_mold')
-	event.stonecutting('gtceu:long_rod_extruder_mold', 'gtceu:empty_mold')
 	event.stonecutting('gtceu:rotor_extruder_mold', 'gtceu:empty_mold')
 
 	//#region shaped/shapeless recipes
@@ -130,7 +128,7 @@ ServerEvents.recipes(event => {
 			'GFG',
 			'FPF',
 			'GFG',
-		], 
+		],
 		{
 			P: 'gtceu:wood_gear',
 			F: 'minecraft:cobblestone',
@@ -163,7 +161,7 @@ ServerEvents.recipes(event => {
 				C:'kubejs:flint_pickaxe_head'
 			}
 	)
-	
+
 	event.shaped(
 		Item.of('gtceu:flint_axe', '{DisallowContainerItem:0b,GT.Behaviours:{DisableShields:1b,TreeFelling:0b},GT.Tool:{AttackDamage:4.0f,AttackSpeed:-4.2f,Damage:0,HarvestLevel:2,MaxDamage:63,ToolSpeed:3.5f},HideFlags:2}'),
 			[
@@ -176,7 +174,7 @@ ServerEvents.recipes(event => {
 				C:'kubejs:flint_axe_head'
 			}
 	)
-	
+
 	event.shaped(
 		Item.of('gtceu:flint_shovel', '{DisallowContainerItem:0b,GT.Behaviours:{},GT.Tool:{AttackDamage:2.5f,AttackSpeed:-3.0f,Damage:0,HarvestLevel:2,MaxDamage:63,ToolSpeed:5.5f},HideFlags:2}'),
 			[
@@ -202,7 +200,7 @@ ServerEvents.recipes(event => {
 				C:'kubejs:flint_sword_head'
 			}
 	)
-	
+
 	event.shaped(
 		Item.of('gtceu:flint_hoe', '{DisallowContainerItem:0b,GT.Behaviours:{},GT.Tool:{AttackDamage:0.0f,AttackSpeed:-1.0f,Damage:0,MaxDamage:63},HideFlags:2}'),
 			[
@@ -403,18 +401,18 @@ ServerEvents.recipes(event => {
 		}
 	)
 
-	event.shaped('gtceu:stone_hammer',
+	event.shaped('gtceu:flint_hammer',
 		[
-			'RC',
-			'S '
+			'CR',
+			'SC'
 		],
 		{
 			R: 'farmersdelight:rope',
-			C: '#forge:cobblestone',
+			C: 'minecraft:flint',
 			S: '#forge:rods/wooden'
 		}
 	)
-	
+
 	// Material parts
 	// Wood
 	GregUtil.extrudeRingNoIngotMaterial(event, GTMaterials.Wood, 'gtceu:wood_plate')

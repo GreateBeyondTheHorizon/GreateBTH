@@ -1123,6 +1123,9 @@ file = "kubejs/server_scripts/Mods/DankStorage.js"
 file = "kubejs/server_scripts/Mods/EnderStorage.js"
 
 [[files]]
+file = "kubejs/server_scripts/Mods/ExtendedAE.js"
+
+[[files]]
 file = "kubejs/server_scripts/Mods/FarmersDelight.js"
 
 [[files]]
@@ -1162,10 +1165,19 @@ file = "kubejs/server_scripts/Mods/Greg/ChemicalBath.js"
 file = "kubejs/server_scripts/Mods/Greg/CokeOven.js"
 
 [[files]]
+file = "kubejs/server_scripts/Mods/Greg/Compressor.js"
+
+[[files]]
 file = "kubejs/server_scripts/Mods/Greg/ElectricBlastFurnace.js"
 
 [[files]]
 file = "kubejs/server_scripts/Mods/Greg/Electrolyzer.js"
+
+[[files]]
+file = "kubejs/server_scripts/Mods/Greg/ForgeHammer.js"
+
+[[files]]
+file = "kubejs/server_scripts/Mods/Greg/FormingPress.js"
 
 [[files]]
 file = "kubejs/server_scripts/Mods/Greg/GregUtil.js"
@@ -1289,6 +1301,9 @@ file = "kubejs/startup_scripts/ItemModification.js"
 
 [[files]]
 file = "kubejs/startup_scripts/ItemRemoval.js"
+
+[[files]]
+file = "kubejs/startup_scripts/KubeJS.js"
 
 [[files]]
 file = "kubejs/startup_scripts/Materials.js"
@@ -1634,6 +1649,10 @@ file = "mods/guard-villagers.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/guideme.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/heracles.pw.toml"
 metafile = true
 
@@ -1655,6 +1674,10 @@ metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/jamlib.pw.toml"
 metafile = true
 
 [[files]]
@@ -1898,6 +1921,10 @@ file = "mods/tinkers-construct.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/tinkers-tool-leveling-2.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/toast-control.pw.toml"
 metafile = true
 
@@ -1914,11 +1941,11 @@ file = "mods/visual-workbench.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/xtones-reworked.pw.toml"
+file = "mods/yeetusexperimentus.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/yeetusexperimentus.pw.toml"
+file = "mods/ytones.pw.toml"
 metafile = true
 
 [[files]]

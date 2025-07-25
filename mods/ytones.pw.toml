@@ -1,0 +1,13 @@
+name = "Ytones"
+filename = "Ytones-v8.0.1-1.20.1-Forge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "25cfb4a7b07481688f0079e9e58843ad27eb3b33"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6521971
+project-id = 1259448

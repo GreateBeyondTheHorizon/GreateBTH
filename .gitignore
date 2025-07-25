@@ -6,29 +6,31 @@
 # config
 !/config
 /config/*
-!/config/fancymenu
-!/config/heracles
-!/config/emi.css
-!/config/cookingforblockheads-common.toml
-!/config/curios-common.toml
-!/config/gtceu.yaml
-!/config/rightclickharvest.toml
-!/config/emi_loot_config.toml
-!/config/farmersdelight-common.toml
-!/config/oreberriesreplanted-common.toml
+!/config/AdvancedPeripherals
+!/config/AdvancedPeripherals/world.toml
+!/config/ae2/client.json
+!/config/ae2/common.json
 !/config/aether-client.toml
 !/config/aether-common.toml
+!/config/cookingforblockheads-common.toml
+!/config/curios-common.toml
 !/config/ding.toml
+!/config/emi.css
+!/config/emi_loot_config.toml
+!/config/fancymenu
+!/config/farmersdelight-common.toml
+!/config/gtceu.yaml
+!/config/heracles
+!/config/immediatelyfast.json
 !/config/moreoverlays.toml
+!/config/oreberriesreplanted-common.toml
+!/config/rightclickharvest.toml
 !/config/tconstruct-client.toml
 !/config/tconstruct-common.toml
-!/config/immediatelyfast.json
-!/config/AdvancedPeripherals
-/config/AdvancedPeripherals/*
-!/config/AdvancedPeripherals/world.toml
 !/defaultconfigs
-!/kubejs
 !/fancymenu_resources
+!/kubejs
+/config/AdvancedPeripherals/*
 
 # resource packs
 !/resourcepacks

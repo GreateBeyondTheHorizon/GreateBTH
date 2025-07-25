@@ -83,8 +83,6 @@ removeNamespaceItems('create', [
 	'brass_block',
 	'wheat_flour',
 	'dough',
-	'andesite_alloy',
-	'andesite_alloy_block',
 	'whisk',
 	'propeller'
 ])
@@ -121,7 +119,7 @@ removeNamespaceItems('sophisticatedbackpacks', [
 	'smoking_upgrade',
 	'tank_upgrade',
 	'xp_pump_upgrade',
-	/(.*)copper(.*)/, 
+	/(.*)copper(.*)/,
 	/auto_(.*)_upgrade'/,
 	/stack_upgrade_(.*)/
 ])
@@ -174,7 +172,7 @@ removeNamespaceItems('ad_astra', [
 	'rocket_fin',
 	/(.*)engine(.*)/,
 	'rocket_nose_cone',
-	'desh_tank', 
+	'desh_tank',
 	'calorite_tank',
 	'desh_plate',
 	'desh_nugget',
@@ -185,10 +183,10 @@ removeNamespaceItems('ad_astra', [
 
 //Farmers Delight
 removeNamespaceItems('farmersdelight', [
-	'flint_knife', 
-	'iron_knife', 
-	'diamond_knife', 
-	'netherite_knife', 
+	'flint_knife',
+	'iron_knife',
+	'diamond_knife',
+	'netherite_knife',
 	'golden_knife',
 	'wheat_dough'
 ])
@@ -200,18 +198,24 @@ removeNamespaceItems('oreberriesreplanted', [
 
 //Aquaculture
 removeNamespaceItems('aquaculture', [
-	'wooden_fillet_knife', 
+	'wooden_fillet_knife',
 	'stone_fillet_knife',
-	'iron_fillet_knife', 
-	'gold_fillet_knife', 
-	'diamond_fillet_knife', 
+	'iron_fillet_knife',
+	'gold_fillet_knife',
+	'diamond_fillet_knife',
 	'neptunium_fillet_knife'
 ])
 
 removeNamespaceItems('ae2', [
 	'vibration_chamber',
 	'ender_dust',
-	'certus_quartz_crystal'
+	'inscriber'
+])
+
+removeNamespaceItems('expatternprovider', [
+  'ex_inscriber',
+  'circuit_cutter',
+  'silicon_block'
 ])
 
 removeNamespaceItems('gtceu', [
@@ -220,12 +224,7 @@ removeNamespaceItems('gtceu', [
 	/.*macerator$/,
 	/.*bender$/,
 	/.*mixer$/,
-	/.*[^large]_cutter$/,
-	'obsidian_dust',
-	'netherrack_dust',
-	/.*_mining_hammer$/,
-	/.*_drill$/,
-	/.*_spade$/
+	/.*[^large]_cutter$/
 ])
 
 removeNamespaceItems('dankstorage', [
@@ -239,20 +238,20 @@ removeNamespaceItems('dankstorage', [
 ])
 
 removeNamespaceItems('aether', [
-	'zanite_block', 
-	'zanite_gemstone', 
-	'enchanted_gravitite', 
-	'ambrosium_block', 
+	'zanite_block',
+	'zanite_gemstone',
+	'enchanted_gravitite',
+	'ambrosium_block',
 	'ambrosium_shard'
 ])
 
 removeNamespaceItems('deep_aether', [
-	'skyjade', 
+	'skyjade',
 	'skyjade_block'
 ])
 
 removeNamespaceItems('productivebees', [
-	'bottler', 
+	'bottler',
 	'milk_bottle'
 ])
 
@@ -282,7 +281,7 @@ removeNamespaceItems('tconstruct', [
 
 removeNamespaceItems('ends_delight', [
 	'dragon_tooth_knife',
-	'dragon_egg_shell_knife', 
+	'dragon_egg_shell_knife',
 	'purpur_knife',
 	'end_stone_knife'
 ])

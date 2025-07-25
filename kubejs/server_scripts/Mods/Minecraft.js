@@ -29,7 +29,7 @@ ServerEvents.recipes(event => {
 
 	event.recipes.create.mixing('minecraft:cake', [Fluid.of('minecraft:milk', 3000), '2x minecraft:sugar', 'farmersdelight:pie_crust', 'minecraft:sweet_berries']).heated()
 	event.recipes.create.mixing('minecraft:pumpkin_pie', ['minecraft:sugar', 'farmersdelight:pie_crust', 'minecraft:pumpkin']).heated()
-	
+
 
 	// Netherite ingot
 	event.recipes.createMixing('minecraft:netherite_ingot', [
@@ -151,7 +151,7 @@ ServerEvents.recipes(event => {
 			'LL'
 		],
 		{
-			A: 'gtceu:andesite_alloy_ingot',
+			A: 'create:andesite_alloy',
 			L: '#minecraft:logs'
 		}
 	)

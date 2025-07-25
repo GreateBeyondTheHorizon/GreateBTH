@@ -20,7 +20,7 @@ StartupEvents.registry('item', event => {
 	event.create('inc_mv_conveyor', 'create:sequenced_assembly').displayName('Incomplete MV Conveyor')
 	event.create('inc_mv_robot_arm', 'create:sequenced_assembly').displayName('Incomplete MV Robotic Arm')
 	// HV components
-	event.create('inc_hv_motor', 'create:sequenced_assembly')
+	event.create('inc_hv_motor', 'create:sequenced_assembly').displayName('Incomplete HV Motor')
 	event.create('inc_hv_piston', 'create:sequenced_assembly').displayName('Incomplete HV Piston')
 	event.create('inc_hv_pump', 'create:sequenced_assembly').displayName('Incomplete HV Pump')
 	event.create('inc_hv_fluid_regulator', 'create:sequenced_assembly').displayName('Incomplete HV Fluid Regulator')
@@ -79,7 +79,7 @@ StartupEvents.registry('item', event => {
 	// misc
 	event.create('unf_turtle_helmet').displayName('Turtle Helmet Shell')
 	event.create('infinity_me_storage_wafer').displayName('Infinity ME Storage Component')
-	
+
 	//compass
 	event.create('empty_compass').displayName('Empty Compass')
 

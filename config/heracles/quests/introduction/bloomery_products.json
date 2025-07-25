@@ -10,9 +10,9 @@
       "amount": 1,
       "collection": "AUTOMATIC"
     },
-    "stone_hammer": {
+    "flint_hammer": {
       "type": "heracles:item",
-      "item": "gtceu:stone_hammer",
+      "item": "gtceu:flint_hammer",
       "nbt": {},
       "amount": 1,
       "collection": "AUTOMATIC"

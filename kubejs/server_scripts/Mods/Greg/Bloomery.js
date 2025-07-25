@@ -28,7 +28,7 @@ ServerEvents.recipes(event => {
     metalworkingRecipe('9x gtceu:bronze_nugget', 'gtceu:bronze_bloom', 'kubejs:nugget_wooden_form')
     metalworkingRecipe('gtceu:wrought_iron_ingot', 'gtceu:wrought_iron_bloom', 'gtceu:brick_wooden_form')
     metalworkingRecipe('9x gtceu:wrought_iron_nugget', 'gtceu:wrought_iron_bloom', 'kubejs:nugget_wooden_form')
-    metalworkingRecipe('gtceu:andesite_alloy_ingot', 'gtceu:andesite_alloy_bloom', 'gtceu:brick_wooden_form')
+    metalworkingRecipe('create:andesite_alloy', 'gtceu:andesite_alloy_bloom', 'gtceu:brick_wooden_form')
     metalworkingRecipe('9x gtceu:andesite_alloy_nugget', 'gtceu:andesite_alloy_bloom', 'kubejs:nugget_wooden_form')
     metalworkingRecipe('minecraft:redstone', 'gtceu:redstone_bloom')
     metalworkingRecipe('minecraft:iron_nugget', 'gtceu:iron_bloom', 'kubejs:nugget_wooden_form')
