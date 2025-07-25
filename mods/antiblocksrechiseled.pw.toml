@@ -1,13 +1,13 @@
 name = "AntiBlocksReChiseled"
-filename = "antiblocksrechiseled-0.4.6.jar"
+filename = "antiblocksrechiseled-0.4.7.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "9e10c60c18fc2b258cb7c2af69caa65f3066e770"
+hash = "5552f050074b626c99ac6b22aacfb750fd6fb33f"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6116668
+file-id = 6746599
 project-id = 715567

@@ -9,9 +9,11 @@ ServerEvents.recipes(event => {
     event.remove({id: 'tconstruct:smeltery/casting/obsidian/chest'})
 	event.remove({id: 'tconstruct:smeltery/seared/melter'})
 	event.remove({id: 'tconstruct:common/basalt_blast_furnace'})
+	event.remove({id: 'tconstruct:tools/modifiers/ability/luck_level_1'})
 
 	event.campfireCooking('tconstruct:seared_brick', 'tconstruct:grout')
 
+	//#region crafting table recipes
     event.shaped('tconstruct:tinkers_anvil',
 		[
 			'SSS',
@@ -84,4 +86,53 @@ ServerEvents.recipes(event => {
 			L: 'tconstruct:seared_bricks_slab'
 		}
 	)
+
+	//#region modifier recipes
+	event.custom({
+		"type": "tconstruct:modifier",
+		"allow_crystal": true,
+		"inputs": [
+		  {
+			"tag": "forge:ingots/copper"
+		  },
+		  {
+			"ingredient": [
+			  {
+				"item": "minecraft:cornflower"
+			  },
+			  {
+				"item": "minecraft:blue_orchid"
+			  },
+			  {
+				"item": 'gtceu:apatite_gem'
+			  }
+			]
+		  },
+		  {
+			"tag": "forge:ingots/copper"
+		  },
+		  {
+			"tag": "forge:storage_blocks/lapis"
+		  },
+		  {
+			"tag": "forge:storage_blocks/lapis"
+		  }
+		],
+		"level": 1,
+		"result": "tconstruct:luck",
+		"slots": {
+		  "abilities": 1
+		},
+		"tools": [
+		  {
+			"tag": "tconstruct:modifiable/melee/weapon"
+		  },
+		  {
+			"tag": "tconstruct:modifiable/harvest"
+		  },
+		  {
+			"tag": "tconstruct:modifiable/ranged"
+		  }
+		]
+	  })
 })

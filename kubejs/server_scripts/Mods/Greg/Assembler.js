@@ -34,4 +34,16 @@ ServerEvents.recipes(event => {
         .inputFluids(Fluid.of('gtceu:red_alloy', 72))
         .itemOutputs('4x gtceu:vacuum_tube')
         .EUt(7)
+
+    event.recipes.gtceu.assembler('annihilation_core')
+        .duration(100)
+        .itemInputs(['ae2:logic_processor', 'ae2:fluix_dust', 'minecraft:quartz'])
+        .itemOutputs('ae2:annihilation_core')
+        .EUt(30)
+
+    event.recipes.gtceu.assembler('formation_core')
+        .duration(200)
+        .itemInputs(['ae2:logic_processor', 'ae2:fluix_dust', '#forge:gems/certus_quartz'])
+        .itemOutputs('ae2:formation_core')
+        .EUt(30)
 })

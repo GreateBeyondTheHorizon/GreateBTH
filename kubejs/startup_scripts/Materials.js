@@ -10,15 +10,12 @@ GTCEuStartupEvents.registry("gtceu:material", (event) => {
   GTMaterials.RutheniumTriniumAmericiumNeutronate.addFlags(GTMaterialFlags.GENERATE_PLATE)
   GTMaterials.Netherite.addFlags(GTMaterialFlags.GENERATE_PLATE)
 
-  GTMaterials.get("andesite_alloy").addFlags(GTMaterialFlags.DISABLE_DECOMPOSITION)
   GTMaterials.get("andesite_alloy").setProperty(GBTHCorePropertyKeys.BLOOM, new $BloomProperty())
   GTMaterials.Iron.setProperty(GBTHCorePropertyKeys.BLOOM, new $BloomProperty())
   GTMaterials.Redstone.setProperty(GBTHCorePropertyKeys.BLOOM, new $BloomProperty())
 
-  // Add stone hammer for hammering blooms
-  GTMaterials.Stone.setProperty(PropertyKey.TOOL, ToolProperty.Builder.of(0, 1, 64, 1)
-      .addTypes(GTToolType.HARD_HAMMER)
-      .build())
+  // Add flint hammer for hammering blooms
+  GTMaterials.Flint.getProperty(PropertyKey.TOOL).addTypes(GTToolType.HARD_HAMMER)
 
   event.create('zanite')
     .gem(2)
@@ -50,7 +47,17 @@ GTCEuStartupEvents.registry("gtceu:material", (event) => {
 })
 
 GTCEuStartupEvents.materialModification(event => {
-  TagPrefix.block["setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])"](GTMaterials.Stone, () => Item.getItem('minecraft:stone'))
-  TagPrefix.ingot["setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material)"](GTMaterials.Stone)
-  TagPrefix.nugget["setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material)"](GTMaterials.Stone)
+  GTCEuAPI.materialManager.getRegisteredMaterials().forEach(material => {
+    if(material.hasProperty(PropertyKey.TOOL)) {
+      material.getProperty(PropertyKey.TOOL).removeTypes(GTToolType.MINING_HAMMER, GTToolType.SPADE,
+        GTToolType.DRILL_LV, GTToolType.DRILL_MV, GTToolType.DRILL_HV, GTToolType.DRILL_EV, GTToolType.DRILL_IV);
+    }
+  })
+
+  TagPrefix.block["setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])"](GTMaterials.CertusQuartz, () => Item.getItem('ae2:quartz_block'))
+  TagPrefix.gem["setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])"](GTMaterials.CertusQuartz, () => Item.getItem('ae2:certus_quartz_crystal'))
+  TagPrefix.dust["setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])"](GTMaterials.CertusQuartz, () => Item.getItem('ae2:certus_quartz_dust'))
+
+  TagPrefix.dust["setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])"](GTMaterials.Netherrack, () => Item.getItem('create:cinder_flour'))
+  TagPrefix.dust["setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])"](GTMaterials.Obsidian, () => Item.getItem('create:powdered_obsidian'))
 })

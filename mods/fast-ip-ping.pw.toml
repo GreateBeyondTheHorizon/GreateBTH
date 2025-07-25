@@ -1,13 +1,13 @@
 name = "Fast IP Ping"
-filename = "fast-ip-ping-v1.0.5-mc1.20.4-forge.jar"
+filename = "fast-ip-ping-v1.0.7-mc1.20.4-forge.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "cba9a0f2b37706ae0486e74636049545580892fd"
+hash = "253d21fd87657e6dc1e451c9758f5daaa71b86c8"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5746970
+file-id = 6666671
 project-id = 904356

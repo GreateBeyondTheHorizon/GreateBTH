@@ -2,10 +2,9 @@
 var itemsToReplace = [
     {removedItem: "ad_astra:steel_rod", replacement: '#forge:rods/steel'},
     {removedItem: "ad_astra:iron_rod", replacement: '#forge:rods/iron'},
-	{removedItem: 'ad_astra:desh_engine', replacement: 'kubejs:tungsten_steel_engine'},
+    {removedItem: 'ad_astra:desh_engine', replacement: 'kubejs:tungsten_steel_engine'},
 
     {removedItem: "ae2:ender_dust", replacement: 'gtceu:ender_pearl_dust'},
-    {removedItem: "ae2:certus_quartz_crystal", replacement: 'gtceu:certus_quartz_gem'},
 
     {removedItem: "aether:ambrosium_shard", replacement: 'gtceu:ambrosium_gem'},
     {removedItem: "aether:zanite_gemstone", replacement: 'gtceu:zanite_gem'},
@@ -26,7 +25,6 @@ var itemsToReplace = [
     {removedItem: "create:crushed_raw_iron", replacement: 'gtceu:crushed_iron_ore'},
     {removedItem: "create:dough", replacement: 'gtceu:dough'},
     {removedItem: "create:wheat_flour", replacement: 'gtceu:wheat_dust'},
-    {removedItem: "create:andesite_alloy", replacement: 'gtceu:andesite_alloy_ingot'},
     {removedItem: "create:propeller", replacement: 'gtceu:andesite_alloy_rotor'},
     {removedItem: "create:shaft", replacement: 'greate:andesite_alloy_shaft'}, //TODO: move to greate
 
@@ -34,7 +32,7 @@ var itemsToReplace = [
     {removedItem: "gtceu:iv_macerator", replacement: 'greate:tungsten_steel_millstone', replaceOutput: false},
     {removedItem: "gtceu:iv_bender", replacement: 'greate:tungsten_steel_mechanical_press', replaceOutput: false},
     {removedItem: "gtceu:iv_mixer", replacement: 'greate:tungsten_steel_mechanical_mixer', replaceOutput: false},
-    {removedItem: "gtceu:iv_cutter", replacement: 'greate:tungsten_steel_mechanical_saw', replaceOutput: false},
+    {removedItem: "gtceu:iv_cutter", replacement: 'greate:tungsten_steel_mechanical_saw', replaceOutput: false}
 ]
 
 ServerEvents.tags('item', event => {
@@ -67,7 +65,7 @@ ServerEvents.recipes(event => {
 
     itemsToReplace.forEach(recipe => {
         event.replaceInput({}, recipe.removedItem, recipe.replacement)
-        
+
         if(recipe.replaceOutput || recipe.replaceOutput == null) {
             event.replaceOutput({}, recipe.removedItem, recipe.replacement)
         }
@@ -90,7 +88,6 @@ ServerEvents.recipes(event => {
                 itemId,
                 replacedItem
             )
-            event.remove([{input: replacedItem}, {output: replacedItem}])
         })
     }
 })

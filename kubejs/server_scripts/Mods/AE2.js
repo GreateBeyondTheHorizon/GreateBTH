@@ -1,23 +1,33 @@
 ServerEvents.recipes(event => {
-	event.remove({id:'ae2:inscriber/logic_processor'})
-	event.remove({id:'ae2:inscriber/calculation_processor'})
-	event.remove({id:'ae2:inscriber/engineering_processor'})
-	event.remove({id:'ae2:charger/charged_certus_quartz_crystal'})
-	event.remove({id:'ae2:network/blocks/energy_energy_acceptor'})
-	event.remove({id:'ae2:network/blocks/controller'})
-	event.remove({id:'ae2:network/blocks/storage_chest'})
-	event.remove({id:'ae2:network/crafting/patterns_blank'})
+	event.remove({type: 'ae2:inscriber'})
+	event.remove({id: 'ae2:network/blocks/energy_energy_acceptor'})
+	event.remove({id: 'ae2:network/blocks/controller'})
+	event.remove({id: 'ae2:network/blocks/storage_chest'})
+	event.remove({id: 'ae2:network/crafting/patterns_blank'})
 	event.remove({id: /ae2:tools\/(certus|nether)_quartz_(sword|pickaxe|axe|spade|hoe)/})
 	event.remove({id: /ae2:network\/cells\/item_storage_components_cell_(.*)_part/})
-	
-	event.replaceInput({id:'ae2:network/blocks/inscribers'}, 'minecraft:copper_ingot', '#gtceu:circuits/hv')
-	event.replaceInput({id:'ae2:network/blocks/inscribers'}, 'minecraft:iron_ingot', 'gtceu:stainless_steel_plate')
-	event.replaceInput({id:'ae2:network/blocks/storage_drive'}, 'minecraft:iron_ingot', 'gtceu:stainless_steel_plate')
-	event.replaceInput({id:'ae2:network/blocks/crystal_processing_charger'}, 'minecraft:iron_ingot', 'gtceu:stainless_steel_plate')
-	event.replaceInput({id:'ae2:network/blocks/crystal_processing_charger'}, 'minecraft:copper_ingot', 'gtceu:copper_plate')
-	event.replaceInput({id:'ae2:tools/certus_quartz_wrench'}, '#forge:gems/certus_quartz', 'gtceu:certus_quartz_plate')
-	event.replaceInput({id:'ae2:tools/nether_quartz_wrench'}, 'minecraft:quartz', 'gtceu:nether_quartz_plate')	
-	
+	event.remove({id: 'ae2:decorative/quartz_block'})
+	event.remove({id: 'ae2:misc/deconstruction_certus_quartz_block'})
+	event.remove({id: 'ae2:decorative/fluix_block'})
+	event.remove({id: 'ae2:misc/deconstruction_fluix_block'})
+  event.remove({id: 'ae2:misc/deconstruction_smooth_certus_quartz_block'})
+  event.remove({id: 'ae2:misc/deconstruction_certus_quartz_bricks'})
+  event.remove({id: 'ae2:misc/deconstruction_certus_quartz_pillar'})
+  event.remove({id: 'ae2:misc/deconstruction_chiseled_certus_quartz'})
+  event.remove({id: 'ae2:misc/deconstruction_cut_certus_quartz_block'})
+  event.remove({id: 'ae2:materials/formationcore'})
+  event.remove({id: 'ae2:materials/annihilationcore'})
+
+	event.replaceInput({id: 'ae2:network/blocks/storage_drive'}, 'minecraft:iron_ingot', 'gtceu:stainless_steel_plate')
+	event.replaceInput({id: 'ae2:network/blocks/interfaces_interface'}, 'minecraft:iron_ingot', 'gtceu:stainless_steel_plate')
+	event.replaceInput({id: 'ae2:network/blocks/pattern_providers_interface'}, 'minecraft:iron_ingot', 'gtceu:stainless_steel_plate')
+	event.replaceInput({id: 'ae2:network/crafting/molecular_assembler'}, 'minecraft:iron_ingot', 'gtceu:stainless_steel_plate')
+	event.replaceInput({id: 'ae2:network/crafting/cpu_crafting_unit'}, 'minecraft:iron_ingot', 'gtceu:titanium_plate')
+	event.replaceInput({id: 'ae2:network/blocks/crystal_processing_charger'}, 'minecraft:iron_ingot', 'gtceu:stainless_steel_plate')
+	event.replaceInput({id: 'ae2:network/blocks/crystal_processing_charger'}, 'minecraft:copper_ingot', 'gtceu:copper_plate')
+	event.replaceInput({id: 'ae2:tools/certus_quartz_wrench'}, '#forge:gems/certus_quartz', 'gtceu:certus_quartz_plate')
+	event.replaceInput({id: 'ae2:tools/nether_quartz_wrench'}, 'minecraft:quartz', 'gtceu:nether_quartz_plate')
+
 	event.shaped('ae2:energy_acceptor',
 		[
 			'CCC',
@@ -31,7 +41,7 @@ ServerEvents.recipes(event => {
 			D:'#gtceu:circuits/hv'
 		}
 	)
-	
+
 	event.shaped('ae2:controller',
 		[
 			'CCC',
@@ -90,7 +100,7 @@ ServerEvents.recipes(event => {
 		}
 	)
 
-	toolRecipes('certus', 'gtceu:certus_quartz_gem')
+	toolRecipes('certus', 'ae2:certus_quartz_crystal')
 	toolRecipes('nether', 'minecraft:quartz')
 
 	function toolRecipes(material, quartz) {
@@ -107,7 +117,7 @@ ServerEvents.recipes(event => {
 		  S: '#forge:rods/wooden'
 		}
 	  )
-  
+
 	  event.shaped(`ae2:${material}_quartz_pickaxe`,
 		[
 		  'PII',
@@ -122,7 +132,7 @@ ServerEvents.recipes(event => {
 		  S: '#forge:rods/wooden'
 		}
 	  )
-  
+
 	  event.shaped(`ae2:${material}_quartz_axe`,
 		[
 		  'PIF',
@@ -137,7 +147,7 @@ ServerEvents.recipes(event => {
 		  S: '#forge:rods/wooden'
 		}
 	  )
-  
+
 	  event.shaped(`ae2:${material}_quartz_shovel`,
 		[
 		  'HPF',
@@ -151,7 +161,7 @@ ServerEvents.recipes(event => {
 		  S: '#forge:rods/wooden'
 		}
 	  )
-  
+
 	  event.shaped(`ae2:${material}_quartz_hoe`,
 		[
 		  'PIF',
@@ -167,7 +177,7 @@ ServerEvents.recipes(event => {
 		}
 	  )
 	}
-	
+
 	// Storage wafers
 	const storageBaseQualityOutput = {}
 	storageBaseQualityOutput[global.Quality.UltraLow] = 4

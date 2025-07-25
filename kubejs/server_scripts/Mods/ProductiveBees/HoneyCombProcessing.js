@@ -1,9 +1,9 @@
-var configurableBeeMaterials = ['yttrium', 'vanadium', 'glowing', 'experience', 'amethyst', 'blazing', 'cinnabar', 'topaz', 'titanium', 'prismarine', 'sculk', 
+var configurableBeeMaterials = ['yttrium', 'vanadium', 'glowing', 'experience', 'amethyst', 'blazing', 'cinnabar', 'topaz', 'titanium', 'prismarine', 'sculk',
  'chromium', 'pyrope', 'neodymium', 'zinc', 'ostrum', 'tin', 'redstone_alloy', 'sulfur', 'diamond', 'iron', 'ruby', 'ruthenium', 'warped', 'brown_shroom',
- 'frosty', 'platinum', 'tungsten', 'red_shroom', 'rose_gold', 'sapphire', 'opal', 'calorite', 'bismuth', 'silicon', 'iridium', 'withered', 'cheese', 'lapis', 
+ 'frosty', 'platinum', 'tungsten', 'red_shroom', 'rose_gold', 'sapphire', 'opal', 'calorite', 'bismuth', 'silicon', 'iridium', 'withered', 'cheese', 'lapis',
  'energetic_alloy', 'cobalt', 'redstone', 'end_steel', 'oily', 'zombie', 'steel', 'skeletal', 'silky', 'copper', 'dark_steel', 'draconic', 'conductive_alloy',
  'green_sapphire', 'slimy', 'bronze', 'europium', 'coal', 'desh', 'silver', 'crimson', 'infinity', 'radioactive', 'electrum', 'emerald', 'spacial', 'copper_alloy',
- 'tea', 'neutronium', 'vibrant_alloy', 'rose_quartz', 'netherite', 'ender', 'pulsating_alloy', 'magmatic', 'nickel', 'fluix', 'malachite', 'osmium', 'lead', 
+ 'tea', 'neutronium', 'vibrant_alloy', 'rose_quartz', 'netherite', 'ender', 'pulsating_alloy', 'magmatic', 'nickel', 'fluix', 'malachite', 'osmium', 'lead',
  'samarium', 'sticky_resin', 'invar', 'palladium', 'apatite', 'crystalline', 'sodalite', 'niobium', 'brass', 'gold', 'rhodium', 'obsidian', 'soularium', 'chocolate'
 ]
 
@@ -11,16 +11,16 @@ var configurableBeeMaterials = ['yttrium', 'vanadium', 'glowing', 'experience', 
 var NeedsToBeChecked= ['rose_gold']
 
 //needs to be checked
-var Astra = ['ostrum','calorite', 'cheese', 'desh',] 
+var Astra = ['ostrum','calorite', 'cheese', 'desh',]
 
 var configurableBeeMaterialsSpecial = ['experience']
 
-var configurableBeeMaterialsCustomLV = ['glowing','blazing','prismarine','sculk','warped', 'brown_shroom','red_shroom','withered','skeletal', 
+var configurableBeeMaterialsCustomLV = ['glowing','blazing','prismarine','sculk','warped', 'brown_shroom','red_shroom','withered','skeletal',
   'silky', 'zombie', 'draconic', 'slimy', 'crimson', 'spacial', 'magmatic', 'sticky_resin', 'redstone', 'crystalline', 'frosty']
 
 var configurableBeeMaterialsCustomLvOutput = ['minecraft:glowstone_dust', 'minecraft:blaze_powder', 'minecraft:prismarine_shard', 'minecraft:sculk',
  'minecraft:warped_fungus', 'minecraft:brown_mushroom', 'minecraft:red_mushroom', 'minecraft:wither_skeleton_skull', 'minecraft:bone', 'minecraft:string',
-  'minecraft:rotten_flesh', 'productivebees:draconic_dust', 'minecraft:slime_ball', 'minecraft:crimson_fungus', 'gtceu:certus_quartz_gem', 'minecraft:magma_cream', 
+  'minecraft:rotten_flesh', 'productivebees:draconic_dust', 'minecraft:slime_ball', 'minecraft:crimson_fungus', 'ae2:certus_quartz_crystal', 'minecraft:magma_cream',
   'gtceu:sticky_resin', 'minecraft:redstone','gtceu:nether_quartz_dust', 'minecraft:snowball']
 
 var configurableBeeMaterialsCustomMV = ['rose_quartz', 'ender', 'obsidian', 'fluix']

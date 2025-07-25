@@ -21,8 +21,6 @@
 	cheaperNetheriteAlloy = true
 	#Makes wither skeletons drop necrotic bones
 	witherBoneDrop = true
-	#Allows converting wither bones to regular bones
-	witherBoneConversion = true
 	#Slimeballs not being usable in vanilla recipes that require slimeballs. Config option exists to disable easily in case this fix is redundant to another mod
 	slimeRecipeFix = true
 	#Fixes clear glass not being usable in vanilla recipes that require glass. Config option exists to disable easily in case this fix is redundant to another mod
@@ -100,4 +98,15 @@
 	#Set to true if you wish to test whether a side inventory works without constantly reloading datapacks.
 	#Once you find an inventory works, add it to the block entity tag `tconstruct:side_inventories` and disable this option; leaving it enabled will lead to crashes and dupe bugs.
 	disableSideInventoryWhitelist = false
+	#If true, modifier crystals and creative slots can be applied to tools in the inventory on right click for operators in survival. If false, this only works for players in creative mode.
+	#This option makes testing of tools and modifiers easier, but may cause misleading assumptions about how these items will function for non-operators.
+	quickApplyToolModifiersSurvival = false
+
+#Configuration related to integration with other mods
+[compatability]
+	#Amount of fluid each chemthrower shot projectile from Immersive Engineering is worth towards our fluid effect registry.
+	#IE launches 8 projectiles per tick while consuming the value in their config, so dividing it by 8 makes them comparable to our projectiles.
+	#However, keeping it as a separate config option gives pack makers more control over how strong TiC ends up in the chemthrower.
+	#Range: 0.0 ~ 2.147483647E9
+	immersive_engineering_chemthrower_shot_value = 1.25
 

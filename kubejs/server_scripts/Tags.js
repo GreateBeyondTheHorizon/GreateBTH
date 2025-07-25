@@ -2,7 +2,7 @@ ServerEvents.tags('item', event => {
 	//#region add item tag
 	event.add('ad_astra:aeronos_logs', ['ad_astra:aeronos_cap', 'ad_astra:aeronos_stem'])
 	event.add('ad_astra:strophar_logs', ['ad_astra:strophar_cap', 'ad_astra:strophar_stem'])
-	
+
 	event.add('aether:book_of_lore_materials', ['gtceu:ambrosium_gem'])
 	event.add('aether:gems/zanite', ['#forge:gems/zanite'])
 	event.add('aether:processed/gravitite', ['#forge:storage_blocks/gravitite'])
@@ -47,7 +47,9 @@ ServerEvents.tags('item', event => {
 	event.add('forge:armors', /ad_astra:(.*)space(.*)/)
 	event.add('forge:stripped_logs', ['aether:stripped_skyroot_log', 'deep_aether:stripped_roseroot_log', 'deep_aether:stripped_yagroot_log', 'deep_aether:stripped_cruderoot_log', 'deep_aether:stripped_conberry_log', 'deep_aether:stripped_sunroot_log'])
 	event.add('forge:stripped_wood', ['aether:stripped_skyroot_wood', 'deep_aether:stripped_roseroot_wood', 'deep_aether:stripped_yagroot_wood', 'deep_aether:stripped_cruderoot_wood', 'deep_aether:stripped_conberry_wood', 'deep_aether:stripped_sunroot_wood'])
+	event.add('forge:flour/wheat', ['gtceu:wheat_dust'])
 
+	event.add('gbth:certus_quartz_blocks', ['ae2:smooth_quartz_block', 'ae2:quartz_bricks', 'ae2:quartz_pillar', 'ae2:chiseled_quartz_block', 'ae2:cut_quartz_block'])
 	event.add('gbth:forms', ['kubejs:block_wooden_form', 'kubejs:nugget_wooden_form', 'gtceu:brick_wooden_form'])
 	event.add('gbth:blooms', ['gtceu:copper_bloom', 'gtceu:tin_bloom','gtceu:bronze_bloom', 'gtceu:wrought_iron_bloom', 'gtceu:andesite_alloy_bloom'])
 	event.add('gbth:copper_bloom_inputs', ['#forge:raw_materials/copper', '#forge:raw_materials/chalcopyrite', '#forge:raw_materials/tetrahedrite', '#forge:raw_materials/bornite', '#forge:raw_materials/chalcocite', '#forge:raw_materials/malachite'])
@@ -73,7 +75,7 @@ ServerEvents.tags('item', event => {
 
 	event.add('mynethersdelight:powdery_logs', ['mynethersdelight:powdery_block', 'mynethersdelight:stripped_powdery_block'])
 
-	
+
 	//#region remove item tag
 	event.remove('create:sandpaper', ['create:sand_paper', 'create:red_sand_paper'])
 

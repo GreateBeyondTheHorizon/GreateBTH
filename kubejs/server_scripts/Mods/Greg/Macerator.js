@@ -40,4 +40,16 @@ ServerEvents.recipes(event => {
         .itemInputs('farmersdelight:rice_panicle')
         .itemOutputs(['farmersdelight:rice', 'farmersdelight:straw'])
         .EUt(2)
+
+    event.recipes.gtceu.macerator('sky_stone_dust')
+        .duration(100)
+        .itemInputs('ae2:sky_stone_block')
+        .itemOutputs('ae2:sky_dust')
+        .EUt(7)
+
+    event.recipes.gtceu.macerator('fluix_dust')
+        .duration(100)
+        .itemInputs('ae2:fluix_crystal')
+        .itemOutputs('ae2:fluix_dust')
+        .EUt(7)
 })

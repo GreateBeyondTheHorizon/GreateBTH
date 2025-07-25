@@ -5,8 +5,9 @@ ServerEvents.recipes(event => {
 	event.remove({id: 'farmersdelight:paper_from_tree_bark'})
 	event.remove({id: 'farmersdelight:rope'})
 	event.remove({id: 'farmersdelight:lead_from_straw'})
-	event.remove({id: /farmersdelight:(.*)_canvas_sign/})
-	event.remove({id: /farmersdelight:(.*)_hanging_canvas_sign/})
+	event.remove({id: /farmersdelight:.*_canvas_sign/})
+	event.remove({id: /farmersdelight:.*_hanging_canvas_sign/})
+	event.remove({id: /aquaculturedelight:cutting\/knife\/neptunium_.*/})
 
 	event.replaceInput({id: 'farmersdelight:stove'}, 'minecraft:iron_ingot', 'gtceu:wrought_iron_plate')
 	event.replaceInput({id: 'farmersdelight:cooking_pot'}, 'minecraft:iron_ingot', 'gtceu:steel_plate')

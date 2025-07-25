@@ -1,5 +1,4 @@
 ServerEvents.recipes(event => {
-
     event.remove({id: 'gtceu:alloy_smelter/glass'})
 
     global.Greate.MachineTiers.forEach(tier => {
