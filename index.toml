@@ -127,6 +127,9 @@ file = "config/heracles/quests/introduction/bloomery_products.json"
 file = "config/heracles/quests/introduction/collecting_wood.json"
 
 [[files]]
+file = "config/heracles/quests/introduction/creating_andesite.json"
+
+[[files]]
 file = "config/heracles/quests/introduction/finally_a_proper_crafting_table.json"
 
 [[files]]
@@ -620,6 +623,9 @@ file = "kubejs/assets/emi/recipe/additions/bloomery.json"
 
 [[files]]
 file = "kubejs/assets/emi/recipe/additions/ceramic_water_bucket_dirt_to_mud.json"
+
+[[files]]
+file = "kubejs/assets/emi/recipe/additions/rock_blaster.json"
 
 [[files]]
 file = "kubejs/assets/emi/recipe/additions/water_bucket_dirt_to_mud.json"
@@ -1192,6 +1198,9 @@ file = "kubejs/server_scripts/Mods/Greg/Mixer.js"
 file = "kubejs/server_scripts/Mods/Greg/PrimitiveBlastFurnace.js"
 
 [[files]]
+file = "kubejs/server_scripts/Mods/Greg/RockBlaster.js"
+
+[[files]]
 file = "kubejs/server_scripts/Mods/Greg/RockCrusher.js"
 
 [[files]]
@@ -1249,6 +1258,9 @@ file = "kubejs/server_scripts/Mods/SophisticatedBackpacks.js"
 file = "kubejs/server_scripts/Mods/SophisticatedStorage.js"
 
 [[files]]
+file = "kubejs/server_scripts/Mods/TinkersConstruct.js"
+
+[[files]]
 file = "kubejs/server_scripts/Mods/TomsSimpleStorage.js"
 
 [[files]]
@@ -1274,9 +1286,6 @@ file = "kubejs/server_scripts/OreGeneration/VeinSetup.js"
 
 [[files]]
 file = "kubejs/server_scripts/Tags.js"
-
-[[files]]
-file = "kubejs/server_scripts/TinkersConstruct.js"
 
 [[files]]
 file = "kubejs/server_scripts/VillagerTrades.js"

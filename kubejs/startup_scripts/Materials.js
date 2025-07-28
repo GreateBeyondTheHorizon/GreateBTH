@@ -12,7 +12,6 @@ GTCEuStartupEvents.registry("gtceu:material", (event) => {
 
   GTMaterials.get("andesite_alloy").setProperty(GBTHCorePropertyKeys.BLOOM, new $BloomProperty())
   GTMaterials.Iron.setProperty(GBTHCorePropertyKeys.BLOOM, new $BloomProperty())
-  GTMaterials.Redstone.setProperty(GBTHCorePropertyKeys.BLOOM, new $BloomProperty())
 
   // Add flint hammer for hammering blooms
   GTMaterials.Flint.getProperty(PropertyKey.TOOL).addTypes(GTToolType.HARD_HAMMER)
