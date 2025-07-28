@@ -25,13 +25,13 @@
     },
     "description": [
       "Different types of quests will be indicated by there outline.",
-      "**Main story - diamond",
-      "Major milestones - octagon",
-      "Start of chapter - gear",
-      "End of chapter - hexagon",
-      "Tips - triangle",
-      "Tips/Story - pentagon",
-      "Optional - circle**"
+      "/d/Main story/d/ - diamond",
+      "/d/Major milestones/d/ - octagon",
+      "/d/Start of chapter/d/ - gear",
+      "/d/End of chapter/d/ - hexagon",
+      "/d/Tips/d/ - triangle",
+      "/d/Informational/d/ - pentagon",
+      "/d/Optional/d/ - circle"
     ],
     "groups": {
       "Tips": {
