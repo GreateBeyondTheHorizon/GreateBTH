@@ -3,19 +3,14 @@ const UtilsJS = Java.loadClass('dev.latvian.mods.kubejs.util.UtilsJS')
 console.info('Ores Modified')
 
 WorldgenEvents.remove(event => {
-    const minecraftOreVeins = [
-        'minecraft:coal_ore',
-        'minecraft:iron_ore',
-        'minecraft:gold_ore',
-        'minecraft:redstone_ore',
-        'minecraft:lapis_ore',
-        'minecraft:diamond_ore',
-        'minecraft:emerald_ore']
- 
- 
     event.removeOres(props => {
         props.worldgenLayer = 'underground_ores'
-        props.blocks = [/create:(.*)/, /byg:(.*)/, /sgjourney:(.*)/, /aether:(.*)/].concat(minecraftOreVeins)
+        props.blocks = [/create:.*/, /byg:.*/, /sgjourney:.*/, /aether:.*/]
+    })
+
+    event.removeOres(props => {
+        props.worldgenLayer = 'underground_decoration'
+        props.blocks = [/minecraft:infested_(stone|deepslate)/]
     })
  })
 

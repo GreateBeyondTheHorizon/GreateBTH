@@ -1,0 +1,79 @@
+{
+  "dependencies": [
+    "bloomery"
+  ],
+  "tasks": {
+    "deepslate": {
+      "type": "heracles:item",
+      "item": "#gbth:deepslate_ore_replaceables",
+      "amount": 9,
+      "collection": "AUTOMATIC"
+    },
+    "mud_bricks": {
+      "type": "heracles:item",
+      "item": "minecraft:mud_bricks",
+      "amount": 15,
+      "collection": "AUTOMATIC"
+    },
+    "rock_blaster": {
+      "type": "heracles:item",
+      "item": "gbthcore:rock_blaster",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "mud_brick_slab": {
+      "type": "heracles:item",
+      "item": "minecraft:mud_brick_slab",
+      "amount": 4,
+      "collection": "AUTOMATIC"
+    },
+    "andesite_dust": {
+      "type": "heracles:item",
+      "item": "gtceu:andesite_dust",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "To create /d/Andesite Alloy/d/, you'll need to find or craft some /d/Andesite/d/.",
+      "",
+      "To craft /d/Andesite Dust/d/, you'll need to create a new multiblock, called the /d/Rock Blaster/d/.",
+      "",
+      "You can use /d/Andesite/d/ or /d/Andesite Dust/d/ to create /d/Andesite Alloy Blooms/d/.",
+      "",
+      "This quest is completely __optional__."
+    ],
+    "groups": {
+      "Introduction": {
+        "position": [
+          35,
+          175
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "gtceu:andesite_dust",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "Creating Andesite"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

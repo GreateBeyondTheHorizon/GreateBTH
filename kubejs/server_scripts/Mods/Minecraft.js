@@ -23,6 +23,7 @@ ServerEvents.recipes(event => {
 	event.remove({id: /minecraft:raw_(.*)/})
 	event.remove({id: /(minecraft|bucketlib|farmersdelight|create):(.*)cake(.*)/, output: 'minecraft:cake'})
 	event.remove({id: /create:(smelting|smoking)(.*)bread/})
+	event.remove({id: /minecraft:(diorite|andesite|granite)/})
 
 	event.campfireCooking('minecraft:brick', 'gtceu:compressed_clay').cookingTime(300).xp(0.3)
 	event.campfireCooking('minecraft:bread', 'gtceu:dough')

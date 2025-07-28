@@ -1,5 +1,6 @@
 ServerEvents.recipes(event => {
     event.remove({id: 'gtceu:alloy_smelter/glass'})
+    event.remove({id: /gtceu:alloy_smelter\/(diorite|andesite|granite)/})
 
     global.Greate.MachineTiers.forEach(tier => {
         var output = `kubejs:${tier}_sand_paper`
@@ -10,7 +11,7 @@ ServerEvents.recipes(event => {
             .itemOutputs(output)
             .EUt(32)
     })
-    
+
     event.recipes.gtceu.alloy_smelter('glass')
         .duration(240)
         .itemInputs('gtceu:glass_dust')

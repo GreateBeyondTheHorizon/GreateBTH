@@ -7,7 +7,7 @@
     "mud_bricks": {
       "type": "heracles:item",
       "item": "minecraft:mud_bricks",
-      "amount": 13,
+      "amount": 12,
       "collection": "AUTOMATIC"
     },
     "mud_brick_slabs": {
@@ -41,10 +41,10 @@
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
-          "Type": "COMMON",
-          "Color": 13882323,
           "Loot": "lootbags:kjs/1nahon2xq5tpy6fivtu10isy8",
-          "Name": "Lootbag (Dirt Age)"
+          "Name": "Lootbag (Dirt Age)",
+          "Color": 13882323,
+          "Type": "COMMON"
         }
       },
       "type": "heracles:item"
@@ -59,7 +59,7 @@
       "",
       "The /d/Bloomery/d/ will produce /d/Blooms/d/, which will need to be hammered into either /d/Nuggets/d/ or /d/Ingots/d/.",
       "",
-      "To craft one, __crouch and right-click__ on a /d/Campfire/d/ with a /d/Mud Brick/d/ block."
+      "To craft one, __crouch and right-click__ on a /d/Campfire/d/ with a /d/any raw ore/d/."
     ],
     "groups": {
       "Introduction": {

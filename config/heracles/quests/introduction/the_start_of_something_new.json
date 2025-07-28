@@ -12,7 +12,13 @@
       "text": ""
     },
     "description": [
-      "Welcome user! This pack is designed to provide a integrated experience utilizing /d/Gregtech/d/ and/d/ Create/d/ as the main tech mods of the pack. This pack is inspired by both /d/GTNH/d/ and /d/Create: Above and Beyond/d/. Enjoy!"
+      "Welcome user! This pack is designed to provide a integrated experience utilizing /d/Gregtech/d/ and/d/ Create/d/ as the main tech mods of the pack. This pack is inspired by both /d/GTNH/d/ and /d/Create: Above and Beyond/d/. Enjoy!",
+      "",
+      "Certain Quests have different /d/Background Icons/d/:",
+      "",
+      "<text>-<light_purple>Square Icon</light_purple>: Main Progression Quest</text>",
+      "<text>-<light_purple>Pentagon Icon</light_purple>: Informational Quest</text>",
+      "<text>-<light_purple>Circle Icon</light_purple>: Optional Quest</text>"
     ],
     "groups": {
       "Introduction": {
@@ -29,7 +35,7 @@
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/pentagons.png",
     "title": {
       "translate": "The Start of Something New"
     }
