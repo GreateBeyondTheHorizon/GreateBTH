@@ -1,0 +1,64 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "quested": {
+      "icon": {
+        "item": {
+          "id": "antiblocksrechiseled:bright_green",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "quested": {
+      "xptype": "LEVEL",
+      "amount": 1,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "some are just better"
+    },
+    "description": [
+      "Different types of quests will be indicated by there outline.",
+      "**Main story - diamond",
+      "Major milestones - octagon",
+      "Start of chapter - gear",
+      "End of chapter - hexagon",
+      "Tips - triangle",
+      "Tips/Story - pentagon",
+      "Optional - circle**"
+    ],
+    "groups": {
+      "Tips": {
+        "position": [
+          -120,
+          -75
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "antiblocksrechiseled:bright_green",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Not all quests are created equal"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

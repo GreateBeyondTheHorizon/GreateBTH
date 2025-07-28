@@ -1,0 +1,63 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "prospector": {
+      "icon": {
+        "item": {
+          "id": "minecraft:golden_pickaxe",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "prospector": {
+      "xptype": "LEVEL",
+      "amount": 1,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "In this modpack ores spawn in large separate veins. Collecting the surface dusts will mark the vein on your Journey map. You can access this by pressing \"j\" and looking for show ore veins in the corner."
+    ],
+    "groups": {
+      "Tips": {
+        "position": [
+          -40,
+          -75
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:golden_pickaxe",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Prospector"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

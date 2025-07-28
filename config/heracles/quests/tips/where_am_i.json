@@ -1,0 +1,64 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "Not lost": {
+      "icon": {
+        "item": {
+          "id": "minecraft:filled_map",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "Not lost": {
+      "icon": {
+        "item": {
+          "id": "minecraft:experience_bottle",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "LEVEL",
+      "amount": 1,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "In this pack you have access to waypoints by using the default keys \"n\" and journey map by pressing \"j\". No excuses when you lose your base **this** time!"
+    ],
+    "groups": {
+      "Tips": {
+        "position": [
+          -80,
+          -75
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:filled_map",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Where am I?"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

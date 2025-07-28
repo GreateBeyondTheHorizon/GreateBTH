@@ -1,13 +1,33 @@
 {
   "dependencies": [
-    "flint_knife"
+    "the_start_of_something_new"
   ],
   "tasks": {
-    "straw": {
+    "gravel": {
       "type": "heracles:item",
-      "item": "farmersdelight:straw",
-      "amount": 8,
-      "collection": "AUTOMATIC"
+      "item": "#minecraft:gravel",
+      "amount": 3,
+      "collection": "AUTOMATIC",
+      "icon": {
+        "item": {
+          "id": "minecraft:gravel",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    },
+    "flint": {
+      "type": "heracles:item",
+      "item": "#minecraft:flint",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "icon": {
+        "item": {
+          "id": "minecraft:flint",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
     }
   },
   "rewards": {
@@ -30,26 +50,26 @@
       "text": ""
     },
     "description": [
-      "To be able to craft tools, start by using your newly crafted /d/Flint Knife/d/ to collect /d/straw/d/ by breaking /d/grass/d/."
+      "Flint can be rarely found by breaking gravel blocks or crafted with three gravel blocks in the crafting grid."
     ],
     "groups": {
       "Introduction": {
         "position": [
           0,
-          35
+          -32
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "farmersdelight:straw",
+        "id": "minecraft:flint",
         "count": 1
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/pentagons.png",
     "title": {
-      "translate": "Straw"
+      "translate": "Getting flinty"
     }
   },
   "settings": {

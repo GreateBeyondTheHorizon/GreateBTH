@@ -1,7 +1,8 @@
 {
   "dependencies": [
     "steel_ingot",
-    "pokey_pokey"
+    "pokey_pokey",
+    "the_first_of_many"
   ],
   "tasks": {
     "motor": {

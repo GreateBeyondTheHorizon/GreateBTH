@@ -38,7 +38,7 @@
       "item": "#minecraft:beds",
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
     "title": {
       "translate": "On the Floor No-More!"
     }

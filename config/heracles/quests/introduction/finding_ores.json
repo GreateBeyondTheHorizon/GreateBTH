@@ -28,7 +28,7 @@
       "text": ""
     },
     "description": [
-      "/d/Gregtech/d/ changes ore generation from vanilla. Instead of spawning ores in tiny clumps, Gregtech instead spawns massive veins of different ores, depending on the type. These can be found by searching for surface rocks above ground, which will show what ore vien is underneath. Also, only 1 ore vein will spawn in a valid chunk.",
+      "/d/Gregtech/d/ changes ore generation from vanilla. Instead of spawning ores in tiny clumps, Gregtech instead spawns massive veins of different ores, depending on the type. These can be found by searching for surface rocks above ground, which will show what ore vein is underneath. Also, only 1 ore vein will spawn in a valid chunk.",
       "",
       "<text>You can view where an ore spawns by pressing '<light_purple><keybind>key.jei.showRecipe</keybind></light_purple>' on any raw ore.</text>",
       "",
