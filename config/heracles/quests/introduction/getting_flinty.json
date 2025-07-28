@@ -5,7 +5,7 @@
   "tasks": {
     "gravel": {
       "type": "heracles:item",
-      "item": "#minecraft:gravel",
+      "item": "minecraft:gravel",
       "amount": 3,
       "collection": "AUTOMATIC",
       "icon": {
@@ -18,7 +18,7 @@
     },
     "flint": {
       "type": "heracles:item",
-      "item": "#minecraft:flint",
+      "item": "minecraft:flint",
       "amount": 1,
       "collection": "AUTOMATIC",
       "icon": {
