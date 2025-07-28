@@ -59,7 +59,7 @@
       "",
       "The /d/Bloomery/d/ will produce /d/Blooms/d/, which will need to be hammered into either /d/Nuggets/d/ or /d/Ingots/d/.",
       "",
-      "To craft one, __crouch and right-click__ on a /d/Campfire/d/ with a /d/any raw ore/d/."
+      "To craft one, __crouch and right-click__ on an /d/Unlit Campfire/d/ with any /d/Raw Ore/d/."
     ],
     "groups": {
       "Introduction": {

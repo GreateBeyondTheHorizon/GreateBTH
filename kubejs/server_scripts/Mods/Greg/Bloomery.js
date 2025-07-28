@@ -5,9 +5,8 @@ ServerEvents.recipes(event => {
     bloomeryRecipe('gbth:tin_bloom', 600, 'gtceu:tin_bloom', ['#gbth:tin_bloom_inputs', '#minecraft:coals'])
     bloomeryRecipe('gbth:wrought_iron_bloom', 600, 'gtceu:wrought_iron_bloom', ['#gbth:wrought_iron_bloom_inputs', '#minecraft:coals'])
     bloomeryRecipe('gbth:bronze_bloom', 900, '4x gtceu:bronze_bloom', ['3x minecraft:copper_ingot', 'gtceu:tin_ingot', '2x #minecraft:coals'])
-    bloomeryRecipe('gbth:andesite_alloy_bloom', 900, 'gtceu:andesite_alloy_bloom', ['gtceu:wrought_iron_ingot', ['minecraft:andesite', ChemicalHelper.getDust(GTMaterials.Andesite, GTValues.M)], '2x #minecraft:coals'])
-    bloomeryRecipe('gbth:redstone_bloom', 900, 'gtceu:redstone_bloom', ['gtceu:raw_redstone', '#minecraft:coals'])
-    bloomeryRecipe('gbth:iron_bloom', 300, 'gtceu:iron_bloom', ['gtceu:wrought_iron_nugget', '#minecraft:coals'])
+    bloomeryRecipe('gbth:andesite_alloy_bloom', 900, 'gtceu:andesite_alloy_bloom', ['gtceu:wrought_iron_ingot', ['minecraft:andesite', 'gtceu:andesite_dust'], '2x #minecraft:coals'])
+    bloomeryRecipe('gbth:redstone', 900, 'minecraft:redstone', ['gtceu:raw_redstone', '#minecraft:coals'])
 
     // Other bloomery recipes
     bloomeryRecipe('gbth:stone', 300, 'minecraft:stone', ['minecraft:cobblestone', '#minecraft:coals'])

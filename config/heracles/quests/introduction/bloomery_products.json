@@ -6,7 +6,7 @@
   "tasks": {
     "bloom": {
       "type": "heracles:item",
-      "item": "#gbth:blooms",
+      "item": "#forge:blooms",
       "amount": 1,
       "collection": "AUTOMATIC"
     },
@@ -40,7 +40,7 @@
     "description": [
       "Once you get your first /d/Blooms/d/ from the /d/Bloomery/d/, you can shape them into /d/Nuggets/d/ or /d/Ingots/d/ by using a /d/Nugget/d/ or /d/Ingot Form/d/ with the /d/Bloom/d/ and a /d/Stone Hammer/d/.",
       "",
-      "Wrought Iron will be needed for andesite alloy."
+      "/d/Wrought Iron/d/ will be needed for /d/Andesite Alloy/d/."
     ],
     "groups": {
       "Introduction": {
@@ -51,7 +51,7 @@
       }
     },
     "icon": {
-      "item": "#gbth:blooms",
+      "item": "#forge:blooms",
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
