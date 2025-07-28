@@ -16,10 +16,10 @@
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
-          "Type": "COMMON",
-          "Color": 13882323,
           "Loot": "lootbags:kjs/b045vtieklvgv2fvdtm88qeks",
-          "Name": "Lootbag (Common Food)"
+          "Name": "Lootbag (Common Food)",
+          "Color": 13882323,
+          "Type": "COMMON"
         }
       },
       "type": "heracles:item"
@@ -49,7 +49,7 @@
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
     "title": {
       "translate": "Spice It Up"
     }

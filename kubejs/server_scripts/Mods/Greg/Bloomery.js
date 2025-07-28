@@ -1,17 +1,18 @@
 ServerEvents.recipes(event => {
 
     // Blooms
-    bloomeryRecipe('gtceu:copper_bloom', 600, 'gtceu:copper_bloom', ['#gbth:copper_bloom_inputs', '#minecraft:coals'])
-    bloomeryRecipe('gtceu:tin_bloom', 600, 'gtceu:tin_bloom', ['#gbth:tin_bloom_inputs', '#minecraft:coals'])
-    bloomeryRecipe('gtceu:wrought_iron_bloom', 600, 'gtceu:wrought_iron_bloom', ['#gbth:wrought_iron_bloom_inputs', '#minecraft:coals'])
-    bloomeryRecipe('gtceu:bronze_bloom', 900, '4x gtceu:bronze_bloom', ['3x minecraft:copper_ingot', 'gtceu:tin_ingot', '2x #minecraft:coals'])
-    bloomeryRecipe('gtceu:andesite_alloy_bloom', 900, 'gtceu:andesite_alloy_bloom', ['gtceu:wrought_iron_ingot', 'minecraft:andesite', '2x #minecraft:coals'])
-    bloomeryRecipe('gtceu:redstone_bloom', 900, 'gtceu:redstone_bloom', ['gtceu:raw_redstone', '#minecraft:coals'])
-    bloomeryRecipe('gtceu:iron_bloom', 300, 'gtceu:iron_bloom', ['gtceu:wrought_iron_nugget', '#minecraft:coals'])
+    bloomeryRecipe('gbth:copper_bloom', 600, 'gtceu:copper_bloom', ['#gbth:copper_bloom_inputs', '#minecraft:coals'])
+    bloomeryRecipe('gbth:tin_bloom', 600, 'gtceu:tin_bloom', ['#gbth:tin_bloom_inputs', '#minecraft:coals'])
+    bloomeryRecipe('gbth:wrought_iron_bloom', 600, 'gtceu:wrought_iron_bloom', ['#gbth:wrought_iron_bloom_inputs', '#minecraft:coals'])
+    bloomeryRecipe('gbth:bronze_bloom', 900, '4x gtceu:bronze_bloom', ['3x minecraft:copper_ingot', 'gtceu:tin_ingot', '2x #minecraft:coals'])
+    bloomeryRecipe('gbth:andesite_alloy_bloom', 900, 'gtceu:andesite_alloy_bloom', ['gtceu:wrought_iron_ingot', ['minecraft:andesite', ChemicalHelper.getDust(GTMaterials.Andesite, GTValues.M)], '2x #minecraft:coals'])
+    bloomeryRecipe('gbth:redstone_bloom', 900, 'gtceu:redstone_bloom', ['gtceu:raw_redstone', '#minecraft:coals'])
+    bloomeryRecipe('gbth:iron_bloom', 300, 'gtceu:iron_bloom', ['gtceu:wrought_iron_nugget', '#minecraft:coals'])
 
     // Other bloomery recipes
-    bloomeryRecipe('kubejs:stone', 300, 'minecraft:stone', ['minecraft:cobblestone', '#minecraft:coals'])
-    bloomeryRecipe('kubejs:smooth_stone', 300, 'minecraft:smooth_stone', ['minecraft:stone', '#minecraft:coals'])
+    bloomeryRecipe('gbth:stone', 300, 'minecraft:stone', ['minecraft:cobblestone', '#minecraft:coals'])
+    bloomeryRecipe('gbth:smooth_stone', 300, 'minecraft:smooth_stone', ['minecraft:stone', '#minecraft:coals'])
+    bloomeryRecipe('gbth:deepslate', 300, 'minecraft:deepslate', ['minecraft:cobbled_deepslate', '#minecraft:coals'])
 
     function bloomeryRecipe(id, duration, output, input) {
         event.recipes.gbthcore.bloomery(id)

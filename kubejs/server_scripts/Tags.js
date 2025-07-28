@@ -62,6 +62,7 @@ ServerEvents.tags('item', event => {
 	event.add('gbth:output_buses', ['gtceu:ulv_output_bus', 'gtceu:lv_output_bus', 'gtceu:mv_output_bus', 'gtceu:hv_output_bus', 'gtceu:ev_output_bus', 'gtceu:iv_output_bus', 'gtceu:luv_output_bus', 'gtceu:zpm_output_bus', 'gtceu:uv_output_bus', 'gtceu:uhv_output_bus'])
 	event.add('gbth:input_hatches', ['gtceu:ulv_input_hatch', 'gtceu:lv_input_hatch', 'gtceu:mv_input_hatch', 'gtceu:hv_input_hatch', 'gtceu:ev_input_hatch', 'gtceu:iv_input_hatch', 'gtceu:luv_input_hatch', 'gtceu:zpm_input_hatch', 'gtceu:uv_input_hatch', 'gtceu:uhv_input_hatch'])
 	event.add('gbth:output_hatches', ['gtceu:ulv_output_hatch', 'gtceu:lv_output_hatch', 'gtceu:mv_output_hatch', 'gtceu:hv_output_hatch', 'gtceu:ev_output_hatch', 'gtceu:iv_output_hatch', 'gtceu:luv_output_hatch', 'gtceu:zpm_output_hatch', 'gtceu:uv_output_hatch', 'gtceu:uhv_output_hatch'])
+  event.add('gbth:deepslate_ore_replaceables', ['minecraft:deepslate', 'minecraft:tuff', 'minecraft:smooth_basalt'])
 
 	event.add('kubejs:fireproof_wood', ['minecraft:warped_stem', 'minecraft:stripped_warped_stem', 'minecraft:stripped_warped_hyphae', 'minecraft:warped_hyphae', 'minecraft:crimson_stem', 'minecraft:stripped_crimson_stem', 'minecraft:stripped_crimson_hyphae', 'minecraft:crimson_hyphae'])
 

@@ -1,0 +1,6 @@
+{
+    "type": "emi:world_interaction",
+    "left": "item:minecraft:campfire",
+    "right": "item:gtceu:rock_salt_dust",
+    "output": "item:gbthcore:rock_blaster"
+}
