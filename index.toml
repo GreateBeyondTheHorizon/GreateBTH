@@ -7,9 +7,6 @@ file = "config/aether-client.toml"
 file = "config/aether-common.toml"
 
 [[files]]
-file = "config/cookingforblockheads-common.toml"
-
-[[files]]
 file = "config/curios-common.toml"
 
 [[files]]
@@ -17,9 +14,6 @@ file = "config/ding.toml"
 
 [[files]]
 file = "config/emi.css"
-
-[[files]]
-file = "config/emi_loot_config.toml"
 
 [[files]]
 file = "config/fancymenu/assets/ebf.fma"
@@ -589,6 +583,18 @@ file = "fancymenu_resources/images/greate_logo.png"
 file = "fancymenu_resources/title splashes/splashes.txt"
 
 [[files]]
+file = "kubejs/,editorconfig"
+
+[[files]]
+file = "kubejs/.prettierignore"
+
+[[files]]
+file = "kubejs/.prettierrc.json"
+
+[[files]]
+file = "kubejs/README.md"
+
+[[files]]
 file = "kubejs/README.txt"
 
 [[files]]
@@ -1069,6 +1075,12 @@ file = "kubejs/data/tconstruct/recipes/tools/materials/composite/iron_wrought.js
 file = "kubejs/jsconfig.json"
 
 [[files]]
+file = "kubejs/package-lock.json"
+
+[[files]]
+file = "kubejs/package.json"
+
+[[files]]
 file = "kubejs/server_scripts/BlockEvents.js"
 
 [[files]]
@@ -1112,9 +1124,6 @@ file = "kubejs/server_scripts/Mods/ComputerCraft.js"
 
 [[files]]
 file = "kubejs/server_scripts/Mods/ConstructionWand.js"
-
-[[files]]
-file = "kubejs/server_scripts/Mods/CookingForBlockheads.js"
 
 [[files]]
 file = "kubejs/server_scripts/Mods/Create.js"
@@ -1261,9 +1270,6 @@ file = "kubejs/server_scripts/Mods/SophisticatedStorage.js"
 file = "kubejs/server_scripts/Mods/TinkersConstruct.js"
 
 [[files]]
-file = "kubejs/server_scripts/Mods/TomsSimpleStorage.js"
-
-[[files]]
 file = "kubejs/server_scripts/OreGeneration/AetherLayerOres.js"
 
 [[files]]
@@ -1331,6 +1337,10 @@ file = "mods/ad-astra.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/advanced-loot-info.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/advanced-peripherals.pw.toml"
 metafile = true
 
@@ -1368,6 +1378,10 @@ metafile = true
 
 [[files]]
 file = "mods/appleskin.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/applied-energistics-2-wireless-terminals.pw.toml"
 metafile = true
 
 [[files]]
@@ -1487,10 +1501,6 @@ file = "mods/controlling.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/cooking-for-blockheads.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/copycats.pw.toml"
 metafile = true
 
@@ -1556,10 +1566,6 @@ metafile = true
 
 [[files]]
 file = "mods/embeddium.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/emi-loot.pw.toml"
 metafile = true
 
 [[files]]
@@ -1806,6 +1812,10 @@ file = "mods/oreberries-replanted.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/patchouli.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/placebo.pw.toml"
 metafile = true
 
@@ -1878,6 +1888,10 @@ file = "mods/sgjourney.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/shelf-mod.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/shulkerboxtooltip.pw.toml"
 metafile = true
 
@@ -1938,10 +1952,6 @@ file = "mods/toast-control.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/toms-storage.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/trash-cans.pw.toml"
 metafile = true
 
@@ -1958,23 +1968,7 @@ file = "mods/ytones.pw.toml"
 metafile = true
 
 [[files]]
-file = "resourcepacks/GBTHOverrides/assets/toms_storage/textures/gui/crafting_terminal.png"
-
-[[files]]
-file = "resourcepacks/GBTHOverrides/assets/toms_storage/textures/gui/storage_terminal.png"
-
-[[files]]
-file = "resourcepacks/GBTHOverrides/pack.mcmeta"
-
-[[files]]
-file = "resourcepacks/GBTHOverrides/pack.png"
-
-[[files]]
 file = "resourcepacks/computercreate.pw.toml"
-metafile = true
-
-[[files]]
-file = "resourcepacks/create-simple-storage.pw.toml"
 metafile = true
 
 [[files]]

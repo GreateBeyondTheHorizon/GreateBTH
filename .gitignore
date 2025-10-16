@@ -12,11 +12,9 @@
 !/config/ae2/common.json
 !/config/aether-client.toml
 !/config/aether-common.toml
-!/config/cookingforblockheads-common.toml
 !/config/curios-common.toml
 !/config/ding.toml
 !/config/emi.css
-!/config/emi_loot_config.toml
 !/config/fancymenu
 !/config/farmersdelight-common.toml
 !/config/gtceu.yaml
@@ -36,7 +34,6 @@
 !/resourcepacks
 /resourcepacks/*
 !/resourcepacks/*.pw.toml
-!/resourcepacks/GBTHOverrides
 
 # mods
 !/mods
@@ -56,3 +53,6 @@
 !.packwizignore
 !index.toml
 !pack.toml
+
+# linter
+/kubejs/node_modules/*

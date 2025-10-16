@@ -1,9 +1,6 @@
 {
     "compilerOptions": {
-        "lib": [
-            "ES5",
-            "ES2015"
-        ],
+        "lib": ["ES5", "ES2015"],
         "rootDirs": [
             "probe/generated",
             "probe/user",

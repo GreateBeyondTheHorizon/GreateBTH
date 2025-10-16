@@ -1,13 +1,13 @@
 {
-  "primaryColor": "#412541",
-  "particleColor": "#683B68",
-  "size": 1.0,
-  "flowerItem": "gtceu:naquadah_alloy_block",
-  "selfbreed": false,
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "gtceu"
-    }
-  ]
+    "primaryColor": "#412541",
+    "particleColor": "#683B68",
+    "size": 1.0,
+    "flowerItem": "gtceu:naquadah_alloy_block",
+    "selfbreed": false,
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "gtceu"
+        }
+    ]
 }

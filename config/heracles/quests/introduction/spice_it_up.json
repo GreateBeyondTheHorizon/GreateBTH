@@ -2,14 +2,7 @@
   "dependencies": [
     "straw"
   ],
-  "tasks": {
-    "spice_rack": {
-      "type": "heracles:item",
-      "item": "cookingforblockheads:spice_rack",
-      "amount": 1,
-      "collection": "AUTOMATIC"
-    }
-  },
+  "tasks": {},
   "rewards": {
     "lootbag": {
       "item": {
@@ -30,9 +23,11 @@
       "text": ""
     },
     "description": [
-      "Since you're unable to make a crafting table, and thus a chest currently, how about a /d/Spice Rack/d/ instead? ",
+      "Since you're unable to make a crafting table, and thus a chest currently, how about a /d/Shelf/d/ instead? ",
       "",
-      "You can store /d/9 Stacks/d/ per /d/Spice Rack/d/."
+      "You can store /d/4 Stacks/d/ per /d/Shelf/d/.",
+      "",
+      "Also comes in floor variants!"
     ],
     "groups": {
       "Introduction": {
@@ -43,15 +38,12 @@
       }
     },
     "icon": {
-      "item": {
-        "id": "cookingforblockheads:spice_rack",
-        "count": 1
-      },
+      "item": "#gbth:shelves",
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
     "title": {
-      "translate": "Spice It Up"
+      "translate": "A Storage Conunndrum"
     }
   },
   "settings": {

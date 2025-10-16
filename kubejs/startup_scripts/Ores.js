@@ -2,35 +2,37 @@
 const UtilsJS = Java.loadClass('dev.latvian.mods.kubejs.util.UtilsJS')
 console.info('Ores Modified')
 
-WorldgenEvents.remove(event => {
-    event.removeOres(props => {
+WorldgenEvents.remove((event) => {
+    event.removeOres((props) => {
         props.worldgenLayer = 'underground_ores'
         props.blocks = [/create:.*/, /byg:.*/, /sgjourney:.*/, /aether:.*/]
     })
 
-    event.removeOres(props => {
+    event.removeOres((props) => {
         props.worldgenLayer = 'underground_decoration'
         props.blocks = [/minecraft:infested_(stone|deepslate)/]
     })
- })
+})
 
-GTCEuStartupEvents.registry('gtceu:world_gen_layer', e => {
+GTCEuStartupEvents.registry('gtceu:world_gen_layer', (e) => {
     e.create('aether')
         .targets('aether:holystone')
         .dimensions('aether:the_aether')
 })
 
-GTCEuStartupEvents.registry('gtceu:tag_prefix', e => {
+GTCEuStartupEvents.registry('gtceu:tag_prefix', (e) => {
     e.create('holystone', 'ore')
         .baseModelLocation('aether:block/holystone')
-        .stateSupplier(() => UtilsJS.parseBlockState('aether:holystone[double_drops=true]'))
+        .stateSupplier(() =>
+            UtilsJS.parseBlockState('aether:holystone[double_drops=true]')
+        )
         .unificationEnabled(true)
         .materialIconType(GTMaterialIconType.ore)
-        .miningToolTag("mineable/pickaxe")
+        .miningToolTag('mineable/pickaxe')
         .generationCondition(ItemGenerationCondition.hasOreProperty)
 })
 
-GTCEuStartupEvents.registry('gtceu:dimension_marker', e => {
+GTCEuStartupEvents.registry('gtceu:dimension_marker', (e) => {
     e.create('aether:the_aether')
         .tier(1)
         .iconSupplier(() => Item.getItem('aether:holystone'))

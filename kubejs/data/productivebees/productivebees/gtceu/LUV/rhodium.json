@@ -4,9 +4,9 @@
     "flowerItem": "gtceu:rhodium_block",
     "selfbreed": false,
     "conditions": [
-      {
-        "type": "forge:mod_loaded",
-        "modid": "gtceu"
-      }
+        {
+            "type": "forge:mod_loaded",
+            "modid": "gtceu"
+        }
     ]
-  }
+}

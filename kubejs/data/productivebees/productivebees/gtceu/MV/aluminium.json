@@ -1,13 +1,13 @@
 {
-  "primaryColor": "#98C0D5",
-  "particleColor": "#5195B8",
-  "size": 1.0,
-  "flowerItem": "gtceu:aluminium_block",
-  "selfbreed": false,
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "gtceu"
-    }
-  ]
+    "primaryColor": "#98C0D5",
+    "particleColor": "#5195B8",
+    "size": 1.0,
+    "flowerItem": "gtceu:aluminium_block",
+    "selfbreed": false,
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "gtceu"
+        }
+    ]
 }

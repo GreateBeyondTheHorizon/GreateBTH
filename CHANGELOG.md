@@ -1,77 +1,50 @@
 **Script/Config Changes**
-- Increase AE2 channels to double the default
-- Fix recipe/quest issues
-- Replace xtones with ytones
-- Swap stone hammer for flint hammer
-- Add new multi for crafting andesite
-- Remove crafting table, smeltery, & alloy smelter recipes for diorite, andesite, & granite
-- Remove redstone bloom
+- Add AE2 Wireless Terminals
+- Replace EMILoot with AdvancedLootInfo
+- Remove Tom's Simple Storage
+- Remove CookingForBlockHeads
+- Add Shelves
+- Add prettier to fix line endings/spacings
 
 **Mod Changes**
-- AdvancedPeripherals-1.20.1-0.7.41r -> AdvancedPeripherals-1.20.1-0.7.44r
-- ae2ct-1.20.1-1.0.4 -> ae2ct-1.20.1-1.1.0
-- antiblocksrechiseled-0.4.6 -> antiblocksrechiseled-0.4.7
-- appliedenergistics2-forge-15.3.3 -> appliedenergistics2-forge-15.4.6
-- Aquaculture-1.20.1-2.5.4 -> Aquaculture-1.20.1-2.5.5
-- balm-forge-1.20.1-7.3.18-all -> balm-forge-1.20.1-7.3.33-all
-- bucketlib-1.20.1-2.3.5.3 -> bucketlib-1.20.1-2.3.7.1
-- cable_facades-1.20.1-Forge-1.3.0 -> cable_facades-1.20.1-Forge-1.3.2
-- chat_heads-0.13.13-forge-1.20 -> chat_heads-0.13.18-forge-1.20
-- chisel_chipped_integration-v1.1.4-1.20.1 -> chisel_chipped_integration-v1.1.6-1.20.1
-- copycats-2.2.1+mc.1.20.1-forge -> copycats-3.0.2+mc.1.20.1-forge
-- corpse-forge-1.20.1-1.0.20 -> corpse-forge-1.20.1-1.0.21
-- craftingtweaks-forge-1.20.1-18.2.5 -> craftingtweaks-forge-1.20.1-18.2.6
-- create-1.20.1-6.0.2 -> create-1.20.1-6.0.6
-- create_connected-0.9.4-mc1.20.1-all -> create_connected-1.1.7-mc1.20.1-all
-- createdieselgenerators-1.20.1-1.3 -> createdieselgenerators-1.20.1-1.3.4
-- curios-forge-5.12.1+1.20.1 -> curios-forge-5.14.1+1.20.1
-- deep_aether-1.20.1-1.1.5 -> deep_aether-1.20.1-1.1.6.1
-- dynamic-fps-3.9.0+minecraft-1.20.0-forge -> dynamic-fps-3.9.5+minecraft-1.20.0-forge
-- elevatorid-1.20.1-lex-1.9 -> elevatorid-1.20.1-1.9.1-forge
-- emi-1.1.20+1.20.1+forge -> emi-1.1.22+1.20.1+forge
-- emi_loot-0.7.5+1.20.1+fix1+forge -> emi_loot-0.7.6+1.20.1+forge
-- entityculling-forge-1.7.3-mc1.20.1 -> entityculling-forge-1.8.2-mc1.20.1
-- ExtendedAE-1.20-1.3.5-forge -> ExtendedAE-1.20-1.4.3-forge
-- ExtremeSoundMuffler-3.49-forge-1.20.1 -> ExtremeSoundMuffler-3.49.1-forge-1.20.1
-- fancymenu_forge_3.4.6_MC_1.20.1 -> fancymenu_forge_3.6.4_MC_1.20.1
-- FarmersDelight-1.20.1-1.2.7 -> FarmersDelight-1.20.1-1.2.8
-- fast-ip-ping-v1.0.5-mc1.20.4-forge -> fast-ip-ping-v1.0.7-mc1.20.4-forge
-- FastSuite-1.20.1-5.0.1 -> FastSuite-1.20.1-5.1.0
-- fusion-1.2.4-forge-mc1.20.1 -> fusion-1.2.8a-forge-mc1.20.1
-- fzzy_config-0.6.4+1.20.1+forge -> fzzy_config-0.7.1+1.20.1+forge
-- geckolib-forge-1.20.1-4.7 -> geckolib-forge-1.20.1-4.7.3
-- gm_construct-1.0.4 -> gm_construct-1.0.7
-- greate-0.0.39 -> greate-0.0.48
-- gtceu-1.20.1-1.6.4 -> gtceu-1.20.1-7.0.2
-- gtnn-1.20.1-1.1.14 -> gtnn-1.20.1-1.1.14
-- guardvillagers-1.20.1-1.6.10 -> guardvillagers-1.20.1-1.6.11
-- ImmediatelyFast-Forge-1.3.6+1.20.4 -> ImmediatelyFast-Forge-1.5.1+1.20.4
-- jei-1.20.1-forge-15.20.0.106 -> jei-1.20.1-forge-15.20.0.112
-- kleeslabs-forge-1.20.1-15.0.6 -> kleeslabs-forge-1.20.1-15.0.8
-- kubejsadditions-forge-4.3.3 -> kubejsadditions-forge-4.3.4
-- lootjs-forge-1.20.1-2.12.0 -> lootjs-forge-1.20.1-2.13.0
-- Lychee-1.20.1-Forge-5.1.18 -> Lychee-1.20.1-Forge-5.1.19
-- Mantle-1.20.1-1.11.44 -> Mantle-1.20.1-1.11.71
-- modernfix-forge-5.20.2+mc1.20.1 -> modernfix-forge-5.24.3+mc1.20.1
-- morejs-forge-1.20.1-0.10.0 -> morejs-forge-1.20.1-0.10.1
-- MyNethersDelight-1.20.1-0.1.7.5 -> MyNethersDelight-1.20.1-0.1.8
-- ProjectRed-1.20.1-4.20.1-beta+4-core -> ProjectRed-1.20.1-4.21.0-core
-- ProjectRed-1.20.1-4.20.1-beta+4-fabrication -> ProjectRed-1.20.1-4.21.0-fabrication
-- ProjectRed-1.20.1-4.20.1-beta+4-illumination -> ProjectRed-1.20.1-4.21.0-illumination
-- ProjectRed-1.20.1-4.20.1-beta+4-integration -> ProjectRed-1.20.1-4.21.0-integration
-- ProjectRed-1.20.1-4.20.1-beta+4-transmission -> ProjectRed-1.20.1-4.21.0-transmission
-- PuzzlesLib-v8.1.28-1.20.1-Forge -> PuzzlesLib-v8.1.32-1.20.1-Forge
-- right-click-harvest-3.2.5+1.20.1-forge -> rightclickharvest-forge-4.5.3+1.20.1
-- SimpleBackups-1.20.1-3.1.12 -> SimpleBackups-1.20.1-3.1.12
-- sliceanddice-forge-3.4.0 -> sliceanddice-forge-3.4.1
-- sophisticatedbackpacks-1.20.1-3.23.19.1263 -> sophisticatedbackpacks-1.20.1-3.23.19.1263
-- sophisticatedcore-1.20.1-1.2.22.901 -> sophisticatedcore-1.20.1-1.2.75.1033
-- sophisticatedstorage-1.20.1-1.3.51.1182 -> sophisticatedstorage-1.20.1-1.3.51.1182
-- Stargate Journey-1.20.1-0.6.34 Hotfix -> Stargate Journey-1.20.1-0.6.39
-- Steam_Rails-1.6.7+forge-mc1.20.1 -> Steam_Rails-1.6.11-alpha+forge-mc1.20.1
-- Super Factory Manager (SFM)-MC1.20.1-4.20.0 -> Super Factory Manager (SFM)-MC1.20.1-4.22.0
-- TConstruct-1.20.1-3.10.1.76 -> TConstruct-1.20.1-3.10.1.76
-- TerraBlender-forge-1.20.1-3.0.1.7 -> TerraBlender-forge-1.20.1-3.0.1.10
-- toms_storage-1.20-1.7.0 -> toms_storage-1.20-1.7.1
-- trading_floor-forge-1.20.1-2.0.1 -> trading_floor-forge-1.20.1-2.0.4
-- VisualWorkbench-v8.0.0-1.20.1-Forge -> VisualWorkbench-v8.0.1-1.20.1-Forge
+- Ksyxis-1.3.3 -> Ksyxis-1.3.4
+- sophisticatedcore-1.20.1-1.2.75.1033 -> sophisticatedcore-1.20.1-1.2.91.1153
+- ExtendedAE-1.20-1.4.3-forge -> ExtendedAE-1.20-1.4.6-forge
+- gtceu-1.20.1-7.0.2 -> gtceu-1.20.1-7.1.4
+- Stargate Journey-1.20.1-0.6.39 -> Stargate Journey-1.20.1-0.6.42
+- baubley-heart-canisters-1.20.1-1.1.0 -> baubley-heart-canisters-1.20.1-1.1.1
+- balm-forge-1.20.1-7.3.33-all -> balm-forge-1.20.1-7.3.35-all
+- ProjectRed-1.20.1-4.21.0-integration -> ProjectRed-1.20.1-4.21.0-integration
+- createdieselgenerators-1.20.1-1.3.4 -> createdieselgenerators-1.20.1-1.3.5
+- modernfix-forge-5.24.3+mc1.20.1 -> modernfix-forge-5.24.4+mc1.20.1
+- trading_floor-forge-1.20.1-2.0.4 -> trading_floor-forge-1.20.1-2.0.5
+- ImmediatelyFast-Forge-1.5.1+1.20.4 -> ImmediatelyFast-Forge-1.5.2+1.20.4
+- moreoverlays-1.22.7-mc1.20.2 -> moreoverlays-1.24.1-mc1.20.1-forge
+- FarmersDelight-1.20.1-1.2.8 -> FarmersDelight-1.20.1-1.2.9
+- Super Factory Manager (SFM)-MC1.20.1-4.22.0 -> Super Factory Manager (SFM)-MC1.20.1-4.25.0
+- ProjectRed-1.20.1-4.21.0-illumination -> ProjectRed-1.20.1-4.21.0-illumination
+- fzzy_config-0.7.1+1.20.1+forge -> fzzy_config-0.7.2+1.20.1+forge
+- fusion-1.2.8a-forge-mc1.20.1 -> fusion-1.2.11a-forge-mc1.20.1
+- AdvancedPeripherals-1.20.1-0.7.44r -> AdvancedPeripherals-1.20.1-0.7.45r
+- SimpleBackups-1.20.1-3.1.15 -> SimpleBackups-1.20.1-3.1.16
+- gtnn-1.20.1-1.3.0 -> gtnn-1.20.1-1.3.4
+- sophisticatedbackpacks-1.20.1-3.23.23.1285 -> sophisticatedbackpacks-1.20.1-3.24.6.1366
+- appliedenergistics2-forge-15.4.6 -> appliedenergistics2-forge-15.4.8
+- fancymenu_forge_3.6.4_MC_1.20.1 -> fancymenu_forge_3.7.0_MC_1.20.1
+- cable_facades-1.20.1-Forge-1.3.2 -> cable_facades-1.20.1-Forge-1.3.4
+- guideme-20.1.11 -> guideme-20.1.13
+- ProjectRed-1.20.1-4.21.0-fabrication -> ProjectRed-1.20.1-4.21.0-fabrication
+- ProjectRed-1.20.1-4.21.0-transmission -> ProjectRed-1.20.1-4.21.0-transmission
+- kleeslabs-forge-1.20.1-15.0.8 -> kleeslabs-forge-1.20.1-15.0.9
+- ProjectRed-1.20.1-4.21.0-core -> ProjectRed-1.20.1-4.21.0-core
+- Steam_Rails-1.6.11-alpha+forge-mc1.20.1 -> Steam_Rails-1.6.13-alpha+forge-mc1.20.1
+- geckolib-forge-1.20.1-4.7.3 -> geckolib-forge-1.20.1-4.7.4
+- Jade-1.20.1-Forge-11.13.1 -> Jade-1.20.1-Forge-11.13.2
+- Mantle-1.20.1-1.11.71 -> Mantle-1.20.1-1.11.79
+- sliceanddice-forge-3.4.1 -> sliceanddice-forge-3.5.1
+- PuzzlesLib-v8.1.32-1.20.1-Forge -> PuzzlesLib-v8.1.33-1.20.1-Forge
+- antiblocksrechiseled-0.4.7 -> antiblocksrechiseled-0.4.8
+- deep_aether-1.20.1-1.1.6.1 -> deep_aether-1.20.1-1.1.7
+- Lychee-1.20.1-Forge-5.1.19 -> Lychee-1.20.1-Forge-5.1.21
+- sophisticatedstorage-1.20.1-1.3.55.1200 -> sophisticatedstorage-1.20.1-1.4.5.1297
+- greate-0.0.48 -> greate-0.0.51
