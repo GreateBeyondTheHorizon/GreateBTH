@@ -1,0 +1,13 @@
+name = "Shelves"
+filename = "shelfmod-1.20.1-forge-2.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "dc1bc3c56237369204dca92336f9371204f70284"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6607399
+project-id = 1092024

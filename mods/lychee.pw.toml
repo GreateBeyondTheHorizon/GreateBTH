@@ -1,13 +1,13 @@
 name = "Lychee (Neo/Forge)"
-filename = "Lychee-1.20.1-Forge-5.1.19.jar"
+filename = "Lychee-1.20.1-Forge-5.1.21.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "221e023bf59618745993bba67c88a6298512466c"
+hash = "418cbc0778188c12014b19348fe15a2e6cc88a20"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6291293
+file-id = 6899773
 project-id = 567403

@@ -1,1 +1,1 @@
-Platform.mods.kubejs.name = "GBTH"
+Platform.mods.kubejs.name = 'GBTH'

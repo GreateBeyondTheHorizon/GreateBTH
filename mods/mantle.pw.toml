@@ -1,13 +1,13 @@
 name = "Mantle"
-filename = "Mantle-1.20.1-1.11.71.jar"
+filename = "Mantle-1.20.1-1.11.79.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "ac9e1be007b11946970da45651305fae91563702"
+hash = "db1ab527fcc48852775e01f9504c7a3ec3083743"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6776978
+file-id = 6819217
 project-id = 74924

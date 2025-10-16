@@ -1,12 +1,8 @@
 {
-    "removed":
-    [
+    "removed": [
         "item:sophisticatedbackpacks:crafting_upgrade",
         "item:sophisticatedstorage:crafting_upgrade"
     ],
-    "filters":
-    [
-        "sophisticatedstorage:crafting_upgrade"
-    ],
+    "filters": ["sophisticatedstorage:crafting_upgrade"],
     "disable": true
 }

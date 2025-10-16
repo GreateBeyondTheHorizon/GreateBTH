@@ -1,13 +1,13 @@
 {
-  "primaryColor": "#E8E8F8",
-  "particleColor": "#C8C8EE",
-  "size": 1.0,
-  "flowerItem": "gtceu:stainless_steel_block",
-  "selfbreed": false,
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "gtceu"
-    }
-  ]
+    "primaryColor": "#E8E8F8",
+    "particleColor": "#C8C8EE",
+    "size": 1.0,
+    "flowerItem": "gtceu:stainless_steel_block",
+    "selfbreed": false,
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "gtceu"
+        }
+    ]
 }

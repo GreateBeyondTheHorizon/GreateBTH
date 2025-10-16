@@ -1,0 +1,22 @@
+{
+    "name": "gbth",
+    "version": "1.0.0",
+    "description": "> The quest for balance in a world torn apart by technology.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/greatebeyondthehorizon/greatebth.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/greatebeyondthehorizon/greatebth/issues"
+    },
+    "homepage": "https://github.com/greatebeyondthehorizon/greatebth#readme",
+    "devDependencies": {
+        "prettier": "^3.6.2"
+    }
+}

@@ -1,5 +1,5 @@
-ServerEvents.recipes(event => {
-	/* event.remove({ type: 'gtceu:ilmenite_ore' })
+ServerEvents.recipes((event) => {
+    /* event.remove({ type: 'gtceu:ilmenite_ore' })
 
 	event.recipes.gtceu
 		.ore_proc('gtceu:multi') //'gtceu:test'
