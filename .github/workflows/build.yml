@@ -16,6 +16,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - run : |
+          ./packwiz-download-latest.sh
+      - run : |
           chmod +x ./packwiz
       - run: |
           ./packwiz cf export -o GBTH.zip

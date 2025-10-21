@@ -48,11 +48,11 @@
 !CHANGELOG.md
 
 # packwiz
-!packwiz.exe
-!packwiz
 !.packwizignore
 !index.toml
 !pack.toml
+!packwiz-download-latest.sh
+!packwiz-download-latest.bat
 
 # linter
 /kubejs/node_modules/*
