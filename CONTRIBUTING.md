@@ -39,7 +39,7 @@ Now that you're more familiar with the projects, check out the next section for 
 2. Download the latest build of the pack from [latest-dev](https://github.com/GreateBeyondTheHorizon/GreateBTH/releases/tag/latest-dev).
 3. Import the pack into your Minecraft launcher of choice.
 4. Open the instance folder then enter the `minecraft` directory.
-5. Download the latest build of [Packwiz](https://github.com/packwiz/packwiz) from [here](https://nightly.link/packwiz/packwiz/workflows/go/main) and extract it to the `minecraft` directory.
+5. Run either [packwiz-download-latest.sh](/packwiz-download-latest.sh) for Linux and MacOS, or [packwiz-download-latest.bat](/packwiz-download-latest.bat) for Windows. You may need to give execute permissions to the script before running it. If you're unable to run the script, you can download the latest build of Packwiz for your operating system from [here](https://nightly.link/packwiz/packwiz/workflows/go/main) and extract it to the instance's `minecraft` directory.
 6. You're now free to change files or add mods in the instance folder that was created in step 3 after importing.
 7. To commit your changes, copy your edits in the instance folder to the folder in which you cloned this repository.
 
