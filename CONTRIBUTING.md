@@ -27,17 +27,21 @@ Now that you're more familiar with the projects, check out the next section for 
 
 1. Download the latest build of the pack from [latest-dev](https://github.com/GreateBeyondTheHorizon/GreateBTH/releases/tag/latest-dev).
 2. Create an instance of the pack by loading the ZIP file you just downloaded into [Prism Launcher](https://prismlauncher.org/) (or your launcher of choice, but it *must* have the ability to specify a pre-launch command for modpacks).
-3. In Prism Launcher, click on your instance, then click "Edit" on the right, then go to the "Settings" section, then go to the "Custom Commands" tab. Here you need to enable Custom Commands, and add `"$INST_JAVA" -jar packwiz-installer-bootstrap.jar https://GreateBeyondTheHorizon.github.io/GreateBTH/pack.toml` as the pre-launch command. This will run Packwiz Installer whenever you launch the pack, which will automatically download the newest versions of files from this repository. If you ever don't want this behaviour (such as when updating a mod, as Packwiz Installer will download the old version of the mod if it is no longer there), you can simply turn the pre-launch command off. Unfortunately, Prism Launcher [forgets the command](https://github.com/PrismLauncher/PrismLauncher/issues/704) when you turn this setting off, so you will need to paste it again.
-4. Clone this repository into the `/minecraft` folder of the newly created instance.
-5. Open the local repository in your editor of choice. You can now start editing! Changes that you make will take effect in your Minecraft instance.
+3. Open the instance directory and enter the `minecraft` directory.
+4. Run either [packwiz-download-latest.sh](/packwiz-download-latest.sh) for Linux and MacOS, or [packwiz-download-latest.bat](/packwiz-download-latest.bat) for Windows. You may need to give execute permissions to the script before running it. If you're unable to run the script, you can download the latest build of Packwiz for your operating system from [here](https://nightly.link/packwiz/packwiz/workflows/go/main) and extract it to the instance's `minecraft` directory.
+5. In Prism Launcher, click on your instance, then click "Edit" on the right, then go to the "Settings" section, then go to the "Custom Commands" tab. Here you need to enable Custom Commands, and add `"$INST_JAVA" -jar packwiz-installer-bootstrap.jar https://GreateBeyondTheHorizon.github.io/GreateBTH/pack.toml` as the pre-launch command. This will run Packwiz Installer whenever you launch the pack, which will automatically download the newest versions of files from this repository. If you ever don't want this behaviour (such as when updating a mod, as Packwiz Installer will download the old version of the mod if it is no longer there), you can simply turn the pre-launch command off. Unfortunately, Prism Launcher [forgets the command](https://github.com/PrismLauncher/PrismLauncher/issues/704) when you turn this setting off, so you will need to paste it again.
+6. Clone this repository into the `/minecraft` folder of the newly created instance.
+7. Open the local repository in your editor of choice. You can now start editing! Changes that you make will take effect in your Minecraft instance.
 
 ### Not using Packwiz Installer
 
 1. Clone the repository.
 2. Download the latest build of the pack from [latest-dev](https://github.com/GreateBeyondTheHorizon/GreateBTH/releases/tag/latest-dev).
 3. Import the pack into your Minecraft launcher of choice.
-4. You're now free to change files or add mods in the instance folder that was created in step 3 after importing.
-5. To commit your changes, copy your edits in the instance folder to the folder in which you cloned this repository.
+4. Open the instance folder then enter the `minecraft` directory.
+5. Download the latest build of [Packwiz](https://github.com/packwiz/packwiz) from [here](https://nightly.link/packwiz/packwiz/workflows/go/main) and extract it to the `minecraft` directory.
+6. You're now free to change files or add mods in the instance folder that was created in step 3 after importing.
+7. To commit your changes, copy your edits in the instance folder to the folder in which you cloned this repository.
 
 **NOTE for not using Packwiz Installer:** Whenever you update your local repo from `master`, make sure to also update your local instance by downloading the newest version of the pack from `latest-dev` and deleting your old instance (you can move your worlds to the new instance if desired). This avoids "but it works on my machine!" issues due to your changes working on your old instance, but not necessarily working on the newest version of the pack. This is why using Packwiz Installer is recommended, but this workflow can still be used if Packwiz Installer doesn't work for you for some reason.
 
