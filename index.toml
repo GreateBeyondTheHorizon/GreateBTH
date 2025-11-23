@@ -1,16 +1,34 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/Advancedperipherals/general.toml"
+
+[[files]]
+file = "config/Advancedperipherals/metaphysics.toml"
+
+[[files]]
+file = "config/Advancedperipherals/peripherals.toml"
+
+[[files]]
+file = "config/Advancedperipherals/world.toml"
+
+[[files]]
 file = "config/aether-client.toml"
 
 [[files]]
 file = "config/aether-common.toml"
 
 [[files]]
+file = "config/chloride-client.json"
+
+[[files]]
 file = "config/curios-common.toml"
 
 [[files]]
 file = "config/ding.toml"
+
+[[files]]
+file = "config/duradisp-client.toml"
 
 [[files]]
 file = "config/emi.css"
@@ -529,6 +547,9 @@ file = "config/heracles/tutorial.html"
 file = "config/immediatelyfast.json"
 
 [[files]]
+file = "config/mantle-client.toml"
+
+[[files]]
 file = "config/moreoverlays.toml"
 
 [[files]]
@@ -640,13 +661,7 @@ file = "kubejs/assets/emi/recipe/additions/water_bucket_dirt_to_mud.json"
 file = "kubejs/assets/emi/recipe/filters/hide.json"
 
 [[files]]
-file = "kubejs/assets/emi_loot/lang/en_us.json"
-
-[[files]]
 file = "kubejs/assets/forge/models/tag/item/slimeballs.json"
-
-[[files]]
-file = "kubejs/assets/gbth/lang/en_us.json"
 
 [[files]]
 file = "kubejs/assets/gtceu/lang/en_us.json"
@@ -1481,6 +1496,10 @@ file = "mods/chisel-chipped-integration.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/chloride.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/cloth-config.pw.toml"
 metafile = true
 
@@ -1561,15 +1580,15 @@ file = "mods/ding.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/dura-redisplayed.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/dynamic-fps.pw.toml"
 metafile = true
 
 [[files]]
 file = "mods/embeddium.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/emi-trades-villager-trading-emi-plugin.pw.toml"
 metafile = true
 
 [[files]]
@@ -1582,10 +1601,6 @@ metafile = true
 
 [[files]]
 file = "mods/ends-delight.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/entityculling.pw.toml"
 metafile = true
 
 [[files]]
@@ -1716,10 +1731,6 @@ file = "mods/konkrete.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/kotlin-for-forge.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/ksyxis.pw.toml"
 metafile = true
 
@@ -1761,6 +1772,10 @@ metafile = true
 
 [[files]]
 file = "mods/melody.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/model-gap-fix.pw.toml"
 metafile = true
 
 [[files]]

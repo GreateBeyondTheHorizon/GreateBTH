@@ -1,50 +1,43 @@
 **Script/Config Changes**
-- Add AE2 Wireless Terminals
-- Replace EMILoot with AdvancedLootInfo
-- Remove Tom's Simple Storage
-- Remove CookingForBlockHeads
-- Add Shelves
-- Add prettier to fix line endings/spacings
+- Add DuraDisplay
+- Add ModelGapFix
+- Add Chloride
+- Fix some lootbag drops
+- Disable AP wandering trader trades
 
 **Mod Changes**
-- Ksyxis-1.3.3 -> Ksyxis-1.3.4
-- sophisticatedcore-1.20.1-1.2.75.1033 -> sophisticatedcore-1.20.1-1.2.91.1153
-- ExtendedAE-1.20-1.4.3-forge -> ExtendedAE-1.20-1.4.6-forge
-- gtceu-1.20.1-7.0.2 -> gtceu-1.20.1-7.1.4
-- Stargate Journey-1.20.1-0.6.39 -> Stargate Journey-1.20.1-0.6.42
-- baubley-heart-canisters-1.20.1-1.1.0 -> baubley-heart-canisters-1.20.1-1.1.1
-- balm-forge-1.20.1-7.3.33-all -> balm-forge-1.20.1-7.3.35-all
-- ProjectRed-1.20.1-4.21.0-integration -> ProjectRed-1.20.1-4.21.0-integration
-- createdieselgenerators-1.20.1-1.3.4 -> createdieselgenerators-1.20.1-1.3.5
-- modernfix-forge-5.24.3+mc1.20.1 -> modernfix-forge-5.24.4+mc1.20.1
-- trading_floor-forge-1.20.1-2.0.4 -> trading_floor-forge-1.20.1-2.0.5
-- ImmediatelyFast-Forge-1.5.1+1.20.4 -> ImmediatelyFast-Forge-1.5.2+1.20.4
-- moreoverlays-1.22.7-mc1.20.2 -> moreoverlays-1.24.1-mc1.20.1-forge
-- FarmersDelight-1.20.1-1.2.8 -> FarmersDelight-1.20.1-1.2.9
-- Super Factory Manager (SFM)-MC1.20.1-4.22.0 -> Super Factory Manager (SFM)-MC1.20.1-4.25.0
-- ProjectRed-1.20.1-4.21.0-illumination -> ProjectRed-1.20.1-4.21.0-illumination
-- fzzy_config-0.7.1+1.20.1+forge -> fzzy_config-0.7.2+1.20.1+forge
-- fusion-1.2.8a-forge-mc1.20.1 -> fusion-1.2.11a-forge-mc1.20.1
-- AdvancedPeripherals-1.20.1-0.7.44r -> AdvancedPeripherals-1.20.1-0.7.45r
-- SimpleBackups-1.20.1-3.1.15 -> SimpleBackups-1.20.1-3.1.16
-- gtnn-1.20.1-1.3.0 -> gtnn-1.20.1-1.3.4
-- sophisticatedbackpacks-1.20.1-3.23.23.1285 -> sophisticatedbackpacks-1.20.1-3.24.6.1366
-- appliedenergistics2-forge-15.4.6 -> appliedenergistics2-forge-15.4.8
-- fancymenu_forge_3.6.4_MC_1.20.1 -> fancymenu_forge_3.7.0_MC_1.20.1
-- cable_facades-1.20.1-Forge-1.3.2 -> cable_facades-1.20.1-Forge-1.3.4
-- guideme-20.1.11 -> guideme-20.1.13
-- ProjectRed-1.20.1-4.21.0-fabrication -> ProjectRed-1.20.1-4.21.0-fabrication
-- ProjectRed-1.20.1-4.21.0-transmission -> ProjectRed-1.20.1-4.21.0-transmission
-- kleeslabs-forge-1.20.1-15.0.8 -> kleeslabs-forge-1.20.1-15.0.9
-- ProjectRed-1.20.1-4.21.0-core -> ProjectRed-1.20.1-4.21.0-core
-- Steam_Rails-1.6.11-alpha+forge-mc1.20.1 -> Steam_Rails-1.6.13-alpha+forge-mc1.20.1
-- geckolib-forge-1.20.1-4.7.3 -> geckolib-forge-1.20.1-4.7.4
-- Jade-1.20.1-Forge-11.13.1 -> Jade-1.20.1-Forge-11.13.2
-- Mantle-1.20.1-1.11.71 -> Mantle-1.20.1-1.11.79
-- sliceanddice-forge-3.4.1 -> sliceanddice-forge-3.5.1
-- PuzzlesLib-v8.1.32-1.20.1-Forge -> PuzzlesLib-v8.1.33-1.20.1-Forge
-- antiblocksrechiseled-0.4.7 -> antiblocksrechiseled-0.4.8
-- deep_aether-1.20.1-1.1.6.1 -> deep_aether-1.20.1-1.1.7
-- Lychee-1.20.1-Forge-5.1.19 -> Lychee-1.20.1-Forge-5.1.21
-- sophisticatedstorage-1.20.1-1.3.55.1200 -> sophisticatedstorage-1.20.1-1.4.5.1297
-- greate-0.0.48 -> greate-0.0.51
+- AdvancedLootInfo-forge-1.20.1-1.3.5 -> AdvancedLootInfo-forge-1.20.1-1.5.2
+- AdvancedPeripherals-1.20.1-0.7.45r -> AdvancedPeripherals-1.20.1-0.7.46r
+- ae2ct-1.20.1-1.1.0 -> ae2ct-1.20.1-1.1.1
+- ae2wtlib-15.3.0-forge -> ae2wtlib-15.3.3-forge
+- appliedenergistics2-forge-15.4.8 -> appliedenergistics2-forge-15.4.10
+- balm-forge-1.20.1-7.3.35-all -> balm-forge-1.20.1-7.3.37-all
+- cc-tweaked-1.20.1-forge-1.116.1 -> cc-tweaked-1.20.1-forge-1.116.2
+- chat_heads-0.13.18-forge-1.20 -> chat_heads-0.14.2-forge-1.20
+- corpse-forge-1.20.1-1.0.21 -> corpse-forge-1.20.1-1.0.23
+- create-1.20.1-6.0.6 -> create-1.20.1-6.0.8
+- create_connected-1.1.7-mc1.20.1-all -> create_connected-1.1.10-mc1.20.1-all
+- duradisp-1.0.3 -> duradisp-1.0.4
+- ExtendedAE-1.20-1.4.6-forge -> ExtendedAE-1.20-1.4.9-forge
+- fancymenu_forge_3.7.0_MC_1.20.1 -> fancymenu_forge_3.8.0_MC_1.20.1
+- findme-3.2.1-forge -> findme-3.2.3-forge
+- fzzy_config-0.7.2+1.20.1+forge -> fzzy_config-0.7.3+1.20.1+forge
+- geckolib-forge-1.20.1-4.7.4 -> geckolib-forge-1.20.1-4.8.2
+- gm_construct-1.0.7 -> gm_construct-1.0.8
+- greate-0.0.51 -> greate-0.0.54
+- gtceu-1.20.1-7.1.4 -> gtceu-1.20.1-7.3.0
+- gtnn-1.20.1-1.3.4 -> gtnn-1.20.1-1.3.5
+- guideme-20.1.13 -> guideme-20.1.14
+- inventorysorter-1.20.1-23.0.8 -> inventorysorter-1.20.1-23.0.11
+- jei-1.20.1-forge-15.20.0.112 -> jei-1.20.1-forge-15.20.0.123
+- Lychee-1.20.1-Forge-5.1.21 -> Lychee-1.20.1-Forge-5.1.22
+- modernfix-forge-5.24.4+mc1.20.1 -> modernfix-forge-5.25.1+mc1.20.1
+- rightclickharvest-forge-4.5.3+1.20.1 -> rightclickharvest-forge-4.6.0+1.20.1
+- SimpleBackups-1.20.1-3.1.16 -> SimpleBackups-1.20.1-3.1.22
+- sliceanddice-forge-3.5.1 -> sliceanddice-forge-3.6.0
+- sophisticatedbackpacks-1.20.1-3.24.6.1366 -> sophisticatedbackpacks-1.20.1-3.24.12.1411
+- sophisticatedcore-1.20.1-1.2.91.1153 -> sophisticatedcore-1.20.1-1.2.107.1240
+- sophisticatedstorage-1.20.1-1.4.5.1297 -> sophisticatedstorage-1.20.1-1.4.15.1362
+- Stargate Journey-1.20.1-0.6.42 -> Stargate Journey-1.20.1-0.6.44
+- Steam_Rails-1.6.13-alpha+forge-mc1.20.1 -> Steam_Rails-1.6.14-beta+forge-mc1.20.1
+- Super Factory Manager (SFM)-MC1.20.1-4.25.0 -> Super Factory Manager (SFM)-MC1.20.1-4.27.0

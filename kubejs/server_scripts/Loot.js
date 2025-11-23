@@ -34,41 +34,9 @@ LootJS.modifiers((event) => {
 })
 
 ServerEvents.chestLootTables((event) => {
-    event.addChest('gbth:logs', (t) => {
-        t.addPool((p) => {
-            p.rolls = 1
-            p.addItem('minecraft:oak_log', 3)
-            p.addItem('minecraft:birch_log', 3)
-            p.addItem('minecraft:spruce_log', 3)
-            p.addItem('minecraft:acacia_log', 3)
-            p.addItem('minecraft:cherry_log', 3)
-            p.addItem('minecraft:jungle_log', 3)
-            p.addItem('minecraft:dark_oak_log', 3)
-            p.addItem('minecraft:mangrove_log', 3)
-            p.addItem('gtceu:rubber_log', 3)
-        })
-    })
-
-    event.addChest('gbth:saplings', (t) => {
-        t.addPool((p) => {
-            p.rolls = 1
-            p.addItem('minecraft:oak_sapling', 3)
-            p.addItem('minecraft:birch_sapling', 3)
-            p.addItem('minecraft:spruce_sapling', 3)
-            p.addItem('minecraft:acacia_sapling', 3)
-            p.addItem('minecraft:cherry_sapling', 3)
-            p.addItem('minecraft:jungle_sapling', 3)
-            p.addItem('minecraft:dark_oak_sapling', 3)
-            p.addItem('minecraft:mangrove_propagule', 3)
-            p.addItem('gtceu:rubber_sapling', 3)
-        })
-    })
-
     event.addChest('gbth:dirt_age', (t) => {
         t.addPool((p) => {
             p.rolls = 1
-            p.addLootTable('gbth:chests/saplings').weight(8).count([1, 4])
-            p.addLootTable('gbth:chests/logs').weight(8).count([1, 4])
             p.addItem('minecraft:dirt', 4, [1, 8])
             p.addItem('minecraft:cobblestone', 4, [1, 8])
             p.addItem('minecraft:string', 2, [1, 4])
@@ -76,6 +44,12 @@ ServerEvents.chestLootTables((event) => {
             p.addItem('minecraft:coal', 2, [1, 4])
             p.addItem('minecraft:stick', 3, [1, 8])
             p.addItem('minecraft:wheat_seeds', 5, [1, 8])
+            p.addItem('minecraft:rotten_flesh', 4, [1, 8])
+
+            //true: give 1 item in the tag per roll, false: give every item in the tag per roll
+            p.addTag('minecraft:saplings', true).weight(3).count([1, 8])
+            p.addTag('minecraft:logs', true).weight(3).count([1, 16])
+            p.addTag('gbth:vanilla_dyes', false).weight(3).count([1, 16])
         })
     })
 
@@ -90,7 +64,6 @@ ServerEvents.chestLootTables((event) => {
             p.addItem('minecraft:lapis_lazuli', 2, [1, 8])
             p.addItem('gtceu:sticky_resin', 2, [1, 4])
             p.addItem('gtceu:resin_circuit_board', 2, [1, 8])
-            p.addItem('gtceu:resin_circuit_board', 2, [1, 4])
             p.addItem('gtceu:resistor', 2, [1, 4])
             p.addItem('gtceu:glass_tube', 2, [1, 8])
             p.addItem('gtceu:vacuum_tube', 1, [1, 2])

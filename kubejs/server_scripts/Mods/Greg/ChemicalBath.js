@@ -38,7 +38,7 @@ ServerEvents.recipes((event) => {
         .duration(20)
         .itemInputs('#farmersdelight:hanging_canvas_signs')
         .inputFluids(Fluid.of(`gtceu:chlorine`, 20))
-        .itemOutputs(`farmersdelight:hanging_vanvas_sign`)
+        .itemOutputs(`farmersdelight:hanging_canvas_sign`)
         .EUt(7)
 
     event.recipes.gtceu

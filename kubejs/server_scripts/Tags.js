@@ -216,6 +216,25 @@ ServerEvents.tags('item', (event) => {
         'gtceu:uhv_output_hatch',
     ])
 
+    event.add('gbth:vanilla_dyes', [
+        'minecraft:white_dye',
+        'minecraft:orange_dye',
+        'minecraft:magenta_dye',
+        'minecraft:light_blue_dye',
+        'minecraft:yellow_dye',
+        'minecraft:lime_dye',
+        'minecraft:pink_dye',
+        'minecraft:gray_dye',
+        'minecraft:light_gray_dye',
+        'minecraft:cyan_dye',
+        'minecraft:purple_dye',
+        'minecraft:blue_dye',
+        'minecraft:brown_dye',
+        'minecraft:green_dye',
+        'minecraft:red_dye',
+        'minecraft:black_dye',
+    ])
+
     event.add('kubejs:fireproof_wood', [
         'minecraft:warped_stem',
         'minecraft:stripped_warped_stem',
@@ -306,4 +325,10 @@ ServerEvents.tags('fluid', (event) => {
         event.removeAllTagsFrom(fluid)
         event.add('c:hidden_from_recipe_viewers', fluid)
     }
+})
+
+ServerEvents.tags('worldgen/biome', (event) => {
+    //remove if either mod is added
+    event.removeAll('aether_villages:collections/ancient_aether_biomes')
+    event.removeAll('aether_villages:collections/aether_redux_biomes')
 })

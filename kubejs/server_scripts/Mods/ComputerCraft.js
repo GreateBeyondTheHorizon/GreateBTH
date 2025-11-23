@@ -2,7 +2,7 @@ ServerEvents.recipes((event) => {
     event.remove({ id: 'computercraft:cable' })
     event.recipes.gtceu
         .assembler('computercraft:cable')
-        .itemInputs('gtceu:gold_single_cable', 'gtceu:red_alloy_tiny_dust')
+        .itemInputs('gtceu:gold_single_cable', 'gtceu:tiny_red_alloy_dust')
         .itemOutputs('computercraft:cable')
         .duration(200)
         .EUt(120)
@@ -13,9 +13,9 @@ ServerEvents.recipes((event) => {
         .assembler('computercraft:disk_drive')
         .itemInputs(
             'gtceu:lv_machine_casing',
-            '2x #forge:circuits/hv',
+            '2x #gtceu:circuits/hv',
             'gtceu:mv_electric_motor',
-            'gtceu:copper_small_spring',
+            'gtceu:small_copper_spring',
             'gtceu:magnetic_iron_rod',
             'gtceu:glass_lens'
         )
@@ -29,9 +29,9 @@ ServerEvents.recipes((event) => {
         .assembler('computercraft:printer')
         .itemInputs(
             'gtceu:lv_machine_casing',
-            '2x #forge:circuits/hv',
+            '2x #gtceu:circuits/hv',
             'gtceu:mv_electric_motor',
-            '2x gtceu:copper_small_spring',
+            '2x gtceu:small_copper_spring',
             'gtceu:iron_rod'
         )
         .inputFluids('gtceu:polyethylene 72')
@@ -44,7 +44,7 @@ ServerEvents.recipes((event) => {
         .assembler('computercraft:speaker')
         .itemInputs(
             'gtceu:lv_machine_casing',
-            '2x #forge:circuits/hv',
+            '2x #gtceu:circuits/hv',
             'minecraft:note_block'
         )
         .inputFluids('gtceu:polyethylene 72')
@@ -57,7 +57,7 @@ ServerEvents.recipes((event) => {
         .assembler('computercraft:monitor_normal')
         .itemInputs(
             'gtceu:lv_machine_casing',
-            '2x #forge:circuits/hv',
+            '2x #gtceu:circuits/hv',
             'create:display_board'
         )
         .inputFluids('gtceu:polyethylene 72')
@@ -70,7 +70,7 @@ ServerEvents.recipes((event) => {
         .assembler('computercraft:monitor_advanced')
         .itemInputs(
             'gtceu:hv_machine_casing',
-            '2x #forge:circuits/ev',
+            '2x #gtceu:circuits/ev',
             'create:display_board'
         )
         .inputFluids('gtceu:polyethylene 72')
