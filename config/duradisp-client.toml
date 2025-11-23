@@ -1,0 +1,4 @@
+#Format to display durability/energy in
+#Allowed Values: DISABLED, ENABLED_PERCENTAGE, ENABLED_NUMBER, ENABLED_SCIENTIFIC
+displayState = "ENABLED_PERCENTAGE"
+

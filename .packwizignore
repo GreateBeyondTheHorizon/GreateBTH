@@ -10,20 +10,24 @@
 # configs
 !/config
 /config/*
-!/config/AdvancedPeripherals
-!/config/AdvancedPeripherals/world.toml
+/config/Advancedperipherals/*
+!/config/Advancedperipherals
+!/config/Advancedperipherals/world.toml
 !/config/ae2/client.json
 !/config/ae2/common.json
 !/config/aether-client.toml
 !/config/aether-common.toml
+!/config/chloride-client.json
 !/config/curios-common.toml
 !/config/ding.toml
+!/config/duradisp-client.toml
 !/config/emi.css
 !/config/fancymenu
 !/config/farmersdelight-common.toml
 !/config/gtceu.yaml
 !/config/heracles
 !/config/immediatelyfast.json
+!/config/mantle-client.toml
 !/config/moreoverlays.toml
 !/config/oreberriesreplanted-common.toml
 !/config/rightclickharvest.toml
@@ -34,7 +38,6 @@
 !/kubejs
 !/packmenu
 !/resourcepacks
-/config/AdvancedPeripherals/*
 /kubejs/probe
 
 # resource packs

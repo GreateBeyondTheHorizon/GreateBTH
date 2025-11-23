@@ -45,16 +45,4 @@ MoreJSEvents.wandererTrades((event) => {
         secondItem: Ingredient.all,
         outputItem: 'minecraft:glowstone',
     })
-
-    // ComputerCraft
-    event.removeTrades({
-        firstItem: Ingredient.all,
-        secondItem: Ingredient.all,
-        outputItem: 'computercraft:turtle_advanced',
-    })
-    event.removeTrades({
-        firstItem: Ingredient.all,
-        secondItem: Ingredient.all,
-        outputItem: 'advancedperipherals:peripheral_casing',
-    })
 })

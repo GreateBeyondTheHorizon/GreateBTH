@@ -5,6 +5,31 @@ const AllGuiTextures = Java.loadClass(
 JEIEvents.hideItems((event) => {
     event.hide(/(.*)_bucket/)
     event.hide(/sophisticatedstorage:(.*)shulker_box/)
+    //this gets rid of unfueled rockets too 🙃
+    event.hide(
+        Item.of(
+            'ad_astra:tier_1_rocket',
+            '{BotariumData:{StoredFluids:[{Amount:3000L,Fluid:"ad_astra:fuel"}]}}'
+        )
+    )
+    event.hide(
+        Item.of(
+            'ad_astra:tier_2_rocket',
+            '{BotariumData:{StoredFluids:[{Amount:3000L,Fluid:"ad_astra:fuel"}]}}'
+        )
+    )
+    event.hide(
+        Item.of(
+            'ad_astra:tier_3_rocket',
+            '{BotariumData:{StoredFluids:[{Amount:3000L,Fluid:"ad_astra:fuel"}]}}'
+        )
+    )
+    event.hide(
+        Item.of(
+            'ad_astra:tier_4_rocket',
+            '{BotariumData:{StoredFluids:[{Amount:3000L,Fluid:"ad_astra:fuel"}]}}'
+        )
+    )
 })
 
 JEIEvents.addItems((event) => {
@@ -15,6 +40,10 @@ JEIEvents.addItems((event) => {
     event.add('ceramicbucket:ceramic_bucket')
     event.add('gtceu:concrete_bucket')
     event.add('tconstruct:tinkers_anvil')
+    event.add('ad_astra:tier_1_rocket')
+    event.add('ad_astra:tier_2_rocket')
+    event.add('ad_astra:tier_3_rocket')
+    event.add('ad_astra:tier_4_rocket')
 })
 
 JEIAddedEvents.registerCategories((event) => {

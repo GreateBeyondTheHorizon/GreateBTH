@@ -27,32 +27,46 @@ ServerEvents.recipes((event) => {
         }
     })
 
-    event.remove({ not: { mod: 'chipped' }, output: '#minecraft:wooden_doors' })
     Ingredient.of('#minecraft:wooden_doors').itemIds.forEach((door) => {
         var plank = door.replace('door', 'planks')
         var trapdoor = door.replace('door', 'trapdoor')
-        event.shaped(Item.of(door), ['PTC', 'PRS', 'PPA'], {
-            P: plank,
-            T: trapdoor,
-            S: 'gtceu:iron_screw',
-            R: 'gtceu:iron_ring',
-            C: '#forge:tools/screwdrivers',
-            A: '#forge:tools/saws',
-        })
+        if (Item.of(plank) != null && Item.of(trapdoor) != null) {
+            event.remove({ not: { mod: 'chipped' }, output: door })
+            event.shaped(Item.of(door), ['PTC', 'PRS', 'PPA'], {
+                P: plank,
+                T: trapdoor,
+                S: 'gtceu:iron_screw',
+                R: 'gtceu:iron_ring',
+                C: '#forge:tools/screwdrivers',
+                A: '#forge:tools/saws',
+            })
 
-        event.recipes.gtceu
-            .assembler(door)
-            .duration(400)
-            .itemInputs([trapdoor, Item.of(plank, 4)])
-            .itemOutputs(door)
-            .inputFluids(Fluid.of('gtceu:iron', 16))
-            .EUt(4)
+            event.recipes.gtceu
+                .assembler(door)
+                .duration(400)
+                .itemInputs([trapdoor, Item.of(plank, 4)])
+                .itemOutputs(door)
+                .inputFluids(Fluid.of('gtceu:iron', 16))
+                .EUt(4)
+        }
     })
 
     event.remove([
-        { type: 'minecraft:crafting_shaped', output: '#minecraft:planks' },
-        { type: 'minecraft:crafting_shapeless', output: '#minecraft:planks' },
-        { type: 'gtceu:cutter', output: '#minecraft:planks' },
+        {
+            not: { mod: 'chipped' },
+            type: 'minecraft:crafting_shaped',
+            output: '#minecraft:planks',
+        },
+        {
+            not: { mod: 'chipped' },
+            type: 'minecraft:crafting_shapeless',
+            output: '#minecraft:planks',
+        },
+        {
+            not: { mod: 'chipped' },
+            type: 'gtceu:cutter',
+            output: '#minecraft:planks',
+        },
     ])
     Ingredient.of('#minecraft:planks').itemIds.forEach((planks) => {
         if (!planks.startsWith('chipped')) {
@@ -140,20 +154,22 @@ ServerEvents.recipes((event) => {
     Ingredient.of('#minecraft:wooden_pressure_plates').itemIds.forEach(
         (pressurePlate) => {
             var slab = pressurePlate.replace('pressure_plate', 'slab')
-            event.shaped(Item.of(pressurePlate, 2), ['BMB', 'SPS', 'BCB'], {
-                B: 'gtceu:wood_bolt',
-                M: '#forge:tools/mallets',
-                S: slab,
-                P: 'gtceu:iron_spring',
-                C: '#forge:tools/screwdrivers',
-            })
+            if (Item.of(slab) != null) {
+                event.shaped(Item.of(pressurePlate, 2), ['BMB', 'SPS', 'BCB'], {
+                    B: 'gtceu:wood_bolt',
+                    M: '#forge:tools/mallets',
+                    S: slab,
+                    P: 'gtceu:iron_spring',
+                    C: '#forge:tools/screwdrivers',
+                })
 
-            event.recipes.gtceu
-                .assembler(pressurePlate)
-                .duration(100)
-                .itemInputs(['gtceu:iron_spring', Item.of(slab, 2)])
-                .itemOutputs(Item.of(pressurePlate, 2))
-                .EUt(7)
+                event.recipes.gtceu
+                    .assembler(pressurePlate)
+                    .duration(100)
+                    .itemInputs(['gtceu:iron_spring', Item.of(slab, 2)])
+                    .itemOutputs(Item.of(pressurePlate, 2))
+                    .EUt(7)
+            }
         }
     )
 

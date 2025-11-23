@@ -6,8 +6,7 @@ ServerEvents.recipes((event) => {
         .duration(100)
         .notConsumable('minecraft:basalt')
         .itemOutputs('minecraft:basalt')
-        .addData('fluidA', 'minecraft:lava')
-        .addData('fluidB', 'minecraft:water')
+        .adjacentFluids('minecraft:water', 'minecraft:lava')
         .EUt(240)
 
     event.recipes.gtceu
@@ -15,8 +14,7 @@ ServerEvents.recipes((event) => {
         .duration(100)
         .notConsumable('minecraft:blackstone')
         .itemOutputs('minecraft:blackstone')
-        .addData('fluidA', 'minecraft:lava')
-        .addData('fluidB', 'minecraft:water')
+        .adjacentFluids('minecraft:water', 'minecraft:lava')
         .EUt(240)
 
     event.recipes.gtceu
@@ -24,8 +22,7 @@ ServerEvents.recipes((event) => {
         .duration(100)
         .notConsumable('gtceu:red_granite')
         .itemOutputs('gtceu:red_granite')
-        .addData('fluidA', 'minecraft:lava')
-        .addData('fluidB', 'minecraft:water')
+        .adjacentFluids('minecraft:water', 'minecraft:lava')
         .EUt(960)
 
     event.recipes.gtceu
@@ -33,8 +30,7 @@ ServerEvents.recipes((event) => {
         .duration(100)
         .notConsumable('minecraft:andesite')
         .itemOutputs('minecraft:andesite')
-        .addData('fluidA', 'minecraft:lava')
-        .addData('fluidB', 'minecraft:water')
+        .adjacentFluids('minecraft:water', 'minecraft:lava')
         .EUt(7)
 
     event.recipes.gtceu
@@ -42,8 +38,7 @@ ServerEvents.recipes((event) => {
         .duration(100)
         .notConsumable('minecraft:granite')
         .itemOutputs('minecraft:granite')
-        .addData('fluidA', 'minecraft:lava')
-        .addData('fluidB', 'minecraft:water')
+        .adjacentFluids('minecraft:water', 'minecraft:lava')
         .EUt(60)
 
     event.recipes.gtceu
@@ -51,8 +46,7 @@ ServerEvents.recipes((event) => {
         .duration(100)
         .notConsumable('minecraft:stone')
         .itemOutputs('minecraft:stone')
-        .addData('fluidA', 'minecraft:lava')
-        .addData('fluidB', 'minecraft:water')
+        .adjacentFluids('minecraft:water', 'minecraft:lava')
         .EUt(7)
 
     event.recipes.gtceu
@@ -60,8 +54,7 @@ ServerEvents.recipes((event) => {
         .duration(100)
         .notConsumable('gtceu:marble')
         .itemOutputs('gtceu:marble')
-        .addData('fluidA', 'minecraft:lava')
-        .addData('fluidB', 'minecraft:water')
+        .adjacentFluids('minecraft:water', 'minecraft:lava')
         .EUt(240)
 
     event.recipes.gtceu
@@ -69,8 +62,7 @@ ServerEvents.recipes((event) => {
         .duration(100)
         .notConsumable('minecraft:cobblestone')
         .itemOutputs('minecraft:cobblestone')
-        .addData('fluidA', 'minecraft:lava')
-        .addData('fluidB', 'minecraft:water')
+        .adjacentFluids('minecraft:water', 'minecraft:lava')
         .EUt(7)
 
     event.recipes.gtceu
@@ -78,8 +70,7 @@ ServerEvents.recipes((event) => {
         .duration(100)
         .notConsumable('minecraft:diorite')
         .itemOutputs('minecraft:diorite')
-        .addData('fluidA', 'minecraft:lava')
-        .addData('fluidB', 'minecraft:water')
+        .adjacentFluids('minecraft:water', 'minecraft:lava')
         .EUt(60)
 
     event.recipes.gtceu
@@ -87,8 +78,7 @@ ServerEvents.recipes((event) => {
         .duration(100)
         .itemInputs('minecraft:redstone')
         .itemOutputs('minecraft:obsidian')
-        .addData('fluidA', 'minecraft:lava')
-        .addData('fluidB', 'minecraft:water')
+        .adjacentFluids('minecraft:water', 'minecraft:lava')
         .EUt(30)
 
     event.recipes.gtceu
@@ -96,8 +86,7 @@ ServerEvents.recipes((event) => {
         .duration(100)
         .notConsumable('minecraft:deepslate')
         .itemOutputs('minecraft:deepslate')
-        .addData('fluidA', 'minecraft:lava')
-        .addData('fluidB', 'minecraft:water')
+        .adjacentFluids('minecraft:water', 'minecraft:lava')
         .EUt(960)
 
     event.recipes.gtceu
@@ -105,8 +94,7 @@ ServerEvents.recipes((event) => {
         .duration(100)
         .notConsumable('minecraft:cobbled_deepslate')
         .itemOutputs('minecraft:cobbled_deepslate')
-        .addData('fluidA', 'minecraft:lava')
-        .addData('fluidB', 'minecraft:water')
+        .adjacentFluids('minecraft:water', 'minecraft:lava')
         .EUt(960)
 
     event.recipes.gtceu
@@ -114,8 +102,7 @@ ServerEvents.recipes((event) => {
         .duration(100)
         .notConsumable('minecraft:tuff')
         .itemOutputs('minecraft:tuff')
-        .addData('fluidA', 'minecraft:lava')
-        .addData('fluidB', 'minecraft:water')
+        .adjacentFluids('minecraft:water', 'minecraft:lava')
         .EUt(7)
 
     event.recipes.gtceu
@@ -123,8 +110,7 @@ ServerEvents.recipes((event) => {
         .duration(100)
         .notConsumable('minecraft:smooth_basalt')
         .itemOutputs('minecraft:smooth_basalt')
-        .addData('fluidA', 'minecraft:lava')
-        .addData('fluidB', 'minecraft:water')
+        .adjacentFluids('minecraft:water', 'minecraft:lava')
         .EUt(7)
 
     event.recipes.gtceu
@@ -132,8 +118,7 @@ ServerEvents.recipes((event) => {
         .duration(100)
         .notConsumable('create:asurine')
         .itemOutputs('create:asurine')
-        .addData('fluidA', 'minecraft:lava')
-        .addData('fluidB', 'minecraft:water')
+        .adjacentFluids('minecraft:water', 'minecraft:lava')
         .EUt(7)
 
     event.recipes.gtceu
@@ -141,8 +126,7 @@ ServerEvents.recipes((event) => {
         .duration(100)
         .notConsumable('create:crimsite')
         .itemOutputs('create:crimsite')
-        .addData('fluidA', 'minecraft:lava')
-        .addData('fluidB', 'minecraft:water')
+        .adjacentFluids('minecraft:water', 'minecraft:lava')
         .EUt(7)
 
     event.recipes.gtceu
@@ -150,8 +134,7 @@ ServerEvents.recipes((event) => {
         .duration(100)
         .notConsumable('create:limestone')
         .itemOutputs('create:limestone')
-        .addData('fluidA', 'minecraft:lava')
-        .addData('fluidB', 'minecraft:water')
+        .adjacentFluids('minecraft:water', 'minecraft:lava')
         .EUt(7)
 
     event.recipes.gtceu
@@ -159,8 +142,7 @@ ServerEvents.recipes((event) => {
         .duration(100)
         .notConsumable('create:ochrum')
         .itemOutputs('create:ochrum')
-        .addData('fluidA', 'minecraft:lava')
-        .addData('fluidB', 'minecraft:water')
+        .adjacentFluids('minecraft:water', 'minecraft:lava')
         .EUt(7)
 
     event.recipes.gtceu
@@ -168,8 +150,7 @@ ServerEvents.recipes((event) => {
         .duration(100)
         .notConsumable('create:scoria')
         .itemOutputs('create:scoria')
-        .addData('fluidA', 'minecraft:lava')
-        .addData('fluidB', 'minecraft:water')
+        .adjacentFluids('minecraft:water', 'minecraft:lava')
         .EUt(7)
 
     event.recipes.gtceu
@@ -177,8 +158,7 @@ ServerEvents.recipes((event) => {
         .duration(100)
         .notConsumable('create:scorchia')
         .itemOutputs('create:scorchia')
-        .addData('fluidA', 'minecraft:lava')
-        .addData('fluidB', 'minecraft:water')
+        .adjacentFluids('minecraft:water', 'minecraft:lava')
         .EUt(7)
 
     event.recipes.gtceu
@@ -186,7 +166,6 @@ ServerEvents.recipes((event) => {
         .duration(100)
         .notConsumable('create:veridium')
         .itemOutputs('create:veridium')
-        .addData('fluidA', 'minecraft:lava')
-        .addData('fluidB', 'minecraft:water')
+        .adjacentFluids('minecraft:water', 'minecraft:lava')
         .EUt(7)
 })
