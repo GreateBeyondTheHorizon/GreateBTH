@@ -1,13 +1,14 @@
 name = "Dura: ReDisplayed"
-filename = "duradisp-1.0.4.jar"
+filename = "duradisp-1.0.3.jar"
 side = "both"
+pin = true
 
 [download]
 hash-format = "sha1"
-hash = "5154889b80779bdbcd3704e5fc0d9ec60621e460"
+hash = "deaafc6fe59cc0914256823a6a4662977b6a4453"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7236800
+file-id = 7236585
 project-id = 1333235
