@@ -4,6 +4,11 @@
 - Add Chloride
 - Fix some lootbag drops
 - Disable AP wandering trader trades
+- Hide Trading Floor Villager Trading EMI Tab (ALI already shows this)
+- Fix broken custom JEI Tab
+- Hide unused oreberries
+- Disable making gears/rods/plates in the smeltery
+- Remove TCon beacon recipe
 
 **Mod Changes**
 - AdvancedLootInfo-forge-1.20.1-1.3.5 -> AdvancedLootInfo-forge-1.20.1-1.5.2
@@ -14,6 +19,7 @@
 - balm-forge-1.20.1-7.3.35-all -> balm-forge-1.20.1-7.3.37-all
 - cc-tweaked-1.20.1-forge-1.116.1 -> cc-tweaked-1.20.1-forge-1.116.2
 - chat_heads-0.13.18-forge-1.20 -> chat_heads-0.14.2-forge-1.20
+- copycats-3.0.2+mc.1.20.1-forge -> copycats-3.0.4+mc.1.20.1-forge
 - corpse-forge-1.20.1-1.0.21 -> corpse-forge-1.20.1-1.0.23
 - create-1.20.1-6.0.6 -> create-1.20.1-6.0.8
 - create_connected-1.1.7-mc1.20.1-all -> create_connected-1.1.10-mc1.20.1-all
@@ -24,12 +30,12 @@
 - fzzy_config-0.7.2+1.20.1+forge -> fzzy_config-0.7.3+1.20.1+forge
 - geckolib-forge-1.20.1-4.7.4 -> geckolib-forge-1.20.1-4.8.2
 - gm_construct-1.0.7 -> gm_construct-1.0.8
-- greate-0.0.51 -> greate-0.0.54
+- greate-0.0.51 -> greate-0.0.56
 - gtceu-1.20.1-7.1.4 -> gtceu-1.20.1-7.3.0
 - gtnn-1.20.1-1.3.4 -> gtnn-1.20.1-1.3.5
 - guideme-20.1.13 -> guideme-20.1.14
 - inventorysorter-1.20.1-23.0.8 -> inventorysorter-1.20.1-23.0.11
-- jei-1.20.1-forge-15.20.0.112 -> jei-1.20.1-forge-15.20.0.123
+- jei-1.20.1-forge-15.20.0.112 -> jei-1.20.1-forge-15.20.0.125
 - Lychee-1.20.1-Forge-5.1.21 -> Lychee-1.20.1-Forge-5.1.22
 - modernfix-forge-5.24.4+mc1.20.1 -> modernfix-forge-5.25.1+mc1.20.1
 - rightclickharvest-forge-4.5.3+1.20.1 -> rightclickharvest-forge-4.6.0+1.20.1
@@ -40,4 +46,4 @@
 - sophisticatedstorage-1.20.1-1.4.5.1297 -> sophisticatedstorage-1.20.1-1.4.15.1362
 - Stargate Journey-1.20.1-0.6.42 -> Stargate Journey-1.20.1-0.6.44
 - Steam_Rails-1.6.13-alpha+forge-mc1.20.1 -> Steam_Rails-1.6.14-beta+forge-mc1.20.1
-- Super Factory Manager (SFM)-MC1.20.1-4.25.0 -> Super Factory Manager (SFM)-MC1.20.1-4.27.0
+- Super Factory Manager (SFM)-MC1.20.1-4.25.0 -> Super Factory Manager (SFM)-MC1.20.1-4.28.0

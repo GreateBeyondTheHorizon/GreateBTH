@@ -32,6 +32,20 @@ JEIEvents.hideItems((event) => {
     )
 })
 
+JEIEvents.hideFluids((event) => {
+    event.hide('oreberriesreplanted:iron_oreberry_juice')
+    event.hide('oreberriesreplanted:gold_oreberry_juice')
+    event.hide('oreberriesreplanted:copper_oreberry_juice')
+    event.hide('oreberriesreplanted:tin_oreberry_juice')
+    event.hide('oreberriesreplanted:aluminum_oreberry_juice')
+    event.hide('oreberriesreplanted:lead_oreberry_juice')
+    event.hide('oreberriesreplanted:nickel_oreberry_juice')
+    event.hide('oreberriesreplanted:uranium_oreberry_juice')
+    event.hide('oreberriesreplanted:osmium_oreberry_juice')
+    event.hide('oreberriesreplanted:zinc_oreberry_juice')
+    event.hide('oreberriesreplanted:silver_oreberry_juice')
+})
+
 JEIEvents.addItems((event) => {
     event.add('minecraft:bucket')
     event.add('minecraft:water_bucket')
@@ -48,6 +62,8 @@ JEIEvents.addItems((event) => {
 
 JEIAddedEvents.registerCategories((event) => {
     event.custom('kubejs:create_info', (c) => {
+        c.width = 100
+        c.height = 50
         c.title('Item Dropping')
             .background(
                 event.data.jeiHelpers.guiHelper.createBlankDrawable(100, 50)

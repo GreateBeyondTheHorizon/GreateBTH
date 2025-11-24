@@ -182,7 +182,13 @@ removeNamespaceItems('farmersdelight', [
 ])
 
 //Oreberries
-removeNamespaceItems('oreberriesreplanted', ['copper_nugget'])
+removeNamespaceItems('oreberriesreplanted', [
+    'copper_nugget',
+    /.*_vat/,
+    /uranium_.*/,
+    /osmium_.*/,
+    /.*_bucket/,
+])
 
 //Aquaculture
 removeNamespaceItems('aquaculture', [
@@ -252,6 +258,12 @@ removeNamespaceItems('tconstruct', [
     'rose_gold_nugget',
     'rose_gold_block',
     'flint_and_brick',
+    'gear_cast',
+    'gear_sand_cast',
+    'gear_red_sand_cast',
+    'plate_cast',
+    'plate_red_sand_cast',
+    'plate_sand_cast',
 ])
 
 removeNamespaceItems('ends_delight', [
