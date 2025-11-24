@@ -23,6 +23,14 @@ ServerEvents.recipes((event) => {
     event.remove({
         id: /tconstruct:smeltery\/casting\/quartz\/(diorite|andesite|granite)/,
     })
+    event.remove({ id: /tconstruct:smeltery\/casting\/.*\/gear_.*_cast/ })
+    event.remove({ id: /tconstruct:smeltery\/casting\/.*\/plate_.*_cast/ })
+    event.remove({
+        id: /tconstruct:smeltery\/casting\/metal\/iron\/rod_.*_cast/,
+    })
+    event.remove({
+        id: /tconstruct:smeltery\/casting\/metal\/steel\/rod_.*_cast/,
+    })
 
     event.campfireCooking('tconstruct:seared_brick', 'tconstruct:grout')
 

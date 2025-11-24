@@ -27,6 +27,7 @@ ServerEvents.recipes((event) => {
     })
     event.remove({ id: /create:(smelting|smoking)(.*)bread/ })
     event.remove({ id: /minecraft:(diorite|andesite|granite)/ })
+    event.remove({ id: 'tconstruct:common/glass/vanilla/beacon' })
 
     event
         .campfireCooking('minecraft:brick', 'gtceu:compressed_clay')
