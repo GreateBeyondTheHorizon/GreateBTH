@@ -5,6 +5,7 @@ ServerEvents.recipes((event) => {
     event.remove({ id: 'farmersdelight:paper_from_tree_bark' })
     event.remove({ id: 'farmersdelight:rope' })
     event.remove({ id: 'farmersdelight:lead_from_straw' })
+    event.remove({ output: 'farmersdelight:pie_crust' })
     event.remove({ id: /farmersdelight:.*_canvas_sign/ })
     event.remove({ id: /farmersdelight:.*_hanging_canvas_sign/ })
     event.remove({ id: /aquaculturedelight:cutting\/knife\/neptunium_.*/ })

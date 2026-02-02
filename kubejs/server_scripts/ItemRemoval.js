@@ -48,7 +48,7 @@ var itemsToReplace = [
     { removedItem: 'create:wheat_flour', replacement: 'gtceu:wheat_dust' },
     {
         removedItem: 'create:propeller',
-        replacement: 'gtceu:andesite_alloy_rotor',
+        replacement: 'greate:andesite_alloy_rotor',
     },
     { removedItem: 'create:shaft', replacement: 'greate:andesite_alloy_shaft' }, //TODO: move to greate
 

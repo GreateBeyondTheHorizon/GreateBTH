@@ -20,6 +20,8 @@
 	[client.modifiers]
 		#If true, the shield slot legging modifier will render the next offhand item above the offhand slot.
 		renderShieldSlotItem = true
+		#If true, the selected item from sleeves will render next to the offhand slit.
+		renderSleevesItem = true
 
 		#Settings related to the frame helmet modifier
 		[client.modifiers.itemFrame]
@@ -37,6 +39,21 @@
 			#Number of items to display in each row of the item frame.
 			#Range: 0 ~ 100
 			itemsPerRow = 5
+
+		#Settings related to the minimap modifier
+		[client.modifiers.minimap]
+			#Offset in the X direction for the minimap.
+			#Range: -32768 ~ 32767
+			xOffset = 0
+			#Offset in the Y direction for the minimap.
+			#Range: -32768 ~ 32767
+			yOffset = 0
+			#Size to render the minimap. Set to 0 to disable the renderer
+			#Range: 0.0 ~ 100.0
+			scale = 0.75
+			#Location of the minimap on the screen.
+			#Allowed Values: TOP_LEFT, TOP, TOP_RIGHT, LEFT, RIGHT, BOTTOM_LEFT, BOTTOM, BOTTOM_RIGHT
+			location = "TOP_LEFT"
 
 	#JEI configuration
 	[client.jei]

@@ -162,7 +162,7 @@ ServerEvents.recipes((event) => {
     })
 
     event.shaped(Item.of('create:mechanical_drill'), [' A ', 'ASA', ' C '], {
-        A: 'gtceu:andesite_alloy_plate',
+        A: 'greate:andesite_alloy_plate',
         S: 'gtceu:steel_plate',
         C: 'create:andesite_casing',
     })

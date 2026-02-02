@@ -4,7 +4,7 @@ ServerEvents.recipes((event) => {
 
     global.Greate.MachineTiers.forEach((tier) => {
         var output = `kubejs:${tier}_sand_paper`
-        var input = `gtceu:${tier}_plate`
+        var input = `#forge:plates/${tier}`
         event.recipes.gtceu
             .alloy_smelter(output)
             .duration(100)

@@ -509,7 +509,7 @@ tools:
   voltageTierQuarkTech: 5
 
   # Advanced QuarkTech Suit Chestplate Voltage Tier.
-  # Default: 5 (LuV)
+  # Default: 6 (LuV)
   voltageTierAdvQuarkTech: 6
 
   # Electric Impeller Jetpack Voltage Tier.
