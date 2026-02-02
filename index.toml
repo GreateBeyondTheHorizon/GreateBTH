@@ -1,6 +1,15 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/Advancedperipherals/general.toml"
+
+[[files]]
+file = "config/Advancedperipherals/metaphysics.toml"
+
+[[files]]
+file = "config/Advancedperipherals/peripherals.toml"
+
+[[files]]
 file = "config/Advancedperipherals/world.toml"
 
 [[files]]

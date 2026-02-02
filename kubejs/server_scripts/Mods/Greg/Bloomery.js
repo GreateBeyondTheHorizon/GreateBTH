@@ -20,7 +20,7 @@ ServerEvents.recipes((event) => {
     bloomeryRecipe(
         'gbth:andesite_alloy_bloom',
         900,
-        'gtceu:andesite_alloy_bloom',
+        'greate:andesite_alloy_bloom',
         [
             'gtceu:wrought_iron_ingot',
             ['minecraft:andesite', 'gtceu:andesite_dust'],
@@ -96,16 +96,16 @@ ServerEvents.recipes((event) => {
     )
     metalworkingRecipe(
         'create:andesite_alloy',
-        'gtceu:andesite_alloy_bloom',
+        'greate:andesite_alloy_bloom',
         'gtceu:brick_wooden_form'
     )
     metalworkingRecipe(
-        '9x gtceu:andesite_alloy_nugget',
-        'gtceu:andesite_alloy_bloom',
+        '9x greate:andesite_alloy_nugget',
+        'greate:andesite_alloy_bloom',
         'kubejs:nugget_wooden_form'
     )
     metalworkingRecipe(
-        'minecraft:iron_nugget',
+        '9x minecraft:iron_nugget',
         'gtceu:iron_bloom',
         'kubejs:nugget_wooden_form'
     )

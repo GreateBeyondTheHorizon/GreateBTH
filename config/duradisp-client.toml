@@ -1,4 +1,10 @@
 #Format to display durability/energy in
 #Allowed Values: DISABLED, ENABLED_PERCENTAGE, ENABLED_NUMBER, ENABLED_SCIENTIFIC
 displayState = "ENABLED_PERCENTAGE"
+#Render the fullness of the bucket
+bucketRender = false
+#Render a black outline around the text
+outline = true
+#Hide the render when the amount is maxed out
+hideWhenFull = true
 

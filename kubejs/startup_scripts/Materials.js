@@ -3,6 +3,10 @@ const $BloomProperty = Java.loadClass(
     'com.gbth.gbthcore.integration.gtceu.material.BloomProperty'
 )
 
+const $GreateMaterials = Java.loadClass(
+    'electrolyte.greate.registry.GreateMaterials'
+)
+
 GTCEuStartupEvents.registry('gtceu:material', (event) => {
     GTMaterials.Polyethylene.addFlags(GTMaterialFlags.GENERATE_ROTOR)
     GTMaterials.Wood.addFlags(GTMaterialFlags.GENERATE_RING)
@@ -14,7 +18,7 @@ GTCEuStartupEvents.registry('gtceu:material', (event) => {
     )
     GTMaterials.Netherite.addFlags(GTMaterialFlags.GENERATE_PLATE)
 
-    GTMaterials.get('andesite_alloy').setProperty(
+    $GreateMaterials.AndesiteAlloy.setProperty(
         GBTHCorePropertyKeys.BLOOM,
         new $BloomProperty()
     )

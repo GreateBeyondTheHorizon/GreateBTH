@@ -11,39 +11,43 @@
 - Remove TCon beacon recipe
 
 **Mod Changes**
-- AdvancedLootInfo-forge-1.20.1-1.3.5 -> AdvancedLootInfo-forge-1.20.1-1.5.2
-- AdvancedPeripherals-1.20.1-0.7.45r -> AdvancedPeripherals-1.20.1-0.7.46r
-- ae2ct-1.20.1-1.1.0 -> ae2ct-1.20.1-1.1.1
-- ae2wtlib-15.3.0-forge -> ae2wtlib-15.3.3-forge
-- appliedenergistics2-forge-15.4.8 -> appliedenergistics2-forge-15.4.10
-- balm-forge-1.20.1-7.3.35-all -> balm-forge-1.20.1-7.3.37-all
-- cc-tweaked-1.20.1-forge-1.116.1 -> cc-tweaked-1.20.1-forge-1.116.2
-- chat_heads-0.13.18-forge-1.20 -> chat_heads-0.14.2-forge-1.20
-- copycats-3.0.2+mc.1.20.1-forge -> copycats-3.0.4+mc.1.20.1-forge
-- corpse-forge-1.20.1-1.0.21 -> corpse-forge-1.20.1-1.0.23
-- create-1.20.1-6.0.6 -> create-1.20.1-6.0.8
-- create_connected-1.1.7-mc1.20.1-all -> create_connected-1.1.10-mc1.20.1-all
-- duradisp-1.0.3 -> duradisp-1.0.4
-- ExtendedAE-1.20-1.4.6-forge -> ExtendedAE-1.20-1.4.9-forge
-- fancymenu_forge_3.7.0_MC_1.20.1 -> fancymenu_forge_3.8.0_MC_1.20.1
-- findme-3.2.1-forge -> findme-3.2.3-forge
-- fzzy_config-0.7.2+1.20.1+forge -> fzzy_config-0.7.3+1.20.1+forge
-- geckolib-forge-1.20.1-4.7.4 -> geckolib-forge-1.20.1-4.8.2
-- gm_construct-1.0.7 -> gm_construct-1.0.8
-- greate-0.0.51 -> greate-0.0.56
-- gtceu-1.20.1-7.1.4 -> gtceu-1.20.1-7.3.0
-- gtnn-1.20.1-1.3.4 -> gtnn-1.20.1-1.3.5
-- guideme-20.1.13 -> guideme-20.1.14
-- inventorysorter-1.20.1-23.0.8 -> inventorysorter-1.20.1-23.0.11
-- jei-1.20.1-forge-15.20.0.112 -> jei-1.20.1-forge-15.20.0.125
-- Lychee-1.20.1-Forge-5.1.21 -> Lychee-1.20.1-Forge-5.1.22
-- modernfix-forge-5.24.4+mc1.20.1 -> modernfix-forge-5.25.1+mc1.20.1
-- rightclickharvest-forge-4.5.3+1.20.1 -> rightclickharvest-forge-4.6.0+1.20.1
-- SimpleBackups-1.20.1-3.1.16 -> SimpleBackups-1.20.1-3.1.22
-- sliceanddice-forge-3.5.1 -> sliceanddice-forge-3.6.0
-- sophisticatedbackpacks-1.20.1-3.24.6.1366 -> sophisticatedbackpacks-1.20.1-3.24.12.1411
-- sophisticatedcore-1.20.1-1.2.91.1153 -> sophisticatedcore-1.20.1-1.2.107.1240
-- sophisticatedstorage-1.20.1-1.4.5.1297 -> sophisticatedstorage-1.20.1-1.4.15.1362
-- Stargate Journey-1.20.1-0.6.42 -> Stargate Journey-1.20.1-0.6.44
-- Steam_Rails-1.6.13-alpha+forge-mc1.20.1 -> Steam_Rails-1.6.14-beta+forge-mc1.20.1
-- Super Factory Manager (SFM)-MC1.20.1-4.25.0 -> Super Factory Manager (SFM)-MC1.20.1-4.28.0
+- Sophisticated Storage: sophisticatedstorage-1.20.1-1.4.15.1362 -> sophisticatedstorage-1.20.1-1.4.23.1468
+- Dynamic FPS: dynamic-fps-3.9.5+minecraft-1.20.0-forge -> dynamic-fps-3.11.4+minecraft-1.20.0-forge
+- Simple Backups: SimpleBackups-1.20.1-3.1.22 -> SimpleBackups-1.20.1-3.1.24
+- Shelves: shelfmod-1.20.1-forge-2.2 -> shelfmod-mc1.20.1-forge-3.2
+- Create: Connected: create_connected-1.1.10-mc1.20.1-all -> create_connected-1.1.12-mc1.20.1-all
+- Fzzy Config: fzzy_config-0.7.3+1.20.1+forge -> fzzy_config-0.7.5+1.20.1+forge
+- Dank Storage: dankstorage-forge-1.20.1-15 -> dankstorage-forge-1.20.1-16
+- Fast IP Ping: fast-ip-ping-v1.0.7-mc1.20.4-forge -> fast-ip-ping-v1.0.8-mc1.20.4-forge
+- Just Enough Items (JEI): jei-1.20.1-forge-15.20.0.125 -> jei-1.20.1-forge-15.20.0.129
+- Chloride (Embeddium++/Sodium++): chloride-FORGE-mc1.20.1-v1.7.2 -> chloride-FORGE-mc1.20.1-v1.7.5
+- Lychee (Neo/Forge): Lychee-1.20.1-Forge-5.1.22 -> Lychee-1.20.1-Forge-5.1.24
+- Aquaculture 2: Aquaculture-1.20.1-2.5.5 -> Aquaculture-1.20.1-2.5.7
+- Fusion (Connected Textures): fusion-1.2.11a-forge-mc1.20.1 -> fusion-1.2.12-forge-mc1.20.1
+- GT--: gtnn-1.20.1-1.3.5 -> gtnn-1.20.1-1.3.6
+- Advanced Loot Info: AdvancedLootInfo-forge-1.20.1-1.5.2 -> AdvancedLootInfo-forge-1.20.1-1.7.1
+- Create: Diesel Generators: createdieselgenerators-1.20.1-1.3.5 -> createdieselgenerators-1.20.1-1.3.8
+- Sophisticated Backpacks: sophisticatedbackpacks-1.20.1-3.24.12.1411 -> sophisticatedbackpacks-1.20.1-3.24.20.1500
+- Mantle: Mantle-1.20.1-1.11.79 -> Mantle-1.20.1-1.11.104
+- SuperMartijn642's Core Lib: supermartijn642corelib-1.1.18-forge-mc1.20.1 -> supermartijn642corelib-1.1.20-forge-mc1.20.1
+- FastSuite: FastSuite-1.20.1-5.1.0 -> FastSuite-1.20.1-5.1.2
+- Sophisticated Core: sophisticatedcore-1.20.1-1.2.107.1240 -> sophisticatedcore-1.20.1-1.3.1.1460
+- Create: Steam 'n' Rails: Steam_Rails-1.6.14-beta+forge-mc1.20.1 -> Steam_Rails-1.6.15-beta+forge-mc1.20.1
+- Tinkers Construct: TConstruct-1.20.1-3.10.2.92 -> TConstruct-1.20.1-3.11.2.166
+- KleeSlabs: kleeslabs-forge-1.20.1-15.0.9 -> kleeslabs-forge-1.20.1-15.0.11
+- FancyMenu: fancymenu_forge_3.8.0_MC_1.20.1 -> fancymenu_forge_3.8.1_MC_1.20.1
+- Balm: balm-forge-1.20.1-7.3.37-all -> balm-forge-1.20.1-7.3.38-all
+- ModernFix: modernfix-forge-5.25.1+mc1.20.1 -> modernfix-forge-5.26.2+mc1.20.1
+- ImmediatelyFast: ImmediatelyFast-Forge-1.5.2+1.20.4 -> ImmediatelyFast-Forge-1.5.4+1.20.4
+- Extreme sound muffler - (Neo)Forge: ExtremeSoundMuffler-3.49.1-forge-1.20.1 -> ExtremeSoundMuffler-3.51-forge-1.20.1
+- GeckoLib: geckolib-forge-1.20.1-4.8.2 -> geckolib-forge-1.20.1-4.8.3
+- Crafting Tweaks: craftingtweaks-forge-1.20.1-18.2.6 -> craftingtweaks-forge-1.20.1-18.2.8
+- Greg's Modern Construct: gm_construct-1.0.8 -> gm_construct-1.0.9
+- RightClickHarvest: rightclickharvest-forge-4.6.0+1.20.1 -> rightclickharvest-forge-4.6.1+1.20.1
+- Update skipped for pinned mod Dura: ReDisplayed
+- GregTech CEu Modern: gtceu-1.20.1-7.3.0 -> gtceu-1.20.1-7.4.1
+- LootJS: KubeJS Addon: lootjs-forge-1.20.1-2.13.0 -> lootjs-forge-1.20.1-2.13.1
+- ExtendedAE: ExtendedAE-1.20-1.4.9-forge -> ExtendedAE-1.20-1.4.10-forge
+- Guard Villagers: guardvillagers-1.20.1-1.6.11 -> guardvillagers-1.20.1-1.6.15
+- CC: Tweaked: cc-tweaked-1.20.1-forge-1.116.2 -> cc-tweaked-1.20.1-forge-1.117.0
+- Greate: greate-0.0.56 -> greate-0.0.64

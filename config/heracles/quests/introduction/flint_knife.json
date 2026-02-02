@@ -6,23 +6,7 @@
     "knife": {
       "type": "heracles:item",
       "item": "gtceu:flint_knife",
-      "nbt": {
-        "DisallowContainerItem": 0,
-        "GT.Behaviours": {},
-        "HideFlags": 2,
-        "Enchantments": [
-          {
-            "lvl": 2,
-            "id": "minecraft:fire_aspect"
-          }
-        ],
-        "GT.Tool": {
-          "AttackDamage": 1,
-          "MaxDamage": 63,
-          "Damage": 0,
-          "AttackSpeed": 3
-        }
-      },
+      "nbt": {},
       "amount": 1,
       "collection": "AUTOMATIC"
     }
@@ -33,10 +17,10 @@
         "id": "lootbags:loot_bag",
         "count": 1,
         "nbt": {
-          "Type": "COMMON",
-          "Color": 13882323,
           "Loot": "lootbags:kjs/1nahon2xq5tpy6fivtu10isy8",
-          "Name": "Lootbag (Dirt Age)"
+          "Name": "Lootbag (Dirt Age)",
+          "Color": 13882323,
+          "Type": "COMMON"
         }
       },
       "type": "heracles:item"
@@ -67,16 +51,17 @@
           "DisallowContainerItem": 0,
           "GT.Behaviours": {},
           "HideFlags": 2,
+          "GT.Tool": {
+            "MaxDamage": 63,
+            "Damage": 0
+          },
           "Enchantments": [
             {
               "lvl": 2,
               "id": "minecraft:fire_aspect"
             }
           ],
-          "GT.Tool": {
-            "MaxDamage": 63,
-            "Damage": 0
-          }
+          "Damage": 0
         }
       },
       "type": "heracles:item"
