@@ -1,0 +1,18 @@
+# Enable/Disable wire coating recipes in the crafting grid/packer/assembler.
+# If disabled, wire coating recipes will only be accessible via the spout & wire coating factory.
+enableGTWireCoatingRecipes: true
+
+# Enable/Disable harder recipes for various Create blocks & items.
+enableHardCreateRecipes: true
+
+# Should certain Create items that have a GTCEu counterpart also be used in recipes?
+# If false, GTCEu items will be only be used.
+useCreateItemsInRecipes: false
+
+# Should recipes from create that conflict with GTCEu recipes be enabled?
+# [WARNING]: This will not cover every single recipe conflict, only common conflicts (like components (plates/sheets)), or ore processing conflicts.
+disableConflictingRecipes: true
+
+# Recipe types that should not be copied to Greate machines. Ex. 'gtceu:macerator' for macerator recipes
+ignoredRecipeTypes:
+

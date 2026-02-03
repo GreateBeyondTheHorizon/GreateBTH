@@ -121,6 +121,9 @@ file = "config/fancymenu/user_variables.db"
 file = "config/farmersdelight-common.toml"
 
 [[files]]
+file = "config/greate-recipes.yaml"
+
+[[files]]
 file = "config/gtceu.yaml"
 
 [[files]]
