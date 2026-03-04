@@ -1,19 +1,19 @@
 {
-    "filters": [
-        {
-            "category": "minecraft:blasting"
-        },
-        {
-            "category": "minecraft:smoking"
-        },
-        {
-            "category": "sgjourney:crystallizing"
-        },
-        {
-            "category": "tconstruct:foundry"
-        },
-        {
-            "category": "trading_floor:potential_villager_trade"
-        }
-    ]
+  "filters": [
+    {
+      "category": "minecraft:blasting"
+    },
+    {
+      "category": "minecraft:smoking"
+    },
+    {
+      "category": "sgjourney:crystallizing"
+    },
+    {
+      "category": "tconstruct:foundry"
+    },
+    {
+      "category": "trading_floor:potential_villager_trade"
+    }
+  ]
 }

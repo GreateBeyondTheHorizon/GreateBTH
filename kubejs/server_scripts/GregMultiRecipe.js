@@ -1,5 +1,5 @@
 ServerEvents.recipes((event) => {
-    /* event.remove({ type: 'gtceu:ilmenite_ore' })
+  /* event.remove({ type: 'gtceu:ilmenite_ore' })
 
 	event.recipes.gtceu
 		.ore_proc('gtceu:multi') //'gtceu:test'
@@ -8,4 +8,4 @@ ServerEvents.recipes((event) => {
 		.inputFluids('gtceu:sulfuric_acid 100')
 		.duration(100)
 		.EUt(512) */
-})
+});

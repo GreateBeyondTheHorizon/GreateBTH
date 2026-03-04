@@ -1090,6 +1090,9 @@ file = "kubejs/data/sgjourney/tags/worldgen/biome/has_structure/terra_stargate_b
 file = "kubejs/data/tconstruct/recipes/tools/materials/composite/iron_wrought.json"
 
 [[files]]
+file = "kubejs/eslint.config.mjs"
+
+[[files]]
 file = "kubejs/jsconfig.json"
 
 [[files]]
@@ -1544,6 +1547,10 @@ metafile = true
 
 [[files]]
 file = "mods/create-diesel-generators.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/create-factory-logistics.pw.toml"
 metafile = true
 
 [[files]]

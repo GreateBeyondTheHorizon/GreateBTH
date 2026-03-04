@@ -1,3 +1,3 @@
 ServerEvents.recipes((event) => {
-    event.remove({ type: 'expatternprovider:circuit_cutter' })
-})
+  event.remove({ type: "expatternprovider:circuit_cutter" });
+});

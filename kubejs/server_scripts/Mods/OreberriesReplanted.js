@@ -1,3 +1,3 @@
 ServerEvents.recipes((event) => {
-    event.remove({ type: 'oreberriesreplanted:vat' })
-})
+  event.remove({ type: "oreberriesreplanted:vat" });
+});

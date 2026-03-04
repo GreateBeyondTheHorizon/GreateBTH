@@ -1,6 +1,6 @@
 {
-    "type": "emi:world_interaction",
-    "left": "item:minecraft:campfire",
-    "right": "item:minecraft:cobbled_deepslate",
-    "output": "item:gbthcore:rock_blaster"
+  "type": "emi:world_interaction",
+  "left": "item:minecraft:campfire",
+  "right": "item:minecraft:cobbled_deepslate",
+  "output": "item:gbthcore:rock_blaster"
 }
