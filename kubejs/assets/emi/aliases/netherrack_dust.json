@@ -1,8 +1,8 @@
 {
-    "aliases": [
-        {
-            "stacks": "item:create:cinder_flour",
-            "text": "alias.emi.netherrack.dust"
-        }
-    ]
+  "aliases": [
+    {
+      "stacks": "item:create:cinder_flour",
+      "text": "alias.emi.netherrack.dust"
+    }
+  ]
 }

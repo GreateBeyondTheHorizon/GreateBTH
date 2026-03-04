@@ -1,6 +1,6 @@
 {
-    "type": "emi:world_interaction",
-    "left": "item:minecraft:campfire",
-    "right": "#item:forge:raw_materials",
-    "output": "item:gbthcore:bloomery"
+  "type": "emi:world_interaction",
+  "left": "item:minecraft:campfire",
+  "right": "#item:forge:raw_materials",
+  "output": "item:gbthcore:bloomery"
 }

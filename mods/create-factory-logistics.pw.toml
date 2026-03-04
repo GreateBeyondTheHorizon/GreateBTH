@@ -1,0 +1,13 @@
+name = "Create Factory Logistics"
+filename = "create_factory_logistics-1.20.1-1.4.7.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "bf67707d1645197f27cd9a4abea13159fa0fef1e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7159834
+project-id = 1218807

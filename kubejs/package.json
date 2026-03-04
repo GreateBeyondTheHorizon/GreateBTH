@@ -1,22 +1,33 @@
 {
-    "name": "gbth",
-    "version": "1.0.0",
-    "description": "> The quest for balance in a world torn apart by technology.",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/greatebeyondthehorizon/greatebth.git"
-    },
-    "author": "",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/greatebeyondthehorizon/greatebth/issues"
-    },
-    "homepage": "https://github.com/greatebeyondthehorizon/greatebth#readme",
-    "devDependencies": {
-        "prettier": "^3.6.2"
-    }
+  "name": "gbth",
+  "version": "1.0.0",
+  "description": "> The quest for balance in a world torn apart by technology.",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write .",
+    "lint": "npx eslint .",
+    "lint:fix": "npm run format && npm run lint -- --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/greatebeyondthehorizon/greatebth.git"
+  },
+  "author": "Electrolyte",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/greatebeyondthehorizon/greatebth/issues"
+  },
+  "homepage": "https://github.com/greatebeyondthehorizon/greatebth#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "@stylistic/eslint-plugin": "^5.7.1",
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "globals": "^17.3.0",
+    "prettier": "^3.6.2"
+  },
+  "prettier": {
+    "printWidth": 200,
+    "trailingComma": "none"
+  }
 }
