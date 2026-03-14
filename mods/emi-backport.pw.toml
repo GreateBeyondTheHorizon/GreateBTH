@@ -1,0 +1,13 @@
+name = "EMI++ Backport"
+filename = "emixx-forge-1.3.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cdb6368e32e0742c9284fffca65ac30c91fcf692"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7754590
+project-id = 1411826

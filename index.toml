@@ -940,6 +940,9 @@ file = "kubejs/assets/sophisticatedstorage/lang/en_us.json"
 file = "kubejs/client_scripts/BlockEvents.js"
 
 [[files]]
+file = "kubejs/client_scripts/EMIGroups.js"
+
+[[files]]
 file = "kubejs/client_scripts/JEI.js"
 
 [[files]]
@@ -1602,6 +1605,10 @@ file = "mods/embeddium.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/emi-backport.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/emi.pw.toml"
 metafile = true
 
@@ -1738,6 +1745,10 @@ metafile = true
 
 [[files]]
 file = "mods/konkrete.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/kotlin-for-forge.pw.toml"
 metafile = true
 
 [[files]]

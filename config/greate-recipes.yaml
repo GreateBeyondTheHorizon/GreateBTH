@@ -5,6 +5,9 @@ enableGTWireCoatingRecipes: true
 # Enable/Disable harder recipes for various Create blocks & items.
 enableHardCreateRecipes: true
 
+# Multiplier used for calculating how many ticks should initially be removed in fan processing recipes, based on how fast the fan is spinning.
+fanSpeedMultiplier: 0.75
+
 # Should certain Create items that have a GTCEu counterpart also be used in recipes?
 # If false, GTCEu items will only be used.
 # REQUIRES MINECRAFT RESTART
