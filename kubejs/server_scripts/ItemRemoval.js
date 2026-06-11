@@ -51,8 +51,7 @@ ServerEvents.recipes((event) => {
     if (tagData.removeInputRecipes === true) {
       event.remove({ input: tagData.tag });
     } else {
-      event.replaceInput({ input: tagData.tag }, tagData.tag, Item.of("kubejs:removed_tag_placeholder", '{Removed: "' + tagData.tag + '"}')
-        .strongNBT());
+      event.replaceInput({ input: tagData.tag }, tagData.tag, Item.of("kubejs:removed_tag_placeholder", "{Removed: \"" + tagData.tag + "\"}").strongNBT());
     }
   }
 
@@ -65,17 +64,15 @@ ServerEvents.recipes((event) => {
   });
 
   // Remove the recipes for removed items, and replace them in inputs as Removed Item Placeholders
-  for (const item of global.ItemsToRemove) {
+  global.ItemsToRemove.forEach(item => {
     event.remove([{ output: item }, { input: item }]);
     // Expand tags and RegExps into individual items to more easily identify what was removed
     global.Util.forEachItemExpanded(item, (itemId) => {
-      var replacedItem = Item.of("kubejs:removed_item_placeholder", '{Removed: "' + itemId + '"}')
-        .strongNBT();
-      event.replaceInput({ input: itemId }, itemId, replacedItem);
-
-      event.replaceOutput({ output: itemId }, itemId, replacedItem);
+      var replacedItem = Item.of("kubejs:removed_item_placeholder", "{Removed: \"" + itemId + "\"}").strongNBT();
+      event.replaceInput({}, itemId, replacedItem);
+      event.replaceOutput({}, itemId, replacedItem);
     });
-  }
+  });
 });
 
 LootJS.modifiers((event) => {

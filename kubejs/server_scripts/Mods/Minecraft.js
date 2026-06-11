@@ -66,13 +66,12 @@ ServerEvents.recipes((event) => {
     A: "gtceu:steel_plate",
     B: "gtceu:tin_ingot"
   });
-  event.recipes
-    .createSequencedAssembly(["minecraft:compass"], emptyCompass, [
-      event.recipes.createFilling(emptyCompass, [emptyCompass, Fluid.of("minecraft:water", 1000)]),
-      event.recipes.createDeploying(emptyCompass, [emptyCompass, "gtceu:magnetic_iron_rod"]),
-      event.recipes.createDeploying(emptyCompass, [emptyCompass, "gtceu:red_alloy_bolt"]),
-      event.recipes.createDeploying(emptyCompass, [emptyCompass, "minecraft:glass_pane"])
-    ])
+  event.recipes.create.sequenced_assembly(["minecraft:compass"], emptyCompass, [
+    event.recipes.create.filling(emptyCompass, [emptyCompass, Fluid.of("minecraft:water", 1000)]),
+    event.recipes.create.deploying(emptyCompass, [emptyCompass, "gtceu:magnetic_iron_rod"]),
+    event.recipes.create.deploying(emptyCompass, [emptyCompass, "gtceu:red_alloy_bolt"]),
+    event.recipes.create.deploying(emptyCompass, [emptyCompass, "minecraft:glass_pane"])
+  ])
     .transitionalItem(emptyCompass)
     .loops(1);
 
@@ -86,20 +85,20 @@ ServerEvents.recipes((event) => {
     .keepIngredient("kubejs:block_wooden_form");
 
   /* event.shapeless(
-		Item.of('minecraft:packed_mud', 2),
-		[
-			'2x farmersdelight:straw',
-			'minecraft:mud'
-		]
-	)
+    Item.of('minecraft:packed_mud', 2),
+    [
+      '2x farmersdelight:straw',
+      'minecraft:mud'
+    ]
+  )
 
-	event.shapeless(
-		Item.of('minecraft:packed_mud', 4),
-		[
-			'2x minecraft:wheat',
-			'minecraft:mud'
-		]
-	) */
+  event.shapeless(
+    Item.of('minecraft:packed_mud', 4),
+    [
+      '2x minecraft:wheat',
+      'minecraft:mud'
+    ]
+  ) */
 
   event.shaped(Item.of("minecraft:mud_bricks"), ["AA", "AA"], {
     A: "kubejs:mud_brick"
@@ -111,7 +110,7 @@ ServerEvents.recipes((event) => {
   });
 
   event.shaped(Item.of("minecraft:bricks", 2), ["BBB", "BWB", "BBB"], {
-    W: Item.of("ceramicbucket:ceramic_bucket", '{Fluid:{Amount:1000,FluidName:"minecraft:water"}}')
+    W: Item.of("ceramicbucket:ceramic_bucket", "{Fluid:{Amount:1000,FluidName:\"minecraft:water\"}}")
       .strongNBT(),
     B: "minecraft:brick"
   });
@@ -119,7 +118,7 @@ ServerEvents.recipes((event) => {
   event.shaped(Item.of("minecraft:paper", 2), [" M ", "CCC", " W "], {
     M: "#forge:tools/mallets",
     C: "gtceu:paper_dust",
-    W: Item.of("ceramicbucket:ceramic_bucket", '{Fluid:{Amount:1000,FluidName:"minecraft:water"}}')
+    W: Item.of("ceramicbucket:ceramic_bucket", "{Fluid:{Amount:1000,FluidName:\"minecraft:water\"}}")
       .strongNBT()
   });
 

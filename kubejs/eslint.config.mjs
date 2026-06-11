@@ -2,7 +2,6 @@ import js from "@eslint/js";
 import globals from "globals";
 import stylistic from "@stylistic/eslint-plugin";
 import { defineConfig } from "eslint/config";
-
 export default defineConfig([
   js.configs.recommended,
   {
@@ -21,18 +20,21 @@ export default defineConfig([
     rules: {
       "no-undef": "off",
       "no-unused-vars": "off",
+      "no-dupe-keys": "off",
+      "quotes": ["warn", "double"],
+      "array-element-newline": ["warn", "consistent"],
+      "semi": ["warn", "always"],
       "@stylistic/newline-per-chained-call": [
         "warn",
         {
-          ignoreChainWithDepth: 1
+          ignoreChainWithDepth: 2
         }
       ],
       "@stylistic/indent": ["warn", 2],
       "@stylistic/max-len": [
         "warn",
         {
-          code: 200,
-          ignoreStrings: true,
+          code: 175,
           ignoreComments: true
         }
       ]
