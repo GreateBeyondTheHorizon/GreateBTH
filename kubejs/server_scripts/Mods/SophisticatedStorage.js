@@ -42,8 +42,8 @@ ServerEvents.recipes((event) => {
     // Makes Advanced Upgrade Recipes
     makeAdvanced: function (id) {
       event.shaped(Item.of("sophisticatedstorage:advanced_" + id, 1), ["ABA", "BCB", "ABA"], {
-        A: "#forge:plates/iron",
-        B: "#forge:plates/aluminium",
+        A: "gtceu:iron_plate",
+        B: "gtceu:aluminium_plate",
         C: "sophisticatedstorage:" + id
       });
     }
@@ -51,7 +51,7 @@ ServerEvents.recipes((event) => {
 
   event.shaped("sophisticatedstorage:basic_tier_upgrade", ["PPP", "GTG", "PPP"], {
     P: "gtceu:wood_plate",
-    G: "gtceu:wood_gear",
+    G: "gtceu:wood_screw",
     T: "minecraft:redstone_torch"
   });
 
@@ -63,130 +63,133 @@ ServerEvents.recipes((event) => {
     event.shaped(Item.of("sophisticatedstorage:chest", `{woodType:"${wood}"}`), ["PPP", "RER", "PPP"], {
       P: "minecraft:" + wood + "_planks",
       E: "#gtceu:circuits/ulv",
-      R: "#forge:rings/wood"
+      R: "gtceu:wood_screw"
     });
     // Barrel
     event.shaped(Item.of("sophisticatedstorage:barrel", `{woodType:"${wood}"}`), ["PPP", "RER", "PPP"], {
       P: "minecraft:" + wood + "_planks",
       E: "#gtceu:circuits/ulv",
-      R: "#forge:rods/long/iron"
+      R: "gtceu:long_iron_rod"
     });
     // Limited Barrel
     event.shaped(Item.of("sophisticatedstorage:limited_barrel_1", `{woodType:"${wood}"}`), ["PSP", "RER", "PPP"], {
       P: "minecraft:" + wood + "_planks",
       E: "#gtceu:circuits/ulv",
-      R: "#forge:screws/iron",
-      S: "#forge:plates/wood"
+      R: "gtceu:iron_screw",
+      S: "gtceu:wood_plate"
     });
     event.shaped(Item.of("sophisticatedstorage:limited_barrel_2", `{woodType:"${wood}"}`), ["PSP", "RER", "PSP"], {
       P: "minecraft:" + wood + "_planks",
       E: "#gtceu:circuits/ulv",
-      R: "#forge:screws/iron",
-      S: "#forge:plates/wood"
+      R: "gtceu:iron_screw",
+      S: "gtceu:wood_plate"
     });
     event.shaped(Item.of("sophisticatedstorage:limited_barrel_3", `{woodType:"${wood}"}`), ["PSP", "RER", "SPS"], {
       P: "minecraft:" + wood + "_planks",
       E: "#gtceu:circuits/ulv",
-      R: "#forge:screws/iron",
-      S: "#forge:plates/wood"
+      R: "gtceu:iron_screw",
+      S: "gtceu:wood_plate"
     });
     event.shaped(Item.of("sophisticatedstorage:limited_barrel_4", `{woodType:"${wood}"}`), ["SPS", "RER", "SPS"], {
       P: "minecraft:" + wood + "_planks",
       E: "#gtceu:circuits/ulv",
-      R: "#forge:screws/iron",
-      S: "#forge:plates/wood"
+      R: "gtceu:iron_screw",
+      S: "gtceu:wood_plate"
     });
 
     //Steel Tier
     SophisticatedStorage.storageTierUpgrade(wood, ["", "iron_"], ["PPP", "GAG", "PPP"], {
-      P: "#forge:plates/steel",
-      G: "#forge:small_gears/steel"
+      P: "gtceu:iron_plate",
+      G: "gtceu:iron_screw"
     });
 
     //Aluminium Tier
     SophisticatedStorage.storageTierUpgrade(wood, ["iron_", "gold_"], ["PPP", "GAG", "PPP"], {
-      P: "#forge:plates/aluminium",
-      G: "#forge:small_gears/aluminium"
+      P: "gtceu:bronze_plate",
+      G: Item.of("tconstruct:large_plate", "{Material:'tconstruct:treated_wood'}").strongNBT()
     });
 
     //Stainless Steel Tier
     SophisticatedStorage.storageTierUpgrade(wood, ["gold_", "diamond_"], ["DPD", "GAG", "DPD"], {
-      P: "gtceu:double_stainless_steel_plate",
+      P: "gtceu:steel_plate",
       D: "gtceu:diamond_plate",
-      G: "#forge:small_gears/stainless_steel"
+      G: "gtceu:steel_screw"
     });
 
     //Titanium Tier
     SophisticatedStorage.storageTierUpgrade(wood, ["diamond_", "netherite_"], ["DPD", "GAG", "DPD"], {
-      P: "gtceu:double_titanium_plate",
-      D: "gtceu:netherite_plate",
-      G: "#forge:small_gears/titanium"
+      P: "gtceu:aluminium_plate",
+      D: "gtceu:silicone_rubber_plate",
+      G: "gtceu:aluminium_screw"
     });
   });
 
   event.shaped("sophisticatedstorage:basic_to_iron_tier_upgrade", ["SSS", "GPG", "SSS"], {
-    S: "gtceu:steel_plate",
-    G: "gtceu:small_steel_gear",
+    S: "gtceu:iron_plate",
+    G: "gtceu:iron_screw",
     P: "gtceu:wood_plate"
   });
 
   event.recipes.gtceu
     .assembler("basic_to_iron_tier_upgrade")
     .duration(100)
-    .itemInputs(["6x gtceu:steel_plate", "2x gtceu:small_steel_gear", "gtceu:wood_plate"])
+    .itemInputs(["6x gtceu:iron_plate", "2x gtceu:iron_screw", "gtceu:wood_plate"])
     .itemOutputs("sophisticatedstorage:basic_to_iron_tier_upgrade")
     .EUt(30);
 
   // Gold Tier
   event.shaped("sophisticatedstorage:iron_to_gold_tier_upgrade", ["SSS", "GPG", "SSS"], {
-    S: "gtceu:aluminium_plate",
-    G: "gtceu:small_aluminium_gear",
-    P: "gtceu:steel_plate"
+    S: "gtceu:bronze_plate",
+    G: Item.of("tconstruct:large_plate", "{Material:'tconstruct:treated_wood'}").strongNBT(),
+    P: "gtceu:iron_plate"
   });
 
   event.recipes.gtceu
     .assembler("iron_to_gold_tier_upgrade")
     .duration(100)
-    .itemInputs(["6x gtceu:aluminium_plate", "2x gtceu:small_aluminium_gear", "gtceu:steel_plate"])
+    .itemInputs(["6x gtceu:bronze_plate",
+      "gtceu:iron_plate",
+      Item.of("tconstruct:large_plate", "{Material:'tconstruct:treated_wood'}").strongNBT(),
+      Item.of("tconstruct:large_plate", "{Material:'tconstruct:treated_wood'}").strongNBT()])
     .itemOutputs("sophisticatedstorage:iron_to_gold_tier_upgrade")
     .EUt(30);
 
   // Diamond Tier
-  event.shaped("sophisticatedstorage:gold_to_diamond_tier_upgrade", ["SDS", "GPG", "SDS"], {
-    S: "gtceu:diamond_plate",
-    G: "gtceu:small_stainless_steel_gear",
-    P: "gtceu:aluminium_plate",
-    D: "gtceu:double_stainless_steel_plate"
+  event.shaped("sophisticatedstorage:gold_to_diamond_tier_upgrade", ["DPD", "GBG", "DPD"], {
+    D: "gtceu:diamond_plate",
+    G: "gtceu:steel_screw",
+    P: "gtceu:steel_plate",
+    B: "gtceu:bronze_plate"
   });
 
   event.recipes.gtceu
     .assembler("gold_to_diamond_tier_upgrade")
     .duration(100)
-    .itemInputs(["4x gtceu:diamond_plate", "2x gtceu:small_stainless_steel_gear", "2x gtceu:double_stainless_steel_plate", "gtceu:aluminium_plate"])
+    .itemInputs(["4x gtceu:steel_plate", "2x gtceu:steel_screw", "2x gtceu:diamond_plate", "gtceu:bronze_plate"])
     .itemOutputs("sophisticatedstorage:gold_to_diamond_tier_upgrade")
     .EUt(30);
 
   // Netherite Tier
-  event.shaped("sophisticatedstorage:diamond_to_netherite_tier_upgrade", ["SDS", "GPG", "SDS"], {
-    S: "gtceu:double_titanium_plate",
-    G: "gtceu:small_titanium_gear",
-    P: "gtceu:stainless_steel_plate",
-    D: "gtceu:netherite_plate"
+  event.shaped("sophisticatedstorage:diamond_to_netherite_tier_upgrade", ["SDS", "PTP", "SDS"], {
+    D: "gtceu:aluminium_plate",
+    P: "gtceu:aluminium_screw",
+    S: "gtceu:silicone_rubber_plate",
+    T: "gtceu:steel_plate"
   });
 
   event.recipes.gtceu
     .assembler("diamond_to_netherite_tier_upgrade")
     .duration(100)
-    .itemInputs(["4x gtceu:double_titanium_plate", "2x gtceu:small_titanium_gear", "gtceu:double_stainless_steel_plate", "2x gtceu:netherite_plate"])
+    .itemInputs(["4x gtceu:aluminium_plate", "2x gtceu:aluminium_screw", "2x gtceu:silicone_rubber_plate", "gtceu:steel_plate"])
     .itemOutputs("sophisticatedstorage:diamond_to_netherite_tier_upgrade")
     .EUt(30);
 
   // -- UPGRADES --
   //UPGRADE BASE
   event.shaped(Item.of("sophisticatedstorage:upgrade_base", 1), ["ADA", "BCB", "ABA"], {
-    A: "#forge:plates/wood",
-    B: "#forge:plates/iron",
-    C: "#forge:plates/brass",
+    A: "gtceu:wood_plate",
+    B: "gtceu:iron_plate",
+    C: "gtceu:brass_plate",
     D: "#gtceu:circuits/lv"
   });
 
@@ -195,7 +198,7 @@ ServerEvents.recipes((event) => {
     A: "gtceu:iron_plate",
     B: "#gtceu:circuits/mv",
     C: "sophisticatedstorage:upgrade_base",
-    D: "#forge:storage_blocks/steel",
+    D: "gtceu:steel_block",
     E: "minecraft:piston"
   });
   SophisticatedStorage.makeAdvanced("compacting_upgrade");
@@ -242,7 +245,7 @@ ServerEvents.recipes((event) => {
   const chipped_tables = ["botanist_workbench", "glassblower", "carpenters_table", "loom_table", "mason_table", "alchemy_bench", "tinkering_table"];
   chipped_tables.forEach((table) => {
     event.shaped(Item.of("sophisticatedstorage:chipped/" + table + "_upgrade", 1), ["AJA", "RBR"], {
-      A: "#forge:screws/iron",
+      A: "gtceu:iron_screw",
       B: "sophisticatedstorage:upgrade_base",
       J: "chipped:" + table,
       R: "#gtceu:circuits/ulv"

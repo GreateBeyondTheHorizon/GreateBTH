@@ -31,48 +31,41 @@ ServerEvents.recipes((event) => {
   };
 
   //DEFAULT
-  event.shaped(Item.of("sophisticatedbackpacks:backpack", 1), ["F F", "EAE", "BDB"], {
+  event.shaped(Item.of("sophisticatedbackpacks:backpack", 1), ["F F", "DAD", "BDB"], {
     A: "minecraft:chest",
     B: "minecraft:leather",
-    D: "gtceu:bronze_plate",
-    E: "gtceu:bronze_gear",
+    D: "gtceu:double_wrought_iron_plate",
     F: "minecraft:chain"
   });
 
   //IRON
-  SophisticatedBackpacks.backpackUpgrade(Item.of("sophisticatedbackpacks:iron_backpack", 1), ["F F", "ECE", "BDB"], {
+  SophisticatedBackpacks.backpackUpgrade(Item.of("sophisticatedbackpacks:iron_backpack", 1), ["DCD", "BDB"], {
     B: "minecraft:leather",
     C: "sophisticatedbackpacks:backpack",
-    D: "gtceu:steel_plate",
-    E: "gtceu:steel_gear",
-    F: "minecraft:chain"
+    D: "gtceu:double_iron_plate"
   });
 
   //Gold
-  SophisticatedBackpacks.backpackUpgrade(Item.of("sophisticatedbackpacks:gold_backpack", 1), ["F F", "ECE", "BDB"], {
-    B: "gtceu:manganese_phosphide_ingot",
+  SophisticatedBackpacks.backpackUpgrade(Item.of("sophisticatedbackpacks:gold_backpack", 1), ["DCD", "BDB"], {
+    B: Item.of("tconstruct:large_plate", "{Material:'tconstruct:treated_wood'}").strongNBT(),
     C: "sophisticatedbackpacks:iron_backpack",
-    D: "gtceu:aluminium_plate",
-    E: "gtceu:aluminium_gear",
-    F: "minecraft:chain"
+    D: "gtceu:double_bronze_plate"
   });
 
   //Diamond
-  SophisticatedBackpacks.backpackUpgrade(Item.of("sophisticatedbackpacks:diamond_backpack", 1), ["F F", "ECE", "BDB"], {
-    B: "gtceu:flawless_diamond_gem",
+  SophisticatedBackpacks.backpackUpgrade(Item.of("sophisticatedbackpacks:diamond_backpack", 1), ["DCD", "BIB"], {
+    B: "minecraft:leather",
     C: "sophisticatedbackpacks:gold_backpack",
-    D: "gtceu:polyvinyl_chloride_plate",
-    E: "gtceu:stainless_steel_gear",
-    F: "minecraft:chain"
+    D: "gtceu:double_steel_plate",
+    I: "gtceu:diamond_plate"
   });
 
   //Netherite
-  SophisticatedBackpacks.backpackUpgrade(Item.of("sophisticatedbackpacks:netherite_backpack", 1), ["F F", "ECE", "BDB"], {
-    B: "#forge:ingots/netherite",
+  SophisticatedBackpacks.backpackUpgrade(Item.of("sophisticatedbackpacks:netherite_backpack", 1), ["ECE", "BDB"], {
+    B: "minecraft:leather",
     C: "sophisticatedbackpacks:diamond_backpack",
-    D: "#forge:plates/ultimet",
-    E: "#forge:gears/titanium",
-    F: "minecraft:chain"
+    E: "gtceu:double_aluminium_plate",
+    D: "gtceu:silicone_rubber_plate"
   });
 
   //UPGRADE BASE
