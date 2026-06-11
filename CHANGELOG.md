@@ -2,6 +2,8 @@
 - Remove wood chip crushing wheel recipes
 - Change train casing recipe to include LV circuit
 - Group incomplete tracks & conductor caps in EMI
+- Use new methods for sequenced assembly kjs recipes
+- Gregify track recipes
 - Return bucket to player when concrete bucket is drank & set stack size to 1
 
 **Mod Changes**
