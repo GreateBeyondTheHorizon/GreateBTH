@@ -23,6 +23,7 @@ var itemsToReplace = [
   { removedItem: "create:wheat_flour", replacement: "gtceu:wheat_dust" },
   { removedItem: "create:propeller", replacement: "greate:andesite_alloy_rotor" },
   { removedItem: "create:shaft", replacement: "greate:andesite_alloy_shaft" }, //TODO: move to greate
+  { removedItem: "createdieselgenerators:wood_chip", replacement: "gtceu:wood_dust" },
   { removedItem: "gtceu:hp_steam_macerator", replacement: "greate:andesite_alloy_millstone" },
   { removedItem: "gtceu:iv_macerator", replacement: "greate:tungsten_steel_millstone", replaceOutput: false },
   { removedItem: "gtceu:iv_bender", replacement: "greate:tungsten_steel_mechanical_press", replaceOutput: false },

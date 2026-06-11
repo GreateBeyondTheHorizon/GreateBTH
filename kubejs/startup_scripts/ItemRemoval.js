@@ -210,3 +210,5 @@ removeNamespaceItems("ends_delight", ["dragon_tooth_knife", "dragon_egg_shell_kn
 removeNamespaceItems("aquaculturedelight", ["neptunium_knife"]);
 
 removeNamespaceItems("mynethersdelight", ["ghast_dough"]);
+
+removeNamespaceItems("createdieselgenerators", ["wood_chip"]);

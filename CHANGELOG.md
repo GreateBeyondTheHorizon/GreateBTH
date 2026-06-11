@@ -1,6 +1,5 @@
 **Script/Config Changes**
-- Add EMI++ Backport
-- Add EMI Groups to various items
+- Remove wood chip crushing wheel recipes
 
 **Mod Changes**
 - jamlib-forge-1.3.5+1.20.1 -> jamlib-forge-1.3.6+1.20.1-patch.1
