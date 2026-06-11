@@ -31,15 +31,15 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - run : |
-          ./packwiz-download-latest.sh
+      #- run : |
+      #    ./packwiz-download-latest.sh
       - run : |
           chmod +x ./packwiz
       - run: |
           ./packwiz refresh --build
       - name: Update Tag Branch
         uses: EndBug/latest-tag@latest
-        with: 
+        with:
           ref: latest-dev
       - name: Setup Pages
         uses: actions/configure-pages@v3
