@@ -1,7 +1,8 @@
 StartupEvents.registry("item", (event) => {
   event.create("drinkable_liquid_concrete")
     .useAnimation("drink")
-    .displayName("Bucket of Drinkable Liquid Concrete");
+    .displayName("Bucket of Drinkable Liquid Concrete")
+    .unstackable();
 
   // LV components
   event.create("inc_lv_motor", "create:sequenced_assembly")

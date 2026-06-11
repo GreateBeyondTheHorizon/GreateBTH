@@ -7,3 +7,10 @@ ItemEvents.crafted((event) => {
     }
   }
 });
+
+ItemEvents.foodEaten(event => {
+  if (event.getItem().is(Item.of("kubejs:drinkable_liquid_concrete"))) {
+    event.getPlayer().getInventory()
+      .placeItemBackInInventory(Items.BUCKET);
+  }
+});
