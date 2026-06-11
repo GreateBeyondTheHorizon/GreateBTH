@@ -1,13 +1,13 @@
 name = "Ceramic Bucket"
-filename = "ceramicbucket-1.20.1-4.1.0.0.jar"
+filename = "ceramicbucket-1.20.1-4.1.1.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "5911cf8b6288689a95fdaef142513b0e23f55a5f"
+hash = "4c0f879c62d9ccb9ca39b41234afe5585d1232ee"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4690918
+file-id = 7930573
 project-id = 363799

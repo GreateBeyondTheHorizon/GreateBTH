@@ -1,13 +1,13 @@
 name = "Ksyxis"
-filename = "Ksyxis-1.3.4.jar"
+filename = "Ksyxis-1.4.3.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "143fe088170e5777d3ccf5b488d61ee3635ebffe"
+hash = "6f4b2ea7827da8136bdf436457a2ba3fcdb2120e"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6831842
+file-id = 7979747
 project-id = 537533

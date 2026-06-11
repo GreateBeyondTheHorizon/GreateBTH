@@ -56,11 +56,11 @@ ItemEvents.modification((event) => {
   });
 
   event.modify("kubejs:drinkable_liquid_concrete", (item) => {
-    item.foodProperties = (food) => {
-      food.alwaysEdible(true);
-      food.hunger(12);
-      food.saturation(24);
-    };
+    item.setFoodProperties(food => {
+      food.alwaysEdible(true)
+        .hunger(12)
+        .saturation(24);
+    });
   });
 
   event.modify("gtceu:raw_coal", (item) => {

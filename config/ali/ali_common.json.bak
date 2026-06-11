@@ -1,0 +1,156 @@
+{
+  "configVersion": 1,
+  "blockCategories": [
+    {
+      "key": "ali:plant_loot",
+      "type": "BLOCK",
+      "icon": "minecraft:diamond_hoe",
+      "hide": true,
+      "classes": [
+        "net.minecraft.world.level.block.BushBlock"
+      ]
+    },
+    {
+      "key": "ali:block_loot",
+      "type": "BLOCK",
+      "icon": "minecraft:diamond_pickaxe",
+      "hide": true,
+      "classes": [
+        "net.minecraft.world.level.block.Block"
+      ]
+    }
+  ],
+  "entityCategories": [
+    {
+      "key": "ali:entity_loot",
+      "type": "ENTITY",
+      "icon": "minecraft:skeleton_skull",
+      "hide": false,
+      "classes": [
+        "net.minecraft.world.entity.Entity"
+      ]
+    }
+  ],
+  "gameplayCategories": [
+    {
+      "key": "ali:chest_loot",
+      "type": "GAMEPLAY",
+      "icon": "minecraft:chest",
+      "hide": false,
+      "pattern": [
+        "^.*:chests/.*$"
+      ]
+    },
+    {
+      "key": "ali:fishing_loot",
+      "type": "GAMEPLAY",
+      "icon": "minecraft:fishing_rod",
+      "hide": false,
+      "catalysts": [
+        {
+          "item": "minecraft:fishing_rod"
+        }
+      ],
+      "pattern": [
+        "^.*:gameplay/fishing.*$"
+      ]
+    },
+    {
+      "key": "ali:archaeology_loot",
+      "type": "GAMEPLAY",
+      "icon": "minecraft:decorated_pot",
+      "hide": false,
+      "catalysts": [
+        {
+          "item": "minecraft:brush"
+        },
+        {
+          "item": "minecraft:suspicious_sand"
+        },
+        {
+          "item": "minecraft:suspicious_gravel"
+        }
+      ],
+      "pattern": [
+        "^.*:archaeology/.*$"
+      ]
+    },
+    {
+      "key": "ali:hero_loot",
+      "type": "GAMEPLAY",
+      "icon": "minecraft:emerald",
+      "hide": false,
+      "pattern": [
+        "^.*:gameplay/hero_of_the_village/.*$"
+      ]
+    },
+    {
+      "key": "ali:cat_morning_gift",
+      "type": "GAMEPLAY",
+      "icon": "minecraft:phantom_membrane",
+      "hide": false,
+      "catalysts": [
+        {
+          "item": "minecraft:cat_spawn_egg"
+        }
+      ],
+      "pattern": [
+        "^.*:gameplay/cat_morning_gift.*$"
+      ]
+    },
+    {
+      "key": "ali:piglin_bartering",
+      "type": "GAMEPLAY",
+      "icon": "minecraft:gold_ingot",
+      "hide": false,
+      "catalysts": [
+        {
+          "item": "minecraft:piglin_spawn_egg"
+        },
+        {
+          "item": "minecraft:gold_ingot"
+        }
+      ],
+      "pattern": [
+        "^.*:gameplay/piglin_bartering.*$"
+      ]
+    },
+    {
+      "key": "ali:sniffer_digging",
+      "type": "GAMEPLAY",
+      "icon": "minecraft:sniffer_egg",
+      "hide": false,
+      "catalysts": [
+        {
+          "item": "minecraft:sniffer_spawn_egg"
+        }
+      ],
+      "pattern": [
+        "^.*:gameplay/sniffer_digging.*$"
+      ]
+    },
+    {
+      "key": "ali:gameplay_loot",
+      "type": "GAMEPLAY",
+      "icon": "minecraft:compass",
+      "hide": false,
+      "pattern": [
+        ".*"
+      ]
+    }
+  ],
+  "tradeCategories": [
+    {
+      "key": "ali:trade_loot",
+      "type": "TRADE",
+      "icon": "minecraft:emerald_block",
+      "hide": false,
+      "pattern": [
+        ".*"
+      ]
+    }
+  ],
+  "disabledEntities": [],
+  "logMoreStatistics": false,
+  "showInGameNames": true
+}

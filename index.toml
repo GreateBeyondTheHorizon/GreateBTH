@@ -109,10 +109,31 @@ file = "config/fancymenu/slideshows/mainSlideShow/images/image4.png"
 file = "config/fancymenu/slideshows/mainSlideShow/properties.txt"
 
 [[files]]
+file = "config/fancymenu/ui_themes/cherry_blossom.json"
+
+[[files]]
+file = "config/fancymenu/ui_themes/cozy_campfire.json"
+
+[[files]]
 file = "config/fancymenu/ui_themes/dark.json"
 
 [[files]]
+file = "config/fancymenu/ui_themes/dark_high_contrast.json"
+
+[[files]]
 file = "config/fancymenu/ui_themes/light.json"
+
+[[files]]
+file = "config/fancymenu/ui_themes/light_high_contrast.json"
+
+[[files]]
+file = "config/fancymenu/ui_themes/pumpkin_soup.json"
+
+[[files]]
+file = "config/fancymenu/ui_themes/purple_void.json"
+
+[[files]]
+file = "config/fancymenu/ui_themes/spooky_season.json"
 
 [[files]]
 file = "config/fancymenu/user_variables.db"
@@ -263,6 +284,9 @@ file = "config/heracles/quests/lvlsthegrindstartshere/lv_emitter.json"
 
 [[files]]
 file = "config/heracles/quests/lvlsthegrindstartshere/lv_energy_hatch.json"
+
+[[files]]
+file = "config/heracles/quests/lvlsthegrindstartshere/lv_machine_casing.json"
 
 [[files]]
 file = "config/heracles/quests/lvlsthegrindstartshere/lv_machine_hull.json"
@@ -608,12 +632,6 @@ file = "fancymenu_resources/title splashes/splashes.txt"
 
 [[files]]
 file = "kubejs/,editorconfig"
-
-[[files]]
-file = "kubejs/.prettierignore"
-
-[[files]]
-file = "kubejs/.prettierrc.json"
 
 [[files]]
 file = "kubejs/README.md"
@@ -1171,6 +1189,9 @@ file = "kubejs/server_scripts/Mods/FarmersDelight.js"
 file = "kubejs/server_scripts/Mods/Greate.js"
 
 [[files]]
+file = "kubejs/server_scripts/Mods/Greate/CrushingWheels.js"
+
+[[files]]
 file = "kubejs/server_scripts/Mods/Greate/Mixer.js"
 
 [[files]]
@@ -1262,6 +1283,9 @@ file = "kubejs/server_scripts/Mods/ProductiveBees/HoneyCombProcessing.js"
 
 [[files]]
 file = "kubejs/server_scripts/Mods/SequencedAssembly/AE2.js"
+
+[[files]]
+file = "kubejs/server_scripts/Mods/SequencedAssembly/Create.js"
 
 [[files]]
 file = "kubejs/server_scripts/Mods/SequencedAssembly/CreateConnected.js"
@@ -1557,6 +1581,10 @@ file = "mods/create-factory-logistics.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/create-repair.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/create-steam-n-rails.pw.toml"
 metafile = true
 
@@ -1793,6 +1821,10 @@ metafile = true
 
 [[files]]
 file = "mods/melody.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/mixinbooster.pw.toml"
 metafile = true
 
 [[files]]

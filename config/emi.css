@@ -114,7 +114,7 @@
 	 * The maximum height the recipe screen will grow to be if space is available in
 	 * pixels.
 	 */
-	maximum-recipe-screen-height: 512;
+	maximum-recipe-screen-height: 384;
 
 	/**
 	 * The minimum width of the recipe screen in pixels. Controls how many tabs there

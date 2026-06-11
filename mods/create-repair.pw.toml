@@ -1,0 +1,13 @@
+name = "Create Repair"
+filename = "create_repair-forge-1.20.1-1.2.1-all.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3e0a6483541b1e0aac6ce974ac9fcedd3f99028c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8034105
+project-id = 1477958

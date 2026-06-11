@@ -1,13 +1,13 @@
 name = "Cable Facades"
-filename = "cable_facades-1.20.1-Forge-1.3.4.jar"
+filename = "cable_facades-1.20.1-Forge-2.1.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "f5470c525d869079b4cb6d4c55f838bd9614e3e1"
+hash = "6fcd9292b1ad6b0cc55aa43696cbe2ece14ca795"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6958317
+file-id = 8148676
 project-id = 1140577

@@ -13,6 +13,7 @@
 !/config/ae2/common.json
 !/config/aether-client.toml
 !/config/aether-common.toml
+!/config/ali
 !/config/chloride-client.json
 !/config/curios-common.toml
 !/config/ding.toml

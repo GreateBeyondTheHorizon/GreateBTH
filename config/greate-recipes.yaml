@@ -26,3 +26,6 @@ logUnremovableRecipes: true
 # Recipe types that should not be copied to Greate machines. Ex. 'gtceu:macerator' for macerator recipes
 ignoredRecipeTypes:
 
+# Mod IDs for recipe IDs that should not be copied to Greate machines. Ex. 'create' for all Create recipes
+ignoredModIds:
+
