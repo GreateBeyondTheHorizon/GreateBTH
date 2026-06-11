@@ -1,12 +1,11 @@
 {
   "dependencies": [
-    "steel_ingot",
-    "lv_machine_hull"
+    "steel_ingot"
   ],
   "tasks": {
-    "polarizer": {
+    "56A3161A4A36FA79": {
       "type": "heracles:item",
-      "item": "gtceu:lv_polarizer",
+      "item": "create:large_water_wheel",
       "amount": 1,
       "collection": "AUTOMATIC"
     }
@@ -17,26 +16,26 @@
       "text": ""
     },
     "description": [
-      "Magnetizes rods without the need for redstone."
+      "The water wheel generates 32su but 4rpm, no matter what. It occupies a 3x3 area and has the rest of the traits of the water wheel."
     ],
     "groups": {
-      "LV/LS - The Grind Starts Here": {
+      "ULV/ULS - Humble Beginnings": {
         "position": [
-          -114,
-          -19
+          99,
+          -60
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "gtceu:lv_polarizer",
+        "id": "create:large_water_wheel",
         "count": 1
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
     "title": {
-      "translate": "Cheaper Electromagnetic Rods"
+      "translate": "Large Water Wheel"
     }
   },
   "settings": {

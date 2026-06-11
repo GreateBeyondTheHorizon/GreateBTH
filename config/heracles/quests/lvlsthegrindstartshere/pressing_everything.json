@@ -1,6 +1,7 @@
 {
   "dependencies": [
     "steel_ingot",
+    "lv_machine_casing",
     "the_first_of_many"
   ],
   "tasks": {
@@ -22,8 +23,8 @@
     "groups": {
       "LV/LS - The Grind Starts Here": {
         "position": [
-          221,
-          -320
+          -78,
+          44
         ]
       }
     },

@@ -1,5 +1,7 @@
 {
-  "dependencies": [],
+  "dependencies": [
+    "vacuum_tubes"
+  ],
   "tasks": {
     "filter": {
       "type": "heracles:item",
@@ -27,16 +29,10 @@
       "(ex. /d/#forge:plates/d/ will allow any plate with that tag to be extracted, and keep anything else on the depot.)"
     ],
     "groups": {
-      "LV/LS - The Grind Starts Here": {
-        "position": [
-          -17,
-          -323
-        ]
-      },
       "ULV/ULS - Humble Beginnings": {
         "position": [
-          28,
-          149
+          27,
+          146
         ]
       }
     },

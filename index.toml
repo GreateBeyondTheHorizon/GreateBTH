@@ -391,6 +391,9 @@ file = "config/heracles/quests/ulvulshumblebeginnings/edible_belts.json"
 file = "config/heracles/quests/ulvulshumblebeginnings/encased_fan.json"
 
 [[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/filtering_the_outputs.json"
+
+[[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/finally_some_iron.json"
 
 [[files]]
@@ -416,6 +419,9 @@ file = "config/heracles/quests/ulvulshumblebeginnings/hp_solid_steam_boiler.json
 
 [[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/its_moldin_time.json"
+
+[[files]]
+file = "config/heracles/quests/ulvulshumblebeginnings/large_water_wheel.json"
 
 [[files]]
 file = "config/heracles/quests/ulvulshumblebeginnings/lets_get_goopy.json"

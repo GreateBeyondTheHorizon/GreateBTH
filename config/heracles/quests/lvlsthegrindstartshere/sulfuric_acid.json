@@ -3,21 +3,15 @@
     "the_chemistry_begins"
   ],
   "tasks": {
-    "chem_reactor": {
-      "block": "gtceu:lv_chemical_reactor",
-      "state": {},
-      "nbt": {
-        "exportFluids": {
-          "storages": [
-            {
-              "p": {
-                "FluidName": "gtceu:sulfuric_acid"
-              }
-            }
-          ]
-        }
+    "sulfuric_acid": {
+      "icon": {
+        "fluid": "gtceu:sulfuric_acid",
+        "type": "gbthcore:fluid"
       },
-      "type": "heracles:block_interaction"
+      "fluid": "gtceu:sulfuric_acid",
+      "amount": 1000,
+      "title": "",
+      "type": "gbthcore:fluid_task"
     }
   },
   "rewards": {},
@@ -29,13 +23,13 @@
       "To make /d/Sulfuric Acid/d/, you'll need a source of /d/Oxygen/d/, /d/Water/d/ & /d/Sulfur/d/.",
       "",
       "",
-      "/d/Oxygen/d/ can be gotten through a variety of /d/Centrifuging/d/ and /d/Electrolysis/d/ recipes.",
+      "/d/Oxygen/d/: can be gotten through a variety of /d/Centrifuging/d/ and /d/Electrolysis/d/ recipes.",
       "",
-      "/d/Sulfur/d/ can be found in the Nether.",
+      "/d/Sulfur/d/: can be found in the Nether.",
       "",
       "/d/Water/d/: go look outside.",
       "",
-      "To complete this quest, look at an /d/LV Chemical Reactor/d/ with /d/Sulfuric Acid/d/ in it's output."
+      "To complete this quest, grab 1 /d/bucket's/d/ worth (1000mb) of /d/Sulfuric Acid/d/."
     ],
     "groups": {
       "LV/LS - The Grind Starts Here": {

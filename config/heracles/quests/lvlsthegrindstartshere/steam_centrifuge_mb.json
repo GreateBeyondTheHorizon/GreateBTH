@@ -3,6 +3,12 @@
     "lv_centrifuge"
   ],
   "tasks": {
+    "input_bus": {
+      "type": "heracles:item",
+      "item": "gtceu:steam_input_bus",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
     "casing": {
       "type": "heracles:item",
       "item": "gtceu:steel_firebox_casing",
@@ -15,22 +21,16 @@
       "amount": 1,
       "collection": "AUTOMATIC"
     },
-    "output_bus": {
-      "type": "heracles:item",
-      "item": "gtceu:steam_output_bus",
-      "amount": 1,
-      "collection": "AUTOMATIC"
-    },
-    "input_bus": {
-      "type": "heracles:item",
-      "item": "gtceu:steam_input_bus",
-      "amount": 1,
-      "collection": "AUTOMATIC"
-    },
     "casing_solid": {
       "type": "heracles:item",
       "item": "gtceu:steel_machine_casing",
       "amount": 13,
+      "collection": "AUTOMATIC"
+    },
+    "output_bus": {
+      "type": "heracles:item",
+      "item": "gtceu:steam_output_bus",
+      "amount": 1,
       "collection": "AUTOMATIC"
     },
     "steam_input": {
@@ -45,7 +45,9 @@
     "subtitle": {
       "text": ""
     },
-    "description": [],
+    "description": [
+      ""
+    ],
     "groups": {
       "LV/LS - The Grind Starts Here": {
         "position": [

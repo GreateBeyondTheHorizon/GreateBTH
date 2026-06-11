@@ -21,8 +21,14 @@
     "groups": {
       "LV/LS - The Grind Starts Here": {
         "position": [
-          221,
+          -17,
           -356
+        ]
+      },
+      "ULV/ULS - Humble Beginnings": {
+        "position": [
+          99,
+          -60
         ]
       }
     },
@@ -33,7 +39,7 @@
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
     "title": {
       "translate": "Large Water Wheel"
     }

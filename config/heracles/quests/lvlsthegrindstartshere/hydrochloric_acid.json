@@ -4,20 +4,14 @@
   ],
   "tasks": {
     "hydrochloric_acid": {
-      "block": "gtceu:lv_chemical_reactor",
-      "state": {},
-      "nbt": {
-        "exportFluids": {
-          "storages": [
-            {
-              "p": {
-                "FluidName": "gtceu:hydrochloric_acid"
-              }
-            }
-          ]
-        }
+      "icon": {
+        "fluid": "gtceu:hydrochloric_acid",
+        "type": "gbthcore:fluid"
       },
-      "type": "heracles:block_interaction"
+      "fluid": "gtceu:hydrochloric_acid",
+      "amount": 1000,
+      "title": "",
+      "type": "gbthcore:fluid_task"
     }
   },
   "rewards": {},
@@ -26,9 +20,9 @@
       "text": ""
     },
     "description": [
-      "Combine /d/Sulfuric Acid/d/ and /d/Salt/d/ in a /d/Chemical Reactor/d/.",
+      "The second way to create /d/Circuit Boards/d/ is to create /d/Iron III Chlorided/d/. The first step involves making /d/Hydrochloric Acid/d/. ",
       "",
-      "To complete this quest, interact with a /d/LV Chemical Reactor/d/ that has /d/Hydrochloric Acid/d/ in it's output."
+      "Combine /d/Sulfuric Acid/d/ and /d/Salt/d/ in a /d/Chemical Reactor/d/."
     ],
     "groups": {
       "LV/LS - The Grind Starts Here": {

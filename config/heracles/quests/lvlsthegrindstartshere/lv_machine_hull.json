@@ -1,6 +1,7 @@
 {
   "dependencies": [
-    "steel_ingot"
+    "steel_ingot",
+    "lv_machine_casing"
   ],
   "tasks": {
     "hull": {
@@ -21,7 +22,7 @@
     "groups": {
       "LV/LS - The Grind Starts Here": {
         "position": [
-          -35,
+          -114,
           9
         ]
       }

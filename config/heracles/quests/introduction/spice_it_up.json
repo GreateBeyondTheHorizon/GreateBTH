@@ -2,7 +2,14 @@
   "dependencies": [
     "straw"
   ],
-  "tasks": {},
+  "tasks": {
+    "shelf": {
+      "type": "heracles:item",
+      "item": "#gbth:shelves",
+      "amount": 4,
+      "collection": "AUTOMATIC"
+    }
+  },
   "rewards": {
     "lootbag": {
       "item": {

@@ -1,17 +1,11 @@
 {
-  "dependencies": [
-    "sodium_bisulfate"
-  ],
+  "dependencies": [],
   "tasks": {
-    "sodium_persulfate": {
-      "icon": {
-        "fluid": "gtceu:sodium_persulfate",
-        "type": "gbthcore:fluid"
-      },
-      "fluid": "gtceu:sodium_persulfate",
-      "amount": 1000,
-      "title": "",
-      "type": "gbthcore:fluid_task"
+    "lv_machine_casing": {
+      "type": "heracles:item",
+      "item": "gtceu:lv_machine_casing",
+      "amount": 1,
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {},
@@ -20,26 +14,26 @@
       "text": ""
     },
     "description": [
-      "/d/Electrolyze/d/ your /d/Sodium Bisulfate/d/ to get /d/Sodium Persulfate/d/."
+      ""
     ],
     "groups": {
       "LV/LS - The Grind Starts Here": {
         "position": [
-          -268,
-          97
+          -114,
+          44
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "gtceu:sodium_persulfate_bucket",
+        "id": "gtceu:lv_machine_casing",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Sodium Persulfate"
+      "translate": "LV Machine Casing"
     }
   },
   "settings": {
