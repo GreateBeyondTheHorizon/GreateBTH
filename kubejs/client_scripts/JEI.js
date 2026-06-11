@@ -3,7 +3,7 @@ const AllGuiTextures = Java.loadClass("com.simibubi.create.foundation.gui.AllGui
 JEIEvents.hideItems((event) => {
   event.hide(/(.*)_bucket/);
   event.hide(/sophisticatedstorage:(.*)shulker_box/);
-  //this gets rid of unfueled rockets too 🙃
+  //this gets rid of unfueled rockets too 🙃 (so they're added again below)
   event.hide(Item.of("ad_astra:tier_1_rocket", '{BotariumData:{StoredFluids:[{Amount:3000L,Fluid:"ad_astra:fuel"}]}}'));
   event.hide(Item.of("ad_astra:tier_2_rocket", '{BotariumData:{StoredFluids:[{Amount:3000L,Fluid:"ad_astra:fuel"}]}}'));
   event.hide(Item.of("ad_astra:tier_3_rocket", '{BotariumData:{StoredFluids:[{Amount:3000L,Fluid:"ad_astra:fuel"}]}}'));

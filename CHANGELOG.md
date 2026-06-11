@@ -1,6 +1,7 @@
 **Script/Config Changes**
 - Remove wood chip crushing wheel recipes
 - Change train casing recipe to include LV circuit
+- Group incomplete tracks & conductor caps in EMI
 - Return bucket to player when concrete bucket is drank & set stack size to 1
 
 **Mod Changes**
