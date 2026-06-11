@@ -19,6 +19,12 @@ file = "config/aether-client.toml"
 file = "config/aether-common.toml"
 
 [[files]]
+file = "config/ali/ali_common.json"
+
+[[files]]
+file = "config/ali/ali_common.json.bak"
+
+[[files]]
 file = "config/chloride-client.json"
 
 [[files]]
