@@ -47,5 +47,7 @@
 /resourcepacks/*
 !/resourcepacks/*.pw.toml
 
+!packwiz
+
 # linter
 /kubejs/node_modules/*

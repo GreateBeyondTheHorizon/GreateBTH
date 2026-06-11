@@ -2048,6 +2048,9 @@ file = "mods/ytones.pw.toml"
 metafile = true
 
 [[files]]
+file = "packwiz"
+
+[[files]]
 file = "resourcepacks/computercreate.pw.toml"
 metafile = true
 
