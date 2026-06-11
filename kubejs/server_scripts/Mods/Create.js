@@ -14,13 +14,9 @@ ServerEvents.recipes((event) => {
   event.remove({ id: "create:shaped/copper_diving_helmet" });
   event.remove({ id: "create:shaped/copper_backtank" });
   event.remove({ id: "create:shaped/copper_diving_boots" });
-  event.remove({
-    id: "create:crafting/appliances/netherite_diving_helmet_from_netherite"
-  });
+  event.remove({ id: "create:crafting/appliances/netherite_diving_helmet_from_netherite" });
   event.remove({ id: "create:crafting/appliances/netherite_diving_helmet" });
-  event.remove({
-    id: "create:crafting/appliances/netherite_diving_boots_from_netherite"
-  });
+  event.remove({ id: "create:crafting/appliances/netherite_diving_boots_from_netherite" });
   event.remove({ id: "create:crafting/appliances/netherite_diving_boots" });
   event.remove({ id: "create:crafting/tree_fertilizer" });
   event.remove({ id: /create:(smelting|blasting)\/zinc_ingot_from_raw_ore/ });
@@ -28,6 +24,7 @@ ServerEvents.recipes((event) => {
   event.remove({ id: "create:shapeless/dough" });
   event.remove({ id: "create:crafting/materials/andesite_alloy_block" });
   event.remove({ id: "create:crafting/materials/andesite_alloy_from_block" });
+  event.remove({ id: "create:crafting/appliances/chain_from_zinc" }); //TODO: move to greate
 
   event.replaceInput({ id: "create:shaped/wrench" }, "gtceu:gold_plate", "gtceu:wrought_iron_plate");
   event.replaceInput({ id: "create:crafting/kinetics/goggles" }, "gtceu:gold_plate", "gtceu:wrought_iron_plate");
