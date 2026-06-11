@@ -1,3 +1,1 @@
-Invoke-WebRequest "https://nightly.link/packwiz/packwiz/workflows/go/main/Windows%2064-bit.zip" -OutFile "packwiz.zip"
-Expand-Archive -Path "packwiz.zip" -DestinationPath "."
-Remove-Item -Path "packwiz.zip"
+Invoke-WebRequest "https://github.com/packwiz/packwiz-installer/releases/download/v0.5.14/packwiz-installer.jar" -OutFile "packwiz.jar"
