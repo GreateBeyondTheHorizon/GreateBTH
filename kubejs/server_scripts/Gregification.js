@@ -230,6 +230,64 @@ ServerEvents.recipes((event) => {
       S: slab
     });
   });
+
+  event.findRecipes({ output: "#create:tracks", not: { output: /(.*)_wide/ }, not: { output: "railways:track_monorail" } })
+    .forEach((recipe) => {
+      event.remove({ id: recipe.getId() });
+
+      var ingredient;
+      var ing = recipe.json.get("ingredient").getAsJsonObject();
+      if (ing.has("item")) ingredient = Ingredient.of(ing.get("item").getAsString());
+      else ingredient = Ingredient.of("#" + ing.get("tag").getAsString());
+
+      var results = recipe.json.get("results").getAsJsonArray()
+        .get(0)
+        .getAsJsonObject()
+        .get("item");
+
+      var resultArray = [
+        Item.of(results, 1),
+        Item.of(results, 2),
+        Item.of(results, 4),
+        Item.of(results, 8)
+      ];
+
+      var ingArray = [
+        "gtceu:steel_screw",
+        "gtceu:aluminium_screw",
+        "gtceu:stainless_steel_screw",
+        "gtceu:titanium_screw"
+      ];
+
+      for (var i = 0; i < resultArray.length; i++) {
+        var result = resultArray[i];
+        var type = recipe.getId().includes("narrow") ? "narrow" : "";
+        var transistionItem = Item.of(recipe.json.get("transitionalItem").getAsJsonObject()
+          .get("item")
+          .getAsString());
+
+        switch (type) {
+          case "narrow":
+            event.recipes.create.sequenced_assembly([result], ingredient, [
+              event.recipes.create.cutting(transistionItem, transistionItem),
+              event.recipes.create.deploying(transistionItem, [transistionItem, ingArray[i]]),
+              event.recipes.create.pressing(transistionItem, transistionItem)
+            ])
+              .transitionalItem(transistionItem)
+              .loops(1);
+            break;
+          default:
+            event.recipes.create.sequenced_assembly([result], ingredient, [
+              event.recipes.create.deploying(transistionItem, [transistionItem, ingArray[i]]),
+              event.recipes.create.deploying(transistionItem, [transistionItem, ingArray[i]]),
+              event.recipes.create.pressing(transistionItem, transistionItem)
+            ])
+              .transitionalItem(transistionItem)
+              .loops(1);
+            break;
+        }
+      }
+    });
   //#region wrought iron / iron shenanigans
   event.remove({
     type: "minecraft:smelting",

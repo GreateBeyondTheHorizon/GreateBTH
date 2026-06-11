@@ -211,4 +211,6 @@ removeNamespaceItems("aquaculturedelight", ["neptunium_knife"]);
 
 removeNamespaceItems("mynethersdelight", ["ghast_dough"]);
 
+removeNamespaceItems("railways", ["track_phantom", "track_incomplete_phantom"]);
+
 removeNamespaceItems("createdieselgenerators", ["wood_chip"]);
