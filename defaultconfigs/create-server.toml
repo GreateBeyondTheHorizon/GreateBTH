@@ -27,10 +27,10 @@
 	allowShapelessInMixer = false
 	#.
 	#Allow any single-ingredient 2x2 or 3x3 crafting recipes to be processed by a Mechanical Press + Basin.
-	allowShapedSquareInPress = true
+	allowShapedSquareInPress = false
 	#.
 	#Allow any standard crafting recipes to be processed by Mechanical Crafters.
-	allowRegularCraftingInCrafter = true
+	allowRegularCraftingInCrafter = false
 	#.
 	#The Maximum amount of ingredients that can be used to craft Firework Rockets using Mechanical Crafters.
 	#Range: > 1
@@ -514,4 +514,3 @@
 		#The acceleration of powered Trains.
 		#Range: 0.0 ~ 3.4028234663852886E38
 		poweredTrainAcceleration = 3.0
-

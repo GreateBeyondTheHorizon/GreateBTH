@@ -5,6 +5,7 @@
 - Use new methods for sequenced assembly kjs recipes
 - Gregify track recipes
 - Return bucket to player when concrete bucket is drank & set stack size to 1
+- Disable Shaped Packing & regular crafing recipes in Mechanical Crafters 
 
 **Mod Changes**
 - jamlib-forge-1.3.5+1.20.1 -> jamlib-forge-1.3.6+1.20.1-patch.1
