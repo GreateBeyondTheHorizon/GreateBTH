@@ -1589,7 +1589,7 @@ file = "mods/create-diesel-generators.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/create-factory-logistics.pw.toml"
+file = "mods/create-fluidlogistic.pw.toml"
 metafile = true
 
 [[files]]
@@ -2013,6 +2013,10 @@ metafile = true
 
 [[files]]
 file = "mods/supermartijn642s-core-lib.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/tconstructjs.pw.toml"
 metafile = true
 
 [[files]]

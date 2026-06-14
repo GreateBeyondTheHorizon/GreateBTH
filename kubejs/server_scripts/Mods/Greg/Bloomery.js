@@ -29,7 +29,6 @@ ServerEvents.recipes((event) => {
   metalworkingRecipe("9x gtceu:wrought_iron_nugget", "gtceu:wrought_iron_bloom", "kubejs:nugget_wooden_form");
   metalworkingRecipe("create:andesite_alloy", "greate:andesite_alloy_bloom", "gtceu:brick_wooden_form");
   metalworkingRecipe("9x greate:andesite_alloy_nugget", "greate:andesite_alloy_bloom", "kubejs:nugget_wooden_form");
-  metalworkingRecipe("9x minecraft:iron_nugget", "gtceu:iron_bloom", "kubejs:nugget_wooden_form");
 
   function metalworkingRecipe(output, input, form) {
     if (form != undefined) {

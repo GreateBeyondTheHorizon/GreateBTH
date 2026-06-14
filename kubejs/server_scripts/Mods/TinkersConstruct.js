@@ -2,35 +2,19 @@ ServerEvents.recipes((event) => {
   event.remove({ output: "tconstruct:tinkers_anvil" });
   event.remove({ output: "tconstruct:scorched_anvil" });
   event.remove({ output: "tconstruct:pattern" });
-  event.remove({
-    type: "tconstruct:melting",
-    output: "productivebees:configurable_honeycomb"
-  });
-  event.remove({
-    id: "tconstruct:common/materials/netherite_nugget_from_ingot"
-  });
-  event.remove({
-    id: "tconstruct:common/materials/netherite_ingot_from_nuggets"
-  });
-  event.remove({
-    type: "tconstruct:casting_table",
-    id: /productivebees:tconstruct\/.*$/
-  });
+  event.remove({ type: "tconstruct:melting", output: "productivebees:configurable_honeycomb" });
+  event.remove({ id: "tconstruct:common/materials/netherite_nugget_from_ingot" });
+  event.remove({ id: "tconstruct:common/materials/netherite_ingot_from_nuggets" });
+  event.remove({ type: "tconstruct:casting_table", id: /productivebees:tconstruct\/.*$/ });
   event.remove({ id: "tconstruct:smeltery/casting/obsidian/chest" });
   event.remove({ id: "tconstruct:smeltery/seared/melter" });
   event.remove({ id: "tconstruct:common/basalt_blast_furnace" });
   event.remove({ id: "tconstruct:tools/modifiers/ability/luck_level_1" });
-  event.remove({
-    id: /tconstruct:smeltery\/casting\/quartz\/(diorite|andesite|granite)/
-  });
-  event.remove({ id: /tconstruct:smeltery\/casting\/.*\/gear_.*_cast/ });
-  event.remove({ id: /tconstruct:smeltery\/casting\/.*\/plate_.*_cast/ });
-  event.remove({
-    id: /tconstruct:smeltery\/casting\/metal\/iron\/rod_.*_cast/
-  });
-  event.remove({
-    id: /tconstruct:smeltery\/casting\/metal\/steel\/rod_.*_cast/
-  });
+  event.remove({ id: /(tconstruct|gm_construct):smeltery\/casting\/quartz\/(diorite|andesite|granite)/ });
+  event.remove({ id: /(tconstruct|gm_construct):smeltery\/casting\/.*\/gear_.*_cast/ });
+  event.remove({ id: /(tconstruct|gm_construct):smeltery\/casting\/.*\/plate_.*_cast/ });
+  event.remove({ id: /(tconstruct|gm_construct):smeltery\/casting\/metal\/iron\/rod_.*_cast/ });
+  event.remove({ id: /(tconstruct|gm_construct):smeltery\/casting\/metal\/steel\/rod_.*_cast/ });
 
   event.campfireCooking("tconstruct:seared_brick", "tconstruct:grout");
 
@@ -66,6 +50,14 @@ ServerEvents.recipes((event) => {
     S: "tconstruct:seared_brick",
     L: "tconstruct:seared_bricks_slab"
   });
+
+  event.remove({ id: /(tconstruct|gm_construct):smeltery\/casting\/metal\/iron\/(ingot|nugget)_.*_cast/ });
+  event.remove({ id: "gm_construct:smeltery/casting/metal/iron/block" });
+  event.recipes.tconstruct.casting_basin("gtceu:wrought_iron_block", Fluid.of("gtceu:wrought_iron", 1296)).cooling_time(220);
+  event.recipes.tconstruct.casting_table("gtceu:wrought_iron_ingot", Fluid.of("gtceu:wrought_iron", 144), "tconstruct:ingot_cast", false, 60);
+  event.recipes.tconstruct.casting_table("gtceu:wrought_iron_ingot", Fluid.of("gtceu:wrought_iron", 144), "#tconstruct:casts/single_use/ingot", true, 60);
+  event.recipes.tconstruct.casting_table("gtceu:wrought_iron_nugget", Fluid.of("gtceu:wrought_iron", 16), "tconstruct:nugget_cast", false, 20);
+  event.recipes.tconstruct.casting_table("gtceu:wrought_iron_nugget", Fluid.of("gtceu:wrought_iron", 16), "#tconstruct:casts/single_use/nugget", true, 20);
 
   //#region modifier recipes
   event.custom({

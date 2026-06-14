@@ -1,7 +1,8 @@
 //priority: 1
 const $BloomProperty = Java.loadClass("com.gbth.gbthcore.integration.gtceu.material.BloomProperty");
-
 const $GreateMaterials = Java.loadClass("electrolyte.greate.registry.GreateMaterials");
+const $TagKey = Java.loadClass("net.minecraft.tags.TagKey");
+const $ForgeRegistries = Java.loadClass("net.minecraftforge.registries.ForgeRegistries");
 
 GTCEuStartupEvents.registry("gtceu:material", (event) => {
   GTMaterials.Polyethylene.addFlags(GTMaterialFlags.GENERATE_ROTOR);
@@ -13,7 +14,6 @@ GTCEuStartupEvents.registry("gtceu:material", (event) => {
   GTMaterials.Netherite.addFlags(GTMaterialFlags.GENERATE_PLATE);
 
   $GreateMaterials.AndesiteAlloy.setProperty(GBTHCorePropertyKeys.BLOOM, new $BloomProperty());
-  GTMaterials.Iron.setProperty(GBTHCorePropertyKeys.BLOOM, new $BloomProperty());
 
   // Add flint hammer for hammering blooms
   GTMaterials.Flint.getProperty(PropertyKey.TOOL)
@@ -55,6 +55,16 @@ GTCEuStartupEvents.materialModification((event) => {
         material
           .getProperty(PropertyKey.TOOL)
           .removeTypes(GTToolType.MINING_HAMMER, GTToolType.SPADE, GTToolType.DRILL_LV, GTToolType.DRILL_MV, GTToolType.DRILL_HV, GTToolType.DRILL_EV, GTToolType.DRILL_IV);
+      }
+      if (material == GTMaterials.Iron
+        || material == GTMaterials.Pyrite
+        || material == GTMaterials.Magnetite
+        || material == GTMaterials.Hematite
+        || material == GTMaterials.Goethite
+        || material == GTMaterials.Limonite
+        || material == GTMaterials.BasalticMineralSand
+        || material == GTMaterials.GraniticMineralSand) {
+        material.getProperty(PropertyKey.ORE).setDirectSmeltResult(GTMaterials.WroughtIron);
       }
     });
 
