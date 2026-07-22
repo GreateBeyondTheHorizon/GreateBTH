@@ -1,50 +1,31 @@
 **Script/Config Changes**
-- Remove wood chip crushing wheel recipes
-- Change train casing recipe to include LV circuit
-- Group incomplete tracks & conductor caps in EMI
-- Use new methods for sequenced assembly kjs recipes
-- Gregify track recipes
-- Return bucket to player when concrete bucket is drank & set stack size to 1
-- Disable Shaped Packing & regular crafing recipes in Mechanical Crafters 
-- Buff Sophisticated Backpacks/Chests upgrading recipes
-- Replace create factory logistics with create fluid logstics
-- Replace iron with wrought iron in smelting recipes for ores/smeltery
+- Update removal scripts to use reliable recipes / reliable remover
 
 **Mod Changes**
-- jamlib-forge-1.3.5+1.20.1 -> jamlib-forge-1.3.6+1.20.1-patch.1
-- bucketlib-1.20.1-2.3.7.1 -> bucketlib-1.20.1-2.3.8.0
-- craftingtweaks-forge-1.20.1-18.2.8 -> craftingtweaks-forge-1.20.1-18.2.9
-- FarmersDelight-1.20.1-1.2.10 -> FarmersDelight-1.20.1-1.3.2
-- sophisticatedbackpacks-1.20.1-3.24.25.1566 -> sophisticatedbackpacks-1.20.1-3.24.51.1864
-- guideme-20.1.14 -> guideme-20.1.15
-- ceramicbucket-1.20.1-4.1.0.0 -> ceramicbucket-1.20.1-4.1.1.0
-- emixx-forge-1.3.2 -> emixx-forge-1.4.0
-- fast-ip-ping-v1.0.8-mc1.20.4-forge -> fast-ip-ping-v1.0.11-mc1.20.4-forge
-- sophisticatedstorage-1.20.1-1.4.29.1527 -> sophisticatedstorage-1.20.1-1.4.54.1827
-- Ksyxis-1.3.4 -> Ksyxis-1.4.3
-- sophisticatedcore-1.20.1-1.3.8.1524 -> sophisticatedcore-1.20.1-1.3.47.1995
-- JadeAddons-1.20.1-Forge-5.5.0 -> JadeAddons-1.20.1-Forge-5.5.1
-- fancymenu_forge_3.8.1_MC_1.20.1 -> fancymenu_forge_3.9.3_MC_1.20.1
-- modernfix-forge-5.26.2+mc1.20.1 -> modernfix-forge-5.27.49+mc1.20.1
-- Lychee-1.20.1-Forge-5.2.0 -> Lychee-1.20.1-Forge-5.2.1
-- create_connected-1.1.13-mc1.20.1-all -> create_connected-1.2.2-mc1.20.1-all
-- kleeslabs-forge-1.20.1-15.0.11 -> kleeslabs-forge-1.20.1-15.0.12
-- BetterAdvancements-Forge-1.20.1-0.4.2.25 -> BetterAdvancements-Forge-1.20.1-0.4.2.60
-- cable_facades-1.20.1-Forge-1.3.4 -> cable_facades-1.20.1-Forge-2.1.0
-- AdvancedPeripherals-1.20.1-0.7.46r -> AdvancedPeripherals-1.20.1-0.7.47r
-- tleveling-1.0.1-1.20.1 -> tleveling-1.1.1-1.20.1
-- supermartijn642corelib-1.1.20-forge-mc1.20.1 -> supermartijn642corelib-1.1.21-forge-mc1.20.1
-- baubley-heart-canisters-1.20.1-1.1.1 -> baubley-heart-canisters-1.20.1-1.2.0
-- chloride-FORGE-mc1.20.1-v1.7.5 -> chloride-FORGE-mc1.20.1-v1.7.7
-- AdvancedLootInfo-forge-1.20.1-1.8.1 -> AdvancedLootInfo-forge-1.20.1-1.12.0
-- createdieselgenerators-1.20.1-1.3.9 -> createdieselgenerators-1.20.1-1.3.12
-- NaturesCompass-1.20.1-1.11.2-forge -> NaturesCompass-1.20.1-1.12.0-forge
-- ExtendedAE-1.20-1.4.12-forge -> ExtendedAE-1.20-1.4.16-forge
-- kubejs-forge-2001.6.5-build.16 -> kubejs-forge-2001.6.5-build.26
-- gtceu-1.20.1-7.5.2 -> gtceu-1.20.1-7.5.3
-- CBMultipart-1.20.1-3.3.0.146-universal -> CBMultipart-1.20.1-3.3.0.159-universal
-- jei-1.20.1-forge-15.20.0.129 -> jei-1.20.1-forge-15.20.0.130
-- chat_heads-0.15.0-forge-1.20 -> chat_heads-0.15.1-forge-1.20
-- Steam_Rails-1.7.1+forge-mc1.20.1 -> Steam_Rails-1.7.2+forge-mc1.20.1
-- greate-0.0.73 -> greate-0.0.78
-- cc-tweaked-1.20.1-forge-1.117.1 -> cc-tweaked-1.20.1-forge-1.119.0
+-  chat_heads-0.15.1-forge-1.20 -> chat_heads-0.15.3-forge-1.20
+-  ImmediatelyFast-Forge-1.5.4+1.20.4 -> ImmediatelyFast-Forge-1.5.5+1.20.4
+-  fluidlogistics-1.0.9 -> fluidlogistics-1.2.0
+-  sophisticatedbackpacks-1.20.1-3.24.51.1864 -> sophisticatedbackpacks-1.20.1-3.24.60.1982
+-  tconstruct_js-1.0.5 -> tconstruct_js-1.0.6
+-  emixx-forge-1.4.0 -> emixx-forge-1.5.1
+-  sophisticatedstorage-1.20.1-1.4.54.1827 -> sophisticatedstorage-1.20.1-1.4.74.1997
+-  Jade-1.20.1-Forge-11.13.2 -> Jade-1.20.1-Forge-11.13.3
+-  AdvancedPeripherals-1.20.1-0.7.47r -> AdvancedPeripherals-1.20.1-0.7.48r
+-  balm-forge-1.20.1-7.3.38-all -> balm-forge-1.20.1-7.3.41-all
+-  jei-1.20.1-forge-15.20.0.130 -> jei-1.20.1-forge-15.20.0.134
+-  gtnn-1.20.1-1.3.8 -> gtnn-1.20.1-1.3.9
+-  geckolib-forge-1.20.1-4.8.3 -> geckolib-forge-1.20.1-4.8.4
+-  create_connected-1.2.2-mc1.20.1-all -> create_connected-1.2.3-mc1.20.1-all
+-  sophisticatedcore-1.20.1-1.3.47.1995 -> sophisticatedcore-1.20.1-1.3.71.2181
+-  cable_facades-1.20.1-Forge-2.1.0 -> cable_facades-1.20.1-Forge-2.1.3
+-  ends_delight-2.5.1+forge.1.20.1 -> ends_delight-2.6+forge.1.20.1
+-  guardvillagers-1.20.1-1.6.17 -> guardvillagers-1.20.1-1.6.18
+-  fusion-1.2.12-forge-mc1.20.1 -> fusion-1.3.9-forge-mc1.20.1
+-  emi-1.1.22+1.20.1+forge -> emi-1.1.24+1.20.1+forge
+-  chloride-FORGE-mc1.20.1-v1.7.7 -> chloride-FORGE-mc1.20.1-v1.8.1
+-  fancymenu_forge_3.9.3_MC_1.20.1 -> fancymenu_forge_3.9.8_MC_1.20.1
+-  ExtendedAE-1.20-1.4.16-forge -> ExtendedAE-1.20-1.4.18-forge
+-  modernfix-forge-5.27.49+mc1.20.1 -> modernfix-forge-5.27.66+mc1.20.1
+-  Super Factory Manager (SFM)-MC1.20.1-4.32.0 -> Super Factory Manager (SFM)-MC1.20.1-4.34.0
+-  create_repair-forge-1.20.1-1.2.1-all -> create_repair-forge-1.20.1-1.3.0-all
+-  cc-tweaked-1.20.1-forge-1.119.0 -> cc-tweaked-1.20.1-forge-1.120.0

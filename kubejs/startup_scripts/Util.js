@@ -25,32 +25,6 @@ global.Util = {
       .color(global.Util.tierColor(global.Util.objectToTier(quality, global.Quality)));
     return Text.darkGray("Quality: ")
       .append(formattedColorQualityString);
-  },
-
-  // Expands an item regular expression into item IDs, calling forEachItem on each item ID.
-  // Expanding an item regex means: /create:crushed_raw_(.*)/ -> 'create:crushed_raw_osmium', 'create:crushed_raw_quicksilver', ...
-  // If a normal item ID is passed in, forEachItem will still be called with it.
-  // NOTE: This function only works if called after item registration.
-  forEachItemExpanded: function (item, forEachItem) {
-    if (item[0] === "#" || item.constructor?.name === "RegExp") {
-      for (const itemId of Ingredient.of(item).itemIds) {
-        forEachItem(itemId);
-      }
-    } else {
-      forEachItem(item);
-    }
-  }
-};
-
-global.RecipeUtil = {
-  // E.g. 'gtceu:wood_plate' -> 'wood_plate'
-  removeNamespace: function (location) {
-    return global.TextUtil.keepAfter(location, ":");
-  },
-
-  // E.g. '4x gtceu:wood_plate' -> 'gtceu:wood_plate'
-  removeMultipleItems: function (itemString) {
-    return global.TextUtil.keepAfter(itemString, " ");
   }
 };
 

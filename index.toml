@@ -25,9 +25,6 @@ file = "config/ali/ali_common.json"
 file = "config/ali/ali_common.json.bak"
 
 [[files]]
-file = "config/chloride-client.json"
-
-[[files]]
 file = "config/curios-common.toml"
 
 [[files]]
@@ -1153,9 +1150,6 @@ file = "kubejs/server_scripts/Gregification.js"
 file = "kubejs/server_scripts/ItemEvents.js"
 
 [[files]]
-file = "kubejs/server_scripts/ItemRemoval.js"
-
-[[files]]
 file = "kubejs/server_scripts/Loot.js"
 
 [[files]]
@@ -1250,9 +1244,6 @@ file = "kubejs/server_scripts/Mods/Greg/ForgeHammer.js"
 
 [[files]]
 file = "kubejs/server_scripts/Mods/Greg/FormingPress.js"
-
-[[files]]
-file = "kubejs/server_scripts/Mods/Greg/GregUtil.js"
 
 [[files]]
 file = "kubejs/server_scripts/Mods/Greg/Macerator.js"
@@ -1373,9 +1364,6 @@ file = "kubejs/startup_scripts/ItemGeneration.js"
 
 [[files]]
 file = "kubejs/startup_scripts/ItemModification.js"
-
-[[files]]
-file = "kubejs/startup_scripts/ItemRemoval.js"
 
 [[files]]
 file = "kubejs/startup_scripts/KubeJS.js"
@@ -1937,6 +1925,14 @@ metafile = true
 
 [[files]]
 file = "mods/puzzles-lib.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/reliable-recipes.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/reliable-remover.pw.toml"
 metafile = true
 
 [[files]]

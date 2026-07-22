@@ -1,13 +1,13 @@
 name = "EMI++ Forked"
-filename = "emixx-forge-1.4.0.jar"
+filename = "emixx-forge-1.5.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "23361abccf76787056a32cfb8c6f8424b81cfb34"
+hash = "7bf56799042bb929418a497b08218e8a922e9d9e"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7937655
+file-id = 8274454
 project-id = 1411826

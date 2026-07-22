@@ -144,7 +144,7 @@ ServerEvents.recipes((event) => {
   event.shaped(
     Item.of(
       "gtceu:flint_sword",
-      '{DisallowContainerItem:0b,GT.Behaviours:{},GT.Tool:{AttackDamage:4.0f,AttackSpeed:-2.4f,Damage:0,MaxDamage:63},HideFlags:2,Enchantments:[{id:"minecraft:fire_aspect", "lvl": 2}]}'
+      "{DisallowContainerItem:0b,GT.Behaviours:{},GT.Tool:{AttackDamage:4.0f,AttackSpeed:-2.4f,Damage:0,MaxDamage:63},HideFlags:2,Enchantments:[{id:\"minecraft:fire_aspect\", \"lvl\": 2}]}"
     ),
     ["AC", "B "],
     {
@@ -170,7 +170,7 @@ ServerEvents.recipes((event) => {
 
   event.shaped(Item.of("gtceu:treated_wood_planks", 8), ["PPP", "PBP", "PPP"], {
     P: "#minecraft:planks",
-    B: Item.of("ceramicbucket:ceramic_bucket", '{Fluid:{Amount:1000,FluidName:"gtceu:creosote"}}')
+    B: Item.of("ceramicbucket:ceramic_bucket", "{Fluid:{Amount:1000,FluidName:\"gtceu:creosote\"}}")
       .strongNBT()
   });
 
@@ -201,12 +201,12 @@ ServerEvents.recipes((event) => {
     H: "#forge:tools/hammers"
   });
 
-  event.shaped(Item.of("ceramicbucket:ceramic_bucket", '{Fluid:{Amount:1000,FluidName:"gtceu:concrete"}}')
+  event.shaped(Item.of("ceramicbucket:ceramic_bucket", "{Fluid:{Amount:1000,FluidName:\"gtceu:concrete\"}}")
     .strongNBT(), ["CBS", "CWQ", " L "], {
     C: "gtceu:calcite_dust",
     B: "ceramicbucket:ceramic_bucket",
     S: "gtceu:stone_dust",
-    W: Item.of("ceramicbucket:ceramic_bucket", '{Fluid:{Amount:1000,FluidName:"minecraft:water"}}')
+    W: Item.of("ceramicbucket:ceramic_bucket", "{Fluid:{Amount:1000,FluidName:\"minecraft:water\"}}")
       .strongNBT(),
     Q: "gtceu:quartz_sand_dust",
     L: "gtceu:clay_dust"
@@ -215,7 +215,7 @@ ServerEvents.recipes((event) => {
   event.shaped(Item.of("gtceu:firebricks"), ["FGF", "FCF", "FGF"], {
     F: "gtceu:firebrick",
     G: "gtceu:gypsum_dust",
-    C: Item.of("ceramicbucket:ceramic_bucket", '{Fluid:{Amount:1000,FluidName:"gtceu:concrete"}}')
+    C: Item.of("ceramicbucket:ceramic_bucket", "{Fluid:{Amount:1000,FluidName:\"gtceu:concrete\"}}")
       .strongNBT()
   });
 
@@ -260,7 +260,6 @@ ServerEvents.recipes((event) => {
 
   // Material parts
   // Wood
-  GregUtil.extrudeRingNoIngotMaterial(event, GTMaterials.Wood, "gtceu:wood_plate");
   event.shaped(Item.of("gtceu:wood_ring"), ["A ", " B"], {
     A: "#forge:tools/hammers",
     B: "gtceu:long_wood_rod"
