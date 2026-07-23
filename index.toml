@@ -1800,6 +1800,10 @@ file = "mods/kubejs.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/ldlib.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/leaves-be-gone.pw.toml"
 metafile = true
 
