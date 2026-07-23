@@ -1,0 +1,7 @@
+[
+    {
+        "action": "remove",
+        "items": ["createdieselgenerators:wood_chip"],
+        "replace_with": "gtceu:wood_dust"
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "action": "remove",
+        "items": [
+          "railways:track_phantom",
+          "railways:track_incomplete_phantom"
+        ]
+    }
+]

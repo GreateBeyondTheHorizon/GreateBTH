@@ -1,0 +1,10 @@
+[
+    {
+        "action": "remove",
+        "items": [
+          "expatternprovider:ex_inscriber",
+          "expatternprovider:circuit_cutter",
+          "expatternprovider:silicon_block"
+        ]
+    }
+]

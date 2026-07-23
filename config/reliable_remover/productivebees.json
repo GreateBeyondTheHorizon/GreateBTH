@@ -1,0 +1,9 @@
+[
+    {
+        "action": "remove",
+        "items": [
+          "productivebees:bottler",
+          "productivebees:milk_bottle"
+        ]
+    }
+]

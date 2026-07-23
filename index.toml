@@ -592,6 +592,81 @@ file = "config/moreoverlays.toml"
 file = "config/oreberriesreplanted-common.toml"
 
 [[files]]
+file = "config/reliable_recipes/gtceu.json"
+
+[[files]]
+file = "config/reliable_remover/ad_astra.json"
+
+[[files]]
+file = "config/reliable_remover/ae2.json"
+
+[[files]]
+file = "config/reliable_remover/aether.json"
+
+[[files]]
+file = "config/reliable_remover/aquaculture.json"
+
+[[files]]
+file = "config/reliable_remover/aquaculturedelight.json"
+
+[[files]]
+file = "config/reliable_remover/cb_microblock.json"
+
+[[files]]
+file = "config/reliable_remover/constructionwand.json"
+
+[[files]]
+file = "config/reliable_remover/create.json"
+
+[[files]]
+file = "config/reliable_remover/creatediselgenerators.json"
+
+[[files]]
+file = "config/reliable_remover/dankstorage.json"
+
+[[files]]
+file = "config/reliable_remover/deep_aether.json"
+
+[[files]]
+file = "config/reliable_remover/ends_delight.json"
+
+[[files]]
+file = "config/reliable_remover/expatternprovider.json"
+
+[[files]]
+file = "config/reliable_remover/farmersdelight.json"
+
+[[files]]
+file = "config/reliable_remover/gtceu.json"
+
+[[files]]
+file = "config/reliable_remover/mynethersdelight.json"
+
+[[files]]
+file = "config/reliable_remover/oreberriesreplanted.json"
+
+[[files]]
+file = "config/reliable_remover/productivebees.json"
+
+[[files]]
+file = "config/reliable_remover/projectred_core.json"
+
+[[files]]
+file = "config/reliable_remover/railways.json"
+
+[[files]]
+file = "config/reliable_remover/sgjourney.json"
+
+[[files]]
+file = "config/reliable_remover/sophisticatedbackpacks.json"
+
+[[files]]
+file = "config/reliable_remover/sophisticatedstorage.json"
+
+[[files]]
+file = "config/reliable_remover/tconstruct.json"
+
+[[files]]
 file = "config/rightclickharvest.toml"
 
 [[files]]

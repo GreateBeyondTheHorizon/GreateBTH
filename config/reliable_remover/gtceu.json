@@ -1,0 +1,30 @@
+[
+  {
+      "action": "remove",
+      "items": [
+        "gtceu:lp_steam_solar_boiler",
+        "gtceu:hp_steam_solar_boiler"
+      ]
+  },
+  {
+      "action": "remove",
+      "items": ["gtceu:hp_steam_macerator"],
+      "replace_with": "greate:andesite_alloy_millstone"
+  },
+  {
+      "action": "remove",
+      "pattern": "/gtceu:.*macerator$/"
+  },
+  {
+      "action": "remove",
+      "pattern": "/gtceu:.*bender$/"
+  },
+  {
+      "action": "remove",
+      "pattern": "/gtceu:.*mixer$/"
+  },
+  {
+      "action": "remove",
+      "pattern": "/gtceu:.*[^large]_cutter$/"
+  }
+]

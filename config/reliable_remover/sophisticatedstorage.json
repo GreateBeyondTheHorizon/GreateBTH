@@ -1,0 +1,31 @@
+[
+    {
+        "action": "remove",
+        "items": [
+          "sophisticatedstorage:advanced_feeding_upgrade",
+          "sophisticatedstorage:advanced_magnet_upgrade",
+          "sophisticatedstorage:auto_smelting_upgrade",
+          "sophisticatedstorage:auto_smoking_upgrade",
+          "sophisticatedstorage:basic_to_diamond_tier_upgrade",
+          "sophisticatedstorage:basic_to_gold_tier_upgrade",
+          "sophisticatedstorage:basic_to_netherite_tier_upgrade",
+          "sophisticatedstorage:blasting_upgrade",
+          "sophisticatedstorage:compression_upgrade",
+          "sophisticatedstorage:crafting_upgrade",
+          "sophisticatedstorage:feeding_upgrade",
+          "sophisticatedstorage:gold_to_netherite_tier_upgrade",
+          "sophisticatedstorage:iron_to_diamond_tier_upgrade",
+          "sophisticatedstorage:iron_to_netherite_tier_upgrade",
+          "sophisticatedstorage:jukebox_upgrade",
+          "sophisticatedstorage:magnet_upgrade",
+          "sophisticatedstorage:smelting_upgrade",
+          "sophisticatedstorage:smoking_upgrade",
+          "sophisticatedstorage:stonecutter_upgrade",
+          "sophisticatedstorage:xp_pump_upgrade",
+          "/sophisticatedstorage:(.*)copper(.*)/",
+          "/sophisticatedstorage:(.*)pump_upgrade/",
+          "/sophisticatedstorage:auto_(.*)_upgrade/",
+          "/sophisticatedstorage:stack_upgrade_(.*)/"
+        ]
+    }
+]

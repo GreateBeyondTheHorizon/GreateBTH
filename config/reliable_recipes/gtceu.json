@@ -1,0 +1,22 @@
+[
+  {
+    "action": "replace_input",
+    "target": "gtceu:iv_macerator",
+    "replacement": ["greate:tungsten_steel_millstone"]
+  },
+  {
+    "action": "replace_input",
+    "target": "gtceu:iv_bender",
+    "replacement": ["greate:tungsten_steel_mechanical_press"]
+  },
+  {
+    "action": "replace_input",
+    "target": "gtceu:iv_mixer",
+    "replacement": ["greate:tungsten_steel_mechanical_mixer"]
+  },
+  {
+    "action": "replace_input",
+    "target": "gtceu:iv_cutter",
+    "replacement": ["greate:tungsten_steel_mechanical_saw"]
+  }
+]

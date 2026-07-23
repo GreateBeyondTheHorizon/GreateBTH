@@ -1,0 +1,46 @@
+[
+    {
+        "action": "remove",
+        "pattern": "/ad_astra:(.*)engine(.*)/",
+        "items": [
+          "ad_astra:steel_plate",
+          "ad_astra:steel_ingot",
+          "ad_astra:steel_nugget",
+          "ad_astra:steel_block",
+          "ad_astra:steel_rod",
+          "ad_astra:iron_plate",
+          "ad_astra:iron_rod",
+          "ad_astra:compressor",
+          "ad_astra:etrionic_blast_furnace",
+          "ad_astra:coal_generator",
+          "ad_astra:moon_iron_ore",
+          "ad_astra:mars_iron_ore",
+          "ad_astra:mercury_iron_ore",
+          "ad_astra:glacio_iron_ore",
+          "ad_astra:rocket_fin",
+          "ad_astra:rocket_nose_cone",
+          "ad_astra:desh_tank",
+          "ad_astra:calorite_tank",
+          "ad_astra:desh_plate",
+          "ad_astra:desh_nugget",
+          "ad_astra:desh_ingot",
+          "ad_astra:moon_desh_ore",
+          "ad_astra:deepslate_desh_ore"
+        ]
+    },
+    {
+      "action": "remove",
+      "items": ["ad_astra:steel_rod"],
+      "replace_with": "#forge:rods/steel"
+    },
+    {
+      "action": "remove",
+      "items": ["ad_astra:iron_rod"],
+      "replace_with": "#forge:rods/iron"
+    },
+    {
+      "action": "remove",
+      "items": ["ad_astra:desh_engine"],
+      "replace_with": "kubejs:tungsten_steel_engine"
+    }
+]

@@ -1,0 +1,25 @@
+[
+    {
+        "action": "remove",
+        "items": [
+          "oreberriesreplanted:copper_nugget"
+        ]
+    },
+    {
+      "action": "remove",
+      "items": ["farmersdelight:wheat_dough"],
+      "replace_with": "gtceu:dough"
+    },
+    {
+      "action": "remove",
+      "pattern": "/oreberriesreplanted:.*_vat/"
+    },
+    {
+      "action": "remove",
+      "pattern": "/oreberriesreplanted:osmium_.*/"
+    },
+    {
+      "action": "remove",
+      "pattern": "/oreberriesreplanted:.*_bucket/"
+    }
+]

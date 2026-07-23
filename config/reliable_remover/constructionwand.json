@@ -1,0 +1,9 @@
+[
+    {
+        "action": "remove",
+        "items": [
+          "constructionwand:core_angel",
+          "constructionwand:core_destruction"
+        ]
+    }
+]

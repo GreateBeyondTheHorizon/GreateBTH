@@ -1,0 +1,96 @@
+[
+    {
+        "action": "remove",
+        "items": [
+          "create:electron_tube",
+          "create:zinc_ore",
+          "create:deepslate_zinc_ore",
+          "create:raw_zinc",
+          "create:raw_zinc_block"
+        ]
+    },
+    {
+      "action": "remove",
+      "items": ["create:copper_sheet"],
+      "replace_with": "#forge:plates/copper"
+    },
+    {
+      "action": "remove",
+      "items": ["create:iron_sheet"],
+      "replace_with": "#forge:plates/iron"
+    },
+    {
+      "action": "remove",
+      "items": ["create:sturdy_sheet"],
+      "replace_with": "#forge:plates/obsidian"
+    },
+    {
+      "action": "remove",
+      "items": ["create:gold_sheet"],
+      "replace_with": "#forge:plates/gold"
+    },
+    {
+      "action": "remove",
+      "items": ["create:brass_sheet", "create:brass_ingot"],
+      "replace_with": "#forge:plates/brass"
+    },
+    {
+      "action": "remove",
+      "items": ["create:zinc_sheet", "create:zinc_ingot"],
+      "replace_with": "#forge:plates/zinc"
+    },
+    {
+      "action": "remove",
+      "items": ["create:electron_tube"],
+      "replace_with": "#gtceu:circuits/ulv"
+    },
+    {
+      "action": "remove",
+      "items": ["create:dough"],
+      "replace_with": "gtceu:dough"
+    },
+    {
+      "action": "remove",
+      "items": ["create:wheat_flour"],
+      "replace_with": "gtceu:wheat_dust"
+    },
+    {
+      "action": "remove",
+      "items": ["create:propeller"],
+      "replace_with": "greate:andesite_alloy_rotor"
+    },
+    {
+      "action": "remove",
+      "items": ["create:zinc_block"],
+      "replace_with": "#forge:storage_blocks/zinc"
+    },
+    {
+      "action": "remove",
+      "items": ["create:zinc_nugget"],
+      "replace_with": "#forge:nuggets/zinc"
+    },
+    {
+      "action": "remove",
+      "items": ["create:copper_nugget"],
+      "replace_with": "#forge:nuggets/copper"
+    },
+    {
+      "action": "remove",
+      "items": ["create:brass_nugget"],
+      "replace_with": "#forge:nuggets/brass"
+    },
+    {
+      "action": "remove",
+      "items": ["create:brass_block"],
+      "replace_with": "#forge:storage_blocks/brass"
+    },
+    {
+      "action": "remove",
+      "items": ["create:shaft"],
+      "replace_with": "greate:andesite_alloy_shaft"
+    },
+    {
+      "action": "remove",
+      "pattern": "/create:crushed_raw_(.*)$/"
+    }
+]

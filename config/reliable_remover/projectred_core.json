@@ -1,0 +1,14 @@
+[
+    {
+        "action": "remove",
+        "items": [
+          "projectred_core:red_iron_comp",
+          "projectred_core:red_ingot",
+          "projectred_core:electrotine_dust",
+          "projectred_core:electrotine_generator",
+          "projectred_core:ruby",
+          "projectred_core:sapphire",
+          "projectred_core:peridot"
+        ]
+    }
+]

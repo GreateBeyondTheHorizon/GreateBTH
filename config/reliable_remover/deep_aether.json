@@ -1,0 +1,13 @@
+[
+    {
+        "action": "remove",
+        "items": [
+          "deep_aether:skyjade_block"
+        ]
+    },
+    {
+      "action": "remove",
+      "items": ["deep_aether:skyjade"],
+      "replace_with": "gtceu:skyjade_gem"
+    }
+]

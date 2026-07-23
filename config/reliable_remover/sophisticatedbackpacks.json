@@ -1,0 +1,22 @@
+[
+    {
+        "action": "remove",
+        "items": [
+          "sophisticatedbackpacks:advanced_pump_upgrade",
+          "sophisticatedbackpacks:anvil_upgrade",
+          "sophisticatedbackpacks:battery_upgrade",
+          "sophisticatedbackpacks:blasting_upgrade",
+          "sophisticatedbackpacks:crafting_upgrade",
+          "sophisticatedbackpacks:everlasting_upgrade",
+          "sophisticatedbackpacks:inception_upgrade",
+          "sophisticatedbackpacks:pump_upgrade",
+          "sophisticatedbackpacks:smelting_upgrade",
+          "sophisticatedbackpacks:smoking_upgrade",
+          "sophisticatedbackpacks:tank_upgrade",
+          "sophisticatedbackpacks:xp_pump_upgrade",
+          "/sophisticatedbackpacks:(.*)copper(.*)/",
+          "/sophisticatedbackpacks:auto_(.*)_upgrade'/",
+          "/sophisticatedbackpacks:stack_upgrade_(.*)/"
+        ]
+    }
+]

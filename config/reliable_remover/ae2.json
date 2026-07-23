@@ -1,0 +1,15 @@
+[
+    {
+        "action": "remove",
+        "items": [
+          "ae2:vibration_chamber",
+          "ae2:ender_dust",
+          "ae2:inscriber"
+        ]
+    },
+    {
+      "action": "remove",
+      "items": ["ae2:ender_dust"],
+      "replace_with": "gtceu:ender_pearl_dust"
+    }
+]

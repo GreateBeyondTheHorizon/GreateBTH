@@ -1,0 +1,19 @@
+[
+    {
+        "action": "remove",
+        "items": [
+          "tconstruct:foundry_controller",
+          "tconstruct:netherite_nugget",
+          "tconstruct:rose_gold_ingot",
+          "tconstruct:rose_gold_nugget",
+          "tconstruct:rose_gold_block",
+          "tconstruct:flint_and_brick",
+          "tconstruct:gear_cast",
+          "tconstruct:gear_sand_cast",
+          "tconstruct:gear_red_sand_cast",
+          "tconstruct:plate_cast",
+          "tconstruct:plate_red_sand_cast",
+          "tconstruct:plate_sand_cast"
+        ]
+    }
+]

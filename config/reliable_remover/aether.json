@@ -1,0 +1,20 @@
+[
+    {
+        "action": "remove",
+        "items": [
+          "aether:zanite_block",
+          "aether:enchanted_gravitite",
+          "aether:ambrosium_block"
+        ]
+    },
+    {
+      "action": "remove",
+      "items": ["aether:ambrosium_shard"],
+      "replace_with": "gtceu:ambrosium_gem"
+    },
+    {
+      "action": "remove",
+      "items": ["aether:zanite_gemstone"],
+      "replace_with": "gtceu:zanite_gem"
+    }
+]
